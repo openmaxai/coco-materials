@@ -15,6 +15,7 @@ Detailed guide for connecting your AI employee to Telegram or Lark.
 | WeCom (企业微信) | Available | Domestic enterprise users |
 | DingTalk (钉钉) | Available | Domestic teams, no public callback needed |
 | [WhatsApp](#whatsapp) | Available | International business users |
+| [WhatsApp Business (Official API)](#whatsapp-business) | Available | International business, official Cloud API |
 | [Discord](#discord) | Available | Developer/community scenarios |
 | [Slack](#slack) | Available | European/US enterprise users |
 | [Microsoft Teams](#ms-teams) | Available | Enterprise teams, Microsoft 365 organizations |
@@ -815,6 +816,8 @@ Your AI employee will automatically configure the Slack channel connection.
 
 > **Note:** WhatsApp connects via **QR code scanning** (linked device), similar to using WhatsApp Web. No API keys, developer accounts, or app configuration are needed — just a phone with WhatsApp installed.
 
+> **Looking for the official WhatsApp Business API?** This option links a regular WhatsApp account by QR code. For a verified business number on Meta's official Cloud API (no QR or phone linking), see [WhatsApp Business (Official API)](#whatsapp-business).
+
 ::: warning Use a Dedicated WhatsApp Account
 Please use a **newly registered, dedicated WhatsApp account** for the bot — do **not** use your personal WhatsApp account. The connected account will serve exclusively as the bot's number.
 :::
@@ -1457,3 +1460,61 @@ No credentials are required. Authentication is done entirely via QR code:
 | Want to disconnect | Click the **Disconnect** button on the Zalo Personal (Unofficial) card in the employee detail page |
 
 -->
+
+## Option L: WhatsApp Business (Official API) Deployment {#whatsapp-business}
+
+**Estimated time: ~5 minutes**
+
+> **Note:** This channel uses Meta's **official WhatsApp Business Platform (Cloud API)**. You bring a phone number, verify it with a one-time code right in the Dashboard, and COCO handles everything on the Meta side — no Meta developer account, API keys, or QR/phone linking needed. Prefer linking a regular WhatsApp account by QR code instead? See [WhatsApp](#whatsapp).
+
+No credentials are required. You only need:
+
+| Item | Description |
+|------|-------------|
+| COCO AI Employee | An existing instance in COCO Dashboard |
+| Phone Number | A number that can receive an SMS or voice call, and is **not** currently registered on WhatsApp or another WhatsApp Business account |
+| ~5 minutes | Time to complete deployment |
+
+### Step 1: Click Connect on the WhatsApp Business Card
+
+1. Log into [COCO Dashboard](https://icoco.ai/dashboard) and open the employee instance detail page
+2. Find the **WhatsApp Business** card and click **Connect**
+
+### Step 2: Enter Your Phone Number and Display Name
+
+1. Enter the phone number you want to use, in international format (e.g. `+1 555 123 4567`)
+2. Enter a **display name** — this is the business name your customers will see in WhatsApp
+3. Check the preview carefully before continuing
+
+> **Important:** The display name is reviewed against Meta's display name policy and is **hard to change later** — choose it carefully.
+
+### Step 3: Verify with the One-Time Code
+
+1. Meta sends a **6-digit verification code** to your number via SMS (a voice call option is available if SMS doesn't arrive)
+2. Enter the code in the wizard
+
+> **Mainland China numbers:** SMS delivery to +86 numbers can be unreliable — if the code doesn't arrive, use the **voice call** option.
+
+### Step 4: Deploy
+
+1. After the code is verified, the system registers your number and deploys the channel automatically — a progress indicator shows each step
+2. When finished, the WhatsApp Business card shows **Connected**
+
+### Step 5: Start Chatting
+
+1. From any phone with WhatsApp, send a message to your business number
+2. Your AI employee responds immediately — deployment complete!
+
+> **First message:** The first user to DM the business number becomes the **Owner** (administrator), who always has full access regardless of policy settings.
+
+### WhatsApp Business FAQ
+
+| Issue | Solution |
+|-------|----------|
+| Verification code never arrives | Wait a moment and retry, or choose the **voice call** option. SMS to mainland China (+86) numbers is often unreliable |
+| "Number already in use" or verification fails | The number must not be registered on the WhatsApp consumer app or another WhatsApp Business account — remove it there first (WhatsApp → Settings → Account → Delete account), then retry |
+| Closed the wizard before finishing | Your progress is saved — click **Connect** on the WhatsApp Business card again to resume where you left off |
+| Can't use the bot in group chats | The official Cloud API is **1:1 (DM) only**. If you need group chats, use the [WhatsApp](#whatsapp) channel |
+| No reply after a long silence | WhatsApp's **24-hour customer-service window** has closed — send a new message from the customer side to reopen it; outside the window only pre-approved template messages can be sent |
+| Others can't message the bot | By default only the Owner can chat. Enable Allowlist or Open mode to grant access |
+| Want to disconnect | Click the **Disconnect** button on the WhatsApp Business card in the employee detail page |
