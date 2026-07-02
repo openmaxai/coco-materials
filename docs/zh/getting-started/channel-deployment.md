@@ -17,6 +17,7 @@ import { withBase } from 'vitepress'
 | [企业微信](#wecom) | 已支持 | 国内企业用户首选 |
 | [钉钉](#dingtalk) | 已支持 | 国内团队协作，无需公网回调 |
 | [WhatsApp](#whatsapp) | 已支持 | 海外商务用户 |
+| [WhatsApp Business（官方 API）](#whatsapp-business) | 已支持 | 国际业务、官方 Cloud API |
 | [Discord](#discord) | 已支持 | 开发者/社区场景 |
 | [Slack](#slack) | 已支持 | 欧美企业用户 |
 | [Microsoft Teams](#ms-teams) | 已支持 | 企业团队、Microsoft 365 组织 |
@@ -947,6 +948,8 @@ AI 员工会自动完成 Slack 渠道的连接配置。
 
 > **说明：** WhatsApp 通过**扫码关联设备**方式接入，无需 API 密钥、开发者账号或应用配置。
 
+> **在找官方 WhatsApp Business API？** 本选项通过二维码关联一个普通 WhatsApp 账号。如需在 Meta 官方 Cloud API 上使用经过验证的企业号码（无需扫码或关联手机），请查看 [WhatsApp Business（官方 API）](#whatsapp-business)。
+
 ::: danger 重要提醒：必须使用新的专属号码
 为了让这个 AI 员工像独立 Bot 一样正常使用，请务必绑定一个**新的、专属的 WhatsApp 号码**。
 
@@ -1561,3 +1564,61 @@ LINE 通过两个凭证连接——**Channel Access Token**（通道访问令牌
 | 想要断开连接 | 在员工详情页的 Zalo 个人版（非官方） 卡片上点击 **断开连接** 按钮 |
 
 -->
+
+## 选项M：WhatsApp Business（官方 API）部署 {#whatsapp-business}
+
+**预计用时：约5分钟**
+
+> **说明：** 本渠道使用 Meta **官方 WhatsApp Business Platform（Cloud API）**。你只需提供一个电话号码，在 Dashboard 中用一次性验证码完成验证，Meta 侧的所有配置由 COCO 代为处理——无需 Meta 开发者账号、API 密钥，也无需扫码或关联手机。想通过二维码关联普通 WhatsApp 账号？请查看 [WhatsApp](#whatsapp)。
+
+无需填写凭证，只需准备：
+
+| 所需项目 | 说明 |
+|----------|------|
+| COCO AI 员工 | COCO Dashboard 中已创建的实例 |
+| 电话号码 | 一个能接收短信或语音电话的号码，且**未**注册过 WhatsApp 或其他 WhatsApp Business 账号 |
+| 约5分钟 | 完成部署所需时间 |
+
+### 第1步：点击 WhatsApp Business 卡片的「连接」
+
+1. 登录 [COCO Dashboard](https://icoco.ai/dashboard)，进入员工实例详情页
+2. 找到 **WhatsApp Business** 卡片，点击 **连接**
+
+### 第2步：输入电话号码和显示名称
+
+1. 按国际格式输入你要使用的电话号码（例如 `+86 130 xxxx xxxx`）
+2. 输入**显示名称**——这是客户在 WhatsApp 中看到的企业名称
+3. 继续之前请仔细核对预览效果
+
+> **重要：** 显示名称需符合 Meta 的显示名称政策，且**之后很难更改**——请谨慎选择。
+
+### 第3步：输入一次性验证码
+
+1. Meta 会通过短信向你的号码发送一个 **6 位验证码**（如果短信收不到，可选择语音电话方式）
+2. 在向导中输入验证码
+
+> **中国大陆号码：** 发往 +86 号码的短信可能不稳定——如果收不到验证码，请使用**语音电话**方式。
+
+### 第4步：部署
+
+1. 验证码通过后，系统会自动注册你的号码并部署渠道——进度指示器会展示每一步
+2. 完成后，WhatsApp Business 卡片显示为**已连接**
+
+### 第5步：开始聊天
+
+1. 用任意一台装有 WhatsApp 的手机，给你的企业号码发送一条消息
+2. AI 员工会立即响应——部署完成！
+
+> **首条消息：** 第一个给企业号码发私信的用户将成为 **Owner（管理员）**，无论权限设置如何始终拥有完整访问权限。
+
+### WhatsApp Business 常见问题
+
+| 问题 | 解决方案 |
+|------|---------|
+| 收不到验证码 | 稍等后重试，或选择**语音电话**方式。发往中国大陆（+86）号码的短信经常不稳定 |
+| 提示「号码已被使用」或验证失败 | 该号码不能已注册在 WhatsApp 消费者应用或其他 WhatsApp Business 账号上——请先在原处注销（WhatsApp → 设置 → 账号 → 删除账号），然后重试 |
+| 向导中途关闭了 | 进度已保存——再次点击 WhatsApp Business 卡片上的**连接**即可从中断处继续 |
+| 无法在群聊中使用 | 官方 Cloud API 仅支持 **1:1 私信**。如需群聊，请使用 [WhatsApp](#whatsapp) 渠道 |
+| 长时间未联系后收不到回复 | WhatsApp 的 **24 小时客服窗口**已关闭——由客户一侧发送一条新消息即可重新打开；窗口外只能发送预先审核通过的模板消息 |
+| 其他人无法和机器人聊天 | 默认只有 Owner 可以聊天。启用 Allowlist 或 Open 模式以开放访问权限 |
+| 想要断开连接 | 在员工详情页的 WhatsApp Business 卡片上点击**断开连接**按钮 |
