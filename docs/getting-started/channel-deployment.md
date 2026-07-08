@@ -10,10 +10,10 @@ Detailed guide for connecting your AI employee to Telegram or Lark.
 
 | Channel | Status | Best For |
 |---------|--------|----------|
-| Telegram | Available | International users, personal use |
-| Lark (Feishu) | Available | Domestic teams, enterprise use |
-| WeCom (企业微信) | Available | Domestic enterprise users |
-| DingTalk (钉钉) | Available | Domestic teams, no public callback needed |
+| [Telegram](#telegram) | Available | International users, personal use |
+| [Lark (Feishu)](#lark-feishu) | Available | Domestic teams, enterprise use |
+| [WeCom (企业微信)](#wecom) | Available | Domestic enterprise users |
+| [DingTalk (钉钉)](#dingtalk) | Available | Domestic teams, no public callback needed |
 | [WhatsApp](#whatsapp) | Available | International business users |
 | [WhatsApp Business (Official API)](#whatsapp-business) | Available | International business, official Cloud API |
 | [Discord](#discord) | Available | Developer/community scenarios |
@@ -41,7 +41,7 @@ Detailed guide for connecting your AI employee to Telegram or Lark.
 
 ---
 
-## Option A: Telegram Deployment (Recommended for international users)
+## Option A: Telegram Deployment (Recommended for international users) {#telegram}
 
 **Estimated time: 5-8 minutes**
 
@@ -85,7 +85,7 @@ Detailed guide for connecting your AI employee to Telegram or Lark.
 
 ---
 
-## Option B: Lark / Feishu Deployment
+## Option B: Lark / Feishu Deployment {#lark-feishu}
 
 **Estimated time: 8-15 minutes**
 
@@ -148,7 +148,26 @@ In the Developer Backend, find the **Create Lark Smart Agent App** banner at the
 
 <br>
 
-##### Step 5: Search for Bot and Start Chatting
+##### Step 5: Add Required Permissions for Group Chats
+
+The permissions granted automatically at creation only cover basic messaging. For your AI employee to work properly in group chats and display real user names, manually enable the following 4 scopes:
+
+1. Back in the [Lark Developer Backend](https://open.larksuite.com), open your app and go to **Permissions & Scopes**
+2. Search for each scope ID below and click **Enable**:
+
+| Scope | Purpose | If missing |
+|-------|---------|------------|
+| `im:message.group_msg` | Receive group messages and respond to @mentions | Bot cannot see group messages |
+| `im:chat:readonly` | Read group info and member lists | Names show as ID fragments (e.g. `c08f09`) |
+| `contact:user.base:readonly` | Resolve user IDs to real names | User names are unreadable |
+| `contact:user.employee_id:readonly` | Match users by employee ID | Users cannot be identified by employee ID |
+
+3. For each scope, set the **data permission scope** to **All** — if it is limited to specific groups, the bot will not work in groups outside that list
+4. If your organization requires approval for permission changes, publish a new app version for them to take effect (if the bot still reports 403 errors, check **Version Management & Release**)
+
+<br>
+
+##### Step 6: Search for Bot and Start Chatting
 
 Once connected, search for the bot name you just set up in the **Lark client**, confirm the bot has been created, and click to start chatting.
 
@@ -369,7 +388,26 @@ In the Developer Backend, find the **Create Feishu Smart Agent App** banner at t
 
 <br>
 
-##### Step 5: Search for Bot and Start Chatting
+##### Step 5: Add Required Permissions for Group Chats
+
+The permissions granted automatically at creation only cover basic messaging. For your AI employee to work properly in group chats and display real user names, manually enable the following 4 scopes:
+
+1. Back in the [Feishu Developer Backend](https://open.feishu.cn), open your app and go to **Permissions & Scopes**
+2. Search for each scope ID below and click **Enable**:
+
+| Scope | Purpose | If missing |
+|-------|---------|------------|
+| `im:message.group_msg` | Receive group messages and respond to @mentions | Bot cannot see group messages |
+| `im:chat:readonly` | Read group info and member lists | Names show as ID fragments (e.g. `c08f09`) |
+| `contact:user.base:readonly` | Resolve user IDs to real names | User names are unreadable |
+| `contact:user.employee_id:readonly` | Match users by employee ID | Users cannot be identified by employee ID |
+
+3. For each scope, set the **data permission scope** to **All** — if it is limited to specific groups, the bot will not work in groups outside that list
+4. If your organization requires approval for permission changes, publish a new app version for them to take effect (if the bot still reports 403 errors, check **Version Management & Release**)
+
+<br>
+
+##### Step 6: Search for Bot and Start Chatting
 
 After connection is complete, search for your bot name in the **Feishu client**, confirm the bot has been created correctly, and click to start chatting.
 
@@ -540,7 +578,7 @@ In the Permission Management page, copy the following JSON and import all permis
 
 ---
 
-## Option C: WeCom (企业微信) Deployment
+## Option C: WeCom (企业微信) Deployment {#wecom}
 
 **Estimated time: ~5 minutes**
 
@@ -587,7 +625,7 @@ In the COCO Dashboard, go to the employee instance detail page → **Conversatio
 
 ---
 
-## Option D: DingTalk (钉钉) Deployment
+## Option D: DingTalk (钉钉) Deployment {#dingtalk}
 
 **Estimated time: 8-12 minutes**
 
