@@ -1,22 +1,22 @@
 ---
 layout: home
 hero:
-  name: "COCO"
+  name: "OpenMax"
   text: "你的 AI 团队，全天候在线"
   tagline: "AI 员工驻扎在你的聊天工具中 — 写文档、做调研、跑运营、追客户。无需部署，无需代码，只要结果。"
   image:
     src: /videos/coco-bird-wave.mp4
-    alt: COCO AI
+    alt: OpenMax AI
   actions:
     - theme: brand
       text: 开始使用
       link: /zh/getting-started/
     - theme: alt
-      text: 看看 COCO 能做什么
+      text: 看看 OpenMax 能做什么
       link: /zh/use-cases/
     - theme: alt
-      text: 访问 icoco.ai
-      link: https://icoco.ai
+      text: 访问 OpenMax
+      link: https://openmax.com/
 
 features:
   - icon: ⚡
@@ -36,7 +36,7 @@ features:
     linkText: 浏览用例
   - icon: 🔄
     title: "不是聊天机器人，是员工"
-    details: "COCO 记住你的上下文，学习你的偏好，越用越聪明。它不等你提问 — 主动完成任务。"
+    details: "OpenMax 记住你的上下文，学习你的偏好，越用越聪明。它不等你提问 — 主动完成任务。"
     link: /zh/case-studies/crm
     linkText: 看 CRM 案例
 ---
@@ -76,7 +76,7 @@ features:
 <div class="step-card">
 <div class="step-number">1</div>
 <div class="step-title">接入渠道</div>
-<div class="step-desc">将 COCO 添加到 Telegram、飞书、WhatsApp、Microsoft Teams 或 Zalo (官方)。2 分钟完成，无需 API Key，无需技术配置。</div>
+<div class="step-desc">将 OpenMax 添加到 Telegram、飞书、WhatsApp、Microsoft Teams 或 Zalo (官方)。2 分钟完成，无需 API Key，无需技术配置。</div>
 </div>
 <div class="step-card">
 <div class="step-number">2</div>
@@ -86,7 +86,7 @@ features:
 <div class="step-card">
 <div class="step-number">3</div>
 <div class="step-title">收取成果</div>
-<div class="step-desc">COCO 交付完整工作 — 结构化报告、排版好的文档、分析好的数据。你审阅、反馈、完成。</div>
+<div class="step-desc">OpenMax 交付完整工作 — 结构化报告、排版好的文档、分析好的数据。你审阅、反馈、完成。</div>
 </div>
 </div>
 
@@ -100,14 +100,14 @@ features:
 
 <a href="./case-studies/crm" class="case-card">
 <div class="case-tag">CRM</div>
-<div class="case-title">COCO CRM — AI 搭建，AI 运营</div>
+<div class="case-title">OpenMax CRM — AI 搭建，AI 运营</div>
 <div class="case-result">完整 CRM 系统由 AI 员工搭建和维护。自动同步通话、邮件和会议记录。数据完整度：61% → 94%。</div>
 </a>
 
 <a href="./case-studies/deal-flow-dd" class="case-card">
 <div class="case-tag">金融</div>
 <div class="case-title">AI 投资尽调 — 20 小时压缩到 2 小时</div>
-<div class="case-result">一个团队需要 20 小时完成的投资尽调，一个人 + COCO 只用 2 小时。</div>
+<div class="case-result">一个团队需要 20 小时完成的投资尽调，一个人 + OpenMax 只用 2 小时。</div>
 </a>
 
 <a href="./case-studies/social-media" class="case-card">
@@ -132,7 +132,7 @@ features:
 
 ## 随处部署
 
-COCO 在你团队已有的工具中工作。无需切换。
+OpenMax 在你团队已有的工具中工作。无需切换。
 
 <div class="channels-grid">
 <a href="./channels/telegram" class="channel-card">
@@ -193,7 +193,7 @@ COCO 在你团队已有的工具中工作。无需切换。
 
 <div class="cta-buttons">
 <a href="./getting-started/" class="cta-primary">开始使用</a>
-<a href="https://icoco.ai" class="cta-secondary" target="_blank">了解更多</a>
+<a href="https://openmax.com/" class="cta-secondary" target="_blank">了解更多</a>
 </div>
 
 </div>

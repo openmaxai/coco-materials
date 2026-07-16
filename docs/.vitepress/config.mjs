@@ -157,7 +157,7 @@ export default defineConfig({
         url: 'https://icoco.ai',
         logo: 'https://docs.icoco.ai/coco-logo-black.png',
         sameAs: [
-          'https://x.com/CocoAIxyz',
+          'https://x.com/OpenMaxAI',
           'https://github.com/coco-xyz',
         ],
       }
@@ -221,14 +221,14 @@ export default defineConfig({
     ['link', { rel: 'icon', type: 'image/png', href: '/coco-icon.png' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
-    ['meta', { name: 'theme-color', content: '#FFD646' }],
+    ['meta', { name: 'theme-color', content: '#3297D7' }],
     ['meta', { property: 'og:site_name', content: 'COCO' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:title', content: 'COCO — AI Digital Employee Platform' }],
     ['meta', { property: 'og:description', content: 'AI teams that live in your chat tools — write docs, run research, automate operations, chase leads.' }],
     ['meta', { property: 'og:image', content: 'https://docs.icoco.ai/coco-logo-black.png' }],
     ['meta', { name: 'twitter:card', content: 'summary' }],
-    ['meta', { name: 'twitter:site', content: '@CocoAIxyz' }],
+    ['meta', { name: 'twitter:site', content: '@OpenMaxAI' }],
     ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-GTMD3JHWQN' }],
     ['script', {}, "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-GTMD3JHWQN');"],
   ],
@@ -619,17 +619,17 @@ export default defineConfig({
   },
 
   themeConfig: {
-    logo: { light: '/coco-logo-black.png', dark: '/coco-logo-yellow.png' },
+    logo: { light: '/coco-logo-black.png', dark: '/coco-logo-white.png' },
     siteTitle: false,
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/coco-xyz' },
-      { icon: 'x', link: 'https://x.com/CocoAIxyz' },
+      { icon: 'x', link: 'https://x.com/OpenMaxAI' },
     ],
 
     footer: {
       message: '<a href="https://github.com/coco-xyz" target="_blank">COCO GitHub</a> · <a href="https://github.com/zylos-ai" target="_blank">Zylos GitHub</a> · AI Digital Employee Platform',
-      copyright: '© 2026 COCO. All rights reserved.',
+      copyright: '© 2026 OpenMax. All rights reserved.',
     },
 
     search: {
