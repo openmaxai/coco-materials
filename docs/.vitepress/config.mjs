@@ -133,7 +133,7 @@ export default defineConfig({
     // P0-1: Override OG tags for Chinese pages (global head sets English defaults)
     // P1-5: og:locale (already included)
     if (isZh) {
-      const zhTitle = pageData.title || 'COCO — AI 数字员工平台'
+      const zhTitle = pageData.title || 'OpenMax — AI 数字员工平台'
       const zhDesc = pageData.description || 'AI 数字员工平台 — 用例、案例与文档'
       head.push(['meta', { property: 'og:title', content: zhTitle }])
       head.push(['meta', { property: 'og:description', content: zhDesc }])
@@ -153,8 +153,8 @@ export default defineConfig({
       const orgJsonLd = {
         '@context': 'https://schema.org',
         '@type': 'Organization',
-        name: 'COCO',
-        url: 'https://icoco.ai',
+        name: 'OpenMax',
+        url: 'https://openmax.com/',
         logo: 'https://docs.icoco.ai/coco-logo-black.png',
         sameAs: [
           'https://x.com/OpenMaxAI',
@@ -164,7 +164,7 @@ export default defineConfig({
       const siteJsonLd = {
         '@context': 'https://schema.org',
         '@type': 'WebSite',
-        name: isZh ? 'COCO — AI 数字员工平台' : 'COCO — AI Digital Employee Platform',
+        name: isZh ? 'OpenMax — AI 数字员工平台' : 'OpenMax — AI Digital Employee Platform',
         url: 'https://docs.icoco.ai',
         inLanguage: isZh ? 'zh-CN' : 'en-US',
       }
@@ -222,9 +222,9 @@ export default defineConfig({
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
     ['meta', { name: 'theme-color', content: '#3297D7' }],
-    ['meta', { property: 'og:site_name', content: 'COCO' }],
+    ['meta', { property: 'og:site_name', content: 'OpenMax' }],
     ['meta', { property: 'og:type', content: 'website' }],
-    ['meta', { property: 'og:title', content: 'COCO — AI Digital Employee Platform' }],
+    ['meta', { property: 'og:title', content: 'OpenMax — AI Digital Employee Platform' }],
     ['meta', { property: 'og:description', content: 'AI teams that live in your chat tools — write docs, run research, automate operations, chase leads.' }],
     ['meta', { property: 'og:image', content: 'https://docs.icoco.ai/coco-logo-black.png' }],
     ['meta', { name: 'twitter:card', content: 'summary' }],
@@ -237,7 +237,7 @@ export default defineConfig({
     root: {
       label: 'English',
       lang: 'en-US',
-      title: 'COCO — AI Digital Employee Platform | Use Cases, Resources & Docs',
+      title: 'OpenMax — AI Digital Employee Platform | Use Cases, Resources & Docs',
       description: 'AI teams that live in your chat tools — write docs, run research, automate operations, chase leads. No deployment, no code, just results.',
       themeConfig: {
         outline: { level: [2, 3] },
@@ -423,7 +423,7 @@ export default defineConfig({
     zh: {
       label: '中文',
       lang: 'zh-CN',
-      title: 'COCO — AI 数字员工平台 | 用例、案例与文档',
+      title: 'OpenMax — AI 数字员工平台 | 用例、案例与文档',
       description: 'AI 员工驻扎在你的聊天工具中 — 写文档、做调研、跑运营、追客户。无需部署，无需代码，只要结果。',
       themeConfig: {
         nav: [
