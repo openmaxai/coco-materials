@@ -4,12 +4,21 @@ const base = process.env.VITEPRESS_BASE || '/'
 
 const basePrefix = base !== '/' ? base.replace(/\/$/, '') : ''
 
+const docsOrigin = 'https://docs.icoco.ai'
+const openMaxIdentity = Object.freeze({
+  name: 'OpenMax',
+  website: 'https://openmax.com/',
+  logo: `${docsOrigin}/coco-logo-black.png`,
+  xUrl: 'https://x.com/OpenMaxAI',
+  xHandle: '@OpenMaxAI',
+})
+
 export default defineConfig({
   base,
   cleanUrls: true,
 
   sitemap: {
-    hostname: 'https://docs.icoco.ai',
+    hostname: docsOrigin,
     transformItems(items) {
       const now = new Date().toISOString().split('T')[0]
 
@@ -120,15 +129,15 @@ export default defineConfig({
     const cleanPath = pageData.relativePath.replace(/\.md$/, '').replace(/index$/, '')
 
     // P1-3: Canonical URL for every page
-    const canonicalUrl = `https://docs.icoco.ai/${cleanPath}`
+    const canonicalUrl = `${docsOrigin}/${cleanPath}`
     head.push(['link', { rel: 'canonical', href: canonicalUrl }])
 
     // P1-4: hreflang alternate links for bilingual pages
     const enPath = isZh ? cleanPath.replace(/^zh\//, '') : cleanPath
     const zhPath = isZh ? cleanPath : `zh/${cleanPath}`
-    head.push(['link', { rel: 'alternate', hreflang: 'en', href: `https://docs.icoco.ai/${enPath}` }])
-    head.push(['link', { rel: 'alternate', hreflang: 'zh', href: `https://docs.icoco.ai/${zhPath}` }])
-    head.push(['link', { rel: 'alternate', hreflang: 'x-default', href: `https://docs.icoco.ai/${enPath}` }])
+    head.push(['link', { rel: 'alternate', hreflang: 'en', href: `${docsOrigin}/${enPath}` }])
+    head.push(['link', { rel: 'alternate', hreflang: 'zh', href: `${docsOrigin}/${zhPath}` }])
+    head.push(['link', { rel: 'alternate', hreflang: 'x-default', href: `${docsOrigin}/${enPath}` }])
 
     // P0-1: Override OG tags for Chinese pages (global head sets English defaults)
     // P1-5: og:locale (already included)
@@ -153,11 +162,11 @@ export default defineConfig({
       const orgJsonLd = {
         '@context': 'https://schema.org',
         '@type': 'Organization',
-        name: 'OpenMax',
-        url: 'https://openmax.com/',
-        logo: 'https://docs.icoco.ai/coco-logo-black.png',
+        name: openMaxIdentity.name,
+        url: openMaxIdentity.website,
+        logo: openMaxIdentity.logo,
         sameAs: [
-          'https://x.com/OpenMaxAI',
+          openMaxIdentity.xUrl,
           'https://github.com/coco-xyz',
         ],
       }
@@ -165,7 +174,7 @@ export default defineConfig({
         '@context': 'https://schema.org',
         '@type': 'WebSite',
         name: isZh ? 'OpenMax — AI 数字员工平台' : 'OpenMax — AI Digital Employee Platform',
-        url: 'https://docs.icoco.ai',
+        url: docsOrigin,
         inLanguage: isZh ? 'zh-CN' : 'en-US',
       }
       head.push(['script', { type: 'application/ld+json' }, JSON.stringify(orgJsonLd)])
@@ -183,18 +192,18 @@ export default defineConfig({
         description: pageData.description || '',
         publisher: {
           '@type': 'Organization',
-          name: 'COCO',
-          url: 'https://icoco.ai',
+          name: openMaxIdentity.name,
+          url: openMaxIdentity.website,
           logo: {
             '@type': 'ImageObject',
-            url: 'https://docs.icoco.ai/coco-logo-black.png',
+            url: openMaxIdentity.logo,
           },
         },
         mainEntityOfPage: {
           '@type': 'WebPage',
           '@id': canonicalUrl,
         },
-        image: 'https://docs.icoco.ai/coco-logo-black.png',
+        image: openMaxIdentity.logo,
         datePublished: '2025-06-01',
         dateModified: pageData.lastUpdated ? new Date(pageData.lastUpdated).toISOString().split('T')[0] : '2025-06-01',
       }
@@ -222,13 +231,13 @@ export default defineConfig({
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
     ['meta', { name: 'theme-color', content: '#3297D7' }],
-    ['meta', { property: 'og:site_name', content: 'OpenMax' }],
+    ['meta', { property: 'og:site_name', content: openMaxIdentity.name }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:title', content: 'OpenMax — AI Digital Employee Platform' }],
     ['meta', { property: 'og:description', content: 'AI teams that live in your chat tools — write docs, run research, automate operations, chase leads.' }],
-    ['meta', { property: 'og:image', content: 'https://docs.icoco.ai/coco-logo-black.png' }],
+    ['meta', { property: 'og:image', content: openMaxIdentity.logo }],
     ['meta', { name: 'twitter:card', content: 'summary' }],
-    ['meta', { name: 'twitter:site', content: '@OpenMaxAI' }],
+    ['meta', { name: 'twitter:site', content: openMaxIdentity.xHandle }],
     ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-GTMD3JHWQN' }],
     ['script', {}, "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-GTMD3JHWQN');"],
   ],
@@ -247,7 +256,7 @@ export default defineConfig({
           { text: 'Case Studies', link: '/case-studies/' },
           { text: 'Channels', link: '/channels/' },
           { text: 'Announcements', link: '/announcements/' },
-          { text: 'Pricing', link: 'https://icoco.ai/#pricing' },
+          { text: 'Pricing', link: openMaxIdentity.website },
         ],
         sidebar: {
           '/channels/': [
@@ -432,7 +441,7 @@ export default defineConfig({
           { text: '案例', link: '/zh/case-studies/' },
           { text: '通讯渠道', link: '/zh/channels/' },
           { text: '公告', link: '/zh/announcements/' },
-          { text: '定价', link: 'https://icoco.ai/#pricing' },
+          { text: '定价', link: openMaxIdentity.website },
         ],
         sidebar: {
           '/zh/channels/': [
@@ -624,11 +633,11 @@ export default defineConfig({
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/coco-xyz' },
-      { icon: 'x', link: 'https://x.com/OpenMaxAI' },
+      { icon: 'x', link: openMaxIdentity.xUrl },
     ],
 
     footer: {
-      message: '<a href="https://github.com/coco-xyz" target="_blank">COCO GitHub</a> · <a href="https://github.com/zylos-ai" target="_blank">Zylos GitHub</a> · AI Digital Employee Platform',
+      message: '<a href="https://github.com/coco-xyz" target="_blank">GitHub</a> · <a href="https://github.com/zylos-ai" target="_blank">Zylos GitHub</a> · AI Digital Employee Platform',
       copyright: '© 2026 OpenMax. All rights reserved.',
     },
 
