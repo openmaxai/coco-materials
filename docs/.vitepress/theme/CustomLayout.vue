@@ -57,10 +57,10 @@ onMounted(() => {
 
 <style>
 .hero-highlight {
-  color: #E0A020;
+  color: #3297D7;
   font-weight: 700;
 }
 .dark .hero-highlight {
-  color: #FFD646;
+  color: #3297D7;
 }
 </style>

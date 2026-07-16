@@ -6,55 +6,54 @@
   --vp-font-family-base: 'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif;
   --vp-font-family-mono: ui-monospace, 'Cascadia Code', 'Source Code Pro', monospace;
 
-  /* COCO brand yellow (from main) */
-  --vp-c-brand-1: #F5C542;
-  --vp-c-brand-2: #E0B23A;
-  --vp-c-brand-3: #D4A832;
-  --vp-c-brand-soft: rgba(245, 197, 66, 0.14);
+  /* OpenMax brand blue */
+  --vp-c-brand-1: #3297D7;
+  --vp-c-brand-2: #2686C5;
+  --vp-c-brand-3: #2177B2;
+  --vp-c-brand-soft: rgba(50, 151, 215, 0.14);
 
-  /* Hero title — full yellow gradient (from main) */
+  /* Hero brand name */
   --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: linear-gradient(135deg, #F5C542, #E0A020);
+  --vp-home-hero-name-background: linear-gradient(135deg, #3297D7, #3297D7);
 
   /* Hero image glow (from main) */
-  --vp-home-hero-image-background-image: linear-gradient(135deg, rgba(245, 197, 66, 0.3), rgba(224, 160, 32, 0.2));
+  --vp-home-hero-image-background-image: linear-gradient(135deg, rgba(50, 151, 215, 0.3), rgba(50, 151, 215, 0.2));
   --vp-home-hero-image-filter: blur(56px);
 
   /* Sidebar active */
-  --vp-c-brand-active: #E0B23A;
+  --vp-c-brand-active: #2686C5;
 
-  /* Brand button — yellow style (from main) */
-  --vp-button-brand-bg: #F5C542;
-  --vp-button-brand-border: #F5C542;
-  --vp-button-brand-text: #1a1a1a;
-  --vp-button-brand-hover-bg: #E0B23A;
-  --vp-button-brand-hover-border: #E0B23A;
-  --vp-button-brand-hover-text: #1a1a1a;
-  --vp-button-brand-active-bg: #D4A832;
-  --vp-button-brand-active-border: #D4A832;
-  --vp-button-brand-active-text: #1a1a1a;
+  --vp-button-brand-bg: #3297D7;
+  --vp-button-brand-border: #3297D7;
+  --vp-button-brand-text: #ffffff;
+  --vp-button-brand-hover-bg: #2686C5;
+  --vp-button-brand-hover-border: #2686C5;
+  --vp-button-brand-hover-text: #ffffff;
+  --vp-button-brand-active-bg: #2177B2;
+  --vp-button-brand-active-border: #2177B2;
+  --vp-button-brand-active-text: #ffffff;
 }
 
 .dark {
-  --vp-c-brand-1: #F5C542;
-  --vp-c-brand-2: #E0B23A;
-  --vp-c-brand-3: #D4A832;
-  --vp-c-brand-soft: rgba(245, 197, 66, 0.16);
+  --vp-c-brand-1: #3297D7;
+  --vp-c-brand-2: #2686C5;
+  --vp-c-brand-3: #2177B2;
+  --vp-c-brand-soft: rgba(50, 151, 215, 0.16);
 
-  --vp-home-hero-name-background: linear-gradient(135deg, #FFD646, #F5C542);
+  --vp-home-hero-name-background: linear-gradient(135deg, #3297D7, #3297D7);
 }
 
 /* ===== Brand Button ===== */
 .VPButton.brand {
-  background-color: #F5C542;
-  border-color: #F5C542;
-  color: #1a1a1a;
+  background-color: #3297D7;
+  border-color: #3297D7;
+  color: #ffffff;
   border-radius: 999px;
 }
 .VPButton.brand:hover {
-  background-color: #E0B23A;
-  border-color: #E0B23A;
-  color: #1a1a1a;
+  background-color: #2686C5;
+  border-color: #2686C5;
+  color: #ffffff;
 }
 
 /* Alt button */
@@ -63,13 +62,13 @@
 }
 
 .dark .VPButton.brand {
-  background-color: #F5C542;
-  border-color: #F5C542;
-  color: #1a1a1a;
+  background-color: #3297D7;
+  border-color: #3297D7;
+  color: #ffffff;
 }
 .dark .VPButton.brand:hover {
-  background-color: #E0B23A;
-  border-color: #E0B23A;
+  background-color: #2686C5;
+  border-color: #2686C5;
 }
 
 /* ===== Feature Cards ===== */
@@ -79,21 +78,21 @@
   transition: all 0.25s ease;
 }
 .VPFeatures .VPFeature:hover {
-  border-color: #F5C542 !important;
-  box-shadow: 0 4px 24px rgba(245, 197, 66, 0.10);
+  border-color: #3297D7 !important;
+  box-shadow: 0 4px 24px rgba(50, 151, 215, 0.10);
   transform: translateY(-2px);
 }
 .dark .VPFeatures .VPFeature {
   border-color: #2a2a2a !important;
 }
 .dark .VPFeatures .VPFeature:hover {
-  border-color: #F5C542 !important;
-  box-shadow: 0 4px 24px rgba(245, 197, 66, 0.06);
+  border-color: #3297D7 !important;
+  box-shadow: 0 4px 24px rgba(50, 151, 215, 0.06);
 }
 
 /* ===== Sidebar active indicator ===== */
 .VPSidebarItem.is-active > .item > .indicator {
-  background-color: #F5C542 !important;
+  background-color: #3297D7 !important;
 }
 
 /* ===== Navbar logo sizing ===== */
@@ -251,15 +250,15 @@
   z-index: 1001 !important;
 }
 
-/* ===== Event name code blocks (yellow text) ===== */
+/* ===== Event name code blocks (brand text) ===== */
 .event-code div[class*="language-"] {
   margin: 4px 0 !important;
 }
 .event-code div[class*="language-"] code {
-  color: #F5C542 !important;
+  color: #3297D7 !important;
 }
 .event-code div[class*="language-"] code span {
-  color: #F5C542 !important;
+  color: #3297D7 !important;
 }
 
 /* ===== Tables ===== */

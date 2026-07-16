@@ -12,7 +12,7 @@ const columns = computed(() => {
       {
         title: '产品',
         links: [
-          { text: 'Agent Cloud', href: 'https://icoco.ai/#pricing' },
+          { text: 'Agent Cloud', href: 'https://openmax.com/' },
           { text: 'Zylos', href: 'https://github.com/zylos-ai' },
           { text: 'HxA Suite', href: 'https://github.com/coco-xyz' },
         ],
@@ -29,14 +29,14 @@ const columns = computed(() => {
         title: '资源',
         links: [
           { text: '文档', href: withBase('/zh/') },
-          { text: 'COCO', href: 'https://icoco.ai' },
+          { text: 'OpenMax', href: 'https://openmax.com/' },
           { text: 'ZYLOS-Ai', href: 'https://github.com/zylos-ai' },
         ],
       },
       {
         title: '公司',
         links: [
-          { text: '联系我们', href: 'mailto:hi@icoco.ai' },
+          { text: '联系我们', href: 'https://openmax.com/' },
         ],
       },
     ]
@@ -45,7 +45,7 @@ const columns = computed(() => {
     {
       title: 'Products',
       links: [
-        { text: 'Agent Cloud', href: 'https://icoco.ai/#pricing' },
+        { text: 'Agent Cloud', href: 'https://openmax.com/' },
         { text: 'Zylos', href: 'https://github.com/zylos-ai' },
         { text: 'HxA Suite', href: 'https://github.com/coco-xyz' },
       ],
@@ -62,14 +62,14 @@ const columns = computed(() => {
       title: 'Resources',
       links: [
         { text: 'Docs', href: withBase('/') },
-        { text: 'COCO', href: 'https://icoco.ai' },
+        { text: 'OpenMax', href: 'https://openmax.com/' },
         { text: 'ZYLOS-Ai', href: 'https://github.com/zylos-ai' },
       ],
     },
     {
       title: 'Company',
       links: [
-        { text: 'Contact', href: 'mailto:hi@icoco.ai' },
+        { text: 'Contact', href: 'https://openmax.com/' },
       ],
     },
   ]
@@ -87,8 +87,8 @@ const year = new Date().getFullYear()
         <div class="footer-brand">
           <a :href="withBase(isZh ? '/zh/' : '/')" class="footer-logo-link">
             <img
-              :src="withBase(isDark ? '/coco-logo-yellow.png' : '/coco-logo-black.png')"
-              alt="COCO"
+              :src="withBase(isDark ? '/coco-logo-white.png' : '/coco-logo-black.png')"
+              alt="OpenMax"
               class="footer-logo"
             />
           </a>
@@ -123,13 +123,13 @@ const year = new Date().getFullYear()
             </svg>
           </a>
           <!-- X/Twitter -->
-          <a href="https://x.com/CocoAIxyz" target="_blank" rel="noopener" class="social-link" title="X">
+          <a href="https://x.com/OpenMaxAI" target="_blank" rel="noopener" class="social-link" title="X">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
               <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
             </svg>
           </a>
         </div>
-        <p class="copyright">&copy; {{ year }} COCO. All rights reserved.</p>
+        <p class="copyright">&copy; {{ year }} OpenMax. All rights reserved.</p>
       </div>
     </div>
   </footer>

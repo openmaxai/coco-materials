@@ -67,8 +67,8 @@ onUnmounted(() => {
       <!-- Logo -->
       <a :href="withBase(lang === 'zh-CN' ? '/zh/' : '/')" class="logo-link">
         <img
-          :src="withBase(isDark ? '/coco-logo-yellow.png' : '/coco-logo-black.png')"
-          alt="COCO"
+          :src="withBase(isDark ? '/coco-logo-white.png' : '/coco-logo-black.png')"
+          alt="OpenMax"
           class="logo-img"
         />
       </a>
@@ -279,12 +279,12 @@ onUnmounted(() => {
   background: #fff;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
   transition: transform 0.3s;
-  color: #f59e0b;
+  color: #3297D7;
 }
 .toggle-thumb.dark {
   transform: translateX(20px);
   background: #374151;
-  color: #fbbf24;
+  color: #3297D7;
 }
 .mobile-menu-btn {
   display: none;

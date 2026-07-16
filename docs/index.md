@@ -1,22 +1,22 @@
 ---
 layout: home
 hero:
-  name: "COCO"
+  name: "OpenMax"
   text: "Your AI Team, Always On"
   tagline: "AI employees that live in your chat tools — writing docs, crunching data, running operations, closing deals. No setup, no coding. Just results."
   image:
     src: /videos/coco-bird-wave.mp4
-    alt: COCO AI
+    alt: OpenMax AI
   actions:
     - theme: brand
       text: Get Started
       link: /getting-started/
     - theme: alt
-      text: See What COCO Can Do
+      text: See What OpenMax Can Do
       link: /use-cases/
     - theme: alt
-      text: Visit icoco.ai
-      link: https://icoco.ai
+      text: Visit OpenMax
+      link: https://openmax.com/
 
 features:
   - icon: ⚡
@@ -36,7 +36,7 @@ features:
     linkText: Browse use cases
   - icon: 🔄
     title: "Not a Chatbot — an Employee"
-    details: "COCO remembers your context, learns your preferences, and gets smarter with use. It doesn't wait for questions — it proactively completes tasks."
+    details: "OpenMax remembers your context, learns your preferences, and gets smarter with use. It doesn't wait for questions — it proactively completes tasks."
     link: /case-studies/crm
     linkText: See CRM case study
 ---
@@ -76,7 +76,7 @@ Real numbers from real teams — not benchmarks, not demos.
 <div class="step-card">
 <div class="step-number">1</div>
 <div class="step-title">Connect Your Channel</div>
-<div class="step-desc">Add COCO to Telegram, Lark, WhatsApp, Microsoft Teams, or Zalo (Official). Takes 2 minutes. No API keys, no technical setup.</div>
+<div class="step-desc">Add OpenMax to Telegram, Lark, WhatsApp, Microsoft Teams, or Zalo (Official). Takes 2 minutes. No API keys, no technical setup.</div>
 </div>
 <div class="step-card">
 <div class="step-number">2</div>
@@ -86,7 +86,7 @@ Real numbers from real teams — not benchmarks, not demos.
 <div class="step-card">
 <div class="step-number">3</div>
 <div class="step-title">Get Results</div>
-<div class="step-desc">COCO delivers complete work — structured reports, formatted documents, analyzed data. Review, iterate, done.</div>
+<div class="step-desc">OpenMax delivers complete work — structured reports, formatted documents, analyzed data. Review, iterate, done.</div>
 </div>
 </div>
 
@@ -100,14 +100,14 @@ Real numbers from real teams — not benchmarks, not demos.
 
 <a href="./case-studies/crm" class="case-card">
 <div class="case-tag">CRM</div>
-<div class="case-title">COCO CRM — Built by AI, Run by AI</div>
+<div class="case-title">OpenMax CRM — Built by AI, Run by AI</div>
 <div class="case-result">Full CRM system built and maintained by AI employees. Auto-syncs calls, emails, and meetings. Data completeness: 61% → 94%.</div>
 </a>
 
 <a href="./case-studies/deal-flow-dd" class="case-card">
 <div class="case-tag">Finance</div>
 <div class="case-title">AI Due Diligence — 20 Hours to 2</div>
-<div class="case-result">Investment due diligence that took a team 20 hours, completed in 2 hours by one person + COCO.</div>
+<div class="case-result">Investment due diligence that took a team 20 hours, completed in 2 hours by one person + OpenMax.</div>
 </a>
 
 <a href="./case-studies/social-media" class="case-card">
@@ -132,7 +132,7 @@ Real numbers from real teams — not benchmarks, not demos.
 
 ## Deploy Anywhere
 
-COCO works in the tools your team already uses. No context switching.
+OpenMax works in the tools your team already uses. No context switching.
 
 <div class="channels-grid">
 <a href="./channels/telegram" class="channel-card">
@@ -193,7 +193,7 @@ Your first AI employee is 2 minutes away.
 
 <div class="cta-buttons">
 <a href="./getting-started/" class="cta-primary">Get Started</a>
-<a href="https://icoco.ai" class="cta-secondary" target="_blank">Learn More at icoco.ai</a>
+<a href="https://openmax.com/" class="cta-secondary" target="_blank">Learn More at OpenMax</a>
 </div>
 
 </div>
