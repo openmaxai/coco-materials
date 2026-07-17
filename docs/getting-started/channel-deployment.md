@@ -949,69 +949,121 @@ The bot will open chat access to all users.
 
 **Estimated time: 15-20 minutes**
 
-> **Note:** Microsoft Teams is widely used by enterprises on Microsoft 365. Deployment requires creating an Azure Bot resource, configuring permissions, and publishing the app via the Teams Developer Portal. No servers or coding skills needed — a free Azure tier is sufficient.
+> **Note:** Microsoft Teams is widely used by enterprises on Microsoft 365. Deployment requires creating an Azure Bot resource, configuring permissions, and publishing the app via the Teams Developer Portal. No servers or coding skills needed — the free Azure tier is sufficient.
 
-Four credentials are required:
+### Before You Start
 
-| Credential | Where to Find | Description |
-|------------|---------------|-------------|
-| App ID | Azure Bot → Configuration → Microsoft App ID | Identifies your bot application |
-| App Password | App Registration → Certificates & secrets → Secret Value | Authenticates your bot |
-| Tenant ID | Azure Bot → Configuration → Directory (tenant) ID | Your organization's tenant identifier |
-| App Catalog ID | Teams Developer Portal → Basic information → App ID | Identifies the app in the Teams catalog |
+Please make sure you have the following:
+
+1. **A Microsoft Entra (Azure AD) tenant** — every organization using Microsoft 365 already has one.
+2. **An active Azure subscription** — required to create the Azure Bot resource. This tutorial uses the **F0 (Free)** pricing tier throughout, and Teams is a Standard channel with no per-message billing, so **the entire setup incurs zero Azure cost**. If your organization already has a subscription, use it; otherwise you can create a Pay-As-You-Go subscription (a credit card is required to open it, but your bill for this setup will be $0) or use an Azure free trial.
+3. **Microsoft 365 administrator cooperation** — Step 5 requires a Global Administrator to grant admin consent for Graph API permissions, and publishing the app to your whole organization (Step 9) requires a Teams administrator's approval.
+
+> **Why do I need a subscription if everything is free?** An Azure subscription is just the "container" that resources are created in. The subscription itself costs nothing — you are billed only for resource usage, and this setup's Azure Bot on the F0 tier bills at $0.
+
+### Credentials You Will Collect
+
+You will collect **four credentials** along the way and enter them in the OpenMax Dashboard at the end:
+
+| Credential | Where you get it |
+|------------|------------------|
+| **App ID** | Azure Bot → Configuration (Step 2) |
+| **Tenant ID** | Azure Bot → Configuration (Step 2) |
+| **App Password** | Client secret **Value** (Step 4) |
+| **App Catalog ID** | Teams Developer Portal → Basic information (Step 6) |
 
 ### Step 1: Create an Azure Bot
 
-1. Go to [Azure Portal](https://portal.azure.com), click **Create a resource**, and search for **Azure Bot**
-2. Click **Create** and fill in:
-   - **Bot handle**: a unique name (e.g., `coco-ai-employee`)
-   - **Resource group**: select an existing one or create new
-   - **Pricing tier**: F0 (Free)
-   - **Type of App**: Single Tenant
-   - **Creation type**: Create new Microsoft App ID
-3. Click **Review + create**, then **Create**
-4. When deployment completes, click **Go to resource**
+1. Sign in to the [Azure Portal](https://portal.azure.com). You need an active Azure subscription — if you don't have one yet, see *Before You Start* above.
 
-> **Note:** Creating an Azure Bot automatically creates an App Registration for you — no separate step needed.
+   <img :src="withBase('/msteams-s1-azure-portal.png')" alt="Azure Portal home after signing in" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
-### Step 2: Configure the Bot and Note Credentials
+2. Once your subscription is ready, click **Create a resource**.
 
-1. In the Azure Bot resource, go to **Configuration**
-2. Set the **Messaging endpoint** to your agent's MS Teams webhook URL:
-   ```
-   https://<your-agent-domain>/ms-teams/api/messages
-   ```
-   You can find this on the **Microsoft Teams** card in your employee's channel grid on the COCO Dashboard. Copy it and paste it here.
-3. Note down the **Microsoft App ID** (this is your **App ID**) and **App Tenant ID** (this is your **Tenant ID**)
-4. Click **Apply**
+   <img :src="withBase('/msteams-s1-create-resource.png')" alt="Azure Portal — Create a resource" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+3. Search for **bot**, find **Azure Bot**, and click **Create**.
+
+   <img :src="withBase('/msteams-s1-search-azure-bot.png')" alt="Marketplace search results — Azure Bot, click Create" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+4. Fill in the form:
+   - **Bot handle:** a unique name, e.g. `openmax-ai-employee`
+   - **Subscription / Resource group:** choose your subscription and a resource group (create one if needed)
+   - **Pricing tier:** select **Free (F0)** *(the screenshots show Standard; for the Teams channel both tiers bill $0, but F0 is the safe default)*
+   - **Type of App:** **Single Tenant**
+   - **Creation type:** **Create new Microsoft App ID**
+
+   Then click **Review + create**, and after validation passes, click **Create**.
+
+   <img :src="withBase('/msteams-s1-bot-form-1.png')" alt="Create an Azure Bot — bot handle, subscription, resource group, pricing tier" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+   <img :src="withBase('/msteams-s1-bot-form-2.png')" alt="Create an Azure Bot — Type of App: Single Tenant, Creation type: Create new Microsoft App ID" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+   <img :src="withBase('/msteams-s1-review-create.png')" alt="Review + create — validation passed, click Create" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+5. When the deployment completes, click **Go to resource**.
+
+   <img :src="withBase('/msteams-s1-go-to-resource.png')" alt="Deployment complete — Go to resource" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+> Creating the bot automatically creates an App Registration in Microsoft Entra ID — you will configure it in Steps 4 and 5.
+
+### Step 2: Configure the Messaging Endpoint and Note Your Credentials
+
+1. In your Azure Bot resource, click **Settings → Configuration**. You will fill in the endpoint here and copy two credentials into the OpenMax Dashboard.
+
+   <img :src="withBase('/msteams-s2-configuration.png')" alt="Azure Bot — Settings → Configuration" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+2. Set **Messaging endpoint** to the URL shown on the **Microsoft Teams card** in your OpenMax Dashboard → **Channels** page (it looks like `https://<your-agent-domain>/ms-teams/api/messages`). Copy it from the Dashboard and paste it here.
+
+   <img :src="withBase('/msteams-s2-messaging-endpoint.png')" alt="Configuration — paste the Messaging endpoint URL from the OpenMax Dashboard" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+3. Note down the **Microsoft App ID** (this is your **App ID**) and the **App Tenant ID** (this is your **Tenant ID**). Paste both into the Microsoft Teams channel settings in the OpenMax Dashboard.
+
+   <img :src="withBase('/msteams-s2-credentials.png')" alt="Configuration — Microsoft App ID and App Tenant ID" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+4. When everything is filled in, click **Apply**.
+
+   <img :src="withBase('/msteams-s2-apply.png')" alt="Configuration — click Apply" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
 ### Step 3: Enable the Microsoft Teams Channel
 
-This step is **required and easy to miss** — the bot will not work in Teams without it.
+*Required and easy to miss — without this step, Teams will show an "Invalid Bot" error.*
 
-1. In the Azure Bot resource, go to **Channels** in the left sidebar
-2. Click **Microsoft Teams**, accept the Terms of Service, and click **Apply**
-3. The Microsoft Teams channel should now appear as **Running** in the channel list
+1. In your Azure Bot resource, click **Settings → Channels**, then find **Microsoft Teams**.
 
-> **Important:** The Teams channel must be enabled on the Azure Bot resource. Without it, Teams will show an "Invalid Bot" error when users try to chat with the bot.
+   <img :src="withBase('/msteams-s3-channels.png')" alt="Azure Bot — Settings → Channels — Microsoft Teams" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
-### Step 4: Create a Client Secret
+2. Read and accept the Terms of Service.
 
-1. On the Configuration page, click **Manage Password** — this takes you to the App Registration page
-2. Go to **Certificates & secrets**
-3. Click **New client secret**
-4. Enter a description (e.g., `COCO Bot Secret`) and choose an expiration period
-5. Click **Add**
-6. **Copy the secret Value immediately** — it is only shown once
+   <img :src="withBase('/msteams-s3-terms.png')" alt="Microsoft Teams channel — accept the Terms of Service" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
-> **Important:** The client secret cannot be viewed again after you leave this page. Save it securely. This is your **App Password**.
+3. Click **Apply**. The channel should now show as **Running**.
 
-### Step 5: Configure Graph API Permissions
+   <img :src="withBase('/msteams-s3-running.png')" alt="Channels list — Microsoft Teams shows Running" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
-Instead of adding permissions one by one through the UI, you can paste them all at once via the manifest editor.
+### Step 4: Create a Client Secret (App Password)
 
-1. In the App Registration page (you should already be here from Step 3), go to the **Manifest** tab
-2. Select the **Microsoft Graph App Manifest (New)** tab at the top
-3. Find `"requiredResourceAccess": []` and replace only the `[]` with the following array:
+1. Go to **Settings → Configuration** and click **Manage Password** (this opens your App Registration's *Certificates & secrets* page).
+
+   <img :src="withBase('/msteams-s4-manage-password.png')" alt="Configuration — Manage Password link next to Microsoft App ID" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+2. Click **New client secret**, enter a description (e.g. `openmax bot secret`), choose an expiration period, and click **Add**.
+
+   <img :src="withBase('/msteams-s4-new-secret.png')" alt="Certificates & secrets — New client secret — Add" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+3. **Copy the secret's *Value* immediately — it is shown only once and cannot be viewed again after you leave the page.** This is your **App Password**. Store it somewhere safe right away. Then paste it into the **App Password** field in the OpenMax Dashboard.
+
+   <img :src="withBase('/msteams-s4-secret-value-1.png')" alt="Client secret created — copy the Value column immediately" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+   <img :src="withBase('/msteams-s4-secret-value-2.png')" alt="Paste the secret Value into the App Password field in the OpenMax Dashboard" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+> ⚠️ Make sure you copy the **Value** column, *not* the Secret ID.
+
+### Step 5: Grant Graph API Permissions
+
+1. In your App Registration, click **Manage → Manifest** (choose *Microsoft Graph App Manifest (New)* if prompted). Find `"requiredResourceAccess": []` and paste the following inside it:
+
+   <img :src="withBase('/msteams-s5-manifest.png')" alt="App Registration — Manage → Manifest — requiredResourceAccess" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 ```json
 [
@@ -1024,65 +1076,76 @@ Instead of adding permissions one by one through the UI, you can paste them all 
       { "id": "df021288-bdef-4463-88db-98f22de89214", "type": "Role" },
       { "id": "9ff7295e-131b-4d94-90e1-69fde507ac11", "type": "Scope" },
       { "id": "ebf0f66e-9fb1-49e4-a278-222f76911cf4", "type": "Scope" },
+      { "id": "767156cb-16ae-4d10-8f8b-41b657c8c8c8", "type": "Scope" },
+      { "id": "df85f4d6-205c-4ac5-a5ea-6bf408dba283", "type": "Scope" },
       { "id": "7427e0e9-2fba-42fe-b0c0-848c9e6a8182", "type": "Scope" }
     ]
   }
 ]
 ```
 
-4. Click **Save** at the top of the Manifest page
+2. After pasting, click **Save**.
 
-> **Important:** Replace only the empty `[]` after `"requiredResourceAccess":` — do not replace the entire line including the key name.
+   <img :src="withBase('/msteams-s5-manifest-save.png')" alt="Manifest editor — permissions pasted, click Save" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
-This adds all 7 permissions at once:
+3. Click **Manage → API permissions**, then click **Grant admin consent for [your organization]** and confirm. *(This requires a Global Administrator account — see Before You Start.)*
 
-| Permission | Type | What It Does |
-|------------|------|-------------|
-| `Files.Read.All` | Application | Download files from OneDrive/SharePoint |
-| `Chat.Read.All` | Application | Read DM and group chat history |
-| `ChannelMessage.Read.All` | Application | Read team channel message history |
-| `User.Read.All` | Application | Resolve user mentions and search users |
-| `Chat.ReadWrite` | Delegated | React to chat messages on behalf of the user |
-| `ChannelMessage.Send` | Delegated | React to channel messages on behalf of the user |
-| `offline_access` | Delegated | Maintain access when the user is not actively signed in |
+   <img :src="withBase('/msteams-s5-admin-consent.png')" alt="API permissions — Grant admin consent" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
-#### Add Redirect URI for Reactions
+4. After consent is granted, all permission statuses turn green, as shown below.
+
+   <img :src="withBase('/msteams-s5-consent-granted.png')" alt="API permissions — all statuses show Granted (green)" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+> These permissions enable file downloads, chat history, reactions, and smart mode. Without admin consent, those features won't work.
+
+#### Add a Redirect URI for Reactions
 
 To enable emoji reactions (💬 thinking indicator, 👍, etc.), add a redirect URI:
 
-1. In the App Registration page, go to **Authentication**
-2. Click **+ Add a platform** → **Web**
-3. Enter the redirect URI: `https://<your-agent-domain>/ms-teams/auth/callback`
-   (Use the same domain from your Messaging endpoint in Step 2)
-4. Click **Configure**
+1. In the App Registration page, go to **Authentication**.
+2. Click **+ Add a platform** → **Web**.
+3. Enter the redirect URI: `https://<your-agent-domain>/ms-teams/auth/callback` *(use the same domain as your Messaging endpoint in Step 2)*.
+4. Click **Configure**.
 
-#### Grant Admin Consent
+### Step 6: Create the App in Teams Developer Portal
 
-After saving the manifest, go to **API permissions** and click **Grant admin consent for [your organization]**. Confirm, and all 7 permissions should show a green checkmark.
+1. Open the [Teams Developer Portal](https://dev.teams.microsoft.com) → **Apps** and click **Create a new app**.
 
-> **Important:** Admin consent is required. Without it, file downloads, chat history, emoji reactions, and smart mode features will not work.
+   <img :src="withBase('/msteams-s6-dev-portal.png')" alt="Teams Developer Portal — Apps — Create a new app" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
-### Step 6: Create App in Teams Developer Portal
+2. Enter an app name (e.g. `OpenMax AI Employee`) and click **Create**.
 
-1. Go to [Teams Developer Portal](https://dev.teams.microsoft.com) and sign in
-2. Click **Apps** in the left sidebar, then **+ New app**
-3. Enter an app name (e.g., `COCO AI Employee`)
-4. In **Basic information**, note the **App ID** shown at the top — this is your **App Catalog ID** (you'll need it when connecting in the COCO Dashboard)
-5. Fill in the required fields:
-   - **Short description**: e.g., `AI-powered digital employee`
-   - **Long description**: e.g., `COCO AI employee that helps your team with writing, research, translation, data analysis, and daily tasks — right inside Microsoft Teams.`
-   - **Developer name**: e.g., `COCO`
-   - **Website**: `https://icoco.ai`
-   - **Privacy policy**: `https://docs.icoco.ai/privacy-policy`
-   - **Terms of use**: `https://docs.icoco.ai/user-agreement`
-6. Click **Save**
+   <img :src="withBase('/msteams-s6-create-app.png')" alt="New app dialog — enter app name and click Create" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+3. In **Basic information**, copy and note down the **App ID** shown at the top — this is your **App Catalog ID**. Paste it into the **App Catalog ID** field in the OpenMax Dashboard.
+
+   <img :src="withBase('/msteams-s6-basic-info.png')" alt="Basic information — App ID at the top is your App Catalog ID" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+   <img :src="withBase('/msteams-s6-app-catalog-id.png')" alt="Paste the App Catalog ID into the OpenMax Dashboard" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+4. Fill in the required fields:
+   - **Short description:** `AI-powered digital employee`
+   - **Long description:** `OpenMax AI employee that helps your team with writing, research, translation, data analysis, and daily tasks — right inside Microsoft Teams.`
+   - **Developer or company name:** `OpenMax`
+   - **Website:** `https://openmax.com`
+   - **Privacy policy:** `https://docs.openmax.com/privacy-policy`
+   - **Terms of use:** `https://docs.openmax.com/user-agreement`
+
+   Then click **Save**.
+
+   <img :src="withBase('/msteams-s6-app-details-1.png')" alt="Basic information — descriptions and developer information filled in" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+   <img :src="withBase('/msteams-s6-app-details-2.png')" alt="Basic information — app URLs filled in, click Save" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 ### Step 7: Configure the App Manifest
 
-1. In the Teams Developer Portal, go to your app's **App package** → **App package editor**
-2. Paste the following manifest JSON, replacing the two placeholders with your actual values:
-   - Replace `<TEAMS_APP_ID>` (1 place) with the **App ID** from Step 5 (the App Catalog ID)
-   - Replace `<AZURE_APP_ID>` (2 places) with the **App ID** from Step 2 (the Azure App Registration ID)
+1. Click **Configure → App package editor**, then open **manifest.json**.
+
+   <img :src="withBase('/msteams-s7-package-editor.png')" alt="Configure — App package editor — manifest.json" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+2. Remove everything in the editor, then paste the manifest below:
+
+   <img :src="withBase('/msteams-s7-manifest-json.png')" alt="App package editor — manifest.json opened for editing" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 ```json
 {
@@ -1090,16 +1153,16 @@ After saving the manifest, go to **API permissions** and click **Grant admin con
   "version": "1.0.0",
   "manifestVersion": "1.19",
   "id": "<TEAMS_APP_ID>",
-  "name": { "short": "COCO AI Employee" },
+  "name": { "short": "OpenMax AI Employee" },
   "developer": {
-    "name": "COCO",
-    "websiteUrl": "https://icoco.ai",
-    "privacyUrl": "https://docs.icoco.ai/privacy-policy",
-    "termsOfUseUrl": "https://docs.icoco.ai/user-agreement"
+    "name": "OpenMax",
+    "websiteUrl": "https://openmax.com",
+    "privacyUrl": "https://docs.openmax.com/privacy-policy",
+    "termsOfUseUrl": "https://docs.openmax.com/user-agreement"
   },
   "description": {
     "short": "AI-powered digital employee",
-    "full": "COCO AI employee that helps your team with writing, research, translation, data analysis, and daily tasks — right inside Microsoft Teams."
+    "full": "OpenMax AI employee that helps your team with writing, research, translation, data analysis, and daily tasks — right inside Microsoft Teams."
   },
   "icons": { "outline": "outline.png", "color": "color.png" },
   "accentColor": "#FFD646",
@@ -1128,86 +1191,103 @@ After saving the manifest, go to **API permissions** and click **Grant admin con
 }
 ```
 
-3. Click **Save** at the top of the editor
-4. Return to the **App package editor** page and click the **Update** button to apply your changes
+3. Replace the placeholders:
+   - `<TEAMS_APP_ID>` (**1 place**) → your **App Catalog ID**
+   - `<AZURE_APP_ID>` (**2 places**: `bots[0].botId` and `webApplicationInfo.id`) → your **App ID** (the Microsoft App ID)
 
-> **Note on placeholders:** The manifest has two different IDs. `<TEAMS_APP_ID>` is the App ID from the Teams Developer Portal (Step 5) — it appears once in the `id` field. `<AZURE_APP_ID>` is the App ID from Azure (Step 2) — it appears in `botId` and `webApplicationInfo.id`.
+   <img :src="withBase('/msteams-s7-replace-ids.png')" alt="manifest.json — replace TEAMS_APP_ID and AZURE_APP_ID placeholders" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
-### Step 8: Upload App Icons (Optional)
+   After replacing, click **Save**, as shown below.
 
-1. In the Teams Developer Portal, go to your app's **Branding** section
-2. Upload the app icons:
-   - **Color icon**: 192x192 PNG
-   - **Outline icon**: 32x32 PNG with transparent background
-3. Click **Save**
+   <img :src="withBase('/msteams-s7-save.png')" alt="manifest.json — placeholders replaced, click Save" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
-> **Tip:** If you skip this step, Teams will use default placeholder icons.
+   > If a red *"Property 'id' cannot be changed in the manifest"* error appears after pasting, don't worry — it disappears once you replace `<TEAMS_APP_ID>` with your App Catalog ID (the `id` must stay your app's own ID).
 
-### Step 9: Publish the App
+4. Click **Update**, then **Confirm**.
 
-You have two options to distribute the app:
+   <img :src="withBase('/msteams-s7-update-confirm.png')" alt="App package editor — Update, then Confirm" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
-**Option A — Publish to your organization:**
-1. In the Teams Developer Portal, go to **Distribute** → **Publish to org**
-2. Submit the app for admin approval
-3. An admin must approve the app in the [Teams Admin Center](https://admin.teams.microsoft.com) → **Manage apps**
-4. After approval, users should **restart Microsoft Teams** to see the new app
+### Step 8 (Optional): Branding
 
-**Option B — Sideload via app package (for admins):**
-1. In the Teams Developer Portal, click **Download app package** to get the `.zip` file
-2. In Microsoft Teams, go to **Apps** → **Manage your apps** → **Upload a custom app**
-3. Select the downloaded `.zip` file
+In **Configure → Branding** you can replace the app icons: a 192×192 full-color PNG and a 32×32 transparent outline PNG. If you skip this, default placeholder icons are used.
 
-### Step 10: Connect in COCO Dashboard
+<img :src="withBase('/msteams-s8-branding.png')" alt="Configure — Branding — color and outline icons" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
-> **Important:** This step must be done **last** — all 4 credentials are required.
+### Step 9: Publish the App to Your Organization
 
-1. Log into [COCO Dashboard](https://icoco.ai/dashboard)
-2. Go to the employee instance detail page
-3. Find the **Microsoft Teams** card and click **Connect**
-4. Enter the credentials:
+1. In the **App package editor**, click **Distribute** and choose **Publish to your organization**.
 
-| Field | Source |
-|-------|--------|
-| App ID | Azure Bot → Configuration → Microsoft App ID (Step 2) |
-| App Password | App Registration → Client Secret Value (Step 3) |
-| App Catalog ID | Teams Developer Portal → Basic information → App ID (Step 5) |
-| Tenant ID | Azure Bot → Configuration → App Tenant ID (Step 2) |
+   <img :src="withBase('/msteams-s9-distribute.png')" alt="App package editor — Distribute — Publish to your organization" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
-5. Click **Connect** — the system will validate your credentials and deploy the channel
+2. Click **Get started**. The status then shows **Submitted (awaiting admin's approval)**.
 
-### Step 11: Enable Reactions (One-Time Setup)
+   <img :src="withBase('/msteams-s9-publish-org.png')" alt="Publish to your organization — Get started" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
-To activate the 💬 thinking indicator and emoji reactions:
+   <img :src="withBase('/msteams-s9-submitted.png')" alt="Status shows Submitted (awaiting admin's approval)" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
-1. Open your browser and visit: `https://<your-agent-domain>/ms-teams/auth/sign-in`
-   (Use the same domain from your Messaging endpoint)
-2. Sign in with your Microsoft 365 account
-3. After seeing "Signed in successfully", close the tab
+3. After submission, a Teams administrator must approve the app in the [Teams Admin Center](https://admin.teams.microsoft.com/) → **Teams apps → Manage apps** (search for your bot's name and open it). *The app shows as "Blocked" until it is published — this is the normal pre-approval state.*
 
-> **Note:** This only needs to be done once. The bot stores the delegated token and uses it automatically for all reactions going forward.
+   <img :src="withBase('/msteams-s9-admin-center.png')" alt="Teams Admin Center — Manage apps — find your app" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
-### Step 12: Start Chatting
+4. Click **Publish**.
 
-1. In Teams, search for your app name (e.g., `COCO AI Employee`)
-2. Click to start a DM conversation
-3. Send any message — AI employee responds immediately
-4. Deployment complete!
+   <img :src="withBase('/msteams-s9-publish-1.png')" alt="Teams Admin Center — app detail — Publish" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
-> **Tip:** To use in group chats or team channels, add the bot to a team or group chat, then @mention it to trigger a response.
+   <img :src="withBase('/msteams-s9-publish-2.png')" alt="Teams Admin Center — confirm Publish" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+5. After approval, users need to **restart Microsoft Teams** to see the new app.
+6. Open the Microsoft Teams desktop app, click **Apps**, search for your bot's name (e.g. `openmax`), and open it.
+
+   <img :src="withBase('/msteams-s9-apps-search.png')" alt="Microsoft Teams — Apps — search for your bot" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+7. Click **Add**.
+
+   <img :src="withBase('/msteams-s9-add.png')" alt="App detail dialog — Add" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+8. Click **Open**.
+
+   <img :src="withBase('/msteams-s9-open.png')" alt="App added — Open" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+9. Return to the OpenMax Dashboard to connect.
+
+> **Alternative (no admin approval):** you can also download the app package as a `.zip` from the App package editor and sideload it via **Upload a custom app** in Teams, if your organization allows custom app uploads.
+
+### Step 10: Connect in the OpenMax Dashboard
+
+*Do this step last, after everything above is complete.*
+
+1. Make sure all four credentials are filled in correctly on the Microsoft Teams channel card — **App ID**, **App Password** (the secret Value), **Tenant ID**, and **App Catalog ID** — then click **Connect**.
+
+   <img :src="withBase('/msteams-s10-connect.png')" alt="OpenMax Dashboard — Microsoft Teams card with four credentials filled in — Connect" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+   When the connection succeeds, it looks like this:
+
+   <img :src="withBase('/msteams-s10-connected.png')" alt="OpenMax Dashboard — Microsoft Teams card shows Connected" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+### Step 11: Start Chatting
+
+1. In Teams, search for your bot's name (e.g. `openmax`) in **Chat**, and open it to start chatting.
+
+   <img :src="withBase('/msteams-s11-chat.png')" alt="Microsoft Teams — search for the bot in Chat" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+2. Say hello to your AI employee! For group chats and channels, add the bot and @mention it to talk to it.
+
+   <img :src="withBase('/msteams-s11-hello.png')" alt="Chatting with the bot in Microsoft Teams" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+
+> **One-time extra (recommended): enable reactions.** To activate the 💬 thinking indicator and emoji reactions, open `https://<your-agent-domain>/ms-teams/auth/sign-in` in your browser *(same domain as your Messaging endpoint)*, sign in with your Microsoft 365 account, and close the tab after "Signed in successfully" appears. This only needs to be done once — the bot stores the delegated token and uses it automatically from then on.
 
 ### Microsoft Teams FAQ
 
 | Issue | Solution |
 |-------|----------|
-| Bot not responding | Verify the Messaging endpoint is set correctly in Azure Bot Configuration. Check that credentials (App ID, App Password) match |
-| Credential validation failed | Ensure App Password is the **Value** (not the Secret ID). Confirm the Tenant ID is correct |
-| Bot not appearing in Teams | The app must be published and approved (or sideloaded). Check that the Azure App ID in the manifest matches your App Registration |
-| App not visible after admin approval | Restart the Microsoft Teams client to pick up newly approved apps |
-| Messages not reaching the bot | Confirm the Messaging endpoint URL is HTTPS and publicly reachable. Check that the Azure Bot resource is active |
-| File downloads failing | Verify `Files.Read.All` has admin consent in Azure Portal → App Registration → API permissions |
-| Smart mode not working | Verify `ChannelMessage.Read.All` has admin consent, and ensure the channel is set to smart mode |
-| Client secret expired | Azure client secrets expire on the schedule you set. Create a new secret and update the App Password in COCO Dashboard |
+| Bot not responding in Teams | Check the Messaging endpoint in Azure Bot → Configuration, and confirm the App ID and App Password in the OpenMax Dashboard match your Azure Bot |
+| Credential validation failed | Make sure you entered the client secret's **Value**, not the Secret ID, and double-check the Tenant ID |
+| Bot not appearing in Teams | The app must be published and approved (Step 9) — or sideloaded — before it appears. Also confirm the `<AZURE_APP_ID>` in the manifest matches your App Registration |
+| App not visible after admin approval | Restart the Teams client — the app list is cached |
+| Messages not reaching the bot | The messaging endpoint must be HTTPS and publicly reachable, and the Azure Bot resource must be active |
+| File downloads failing | Verify `Files.Read.All` has admin consent (Step 5) |
+| Smart mode not working in channels | Verify `ChannelMessage.Read.All` has admin consent and the channel is set to smart mode |
+| Client secret expired | Create a new client secret in Azure and update the App Password in the OpenMax Dashboard |
 | Want to disconnect | Click the **Disconnect** button on the Microsoft Teams card in the employee detail page |
 
 ---
