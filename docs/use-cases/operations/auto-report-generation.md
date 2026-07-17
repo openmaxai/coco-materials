@@ -36,4 +36,4 @@ Almost every company requires daily/weekly reports. The pain is universal and de
 
 ---
 
-*[Watch the video](/social-media/video-scripts/auto-report) | [View Chinese version](https://github.com/coco-xyz/coco-materials/blob/main/coco-content/social-media/drafts/2026-02-10-auto-report-video-script-cn.md)*
+*[Watch the video](/social-media/video-scripts/auto-report) | [View Chinese version](https://github.com/openmaxai/coco-materials/blob/main/coco-content/social-media/drafts/2026-02-10-auto-report-video-script-cn.md)*

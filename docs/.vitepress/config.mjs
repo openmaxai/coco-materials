@@ -167,7 +167,7 @@ export default defineConfig({
         logo: openMaxIdentity.logo,
         sameAs: [
           openMaxIdentity.xUrl,
-          'https://github.com/coco-xyz',
+          'https://github.com/openmaxai',
         ],
       }
       const siteJsonLd = {
@@ -620,7 +620,7 @@ export default defineConfig({
           next: '下一页',
         },
         editLink: {
-          pattern: 'https://github.com/coco-xyz/coco-materials/edit/main/docs/:path',
+          pattern: 'https://github.com/openmaxai/coco-materials/edit/main/docs/:path',
           text: '在 GitHub 上编辑此页'
         },
       },
@@ -632,12 +632,12 @@ export default defineConfig({
     siteTitle: false,
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/coco-xyz' },
+      { icon: 'github', link: 'https://github.com/openmaxai' },
       { icon: 'x', link: openMaxIdentity.xUrl },
     ],
 
     footer: {
-      message: '<a href="https://github.com/coco-xyz" target="_blank">GitHub</a> · <a href="https://github.com/zylos-ai" target="_blank">Zylos GitHub</a> · AI Digital Employee Platform',
+      message: '<a href="https://github.com/openmaxai" target="_blank">GitHub</a> · <a href="https://github.com/zylos-ai" target="_blank">Zylos GitHub</a> · AI Digital Employee Platform',
       copyright: '© 2026 OpenMax. All rights reserved.',
     },
 
@@ -674,7 +674,7 @@ export default defineConfig({
     },
 
     editLink: {
-      pattern: 'https://github.com/coco-xyz/coco-materials/edit/main/docs/:path',
+      pattern: 'https://github.com/openmaxai/coco-materials/edit/main/docs/:path',
       text: 'Edit this page on GitHub'
     },
   }
