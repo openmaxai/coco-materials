@@ -976,15 +976,15 @@ You will collect **four credentials** along the way and enter them in the OpenMa
 
 1. Sign in to the [Azure Portal](https://portal.azure.com). You need an active Azure subscription — if you don't have one yet, see *Before You Start* above.
 
-   <img :src="withBase('/msteams-s1-azure-portal.png')" alt="Azure Portal home after signing in" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+   <img :src="withBase('/msteams-s1-azure-portal-v2.png')" alt="Azure Portal home after signing in" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 2. Once your subscription is ready, click **Create a resource**.
 
-   <img :src="withBase('/msteams-s1-create-resource.png')" alt="Azure Portal — Create a resource" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+   <img :src="withBase('/msteams-s1-create-resource-v2.png')" alt="Azure Portal — Create a resource" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 3. Search for **bot**, find **Azure Bot**, and click **Create**.
 
-   <img :src="withBase('/msteams-s1-search-azure-bot.png')" alt="Marketplace search results — Azure Bot, click Create" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+   <img :src="withBase('/msteams-s1-search-azure-bot-v2.png')" alt="Marketplace search results — Azure Bot, click Create" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 4. Fill in the form:
    - **Bot handle:** a unique name, e.g. `openmax-ai-employee`
@@ -995,15 +995,15 @@ You will collect **four credentials** along the way and enter them in the OpenMa
 
    Then click **Review + create**, and after validation passes, click **Create**.
 
-   <img :src="withBase('/msteams-s1-bot-form-1.png')" alt="Create an Azure Bot — bot handle, subscription, resource group, pricing tier" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+   <img :src="withBase('/msteams-s1-bot-form-1-v2.png')" alt="Create an Azure Bot — bot handle, subscription, resource group, pricing tier" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
-   <img :src="withBase('/msteams-s1-bot-form-2.png')" alt="Create an Azure Bot — Type of App: Single Tenant, Creation type: Create new Microsoft App ID" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+   <img :src="withBase('/msteams-s1-bot-form-2-v2.png')" alt="Create an Azure Bot — Type of App: Single Tenant, Creation type: Create new Microsoft App ID" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
-   <img :src="withBase('/msteams-s1-review-create.png')" alt="Review + create — validation passed, click Create" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+   <img :src="withBase('/msteams-s1-review-create-v2.png')" alt="Review + create — validation passed, click Create" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 5. When the deployment completes, click **Go to resource**.
 
-   <img :src="withBase('/msteams-s1-go-to-resource.png')" alt="Deployment complete — Go to resource" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+   <img :src="withBase('/msteams-s1-go-to-resource-v2.png')" alt="Deployment complete — Go to resource" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 > Creating the bot automatically creates an App Registration in Microsoft Entra ID — you will configure it in Steps 4 and 5.
 
@@ -1011,19 +1011,19 @@ You will collect **four credentials** along the way and enter them in the OpenMa
 
 1. In your Azure Bot resource, click **Settings → Configuration**. You will fill in the endpoint here and copy two credentials into the OpenMax Dashboard.
 
-   <img :src="withBase('/msteams-s2-configuration.png')" alt="Azure Bot — Settings → Configuration" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+   <img :src="withBase('/msteams-s2-configuration-v2.png')" alt="Azure Bot — Settings → Configuration" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 2. Set **Messaging endpoint** to the URL shown on the **Microsoft Teams card** in your OpenMax Dashboard → **Channels** page (it looks like `https://<your-agent-domain>/ms-teams/api/messages`). Copy it from the Dashboard and paste it here.
 
-   <img :src="withBase('/msteams-s2-messaging-endpoint.png')" alt="Configuration — paste the Messaging endpoint URL from the OpenMax Dashboard" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+   <img :src="withBase('/msteams-s2-messaging-endpoint-v2.png')" alt="Configuration — paste the Messaging endpoint URL from the OpenMax Dashboard" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 3. Note down the **Microsoft App ID** (this is your **App ID**) and the **App Tenant ID** (this is your **Tenant ID**). Paste both into the Microsoft Teams channel settings in the OpenMax Dashboard.
 
-   <img :src="withBase('/msteams-s2-credentials.png')" alt="Configuration — Microsoft App ID and App Tenant ID" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+   <img :src="withBase('/msteams-s2-credentials-v2.png')" alt="Configuration — Microsoft App ID and App Tenant ID" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 4. When everything is filled in, click **Apply**.
 
-   <img :src="withBase('/msteams-s2-apply.png')" alt="Configuration — click Apply" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+   <img :src="withBase('/msteams-s2-apply-v2.png')" alt="Configuration — click Apply" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 ### Step 3: Enable the Microsoft Teams Channel
 
@@ -1031,31 +1031,31 @@ You will collect **four credentials** along the way and enter them in the OpenMa
 
 1. In your Azure Bot resource, click **Settings → Channels**, then find **Microsoft Teams**.
 
-   <img :src="withBase('/msteams-s3-channels.png')" alt="Azure Bot — Settings → Channels — Microsoft Teams" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+   <img :src="withBase('/msteams-s3-channels-v2.png')" alt="Azure Bot — Settings → Channels — Microsoft Teams" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 2. Read and accept the Terms of Service.
 
-   <img :src="withBase('/msteams-s3-terms.png')" alt="Microsoft Teams channel — accept the Terms of Service" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+   <img :src="withBase('/msteams-s3-terms-v2.png')" alt="Microsoft Teams channel — accept the Terms of Service" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 3. Click **Apply**. The channel should now show as **Running**.
 
-   <img :src="withBase('/msteams-s3-running.png')" alt="Channels list — Microsoft Teams shows Running" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+   <img :src="withBase('/msteams-s3-running-v2.png')" alt="Channels list — Microsoft Teams shows Running" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 ### Step 4: Create a Client Secret (App Password)
 
 1. Go to **Settings → Configuration** and click **Manage Password** (this opens your App Registration's *Certificates & secrets* page).
 
-   <img :src="withBase('/msteams-s4-manage-password.png')" alt="Configuration — Manage Password link next to Microsoft App ID" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+   <img :src="withBase('/msteams-s4-manage-password-v2.png')" alt="Configuration — Manage Password link next to Microsoft App ID" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 2. Click **New client secret**, enter a description (e.g. `openmax bot secret`), choose an expiration period, and click **Add**.
 
-   <img :src="withBase('/msteams-s4-new-secret.png')" alt="Certificates & secrets — New client secret — Add" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+   <img :src="withBase('/msteams-s4-new-secret-v2.png')" alt="Certificates & secrets — New client secret — Add" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 3. **Copy the secret's *Value* immediately — it is shown only once and cannot be viewed again after you leave the page.** This is your **App Password**. Store it somewhere safe right away. Then paste it into the **App Password** field in the OpenMax Dashboard.
 
-   <img :src="withBase('/msteams-s4-secret-value-1.png')" alt="Client secret created — copy the Value column immediately" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+   <img :src="withBase('/msteams-s4-secret-value-1-v2.png')" alt="Client secret created — copy the Value column immediately" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
-   <img :src="withBase('/msteams-s4-secret-value-2.png')" alt="Paste the secret Value into the App Password field in the OpenMax Dashboard" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+   <img :src="withBase('/msteams-s4-secret-value-2-v2.png')" alt="Paste the secret Value into the App Password field in the OpenMax Dashboard" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 > ⚠️ Make sure you copy the **Value** column, *not* the Secret ID.
 
@@ -1063,7 +1063,7 @@ You will collect **four credentials** along the way and enter them in the OpenMa
 
 1. In your App Registration, click **Manage → Manifest** (choose *Microsoft Graph App Manifest (New)* if prompted). Find `"requiredResourceAccess": []` and paste the following inside it:
 
-   <img :src="withBase('/msteams-s5-manifest.png')" alt="App Registration — Manage → Manifest — requiredResourceAccess" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+   <img :src="withBase('/msteams-s5-manifest-v2.png')" alt="App Registration — Manage → Manifest — requiredResourceAccess" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 ```json
 [
@@ -1086,15 +1086,15 @@ You will collect **four credentials** along the way and enter them in the OpenMa
 
 2. After pasting, click **Save**.
 
-   <img :src="withBase('/msteams-s5-manifest-save.png')" alt="Manifest editor — permissions pasted, click Save" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+   <img :src="withBase('/msteams-s5-manifest-save-v2.png')" alt="Manifest editor — permissions pasted, click Save" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 3. Click **Manage → API permissions**, then click **Grant admin consent for [your organization]** and confirm. *(This requires a Global Administrator account — see Before You Start.)*
 
-   <img :src="withBase('/msteams-s5-admin-consent.png')" alt="API permissions — Grant admin consent" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+   <img :src="withBase('/msteams-s5-admin-consent-v2.png')" alt="API permissions — Grant admin consent" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 4. After consent is granted, all permission statuses turn green, as shown below.
 
-   <img :src="withBase('/msteams-s5-consent-granted.png')" alt="API permissions — all statuses show Granted (green)" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+   <img :src="withBase('/msteams-s5-consent-granted-v2.png')" alt="API permissions — all statuses show Granted (green)" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 > These permissions enable file downloads, chat history, reactions, and smart mode. Without admin consent, those features won't work.
 
@@ -1111,17 +1111,17 @@ To enable emoji reactions (💬 thinking indicator, 👍, etc.), add a redirect 
 
 1. Open the [Teams Developer Portal](https://dev.teams.microsoft.com) → **Apps** and click **Create a new app**.
 
-   <img :src="withBase('/msteams-s6-dev-portal.png')" alt="Teams Developer Portal — Apps — Create a new app" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+   <img :src="withBase('/msteams-s6-dev-portal-v2.png')" alt="Teams Developer Portal — Apps — Create a new app" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 2. Enter an app name (e.g. `OpenMax AI Employee`) and click **Create**.
 
-   <img :src="withBase('/msteams-s6-create-app.png')" alt="New app dialog — enter app name and click Create" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+   <img :src="withBase('/msteams-s6-create-app-v2.png')" alt="New app dialog — enter app name and click Create" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 3. In **Basic information**, copy and note down the **App ID** shown at the top — this is your **App Catalog ID**. Paste it into the **App Catalog ID** field in the OpenMax Dashboard.
 
-   <img :src="withBase('/msteams-s6-basic-info.png')" alt="Basic information — App ID at the top is your App Catalog ID" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+   <img :src="withBase('/msteams-s6-basic-info-v2.png')" alt="Basic information — App ID at the top is your App Catalog ID" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
-   <img :src="withBase('/msteams-s6-app-catalog-id.png')" alt="Paste the App Catalog ID into the OpenMax Dashboard" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+   <img :src="withBase('/msteams-s6-app-catalog-id-v2.png')" alt="Paste the App Catalog ID into the OpenMax Dashboard" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 4. Fill in the required fields:
    - **Short description:** `AI-powered digital employee`
@@ -1133,19 +1133,19 @@ To enable emoji reactions (💬 thinking indicator, 👍, etc.), add a redirect 
 
    Then click **Save**.
 
-   <img :src="withBase('/msteams-s6-app-details-1.png')" alt="Basic information — descriptions and developer information filled in" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+   <img :src="withBase('/msteams-s6-app-details-1-v2.png')" alt="Basic information — descriptions and developer information filled in" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
-   <img :src="withBase('/msteams-s6-app-details-2.png')" alt="Basic information — app URLs filled in, click Save" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+   <img :src="withBase('/msteams-s6-app-details-2-v2.png')" alt="Basic information — app URLs filled in, click Save" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 ### Step 7: Configure the App Manifest
 
 1. Click **Configure → App package editor**, then open **manifest.json**.
 
-   <img :src="withBase('/msteams-s7-package-editor.png')" alt="Configure — App package editor — manifest.json" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+   <img :src="withBase('/msteams-s7-package-editor-v2.png')" alt="Configure — App package editor — manifest.json" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 2. Remove everything in the editor, then paste the manifest below:
 
-   <img :src="withBase('/msteams-s7-manifest-json.png')" alt="App package editor — manifest.json opened for editing" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+   <img :src="withBase('/msteams-s7-manifest-json-v2.png')" alt="App package editor — manifest.json opened for editing" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 ```json
 {
@@ -1195,58 +1195,58 @@ To enable emoji reactions (💬 thinking indicator, 👍, etc.), add a redirect 
    - `<TEAMS_APP_ID>` (**1 place**) → your **App Catalog ID**
    - `<AZURE_APP_ID>` (**2 places**: `bots[0].botId` and `webApplicationInfo.id`) → your **App ID** (the Microsoft App ID)
 
-   <img :src="withBase('/msteams-s7-replace-ids.png')" alt="manifest.json — replace TEAMS_APP_ID and AZURE_APP_ID placeholders" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+   <img :src="withBase('/msteams-s7-replace-ids-v2.png')" alt="manifest.json — replace TEAMS_APP_ID and AZURE_APP_ID placeholders" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
    After replacing, click **Save**, as shown below.
 
-   <img :src="withBase('/msteams-s7-save.png')" alt="manifest.json — placeholders replaced, click Save" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+   <img :src="withBase('/msteams-s7-save-v2.png')" alt="manifest.json — placeholders replaced, click Save" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
    > If a red *"Property 'id' cannot be changed in the manifest"* error appears after pasting, don't worry — it disappears once you replace `<TEAMS_APP_ID>` with your App Catalog ID (the `id` must stay your app's own ID).
 
 4. Click **Update**, then **Confirm**.
 
-   <img :src="withBase('/msteams-s7-update-confirm.png')" alt="App package editor — Update, then Confirm" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+   <img :src="withBase('/msteams-s7-update-confirm-v2.png')" alt="App package editor — Update, then Confirm" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 ### Step 8 (Optional): Branding
 
 In **Configure → Branding** you can replace the app icons: a 192×192 full-color PNG and a 32×32 transparent outline PNG. If you skip this, default placeholder icons are used.
 
-<img :src="withBase('/msteams-s8-branding.png')" alt="Configure — Branding — color and outline icons" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+<img :src="withBase('/msteams-s8-branding-v2.png')" alt="Configure — Branding — color and outline icons" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 ### Step 9: Publish the App to Your Organization
 
 1. In the **App package editor**, click **Distribute** and choose **Publish to your organization**.
 
-   <img :src="withBase('/msteams-s9-distribute.png')" alt="App package editor — Distribute — Publish to your organization" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+   <img :src="withBase('/msteams-s9-distribute-v2.png')" alt="App package editor — Distribute — Publish to your organization" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 2. Click **Get started**. The status then shows **Submitted (awaiting admin's approval)**.
 
-   <img :src="withBase('/msteams-s9-publish-org.png')" alt="Publish to your organization — Get started" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+   <img :src="withBase('/msteams-s9-publish-org-v2.png')" alt="Publish to your organization — Get started" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
-   <img :src="withBase('/msteams-s9-submitted.png')" alt="Status shows Submitted (awaiting admin's approval)" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+   <img :src="withBase('/msteams-s9-submitted-v2.png')" alt="Status shows Submitted (awaiting admin's approval)" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 3. After submission, a Teams administrator must approve the app in the [Teams Admin Center](https://admin.teams.microsoft.com/) → **Teams apps → Manage apps** (search for your bot's name and open it). *The app shows as "Blocked" until it is published — this is the normal pre-approval state.*
 
-   <img :src="withBase('/msteams-s9-admin-center.png')" alt="Teams Admin Center — Manage apps — find your app" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+   <img :src="withBase('/msteams-s9-admin-center-v2.png')" alt="Teams Admin Center — Manage apps — find your app" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 4. Click **Publish**.
 
-   <img :src="withBase('/msteams-s9-publish-1.png')" alt="Teams Admin Center — app detail — Publish" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+   <img :src="withBase('/msteams-s9-publish-1-v2.png')" alt="Teams Admin Center — app detail — Publish" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
-   <img :src="withBase('/msteams-s9-publish-2.png')" alt="Teams Admin Center — confirm Publish" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+   <img :src="withBase('/msteams-s9-publish-2-v2.png')" alt="Teams Admin Center — confirm Publish" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 5. After approval, users need to **restart Microsoft Teams** to see the new app.
 6. Open the Microsoft Teams desktop app, click **Apps**, search for your bot's name (e.g. `openmax`), and open it.
 
-   <img :src="withBase('/msteams-s9-apps-search.png')" alt="Microsoft Teams — Apps — search for your bot" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+   <img :src="withBase('/msteams-s9-apps-search-v2.png')" alt="Microsoft Teams — Apps — search for your bot" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 7. Click **Add**.
 
-   <img :src="withBase('/msteams-s9-add.png')" alt="App detail dialog — Add" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+   <img :src="withBase('/msteams-s9-add-v2.png')" alt="App detail dialog — Add" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 8. Click **Open**.
 
-   <img :src="withBase('/msteams-s9-open.png')" alt="App added — Open" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+   <img :src="withBase('/msteams-s9-open-v2.png')" alt="App added — Open" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 9. Return to the OpenMax Dashboard to connect.
 
@@ -1258,21 +1258,21 @@ In **Configure → Branding** you can replace the app icons: a 192×192 full-col
 
 1. Make sure all four credentials are filled in correctly on the Microsoft Teams channel card — **App ID**, **App Password** (the secret Value), **Tenant ID**, and **App Catalog ID** — then click **Connect**.
 
-   <img :src="withBase('/msteams-s10-connect.png')" alt="OpenMax Dashboard — Microsoft Teams card with four credentials filled in — Connect" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+   <img :src="withBase('/msteams-s10-connect-v2.png')" alt="OpenMax Dashboard — Microsoft Teams card with four credentials filled in — Connect" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
    When the connection succeeds, it looks like this:
 
-   <img :src="withBase('/msteams-s10-connected.png')" alt="OpenMax Dashboard — Microsoft Teams card shows Connected" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+   <img :src="withBase('/msteams-s10-connected-v2.png')" alt="OpenMax Dashboard — Microsoft Teams card shows Connected" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 ### Step 11: Start Chatting
 
 1. In Teams, search for your bot's name (e.g. `openmax`) in **Chat**, and open it to start chatting.
 
-   <img :src="withBase('/msteams-s11-chat.png')" alt="Microsoft Teams — search for the bot in Chat" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+   <img :src="withBase('/msteams-s11-chat-v2.png')" alt="Microsoft Teams — search for the bot in Chat" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 2. Say hello to your AI employee! For group chats and channels, add the bot and @mention it to talk to it.
 
-   <img :src="withBase('/msteams-s11-hello.png')" alt="Chatting with the bot in Microsoft Teams" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+   <img :src="withBase('/msteams-s11-hello-v2.png')" alt="Chatting with the bot in Microsoft Teams" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 > **One-time extra (recommended): enable reactions.** To activate the 💬 thinking indicator and emoji reactions, open `https://<your-agent-domain>/ms-teams/auth/sign-in` in your browser *(same domain as your Messaging endpoint)*, sign in with your Microsoft 365 account, and close the tab after "Signed in successfully" appears. This only needs to be done once — the bot stores the delegated token and uses it automatically from then on.
 
