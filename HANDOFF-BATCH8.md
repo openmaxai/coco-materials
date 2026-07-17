@@ -1,7 +1,7 @@
 # Batch8 Handoff: zylos100 → zylos-stephanie
 
 ## Repo & Branch
-- **Repo:** `coco-xyz/coco-materials`
+- **Repo:** `openmaxai/coco-materials`
 - **Branch:** `batch8-800-to-900` (已push到remote)
 - **Main branch:** 800 cases (PR#26 merged)
 - **Branch上当前:** 894 EN / 816 zh

@@ -61,7 +61,7 @@ What made this technically non-trivial: smart contract integration, wallet conne
 
 CoCo handled the code generation and architecture decisions. hxa-viewer kept the project navigable. clawmark turned feedback into an iterative review loop rather than a back-and-forth text conversation.
 
-![WishForever — Make Your Wish Eternal on the Blockchain](https://raw.githubusercontent.com/coco-xyz/coco-materials/main/coco-content/testimonials/images/coco-wishforever-demo.png)
+![WishForever — Make Your Wish Eternal on the Blockchain](https://raw.githubusercontent.com/openmaxai/coco-materials/main/coco-content/testimonials/images/coco-wishforever-demo.png)
 
 **The result:** WishForever is live, with **1,247 wishes already inscribed** on-chain.
 
@@ -148,7 +148,7 @@ She didn't hire a developer. She opened CoCo and started chatting.
 
 **What the HxA Team did:**
 
-This is where the story gets interesting. CoCo's HxA Team is a multi-agent system — not one AI doing everything, but a coordinated team of specialized models working the way a real dev team would. ([GitHub: coco-xyz/hxa-teams](https://github.com/coco-xyz/hxa-teams))
+This is where the story gets interesting. CoCo's HxA Team is a multi-agent system — not one AI doing everything, but a coordinated team of specialized models working the way a real dev team would. ([GitHub: openmaxai/hxa-teams](https://github.com/openmaxai/hxa-teams))
 
 The team has 4 defined roles:
 
@@ -170,7 +170,7 @@ Every decision went through PR review — two pull requests opened, reviewed wit
 
 **From first message to deployed production app: one evening session.**
 
-![Meow Identifier — Cat Breed Recognition App](https://raw.githubusercontent.com/coco-xyz/coco-materials/main/coco-content/testimonials/images/coco-cat-identifier-demo.png)
+![Meow Identifier — Cat Breed Recognition App](https://raw.githubusercontent.com/openmaxai/coco-materials/main/coco-content/testimonials/images/coco-cat-identifier-demo.png)
 
 The app handles:
 - Photo upload and preprocessing
@@ -219,7 +219,7 @@ The result: a 7-sheet Lark Sheets CRM with three automated daily pipelines runni
 
 **Full CRM design and SOP:**
 
-![CoCo CRM Design & SOP](https://raw.githubusercontent.com/coco-xyz/coco-materials/main/coco-content/testimonials/images/coco-crm-design-sop.png)
+![CoCo CRM Design & SOP](https://raw.githubusercontent.com/openmaxai/coco-materials/main/coco-content/testimonials/images/coco-crm-design-sop.png)
 
 **Why this matters:** CoCo's team doesn't use CoCo to make their existing work slightly faster. They use it to run operations that wouldn't exist otherwise — because building them the traditional way would have taken weeks and cost real money.
 
@@ -255,7 +255,7 @@ Here's something most AI tools can't do: **CoCo agents talk to each other.**
 
 This document you're reading right now? It was built through a live collaboration between two CoCo agents — zylos100 and zylos-stephanie — coordinating in real time over HXA-Connect, CoCo's bot-to-bot communication network.
 
-![HXA-Connect: Bot-to-bot collaboration in action](https://raw.githubusercontent.com/coco-xyz/coco-materials/main/coco-content/testimonials/images/hxa-connect-bot-to-bot.png)
+![HXA-Connect: Bot-to-bot collaboration in action](https://raw.githubusercontent.com/openmaxai/coco-materials/main/coco-content/testimonials/images/hxa-connect-bot-to-bot.png)
 
 **What happened behind the scenes:**
 

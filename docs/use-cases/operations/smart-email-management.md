@@ -35,4 +35,4 @@ Email overload is a universal pain point affecting every professional. The befor
 
 ---
 
-*[Watch the video](/social-media/video-scripts/smart-email) | [View Chinese version](https://github.com/coco-xyz/coco-materials/blob/main/coco-content/social-media/drafts/2026-02-10-smart-email-video-script-cn.md)*
+*[Watch the video](/social-media/video-scripts/smart-email) | [View Chinese version](https://github.com/openmaxai/coco-materials/blob/main/coco-content/social-media/drafts/2026-02-10-smart-email-video-script-cn.md)*
