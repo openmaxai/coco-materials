@@ -29,7 +29,7 @@ Detailed guide for connecting your AI employee to Telegram or Lark.
 
 | Item | Description |
 |------|-------------|
-| COCO Account | Registered and paid/trial active |
+| OpenMax Account | Registered and paid/trial active |
 | Channel Account | Your Telegram or Lark platform account |
 | ~10 minutes | Time to complete deployment |
 
@@ -49,25 +49,25 @@ Detailed guide for connecting your AI employee to Telegram or Lark.
 
 1. Open Telegram, search for **@BotFather** (official bot manager)
 2. Send `/newbot` command
-3. Enter your Bot display name (e.g., `My COCO AI`)
-4. Enter your Bot username (must end with `bot`, e.g., `my_coco_ai_bot`)
+3. Enter your Bot display name (e.g., `My OpenMax AI`)
+4. Enter your Bot username (must end with `bot`, e.g., `my_openmax_ai_bot`)
 5. BotFather returns a **Bot Token** (format: `110201543:AAHdqTcvCH1vGWJxfSeofSAs0K5PALDsaw`)
 6. **Copy and save this Token** — you'll need it next
 
 > **Important:** The Bot Token is your bot's unique credential. Do not share it with others.
 
-### Step 2: Connect in COCO Dashboard
+### Step 2: Connect in OpenMax Dashboard
 
-1. Log into [COCO Dashboard](https://icoco.ai/dashboard)
+1. Log into [OpenMax Dashboard](https://icoco.ai/dashboard)
 2. Open the **Channels** page and find the **Telegram** card
 3. Paste the **Bot Token** from Step 1
 4. Click **Connect**
 5. System automatically validates the Token and completes connection
 
-<img :src="withBase('/tg-dashboard-token.png')" alt="Paste the Bot Token into the Telegram card on the COCO Dashboard Channels page and click Connect" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+<img :src="withBase('/tg-dashboard-token.png')" alt="Paste the Bot Token into the Telegram card on the OpenMax Dashboard Channels page and click Connect" style="max-width: 720px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 ### Step 3: Start Using
-1. In Telegram, search for your Bot username (e.g., `@my_coco_ai_bot`)
+1. In Telegram, search for your Bot username (e.g., `@my_openmax_ai_bot`)
 2. Click **Start** or send `/start`
 3. Send any message — AI employee responds immediately
 4. Deployment complete!
@@ -127,7 +127,7 @@ In the Developer Backend, find the **Create Lark Smart Agent App** banner at the
 ##### Step 3: Fill in Information and Create
 
 1. Choose your preferred **avatar**
-2. Fill in the name (e.g., `COCO AI Employee`)
+2. Fill in the name (e.g., `OpenMax AI Employee`)
 3. Click **Create Now**
 
 <img :src="withBase('/lark-smart-agent-form.png')" alt="Create Lark Smart Agent — choose avatar, fill in name, click Create Now" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
@@ -136,15 +136,15 @@ In the Developer Backend, find the **Create Lark Smart Agent App** banner at the
 
 <br>
 
-##### Step 4: Fill in Credentials in COCO Dashboard and Deploy
+##### Step 4: Fill in Credentials in OpenMax Dashboard and Deploy
 
 1. After the Smart Agent is created, you will see the **App Created** page — copy the **App ID** and **App Secret**
 
 <img :src="withBase('/lark-smart-agent-credentials.png')" alt="App Created page — copy App ID and App Secret" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
-2. Log into [COCO Dashboard](https://icoco.ai/dashboard), click **Channels** on the left sidebar, select **Lark**, fill in the **App ID** and **App Secret**, then click **Connect** — the system will automatically deploy your AI employee (typically takes 2-3 minutes)
+2. Log into [OpenMax Dashboard](https://icoco.ai/dashboard), click **Channels** on the left sidebar, select **Lark**, fill in the **App ID** and **App Secret**, then click **Connect** — the system will automatically deploy your AI employee (typically takes 2-3 minutes)
 
-<img :src="withBase('/lark-smart-agent-dashboard-channel.png')" alt="COCO Dashboard — fill in App ID and App Secret, click Connect" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+<img :src="withBase('/lark-smart-agent-dashboard-channel.png')" alt="OpenMax Dashboard — fill in App ID and App Secret, click Connect" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 <br>
 
@@ -194,7 +194,7 @@ Once connected, search for the bot name you just set up in the **Lark client**, 
 ##### Step 2: Create a Custom App
 
 1. In the Developer Backend, click **Create Custom App**
-2. Enter app name (e.g., `COCO AI Employee`) and description
+2. Enter app name (e.g., `OpenMax AI Employee`) and description
 3. Click **Create** to finish
 
 > **Tip:** Enterprise admin permissions are required. If you're not an admin, contact your IT department or use a Lark personal account first.
@@ -299,9 +299,9 @@ In the app management page, go to **Permissions & Scopes**. Click **Batch Import
 
 > **Admin Approval:** After publishing a Lark custom app, the enterprise admin must approve it in the **Lark Admin Console** before the app becomes active. If you're using a personal account, this step is not needed.
 
-##### Step 7: Connect in COCO Dashboard and Deploy
+##### Step 7: Connect in OpenMax Dashboard and Deploy
 
-1. Log into [COCO Dashboard](https://icoco.ai/dashboard)
+1. Log into [OpenMax Dashboard](https://icoco.ai/dashboard)
 2. Go to the channel configuration page, select **Lark**
 3. Enter the following credentials:
 
@@ -362,7 +362,7 @@ In the Developer Backend, find the **Create Feishu Smart Agent App** banner at t
 ##### Step 3: Fill in Information and Create
 
 1. Choose your preferred **avatar**
-2. Fill in the name (e.g., `COCO AI Employee`)
+2. Fill in the name (e.g., `OpenMax AI Employee`)
 3. Click **Create Now**
 
 <img :src="withBase('/feishu-smart-agent-form.png')" alt="Create Feishu Smart Agent — choose avatar, fill in name, click Create Now" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
@@ -371,12 +371,12 @@ In the Developer Backend, find the **Create Feishu Smart Agent App** banner at t
 
 <br>
 
-##### Step 4: Fill in Credentials in COCO Dashboard and Deploy
+##### Step 4: Fill in Credentials in OpenMax Dashboard and Deploy
 
-1. Log into [COCO Dashboard](https://icoco.ai/dashboard)
+1. Log into [OpenMax Dashboard](https://icoco.ai/dashboard)
 2. Click **Channels** on the left sidebar, select **Feishu**
 
-<img :src="withBase('/feishu-smart-agent-dashboard-channel.png')" alt="COCO Dashboard — click Channels, select Feishu" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
+<img :src="withBase('/feishu-smart-agent-dashboard-channel.png')" alt="OpenMax Dashboard — click Channels, select Feishu" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
 3. Go back to the Smart Agent **Created Successfully** page, copy the App ID and App Secret
 
@@ -444,7 +444,7 @@ After connection is complete, search for your bot name in the **Feishu client**,
 ##### Step 2: Create an Enterprise App
 
 1. In the Developer Backend, click **Create Custom App**
-2. Enter app name (e.g., `COCO AI Employee`) and description, select an app icon
+2. Enter app name (e.g., `OpenMax AI Employee`) and description, select an app icon
 3. Click **Create** to finish
 4. After creation, go to **Credentials & Basic Info** in the left sidebar and note down:
    - **App ID**
@@ -528,9 +528,9 @@ In the Permission Management page, copy the following JSON and import all permis
 
 > **Tip:** On the same page you'll also find the **Encrypt Key** (optional). If you need encrypted communication, record this as well.
 
-##### Step 5: Connect in COCO Dashboard and Deploy
+##### Step 5: Connect in OpenMax Dashboard and Deploy
 
-1. Log into [COCO Dashboard](https://icoco.ai/dashboard)
+1. Log into [OpenMax Dashboard](https://icoco.ai/dashboard)
 2. Go to the channel configuration page, select **Feishu**
 3. Enter the following credentials:
 
@@ -614,7 +614,7 @@ At the bottom of the page, click **切换至 API 模式创建** (Switch to API M
 
 ### Step 5: Connect in Dashboard
 
-In the COCO Dashboard, go to the employee instance detail page → **Conversation Entrance** (会话入口) → click the **WeCom Connection** button → enter the **Bot ID** and **Secret** from Step 4. Click **Connect**.
+In the OpenMax Dashboard, go to the employee instance detail page → **Conversation Entrance** (会话入口) → click the **WeCom Connection** button → enter the **Bot ID** and **Secret** from Step 4. Click **Connect**.
 
 ### WeCom FAQ
 
@@ -647,7 +647,7 @@ Visit the DingTalk Open Platform [App Management](https://open-dev.dingtalk.com/
 
 ### Step 2: Enter Application Name and Description
 
-Enter the **Application Name** (e.g., `COCO AI Employee`) and **Description**, then click **Save**.
+Enter the **Application Name** (e.g., `OpenMax AI Employee`) and **Description**, then click **Save**.
 
 <img :src="withBase('/dingtalk-step2-app-name.png')" alt="Set App Name" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
 
@@ -694,7 +694,7 @@ On the robot configuration page, find the **RobotCode** (usually the same as App
 
 ### Step 8: Enter Credentials in Dashboard
 
-Enter the **AppKey**, **AppSecret**, and **RobotCode** into the COCO Dashboard's DingTalk channel configuration page and click Connect.
+Enter the **AppKey**, **AppSecret**, and **RobotCode** into the OpenMax Dashboard's DingTalk channel configuration page and click Connect.
 
 ### Step 9: Start Chatting
 
@@ -732,7 +732,7 @@ Two credentials are required:
 1. Visit [Slack App Management](https://api.slack.com/apps) and log in
 2. Click **Create New App** in the top-right corner
 3. Select **From scratch** in the popup
-4. Enter your App name (e.g., `COCO AI Employee`) and select the Workspace to install to
+4. Enter your App name (e.g., `OpenMax AI Employee`) and select the Workspace to install to
 5. Click **Create App** to finish
 
 <img :src="withBase('/slack-step1-create-app.png')" alt="Create Slack App" style="max-width: 520px; width: 100%; border-radius: 8px; margin: 0.5rem 0;" />
@@ -864,13 +864,13 @@ No credentials are required. You only need:
 
 | Item | Description |
 |------|-------------|
-| COCO AI Employee | An existing instance in COCO Dashboard |
+| OpenMax AI Employee | An existing instance in OpenMax Dashboard |
 | WhatsApp Account | A phone with WhatsApp installed and logged in |
 | ~5 minutes | Time to complete deployment |
 
 ### Step 1: Create an AI Employee and Enter Configuration Page
 
-1. Log into [COCO Dashboard](https://icoco.ai/dashboard)
+1. Log into [OpenMax Dashboard](https://icoco.ai/dashboard)
 2. Create a new AI employee or select an existing instance
 3. Click **Configure →** on the employee card to enter the instance detail page
 
@@ -1308,15 +1308,15 @@ One credential is required:
 
 1. Visit the [Zalo Bot Platform](https://bot.zaloplatforms.com) and log in with your Zalo account
 2. Click **Create Bot**
-3. Enter a bot name (e.g., `COCO AI`) and description
+3. Enter a bot name (e.g., `OpenMax AI`) and description
 4. After creation, you will see your **Bot Token** (format: `numeric_id:secret`)
 5. **Copy and save this Token** — you'll need it in the next step
 
 > **Important:** The Bot Token is your bot's unique credential. Do not share it with others.
 
-### Step 2: Connect in COCO Dashboard
+### Step 2: Connect in OpenMax Dashboard
 
-1. Log into [COCO Dashboard](https://icoco.ai/dashboard)
+1. Log into [OpenMax Dashboard](https://icoco.ai/dashboard)
 2. Go to the employee instance detail page
 3. Find the **Zalo (Official)** card and click **Connect**
 4. Paste the **Bot Token** from Step 1
@@ -1335,7 +1335,7 @@ One credential is required:
 
 | Issue | Solution |
 |-------|----------|
-| Bot not responding | Verify the Bot Token is correct. Check the connection status in COCO Dashboard |
+| Bot not responding | Verify the Bot Token is correct. Check the connection status in OpenMax Dashboard |
 | Cannot send images to bot | Ensure the image is under 10 MB. Supported formats: JPG, PNG |
 | Bot image not displaying | Outbound images must be hosted on a publicly accessible HTTPS URL |
 | Others can't message the bot | By default only the Owner can chat. Enable Allowlist or Open mode to grant access |
@@ -1354,15 +1354,15 @@ Zalo Personal (Unofficial) uses an unofficial, reverse-engineered protocol (zca-
 :::
 
 ::: warning Use a Dedicated Zalo Account
-Please use a **separate, dedicated Zalo account** for the bot — do **not** use the same Zalo account that users will use to talk to your COCO agent. The connected account becomes the bot's identity, so it must be a different account from any user who will interact with it.
+Please use a **separate, dedicated Zalo account** for the bot — do **not** use the same Zalo account that users will use to talk to your OpenMax agent. The connected account becomes the bot's identity, so it must be a different account from any user who will interact with it.
 :::
 
 No credentials are required. Authentication is done entirely via QR code:
 
 | Item | Description |
 |------|-------------|
-| COCO AI Employee | An existing AI employee with at least one channel already connected (e.g., Telegram, Lark, WhatsApp) |
-| Dedicated Zalo Account | A phone with Zalo installed and logged in to a **separate account** — not the same account users will use to message your COCO agent |
+| OpenMax AI Employee | An existing AI employee with at least one channel already connected (e.g., Telegram, Lark, WhatsApp) |
+| Dedicated Zalo Account | A phone with Zalo installed and logged in to a **separate account** — not the same account users will use to message your OpenMax agent |
 | ~2 minutes | Time to complete deployment |
 
 ### Step 1: Ask Your AI Employee to Install Zalo Personal (Unofficial)
@@ -1419,7 +1419,7 @@ One credential is required:
 
 1. Visit the [Discord Developer Portal](https://discord.com/developers/applications) and log in
 2. Click **New Application** in the top-right corner
-3. Enter a name (e.g., `COCO AI Employee`) and click **Create**
+3. Enter a name (e.g., `OpenMax AI Employee`) and click **Create**
 
 ### Step 2: Add a Bot & Copy the Token
 
@@ -1452,9 +1452,9 @@ One credential is required:
 
 > **Note:** DMs work without a server invite — a server invite is only needed for server/channel use.
 
-### Step 5: Connect in COCO Dashboard
+### Step 5: Connect in OpenMax Dashboard
 
-1. Log into [COCO Dashboard](https://icoco.ai/dashboard)
+1. Log into [OpenMax Dashboard](https://icoco.ai/dashboard)
 2. Go to the employee instance detail page
 3. Find the **Discord** card and click **Connect**
 4. Paste the **Bot Token** from Step 2
@@ -1499,9 +1499,9 @@ LINE connects with two credentials — a **Channel Access Token** and a **Channe
 
 > **Important:** Both values are secrets — don't share them. The numeric Channel ID is **not** required.
 
-### Step 3: Connect in COCO Dashboard
+### Step 3: Connect in OpenMax Dashboard
 
-1. Log into [COCO Dashboard](https://icoco.ai/dashboard) and open the employee instance detail page (or the **Channels** step in the hire flow).
+1. Log into [OpenMax Dashboard](https://icoco.ai/dashboard) and open the employee instance detail page (or the **Channels** step in the hire flow).
 2. Find the **LINE** card and click **Connect**.
 3. Paste the **Channel Access Token** and **Channel Secret** from Step 2.
 4. Click **Connect** — the system validates the token and deploys your LINE channel.
@@ -1531,19 +1531,19 @@ LINE connects with two credentials — a **Channel Access Token** and a **Channe
 | Sending images / video / voice / files | Supported out of the box — send them in chat and the AI employee reads (and can transcribe voice) them |
 | Want to disconnect | Click the **Disconnect** button on the LINE card in the employee detail page |
 
-<!-- Commented out: previous dashboard-based setup flow (replaced by agent-based flow above — Zalo Personal (Unofficial) is no longer configured through the COCO Dashboard UI)
+<!-- Commented out: previous dashboard-based setup flow (replaced by agent-based flow above — Zalo Personal (Unofficial) is no longer configured through the OpenMax Dashboard UI)
 
 No credentials are required. Authentication is done entirely via QR code:
 
 | Item | Description |
 |------|-------------|
-| COCO AI Employee | An existing instance in COCO Dashboard |
-| Dedicated Zalo Account | A phone with Zalo installed and logged in to a **separate account** — not the same account users will use to message your COCO agent |
+| OpenMax AI Employee | An existing instance in OpenMax Dashboard |
+| Dedicated Zalo Account | A phone with Zalo installed and logged in to a **separate account** — not the same account users will use to message your OpenMax agent |
 | ~2 minutes | Time to complete deployment |
 
 ### Step 1: Click Connect on the Zalo Personal (Unofficial) Card
 
-1. Log into [COCO Dashboard](https://icoco.ai/dashboard)
+1. Log into [OpenMax Dashboard](https://icoco.ai/dashboard)
 2. Go to the employee instance detail page
 3. Find the **Zalo Personal (Unofficial)** card and click **Connect**
 4. The system will generate a QR code — this may take a few seconds
@@ -1583,19 +1583,19 @@ No credentials are required. Authentication is done entirely via QR code:
 
 **Estimated time: ~5 minutes**
 
-> **Note:** This channel uses Meta's **official WhatsApp Business Platform (Cloud API)**. You bring a phone number, verify it with a one-time code right in the Dashboard, and COCO handles everything on the Meta side — no Meta developer account, API keys, or QR/phone linking needed. Prefer linking a regular WhatsApp account by QR code instead? See [WhatsApp](#whatsapp).
+> **Note:** This channel uses Meta's **official WhatsApp Business Platform (Cloud API)**. You bring a phone number, verify it with a one-time code right in the Dashboard, and OpenMax handles everything on the Meta side — no Meta developer account, API keys, or QR/phone linking needed. Prefer linking a regular WhatsApp account by QR code instead? See [WhatsApp](#whatsapp).
 
 No credentials are required. You only need:
 
 | Item | Description |
 |------|-------------|
-| COCO AI Employee | An existing instance in COCO Dashboard |
+| OpenMax AI Employee | An existing instance in OpenMax Dashboard |
 | Phone Number | A number that can receive an SMS or voice call, and is **not** currently registered on WhatsApp or another WhatsApp Business account |
 | ~5 minutes | Time to complete deployment |
 
 ### Step 1: Click Connect on the WhatsApp Business Card
 
-1. Log into [COCO Dashboard](https://icoco.ai/dashboard) and open the employee instance detail page
+1. Log into [OpenMax Dashboard](https://icoco.ai/dashboard) and open the employee instance detail page
 2. Find the **WhatsApp Business** card and click **Connect**
 
 ### Step 2: Enter Your Phone Number and Display Name
