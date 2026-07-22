@@ -398,13 +398,13 @@ export default defineConfig({
               text: 'Case Studies',
               items: [
                 { text: 'Capability Showcase', link: '/case-studies/' },
-                { text: 'COCO CRM — Built by AI, Run by AI', link: '/case-studies/crm' },
+                { text: 'OpenMax CRM — Built by AI, Run by AI', link: '/case-studies/crm' },
                 { text: 'HxA AI Team — 7 Parallel Agents', link: '/case-studies/hxa-team' },
                 { text: 'Social Media & BD Automation', link: '/case-studies/social-media' },
                 { text: 'AI Due Diligence — 20 Hours to 2', link: '/case-studies/deal-flow-dd' },
                 { text: 'Customer Service Email Automation', link: '/case-studies/email-automation' },
                 { text: 'Manufacturing AI — From Pain Points to Smart Production', link: '/case-studies/manufacturing-ai' },
-                { text: 'COCO Automated Video Generation', link: '/case-studies/seedance-video' },
+                { text: 'OpenMax Automated Video Generation', link: '/case-studies/seedance-video' },
                 { text: 'Browser Automation: Let AI Operate Web Pages', link: '/case-studies/browser-automation' },
               ]
             },
@@ -583,13 +583,13 @@ export default defineConfig({
               text: '案例研究',
               items: [
                 { text: '能力展示', link: '/zh/case-studies/' },
-                { text: 'COCO CRM — AI 搭建，AI 运营', link: '/zh/case-studies/crm' },
+                { text: 'OpenMax CRM — AI 搭建，AI 运营', link: '/zh/case-studies/crm' },
                 { text: 'HxA AI 团队 — 7 个 Agent 并行协作', link: '/zh/case-studies/hxa-team' },
                 { text: '社媒与 BD 自动化', link: '/zh/case-studies/social-media' },
                 { text: 'AI 投资尽调 — 20小时压缩到2小时', link: '/zh/case-studies/deal-flow-dd' },
                 { text: '客服邮件自动化', link: '/zh/case-studies/email-automation' },
                 { text: '制造业 AI — 从痛点到产线智能', link: '/zh/case-studies/manufacturing-ai' },
-                { text: 'COCO 自动化生成视频', link: '/zh/case-studies/seedance-video' },
+                { text: 'OpenMax 自动化生成视频', link: '/zh/case-studies/seedance-video' },
                 { text: '浏览器自动化：让 AI 帮你操作网页', link: '/zh/case-studies/browser-automation' },
               ]
             },
