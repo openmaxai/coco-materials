@@ -13,7 +13,7 @@ AI-powered use cases for data scientist professionals.
 
 > Organizations operating in Telecommunications face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Telecom Customer Churn Prediction Modeler**
 
@@ -23,44 +23,44 @@ The core challenge is that churn prediction requires synthesizing large volumes 
 
 The downstream cost extends beyond direct labor. Delayed outputs slow downstream decisions. Inconsistent quality creates rework cycles. Missed insights lead to suboptimal resource allocation. And when teams are overwhelmed with execution, there's no bandwidth left for the proactive thinking that prevents problems before they occur — creating a reactive culture that's perpetually behind.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Intelligent Data Ingestion and Structuring**: COCO connects to relevant data sources and normalizes inputs:
+1. **Intelligent Data Ingestion and Structuring**: OpenMax connects to relevant data sources and normalizes inputs:
    - Ingests documents, spreadsheets, databases, and unstructured text simultaneously
    - Identifies key entities, metrics, and relationships across disparate data sources
    - Applies domain-specific schemas to structure raw inputs into analyzable formats
    - Flags data quality issues, missing fields, and inconsistencies before analysis begins
    - Maintains audit trails linking every output back to its source data
 
-2. **Pattern Recognition and Anomaly Detection**: COCO surfaces insights that manual review misses:
+2. **Pattern Recognition and Anomaly Detection**: OpenMax surfaces insights that manual review misses:
    - Applies statistical models to identify trends, outliers, and emerging patterns
    - Benchmarks current performance against historical baselines and industry standards
    - Detects early warning signals before they escalate into critical issues
    - Cross-references multiple data dimensions to reveal non-obvious correlations
    - Prioritizes findings by potential business impact and urgency
 
-3. **Automated Report and Document Generation**: COCO eliminates manual document production:
+3. **Automated Report and Document Generation**: OpenMax eliminates manual document production:
    - Generates structured reports following organization-specific templates and standards
    - Produces executive summaries calibrated to the appropriate audience and detail level
    - Creates supporting visualizations, tables, and data exhibits automatically
    - Maintains consistent terminology, formatting, and citation standards across all outputs
    - Drafts multiple output versions (technical detail vs. executive summary) from the same analysis
 
-4. **Workflow Automation and Task Orchestration**: COCO streamlines multi-step processes:
+4. **Workflow Automation and Task Orchestration**: OpenMax streamlines multi-step processes:
    - Breaks complex workflows into discrete, trackable steps with clear ownership
    - Automates handoffs between team members with appropriate context and instructions
    - Tracks completion status and surfaces blockers before deadlines are missed
    - Generates checklists, reminders, and escalation triggers at critical checkpoints
    - Integrates with existing tools (Slack, email, project management) to reduce context switching
 
-5. **Quality Assurance and Compliance Checking**: COCO builds quality into the process:
+5. **Quality Assurance and Compliance Checking**: OpenMax builds quality into the process:
    - Validates outputs against regulatory requirements and internal policy standards
    - Checks for completeness, consistency, and accuracy before outputs are finalized
    - Documents the reasoning behind key recommendations for review and audit purposes
    - Flags potential compliance risks or policy violations with specific rule references
    - Maintains a version history of all outputs for regulatory and audit purposes
 
-6. **Continuous Improvement and Learning**: COCO improves outcomes over time:
+6. **Continuous Improvement and Learning**: OpenMax improves outcomes over time:
    - Tracks which recommendations were acted on and correlates with downstream outcomes
    - Identifies systematic biases or gaps in the current process
    - Recommends process improvements based on analysis of workflow bottlenecks
@@ -73,7 +73,7 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 
 **Measurable Results**
 
-- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with COCO assistance (85% time savings)
+- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with OpenMax assistance (85% time savings)
 - **Output quality score**: Improved from 71% accuracy on manual reviews to **96% with AI-assisted validation**
 - **Throughput capacity**: Team handles **3.4x more cases** monthly without additional headcount
 - **Error rate and rework**: Downstream errors requiring rework reduced from 18% to **under 3%**
@@ -212,7 +212,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Agriculture face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Agriculture Crop Yield Forecaster**
 
@@ -222,44 +222,44 @@ The core challenge is that yield forecasting requires synthesizing large volumes
 
 The downstream cost extends beyond direct labor. Delayed outputs slow downstream decisions. Inconsistent quality creates rework cycles. Missed insights lead to suboptimal resource allocation. And when teams are overwhelmed with execution, there's no bandwidth left for the proactive thinking that prevents problems before they occur — creating a reactive culture that's perpetually behind.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Intelligent Data Ingestion and Structuring**: COCO connects to relevant data sources and normalizes inputs:
+1. **Intelligent Data Ingestion and Structuring**: OpenMax connects to relevant data sources and normalizes inputs:
    - Ingests documents, spreadsheets, databases, and unstructured text simultaneously
    - Identifies key entities, metrics, and relationships across disparate data sources
    - Applies domain-specific schemas to structure raw inputs into analyzable formats
    - Flags data quality issues, missing fields, and inconsistencies before analysis begins
    - Maintains audit trails linking every output back to its source data
 
-2. **Pattern Recognition and Anomaly Detection**: COCO surfaces insights that manual review misses:
+2. **Pattern Recognition and Anomaly Detection**: OpenMax surfaces insights that manual review misses:
    - Applies statistical models to identify trends, outliers, and emerging patterns
    - Benchmarks current performance against historical baselines and industry standards
    - Detects early warning signals before they escalate into critical issues
    - Cross-references multiple data dimensions to reveal non-obvious correlations
    - Prioritizes findings by potential business impact and urgency
 
-3. **Automated Report and Document Generation**: COCO eliminates manual document production:
+3. **Automated Report and Document Generation**: OpenMax eliminates manual document production:
    - Generates structured reports following organization-specific templates and standards
    - Produces executive summaries calibrated to the appropriate audience and detail level
    - Creates supporting visualizations, tables, and data exhibits automatically
    - Maintains consistent terminology, formatting, and citation standards across all outputs
    - Drafts multiple output versions (technical detail vs. executive summary) from the same analysis
 
-4. **Workflow Automation and Task Orchestration**: COCO streamlines multi-step processes:
+4. **Workflow Automation and Task Orchestration**: OpenMax streamlines multi-step processes:
    - Breaks complex workflows into discrete, trackable steps with clear ownership
    - Automates handoffs between team members with appropriate context and instructions
    - Tracks completion status and surfaces blockers before deadlines are missed
    - Generates checklists, reminders, and escalation triggers at critical checkpoints
    - Integrates with existing tools (Slack, email, project management) to reduce context switching
 
-5. **Quality Assurance and Compliance Checking**: COCO builds quality into the process:
+5. **Quality Assurance and Compliance Checking**: OpenMax builds quality into the process:
    - Validates outputs against regulatory requirements and internal policy standards
    - Checks for completeness, consistency, and accuracy before outputs are finalized
    - Documents the reasoning behind key recommendations for review and audit purposes
    - Flags potential compliance risks or policy violations with specific rule references
    - Maintains a version history of all outputs for regulatory and audit purposes
 
-6. **Continuous Improvement and Learning**: COCO improves outcomes over time:
+6. **Continuous Improvement and Learning**: OpenMax improves outcomes over time:
    - Tracks which recommendations were acted on and correlates with downstream outcomes
    - Identifies systematic biases or gaps in the current process
    - Recommends process improvements based on analysis of workflow bottlenecks
@@ -272,7 +272,7 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 
 **Measurable Results**
 
-- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with COCO assistance (85% time savings)
+- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with OpenMax assistance (85% time savings)
 - **Output quality score**: Improved from 71% accuracy on manual reviews to **96% with AI-assisted validation**
 - **Throughput capacity**: Team handles **3.4x more cases** monthly without additional headcount
 - **Error rate and rework**: Downstream errors requiring rework reduced from 18% to **under 3%**
@@ -411,7 +411,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Data Scientist Feature Failuresering Guesswork**
 
@@ -421,44 +421,44 @@ The core challenge is that data analysis requires synthesizing large volumes of 
 
 The downstream cost extends beyond direct labor. Delayed outputs slow downstream decisions. Inconsistent quality creates rework cycles. Missed insights lead to suboptimal resource allocation. And when teams are overwhelmed with execution, there's no bandwidth left for the proactive thinking that prevents problems before they occur — creating a reactive culture that's perpetually behind.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Intelligent Data Ingestion and Structuring**: COCO connects to relevant data sources and normalizes inputs:
+1. **Intelligent Data Ingestion and Structuring**: OpenMax connects to relevant data sources and normalizes inputs:
    - Ingests documents, spreadsheets, databases, and unstructured text simultaneously
    - Identifies key entities, metrics, and relationships across disparate data sources
    - Applies domain-specific schemas to structure raw inputs into analyzable formats
    - Flags data quality issues, missing fields, and inconsistencies before analysis begins
    - Maintains audit trails linking every output back to its source data
 
-2. **Pattern Recognition and Anomaly Detection**: COCO surfaces insights that manual review misses:
+2. **Pattern Recognition and Anomaly Detection**: OpenMax surfaces insights that manual review misses:
    - Applies statistical models to identify trends, outliers, and emerging patterns
    - Benchmarks current performance against historical baselines and industry standards
    - Detects early warning signals before they escalate into critical issues
    - Cross-references multiple data dimensions to reveal non-obvious correlations
    - Prioritizes findings by potential business impact and urgency
 
-3. **Automated Report and Document Generation**: COCO eliminates manual document production:
+3. **Automated Report and Document Generation**: OpenMax eliminates manual document production:
    - Generates structured reports following organization-specific templates and standards
    - Produces executive summaries calibrated to the appropriate audience and detail level
    - Creates supporting visualizations, tables, and data exhibits automatically
    - Maintains consistent terminology, formatting, and citation standards across all outputs
    - Drafts multiple output versions (technical detail vs. executive summary) from the same analysis
 
-4. **Workflow Automation and Task Orchestration**: COCO streamlines multi-step processes:
+4. **Workflow Automation and Task Orchestration**: OpenMax streamlines multi-step processes:
    - Breaks complex workflows into discrete, trackable steps with clear ownership
    - Automates handoffs between team members with appropriate context and instructions
    - Tracks completion status and surfaces blockers before deadlines are missed
    - Generates checklists, reminders, and escalation triggers at critical checkpoints
    - Integrates with existing tools (Slack, email, project management) to reduce context switching
 
-5. **Quality Assurance and Compliance Checking**: COCO builds quality into the process:
+5. **Quality Assurance and Compliance Checking**: OpenMax builds quality into the process:
    - Validates outputs against regulatory requirements and internal policy standards
    - Checks for completeness, consistency, and accuracy before outputs are finalized
    - Documents the reasoning behind key recommendations for review and audit purposes
    - Flags potential compliance risks or policy violations with specific rule references
    - Maintains a version history of all outputs for regulatory and audit purposes
 
-6. **Continuous Improvement and Learning**: COCO improves outcomes over time:
+6. **Continuous Improvement and Learning**: OpenMax improves outcomes over time:
    - Tracks which recommendations were acted on and correlates with downstream outcomes
    - Identifies systematic biases or gaps in the current process
    - Recommends process improvements based on analysis of workflow bottlenecks
@@ -471,7 +471,7 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 
 **Measurable Results**
 
-- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with COCO assistance (85% time savings)
+- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with OpenMax assistance (85% time savings)
 - **Output quality score**: Improved from 71% accuracy on manual reviews to **96% with AI-assisted validation**
 - **Throughput capacity**: Team handles **3.4x more cases** monthly without additional headcount
 - **Error rate and rework**: Downstream errors requiring rework reduced from 18% to **under 3%**
@@ -610,7 +610,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Financial Services face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Data Scientist Model Explainability Reporter**
 
@@ -620,44 +620,44 @@ The core challenge is that reporting requires synthesizing large volumes of stru
 
 The downstream cost extends beyond direct labor. Delayed outputs slow downstream decisions. Inconsistent quality creates rework cycles. Missed insights lead to suboptimal resource allocation. And when teams are overwhelmed with execution, there's no bandwidth left for the proactive thinking that prevents problems before they occur — creating a reactive culture that's perpetually behind.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Intelligent Data Ingestion and Structuring**: COCO connects to relevant data sources and normalizes inputs:
+1. **Intelligent Data Ingestion and Structuring**: OpenMax connects to relevant data sources and normalizes inputs:
    - Ingests documents, spreadsheets, databases, and unstructured text simultaneously
    - Identifies key entities, metrics, and relationships across disparate data sources
    - Applies domain-specific schemas to structure raw inputs into analyzable formats
    - Flags data quality issues, missing fields, and inconsistencies before analysis begins
    - Maintains audit trails linking every output back to its source data
 
-2. **Pattern Recognition and Anomaly Detection**: COCO surfaces insights that manual review misses:
+2. **Pattern Recognition and Anomaly Detection**: OpenMax surfaces insights that manual review misses:
    - Applies statistical models to identify trends, outliers, and emerging patterns
    - Benchmarks current performance against historical baselines and industry standards
    - Detects early warning signals before they escalate into critical issues
    - Cross-references multiple data dimensions to reveal non-obvious correlations
    - Prioritizes findings by potential business impact and urgency
 
-3. **Automated Report and Document Generation**: COCO eliminates manual document production:
+3. **Automated Report and Document Generation**: OpenMax eliminates manual document production:
    - Generates structured reports following organization-specific templates and standards
    - Produces executive summaries calibrated to the appropriate audience and detail level
    - Creates supporting visualizations, tables, and data exhibits automatically
    - Maintains consistent terminology, formatting, and citation standards across all outputs
    - Drafts multiple output versions (technical detail vs. executive summary) from the same analysis
 
-4. **Workflow Automation and Task Orchestration**: COCO streamlines multi-step processes:
+4. **Workflow Automation and Task Orchestration**: OpenMax streamlines multi-step processes:
    - Breaks complex workflows into discrete, trackable steps with clear ownership
    - Automates handoffs between team members with appropriate context and instructions
    - Tracks completion status and surfaces blockers before deadlines are missed
    - Generates checklists, reminders, and escalation triggers at critical checkpoints
    - Integrates with existing tools (Slack, email, project management) to reduce context switching
 
-5. **Quality Assurance and Compliance Checking**: COCO builds quality into the process:
+5. **Quality Assurance and Compliance Checking**: OpenMax builds quality into the process:
    - Validates outputs against regulatory requirements and internal policy standards
    - Checks for completeness, consistency, and accuracy before outputs are finalized
    - Documents the reasoning behind key recommendations for review and audit purposes
    - Flags potential compliance risks or policy violations with specific rule references
    - Maintains a version history of all outputs for regulatory and audit purposes
 
-6. **Continuous Improvement and Learning**: COCO improves outcomes over time:
+6. **Continuous Improvement and Learning**: OpenMax improves outcomes over time:
    - Tracks which recommendations were acted on and correlates with downstream outcomes
    - Identifies systematic biases or gaps in the current process
    - Recommends process improvements based on analysis of workflow bottlenecks
@@ -670,7 +670,7 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 
 **Measurable Results**
 
-- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with COCO assistance (85% time savings)
+- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with OpenMax assistance (85% time savings)
 - **Output quality score**: Improved from 71% accuracy on manual reviews to **96% with AI-assisted validation**
 - **Throughput capacity**: Team handles **3.4x more cases** monthly without additional headcount
 - **Error rate and rework**: Downstream errors requiring rework reduced from 18% to **under 3%**
@@ -809,7 +809,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Healthcare face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Healthcare Patient Readmission Risk Scorer**
 
@@ -819,44 +819,44 @@ The core challenge is that risk scoring requires synthesizing large volumes of s
 
 The downstream cost extends beyond direct labor. Delayed outputs slow downstream decisions. Inconsistent quality creates rework cycles. Missed insights lead to suboptimal resource allocation. And when teams are overwhelmed with execution, there's no bandwidth left for the proactive thinking that prevents problems before they occur — creating a reactive culture that's perpetually behind.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Intelligent Data Ingestion and Structuring**: COCO connects to relevant data sources and normalizes inputs:
+1. **Intelligent Data Ingestion and Structuring**: OpenMax connects to relevant data sources and normalizes inputs:
    - Ingests documents, spreadsheets, databases, and unstructured text simultaneously
    - Identifies key entities, metrics, and relationships across disparate data sources
    - Applies domain-specific schemas to structure raw inputs into analyzable formats
    - Flags data quality issues, missing fields, and inconsistencies before analysis begins
    - Maintains audit trails linking every output back to its source data
 
-2. **Pattern Recognition and Anomaly Detection**: COCO surfaces insights that manual review misses:
+2. **Pattern Recognition and Anomaly Detection**: OpenMax surfaces insights that manual review misses:
    - Applies statistical models to identify trends, outliers, and emerging patterns
    - Benchmarks current performance against historical baselines and industry standards
    - Detects early warning signals before they escalate into critical issues
    - Cross-references multiple data dimensions to reveal non-obvious correlations
    - Prioritizes findings by potential business impact and urgency
 
-3. **Automated Report and Document Generation**: COCO eliminates manual document production:
+3. **Automated Report and Document Generation**: OpenMax eliminates manual document production:
    - Generates structured reports following organization-specific templates and standards
    - Produces executive summaries calibrated to the appropriate audience and detail level
    - Creates supporting visualizations, tables, and data exhibits automatically
    - Maintains consistent terminology, formatting, and citation standards across all outputs
    - Drafts multiple output versions (technical detail vs. executive summary) from the same analysis
 
-4. **Workflow Automation and Task Orchestration**: COCO streamlines multi-step processes:
+4. **Workflow Automation and Task Orchestration**: OpenMax streamlines multi-step processes:
    - Breaks complex workflows into discrete, trackable steps with clear ownership
    - Automates handoffs between team members with appropriate context and instructions
    - Tracks completion status and surfaces blockers before deadlines are missed
    - Generates checklists, reminders, and escalation triggers at critical checkpoints
    - Integrates with existing tools (Slack, email, project management) to reduce context switching
 
-5. **Quality Assurance and Compliance Checking**: COCO builds quality into the process:
+5. **Quality Assurance and Compliance Checking**: OpenMax builds quality into the process:
    - Validates outputs against regulatory requirements and internal policy standards
    - Checks for completeness, consistency, and accuracy before outputs are finalized
    - Documents the reasoning behind key recommendations for review and audit purposes
    - Flags potential compliance risks or policy violations with specific rule references
    - Maintains a version history of all outputs for regulatory and audit purposes
 
-6. **Continuous Improvement and Learning**: COCO improves outcomes over time:
+6. **Continuous Improvement and Learning**: OpenMax improves outcomes over time:
    - Tracks which recommendations were acted on and correlates with downstream outcomes
    - Identifies systematic biases or gaps in the current process
    - Recommends process improvements based on analysis of workflow bottlenecks
@@ -869,7 +869,7 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 
 **Measurable Results**
 
-- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with COCO assistance (85% time savings)
+- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with OpenMax assistance (85% time savings)
 - **Output quality score**: Improved from 71% accuracy on manual reviews to **96% with AI-assisted validation**
 - **Throughput capacity**: Team handles **3.4x more cases** monthly without additional headcount
 - **Error rate and rework**: Downstream errors requiring rework reduced from 18% to **under 3%**
@@ -1008,7 +1008,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in E-Commerce face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: A/B Test Design and Analysis Guesswork**
 
@@ -1018,44 +1018,44 @@ The core challenge is that data analysis requires synthesizing large volumes of 
 
 The downstream cost extends beyond direct labor. Delayed outputs slow downstream decisions. Inconsistent quality creates rework cycles. Missed insights lead to suboptimal resource allocation. And when teams are overwhelmed with execution, there's no bandwidth left for the proactive thinking that prevents problems before they occur — creating a reactive culture that's perpetually behind.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Intelligent Data Ingestion and Structuring**: COCO connects to relevant data sources and normalizes inputs:
+1. **Intelligent Data Ingestion and Structuring**: OpenMax connects to relevant data sources and normalizes inputs:
    - Ingests documents, spreadsheets, databases, and unstructured text simultaneously
    - Identifies key entities, metrics, and relationships across disparate data sources
    - Applies domain-specific schemas to structure raw inputs into analyzable formats
    - Flags data quality issues, missing fields, and inconsistencies before analysis begins
    - Maintains audit trails linking every output back to its source data
 
-2. **Pattern Recognition and Anomaly Detection**: COCO surfaces insights that manual review misses:
+2. **Pattern Recognition and Anomaly Detection**: OpenMax surfaces insights that manual review misses:
    - Applies statistical models to identify trends, outliers, and emerging patterns
    - Benchmarks current performance against historical baselines and industry standards
    - Detects early warning signals before they escalate into critical issues
    - Cross-references multiple data dimensions to reveal non-obvious correlations
    - Prioritizes findings by potential business impact and urgency
 
-3. **Automated Report and Document Generation**: COCO eliminates manual document production:
+3. **Automated Report and Document Generation**: OpenMax eliminates manual document production:
    - Generates structured reports following organization-specific templates and standards
    - Produces executive summaries calibrated to the appropriate audience and detail level
    - Creates supporting visualizations, tables, and data exhibits automatically
    - Maintains consistent terminology, formatting, and citation standards across all outputs
    - Drafts multiple output versions (technical detail vs. executive summary) from the same analysis
 
-4. **Workflow Automation and Task Orchestration**: COCO streamlines multi-step processes:
+4. **Workflow Automation and Task Orchestration**: OpenMax streamlines multi-step processes:
    - Breaks complex workflows into discrete, trackable steps with clear ownership
    - Automates handoffs between team members with appropriate context and instructions
    - Tracks completion status and surfaces blockers before deadlines are missed
    - Generates checklists, reminders, and escalation triggers at critical checkpoints
    - Integrates with existing tools (Slack, email, project management) to reduce context switching
 
-5. **Quality Assurance and Compliance Checking**: COCO builds quality into the process:
+5. **Quality Assurance and Compliance Checking**: OpenMax builds quality into the process:
    - Validates outputs against regulatory requirements and internal policy standards
    - Checks for completeness, consistency, and accuracy before outputs are finalized
    - Documents the reasoning behind key recommendations for review and audit purposes
    - Flags potential compliance risks or policy violations with specific rule references
    - Maintains a version history of all outputs for regulatory and audit purposes
 
-6. **Continuous Improvement and Learning**: COCO improves outcomes over time:
+6. **Continuous Improvement and Learning**: OpenMax improves outcomes over time:
    - Tracks which recommendations were acted on and correlates with downstream outcomes
    - Identifies systematic biases or gaps in the current process
    - Recommends process improvements based on analysis of workflow bottlenecks
@@ -1068,7 +1068,7 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 
 **Measurable Results**
 
-- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with COCO assistance (85% time savings)
+- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with OpenMax assistance (85% time savings)
 - **Output quality score**: Improved from 71% accuracy on manual reviews to **96% with AI-assisted validation**
 - **Throughput capacity**: Team handles **3.4x more cases** monthly without additional headcount
 - **Error rate and rework**: Downstream errors requiring rework reduced from 18% to **under 3%**
@@ -1207,7 +1207,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Financial Services face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Time Series Forecasting Guesswork**
 
@@ -1217,44 +1217,44 @@ The core challenge is that data analysis requires synthesizing large volumes of 
 
 The downstream cost extends beyond direct labor. Delayed outputs slow downstream decisions. Inconsistent quality creates rework cycles. Missed insights lead to suboptimal resource allocation. And when teams are overwhelmed with execution, there's no bandwidth left for the proactive thinking that prevents problems before they occur — creating a reactive culture that's perpetually behind.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Intelligent Data Ingestion and Structuring**: COCO connects to relevant data sources and normalizes inputs:
+1. **Intelligent Data Ingestion and Structuring**: OpenMax connects to relevant data sources and normalizes inputs:
    - Ingests documents, spreadsheets, databases, and unstructured text simultaneously
    - Identifies key entities, metrics, and relationships across disparate data sources
    - Applies domain-specific schemas to structure raw inputs into analyzable formats
    - Flags data quality issues, missing fields, and inconsistencies before analysis begins
    - Maintains audit trails linking every output back to its source data
 
-2. **Pattern Recognition and Anomaly Detection**: COCO surfaces insights that manual review misses:
+2. **Pattern Recognition and Anomaly Detection**: OpenMax surfaces insights that manual review misses:
    - Applies statistical models to identify trends, outliers, and emerging patterns
    - Benchmarks current performance against historical baselines and industry standards
    - Detects early warning signals before they escalate into critical issues
    - Cross-references multiple data dimensions to reveal non-obvious correlations
    - Prioritizes findings by potential business impact and urgency
 
-3. **Automated Report and Document Generation**: COCO eliminates manual document production:
+3. **Automated Report and Document Generation**: OpenMax eliminates manual document production:
    - Generates structured reports following organization-specific templates and standards
    - Produces executive summaries calibrated to the appropriate audience and detail level
    - Creates supporting visualizations, tables, and data exhibits automatically
    - Maintains consistent terminology, formatting, and citation standards across all outputs
    - Drafts multiple output versions (technical detail vs. executive summary) from the same analysis
 
-4. **Workflow Automation and Task Orchestration**: COCO streamlines multi-step processes:
+4. **Workflow Automation and Task Orchestration**: OpenMax streamlines multi-step processes:
    - Breaks complex workflows into discrete, trackable steps with clear ownership
    - Automates handoffs between team members with appropriate context and instructions
    - Tracks completion status and surfaces blockers before deadlines are missed
    - Generates checklists, reminders, and escalation triggers at critical checkpoints
    - Integrates with existing tools (Slack, email, project management) to reduce context switching
 
-5. **Quality Assurance and Compliance Checking**: COCO builds quality into the process:
+5. **Quality Assurance and Compliance Checking**: OpenMax builds quality into the process:
    - Validates outputs against regulatory requirements and internal policy standards
    - Checks for completeness, consistency, and accuracy before outputs are finalized
    - Documents the reasoning behind key recommendations for review and audit purposes
    - Flags potential compliance risks or policy violations with specific rule references
    - Maintains a version history of all outputs for regulatory and audit purposes
 
-6. **Continuous Improvement and Learning**: COCO improves outcomes over time:
+6. **Continuous Improvement and Learning**: OpenMax improves outcomes over time:
    - Tracks which recommendations were acted on and correlates with downstream outcomes
    - Identifies systematic biases or gaps in the current process
    - Recommends process improvements based on analysis of workflow bottlenecks
@@ -1267,7 +1267,7 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 
 **Measurable Results**
 
-- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with COCO assistance (85% time savings)
+- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with OpenMax assistance (85% time savings)
 - **Output quality score**: Improved from 71% accuracy on manual reviews to **96% with AI-assisted validation**
 - **Throughput capacity**: Team handles **3.4x more cases** monthly without additional headcount
 - **Error rate and rework**: Downstream errors requiring rework reduced from 18% to **under 3%**
@@ -1406,7 +1406,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Insurance face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Actuarial Data Summary and Analysis Failures**
 
@@ -1416,44 +1416,44 @@ The core challenge is that actuarial modeling requires synthesizing large volume
 
 The downstream cost extends beyond direct labor. Delayed outputs slow downstream decisions. Inconsistent quality creates rework cycles. Missed insights lead to suboptimal resource allocation. And when teams are overwhelmed with execution, there's no bandwidth left for the proactive thinking that prevents problems before they occur — creating a reactive culture that's perpetually behind.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Intelligent Data Ingestion and Structuring**: COCO connects to relevant data sources and normalizes inputs:
+1. **Intelligent Data Ingestion and Structuring**: OpenMax connects to relevant data sources and normalizes inputs:
    - Ingests documents, spreadsheets, databases, and unstructured text simultaneously
    - Identifies key entities, metrics, and relationships across disparate data sources
    - Applies domain-specific schemas to structure raw inputs into analyzable formats
    - Flags data quality issues, missing fields, and inconsistencies before analysis begins
    - Maintains audit trails linking every output back to its source data
 
-2. **Pattern Recognition and Anomaly Detection**: COCO surfaces insights that manual review misses:
+2. **Pattern Recognition and Anomaly Detection**: OpenMax surfaces insights that manual review misses:
    - Applies statistical models to identify trends, outliers, and emerging patterns
    - Benchmarks current performance against historical baselines and industry standards
    - Detects early warning signals before they escalate into critical issues
    - Cross-references multiple data dimensions to reveal non-obvious correlations
    - Prioritizes findings by potential business impact and urgency
 
-3. **Automated Report and Document Generation**: COCO eliminates manual document production:
+3. **Automated Report and Document Generation**: OpenMax eliminates manual document production:
    - Generates structured reports following organization-specific templates and standards
    - Produces executive summaries calibrated to the appropriate audience and detail level
    - Creates supporting visualizations, tables, and data exhibits automatically
    - Maintains consistent terminology, formatting, and citation standards across all outputs
    - Drafts multiple output versions (technical detail vs. executive summary) from the same analysis
 
-4. **Workflow Automation and Task Orchestration**: COCO streamlines multi-step processes:
+4. **Workflow Automation and Task Orchestration**: OpenMax streamlines multi-step processes:
    - Breaks complex workflows into discrete, trackable steps with clear ownership
    - Automates handoffs between team members with appropriate context and instructions
    - Tracks completion status and surfaces blockers before deadlines are missed
    - Generates checklists, reminders, and escalation triggers at critical checkpoints
    - Integrates with existing tools (Slack, email, project management) to reduce context switching
 
-5. **Quality Assurance and Compliance Checking**: COCO builds quality into the process:
+5. **Quality Assurance and Compliance Checking**: OpenMax builds quality into the process:
    - Validates outputs against regulatory requirements and internal policy standards
    - Checks for completeness, consistency, and accuracy before outputs are finalized
    - Documents the reasoning behind key recommendations for review and audit purposes
    - Flags potential compliance risks or policy violations with specific rule references
    - Maintains a version history of all outputs for regulatory and audit purposes
 
-6. **Continuous Improvement and Learning**: COCO improves outcomes over time:
+6. **Continuous Improvement and Learning**: OpenMax improves outcomes over time:
    - Tracks which recommendations were acted on and correlates with downstream outcomes
    - Identifies systematic biases or gaps in the current process
    - Recommends process improvements based on analysis of workflow bottlenecks
@@ -1466,7 +1466,7 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 
 **Measurable Results**
 
-- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with COCO assistance (85% time savings)
+- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with OpenMax assistance (85% time savings)
 - **Output quality score**: Improved from 71% accuracy on manual reviews to **96% with AI-assisted validation**
 - **Throughput capacity**: Team handles **3.4x more cases** monthly without additional headcount
 - **Error rate and rework**: Downstream errors requiring rework reduced from 18% to **under 3%**
@@ -1605,7 +1605,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Reduce pipeline failure detection time by 92% with continuous AI-driven monitoring across ingestion, transformation, and delivery stages.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Silent Pipeline Failures Corrupting Downstream Analytics**
 
@@ -1615,44 +1615,44 @@ The root cause is that traditional pipeline monitoring relies on binary pass/fai
 
 The business cost compounds rapidly. A corrupted customer segmentation table feeds the wrong cohort into a marketing campaign, burning $50K in ad spend before anyone catches it. A silently failing feature pipeline feeds stale data into a fraud detection model, increasing false negatives by 30% for three days. Every hour of undetected pipeline failure multiplies the blast radius — and the manual recovery effort grows exponentially with the number of downstream consumers affected.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **End-to-End Pipeline Topology Mapping**: COCO automatically discovers and visualizes the full dependency graph:
+1. **End-to-End Pipeline Topology Mapping**: OpenMax automatically discovers and visualizes the full dependency graph:
    - Parses DAG definitions from Airflow, dbt, Prefect, and Dagster to build a live dependency map
    - Identifies every upstream source and downstream consumer for each pipeline node
    - Calculates blast radius scores showing how many assets are affected if a given node fails
    - Detects orphaned tables, circular dependencies, and undocumented shadow pipelines
    - Maintains a versioned history of topology changes to correlate with incident timelines
 
-2. **Statistical Data Quality Profiling**: COCO establishes intelligent baselines that adapt over time:
+2. **Statistical Data Quality Profiling**: OpenMax establishes intelligent baselines that adapt over time:
    - Profiles every column across dimensions: completeness, uniqueness, distribution shape, and value range
    - Builds time-aware baselines that account for day-of-week, month-end, and seasonal patterns
    - Detects distribution shifts using KL divergence and Kolmogorov-Smirnov tests, not just threshold breaches
    - Monitors inter-table referential integrity and cross-column correlation stability
    - Learns from analyst feedback to suppress known acceptable variations and reduce false positives by 80%
 
-3. **Real-Time Anomaly Detection and Alerting**: COCO catches issues minutes after they occur:
+3. **Real-Time Anomaly Detection and Alerting**: OpenMax catches issues minutes after they occur:
    - Runs freshness, volume, and schema checks at every pipeline stage completion
    - Applies isolation forest and DBSCAN algorithms to detect multivariate anomalies across related metrics
    - Enriches every alert with root cause context: what changed, when, and which upstream job is the likely culprit
    - Routes alerts by severity and blast radius to the right on-call engineer via Slack, PagerDuty, or email
    - Deduplicates cascading alerts from a single root cause into one actionable incident thread
 
-4. **Automated Root Cause Analysis**: COCO traces failures back to their origin without manual investigation:
+4. **Automated Root Cause Analysis**: OpenMax traces failures back to their origin without manual investigation:
    - Walks the dependency graph backward from the symptom to identify the earliest failing node
    - Correlates failure timing with recent code deployments, schema migrations, and infrastructure events
    - Compares current data profiles against the last known-good state to pinpoint exactly what changed
    - Generates a structured incident report with timeline, affected assets, and suggested remediation steps
    - Links to relevant git commits, pull requests, and config changes that may have introduced the issue
 
-5. **Self-Healing Pipeline Orchestration**: COCO resolves common failures automatically:
+5. **Self-Healing Pipeline Orchestration**: OpenMax resolves common failures automatically:
    - Retries transient failures with exponential backoff and intelligent timeout adjustment
    - Switches to backup data sources when primary ingestion endpoints become unavailable
    - Quarantines corrupted partitions and backfills from the last clean checkpoint
    - Pauses downstream consumers automatically when upstream data quality drops below safe thresholds
    - Generates runbooks from historical incident resolutions to accelerate manual intervention when needed
 
-6. **Pipeline Performance Optimization**: COCO continuously tunes pipeline efficiency:
+6. **Pipeline Performance Optimization**: OpenMax continuously tunes pipeline efficiency:
    - Tracks execution time, resource consumption, and data volume trends for every pipeline stage
    - Identifies bottleneck stages where processing time has grown disproportionately to data volume
    - Recommends partition strategies, materialization changes, and parallelization opportunities
@@ -1793,7 +1793,7 @@ Design a dashboard with:
 
 > Cut model selection time by 78% with automated experiment logging, multi-dimensional comparison, and reproducibility verification.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Experiment Chaos Turning Model Development into Guesswork**
 
@@ -1803,44 +1803,44 @@ The problem intensifies when multiple data scientists work on related problems. 
 
 The business impact goes beyond wasted compute and labor hours. When model selection decisions cannot be justified with clear experimental evidence, stakeholder trust erodes. Regulatory requirements increasingly demand audit trails showing why a particular model was deployed and what alternatives were considered. A data scientist spending 12 hours trying to reproduce a competitor's benchmark result — only to realize the discrepancy was caused by a different random seed — represents not just lost productivity but delayed time-to-market for a revenue-critical ML feature.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Automatic Experiment Capture and Logging**: COCO records every experiment without manual effort:
+1. **Automatic Experiment Capture and Logging**: OpenMax records every experiment without manual effort:
    - Hooks into training scripts to automatically log hyperparameters, metrics, and environment details at runtime
    - Captures git commit hashes, dependency versions, and hardware specifications for full reproducibility
    - Records dataset fingerprints (row counts, feature distributions, split ratios) alongside each experiment
    - Logs intermediate metrics at configurable intervals to enable learning curve analysis and early stopping decisions
    - Tags experiments with project, hypothesis, and objective metadata for organized retrieval
 
-2. **Multi-Dimensional Experiment Comparison**: COCO makes apples-to-apples comparison effortless:
+2. **Multi-Dimensional Experiment Comparison**: OpenMax makes apples-to-apples comparison effortless:
    - Generates side-by-side comparison tables across any combination of metrics, parameters, and configurations
    - Produces parallel coordinate plots revealing which hyperparameter ranges correlate with top performance
    - Identifies statistically significant differences between experiment pairs using bootstrap confidence intervals
    - Highlights parameter sensitivity — which knobs matter most and which have negligible effect
    - Surfaces Pareto-optimal experiments balancing multiple objectives (accuracy vs. latency vs. model size)
 
-3. **Reproducibility Verification Engine**: COCO ensures any experiment can be reliably recreated:
+3. **Reproducibility Verification Engine**: OpenMax ensures any experiment can be reliably recreated:
    - Packages experiment environments into reproducible containers with pinned dependencies and seeds
    - Validates reproduction attempts by comparing metric trajectories, not just final numbers
    - Detects non-deterministic components (GPU operations, random sampling) and quantifies their variance
    - Generates reproduction scripts that can be run with a single command on any compatible infrastructure
    - Flags experiments that cannot be reproduced within acceptable tolerance and diagnoses the likely cause
 
-4. **Cross-Team Knowledge Synthesis**: COCO connects insights across team members and projects:
+4. **Cross-Team Knowledge Synthesis**: OpenMax connects insights across team members and projects:
    - Maintains a searchable knowledge base of all experimental findings across the organization
    - Identifies when a new experiment is similar to a previous one and surfaces relevant historical results
    - Detects when different team members are exploring overlapping hypothesis spaces and suggests collaboration
    - Extracts transferable insights — feature engineering tricks, preprocessing steps, architecture choices — that improved results in related domains
    - Generates weekly digest of top experimental findings across all active projects
 
-5. **Intelligent Experiment Recommendation**: COCO suggests the most promising next experiments to run:
+5. **Intelligent Experiment Recommendation**: OpenMax suggests the most promising next experiments to run:
    - Analyzes the current experiment landscape to identify unexplored regions of the hyperparameter space
    - Applies Bayesian optimization to suggest the parameter configurations most likely to improve on current best
    - Recommends ablation studies to isolate which components of a complex pipeline contribute most to performance
    - Prioritizes experiments by expected information gain, not just expected performance improvement
    - Estimates compute cost and runtime for suggested experiments to help teams allocate resources wisely
 
-6. **Stakeholder-Ready Experiment Reporting**: COCO translates technical experiments into business narratives:
+6. **Stakeholder-Ready Experiment Reporting**: OpenMax translates technical experiments into business narratives:
    - Generates model selection reports documenting which models were evaluated and why the chosen one won
    - Produces executive-friendly comparisons showing performance improvements in business metric terms
    - Creates audit-ready documentation meeting regulatory requirements for model development transparency
@@ -1982,7 +1982,7 @@ Audience: [technical leadership / business stakeholders / regulatory review boar
 
 > Uncover hidden dataset biases 15x faster with automated demographic analysis, proxy variable detection, and fairness metric computation across protected attributes.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Invisible Bias Baked Into Training Data**
 
@@ -1992,44 +1992,44 @@ The challenge for data scientists is that bias rarely announces itself. Raw demo
 
 The regulatory landscape is rapidly tightening. The EU AI Act mandates bias testing for high-risk AI systems. US financial regulators require fair lending analysis for any credit decisioning model. Healthcare AI must demonstrate equitable performance across demographic groups. Yet most organizations approach bias detection reactively — scrambling to prove fairness after a model is built rather than proactively engineering it into the data pipeline. This reactive approach is 5-10x more expensive than catching bias early, because it requires retraining models, re-collecting data, and often redesigning entire feature sets.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Comprehensive Demographic Distribution Analysis**: COCO profiles datasets across all protected and sensitive attributes:
+1. **Comprehensive Demographic Distribution Analysis**: OpenMax profiles datasets across all protected and sensitive attributes:
    - Computes representation ratios for every demographic group across training, validation, and test splits
    - Detects underrepresentation that falls below statistical reliability thresholds for fair model evaluation
    - Identifies temporal shifts in demographic composition that could introduce distribution drift bias
    - Maps intersectional representation — checking not just gender or race alone, but combinations like age-gender-region
    - Benchmarks dataset demographics against population baselines and regulatory reference distributions
 
-2. **Proxy Variable Detection and Correlation Mapping**: COCO finds hidden pathways to protected attributes:
+2. **Proxy Variable Detection and Correlation Mapping**: OpenMax finds hidden pathways to protected attributes:
    - Computes mutual information between every feature and known protected attributes to quantify proxy risk
    - Identifies feature clusters that collectively reconstruct protected attributes even when no single feature is a strong proxy
    - Applies causal inference techniques to distinguish legitimate business signals from discriminatory proxies
    - Ranks features by proxy risk score with explanations of the statistical relationship discovered
    - Recommends feature modifications — binning, decorrelation, or removal — to mitigate proxy effects without destroying predictive signal
 
-3. **Label Bias and Annotation Audit**: COCO examines whether ground truth labels themselves carry bias:
+3. **Label Bias and Annotation Audit**: OpenMax examines whether ground truth labels themselves carry bias:
    - Analyzes label distribution conditional on protected attributes to detect outcome rate disparities
    - Identifies labeling patterns consistent with historical discrimination rather than true differences
    - Detects inter-annotator disagreement patterns that correlate with demographic characteristics of subjects
    - Evaluates whether label definitions inadvertently encode cultural or demographic assumptions
    - Recommends label correction strategies including re-annotation protocols and calibration adjustments
 
-4. **Fairness Metric Computation Suite**: COCO calculates the full spectrum of fairness measures:
+4. **Fairness Metric Computation Suite**: OpenMax calculates the full spectrum of fairness measures:
    - Computes demographic parity, equalized odds, equal opportunity, and calibration metrics across all protected groups
    - Generates fairness-accuracy tradeoff curves showing the cost of achieving various fairness thresholds
    - Applies multiple fairness definitions simultaneously and highlights where they conflict with each other
    - Calculates disparate impact ratios against the 80% rule and other regulatory thresholds
    - Produces confidence intervals for all fairness metrics to distinguish real disparities from sampling noise
 
-5. **Sampling and Collection Bias Diagnosis**: COCO identifies how data collection methodology introduces bias:
+5. **Sampling and Collection Bias Diagnosis**: OpenMax identifies how data collection methodology introduces bias:
    - Detects selection bias patterns where certain populations are systematically over- or under-sampled
    - Identifies survivorship bias — missing data from individuals who dropped out, churned, or were excluded
    - Maps geographic, temporal, and channel biases in data collection that skew representation
    - Evaluates whether missing data patterns correlate with protected attributes, indicating non-random missingness
    - Recommends resampling strategies, synthetic augmentation, and collection protocol changes to mitigate identified biases
 
-6. **Bias Monitoring and Reporting Automation**: COCO maintains ongoing vigilance as data and models evolve:
+6. **Bias Monitoring and Reporting Automation**: OpenMax maintains ongoing vigilance as data and models evolve:
    - Generates regulatory-ready bias assessment reports with standardized metrics and documentation
    - Monitors deployed models for fairness metric drift as incoming data distributions shift over time
    - Creates executive-friendly bias dashboards translating technical metrics into business risk language
@@ -2045,7 +2045,7 @@ The regulatory landscape is rapidly tightening. The EU AI Act mandates bias test
 - **Bias detection speed**: Comprehensive dataset audit completed in **2 hours** vs. **30+ hours** of manual analysis (15x faster)
 - **Proxy variables identified**: Discovered **3.2x more** hidden proxy pathways than manual review, including non-obvious multi-feature proxies
 - **Regulatory compliance**: Bias documentation preparation time reduced from **4 weeks** to **3 days**, with 100% of required metrics pre-computed
-- **Model fairness improvement**: Disparate impact ratio improved from **0.62** (non-compliant) to **0.87** (compliant) through data-level interventions identified by COCO
+- **Model fairness improvement**: Disparate impact ratio improved from **0.62** (non-compliant) to **0.87** (compliant) through data-level interventions identified by OpenMax
 - **Remediation cost**: Catching bias at the data stage reduced total remediation cost by **85%** compared to post-deployment discovery
 
 **Who Benefits**
@@ -2176,7 +2176,7 @@ Specify: metrics to track, alert thresholds, reporting cadence, escalation proce
 
 > Achieve optimal model configurations in 70% less compute time through intelligent search space pruning, early stopping strategies, and transfer learning from prior tuning runs.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Burning GPU Hours on Brute-Force Hyperparameter Search**
 
@@ -2186,44 +2186,44 @@ The inefficiency is compounded by a lack of institutional memory. When a data sc
 
 The business cost extends beyond the compute bill. Every day spent tuning is a day the model is not in production generating value. A product team waiting for a recommendation model has revenue at stake. A risk team waiting for a fraud detection model has losses accumulating. When asked "how long until the model is ready?", the data scientist's honest answer is "I don't know — it depends on how the tuning goes" — an answer that erodes stakeholder confidence and makes resource planning impossible.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Intelligent Search Space Definition**: COCO designs the hyperparameter search based on domain knowledge and prior experience:
+1. **Intelligent Search Space Definition**: OpenMax designs the hyperparameter search based on domain knowledge and prior experience:
    - Analyzes the model architecture and task type to recommend which parameters to tune and which to fix
    - Sets initial search ranges based on published best practices and prior successful runs on similar tasks
    - Identifies parameter dependencies and constraints to eliminate invalid combinations before they waste compute
    - Suggests logarithmic vs. linear vs. categorical sampling scales for each parameter type
    - Reduces the effective search space by 60-80% before any training runs begin
 
-2. **Bayesian Optimization with Multi-Fidelity Evaluation**: COCO uses smart search strategies that learn from every trial:
+2. **Bayesian Optimization with Multi-Fidelity Evaluation**: OpenMax uses smart search strategies that learn from every trial:
    - Applies Tree-structured Parzen Estimators and Gaussian Process models to predict promising configurations
    - Implements successive halving and Hyperband to evaluate many configurations cheaply before investing in full training
    - Uses warm-starting to initialize new trials from the best previous checkpoints rather than from scratch
    - Balances exploration of unknown regions with exploitation of promising areas using acquisition functions
    - Adapts the search strategy as results accumulate, focusing resources where improvement is most likely
 
-3. **Early Stopping and Resource Allocation**: COCO eliminates wasteful training runs as quickly as possible:
+3. **Early Stopping and Resource Allocation**: OpenMax eliminates wasteful training runs as quickly as possible:
    - Monitors learning curves in real-time and terminates runs that are statistically unlikely to beat the current best
    - Applies median stopping rules that kill runs performing below the median of all runs at the same training step
    - Predicts final performance from partial learning curves using extrapolation models trained on prior experiments
    - Dynamically reallocates freed GPU resources to more promising configurations without manual intervention
    - Saves 40-60% of total compute by cutting losing runs early while maintaining the same probability of finding the optimum
 
-4. **Cross-Project Transfer Learning**: COCO leverages tuning history across the organization:
+4. **Cross-Project Transfer Learning**: OpenMax leverages tuning history across the organization:
    - Maintains a knowledge base of optimal configurations indexed by model architecture, task type, and dataset characteristics
    - Transfers priors from successful tuning runs on related tasks to warm-start new searches
    - Identifies which hyperparameter insights generalize across projects and which are task-specific
    - Recommends starting configurations that are 3-5x closer to the optimum than default settings
    - Continuously updates the knowledge base as new tuning runs complete, building organizational intelligence over time
 
-5. **Multi-Objective Optimization**: COCO tunes for real-world deployment constraints, not just accuracy:
+5. **Multi-Objective Optimization**: OpenMax tunes for real-world deployment constraints, not just accuracy:
    - Optimizes across multiple objectives simultaneously: accuracy, inference latency, memory footprint, and model size
    - Generates Pareto frontiers showing the tradeoff between competing objectives for informed decision-making
    - Applies constraint satisfaction to ensure configurations meet hard requirements (max latency, min accuracy)
    - Weights objectives according to deployment priorities — production serving costs vs. model quality
    - Produces deployment-ready configuration files with optimal settings for the chosen tradeoff point
 
-6. **Tuning Analytics and Reporting**: COCO provides full visibility into the optimization process:
+6. **Tuning Analytics and Reporting**: OpenMax provides full visibility into the optimization process:
    - Generates real-time dashboards showing search progress, best results, and remaining budget
    - Produces sensitivity analysis revealing which parameters had the most impact on performance
    - Estimates convergence — how much more compute is needed vs. how much improvement is expected
@@ -2376,7 +2376,7 @@ Design:
 
 > Catch production model degradation within hours instead of weeks by monitoring prediction distributions, feature drift, and concept drift across all deployed models.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Models Silently Degrading in Production**
 
@@ -2386,44 +2386,44 @@ Most organizations discover model drift reactively, through one of three painful
 
 Data scientists typically lack the tooling and bandwidth for proactive drift monitoring. Setting up statistical tests on prediction distributions, feature distributions, and target distributions requires custom engineering work for every model. Maintaining these monitors as models are updated and retrained creates additional overhead. And interpreting drift signals is itself a specialized skill — distinguishing benign seasonal shifts from genuine concept drift, determining whether feature drift will actually impact predictions, and deciding when to trigger retraining vs. investigation. Without automation, most teams default to calendar-based retraining schedules that are either too frequent (wasting compute on stable models) or too infrequent (allowing degraded models to persist).
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Prediction Distribution Monitoring**: COCO tracks how model outputs evolve over time against training baselines:
+1. **Prediction Distribution Monitoring**: OpenMax tracks how model outputs evolve over time against training baselines:
    - Monitors score distributions, predicted class ratios, and confidence calibration for every deployed model
    - Applies Population Stability Index, Jensen-Shannon divergence, and Wasserstein distance to quantify output drift
    - Detects distribution shifts at the segment level — drift affecting specific customer cohorts, regions, or product categories
    - Distinguishes gradual drift (slow distribution shift) from sudden drift (abrupt regime change) with appropriate alert urgency
    - Maintains rolling baselines that adapt to expected seasonal patterns while remaining sensitive to unexpected changes
 
-2. **Feature Drift Analysis**: COCO identifies when input data is shifting away from training conditions:
+2. **Feature Drift Analysis**: OpenMax identifies when input data is shifting away from training conditions:
    - Profiles every input feature against the training data distribution and flags statistically significant deviations
    - Ranks drifted features by their importance to the model, focusing attention on shifts that actually impact predictions
    - Detects covariate shift — changes in the joint distribution of features even when marginal distributions appear stable
    - Monitors data source freshness and schema stability to catch upstream pipeline issues before they cause feature drift
    - Computes feature drift velocity to distinguish one-time shifts from accelerating trends that need urgent attention
 
-3. **Concept Drift Detection**: COCO identifies when the relationship between features and targets has changed:
+3. **Concept Drift Detection**: OpenMax identifies when the relationship between features and targets has changed:
    - Monitors the correlation between model predictions and actual outcomes using delayed ground truth labels
    - Applies statistical process control methods (ADWIN, Page-Hinkley) to detect change points in model accuracy
    - Differentiates between real concept drift and virtual drift (feature distribution changes that do not affect the learned concept)
    - Estimates drift magnitude to determine whether recalibration is sufficient or full retraining is required
    - Triggers automated A/B tests comparing the current model against a freshly retrained version when concept drift is suspected
 
-4. **Segmented Performance Monitoring**: COCO ensures no subpopulation is left behind:
+4. **Segmented Performance Monitoring**: OpenMax ensures no subpopulation is left behind:
    - Breaks down model performance by business-relevant segments (customer tier, geography, product line, channel)
    - Detects localized degradation that global aggregate metrics would mask — a model losing accuracy only on enterprise customers
    - Monitors fairness metrics by protected attributes to catch bias drift before regulatory thresholds are breached
    - Identifies emerging segments — new customer types or transaction patterns — that fall outside the model's training distribution
    - Alerts when any segment's performance drops below its individual SLA threshold, not just the global average
 
-5. **Automated Retraining Orchestration**: COCO triggers and validates model updates when drift warrants action:
+5. **Automated Retraining Orchestration**: OpenMax triggers and validates model updates when drift warrants action:
    - Implements policy-based retraining triggers: retrain when accuracy drops below threshold, when drift score exceeds limit, or on schedule
    - Orchestrates the full retraining pipeline: data refresh, feature computation, training, evaluation, and staging
    - Runs automated champion-challenger comparisons to ensure the retrained model actually outperforms the current one
    - Implements gradual rollout strategies (shadow mode, canary deployment, progressive traffic shifting) for safe model updates
    - Maintains a complete audit trail of every retraining decision, including the drift signals that triggered it
 
-6. **Drift Root Cause Diagnosis**: COCO explains why drift is happening and what to do about it:
+6. **Drift Root Cause Diagnosis**: OpenMax explains why drift is happening and what to do about it:
    - Correlates detected drift with known external events (holidays, product launches, policy changes, market shifts)
    - Identifies the specific feature changes driving prediction drift through Shapley-value-based attribution
    - Recommends targeted interventions — feature updates, segment-specific models, recalibration, or full retraining
@@ -2566,7 +2566,7 @@ Report should include:
 
 > Reduce data discovery time by 85% with automated metadata extraction, intelligent search, and end-to-end lineage tracking from source to consumption.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Data Scientists Spending More Time Finding Data Than Analyzing It**
 
@@ -2576,44 +2576,44 @@ The lineage problem is equally severe. When a data quality issue is discovered i
 
 The organizational cost is staggering. Duplicate tables proliferate because it is easier to create a new one than to find and verify an existing one — leading to storage bloat, inconsistent metrics, and wasted compute. New team members take months to become productive because institutional data knowledge lives in the heads of tenured engineers. And regulatory compliance (GDPR, CCPA, SOX) requires organizations to know exactly where sensitive data resides and how it flows — a question that most companies cannot answer confidently without weeks of manual effort.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Automated Metadata Discovery and Enrichment**: COCO crawls data infrastructure to build a comprehensive catalog without manual documentation:
+1. **Automated Metadata Discovery and Enrichment**: OpenMax crawls data infrastructure to build a comprehensive catalog without manual documentation:
    - Connects to warehouses, lakes, databases, and APIs to inventory every table, column, and data asset
    - Extracts technical metadata (schema, types, statistics, freshness, volume) automatically on a continuous schedule
    - Infers business metadata — column descriptions, data categories, sensitivity classifications — using content analysis and naming pattern recognition
    - Enriches catalog entries with usage statistics: who queries this table, how often, from which tools
    - Detects stale, orphaned, and duplicate tables by cross-referencing schema similarity, data overlap, and usage patterns
 
-2. **Intelligent Semantic Search**: COCO enables data scientists to find data using natural language, not table names:
+2. **Intelligent Semantic Search**: OpenMax enables data scientists to find data using natural language, not table names:
    - Indexes all metadata, column names, descriptions, and sample values for full-text and semantic search
    - Understands business context — searching for "customer churn" surfaces relevant tables even if no column is named "churn"
    - Ranks search results by relevance, data quality score, freshness, and popularity among similar user roles
    - Suggests related datasets that data scientists commonly use together, based on query co-occurrence patterns
    - Provides instant previews showing sample data, statistics, and quality metrics without requiring the user to write any SQL
 
-3. **End-to-End Lineage Tracking**: COCO maps how data flows from source to consumption:
+3. **End-to-End Lineage Tracking**: OpenMax maps how data flows from source to consumption:
    - Parses SQL queries, dbt models, Spark jobs, and ETL scripts to extract column-level transformation lineage
    - Tracks lineage across system boundaries — from operational database through the warehouse to the BI dashboard
    - Visualizes the complete lineage graph showing every transformation, join, and filter between any two points
    - Enables impact analysis: before modifying a table, see every downstream consumer that will be affected
    - Maintains historical lineage versions so analysts can understand how data flows changed over time
 
-4. **Data Quality Scoring and Trust Indicators**: COCO helps data scientists evaluate whether data is reliable before using it:
+4. **Data Quality Scoring and Trust Indicators**: OpenMax helps data scientists evaluate whether data is reliable before using it:
    - Computes composite quality scores based on completeness, freshness, consistency, and accuracy metrics
    - Displays trust badges — verified, stale, deprecated, under investigation — on every catalog entry
    - Tracks quality trends over time, alerting when a previously reliable table begins degrading
    - Links quality issues to specific pipeline stages through lineage, showing where problems originate
    - Integrates data quality feedback from consumers, allowing analysts to flag issues and see others' warnings
 
-5. **Sensitive Data Discovery and Governance**: COCO identifies and classifies sensitive data across the entire estate:
+5. **Sensitive Data Discovery and Governance**: OpenMax identifies and classifies sensitive data across the entire estate:
    - Scans column content using pattern matching and ML classifiers to detect PII, PHI, financial data, and trade secrets
    - Maps sensitive data flows through the lineage graph to ensure proper handling at every stage
    - Flags compliance gaps — sensitive data in unencrypted tables, PII flowing to unauthorized systems, missing access controls
    - Generates data inventory reports for GDPR Article 30, CCPA data mapping, and SOX compliance requirements
    - Tracks data retention and deletion compliance, identifying data that has exceeded its retention policy
 
-6. **Collaborative Documentation and Knowledge Sharing**: COCO turns the catalog into a living knowledge base:
+6. **Collaborative Documentation and Knowledge Sharing**: OpenMax turns the catalog into a living knowledge base:
    - Enables data scientists to annotate tables and columns with descriptions, usage tips, and known caveats
    - Automatically generates documentation from query patterns — "this table is commonly joined with X on column Y"
    - Creates glossary entries linking business terms to their technical implementations across multiple systems
@@ -2747,7 +2747,7 @@ Output: Definition comparison matrix + discrepancy analysis + consolidation plan
 
 > Eliminate statistical methodology errors by 94% with automated test selection, assumption validation, and results interpretation calibrated to the analyst's domain.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Misapplied Statistics Producing Confidently Wrong Conclusions**
 
@@ -2757,44 +2757,44 @@ The problem is not that data scientists lack statistical training — most have 
 
 The downstream cost is enormous but invisible. Unlike a model that visibly fails in production, a flawed statistical analysis produces a number that looks authoritative. Stakeholders act on it. Resources are allocated. Products are launched or killed. By the time the error is discovered — if it ever is — the decision has been made and the cost incurred. Academic research estimates that 50-70% of published statistical findings fail to replicate, and corporate analytics environments, with less rigor and more time pressure, likely fare worse. Every statistical error erodes the credibility of the data science function and undermines the organization's ability to learn from its own experiments.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Intelligent Test Selection Engine**: COCO recommends the right statistical test based on the data and hypothesis:
+1. **Intelligent Test Selection Engine**: OpenMax recommends the right statistical test based on the data and hypothesis:
    - Profiles the data to determine distribution type, sample size, measurement scale, and independence structure
    - Maps the research question to the appropriate test family (comparison, association, regression, non-parametric)
    - Recommends specific tests with clear justification — why this test is correct and why alternatives are not
    - Handles complex scenarios: repeated measures, nested designs, multiple groups, unbalanced samples
    - Suggests appropriate alternatives when the ideal test's assumptions cannot be met (bootstrap methods, permutation tests, robust estimators)
 
-2. **Automated Assumption Validation**: COCO checks every prerequisite before executing the test:
+2. **Automated Assumption Validation**: OpenMax checks every prerequisite before executing the test:
    - Runs normality tests (Shapiro-Wilk, Anderson-Darling, Q-Q plots) and reports whether parametric assumptions hold
    - Checks homogeneity of variance (Levene's, Bartlett's) and recommends corrections (Welch's) when violated
    - Tests for independence using autocorrelation analysis and Durbin-Watson statistics
    - Validates sample size adequacy through power analysis before the test is run, not after
    - Reports each assumption check with a clear pass/fail verdict and plain-language explanation of what it means
 
-3. **Rigorous Multiple Comparison Correction**: COCO prevents false discoveries when testing multiple hypotheses:
+3. **Rigorous Multiple Comparison Correction**: OpenMax prevents false discoveries when testing multiple hypotheses:
    - Detects when multiple comparisons are being made and applies appropriate corrections (Bonferroni, Holm, Benjamini-Hochberg)
    - Calculates family-wise error rates and false discovery rates for the full set of tests conducted
    - Recommends the correction method best suited to the analysis context (exploratory vs. confirmatory, independent vs. correlated tests)
    - Warns when the number of comparisons reduces statistical power below useful levels and suggests sample size remedies
    - Tracks the full testing history within a project to catch "garden of forking paths" multiple comparison issues
 
-4. **Effect Size and Practical Significance Assessment**: COCO goes beyond p-values to quantify real-world impact:
+4. **Effect Size and Practical Significance Assessment**: OpenMax goes beyond p-values to quantify real-world impact:
    - Computes appropriate effect size measures (Cohen's d, Cramer's V, eta-squared, odds ratios) alongside every p-value
    - Provides confidence intervals for effect sizes, not just point estimates
    - Translates effect sizes into domain-specific language — "this corresponds to a $4.20 increase in average order value"
    - Benchmarks observed effects against domain norms — is this a small, medium, or large effect for this type of intervention?
    - Distinguishes statistical significance from practical significance, flagging cases where a result is technically significant but too small to act on
 
-5. **Power Analysis and Sample Size Planning**: COCO ensures experiments are adequately powered before they begin:
+5. **Power Analysis and Sample Size Planning**: OpenMax ensures experiments are adequately powered before they begin:
    - Computes required sample sizes for desired power, significance level, and minimum detectable effect
    - Runs prospective power analysis during experiment design to prevent underpowered studies
    - Performs retrospective power analysis when non-significant results are obtained to distinguish "no effect" from "inadequate sample"
    - Simulates power under realistic conditions including expected dropout, non-compliance, and variance estimates
    - Recommends sequential testing designs when fixed-sample approaches require impractically large samples
 
-6. **Results Interpretation and Reporting**: COCO translates statistical outputs into actionable narratives:
+6. **Results Interpretation and Reporting**: OpenMax translates statistical outputs into actionable narratives:
    - Generates plain-language interpretations of test results calibrated to the audience (technical, managerial, executive)
    - Produces publication-quality results tables with all required statistics (test statistic, degrees of freedom, p-value, effect size, CI)
    - Creates visualization recommendations matched to the test type (forest plots, error bars, violin plots, interaction plots)
@@ -2949,7 +2949,7 @@ Recommend:
 
 > Accelerate model development by 60% with privacy-safe synthetic datasets that preserve statistical properties, handle class imbalance, and enable testing without production data access.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Real Data Bottlenecks Stalling Every Phase of Model Development**
 
@@ -2959,44 +2959,44 @@ The class imbalance problem compounds this further. Fraud detection models need 
 
 Testing and validation present a third data challenge. End-to-end pipeline testing requires realistic data that exercises edge cases, but production data snapshots are stale and may not contain the specific scenarios being tested. Sharing test data across teams risks leaking PII. Manually crafting test datasets is tedious and never comprehensive enough. The result: models are pushed to production with inadequate testing on synthetic scenarios, bugs are discovered by users instead of by QA, and data pipeline changes are deployed with crossed fingers instead of comprehensive regression tests.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Statistical Distribution Preservation**: COCO generates synthetic data that faithfully reproduces the statistical properties of real data:
+1. **Statistical Distribution Preservation**: OpenMax generates synthetic data that faithfully reproduces the statistical properties of real data:
    - Learns marginal distributions, correlations, and higher-order dependencies from real data using deep generative models
    - Preserves complex feature interactions including non-linear relationships, conditional distributions, and multi-modal patterns
    - Validates synthetic data quality using statistical divergence measures (KL, JS, Wasserstein) against the real distribution
    - Handles mixed data types — continuous, categorical, ordinal, temporal, text, and hierarchical — in a unified generation framework
    - Generates data at any scale, from 1,000-row prototyping samples to millions of rows for production-scale testing
 
-2. **Privacy-Preserving Generation**: COCO ensures synthetic data cannot be traced back to real individuals:
+2. **Privacy-Preserving Generation**: OpenMax ensures synthetic data cannot be traced back to real individuals:
    - Applies differential privacy guarantees with configurable epsilon budgets during the generation process
    - Runs membership inference attack tests to verify that no individual record from the training set can be re-identified
    - Generates entirely novel records rather than perturbing existing ones, eliminating the risk of near-copies leaking PII
    - Produces privacy audit reports documenting the privacy mechanisms applied and the empirical re-identification risk
    - Supports k-anonymity and l-diversity constraints for scenarios requiring specific anonymization guarantees
 
-3. **Intelligent Class Imbalance Handling**: COCO generates realistic minority-class examples that improve model performance:
+3. **Intelligent Class Imbalance Handling**: OpenMax generates realistic minority-class examples that improve model performance:
    - Learns the true distribution of minority classes rather than simply interpolating between existing examples
    - Generates minority samples that are diverse and realistic, not clustered copies of existing data points
    - Supports conditional generation — create synthetic examples with specific attribute combinations (e.g., fraudulent transactions from new accounts over $10K)
    - Produces calibrated synthetic datasets with user-specified class ratios while maintaining realistic within-class variation
    - Validates that synthetic minority samples improve downstream model performance through automated holdout testing
 
-4. **Edge Case and Scenario Generation**: COCO creates targeted synthetic data for specific testing needs:
+4. **Edge Case and Scenario Generation**: OpenMax creates targeted synthetic data for specific testing needs:
    - Generates boundary condition data that exercises extreme values, rare combinations, and known failure modes
    - Creates adversarial examples that stress-test model robustness under distribution shift and input perturbation
    - Produces temporal scenarios — synthetic time series with specific patterns like seasonality, trend breaks, and anomalies
    - Supports scenario-based generation — "create 1,000 transactions that match the profile of a specific fraud pattern"
    - Enables what-if analysis by generating counterfactual datasets with modified feature distributions
 
-5. **Automated Quality Validation**: COCO verifies that synthetic data is fit for purpose before it is used:
+5. **Automated Quality Validation**: OpenMax verifies that synthetic data is fit for purpose before it is used:
    - Runs a comprehensive quality suite comparing synthetic vs. real data across 50+ statistical measures
    - Tests downstream utility — trains models on synthetic data and compares performance to models trained on real data
    - Detects mode collapse where the generator fails to capture the full diversity of the real distribution
    - Identifies feature relationships that are poorly reproduced and recommends generation parameter adjustments
    - Produces quality certification reports documenting synthetic data fitness for specific use cases
 
-6. **Self-Service Data Provisioning**: COCO enables teams to generate the data they need without waiting for access approvals:
+6. **Self-Service Data Provisioning**: OpenMax enables teams to generate the data they need without waiting for access approvals:
    - Provides a catalog of pre-trained generators for common enterprise data domains (customers, transactions, events, logs)
    - Supports on-demand generation through API or UI, with configurable schema, volume, and statistical properties
    - Maintains generation lineage tracking — which real dataset was used to train the generator, what parameters were applied
@@ -3010,7 +3010,7 @@ Testing and validation present a third data challenge. End-to-end pipeline testi
 **Measurable Results**
 
 - **Development cycle time**: Model prototyping started **immediately** vs. previous **3-6 week** data access approval wait (60% faster overall development)
-- **Minority class model performance**: F1 score on rare events improved from **0.34** (with SMOTE) to **0.71** (with COCO synthetic generation) — a 109% improvement
+- **Minority class model performance**: F1 score on rare events improved from **0.34** (with SMOTE) to **0.71** (with OpenMax synthetic generation) — a 109% improvement
 - **Privacy compliance**: **Zero** PII exposure incidents from development activities vs. **3 per year** previously, with formal differential privacy guarantees on all synthetic datasets
 - **Testing coverage**: Pipeline regression test scenarios increased from **12 manual cases** to **2,500+ synthetic scenarios**, catching 8x more bugs before production
 - **Data provisioning cost**: Reduced data preparation and anonymization effort from **40 hours per project** to **2 hours** using pre-trained synthetic generators
@@ -3135,7 +3135,7 @@ Output: Quality scorecard with pass/fail per criterion + visualization of real v
 
 > Bridge the gap between published research and production code 5x faster with automated paper parsing, algorithm extraction, and implementation scaffolding with test suites.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Months Lost Translating Academic Papers into Working Code**
 
@@ -3145,44 +3145,44 @@ The difficulty compounds when papers build on prior work. A 2025 paper might ref
 
 The business cost of this friction is substantial. A recommendation system improvement described in a SIGIR paper could be worth millions in revenue — but only if it can be implemented, validated, and deployed within the product team's planning cycle. A data scientist spending six weeks reimplementing a paper from scratch is six weeks of delayed business value. Worse, implementation errors can lead to incorrect conclusions about whether the paper's method actually works for the team's use case — rejecting a valuable approach because of a bug in the implementation, or adopting an approach that only appeared to work due to an implementation error.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Intelligent Paper Parsing and Decomposition**: COCO extracts structured knowledge from research papers:
+1. **Intelligent Paper Parsing and Decomposition**: OpenMax extracts structured knowledge from research papers:
    - Parses PDF and LaTeX papers to identify the core contribution, baseline methods, and ablation components
    - Extracts mathematical formulas and maps notation to a consistent, disambiguated symbol table
    - Identifies the algorithm's input/output specification, computational complexity, and memory requirements
    - Separates the novel contribution from standard building blocks (attention mechanisms, loss functions, optimizers)
    - Generates a structured summary: problem formulation, method overview, key equations, hyperparameter tables, and evaluation protocol
 
-2. **Algorithm-to-Code Translation**: COCO generates implementation scaffolds from paper descriptions:
+2. **Algorithm-to-Code Translation**: OpenMax generates implementation scaffolds from paper descriptions:
    - Converts mathematical formulations into working code with clear mapping between equations and implementation
    - Generates framework-specific implementations (PyTorch, TensorFlow, JAX, scikit-learn) matching the team's stack
    - Implements custom loss functions, metrics, and training loops as described in the paper
    - Handles numerical stability concerns — log-sum-exp tricks, gradient clipping, epsilon values — that papers often omit
    - Produces modular, well-documented code with docstrings linking each function back to the corresponding paper section
 
-3. **Hyperparameter and Configuration Extraction**: COCO captures every tunable setting from the paper:
+3. **Hyperparameter and Configuration Extraction**: OpenMax captures every tunable setting from the paper:
    - Extracts all hyperparameters mentioned in the paper, appendix, and supplementary materials
    - Identifies which hyperparameters are critical (explicitly tuned in the paper) vs. default (inherited from frameworks)
    - Notes missing specifications and recommends sensible defaults based on common practice for the method type
    - Generates configuration files with all parameters, their reported values, and valid ranges for tuning
    - Flags hyperparameters that are dataset-specific and will need re-tuning for the team's application
 
-4. **Automated Test Suite Generation**: COCO creates validation infrastructure alongside the implementation:
+4. **Automated Test Suite Generation**: OpenMax creates validation infrastructure alongside the implementation:
    - Generates unit tests verifying individual components (custom layers, loss functions, metric calculations)
    - Creates integration tests that run the full training pipeline on small synthetic data
    - Implements numerical gradient checks for custom backward passes and loss functions
    - Builds benchmark reproduction tests using the paper's reported results as expected values
    - Produces shape and dtype tests ensuring tensor dimensions match the paper's specifications at every layer
 
-5. **Prior Work Dependency Resolution**: COCO handles the chain of referenced methods:
+5. **Prior Work Dependency Resolution**: OpenMax handles the chain of referenced methods:
    - Identifies which prior papers are implemented as building blocks in the new method
    - Locates existing open-source implementations of referenced methods and evaluates their quality
    - Generates adapter code to integrate existing implementations with the new method's requirements
    - Documents the full method dependency tree so the team understands what each component contributes
    - Flags when a referenced method has known issues or has been superseded by improved versions
 
-6. **Reproduction and Validation Workflow**: COCO systematically verifies the implementation against reported results:
+6. **Reproduction and Validation Workflow**: OpenMax systematically verifies the implementation against reported results:
    - Designs a reproduction experiment matching the paper's evaluation protocol as closely as possible
    - Identifies expected vs. achievable reproduction fidelity — which results should exactly match and which will differ
    - Generates ablation study scripts to verify that each component contributes as described in the paper
@@ -3199,7 +3199,7 @@ The business cost of this friction is substantial. A recommendation system impro
 - **Implementation accuracy**: First-attempt reproduction achieves **within 2%** of reported results vs. previous **10-15% gap** that required weeks of debugging
 - **Code quality**: Generated implementations include **95% test coverage** vs. typical research code with **near-zero** test coverage
 - **Method evaluation throughput**: Team evaluates **4x more** candidate methods per quarter, improving the odds of finding the best approach for each problem
-- **Onboarding acceleration**: Junior data scientists can implement papers independently **3 months earlier** in their tenure with COCO's structured guidance
+- **Onboarding acceleration**: Junior data scientists can implement papers independently **3 months earlier** in their tenure with OpenMax's structured guidance
 
 **Who Benefits**
 
@@ -3331,7 +3331,7 @@ Recommend: Which method to implement first, and why.
 
 > Cut feature engineering duplication by 75% with centralized feature discovery, automated quality monitoring, and versioned feature pipelines shared across all ML projects.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Every Model Reinventing the Same Features from Scratch**
 
@@ -3341,44 +3341,44 @@ The feature management problem extends beyond discovery. Features that work perf
 
 The operational burden of managing feature pipelines at scale is crushing. Each feature requires a computation pipeline that must be scheduled, monitored, and maintained. Feature definitions evolve as business logic changes, but downstream models are not automatically updated — leading to stale features driving production predictions. When a data source changes schema or goes offline, every feature pipeline that depends on it breaks independently. Without centralized feature governance, the feature landscape becomes an unmaintainable tangle of duplicated, inconsistent, and poorly documented transformations that only the original author understands.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Centralized Feature Discovery and Search**: COCO enables data scientists to find and reuse existing features instead of building from scratch:
+1. **Centralized Feature Discovery and Search**: OpenMax enables data scientists to find and reuse existing features instead of building from scratch:
    - Catalogs every computed feature across the organization with its definition, owner, freshness, and quality metrics
-   - Enables semantic search — data scientists describe what they need in plain language and COCO surfaces matching features
+   - Enables semantic search — data scientists describe what they need in plain language and OpenMax surfaces matching features
    - Ranks search results by relevance, quality score, and popularity among similar projects
    - Shows feature lineage — which raw data sources feed each feature and what transformations are applied
    - Recommends features commonly used together, based on co-occurrence patterns in production models
 
-2. **Feature Quality Monitoring and Alerting**: COCO ensures features remain reliable and correct over time:
+2. **Feature Quality Monitoring and Alerting**: OpenMax ensures features remain reliable and correct over time:
    - Profiles every feature's distribution, freshness, null rate, and value range on a continuous basis
    - Detects feature drift by comparing current distributions against training-time baselines
    - Monitors feature computation latency and alerts when SLAs are at risk of being missed
    - Validates referential integrity between features — ensuring joined features remain consistent
    - Generates feature health dashboards with quality trends, incident history, and reliability scores
 
-3. **Training-Serving Consistency Enforcement**: COCO eliminates skew between offline and online feature computation:
+3. **Training-Serving Consistency Enforcement**: OpenMax eliminates skew between offline and online feature computation:
    - Maintains a single feature definition that compiles to both batch (training) and streaming (serving) implementations
    - Runs automated consistency checks comparing feature values computed in batch vs. real-time for the same input
    - Detects time-travel violations where serving features accidentally use future data not available at prediction time
    - Validates feature transformations produce identical results across different execution engines (Spark, SQL, Python)
    - Produces skew detection reports quantifying the divergence between training and serving feature distributions
 
-4. **Automated Feature Pipeline Management**: COCO handles the operational burden of running feature pipelines at scale:
+4. **Automated Feature Pipeline Management**: OpenMax handles the operational burden of running feature pipelines at scale:
    - Generates optimized computation pipelines from feature definitions, handling scheduling, dependencies, and resource allocation
    - Implements materialization strategies — deciding which features to precompute, cache, or compute on-demand based on cost and latency tradeoffs
    - Manages feature versioning so downstream models can pin to specific feature versions while new versions are validated
    - Handles backfill operations when feature definitions change, recomputing historical values without disrupting production
    - Monitors resource consumption across feature pipelines and recommends consolidation opportunities for cost reduction
 
-5. **Feature Impact and Importance Analysis**: COCO helps teams prioritize feature development based on model impact:
+5. **Feature Impact and Importance Analysis**: OpenMax helps teams prioritize feature development based on model impact:
    - Tracks which features are used by which models and their importance scores (SHAP, permutation importance)
    - Identifies high-impact features that significantly improve model performance across multiple projects
    - Detects low-value features that consume compute resources but contribute minimal predictive power
    - Recommends new feature candidates based on the gap between available features and what similar models in the organization found valuable
    - Produces quarterly feature ROI reports showing the value each feature delivers relative to its computation cost
 
-6. **Collaborative Feature Development**: COCO enables teams to contribute and consume features in a governed marketplace:
+6. **Collaborative Feature Development**: OpenMax enables teams to contribute and consume features in a governed marketplace:
    - Implements a feature contribution workflow with review, testing, and publication stages
    - Enforces documentation standards — every published feature must have a description, owner, SLA, and test suite
    - Tracks feature consumers so that owners are notified before making breaking changes
@@ -3527,7 +3527,7 @@ Analyze:
 
 > Slash model documentation and audit preparation time by 80% with automated model risk tiering, regulatory report generation, and continuous compliance monitoring across the model portfolio.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Regulatory Compliance Consuming Half the Model Lifecycle Budget**
 
@@ -3537,44 +3537,44 @@ The documentation burden falls disproportionately on data scientists — the mos
 
 The compliance risk of manual governance is also high. Documentation becomes stale as models are updated but paperwork lags behind. Inconsistencies between what the documentation says and what the model actually does create audit findings. Material model changes — retraining on new data, feature additions, threshold adjustments — may proceed without triggering the required governance review. When a regulator or internal audit team conducts an examination, the scramble to locate and reconcile documentation across multiple systems consumes weeks and diverts the entire team from productive work.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Automated Model Inventory and Risk Tiering**: COCO maintains a live catalog of every model with its risk classification:
+1. **Automated Model Inventory and Risk Tiering**: OpenMax maintains a live catalog of every model with its risk classification:
    - Discovers deployed models across all serving infrastructure (REST APIs, batch scoring, embedded models, third-party platforms)
    - Classifies each model by regulatory risk tier based on use case, impact scope, autonomy level, and data sensitivity
    - Tracks model lifecycle stage (development, validation, production, deprecated) and transitions between stages
    - Maintains ownership records, review schedules, and approval chains for each model
    - Detects unregistered models — ML assets deployed outside the governance process — and flags them for review
 
-2. **Automated Model Documentation Generation**: COCO produces governance-ready documentation from model artifacts:
+2. **Automated Model Documentation Generation**: OpenMax produces governance-ready documentation from model artifacts:
    - Generates model cards from training metadata, evaluation results, and deployment configuration — no manual writing required
    - Populates regulatory templates (SR 11-7, EU AI Act, FDA) by extracting required fields from experiment logs and code
    - Produces model risk assessments by analyzing the model's data inputs, decision scope, and failure mode characteristics
    - Creates model validation reports with statistical test results, performance benchmarks, and limitation disclosures
    - Updates documentation automatically when models are retrained, with change-tracked versions showing what differs
 
-3. **Continuous Compliance Monitoring**: COCO verifies ongoing adherence to governance requirements:
+3. **Continuous Compliance Monitoring**: OpenMax verifies ongoing adherence to governance requirements:
    - Monitors that every production model has complete, current documentation meeting the required standard
    - Tracks model review schedules and sends alerts before review deadlines are missed
    - Detects material model changes (retraining, feature changes, threshold adjustments) and triggers governance workflows
    - Validates that production model configurations match their approved documentation — catching unauthorized changes
    - Generates compliance dashboards showing portfolio-level governance health with drill-down to individual models
 
-4. **Regulatory Report Assembly**: COCO prepares audit-ready reports for regulatory examinations:
+4. **Regulatory Report Assembly**: OpenMax prepares audit-ready reports for regulatory examinations:
    - Compiles model inventory reports with risk tiers, review status, and outstanding findings for each model
    - Generates model performance attestation reports with current metrics vs. approval-time metrics
    - Produces data quality and bias monitoring reports for each model's input data and predictions
    - Assembles incident history — model failures, performance degradation events, and remediation actions taken
    - Creates comparison reports showing governance posture improvement over time
 
-5. **Model Validation Workflow Automation**: COCO streamlines the review and approval process:
+5. **Model Validation Workflow Automation**: OpenMax streamlines the review and approval process:
    - Routes new models and material changes to the appropriate reviewers based on risk tier and domain
    - Generates challenger model comparison reports to support validation committee decision-making
    - Tracks review findings, remediation actions, and sign-off status with full audit trails
    - Automates recurring validation tasks — annual reviews, ongoing monitoring assessments, benchmark refreshes
    - Produces validation committee meeting packages with pre-formatted agendas, model summaries, and decision documents
 
-6. **Cross-Framework Governance Harmonization**: COCO maps compliance across multiple regulatory regimes:
+6. **Cross-Framework Governance Harmonization**: OpenMax maps compliance across multiple regulatory regimes:
    - Identifies overlapping requirements across SR 11-7, EU AI Act, NIST AI RMF, and internal policies
    - Maps each model's documentation to multiple frameworks simultaneously, avoiding duplicate effort
    - Flags gaps where a model satisfies one framework but not another
@@ -3718,7 +3718,7 @@ Include: drill-down paths from portfolio-level to individual model details.
 
 > Detect complex time series anomalies with 89% precision and 30-minute detection latency by combining statistical, ML, and contextual analysis across thousands of concurrent data streams.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Missing Critical Anomalies Hidden in an Ocean of Time Series Data**
 
@@ -3728,44 +3728,44 @@ Traditional threshold-based alerting fails spectacularly in this environment. St
 
 The most dangerous anomalies are contextual and multivariate, meaning they only appear anomalous when multiple time series are analyzed together or when seasonal context is considered. A single metric might look normal in isolation, but its relationship with correlated metrics has changed. A server's CPU utilization is within bounds, but it is no longer correlated with request volume — indicating a memory leak or runaway process. These pattern-level anomalies require sophisticated statistical modeling that goes far beyond simple threshold comparison, and most organizations lack the expertise, infrastructure, and ongoing maintenance bandwidth to build and operate such systems at scale.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Adaptive Baseline Learning**: COCO builds intelligent baselines that understand normal behavior in full context:
+1. **Adaptive Baseline Learning**: OpenMax builds intelligent baselines that understand normal behavior in full context:
    - Models each time series decomposing trend, seasonality (multiple periodicities), holiday effects, and residual noise
    - Learns day-of-week, time-of-day, month-end, and custom calendar patterns specific to each metric
    - Adapts baselines continuously using exponential smoothing that responds to gradual shifts while remaining sensitive to sudden changes
    - Handles cold-start scenarios for new metrics by transferring baseline patterns from similar established metrics
    - Maintains separate baselines for different operational regimes (peak hours vs. off-hours, weekdays vs. weekends)
 
-2. **Multi-Algorithm Anomaly Ensemble**: COCO applies multiple detection methods and synthesizes their signals:
+2. **Multi-Algorithm Anomaly Ensemble**: OpenMax applies multiple detection methods and synthesizes their signals:
    - Runs statistical methods (3-sigma, Grubbs', generalized ESD) for point anomalies in individual metrics
    - Applies machine learning models (isolation forest, autoencoders, LSTM-based predictors) for complex pattern anomalies
    - Uses change-point detection algorithms (CUSUM, Bayesian online change detection) for regime shift identification
    - Implements spectral analysis to detect frequency-domain anomalies — periodic patterns that emerge, disappear, or shift
    - Combines detector outputs using a meta-learner that weights each method based on its historical accuracy for each metric type
 
-3. **Multivariate Correlation Analysis**: COCO detects anomalies in the relationships between metrics, not just individual values:
+3. **Multivariate Correlation Analysis**: OpenMax detects anomalies in the relationships between metrics, not just individual values:
    - Monitors pairwise and group correlations across related metrics and alerts when correlation structures break down
    - Applies Mahalanobis distance and other multivariate techniques to detect joint anomalies invisible in univariate analysis
    - Identifies causal anomaly propagation — which metric deviated first and which are downstream consequences
    - Clusters related metrics automatically based on learned correlation structures, reducing the number of independent monitoring problems
    - Detects when new correlations emerge between previously independent metrics, signaling potential system-level changes
 
-4. **Contextual Anomaly Enrichment**: COCO adds business context to every detected anomaly:
+4. **Contextual Anomaly Enrichment**: OpenMax adds business context to every detected anomaly:
    - Cross-references anomaly timing with known events (deployments, campaigns, maintenance windows, external events)
    - Categorizes anomalies by type (point anomaly, contextual anomaly, collective anomaly, seasonal pattern change)
    - Estimates business impact by linking metric anomalies to downstream KPIs and revenue models
    - Provides historical precedent — has a similar anomaly occurred before? What was the cause and resolution?
    - Generates natural-language anomaly descriptions readable by non-technical stakeholders
 
-5. **Intelligent Alert Management**: COCO delivers the right alerts to the right people at the right time:
+5. **Intelligent Alert Management**: OpenMax delivers the right alerts to the right people at the right time:
    - Scores anomalies by severity combining statistical confidence, business impact, and historical precedent
    - Groups related anomalies into single incidents rather than bombarding teams with cascading individual alerts
    - Suppresses known acceptable deviations (scheduled maintenance, planned migrations) using event calendars
    - Routes alerts based on the affected system, time of day, and team on-call schedules
    - Tracks alert outcomes (true positive, false positive, acknowledged, ignored) to continuously improve detection quality
 
-6. **Root Cause Analysis and Response Recommendation**: COCO helps teams act on anomalies, not just detect them:
+6. **Root Cause Analysis and Response Recommendation**: OpenMax helps teams act on anomalies, not just detect them:
    - Correlates detected anomalies across multiple metrics to identify the most likely root cause metric
    - Maps anomalies to infrastructure components, code changes, and configuration updates using deployment timelines
    - Suggests investigation playbooks based on the anomaly type and affected system
@@ -3913,7 +3913,7 @@ Analyze:
 
 > Never lose track of which model is in production, what trained it, or why it performs the way it does.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: AI Model Versioning and Lineage Tracker**
 
@@ -3923,9 +3923,9 @@ The consequences of poor model lineage are serious. When a model behaves unexpec
 
 Beyond debugging and compliance, poor lineage creates organizational knowledge loss. When the data scientist who trained the best-performing model leaves the company, the knowledge of what made it work leaves with them. The team is left with a model artifact and no reproducible path to rebuild or improve it.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO creates a structured model lineage system that documents every artifact, links each model to its full training provenance, and makes the entire model history queryable and auditable:
+OpenMax creates a structured model lineage system that documents every artifact, links each model to its full training provenance, and makes the entire model history queryable and auditable:
 
 1. **Training run documentation**
    - Generates structured documentation for each training run capturing dataset version, preprocessing steps, and feature set
@@ -4096,7 +4096,7 @@ Generate a complete model card formatted for [regulatory framework] compliance r
 
 > Design a feature store architecture that eliminates training-serving skew and makes reusable features the default.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: AI Feature Store Design Advisor**
 
@@ -4106,9 +4106,9 @@ Training-serving skew is a related and equally serious problem. A feature comput
 
 Without a well-designed feature store, organizations also struggle with feature freshness. A model that requires near-real-time features gets served stale data when the pipeline is delayed. A model that was trained on daily aggregations gets served hourly aggregations in production. These mismatches are often invisible until model behavior becomes obviously wrong.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO acts as a feature store architect and implementation advisor, helping teams design, build, and govern feature infrastructure that scales with the organization:
+OpenMax acts as a feature store architect and implementation advisor, helping teams design, build, and govern feature infrastructure that scales with the organization:
 
 1. **Feature store architecture design**
    - Evaluates the team's use cases and recommends the appropriate feature store architecture (offline-only, online-offline, real-time, hybrid)
@@ -4272,7 +4272,7 @@ Output as a feature governance specification document.
 
 > Move beyond correlation and understand what actually causes the outcomes your business cares about.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: AI Causal Inference Assistant**
 
@@ -4282,9 +4282,9 @@ The gap between correlation and causation is invisible in standard analytical ou
 
 A/B testing solves some of these problems but is not always available. Many interventions cannot be randomized — you cannot randomly assign different customers to different product tiers, randomly assign different prices to otherwise identical users, or run experiments on historical data. Causal inference methods like instrumental variables, difference-in-differences, regression discontinuity, and propensity score matching exist to address precisely these cases, but they are methodologically demanding and easy to apply incorrectly.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO guides data scientists through the full causal inference workflow — from problem framing to method selection to results interpretation — making rigorous causal analysis accessible for the questions that matter most:
+OpenMax guides data scientists through the full causal inference workflow — from problem framing to method selection to results interpretation — making rigorous causal analysis accessible for the questions that matter most:
 
 1. **Causal question framing**
    - Translates business questions into formally specified causal queries
@@ -4443,19 +4443,19 @@ Include: annotated Python or R code for each step.
 
 > Tracks production model performance metrics, detects data drift and concept drift, and generates diagnostic reports when model accuracy degrades.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Production Models Decay Silently Until Business Impact Is Undeniable**
 
 ML models deployed in production are not static. Data distributions shift, user behavior changes, and upstream systems are modified. Without continuous monitoring, models silently degrade — prediction accuracy drifts and decision quality erodes. The first signal organizations often receive is a business metric decline: fraud losses spike, churn predictions miss, or revenue forecasts go wrong. By then, the model has been degraded for weeks or months. Monitoring production models manually is not feasible at scale, and alerting thresholds set conservatively cause genuine drift to go undetected.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Prediction Distribution Monitoring**: COCO tracks output distributions for classification and regression models, flagging shifts in prediction confidence, class balance, or output range.
-2. **Feature Drift Detection**: COCO monitors input feature distributions and identifies statistical drift against training baseline using PSI, KL divergence, and other tests.
-3. **Concept Drift Analysis**: COCO identifies when model performance degrades even when input distributions appear stable — signaling that the feature-target relationship has changed.
-4. **Root Cause Diagnostic Reports**: When drift is detected, COCO generates structured reports identifying the most likely contributing features and suggested remediation paths.
-5. **Retraining Trigger Recommendations**: COCO applies configured performance thresholds to recommend whether models should be retrained, recalibrated, or replaced.
+1. **Prediction Distribution Monitoring**: OpenMax tracks output distributions for classification and regression models, flagging shifts in prediction confidence, class balance, or output range.
+2. **Feature Drift Detection**: OpenMax monitors input feature distributions and identifies statistical drift against training baseline using PSI, KL divergence, and other tests.
+3. **Concept Drift Analysis**: OpenMax identifies when model performance degrades even when input distributions appear stable — signaling that the feature-target relationship has changed.
+4. **Root Cause Diagnostic Reports**: When drift is detected, OpenMax generates structured reports identifying the most likely contributing features and suggested remediation paths.
+5. **Retraining Trigger Recommendations**: OpenMax applies configured performance thresholds to recommend whether models should be retrained, recalibrated, or replaced.
 
 :::
 
@@ -4542,25 +4542,25 @@ Generate a weekly health summary including:
 
 > Designs statistically rigorous A/B tests with proper sample size calculations, analyzes results for significance, and generates decision-ready experiment reports.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Most A/B Tests Are Underpowered, Misanalyzed, or Interpreted Incorrectly**
 
 Most organizations run tests poorly. Sample sizes are set by gut feel rather than statistical power calculations. Tests are stopped early when early results look promising — creating peeking bias. Multiple metrics are tested without corrections for multiple comparisons. The consequences are costly: product teams ship changes that hurt engagement because underpowered tests failed to detect negative effects, and "winning" tests fail to replicate in production because significance thresholds were too low.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Experiment Design Consultation**: COCO helps formulate testable hypotheses, identifies the primary metric and guardrail metrics, and designs the test structure to minimize threats to validity.
-2. **Sample Size and Power Calculation**: COCO calculates required sample sizes based on minimum detectable effect, baseline conversion rate, desired power, and significance threshold.
-3. **Test Duration Estimation**: COCO estimates required test runtime and calculates risk of false positives from early stopping.
-4. **Statistical Analysis**: COCO analyzes experiment results using appropriate statistical tests with corrections for multiple comparisons.
-5. **Decision-Ready Reports**: COCO generates experiment closure reports with effect size estimates, confidence intervals, segment breakdowns, and a clear ship/no-ship recommendation.
+1. **Experiment Design Consultation**: OpenMax helps formulate testable hypotheses, identifies the primary metric and guardrail metrics, and designs the test structure to minimize threats to validity.
+2. **Sample Size and Power Calculation**: OpenMax calculates required sample sizes based on minimum detectable effect, baseline conversion rate, desired power, and significance threshold.
+3. **Test Duration Estimation**: OpenMax estimates required test runtime and calculates risk of false positives from early stopping.
+4. **Statistical Analysis**: OpenMax analyzes experiment results using appropriate statistical tests with corrections for multiple comparisons.
+5. **Decision-Ready Reports**: OpenMax generates experiment closure reports with effect size estimates, confidence intervals, segment breakdowns, and a clear ship/no-ship recommendation.
 
 :::
 
 ::: details Results & Who Benefits
 
-- **Underpowered test rate**: Teams applying COCO-assisted design reduce underpowered experiments from **60%+ to under 15%** of the test portfolio
+- **Underpowered test rate**: Teams applying OpenMax-assisted design reduce underpowered experiments from **60%+ to under 15%** of the test portfolio
 - **False positive rate**: Proper significance thresholds and multiple comparison corrections reduce false positives by **50–70%**
 - **Analysis time**: Generating a complete experiment analysis report drops from **4–8 hours to 30–60 minutes**
 - **Shipping quality**: Teams using rigorous experiment design report **30% fewer regressions** from shipped features
@@ -4644,19 +4644,19 @@ Generate a closure report including:
 
 > Analyzes raw datasets and existing features to recommend high-potential derived features, transformations, and interaction terms — with expected predictive value rationale.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Feature Engineering Is the Highest-Value and Most Time-Consuming Step in ML Development**
 
 Feature engineering consistently has more impact on model performance than algorithm choice — yet it is the most time-consuming and knowledge-intensive part of the ML development process. A skilled data scientist can spend 60–70% of total project time on feature creation, selection, and validation. For less experienced practitioners, the challenge is greater still: knowing which transformations to try, which interaction terms to create, and how to encode domain knowledge requires years of experience. A dataset with 50 raw variables has thousands of possible first-order transformations and tens of thousands of potential interaction terms — manual exploration is both slow and incomplete.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Dataset Analysis**: COCO examines raw feature distributions, data types, missing value patterns, and correlations to understand the data landscape.
-2. **Domain-Aware Feature Suggestions**: COCO generates feature engineering recommendations grounded in domain knowledge (finance, healthcare, retail, etc.).
-3. **Transformation Recommendations**: COCO recommends appropriate transformations (log, polynomial, normalization, binning) based on distribution characteristics.
-4. **Interaction Term Identification**: COCO identifies potentially valuable interaction terms based on domain logic and statistical correlation patterns.
-5. **Implementation Code Generation**: COCO generates Python/Pandas code for each recommended feature, ready for data scientists to review and incorporate.
+1. **Dataset Analysis**: OpenMax examines raw feature distributions, data types, missing value patterns, and correlations to understand the data landscape.
+2. **Domain-Aware Feature Suggestions**: OpenMax generates feature engineering recommendations grounded in domain knowledge (finance, healthcare, retail, etc.).
+3. **Transformation Recommendations**: OpenMax recommends appropriate transformations (log, polynomial, normalization, binning) based on distribution characteristics.
+4. **Interaction Term Identification**: OpenMax identifies potentially valuable interaction terms based on domain logic and statistical correlation patterns.
+5. **Implementation Code Generation**: OpenMax generates Python/Pandas code for each recommended feature, ready for data scientists to review and incorporate.
 
 :::
 

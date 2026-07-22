@@ -1,6 +1,6 @@
 # Web 控制台 — 使用技巧
 
-Web 控制台是基于浏览器的对话界面，无需安装任何应用，即可与 COCO AI 员工沟通。
+Web 控制台是基于浏览器的对话界面，无需安装任何应用，即可与 OpenMax AI 员工沟通。
 
 ## 访问 Web 控制台
 
@@ -49,7 +49,7 @@ https://[你的域名].icoco.ai/console/
 ```
 
 ### 方式 B：浮动挂件
-在页面中引入 COCO 挂件脚本：
+在页面中引入 OpenMax 挂件脚本：
 ```html
 <script>
   window.COCO_CONFIG = {
@@ -61,7 +61,7 @@ https://[你的域名].icoco.ai/console/
 <script src="https://icoco.ai/widget.js" async></script>
 ```
 
-在 COCO Dashboard → Web 控制台 → 嵌入设置 中配置挂件参数。
+在 OpenMax Dashboard → Web 控制台 → 嵌入设置 中配置挂件参数。
 
 ## 高级功能
 

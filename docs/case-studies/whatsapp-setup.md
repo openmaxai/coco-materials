@@ -2,7 +2,7 @@
 
 ## Use Case
 
-You've connected COCO AI to WhatsApp and can chat with the Bot. But by default, only you (the Owner) can talk to the Bot — how do you let team members or others use it too?
+You've connected OpenMax AI to WhatsApp and can chat with the Bot. But by default, only you (the Owner) can talk to the Bot — how do you let team members or others use it too?
 
 This tutorial shows how to quickly open up Bot permissions to others using natural language commands.
 
@@ -14,7 +14,7 @@ You'll need to connect WhatsApp first. For setup instructions, see the [WhatsApp
 
 ### Step 1: Log in to Dashboard and Connect WhatsApp
 
-1. Log in to [COCO Dashboard](https://icoco.ai/dashboard)
+1. Log in to [OpenMax Dashboard](https://icoco.ai/dashboard)
 2. Top right **Dashboard** → Left sidebar **Channels** → **WhatsApp** Connect
 3. Wait for the QR code to generate
 

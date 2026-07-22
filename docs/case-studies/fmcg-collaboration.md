@@ -1,14 +1,14 @@
 ---
 layout: page
-title: "Top FMCG Company × COCO AI — Cross-Market Collaboration Automation | COCO"
-description: "How a top FMCG company operating across 10+ Southeast Asian markets used COCO AI inside Lark to auto-dispatch tasks from 5–6 chat groups, enable real-time multilingual coordination, and pass a rigorous three-department security review with private GCP Singapore deployment."
+title: "Top FMCG Company × OpenMax AI — Cross-Market Collaboration Automation | OpenMax"
+description: "How a top FMCG company operating across 10+ Southeast Asian markets used OpenMax AI inside Lark to auto-dispatch tasks from 5–6 chat groups, enable real-time multilingual coordination, and pass a rigorous three-department security review with private GCP Singapore deployment."
 head:
   - - meta
     - property: og:title
-      content: "Top FMCG Company × COCO AI — Cross-Market Collaboration Automation"
+      content: "Top FMCG Company × OpenMax AI — Cross-Market Collaboration Automation"
   - - meta
     - property: og:description
-      content: "How a top FMCG company operating across 10+ Southeast Asian markets used COCO AI inside Lark to auto-dispatch tasks from 5–6 chat groups, enable real-time multilingual coordination, and pass a rigorous three-department security review with private GCP Singapore deployment."
+      content: "How a top FMCG company operating across 10+ Southeast Asian markets used OpenMax AI inside Lark to auto-dispatch tasks from 5–6 chat groups, enable real-time multilingual coordination, and pass a rigorous three-department security review with private GCP Singapore deployment."
   - - meta
     - property: og:image
       content: "https://docs.icoco.ai/coco-logo-black.png"
@@ -767,7 +767,7 @@ head:
 <div class="case-hero">
   <div class="hero-text-box">
     <h1>Top FMCG Company<br/><em>Cross-Market Collaboration, Automated</em></h1>
-    <p class="subtitle">5-6 Lark groups, 10+ Southeast Asian markets, multilingual chaos.<br/>COCO AI took over the coordination layer so critical tasks no longer sink into the message stream.</p>
+    <p class="subtitle">5-6 Lark groups, 10+ Southeast Asian markets, multilingual chaos.<br/>OpenMax AI took over the coordination layer so critical tasks no longer sink into the message stream.</p>
     <div class="hero-stats">
       <div class="stat">
         <div class="stat-value">10+</div>
@@ -802,7 +802,7 @@ The company had explored off-the-shelf workflow tools, but none could satisfy th
 
 ## Solution: <em>AI Employee Inside Lark</em>
 
-COCO deployed an AI employee directly inside the company's Lark workspace, with a **private deployment on GCP Singapore** to satisfy data sovereignty requirements — successfully passing a joint security review by three departments (IT Security, Legal, and Data Governance). The solution operates as three interconnected capabilities that transform the company's cross-market coordination from a manual relay race into an automated, intelligent dispatch system.
+OpenMax deployed an AI employee directly inside the company's Lark workspace, with a **private deployment on GCP Singapore** to satisfy data sovereignty requirements — successfully passing a joint security review by three departments (IT Security, Legal, and Data Governance). The solution operates as three interconnected capabilities that transform the company's cross-market coordination from a manual relay race into an automated, intelligent dispatch system.
 
 <div class="pipeline-grid">
   <div class="pipeline-card">
@@ -831,7 +831,7 @@ COCO deployed an AI employee directly inside the company's Lark workspace, with 
 
 ## Results
 
-The impact of COCO AI's deployment was felt almost immediately across the organization. The AI auto-dispatch system replaced the previous manual group-relay coordination model, delivering a transformative improvement in coordination efficiency. Tasks that once required multiple forwards and manual tracking across 5-6 groups are now automatically identified, structured, and routed to the right person — reducing coordination overhead by an order of magnitude.
+The impact of OpenMax AI's deployment was felt almost immediately across the organization. The AI auto-dispatch system replaced the previous manual group-relay coordination model, delivering a transformative improvement in coordination efficiency. Tasks that once required multiple forwards and manual tracking across 5-6 groups are now automatically identified, structured, and routed to the right person — reducing coordination overhead by an order of magnitude.
 
 The deployment cleared a **three-department joint security review**, satisfying all enterprise compliance requirements including data residency in Singapore, encryption standards, and access control policies. This was not a rubber-stamp process — it involved months of rigorous evaluation by IT Security, Legal, and Data Governance teams, setting a precedent for AI adoption across the broader global organization.
 
@@ -866,9 +866,9 @@ Cross-market information accuracy improved substantially, reducing rework caused
 
 ## Why This Case Matters
 
-This case represents a critical proof point for enterprise AI adoption in highly regulated, multi-market environments. The FMCG industry operates at a pace where hours of coordination delay can mean missed shelf windows and lost revenue. By embedding AI directly into the company's existing Lark infrastructure — rather than asking teams to adopt yet another tool — COCO eliminated the adoption barrier that kills most enterprise AI initiatives before they start.
+This case represents a critical proof point for enterprise AI adoption in highly regulated, multi-market environments. The FMCG industry operates at a pace where hours of coordination delay can mean missed shelf windows and lost revenue. By embedding AI directly into the company's existing Lark infrastructure — rather than asking teams to adopt yet another tool — OpenMax eliminated the adoption barrier that kills most enterprise AI initiatives before they start.
 
-What makes this deployment particularly significant is the security validation. For global enterprises, passing a three-department security review is often the hardest milestone in any technology adoption. COCO's private GCP Singapore deployment model proved that enterprise-grade AI automation doesn't have to compromise on data sovereignty or compliance — it can meet the most stringent standards while still delivering the speed and flexibility that operations teams need. This precedent opens the door for AI-driven coordination across the company's global operations, not just Southeast Asia.
+What makes this deployment particularly significant is the security validation. For global enterprises, passing a three-department security review is often the hardest milestone in any technology adoption. OpenMax's private GCP Singapore deployment model proved that enterprise-grade AI automation doesn't have to compromise on data sovereignty or compliance — it can meet the most stringent standards while still delivering the speed and flexibility that operations teams need. This precedent opens the door for AI-driven coordination across the company's global operations, not just Southeast Asia.
 
 </div>
 
@@ -876,7 +876,7 @@ What makes this deployment particularly significant is the security validation. 
   <div class="case-cta">
     <h2>Bring AI to Your Enterprise Collaboration</h2>
     <p>Like this FMCG leader, start with the tools your team already uses</p>
-    <a href="https://icoco.ai" class="cta-btn">Get Started with COCO</a>
+    <a href="https://icoco.ai" class="cta-btn">Get Started with OpenMax</a>
   </div>
 </div>
 

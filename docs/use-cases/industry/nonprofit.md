@@ -19,7 +19,7 @@ AI use cases for the nonprofit industry.
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Grant Applications Take Weeks and Still Get Rejected**
 
@@ -29,19 +29,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Grant Proposal Writer integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI Grant Proposal Writer integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Nonprofit.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Nonprofit.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -49,7 +49,7 @@ COCO's AI Grant Proposal Writer integrates directly into your existing workflow 
 
 **Measurable Results**
 
-Teams using COCO's AI Grant Proposal Writer report:
+Teams using OpenMax's AI Grant Proposal Writer report:
 - **63% reduction** in task completion time
 - **37% decrease** in operational costs for this workflow
 - **91% accuracy** rate, exceeding manual benchmarks
@@ -143,7 +143,7 @@ This week's data:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Donor Relationships Are Slipping Through the Cracks**
 
@@ -153,19 +153,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Donor Engagement Tracker integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI Donor Engagement Tracker integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Nonprofit.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Nonprofit.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -173,7 +173,7 @@ COCO's AI Donor Engagement Tracker integrates directly into your existing workfl
 
 **Measurable Results**
 
-Teams using COCO's AI Donor Engagement Tracker report:
+Teams using OpenMax's AI Donor Engagement Tracker report:
 - **63% reduction** in task completion time
 - **34% decrease** in operational costs for this workflow
 - **94% accuracy** rate, exceeding manual benchmarks
@@ -267,7 +267,7 @@ This week's data:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Volunteer Management Is Draining Your Team's Productivity**
 
@@ -277,19 +277,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Volunteer Coordinator integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI Volunteer Coordinator integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Nonprofit.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Nonprofit.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -297,7 +297,7 @@ COCO's AI Volunteer Coordinator integrates directly into your existing workflow 
 
 **Measurable Results**
 
-Teams using COCO's AI Volunteer Coordinator report:
+Teams using OpenMax's AI Volunteer Coordinator report:
 - **82% reduction** in task completion time
 - **35% decrease** in operational costs for this workflow
 - **91% accuracy** rate, exceeding manual benchmarks
@@ -391,7 +391,7 @@ This week's data:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Impact Reporting Is Draining Your Team's Productivity**
 
@@ -401,19 +401,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Impact Measurement Reporter integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI Impact Measurement Reporter integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Nonprofit.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Nonprofit.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -421,7 +421,7 @@ COCO's AI Impact Measurement Reporter integrates directly into your existing wor
 
 **Measurable Results**
 
-Teams using COCO's AI Impact Measurement Reporter report:
+Teams using OpenMax's AI Impact Measurement Reporter report:
 - **74% reduction** in task completion time
 - **42% decrease** in operational costs for this workflow
 - **88% accuracy** rate, exceeding manual benchmarks
@@ -515,7 +515,7 @@ This week's data:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Fundraising Is Draining Your Team's Productivity**
 
@@ -525,19 +525,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Fundraising Event Planner integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI Fundraising Event Planner integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Nonprofit.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Nonprofit.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -545,7 +545,7 @@ COCO's AI Fundraising Event Planner integrates directly into your existing workf
 
 **Measurable Results**
 
-Teams using COCO's AI Fundraising Event Planner report:
+Teams using OpenMax's AI Fundraising Event Planner report:
 - **70% reduction** in task completion time
 - **34% decrease** in operational costs for this workflow
 - **90% accuracy** rate, exceeding manual benchmarks
@@ -639,7 +639,7 @@ This week's data:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Annual Reporting Is Draining Your Team's Productivity**
 
@@ -649,19 +649,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Annual Report Assembler integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI Annual Report Assembler integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Nonprofit.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Nonprofit.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -669,7 +669,7 @@ COCO's AI Annual Report Assembler integrates directly into your existing workflo
 
 **Measurable Results**
 
-Teams using COCO's AI Annual Report Assembler report:
+Teams using OpenMax's AI Annual Report Assembler report:
 - **84% reduction** in task completion time
 - **49% decrease** in operational costs for this workflow
 - **95% accuracy** rate, exceeding manual benchmarks

@@ -1,6 +1,6 @@
 # LINE — 使用技巧
 
-在 LINE 上使用 COCO AI 员工，适用于个人助理、面向客户的支持和团队聊天——尤其在 LINE 作为主力即时通讯应用的日本、台湾和泰国。
+在 LINE 上使用 OpenMax AI 员工，适用于个人助理、面向客户的支持和团队聊天——尤其在 LINE 作为主力即时通讯应用的日本、台湾和泰国。
 
 > 第一次使用？请先查看 [LINE 部署指南](../getting-started/channel-deployment#line) 连接你的官方账号。
 

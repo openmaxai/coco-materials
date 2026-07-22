@@ -1,6 +1,6 @@
 # WhatsApp — 使用技巧
 
-在 WhatsApp 上使用 COCO AI 员工，适用于客户服务和国际业务场景。
+在 WhatsApp 上使用 OpenMax AI 员工，适用于客户服务和国际业务场景。
 
 ## 基本使用
 
@@ -15,12 +15,12 @@
 
 ## 配置 WhatsApp
 
-1. 进入 **COCO Dashboard → 渠道部署 → WhatsApp**
+1. 进入 **OpenMax Dashboard → 渠道部署 → WhatsApp**
 2. 用你的 WhatsApp 扫描二维码
 3. 等待连接确认（绿色指示灯）
 4. 开始发消息
 
-> **注意：** WhatsApp 连接使用 WhatsApp Web 协议。请定期访问 COCO Dashboard 以保持连接活跃。
+> **注意：** WhatsApp 连接使用 WhatsApp Web 协议。请定期访问 OpenMax Dashboard 以保持连接活跃。
 
 ## 适用场景
 
@@ -50,7 +50,7 @@ WhatsApp 在东南亚、拉丁美洲、中东和欧洲广泛使用，适合：
 
 **状态查询**：发消息"我的账户状态如何？"即可查看订阅详情，无需打开 Dashboard。
 
-**快捷回复**：在 COCO Dashboard → 机器人设置 中为常见问题设置快捷回复模板。
+**快捷回复**：在 OpenMax Dashboard → 机器人设置 中为常见问题设置快捷回复模板。
 
 ## 限制与说明
 
@@ -62,12 +62,12 @@ WhatsApp 在东南亚、拉丁美洲、中东和欧洲广泛使用，适合：
 ## 故障排除
 
 **机器人掉线？**
-- WhatsApp 连接有时会断开——前往 COCO Dashboard 重新连接（如需要，重新扫描二维码）
+- WhatsApp 连接有时会断开——前往 OpenMax Dashboard 重新连接（如需要，重新扫描二维码）
 - 这是 WhatsApp 的限制；连接需要定期重新授权
 
 **收不到回复？**
 - 检查机器人号码是否在 WhatsApp 中被屏蔽
-- 确认 COCO 订阅状态正常
+- 确认 OpenMax 订阅状态正常
 
 **群聊响应缓慢？**
 - 消息量较大的群组可能出现延迟

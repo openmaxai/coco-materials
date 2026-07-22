@@ -6,7 +6,7 @@ AI-powered use cases for due diligence analyst professionals.
 
 > Maps the full corporate ownership tree — direct subsidiaries, indirect holdings, VIEs, nominee structures, and shell entities — across 50+ jurisdictions in hours, not weeks.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Corporate Structure Investigation Paralyzes Deal Timelines**
 
@@ -16,49 +16,49 @@ The stakes are high and the errors are costly. Missing a subsidiary means missin
 
 The downstream cost compounds further when the same mapping work must be repeated for every deal, every portfolio company review, and every periodic compliance refresh. Analyst time that should go toward qualitative judgment — evaluating management quality, market positioning, litigation risk — gets consumed by registry lookups and spreadsheet reconciliation. Junior analysts make errors under time pressure. Senior analysts spend cycles reviewing work that should never have required their attention. And when the deal timeline compresses, the corporate structure map is the first artifact to get shortcuts — creating risk that surfaces only after close.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Multi-Source Corporate Registry Integration**: COCO aggregates data from official registries and verified commercial sources simultaneously:
+1. **Multi-Source Corporate Registry Integration**: OpenMax aggregates data from official registries and verified commercial sources simultaneously:
    - Queries national and provincial business registries across 50+ jurisdictions in parallel
    - Reconciles entity names across languages, scripts, transliterations, and common abbreviations
    - Ingests uploaded documents — articles of incorporation, shareholder agreements, annual reports — to extract ownership data not available in public registries
    - Cross-references commercial databases (Dun & Bradstreet, Bureau van Dijk, CNKI filings) with official registry data to fill gaps
    - Flags jurisdictions where data availability is limited and surfaces alternative verification pathways
 
-2. **Automated Ownership Graph Construction**: COCO builds a navigable visual and structured ownership map:
+2. **Automated Ownership Graph Construction**: OpenMax builds a navigable visual and structured ownership map:
    - Identifies direct subsidiaries (majority and minority) at every tier of the corporate tree
    - Traces indirect ownership chains through holding companies, SPVs, and fund structures
    - Calculates effective economic interest at each level, distinguishing voting control from economic exposure
    - Detects circular ownership structures and cross-holdings that indicate complex control arrangements
    - Exports the ownership graph as structured data (JSON, CSV) and visual diagrams compatible with VizTool, PowerPoint, and due diligence platforms
 
-3. **VIE, Nominee, and Shell Structure Detection**: COCO surfaces concealed control arrangements:
+3. **VIE, Nominee, and Shell Structure Detection**: OpenMax surfaces concealed control arrangements:
    - Identifies variable interest entity (VIE) structures common in Chinese technology and education sectors
    - Flags nominee director patterns where the same individual appears across unrelated entities in high-secrecy jurisdictions
    - Detects shell company indicators: no employees, no physical address, single-director structures, registered agent addresses shared by hundreds of entities
    - Cross-references beneficial ownership registers (UK PSC Register, EU registers) for disclosed ultimate beneficial owners
    - Generates a risk score for each entity based on structural complexity, jurisdiction risk, and transparency signals
 
-4. **Sanctions, Litigation, and Regulatory Screening**: COCO enriches every entity node with compliance data:
+4. **Sanctions, Litigation, and Regulatory Screening**: OpenMax enriches every entity node with compliance data:
    - Screens all identified entities against OFAC, EU, UN, and national sanctions lists in real time
    - Pulls litigation records, regulatory enforcement actions, and administrative penalties from court databases and regulator portals
    - Checks for tax liens, insolvency filings, and business license suspensions across jurisdictions
    - Identifies politically exposed person (PEP) connections through director and shareholder cross-referencing
    - Generates a consolidated compliance risk flag summary with source citations for each finding
 
-5. **Change Monitoring and Periodic Refresh**: COCO maintains the corporate map over time:
+5. **Change Monitoring and Periodic Refresh**: OpenMax maintains the corporate map over time:
    - Monitors registry feeds for ownership changes, director appointments, and structural reorganizations
    - Alerts analysts within 24 hours when a material change is detected in any entity in the map
    - Compares current structure against prior snapshots to highlight what changed, when, and at which tier
    - Schedules periodic full-refresh runs aligned with portfolio review cycles or regulatory reporting deadlines
    - Maintains a version-controlled audit trail of every map state for regulatory and legal defense purposes
 
-6. **Due Diligence Report Generation**: COCO produces client-ready deliverables automatically:
+6. **Due Diligence Report Generation**: OpenMax produces client-ready deliverables automatically:
    - Generates a structured corporate structure memo with ownership chart, entity list, jurisdiction summary, and risk flag register
    - Produces an executive summary calibrated for investment committee, legal counsel, or regulatory submission audiences
    - Creates a data room–ready package with all source documents, registry extracts, and verification logs linked to each entity node
    - Flags gaps in the map — entities referenced but not yet fully verified — with suggested next steps for each
-   - Supports iterative refinement: analysts add context or corrections, and COCO regenerates the report with updated findings
+   - Supports iterative refinement: analysts add context or corrections, and OpenMax regenerates the report with updated findings
 
 :::
 
@@ -183,7 +183,7 @@ Output: Change summary table (entity × change type × date × significance rati
 
 > Traces ultimate beneficial ownership through multi-layer holding structures, nominee arrangements, and trust intermediaries across 80+ jurisdictions — producing a verified UBO map with compliance risk ratings in hours rather than weeks.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Beneficial Ownership Opacity Paralyzes AML and Pre-Deal Compliance**
 
@@ -193,44 +193,44 @@ The compliance stakes are exceptionally high. Anti-money laundering (AML) regula
 
 The problem compounds in cross-border M&A, where the target's UBO chain may span jurisdictions with conflicting disclosure standards. The EU's beneficial ownership registers offer partial transparency, but access is increasingly restricted following post-Costeja privacy rulings. The United States' new Corporate Transparency Act reporting is still building toward full coverage. Offshore centers like the Cayman Islands, BVI, and Jersey impose strict confidentiality that can only be pierced through legal process. An analyst working without AI-assisted aggregation must maintain working knowledge of disclosure rules in dozens of jurisdictions simultaneously — a human impossibility at scale. The result is UBO reports that are incomplete, inconsistently sourced, and defensible only if never challenged.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Multi-Jurisdiction UBO Registry Integration**: COCO systematically aggregates beneficial ownership data across global sources:
+1. **Multi-Jurisdiction UBO Registry Integration**: OpenMax systematically aggregates beneficial ownership data across global sources:
    - Queries EU member-state beneficial ownership registers, UK PSC Register, FinCEN BOI database, and equivalent national registers simultaneously
    - Accesses commercial UBO aggregation services (Orbis, LexisNexis, Refinitiv) and reconciles data across conflicting sources
    - Ingests uploaded corporate documents — trust deeds, shareholder registers, notarized declarations — and extracts ownership data not available in public databases
    - Tracks jurisdictional disclosure thresholds automatically, flagging when a reported percentage may be below the local UBO definition threshold
    - Generates jurisdiction-by-jurisdiction data availability scores, alerting analysts to gaps requiring enhanced due diligence or legal process
 
-2. **Layered Ownership Chain Reconstruction**: COCO automatically maps the full ownership hierarchy:
+2. **Layered Ownership Chain Reconstruction**: OpenMax automatically maps the full ownership hierarchy:
    - Traces direct and indirect ownership chains from operating entity upward through each holding layer to natural persons
    - Calculates aggregate effective ownership percentages at each layer, accounting for fractional stakes through intermediate vehicles
    - Identifies control relationships that diverge from ownership — shareholder agreements, board appointment rights, golden shares, veto provisions
    - Detects nominee arrangements by cross-referencing directors with known fiduciary service providers and registered agent databases
    - Produces a structured chain-of-ownership diagram with economic interest and voting control columns side by side
 
-3. **Trust and Foundation Structure Analysis**: COCO handles complex wealth vehicles used to obscure beneficial ownership:
+3. **Trust and Foundation Structure Analysis**: OpenMax handles complex wealth vehicles used to obscure beneficial ownership:
    - Identifies trust structures by detecting trustee entities registered as professional fiduciaries in Cayman, Channel Islands, or Liechtenstein
    - Extracts beneficiary information from trust deeds where available and flags sealed or blind trust arrangements
    - Analyzes foundation structures (Stiftung, Fondation) under continental European and Caribbean law for beneficial interest holders
    - Cross-references discretionary trust beneficiaries against PEP and sanctions lists to surface hidden risks
    - Generates a trust-layer summary distinguishing fixed beneficiaries, discretionary beneficiaries, and protectors
 
-4. **Sanctions and PEP Screening of Identified UBOs**: COCO screens every identified natural person at the chain terminus:
+4. **Sanctions and PEP Screening of Identified UBOs**: OpenMax screens every identified natural person at the chain terminus:
    - Screens identified UBOs against OFAC SDN list, EU Consolidated Sanctions List, UN Consolidated List, HMT Sanctions, and 20+ national lists in real time
    - Checks all UBOs against global PEP databases including direct PEPs, family members, and close associates (PEP+1/+2 levels)
    - Runs adverse media screening for each identified UBO across 10,000+ global media sources in 40+ languages
    - Generates a per-UBO risk profile combining jurisdiction risk, PEP status, sanctions exposure, and adverse media findings
    - Flags any UBO for whom identity verification documentation is absent or inconsistent across sources
 
-5. **Nominee and Proxy Arrangement Detection**: COCO surfaces concealed beneficial control relationships:
+5. **Nominee and Proxy Arrangement Detection**: OpenMax surfaces concealed beneficial control relationships:
    - Cross-references director databases to identify professional nominees — individuals who appear as directors or shareholders in hundreds of companies
    - Analyzes voting agreements, power of attorney records, and management agreements for de facto control language
    - Flags nominee service providers appearing in known offshore secrecy structures in BVI, Cayman, Seychelles, and Vanuatu
    - Identifies patterns where a single natural person's name appears across multiple unrelated corporate vehicles in the same structure
    - Generates a nominee suspicion score with supporting evidence for each flagged arrangement
 
-6. **UBO Due Diligence Report Generation**: COCO produces compliant, client-ready UBO deliverables:
+6. **UBO Due Diligence Report Generation**: OpenMax produces compliant, client-ready UBO deliverables:
    - Generates a structured UBO identification memo per FATF Recommendation 24 standards and EU AMLD disclosure requirements
    - Produces an ownership chain visualization with natural persons highlighted and screening results embedded at each node
    - Creates a verification status log showing which UBO identities have been confirmed through document review vs. database-only sourcing
@@ -247,7 +247,7 @@ The problem compounds in cross-border M&A, where the target's UBO chain may span
 - **Coverage completeness**: AI-assisted UBO mapping identifies **94% of beneficial owners** meeting the 25% threshold vs. 71% using manual registry-only approaches
 - **PEP and sanctions hit detection**: Screening accuracy improved by **37%** when AI aggregates multiple name transliterations and aliases vs. single-pass manual screening
 - **Nominee arrangement detection**: AI surface-layer analysis identifies nominee arrangements at a rate **3.1x higher** than document-only review
-- **Compliance defensibility**: UBO reports produced by COCO carry complete source citation logs, reducing regulatory challenge exposure by an estimated **60%** in audited engagements
+- **Compliance defensibility**: UBO reports produced by OpenMax carry complete source citation logs, reducing regulatory challenge exposure by an estimated **60%** in audited engagements
 
 **Who Benefits**
 
@@ -365,7 +365,7 @@ Output: Formal UBO verification memo in compliance-ready format suitable for reg
 
 > Orchestrates multi-list sanctions screening and PEP identification across all entities, directors, shareholders, and counterparties in a transaction — with alias resolution, transliteration matching, and jurisdictional list management built in.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Manual Sanctions Screening Fails at Transaction Scale and Generates Unacceptable False Negative Risk**
 
@@ -375,44 +375,44 @@ The name matching problem alone makes manual screening unreliable. Sanctioned in
 
 The compliance landscape is also dynamic in ways that make point-in-time screening insufficient. OFAC alone designates and updates hundreds of entries annually. The EU adds, modifies, and removes designations in response to geopolitical developments — Russia-related sanctions programs have expanded dramatically and continue to evolve. A deal that was clean at signing may have a newly sanctioned counterparty by the time of closing. Without ongoing monitoring, that change goes undetected until an adverse event forces a review. The regulatory standard increasingly requires not just initial screening but continuous monitoring of existing relationships — a requirement that manual processes cannot satisfy at reasonable cost without AI augmentation.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Comprehensive Sanctions List Orchestration**: COCO manages multi-list screening with full list coverage and automatic updates:
+1. **Comprehensive Sanctions List Orchestration**: OpenMax manages multi-list screening with full list coverage and automatic updates:
    - Maintains current versions of OFAC SDN and non-SDN lists, EU Consolidated Sanctions List, UN Security Council Consolidated List, HMT UK Financial Sanctions, AUSTRAC, MAS, and 25+ national lists simultaneously
    - Updates list coverage within hours of official government publications, ensuring no screening gap during active geopolitical sanctions events
    - Applies jurisdiction-specific screening requirements automatically based on the transaction's parties and financial institution's home jurisdiction
    - Deduplicates cross-list matches so the same individual sanctioned across multiple lists appears once with all applicable designations cited
    - Generates a screening universe inventory — every entity, individual, and address to be screened — before the screening run begins
 
-2. **Fuzzy Name Matching and Transliteration Resolution**: COCO resolves the name matching challenge across scripts and aliases:
+2. **Fuzzy Name Matching and Transliteration Resolution**: OpenMax resolves the name matching challenge across scripts and aliases:
    - Applies phonetic matching algorithms (Soundex, Metaphone, double-metaphone) to catch misspellings and anglicization variants
    - Generates all major romanization variants of names transliterated from Arabic, Chinese, Russian, Persian, Korean, and Thai scripts
    - Cross-references known aliases, maiden names, and name changes recorded in sanction designations and commercial databases
    - Scores each potential match on a confidence scale (confirmed / high-probability / possible / unlikely) rather than binary hit/no-hit
    - Presents every possible match above the analyst-defined confidence threshold for human review, with side-by-side evidence
 
-3. **PEP Identification and Classification**: COCO identifies politically exposed persons with full classification detail:
+3. **PEP Identification and Classification**: OpenMax identifies politically exposed persons with full classification detail:
    - Screens against PEP databases covering 250+ countries with classifications including heads of state, cabinet ministers, senior military and judicial officers, central bank governors, and senior SOE executives
    - Identifies PEP+1 (direct family members: spouse, children, parents, siblings) and PEP+2 (close associates: business partners, known advisors) connections
    - Tracks historical PEP status for individuals who have left qualifying positions within the past 12–36 months (jurisdiction-dependent cooling-off periods)
    - Flags State-Owned Enterprise (SOE) directors and executives in jurisdictions where SOE affiliation constitutes PEP status under applicable law
    - Generates a PEP profile for each identified individual including their qualifying role, jurisdiction, tenure, and applicable regulatory treatment
 
-4. **Counterparty Network Screening**: COCO screens beyond the primary entity to the full counterparty ecosystem:
+4. **Counterparty Network Screening**: OpenMax screens beyond the primary entity to the full counterparty ecosystem:
    - Automatically expands the screening universe to include all directors, significant shareholders (above analyst-defined threshold), and authorized signatories
    - Screens key customers, suppliers, and business partners identified during commercial due diligence
    - Cross-references payment counterparties from transaction history documents against sanctions lists (particularly for correspondent banking and trade finance contexts)
    - Flags any entity where a sanctioned person or PEP holds a beneficial interest above the applicable threshold, even if not named in the entity's registration
    - Generates a network risk map showing where sanctions or PEP exposures sit within the counterparty ecosystem
 
-5. **Real-Time Monitoring and Alert Management**: COCO maintains screening currency throughout a deal lifecycle:
+5. **Real-Time Monitoring and Alert Management**: OpenMax maintains screening currency throughout a deal lifecycle:
    - Monitors all screened entities and individuals against ongoing sanctions list updates on a daily or configurable basis
    - Generates immediate alerts when a new designation covers any entity or individual in the monitored portfolio
    - Tracks the full change history of each screened entity — when they were first screened, when re-screened, and any intervening list updates
    - Provides a daily digest of sanctions changes relevant to any active deal or monitored relationship
    - Integrates with case management systems to escalate new hits directly to compliance officers without requiring manual list monitoring
 
-6. **Screening Report and Compliance Documentation**: COCO produces defensible compliance records:
+6. **Screening Report and Compliance Documentation**: OpenMax produces defensible compliance records:
    - Generates a comprehensive screening report with per-entity results, match confidence levels, and analyst disposition for each hit
    - Creates a list management log showing which list versions were in effect at the time of each screening run
    - Produces an escalation memo for any confirmed match or high-probability match, with regulatory guidance on next steps
@@ -551,7 +551,7 @@ Output: Formal negative screening certification memo in compliance-ready format 
 
 > Searches court databases, regulatory enforcement portals, and arbitration records across multiple jurisdictions to construct a complete litigation history timeline — identifying material pending claims, prior judgments, and regulatory actions in hours.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Incomplete Litigation Discovery Creates Catastrophic Post-Close Surprises**
 
@@ -561,44 +561,44 @@ The geographic fragmentation of court systems compounds the problem enormously. 
 
 The consequences of litigation discovery failures are severe and well-documented. Post-close litigation surprises represent one of the most common causes of M&A purchase price adjustment disputes, earn-out conflicts, and indemnification claims. When a hidden regulatory enforcement action comes to light post-close, it may impose remediation costs, business restriction orders, or license suspensions that alter the economics of the deal entirely. Reputational damage from undisclosed prior criminal proceedings against key executives — even resolved proceedings — can affect financing terms, customer retention, and regulatory relationships in ways that are difficult to quantify but material to deal value. Early, comprehensive litigation discovery is not a compliance formality; it is a fundamental risk management function.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Multi-Jurisdiction Court Database Search**: COCO executes litigation searches across comprehensive court data sources:
+1. **Multi-Jurisdiction Court Database Search**: OpenMax executes litigation searches across comprehensive court data sources:
    - Queries PACER for all federal district, appellate, and bankruptcy court filings with the target as party (plaintiff, defendant, debtor, or creditor)
    - Searches available state court electronic filing systems across all 50 US states, prioritizing states where the target has registered operations
    - Accesses international court databases including Companies House disqualification records, UK court service, EU court portals, and commercial legal database aggregators
    - Ingests litigation disclosure schedules from the target's data room and cross-validates against independent search results
    - Generates a jurisdiction coverage map showing which courts were searchable vs. requiring manual attorney search, with a gap mitigation plan
 
-2. **Regulatory and Administrative Enforcement Search**: COCO extends the search beyond traditional courts:
+2. **Regulatory and Administrative Enforcement Search**: OpenMax extends the search beyond traditional courts:
    - Queries SEC EDGAR for enforcement actions, Wells Notices, and SEC no-action letter requests involving the target or its executives
    - Searches CFTC, FTC, DOJ, EPA, OSHA, and relevant state regulatory agency enforcement databases
    - Accesses international regulatory portals: FCA Final Notices, BaFin enforcement actions, MAS regulatory actions, HKMA supervisory actions
    - Identifies debarment and suspension entries in SAM.gov and equivalent government contractor exclusion databases
    - Extracts administrative tribunal decisions, license revocation proceedings, and professional misconduct findings
 
-3. **Arbitration and Alternative Dispute Resolution Records**: COCO identifies non-court dispute records:
+3. **Arbitration and Alternative Dispute Resolution Records**: OpenMax identifies non-court dispute records:
    - Searches AAA, JAMS, ICC, LCIA, and SIAC arbitration filing databases for proceedings naming the target
    - Identifies international arbitration awards under ICSID for targets with government contract exposure
    - Reviews commercial contracts provided in the data room for arbitration clauses and identifies any referenced proceedings
    - Searches trade association disciplinary proceedings and professional body investigation records
    - Cross-references patent dispute databases (IPR proceedings at USPTO PTAB) for technology sector targets
 
-4. **Litigation Timeline Construction and Pattern Analysis**: COCO builds a structured, navigable litigation history:
+4. **Litigation Timeline Construction and Pattern Analysis**: OpenMax builds a structured, navigable litigation history:
    - Constructs a chronological litigation timeline spanning the full history of the entity, with each proceeding plotted by filing date, status changes, and resolution
    - Categorizes all proceedings by type (commercial dispute, employment, IP, regulatory enforcement, securities, environmental, criminal), jurisdiction, and current status
    - Calculates aggregate exposure: total claimed damages in pending litigation, estimated settlement probabilities based on proceeding stage
    - Identifies litigation patterns — repeated disputes with particular counterparty types, clustering of claims in specific business units, serial regulatory inquiries suggesting systemic compliance failures
    - Flags proceedings involving key executives personally (as individual defendants) rather than the entity alone
 
-5. **Material Pending Claim Assessment**: COCO evaluates the financial significance of identified litigation:
+5. **Material Pending Claim Assessment**: OpenMax evaluates the financial significance of identified litigation:
    - Estimates financial exposure for each material pending proceeding based on claimed amounts, comparable settlements, and proceeding stage
    - Cross-references identified litigation against the target's financial statements to verify litigation reserve adequacy
    - Identifies any proceedings that, individually or in aggregate, could exceed material disclosure thresholds under the applicable deal agreement
    - Flags any proceedings that may trigger cross-default provisions, change-of-control restrictions, or consent requirements in the target's existing agreements
    - Generates a materiality-tiered summary distinguishing critical (deal-blocking), significant (purchase price impact), and background (manageable) proceedings
 
-6. **Litigation Due Diligence Report and Disclosure Schedule Review**: COCO delivers structured findings:
+6. **Litigation Due Diligence Report and Disclosure Schedule Review**: OpenMax delivers structured findings:
    - Generates a comprehensive litigation search memorandum with findings organized by jurisdiction, claim type, and materiality
    - Compares independent search results against the target's litigation disclosure schedule and flags all discrepancies requiring explanation
    - Produces a litigation risk register with each proceeding rated by probability, exposure magnitude, and timeline to resolution
@@ -738,7 +738,7 @@ Output: Formatted litigation risk register table + aggregate exposure summary (b
 
 > Verifies the active legal existence, registration status, authorized business scope, and filing compliance of corporate entities across 80+ jurisdictions — flagging discrepancies, dormant entities, and scope violations within hours.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Counterparty Registration Failures Are the Most Common and Most Underestimated Deal Risk**
 
@@ -748,44 +748,44 @@ The practical difficulties of verification at transaction scale are substantial.
 
 The consequences of failing to verify registration status range from awkward to catastrophic. A counterparty that is operating outside its authorized business scope may be conducting regulated activities without the required license — exposing both itself and the transacting party to regulatory sanction. A dormant entity transacting in a deal may lack legal capacity to enter contracts, transfer assets, or make representations and warranties. An entity struck off the register (as happens automatically in many jurisdictions for failure to file annual returns) may have no authority to execute documents, and contracts signed by a struck-off entity may be voidable. In procurement and supply chain contexts, engaging a supplier that lacks valid registration in its operating jurisdiction creates liability exposure that cannot be transferred through indemnification alone.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Multi-Jurisdiction Business Registry Integration**: COCO executes systematic registration verification across global registries:
+1. **Multi-Jurisdiction Business Registry Integration**: OpenMax executes systematic registration verification across global registries:
    - Directly queries official business registries in 80+ jurisdictions including China NECIPS, UK Companies House, Germany Handelsregister, France SIRENE, US Secretary of State databases, India MCA21, Japan METI registry, Singapore ACRA, and equivalents across Asia-Pacific and Latin America
    - Verifies current registration status: active, suspended, dormant, struck off, dissolved, or under insolvency proceedings
    - Retrieves the official registration certificate, articles of incorporation, and most recent annual filing for each entity queried
    - Cross-validates registered name against the name used in transaction documents, flagging any discrepancies that may indicate a misidentified entity
    - Generates a registry data freshness indicator showing when each registry was last updated and the confidence level of the returned status
 
-2. **Authorized Business Scope and License Verification**: COCO verifies that the entity is authorized to conduct the activities it actually conducts:
+2. **Authorized Business Scope and License Verification**: OpenMax verifies that the entity is authorized to conduct the activities it actually conducts:
    - Extracts the registered business scope from official filings and compares it against the entity's described operations and revenue activities
    - Flags activities that appear to exceed or fall outside the registered scope, particularly in regulated industries (financial services, healthcare, food & beverage, construction, transport)
    - Verifies industry-specific licenses and operating permits required in the entity's operating jurisdictions (financial institution licenses, pharmaceutical manufacturing permits, food safety licenses, securities dealer registrations)
    - Identifies recent scope amendments or license renewals and checks whether they cover the current scope of business
    - Generates a scope compliance matrix showing, for each jurisdiction, whether the entity's actual activities are covered by its registered authorizations
 
-3. **Annual Filing and Compliance Status Check**: COCO verifies ongoing regulatory compliance with registry obligations:
+3. **Annual Filing and Compliance Status Check**: OpenMax verifies ongoing regulatory compliance with registry obligations:
    - Confirms that annual reports, beneficial ownership filings, and director information updates have been submitted within statutory deadlines
    - Flags overdue filings and calculates how long the entity has been in arrears — a key indicator of administrative neglect that correlates with broader governance weakness
    - Identifies patterns of chronic late filing that may indicate a poorly managed entity or deliberate compliance avoidance
    - Checks whether the entity is on a compliance warning list, under administrative suspension, or subject to automatic dissolution proceedings
    - Verifies that registered office addresses, director appointments, and shareholder information on file match the information provided by the target
 
-4. **Registered Agent and Physical Presence Verification**: COCO assesses the substantive reality of the entity's corporate presence:
+4. **Registered Agent and Physical Presence Verification**: OpenMax assesses the substantive reality of the entity's corporate presence:
    - Verifies that the registered office address is a legitimate business premises rather than a shared registered-agent address
    - Flags registered agent addresses that appear on databases of known offshore incorporation service providers, shell company factories, or mass-registered addresses
    - Cross-references physical address against available commercial property and business directory data to assess whether the location is consistent with the claimed scale of operations
    - Identifies entities whose registered address is in a secrecy jurisdiction while their actual operations are managed from a different jurisdiction — a common tax and regulatory evasion pattern
    - Generates a physical substance score for each entity based on address type, employee count, and operational footprint indicators
 
-5. **Historical Registration and Name Change Tracking**: COCO reconstructs the entity's identity history:
+5. **Historical Registration and Name Change Tracking**: OpenMax reconstructs the entity's identity history:
    - Retrieves the full registration history: incorporation date, name changes, registered office changes, and status transitions
    - Identifies all prior corporate names under which the entity operated, enabling comprehensive litigation, sanctions, and adverse media searches under historical identities
    - Flags suspicious patterns: multiple rapid name changes, conversions between entity types, or re-registrations that may indicate attempts to shed adverse history
    - Traces predecessor entities and absorptions from mergers that may have brought historical liabilities into the current entity
    - Cross-references historical names and addresses against adverse databases to identify liability-carrying identities not reflected in the current name
 
-6. **Entity Verification Report and Gap Resolution**: COCO delivers actionable verification outputs:
+6. **Entity Verification Report and Gap Resolution**: OpenMax delivers actionable verification outputs:
    - Generates a multi-entity verification report with per-entity status, filing compliance summary, scope verification result, and physical substance assessment
    - Produces a gap resolution tracker listing jurisdictions where registry data was unavailable and recommended alternative verification methods (local counsel, notarized request, direct registry contact)
    - Drafts a targeted data room request for missing or inconsistent registration documents identified during the verification
@@ -915,7 +915,7 @@ Output: Gap resolution action plan (entity / gap type / resolution method / time
 
 > Reconstructs the complete corporate history of a target entity — mergers, acquisitions, divestitures, restructurings, name changes, and control shifts — from public records, registry data, and news archives, producing a verified chronological narrative.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Hidden Corporate History Conceals Inherited Liabilities That Surface After Close**
 
@@ -925,44 +925,44 @@ The challenge for analysts is that this history is rarely presented coherently i
 
 The fragmentation of historical records adds further difficulty. Corporate events from the 1990s or early 2000s may predate online registry systems and exist only in physical archives or early-format digital records with limited searchability. Name changes may not be automatically surfaced in database searches for the current entity name. Private company transactions — which represent the majority of M&A volume — generate less public documentation than public company deals and require more aggressive investigative research. An analyst building a corporate history manually must integrate information from multiple sources, each with its own format and vocabulary, and must maintain enough historical corporate law knowledge to understand what each event implies for current liability — a demanding task rarely completed to the depth required.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Registry-Based Corporate Event Extraction**: COCO mines official filings for corporate history events:
+1. **Registry-Based Corporate Event Extraction**: OpenMax mines official filings for corporate history events:
    - Retrieves the complete chronological filing history from business registries: incorporation documents, articles amendments, annual returns, director change filings, and dissolution/restoration records
    - Extracts merger and acquisition notifications, statutory merger filings, and asset transfer records from registry databases across 70+ jurisdictions
    - Identifies name changes, registered address relocations, share capital changes, and entity type conversions from official filing sequences
    - Reconstructs predecessor entity identities by tracing merger filings backward to the absorbed entities' independent registry histories
    - Generates a registry event timeline that forms the authoritative backbone of the corporate history analysis
 
-2. **Public Records and News Archive Mining**: COCO supplements registry data with public document sources:
+2. **Public Records and News Archive Mining**: OpenMax supplements registry data with public document sources:
    - Searches SEC EDGAR for historical proxy statements, S-4 merger filings, 8-K material event disclosures, and 10-K business history narratives for US-listed entities
    - Mines historical news archives (LexisNexis, Factiva, Bloomberg) for press coverage of corporate transactions, restructurings, and leadership changes
    - Accesses Gazette notices, official tender offer announcements, and competition authority merger decisions for publicly documented transactions
    - Retrieves historical annual reports from investor relations archives and national filing repositories
    - Synthesizes documentary evidence of corporate events that were not reflected in registry filings — particularly private transactions and pre-registration history
 
-3. **Merger Successor Liability Mapping**: COCO identifies liabilities inherited through corporate transactions:
+3. **Merger Successor Liability Mapping**: OpenMax identifies liabilities inherited through corporate transactions:
    - Traces every merger, consolidation, and statutory absorption event to determine which entities' liabilities were assumed
    - Identifies asset purchase transactions that may have included explicit liability assumptions or environmental indemnities
    - Cross-references absorbed entities' litigation, regulatory action, and environmental compliance records with the target entity's current standing
    - Analyzes carve-out transactions for representations and warranties given at time of separation that may still be in force
    - Generates a successor liability matrix mapping historical entities to the current target entity and summarizing inherited liability categories
 
-4. **Control and Ownership Change History**: COCO reconstructs the history of who owned and controlled the entity:
+4. **Control and Ownership Change History**: OpenMax reconstructs the history of who owned and controlled the entity:
    - Traces majority ownership changes through registry filings, press announcements, and SEC 13D/13G filings for US-listed entities
    - Identifies private equity sponsor ownership periods and their dates of entry and exit
    - Reconstructs management buyouts, leveraged recapitalizations, and secondary transactions from available public records
    - Flags control changes that occurred close in time to significant legal events (regulatory sanctions, litigation initiation, financial distress) as potential indicators of liability-motivated transfers
    - Generates a control change timeline with ownership periods, acquiring/divesting parties, and contemporaneous event flags
 
-5. **Financial Restructuring and Insolvency History**: COCO surfaces distressed corporate events:
+5. **Financial Restructuring and Insolvency History**: OpenMax surfaces distressed corporate events:
    - Searches bankruptcy court databases (PACER, CourtLink) for historical insolvency filings by the entity or any predecessor
    - Identifies historical Chapter 11, Chapter 7, administration, or receivership proceedings and their outcomes
    - Retrieves historical debt restructuring announcements, covenant waiver events, and credit rating downgrades from news and financial databases
    - Flags entities that emerged from bankruptcy with reorganization plans that may carry ongoing obligations (plan distributions, professional fee claims, rejected contract liabilities)
    - Summarizes the financial stress history and its implications for current financial health assessment
 
-6. **Corporate History Narrative and Timeline Report**: COCO synthesizes findings into a coherent deliverable:
+6. **Corporate History Narrative and Timeline Report**: OpenMax synthesizes findings into a coherent deliverable:
    - Generates a narrative corporate history document covering the entity's full lifecycle from incorporation to present
    - Produces a visual corporate history timeline with major events plotted chronologically and hyperlinked to source documents
    - Creates a predecessor entity register listing all historical corporate identities with their individual risk profiles
@@ -1106,7 +1106,7 @@ Output: Structured gap investigation memo with recommended questions for managem
 
 > Runs comprehensive background investigations on directors, officers, and key executives — covering professional history verification, regulatory sanctions, criminal records, litigation exposure, adverse media, and PEP status — across 50+ data sources simultaneously.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Undisclosed Executive Misconduct Creates Catastrophic Post-Acquisition Exposure**
 
@@ -1116,44 +1116,44 @@ The data sources required for a thorough executive background check span an enor
 
 The stakes of an inadequate background check are clear and well-documented. The acquisition of a business whose key executive faces undisclosed securities fraud charges may expose the acquirer to liability as a successor entity. A portfolio company CEO who has been barred from serving as a director of a public company cannot fulfill their role post-close without triggering regulatory violations. An executive team that has collectively defrauded a prior employer is unlikely to manage the acquirer's capital with integrity. Reputational damage from an acquired executive's public scandal can damage the acquirer's customer and investor relationships in ways that are immediate and severe. The cost of a comprehensive AI-assisted background check is a fraction of the cost of a single post-close management misconduct event.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Professional History Verification and Cross-Referencing**: COCO constructs and verifies each executive's career timeline:
+1. **Professional History Verification and Cross-Referencing**: OpenMax constructs and verifies each executive's career timeline:
    - Extracts employment history from corporate filings, SEC officer disclosures, proxy statements, and professional social media profiles
    - Cross-references stated employment history against corporate registry records, confirming that the individual appears in the relevant company's official filings during claimed periods of employment
    - Flags discrepancies between claimed roles and registry filings — title inflation, extended claimed tenures, fabricated employer references
    - Verifies claimed educational credentials against institutional databases and professional accreditation registries
    - Identifies undisclosed prior employment that surfaces in public records, court documents, or regulatory filings — potentially indicating deliberate history concealment
 
-2. **Regulatory Sanctions and Professional Bar Search**: COCO identifies formal regulatory actions against each individual:
+2. **Regulatory Sanctions and Professional Bar Search**: OpenMax identifies formal regulatory actions against each individual:
    - Searches SEC EDGAR and PACER for Rule 10(b)(5) actions, SEC enforcement orders, and injunctions naming the individual
    - Queries FINRA BrokerCheck for broker-dealer registration history, customer complaints, arbitration awards, and industry bar orders
    - Searches CFTC enforcement database for commodity trading advisor, futures commission merchant, and floor broker enforcement history
    - Accesses state bar association disciplinary databases (for attorneys), medical board records (for physician executives), and CPA licensing board disciplinary records
    - Searches international regulatory registers: FCA Register (UK), HKMA fit and proper determination records, MAS enforcement actions, BaFin investigations
 
-3. **Criminal Record and Court Proceeding Search**: COCO searches for criminal history within legally permissible scope:
+3. **Criminal Record and Court Proceeding Search**: OpenMax searches for criminal history within legally permissible scope:
    - Queries federal criminal court databases via PACER for indictments, guilty pleas, convictions, and sentencing records
    - Accesses state court criminal records in all jurisdictions where the individual has resided or conducted business
    - Searches international criminal record sources in jurisdictions with accessible databases (UK, Canada, Australia, EU member states with public access)
    - Identifies financial crime convictions specifically: fraud, embezzlement, money laundering, insider trading, bribery, and tax evasion
    - Flags pending criminal charges that may not yet have resulted in conviction but represent material integrity risk
 
-4. **Adverse Media Intelligence Gathering**: COCO systematically mines media coverage for executive misconduct signals:
+4. **Adverse Media Intelligence Gathering**: OpenMax systematically mines media coverage for executive misconduct signals:
    - Searches 10,000+ global news sources in 40+ languages for coverage of each executive across a 10-year window
    - Applies semantic filtering to identify relevant coverage: corporate misconduct, financial irregularities, regulatory investigations, personal scandal, litigation, and professional disputes
    - Distinguishes material adverse media from routine coverage using AI significance scoring — not every news mention is a red flag
    - Identifies patterns of adverse coverage: executives who appear repeatedly in reporting about financial irregularities at different employers
    - Surfaces social media and online forum content that may indicate business conduct issues not covered by formal news archives
 
-5. **PEP Status, Sanctions, and Conflict-of-Interest Assessment**: COCO identifies political and compliance risk factors:
+5. **PEP Status, Sanctions, and Conflict-of-Interest Assessment**: OpenMax identifies political and compliance risk factors:
    - Screens each executive against global PEP databases, classifying direct PEP status and family/associate connections
    - Runs sanctions screening across OFAC, EU, UN, and national lists for each individual and known aliases
    - Identifies government board appointments, advisory positions, and political party affiliations that may create conflicts in regulated industries
    - Cross-references each executive against the target's key customer, supplier, and partner list for undisclosed personal relationships
    - Flags state-owned enterprise affiliations that create PEP status or conflict-of-interest implications under applicable jurisdiction rules
 
-6. **Executive Background Investigation Report**: COCO delivers structured, actionable findings:
+6. **Executive Background Investigation Report**: OpenMax delivers structured, actionable findings:
    - Produces a per-executive background investigation summary organized by risk category (regulatory / criminal / financial misconduct / PEP/sanctions / adverse media / professional history)
    - Generates a risk scorecard for each executive with overall risk rating (low / medium / high / critical) and supporting evidence
    - Drafts a targeted reference and interview question set for each executive based on gaps or adverse findings
@@ -1292,7 +1292,7 @@ Output: Per-executive retention risk rating + regulatory fitness confirmation + 
 
 > Analyzes the integrity, ownership chain, and encumbrance status of a target's intellectual property portfolio — patents, trademarks, trade secrets, and software licenses — identifying gaps, disputes, and freedom-to-operate risks before deal close.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: IP Portfolio Defects Silently Destroy Deal Value and Create Post-Close Liability**
 
@@ -1302,44 +1302,44 @@ The ownership chain problem is particularly severe in acquisitions involving tec
 
 Freedom-to-operate risk — the question of whether the target's products infringe third-party intellectual property — adds another dimension of complexity. A company may hold an excellent patent portfolio while simultaneously having products that infringe a competitor's patents, facing patent troll claims, or using open-source software in ways that create licensing obligations. Patent litigation is expensive, unpredictable, and can result in injunctive relief that prevents the acquirer from selling the acquired product line entirely. In pharmaceutical acquisitions, Freedom-to-Operate analysis for each compound or device is a standard component of the diligence process; in technology M&A, it is frequently skipped or understaffed. The resulting exposure can exceed the acquisition price.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **IP Portfolio Inventory Reconciliation and Verification**: COCO builds and validates a complete IP asset register:
+1. **IP Portfolio Inventory Reconciliation and Verification**: OpenMax builds and validates a complete IP asset register:
    - Cross-references the target's IP schedule against USPTO, EPO, WIPO, and national patent office databases to verify grant status, filing dates, and maintenance fee payment history
    - Checks trademark registrations in all claimed markets against national and regional trademark offices (USPTO, EUIPO, CNIPA, and 80+ national offices)
    - Verifies copyright registrations in jurisdictions with registration systems (US Copyright Office) and flags unregistered works with significant commercial value
    - Reconciles domain name registrations and social media handle ownership against IP ownership claims
    - Generates a per-asset IP register with grant status, expiration dates, maintenance fee payment dates, and any lapse or abandonment flags
 
-2. **IP Ownership Chain and Assignment Analysis**: COCO traces title to each IP asset:
+2. **IP Ownership Chain and Assignment Analysis**: OpenMax traces title to each IP asset:
    - Reviews inventor assignment agreements, work-for-hire contracts, and employment IP assignment clauses for each patent in the portfolio
    - Identifies patents with multiple inventors and confirms that all co-inventors have executed valid assignment agreements
    - Traces prior assignment history for acquired IP assets to confirm clean chain of title without breaks or contested transfers
    - Flags IP assets developed under US government funding (NSF, NIH, DARPA grants) that may be subject to march-in rights under the Bayh-Dole Act
    - Reviews university licensing agreements for IP developed in academic partnerships — identifying sublicensing restrictions, royalty obligations, and field-of-use limitations
 
-3. **Open Source Software License Compliance Analysis**: COCO audits software IP for license compliance risks:
+3. **Open Source Software License Compliance Analysis**: OpenMax audits software IP for license compliance risks:
    - Analyzes code base documentation, software bills of materials, and open-source component lists for copyleft license exposure (GPL v2/v3, AGPL, LGPL, MPL)
    - Identifies any GPL-licensed components incorporated into commercial proprietary software that may require source code disclosure obligations
    - Reviews software license agreements for field-of-use restrictions, sublicensing prohibitions, and assignment restrictions that would prevent transfer on closing
    - Identifies any open-source contributions made by the company's engineers that may have inadvertently disclosed proprietary code
    - Generates a software license compliance matrix rating each component's license type, obligation category, and assignment risk
 
-4. **IP Encumbrance and Security Interest Search**: COCO identifies IP that has been pledged or encumbered:
+4. **IP Encumbrance and Security Interest Search**: OpenMax identifies IP that has been pledged or encumbered:
    - Searches UCC filings and equivalent security interest registers for IP assets pledged as collateral in financing arrangements
    - Identifies any registered IP licenses that grant third parties rights that would survive a change of control
    - Reviews identified security interests against the proposed deal structure — asset purchase vs. equity purchase — to determine whether releases or consents are required
    - Flags any IP assets subject to governmental compulsory licensing in regulated sectors (pharmaceutical patents, standard-essential patents with FRAND commitments)
    - Identifies any IP rights subject to co-ownership agreements that require co-owner consent for assignment or licensing
 
-5. **IP Dispute and Infringement Risk Assessment**: COCO surfaces IP conflict exposure:
+5. **IP Dispute and Infringement Risk Assessment**: OpenMax surfaces IP conflict exposure:
    - Searches Patent Trial and Appeal Board (PTAB) for Inter Partes Review (IPR) and Post-Grant Review petitions challenging the target's patents
    - Identifies active patent infringement litigation involving the target (as plaintiff or defendant) from court databases and dockets
    - Reviews cease-and-desist correspondence and license demand letters referenced in the data room or identified through external search
    - Screens the target's key products against known patent assertion entity (PAE) assertion campaigns in relevant technology areas
    - Flags standard-essential patent (SEP) exposure requiring FRAND license negotiations that may affect product margins
 
-6. **IP Due Diligence Summary and Post-Close Risk Register**: COCO delivers structured IP findings:
+6. **IP Due Diligence Summary and Post-Close Risk Register**: OpenMax delivers structured IP findings:
    - Generates a comprehensive IP due diligence report organized by asset category (patents / trademarks / copyrights / trade secrets / software / domains)
    - Produces an IP risk register rating each identified issue by severity (deal-blocking / purchase price impact / remediation required / monitor)
    - Drafts a data room request for assignment agreements, maintenance records, and license documentation not yet provided
@@ -1473,7 +1473,7 @@ Output: Structured remediation roadmap with timeline, owners, and dependencies +
 
 > Analyzes the target entity's tax filing history, transfer pricing documentation, and cross-border tax positions across multiple jurisdictions — identifying filing gaps, undisclosed liabilities, and aggressive tax positions that create post-acquisition exposure.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Hidden Tax Liabilities Are the Single Largest Source of Post-Close M&A Indemnification Claims**
 
@@ -1483,44 +1483,44 @@ Transfer pricing represents perhaps the most significant and consistently undere
 
 The tax landscape has become dramatically more complex and adversarial in the post-BEPS environment. Country-by-Country Reporting requirements, mandatory disclosure rules (DAC6 in the EU, similar regimes in Canada, Australia, and others), the OECD Pillar Two global minimum tax, and the proliferation of digital services taxes create new compliance obligations that many targets have not fully addressed. An acquisition of a company operating across multiple jurisdictions now requires analysis of whether the target is compliant with a matrix of overlapping, sometimes conflicting, tax reporting obligations. A target that is non-compliant with mandatory disclosure requirements may face penalties that are automatic rather than discretionary, and in some jurisdictions, mandatory disclosure non-compliance can result in loss of tax treaty benefits — fundamentally altering the economics of the deal structure.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Multi-Jurisdiction Tax Filing Compliance Verification**: COCO systematically maps and checks filing compliance:
+1. **Multi-Jurisdiction Tax Filing Compliance Verification**: OpenMax systematically maps and checks filing compliance:
    - Reconstructs the expected tax filing calendar for each jurisdiction where the target has a legal entity or taxable presence — income tax, VAT/GST, payroll tax, withholding tax, local business tax
    - Identifies all jurisdictions where the target has likely created a taxable presence (permanent establishment) through employee location, server hosting, or sales activity, even without a registered entity
    - Cross-references filed tax returns (from data room) against the expected filing calendar to identify missing or late-filed returns
    - Checks statutory filing deadlines in each jurisdiction against filed return dates, calculating exposure for late-filing penalties
    - Generates a tax compliance calendar gap matrix showing every jurisdiction, tax type, and filing status for the review period
 
-2. **Transfer Pricing Position Analysis**: COCO analyzes intercompany pricing for documentation and substantive risk:
+2. **Transfer Pricing Position Analysis**: OpenMax analyzes intercompany pricing for documentation and substantive risk:
    - Maps all intercompany transactions from financial statements — loans, royalty streams, management fee charges, cost-sharing contributions, and inventory transfers between related entities
    - Verifies that contemporaneous transfer pricing documentation (master file, local file per BEPS Action 13 standards) exists for all material intercompany transactions
    - Assesses the disclosed pricing methodology against OECD arm's-length standards: comparable uncontrolled price, resale price, cost-plus, TNMM, and profit split methods
    - Flags transactions where the pricing method adopted is inconsistent with the functional and risk profile described in the target's own documentation
    - Identifies jurisdictions that have received Country-by-Country Reports and assesses whether reported profit allocation patterns are consistent with the economic substance described
 
-3. **Tax Dispute and Audit History Review**: COCO surfaces disclosed and undisclosed tax conflicts:
+3. **Tax Dispute and Audit History Review**: OpenMax surfaces disclosed and undisclosed tax conflicts:
    - Extracts all disclosed tax audit adjustments, deficiency notices, and dispute resolutions from the data room and reconciles against financial statement reserves
    - Identifies any open tax years under audit and the jurisdictions conducting the examination — flagging years where the statute of limitations has been extended through audit tolling
    - Cross-references disclosed tax reserves against the size of identified exposure positions, flagging potential under-reserving
    - Searches publicly available tax court decisions and administrative tribunal records for proceedings involving the target entity
    - Assesses whether any resolved audit adjustments are indicative of systemic rather than isolated compliance failures
 
-4. **Aggressive Tax Position and Substance-Over-Form Risk**: COCO identifies positions at elevated examination risk:
+4. **Aggressive Tax Position and Substance-Over-Form Risk**: OpenMax identifies positions at elevated examination risk:
    - Analyzes transaction structures for tax planning arrangements common to current regulatory focus: hybrid instruments, branch structures, IP migration transactions, principal structures, and commissionaire arrangements
    - Flags any tax positions that rely on treaty shopping or conduit arrangements being challenged by revenue authorities under OECD BEPS Action 6
    - Identifies jurisdictions where the target's entities lack genuine economic substance relative to their claimed tax benefits — a key examination trigger under BEPS and EU ATAD
    - Reviews mandatory disclosure filings (DAC6, hallmark analysis) and identifies any undisclosed reportable arrangements
    - Estimates the range of potential reassessment exposure for each identified aggressive position
 
-5. **Tax Attribute Preservation Analysis**: COCO assesses whether deal structure preserves tax benefits:
+5. **Tax Attribute Preservation Analysis**: OpenMax assesses whether deal structure preserves tax benefits:
    - Identifies net operating loss carryforwards, tax credit carryforwards, and capital loss carryforwards in the target's tax attributes
    - Analyzes whether the proposed transaction structure triggers ownership change limitations on NOL utilization (IRC Section 382 for US targets, equivalent rules in other jurisdictions)
    - Assesses whether accelerated depreciation claims and investment tax credits remain intact post-transaction under the proposed deal structure
    - Reviews tax consolidation group membership and identifies any exit charges, clawback obligations, or deferred tax adjustments triggered by leaving the consolidated group
    - Models the after-tax value of identified tax attributes under the proposed deal structure vs. alternative structures
 
-6. **Tax Due Diligence Report and Liability Quantification**: COCO delivers structured, actionable tax findings:
+6. **Tax Due Diligence Report and Liability Quantification**: OpenMax delivers structured, actionable tax findings:
    - Generates a jurisdiction-by-jurisdiction tax compliance summary showing filing status, open audit years, and known disputes for each entity
    - Produces a quantified tax risk register listing each identified exposure, probability of challenge, estimated liability range, and applicable penalty amounts
    - Drafts deal structure recommendations — representations and warranties requirements, escrow holdbacks, tax indemnification provisions — tailored to identified risks
@@ -1663,7 +1663,7 @@ Output: Tax attribute value comparison table across structures + present value m
 
 > Analyzes financial statements, cash flow patterns, working capital dynamics, and debt covenant compliance to produce a forward-looking solvency assessment and financial risk rating — identifying distress signals and going-concern risks before they materialize in deal losses.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Surface Financial Metrics Mask Solvency Risks That Emerge Immediately After Close**
 
@@ -1673,44 +1673,44 @@ The warning signs of impending financial distress are typically present in the p
 
 Cash flow quality analysis adds another dimension of risk that income statement review misses. Working capital release in a revenue-declining business can make operating cash flow look healthy even as the business shrinks. Capital expenditure deferrals can make free cash flow appear adequate while building a maintenance backlog that will require catch-up spending. Non-recurring cash items — tax refunds, insurance recoveries, asset sales — can inflate reported cash generation in one or two years, masking a chronic cash generation shortfall that the next owner will face. An acquirer who relies on reported free cash flow without adjusting for these quality factors will build a debt service model on a foundation that does not reflect sustainable cash generation — and the consequences manifest immediately when the business is owned.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Financial Statement Quality and Normalization Analysis**: COCO deconstructs reported financials to identify quality issues:
+1. **Financial Statement Quality and Normalization Analysis**: OpenMax deconstructs reported financials to identify quality issues:
    - Performs revenue quality analysis: identifies any revenue recognition acceleration, one-time items, channel stuffing indicators, or concentration factors that inflate reported revenue
    - Reconstructs EBITDA by adding back non-recurring items, adjusting for owner-specific expenses, and normalizing for non-arm's-length transactions with related parties
    - Analyzes gross margin trends by product line, customer segment, and geography — identifying margin compression or expansion that may not be visible at the aggregate level
    - Reviews accounting policy changes and their quantitative impact on reported results across the review period
    - Cross-references financial statement line items against management accounts and operational data to identify reconciliation gaps
 
-2. **Working Capital Analysis and Normalization**: COCO builds a true working capital picture:
+2. **Working Capital Analysis and Normalization**: OpenMax builds a true working capital picture:
    - Calculates normalized working capital based on revenue and seasonality patterns — distinguishing structural working capital requirements from transient fluctuations
    - Analyzes receivables aging trends: average days sales outstanding trend, proportion of receivables beyond 60/90/120 days, bad debt write-off history
    - Reviews inventory composition, turnover trends, and obsolescence reserve adequacy — particularly in manufacturing, retail, and technology hardware businesses
    - Analyzes accounts payable days trend for evidence of payment stretching (a solvency distress signal) or supplier relationship deterioration
    - Identifies working capital manipulation patterns: period-end acceleration of cash collections, delayed recognition of expenses, or unusual accrual reversals near measurement dates
 
-3. **Cash Flow Quality Assessment**: COCO distinguishes sustainable from unsustainable cash generation:
+3. **Cash Flow Quality Assessment**: OpenMax distinguishes sustainable from unsustainable cash generation:
    - Reconstructs free cash flow quality: separates recurring operating cash flow from non-recurring sources (tax refunds, working capital release from revenue decline, insurance recoveries)
    - Analyzes capital expenditure intensity: compares reported capex against depreciation to assess whether the business is investing adequately to maintain its asset base
    - Identifies deferred maintenance and capex catch-up requirements that the new owner will face within 12–24 months of acquisition
    - Models cash conversion efficiency: the percentage of EBITDA that converts to operating cash flow — and investigates drivers of any gap
    - Benchmarks the target's cash generation efficiency against comparable businesses in its sector
 
-4. **Debt Covenant Compliance and Headroom Analysis**: COCO stress-tests financial covenant compliance:
+4. **Debt Covenant Compliance and Headroom Analysis**: OpenMax stress-tests financial covenant compliance:
    - Extracts all financial covenants from credit agreements provided in the data room (leverage ratios, interest coverage, minimum liquidity, capital expenditure limits)
    - Calculates current covenant headroom based on trailing financial performance and the proposed post-close capital structure
    - Models covenant compliance under base, downside, and severe downside scenarios over a 24-month forward horizon
    - Identifies covenant cliff risks: periods where multiple covenants tighten simultaneously, narrowing headroom at the same time operational risks are highest
    - Reviews covenant cure mechanisms (equity cure rights, EBITDA add-backs) and assesses whether they are practically available under the proposed deal structure
 
-5. **Solvency and Going-Concern Risk Assessment**: COCO produces a forward-looking solvency evaluation:
+5. **Solvency and Going-Concern Risk Assessment**: OpenMax produces a forward-looking solvency evaluation:
    - Applies Altman Z-Score, Piotroski F-Score, and proprietary financial distress models to generate a quantitative solvency risk rating
    - Analyzes debt maturity profile: identifies any debt maturity walls within 36 months that require refinancing in a potentially adverse market environment
    - Assesses interest rate sensitivity: models the impact of interest rate increases on floating-rate debt service coverage ratios
    - Reviews the business's liquidity resources: committed credit facilities, cash and equivalents, and receivables monetization availability
    - Generates a solvency scenario matrix: probability-weighted assessment of solvent / stressed but viable / technical default / insolvency scenarios over a 3-year horizon
 
-6. **Financial Health Report and Deal Structure Implications**: COCO delivers actionable financial risk findings:
+6. **Financial Health Report and Deal Structure Implications**: OpenMax delivers actionable financial risk findings:
    - Generates a comprehensive financial health assessment report organized by financial risk category (quality / working capital / cash flow / leverage / solvency)
    - Produces a normalized financial model with adjusted revenue, EBITDA, working capital, and free cash flow — ready for integration into the deal model
    - Summarizes deal structure implications: recommended leverage limits, minimum liquidity requirements, working capital peg adjustments, and earn-out structure considerations
@@ -1843,7 +1843,7 @@ Output: Financial health scorecard with Z-Score and F-Score + distress signal re
 
 > Maps all related party transactions within the target's corporate group — identifying undisclosed relationships, non-arm's-length pricing, self-dealing arrangements, and conflicts of interest that distort financial performance and create legal liability.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Related Party Transactions Systematically Distort Deal Economics and Conceal Fraud**
 
@@ -1853,44 +1853,44 @@ The financial statement impact of undisclosed or non-arm's-length related party 
 
 The governance risk of undisclosed related party relationships extends beyond financial statement accuracy. Directors who are personally benefiting from related party arrangements have fiduciary conflicts that affect their judgment on deal-critical issues: whether to sell, at what price, what representations to make, and how to manage the business between signing and closing. A CFO who is receiving consulting fees through a controlled entity has a personal financial interest in the transaction that creates the precise conflict-of-interest situation that related party disclosure requirements are designed to expose. Post-close, undisclosed related party relationships can provide grounds for securities fraud claims, purchase price adjustment disputes, and indemnification demands that are expensive to litigate and difficult to resolve quickly.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Related Party Identification Network Mapping**: COCO builds a comprehensive related party universe:
+1. **Related Party Identification Network Mapping**: OpenMax builds a comprehensive related party universe:
    - Extracts all directors, officers, significant shareholders, and their immediate family members from corporate filings, proxy statements, and personnel records
    - Maps all entities in which identified individuals hold directorships, significant ownership stakes, or control positions — using corporate registry cross-referencing in 70+ jurisdictions
    - Identifies shared addresses, shared directors, and common ownership patterns that indicate related entity relationships not formally disclosed
    - Cross-references entity names in the target's contracts, payment records, and financial statements against the related party universe for undisclosed transaction parties
    - Generates a related party network diagram showing all identified relationships with connection type and evidence source
 
-2. **Related Party Transaction Identification and Classification**: COCO mines financial data for related party dealings:
+2. **Related Party Transaction Identification and Classification**: OpenMax mines financial data for related party dealings:
    - Analyzes general ledger data, accounts payable records, and accounts receivable records for transactions with any entity in the identified related party universe
    - Reviews lease agreements, service contracts, license agreements, and loan agreements against the related party universe to identify related party contracts not flagged in disclosures
    - Extracts related party transaction disclosures from financial statement footnotes and compares them against ledger data to identify undisclosed transactions
    - Classifies each identified transaction by type: lease / service contract / consulting fee / sales / purchases / loan / guarantee / royalty
    - Calculates the aggregate financial impact of related party transactions on revenue, EBITDA, and working capital
 
-3. **Arm's-Length Pricing Assessment**: COCO evaluates whether related party transactions reflect market pricing:
+3. **Arm's-Length Pricing Assessment**: OpenMax evaluates whether related party transactions reflect market pricing:
    - Benchmarks identified related party lease rates against comparable commercial real estate market data for the relevant location and property type
    - Assesses related party service and consulting agreements against market rates for equivalent services in the relevant industry and geography
    - Reviews intercompany loan terms against available market interest rates for comparable borrowers and loan types
    - Evaluates related party sales and purchase pricing against publicly available comparable pricing data or disclosed industry benchmarks
    - Calculates the financial statement normalization adjustment for each non-arm's-length transaction to derive a market-rate EBITDA
 
-4. **Self-Dealing and Conflict-of-Interest Pattern Detection**: COCO identifies governance red flags:
+4. **Self-Dealing and Conflict-of-Interest Pattern Detection**: OpenMax identifies governance red flags:
    - Identifies transactions where the approving director or officer is also a beneficial owner or officer of the counterparty — a per se conflict requiring board independence analysis
    - Flags patterns of escalating related party payments: year-over-year increases in related party expense categories that may indicate progressive value extraction
    - Identifies complex related party structures: multilevel routing of transactions through intermediary entities to obscure the ultimate beneficiary
    - Detects timing patterns: unusual related party transactions in the period immediately before the deal announcement that may represent accelerated value extraction
    - Cross-references related party transactions against board meeting minutes for evidence of proper approval and disclosed conflicts
 
-5. **Post-Close Impact Assessment**: COCO analyzes what changes when the deal closes:
+5. **Post-Close Impact Assessment**: OpenMax analyzes what changes when the deal closes:
    - Identifies related party arrangements that will automatically terminate on change of control — and whether the business can operate without them
    - Flags related party arrangements that the seller wants to continue post-close and assesses whether their terms are defensible on an arm's-length basis
    - Models the cash cost of replacing identified related party services with market-rate alternatives after close
    - Identifies related party customer or supplier relationships that may not survive the transition to new ownership
    - Assesses the working capital impact of losing or renegotiating key related party payment terms
 
-6. **Related Party Transaction Report and Normalization Package**: COCO delivers structured, actionable findings:
+6. **Related Party Transaction Report and Normalization Package**: OpenMax delivers structured, actionable findings:
    - Generates a comprehensive related party transaction register listing every identified transaction with parties, amounts, terms, and arm's-length assessment
    - Produces a normalized EBITDA bridge showing adjustments for non-arm's-length related party transactions with supporting market benchmarking data
    - Drafts a representation and warranty checklist for related party disclosures based on identified transaction types
@@ -2019,7 +2019,7 @@ Output: Annotated R&W checklist with recommended language, negotiation posture, 
 
 > Analyzes the target entity's operations, third-party relationships, geographic footprint, and transaction records against FCPA, UK Bribery Act, and applicable anti-corruption frameworks — producing a risk-tiered compliance assessment with specific remediation recommendations.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Anti-Corruption Liability Follows the Acquirer and Persists Beyond the Transaction**
 
@@ -2029,44 +2029,44 @@ The anti-corruption risk profile of a target company is shaped by three primary 
 
 The documentation challenges are substantial because, by its nature, bribery does not generate clear records. Corrupt payments to government officials are typically structured as "commission" payments to agents, "facilitation fees" in cash, inflated consultant invoices, charitable donations directed to officials' preferred causes, or entertainment and travel expenses that benefit government counterparties. Identifying these patterns requires not just a review of the stated compliance program but an analysis of the actual financial transactions — and specifically the transactions in high-risk geographies with counterparties who have government connections. Most due diligence processes examine the compliance program documentation (policies, training records, hotline logs) without conducting the transactional forensic analysis required to determine whether the program has actually prevented corruption in practice.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Anti-Corruption Risk Profiling and Geography Assessment**: COCO builds a quantitative risk profile of the target:
+1. **Anti-Corruption Risk Profiling and Geography Assessment**: OpenMax builds a quantitative risk profile of the target:
    - Scores each operating jurisdiction against Transparency International CPI rankings, TRACE Bribery Risk Matrix, and DOJ/SEC FCPA enforcement history data
    - Maps government interaction intensity by business unit and jurisdiction: identifies areas requiring licenses, permits, customs clearance, government contracts, or subsidies
    - Analyzes the target's revenue concentration in high-corruption risk markets as a percentage of total revenues
    - Reviews the target's industry sector risk: sectors with historically elevated FCPA enforcement (oil and gas, defense, healthcare, infrastructure, technology sales to governments)
    - Generates a composite anti-corruption risk score that weights geography, government interaction intensity, and sector risk
 
-2. **Third-Party Anti-Corruption Risk Analysis**: COCO analyzes the target's intermediary relationships:
+2. **Third-Party Anti-Corruption Risk Analysis**: OpenMax analyzes the target's intermediary relationships:
    - Extracts all third-party sales agents, distributors, customs brokers, government affairs consultants, and business development partners from contracts and payment records
    - Screens all identified third parties against sanctions, PEP databases, and adverse media for corruption-related findings
    - Identifies third parties with government connections: former government officials, entities with government ownership, or parties whose principal value is access to government decision-makers
    - Reviews third-party due diligence records in the data room — assesses completeness and whether the diligence level is appropriate to the risk profile of each counterparty
    - Flags third parties receiving above-market commission rates, non-standard payment terms, or payments through jurisdictions unrelated to their operations
 
-3. **Transaction Record Red Flag Analysis**: COCO performs forensic analysis on financial transactions:
+3. **Transaction Record Red Flag Analysis**: OpenMax performs forensic analysis on financial transactions:
    - Analyzes accounts payable records and payment ledgers for cash payments, unusual payment locations, payments to individuals rather than entities, and round-number payments in high-risk jurisdictions
    - Reviews entertainment and hospitality expense records for payments involving government officials or state-owned enterprise employees
    - Identifies charitable donations made in high-risk jurisdictions proximate to license awards, contract approvals, or regulatory decisions
    - Flags consulting fee payments to newly formed entities, undescribed "business development" expenses, or payments to advisors with no clear scope of work
    - Analyzes customs and import/export records for accelerated clearance patterns that may indicate facilitation payment arrangements
 
-4. **Anti-Corruption Compliance Program Assessment**: COCO evaluates the effectiveness of the target's program:
+4. **Anti-Corruption Compliance Program Assessment**: OpenMax evaluates the effectiveness of the target's program:
    - Reviews the target's anti-corruption policy, code of conduct, and FCPA/UKBA compliance manual against DOJ adequate procedures standards and DOJ compliance program guidance
    - Assesses training records: frequency, content relevance, and employee coverage rates — particularly in high-risk geographies and roles
    - Reviews compliance hotline logs and investigation records for prior reported incidents, outcome patterns, and systemic gaps
    - Evaluates third-party due diligence procedures: process documentation, risk-tiering methodology, and whether procedures are actually implemented vs. documented on paper only
    - Identifies gaps between the documented program and actual implementation in the jurisdictions representing the highest corruption risk
 
-5. **Prior Enforcement Action and Internal Investigation Discovery**: COCO surfaces historical corruption events:
+5. **Prior Enforcement Action and Internal Investigation Discovery**: OpenMax surfaces historical corruption events:
    - Searches DOJ press releases, SEC enforcement releases, and UK Serious Fraud Office announcements for actions involving the target or its affiliates
    - Identifies prior internal investigations referenced in audit committee minutes, auditor management letters, or outside counsel engagement letters
    - Reviews voluntary disclosure history: any prior FCPA self-disclosure letters to the DOJ or SEC
    - Searches for any current or former employees referenced in FCPA enforcement actions involving competitors or industry peers
    - Flags any prior compliance program failures that were remediated — and assesses whether remediation was genuine or cosmetic
 
-6. **Anti-Corruption Due Diligence Report and Remediation Roadmap**: COCO delivers structured findings:
+6. **Anti-Corruption Due Diligence Report and Remediation Roadmap**: OpenMax delivers structured findings:
    - Generates a risk-tiered anti-corruption due diligence report organized by risk category (geography / third party / transaction anomalies / program gaps / enforcement history)
    - Quantifies the estimated exposure range for identified corruption risks, including potential disgorgement, penalties, and remediation costs
    - Identifies mandatory pre-close actions: specific third-party relationships to be terminated, payment records requiring further investigation, or compliance controls requiring immediate implementation
@@ -2209,7 +2209,7 @@ Output: Prioritized remediation action plan with timeline, responsible parties, 
 
 > Screens corporate entities for shell company indicators — nominee directors, registered-agent-only addresses, zero employees, round-trip fund flows, and jurisdictional secrecy — generating a composite risk score that prioritizes entities requiring enhanced due diligence.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Shell Companies in Corporate Structures Create AML, Sanctions, and Fraud Exposure That Is Invisible Without Systematic Detection**
 
@@ -2219,44 +2219,44 @@ The problem is compounded by the fact that shell companies rarely appear in isol
 
 The jurisdictional dimension adds further complexity. Different jurisdictions impose different transparency requirements on their corporate entities — from the highly transparent (UK, Germany, Scandinavia) to the deliberately opaque (Cayman Islands, British Virgin Islands, Marshall Islands, Vanuatu). A holding structure that passes through two or three high-secrecy jurisdictions before reaching an entity with disclosed beneficial ownership represents a deliberate transparency barrier rather than a commercial necessity. Identifying those barriers, understanding what they obscure, and escalating the appropriate level of due diligence in response requires a systematic, risk-based methodology that most manual due diligence processes lack the time and data to execute.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Multi-Indicator Shell Company Profiling**: COCO applies a multi-factor model to each entity:
+1. **Multi-Indicator Shell Company Profiling**: OpenMax applies a multi-factor model to each entity:
    - Checks employee count indicators: payroll records, social insurance filings, LinkedIn employee counts, and job posting history to identify entities with no substantive workforce
    - Verifies registered address type: classifies addresses as legitimate business premises / shared commercial office / registered agent address / mass-registration address / residential address
    - Cross-references address against known registered agent databases — flags entities at addresses shared by 100+ other companies in secrecy jurisdictions
    - Identifies entities with no websites, no discoverable commercial activity, and no product or service-level presence in their claimed jurisdiction
    - Generates a multi-factor shell indicator score combining address type, employee presence, commercial activity, and jurisdictional transparency rating
 
-2. **Nominee Director and Shareholder Pattern Detection**: COCO identifies professional nominee networks:
+2. **Nominee Director and Shareholder Pattern Detection**: OpenMax identifies professional nominee networks:
    - Cross-references directors and shareholders against commercial nominee service provider databases to identify professional nominees
    - Identifies individuals who appear as directors in 50+ entities across multiple jurisdictions — a strong indicator of professional nominee appointment
    - Detects patterns of simultaneous multi-entity director appointments characteristic of bulk nominee placement by incorporation service providers
    - Flags entities where the entire board consists of individuals who are also directors of hundreds of unrelated entities
    - Maps the nominee network: which service providers place nominees across which entities in the structure, revealing the incorporation factory behind the structure
 
-3. **Jurisdictional Opacity Layer Analysis**: COCO assesses the secrecy architecture of corporate structures:
+3. **Jurisdictional Opacity Layer Analysis**: OpenMax assesses the secrecy architecture of corporate structures:
    - Scores each jurisdiction in the corporate chain using Financial Secrecy Index ratings, FATF mutual evaluation outcomes, and beneficial ownership register availability
    - Identifies high-secrecy jurisdictions in the chain: Cayman Islands, British Virgin Islands, Marshall Islands, Seychelles, Labuan, and equivalents
    - Calculates the number of opacity layers between the operating entity and the ultimate beneficial owner — more layers indicates higher concealment intent
    - Flags structures that pass through three or more high-secrecy jurisdictions with no disclosed beneficial owner at any intermediate layer
    - Identifies jurisdictions where the entity type has no beneficial ownership register, no public financial reporting requirement, and no public director disclosure
 
-4. **Fund Flow Pattern Analysis for Round-Trip and Circular Structures**: COCO traces suspicious financial flows:
+4. **Fund Flow Pattern Analysis for Round-Trip and Circular Structures**: OpenMax traces suspicious financial flows:
    - Analyzes intercompany loan and dividend records for round-trip patterns: capital that originates, routes through offshore shells, and returns as "foreign investment"
    - Identifies circular ownership structures where funds flow back to their origin through a chain of shells with no intermediate value creation
    - Flags shell entities that receive only intercompany transfers with no independent operating revenue — consistent with pass-through rather than operating function
    - Reviews royalty payment streams for IP-holding shells: assesses whether the IP genuinely contributes to the business or is held purely for profit-stripping
    - Calculates the proportion of entity-level revenues represented by intercompany flows — a high proportion is a strong shell indicator
 
-5. **Risk Scoring and Entity Prioritization**: COCO generates actionable risk outputs:
+5. **Risk Scoring and Entity Prioritization**: OpenMax generates actionable risk outputs:
    - Calculates a composite shell company risk score (0–100) for each entity, combining structural indicators, jurisdictional opacity, nominee patterns, and fund flow analysis
    - Categorizes entities into tiers: Low Risk (genuine operating entity) / Medium Risk (holding company with disclosed ownership) / High Risk (shell characteristics, enhanced diligence required) / Critical Risk (concealment structure indicators)
    - Generates a risk-ranked entity queue, enabling analysts to prioritize enhanced investigation resources on the highest-risk entities
    - Identifies entity clusters — groups of shells with common directors, addresses, or incorporation agents — that may constitute a coordinated concealment network
    - Provides the specific evidence basis for each risk score, enabling analysts to document their investigative rationale
 
-6. **Shell Company Detection Report and Escalation Protocol**: COCO delivers structured findings:
+6. **Shell Company Detection Report and Escalation Protocol**: OpenMax delivers structured findings:
    - Generates a per-entity shell risk profile with indicator summary, risk score, category, and recommended next steps
    - Produces a structural network map showing all identified shells and their relationships, nominee networks, and jurisdiction clustering
    - Drafts escalation memos for Critical Risk entities, summarizing the specific indicators and recommended regulatory or legal escalation steps
@@ -2331,7 +2331,7 @@ Output: Nominee director network diagram + nominee provider identification + ris
 Analyze the opacity architecture of the following corporate structure.
 
 Corporate chain: [list each entity from operating company upward to ultimate parent, with jurisdictions]
-Beneficial ownership registers in each jurisdiction: [confirm if available or not available — or let COCO determine]
+Beneficial ownership registers in each jurisdiction: [confirm if available or not available — or let OpenMax determine]
 
 Analysis required:
 1. Score each jurisdiction in the chain on the Financial Secrecy Index scale
@@ -2384,7 +2384,7 @@ Output: Formatted EDD request letters for each entity + timeline expectations + 
 
 > Analyzes data room contents against deal-specific due diligence checklists — mapping provided documents to request categories, identifying missing materials, flagging contradictions between documents, and generating targeted follow-up requests with precise document specifications.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Poorly Organized Data Rooms Waste Analyst Time and Create Catastrophic Information Gaps**
 
@@ -2394,44 +2394,44 @@ The gap problem is at least as serious as the organization problem. Sellers rout
 
 The document contradiction problem adds another dimension of complexity. Due diligence review involves comparing information across multiple documents: financial statements, management accounts, tax filings, board minutes, and management presentations all purport to describe the same underlying reality, but inconsistencies between them may indicate accounting irregularities, selective disclosure, or straightforward error. An analyst reviewing each document individually may not identify a contradiction between the revenue disclosed in a management presentation and the revenue shown in the financial statements if those documents are reviewed by different team members on different days. Systematic cross-referencing across the data room requires a structured analytical approach that human teams, under timeline pressure, frequently fail to implement rigorously.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Data Room Document Classification and Categorization**: COCO organizes data room contents systematically:
+1. **Data Room Document Classification and Categorization**: OpenMax organizes data room contents systematically:
    - Ingests all documents in the data room and classifies each against a standard due diligence category taxonomy (corporate / financial / tax / legal / commercial / HR / IP / regulatory / real estate / insurance)
    - Identifies document type for each file: financial statement / contract / regulatory correspondence / corporate filing / management presentation / technical report
    - Maps each document to the relevant due diligence checklist item(s) it addresses, with confidence scoring
    - Identifies duplicate and near-duplicate documents — same content uploaded under different names or in different folders
    - Generates an organized due diligence document register replacing the seller's original folder structure with a category-based navigation system
 
-2. **Due Diligence Checklist Gap Analysis**: COCO systematically identifies missing deliverables:
+2. **Due Diligence Checklist Gap Analysis**: OpenMax systematically identifies missing deliverables:
    - Compares the mapped document coverage against the complete due diligence checklist line by line, identifying every item with no corresponding document in the data room
    - Distinguishes between "clearly missing" items (checklist item with zero document response) and "partially addressed" items (documents present but likely incomplete — e.g., only two years of tax returns when five were requested)
    - Prioritizes gaps by materiality: financial and legal gaps flagged as critical; commercial and HR gaps flagged as significant; administrative gaps flagged as low priority
    - Generates a gap severity analysis based on the nature of the gap: missing key financial data vs. missing supporting schedules
    - Maintains a running gap tracker that updates as new documents are uploaded to the data room throughout the deal process
 
-3. **Cross-Document Consistency and Contradiction Analysis**: COCO identifies inconsistencies across data room materials:
+3. **Cross-Document Consistency and Contradiction Analysis**: OpenMax identifies inconsistencies across data room materials:
    - Cross-references revenue figures across financial statements, management accounts, board presentations, and tax filings — flags any numerical inconsistencies
    - Compares headcount, payroll, and benefits data across HR records, financial statements, and management descriptions
    - Identifies capital expenditure amounts that differ across capex schedules, cash flow statements, and fixed asset registers
    - Reviews representations made in management presentations against documentation in the data room — flags any claims without documentary support
    - Generates a contradiction register with the specific conflicting data points, documents involved, and an assessment of whether the discrepancy is likely to be material
 
-4. **Data Room Quality Assessment**: COCO evaluates the overall completeness and reliability of the data room:
+4. **Data Room Quality Assessment**: OpenMax evaluates the overall completeness and reliability of the data room:
    - Generates a data room quality score based on document completeness, organization, and internal consistency
    - Identifies categories with systematically low completion rates that may indicate deliberate withholding rather than administrative oversight
    - Flags documents uploaded in redacted form — specifically redactions that cover commercially or legally material information
    - Identifies documents that appear to be drafts rather than executed versions — particularly for material contracts and financial statements
    - Assesses the currency of financial information: how recent are the most recent management accounts, and are there any signs that financial information has been withheld to prevent pre-close monitoring of deteriorating performance
 
-5. **Follow-Up Request Drafting and Management**: COCO automates the information request process:
+5. **Follow-Up Request Drafting and Management**: OpenMax automates the information request process:
    - Generates specific, well-formed follow-up requests for each identified gap — naming the exact document type required, the period to be covered, and the specific information needed
    - Batches follow-up requests by priority tier, enabling deal teams to submit critical requests first without overwhelming the data room process
    - Tracks follow-up request status: which requests have been submitted, responded to, partially responded to, or ignored
    - Escalates unanswered critical requests with draft reminder communications
    - Generates a closing checklist confirmation: a final verification that all required materials have been received before clearing conditions to close
 
-6. **Data Room Management Report and Index**: COCO produces a complete data room record:
+6. **Data Room Management Report and Index**: OpenMax produces a complete data room record:
    - Generates a structured data room index with every document classified, categorized, and cross-referenced to checklist items — replacing the seller's original disorganized structure
    - Produces a completeness dashboard showing, by due diligence category, what percentage of requested materials have been provided
    - Creates a "document relied upon" table for deal closing that maps each key finding to its evidential source in the data room
@@ -2448,7 +2448,7 @@ The document contradiction problem adds another dimension of complexity. Due dil
 - **Gap identification completeness**: Systematic AI gap analysis identifies **91% of material missing document categories** on initial review vs. 55% through traditional manual checklist tracking
 - **Cross-document contradictions detected**: AI consistency analysis identifies numerical contradictions across data room documents at a rate **6x higher** than individual document review by separate team members
 - **Follow-up request precision**: AI-generated follow-up requests result in a **73% first-response adequate completion rate** vs. 41% for generically worded manual requests
-- **Data room processing capacity**: COCO can process and classify a 5,000-document data room in **under 24 hours**, enabling analysts to begin substantive review faster and with a complete picture of what has been provided
+- **Data room processing capacity**: OpenMax can process and classify a 5,000-document data room in **under 24 hours**, enabling analysts to begin substantive review faster and with a complete picture of what has been provided
 
 **Who Benefits**
 
@@ -2558,7 +2558,7 @@ Output: Formal data room completeness certification memo + final outstanding ite
 
 > Maps all merger control, foreign investment screening, sector-specific regulatory approval, and change-of-control consent requirements triggered by a cross-border transaction — generating a jurisdiction-by-jurisdiction approval roadmap with timeline and strategy recommendations.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Unidentified Regulatory Approval Requirements Delay or Block Transactions at the Most Costly Stage**
 
@@ -2568,44 +2568,44 @@ The mapping problem begins with the threshold analysis. Merger control notificat
 
 The change-of-control consent landscape adds a third dimension of complexity. Material contracts — credit agreements, operating licenses, key commercial contracts, real property leases, government concession agreements — frequently contain change-of-control provisions requiring counterparty consent before an acquisition can close. Identifying all such provisions across the target's contract universe, prioritizing which consents are actually required vs. which counterparties are unlikely to exercise their rights, and managing the consent solicitation process within the deal timeline requires systematic contract review and a structured prioritization framework. Missing a required consent in a material government contract can trigger immediate termination of a revenue stream that drove the deal's investment thesis — a risk that is entirely preventable with adequate pre-signing analysis.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Global Merger Control Filing Requirement Analysis**: COCO maps all merger control notification obligations:
+1. **Global Merger Control Filing Requirement Analysis**: OpenMax maps all merger control notification obligations:
    - Analyzes the transaction against notification thresholds in 100+ jurisdictions using the parties' reported revenues, employee counts, asset values, and market shares by country
    - Identifies all jurisdictions where pre-merger notification is mandatory, conditional, or voluntary but strategically advisable
    - Calculates applicable waiting periods for each required notification and identifies any jurisdictions with extended second-phase review timelines
    - Flags jurisdictions with national security–adjacent merger control review powers that could extend beyond standard competition review
    - Generates a consolidated filing requirement register with notification type, threshold basis, filing deadline, standard waiting period, and strategic risk assessment for each jurisdiction
 
-2. **Foreign Investment Screening Obligation Identification**: COCO analyzes all applicable FDI review regimes:
+2. **Foreign Investment Screening Obligation Identification**: OpenMax analyzes all applicable FDI review regimes:
    - Identifies the acquirer's nationality and ownership chain to determine which national security review regimes are triggered (CFIUS for US-controlled acquirers / EU coordinated screening / national regimes)
    - Classifies the target's business activities against jurisdiction-specific covered sector definitions: critical infrastructure, critical technology, sensitive data, defense supply chain, and equivalent national security classifications
    - Analyzes the target's physical assets, facilities, and employee locations relative to proximity requirements (e.g., facilities near military installations trigger CFIUS mandatory review under certain acquirer profiles)
    - Reviews recent enforcement precedents in each applicable review jurisdiction to assess the probability of mitigation agreements (MNSAs), conditions, or prohibition recommendations for the specific deal profile
    - Generates a jurisdiction-by-jurisdiction FDI risk assessment with clearance probability, expected mitigation requirements, and strategic structuring recommendations
 
-3. **Change-of-Control Consent Mapping**: COCO identifies all required counterparty consents:
+3. **Change-of-Control Consent Mapping**: OpenMax identifies all required counterparty consents:
    - Reviews the target's material contracts for change-of-control provisions — triggers, consent procedures, and termination rights
    - Prioritizes contracts by revenue significance, relationship criticality, and counterparty likelihood to exercise consent rights
    - Identifies government contracts and concession agreements with mandatory change-of-control notification requirements
    - Analyzes debt instruments (credit agreements, bond indentures) for change-of-control covenants and put rights
    - Generates a consent matrix showing every counterparty with consent rights, the applicable contract, the consequence of non-compliance, and a recommended outreach timeline
 
-4. **Sector-Specific Regulatory Approval Analysis**: COCO identifies non-merger-control regulatory approvals:
+4. **Sector-Specific Regulatory Approval Analysis**: OpenMax identifies non-merger-control regulatory approvals:
    - Identifies all sector-specific change-of-control approvals required in regulated industries: banking and financial services (OCC, Federal Reserve, ECB/national bank regulators), insurance (state DOI, Lloyd's), telecommunications (FCC, national telecom regulators), healthcare, pharmaceutical, energy, and gaming
    - Analyzes the jurisdiction-by-jurisdiction regulatory approval timeline and information requirements for each applicable sector regulator
    - Identifies any "fit and proper" requirements applicable to the acquirer or its key executives under financial services or other regulated sector approvals
    - Flags jurisdictions where regulatory approval applications require extensive documentation — business plans, financial projections, ownership structure disclosure — that must be prepared simultaneously with other deal workstreams
    - Summarizes the most critical path regulatory approvals and their impact on the overall transaction timeline
 
-5. **Regulatory Risk and Timeline Modeling**: COCO builds a realistic transaction timeline:
+5. **Regulatory Risk and Timeline Modeling**: OpenMax builds a realistic transaction timeline:
    - Constructs a critical path analysis showing the regulatory approvals with the longest timelines and the greatest probability of delay
    - Models best-case, base-case, and worst-case transaction timelines under different regulatory outcome scenarios (clearance without conditions / clearance with remedies / extended review / prohibition)
    - Identifies parallel processing opportunities: regulatory filings that can be submitted simultaneously to minimize total elapsed time
    - Flags pre-filing engagement opportunities: jurisdictions where informal pre-filing discussions with regulators can reduce review uncertainty and timeline risk
    - Generates a deal structure recommendation: whether the proposed structure optimizes regulatory clearance probability, and whether alternative structures could reduce regulatory risk at acceptable commercial cost
 
-6. **Regulatory Approval Roadmap and Management Report**: COCO delivers a comprehensive approval management deliverable:
+6. **Regulatory Approval Roadmap and Management Report**: OpenMax delivers a comprehensive approval management deliverable:
    - Produces a visual regulatory approval roadmap — a Gantt chart showing every required filing, its timeline, predecessor dependencies, and critical path relationship
    - Generates jurisdiction-by-jurisdiction filing strategy memos summarizing submission requirements, local counsel coordination needs, and regulator-specific strategic considerations
    - Creates a regulatory risk register rating each jurisdiction by probability of delay, probability of prohibition, and potential deal impact
@@ -2744,7 +2744,7 @@ Output: Deal term recommendations matrix (provision / recommended language / rat
 
 > Screens the target entity's supplier and vendor base for financial instability, sanctions exposure, corruption risk, and contract concentration — identifying supply chain vulnerabilities that create operational continuity and compliance risk post-acquisition.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Undisclosed Supply Chain Vulnerabilities Destroy Post-Acquisition Operating Performance**
 
@@ -2754,44 +2754,44 @@ The compliance dimension of supplier risk is equally significant and increasingl
 
 The financial stability of key suppliers represents a third risk dimension that is almost never analyzed in standard due diligence. A single-source supplier that is itself financially distressed — carrying excess leverage, facing covenant pressure, or operating near insolvency — creates a supply continuity risk that can materialize suddenly and without warning. A supplier bankruptcy or sudden capacity withdrawal leaves the acquirer's business unable to fulfill customer orders, violating its own commercial contracts and triggering its own cascading defaults. This risk is particularly acute in sectors with long lead times, specialized components, or highly skilled labor where qualified alternative suppliers cannot be engaged quickly. Identifying financially vulnerable suppliers before close enables the acquirer to pre-qualify alternative sources or negotiate supply agreement terms that provide early warning and mitigation rights.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Supplier Universe Identification and Concentration Analysis**: COCO builds a complete supplier risk map:
+1. **Supplier Universe Identification and Concentration Analysis**: OpenMax builds a complete supplier risk map:
    - Extracts the full supplier and vendor universe from accounts payable records, purchase order data, and contract registers
    - Calculates spend concentration by supplier, category, and geography — identifying single-source suppliers and high-concentration vendor relationships
    - Maps supplier relationships to business-critical functions: which products or services would be immediately unavailable if a given supplier failed or terminated the relationship
    - Identifies suppliers providing services with long lead times or unique technical capabilities where alternative sourcing is complex
    - Generates a Pareto analysis: the 20% of suppliers that represent 80% of critical supply risk by spend and operational dependency
 
-2. **Financial Stability Screening of Key Suppliers**: COCO assesses supplier financial health:
+2. **Financial Stability Screening of Key Suppliers**: OpenMax assesses supplier financial health:
    - Applies financial distress screening (Altman Z-Score, payment behavior indicators, publicly available credit data) to the highest-concentration suppliers
    - Identifies suppliers with publicly disclosed financial difficulties: covenant defaults, credit rating downgrades, auditor going-concern opinions, or news of financial distress
    - Reviews supplier payment behavior data (where available) for indicators of cash pressure: requesting extended payment terms, offering early payment discounts, or delaying shipments pending payment
    - Identifies privately held suppliers where financial data is limited and recommends enhanced information requests or alternative financial health indicators
    - Generates a financial stability risk score for each high-concentration supplier with supporting evidence
 
-3. **Sanctions, Debarment, and Regulatory Compliance Screening**: COCO screens the supplier base for compliance risk:
+3. **Sanctions, Debarment, and Regulatory Compliance Screening**: OpenMax screens the supplier base for compliance risk:
    - Screens all identified suppliers against OFAC, EU, UN, and national sanctions lists — with alias and transliteration matching for suppliers in high-risk geographies
    - Checks suppliers against US and international government contractor debarment and suspension databases
    - Identifies suppliers in jurisdictions subject to import/export restrictions, embargo regimes, or heightened AML/CFT country risk
    - Flags suppliers with adverse regulatory history: environmental violations, labor law violations, product safety recalls, or quality fraud investigations
    - Generates a per-supplier compliance risk profile with sanctions exposure, regulatory history, and jurisdictional risk rating
 
-4. **Supply Chain Human Rights and Labor Compliance Assessment**: COCO evaluates supply chain ESG risk:
+4. **Supply Chain Human Rights and Labor Compliance Assessment**: OpenMax evaluates supply chain ESG risk:
    - Identifies suppliers operating in or sourcing from jurisdictions with documented forced labor, child labor, or severe labor rights violations
    - Cross-references supplier geographies and industry sectors against US UFLPA entity list, OECD guidelines non-compliant sector lists, and published forced labor risk geographies
    - Reviews the target's existing supplier code of conduct, audit requirements, and modern slavery reporting for coverage and implementation quality
    - Identifies material gaps between the target's stated supply chain compliance program and the actual supplier risk profile identified
    - Generates a supply chain human rights risk register rated by severity, regulatory exposure, and remediation urgency
 
-5. **Contract Change-of-Control and Termination Risk Analysis**: COCO identifies supplier contract vulnerabilities:
+5. **Contract Change-of-Control and Termination Risk Analysis**: OpenMax identifies supplier contract vulnerabilities:
    - Reviews material supplier contracts for change-of-control provisions that give suppliers termination or renegotiation rights on acquisition
    - Identifies exclusive supply arrangements and single-source agreements that may be disrupted if suppliers exercise change-of-control rights
    - Flags supplier contracts with pricing escalation clauses tied to ownership changes or competitive bidding triggers
    - Identifies agreements with minimum purchase commitments that will continue to bind the acquirer post-close
    - Prioritizes suppliers likely to exercise change-of-control rights based on commercial leverage, competitive dynamics, and the acquirer's strategic profile
 
-6. **Third-Party Risk Report and Post-Close Vendor Management Roadmap**: COCO delivers structured findings:
+6. **Third-Party Risk Report and Post-Close Vendor Management Roadmap**: OpenMax delivers structured findings:
    - Generates a comprehensive supplier risk register with financial stability scores, compliance findings, and contract vulnerability flags for all material suppliers
    - Produces a supply chain concentration analysis with single-source risk mapping and alternative sourcing recommendations for critical categories
    - Drafts a post-close supplier engagement plan: which suppliers require immediate relationship management attention, contract renegotiation, or audit
@@ -2915,7 +2915,7 @@ Output: Supplier change-of-control consent matrix (supplier / provision / trigge
 
 > Applies a comprehensive red flag framework to investment targets in the pre-LOI phase — identifying structural, financial, legal, and reputational concerns that should inform go/no-go decisions and negotiating position before significant diligence investment is made.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Costly Full Due Diligence Is Frequently Invested in Targets That Should Have Been Screened Out Earlier**
 
@@ -2925,44 +2925,44 @@ The pattern of late-stage deal termination is well-documented and economically c
 
 The red flag indicators that most commonly predict deal failure or material purchase price reduction fall into recognizable categories: financial irregularities (revenue concentration, margin volatility, cash flow quality gaps), structural complexity (opaque ownership, offshore shells, nominee directors), legal and regulatory history (enforcement actions, serial litigation, compliance program failures), personnel integrity risks (undisclosed executive misconduct, sanctions-connected shareholders), and commercial fragility (customer concentration, key person dependency, contract term exposure). A systematic, AI-driven screen against these categories — applied to every target before LOI issuance — would enable deal teams to redirect resources to high-quality opportunities and enter full due diligence with a pre-identified risk map rather than discovering the landscape from scratch.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Rapid Financial Red Flag Detection**: COCO identifies financial risk signals from available pre-LOI data:
+1. **Rapid Financial Red Flag Detection**: OpenMax identifies financial risk signals from available pre-LOI data:
    - Analyzes management accounts, investor presentations, or CIM financial summaries for revenue concentration (top customer as % of total), margin volatility, and cash flow quality signals
    - Identifies revenue recognition patterns that are inconsistent with the claimed business model — particularly in SaaS, services, and subscription businesses
    - Flags EBITDA adjustments that appear excessive relative to revenue — a potential indicator of reported earnings being materially above true economic earnings
    - Identifies financial disclosure gaps: what material financial information is not provided in the management presentation, and why
    - Cross-references any publicly available financial information (Companies House filings, SEC filings if public, credit rating reports) against management-presented metrics for consistency
 
-2. **Corporate Structure and Ownership Red Flag Screening**: COCO identifies structural concerns:
+2. **Corporate Structure and Ownership Red Flag Screening**: OpenMax identifies structural concerns:
    - Performs rapid corporate registry queries to verify the described ownership structure and identify any immediate discrepancies
    - Flags offshore holding structures in secrecy jurisdictions that indicate deliberate opacity — Cayman, BVI, Marshall Islands structures without apparent commercial rationale
    - Identifies nominee directors in the corporate structure and scores the structure on a nominee concentration basis
    - Checks the beneficial ownership register for the jurisdiction of incorporation and flags any undisclosed beneficial owners
    - Identifies any prior corporate names or predecessor entities with adverse history that would not surface under the current entity name
 
-3. **Regulatory and Enforcement History Rapid Screen**: COCO checks for legal and regulatory red flags:
+3. **Regulatory and Enforcement History Rapid Screen**: OpenMax checks for legal and regulatory red flags:
    - Runs a rapid regulatory enforcement database search across SEC, DOJ, FCA, and equivalent agencies for any enforcement actions naming the entity or its principals
    - Identifies any ongoing regulatory investigations referenced in publicly available court documents or news sources
    - Checks business licensing and debarment databases for any license suspensions, revocations, or government contractor exclusions
    - Flags industry-specific compliance concerns: FCPA exposure in high-corruption markets, environmental violations in manufacturing, data privacy enforcement in technology
    - Identifies any auditor qualifications, restatements, or audit firm changes in recent financial history
 
-4. **Key Personnel Integrity Rapid Screen**: COCO screens principals for undisclosed adverse history:
+4. **Key Personnel Integrity Rapid Screen**: OpenMax screens principals for undisclosed adverse history:
    - Performs a rapid background screen on the CEO, CFO, and founding shareholders — regulatory bars, professional sanctions, and adverse media
    - Identifies any undisclosed criminal records or civil judgments against key principals through court database queries
    - Checks key executives against sanctions and PEP databases
    - Reviews disclosed professional history for unexplained gaps, rapid employer changes, or departures from prior employers coincident with regulatory events
    - Flags any principals who appear in adverse media coverage related to financial misconduct, fraud, or significant disputes at prior employers
 
-5. **Reputational and Adverse Media Screen**: COCO conducts a rapid reputational assessment:
+5. **Reputational and Adverse Media Screen**: OpenMax conducts a rapid reputational assessment:
    - Runs a comprehensive adverse media search across global news sources in 40+ languages for the entity and all key principals
    - Applies AI semantic analysis to distinguish material adverse coverage (fraud allegations, regulatory investigations, significant commercial disputes) from routine negative press
    - Identifies customer complaints, employee review patterns, and social media signals that may indicate quality, culture, or governance concerns not visible in financial data
    - Checks industry-specific reputation databases and trade association complaints for sectors with self-regulatory oversight
    - Generates a reputational risk rating with supporting evidence and significance classification
 
-6. **Red Flag Report and Pre-LOI Decision Support**: COCO delivers a structured pre-LOI assessment:
+6. **Red Flag Report and Pre-LOI Decision Support**: OpenMax delivers a structured pre-LOI assessment:
    - Generates a consolidated red flag report organized by category (financial / structural / regulatory / personnel / reputational) with severity ratings
    - Produces a go/no-go recommendation framework: identifies which flags are potential deal-killers, which require full diligence investigation, and which can be addressed through deal structuring
    - Creates a pre-LOI negotiating position: which conditions, representations, or price adjustments should be incorporated into the LOI based on identified red flags
@@ -3088,7 +3088,7 @@ Output: LOI term sheet addendum with risk-specific provisions + overall deal ris
 
 > Deconstructs variable interest entity (VIE) structures used by Chinese technology, education, and healthcare companies — mapping contractual control arrangements, identifying regulatory change risk, and modeling the economic and legal consequences of forced unwinding.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: VIE Structures Create Fundamental Legal Uncertainty That Standard Due Diligence Cannot Adequately Quantify**
 
@@ -3098,44 +3098,44 @@ The regulatory environment for VIE structures has deteriorated materially over t
 
 The analytical complexity of VIE due diligence is substantial. Each VIE structure consists of multiple interlocking agreements — exclusive service agreements, equity pledge agreements, exclusive purchase option agreements, shareholder voting proxy agreements, and equity pledge agreements between the WFOE and the VIE's registered Chinese shareholders. The effectiveness of the structure in giving the offshore parent genuine control and the ability to consolidate the VIE's financial results depends on the precise language of these agreements, their compliance with PRC contract law, the financial capacity of the VIE's nominal shareholders to fulfill their contractual obligations, and the absence of any restrictions in the VIE's own business licenses or government contracts that would prevent the contractual arrangement from operating as designed. A structure that looks sound in its schematic form may have critical defects in the underlying contractual documentation.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **VIE Structure Deconstruction and Agreement Mapping**: COCO analyzes the full contractual architecture:
+1. **VIE Structure Deconstruction and Agreement Mapping**: OpenMax analyzes the full contractual architecture:
    - Extracts and maps all VIE agreements from the data room: exclusive service agreement, equity pledge agreement, exclusive purchase option agreement, voting proxy agreement, and loan agreements to nominal shareholders
    - Identifies all WFOE entities, operating VIE entities, and registered nominal shareholders in the structure — cross-referencing with PRC business registry data
    - Analyzes each agreement for the specific contractual mechanisms claimed to provide effective control: service fee computation, voting proxy scope, pledge enforcement provisions
    - Identifies any agreements that have expired, are approaching expiration, or have renewal provisions that have not been exercised
    - Maps the complete contractual flow of economic benefits from the VIE operating entity to the offshore parent
 
-2. **Legal Enforceability and Structural Defect Analysis**: COCO identifies legal vulnerabilities in the contractual arrangement:
+2. **Legal Enforceability and Structural Defect Analysis**: OpenMax identifies legal vulnerabilities in the contractual arrangement:
    - Analyzes VIE agreements for compliance with PRC contract law requirements: proper authorization, execution formalities, and absence of terms that render the agreement void or voidable under PRC law
    - Identifies any provisions that have been challenged in Chinese courts or referenced in administrative proceedings as legally problematic
    - Assesses the equity pledge enforceability: whether the pledge over the nominal shareholders' equity interests is properly registered with the relevant market supervision authority and would be enforceable in PRC courts
    - Reviews the exclusive purchase option agreement for regulatory restrictions on the WFOE exercising the option — particularly in sectors with foreign ownership restrictions
    - Identifies any modifications to the VIE structure since original establishment that may not be reflected in the current contractual documentation
 
-3. **Regulatory Sector Risk Assessment**: COCO evaluates the probability of regulatory restructuring:
+3. **Regulatory Sector Risk Assessment**: OpenMax evaluates the probability of regulatory restructuring:
    - Classifies the VIE operating entity's business activities against PRC restricted and prohibited sector lists (Foreign Investment Negative List, MIIT restricted categories, CBIRC/PBOC regulated activities)
    - Analyzes recent PRC regulatory actions in the same sector: enforcement actions, restructuring requirements, and regulatory guidance that signal sector-specific VIE treatment
    - Reviews PRC government policy documents, State Council opinions, and regulatory agency pronouncements relevant to the sector for signals of continued tolerance vs. escalating pressure
    - Assesses the strategic importance of the sector in PRC industrial policy — sectors designated as strategic national assets face greater restrictions on foreign influence via VIE structures
    - Generates a sector-specific VIE sustainability rating with probability estimates for three scenarios: regulatory tolerance / restructuring required / mandatory unwinding
 
-4. **Economic Scenario Analysis and Unwinding Impact Modeling**: COCO models the financial consequences of VIE scenarios:
+4. **Economic Scenario Analysis and Unwinding Impact Modeling**: OpenMax models the financial consequences of VIE scenarios:
    - Models the current equity value of the offshore parent under a scenario of continued VIE structure operation — including consolidation of VIE financials and dividend repatriation risks
    - Models the value impact of a mandatory VIE unwinding scenario: identification of which assets would remain accessible to the offshore parent, which would revert to PRC state control, and the residual value of the offshore holding structure
    - Quantifies dividend repatriation risk: models the tax withholding, foreign exchange restriction, and SAFE approval requirements for moving funds from the VIE operating entity to the offshore parent
    - Assesses the impact of recent PRC data security and cross-border data transfer regulations on the VIE entity's operations — particularly for internet and data-intensive businesses
    - Generates a probability-weighted valuation range reflecting VIE risk scenarios
 
-5. **Nominal Shareholder Risk and Conflict of Interest Analysis**: COCO assesses the persons on whose cooperation the structure depends:
+5. **Nominal Shareholder Risk and Conflict of Interest Analysis**: OpenMax assesses the persons on whose cooperation the structure depends:
    - Identifies the nominal shareholders of the VIE operating entities and verifies their current legal status, financial capacity, and continuing employment with the group
    - Assesses whether nominal shareholders have signed and registered valid equity pledge agreements — critical to the structure's enforceability
    - Reviews employment agreements, confidentiality agreements, and VIE-related covenants for nominal shareholders to assess retention and compliance risk
    - Identifies any prior disputes between the offshore parent and VIE nominal shareholders — a small number of high-profile cases have demonstrated that nominal shareholders can exploit their legal ownership position
    - Generates a nominal shareholder risk assessment: how vulnerable is the structure if a nominal shareholder becomes adversarial or becomes legally incapacitated?
 
-6. **VIE Due Diligence Report and Investment Risk Summary**: COCO delivers a complete VIE risk assessment:
+6. **VIE Due Diligence Report and Investment Risk Summary**: OpenMax delivers a complete VIE risk assessment:
    - Generates a comprehensive VIE structure analysis report covering contractual architecture, legal defects, regulatory sector risk, and economic scenario analysis
    - Produces a risk matrix rating VIE risks by category (legal / regulatory / nominal shareholder / economic / tax) with severity and probability estimates
    - Drafts recommended deal structural protections: specific representations and warranties regarding VIE agreements, regulatory confirmations, and disclosure obligations
@@ -3268,7 +3268,7 @@ Output: VIE-specific R&W checklist with recommended language + survival period a
 
 > Continuously monitors global news, social media, court filings, and regulatory announcements across 40+ languages and 10,000+ sources — generating severity-rated adverse media alerts and reputational risk profiles for corporate entities and their principals.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Reputational Risk Manifests Suddenly and Spreads Faster Than Manual Monitoring Can Track**
 
@@ -3278,44 +3278,44 @@ The pattern recognition problem is particularly difficult for human analysts. In
 
 The temporal dimension of adverse media monitoring is equally critical. An initial due diligence review captures the reputational picture at a single point in time, but transactions have timelines of months between signing and closing — during which new adverse events may emerge that would have affected the buy/no-buy decision if known at signing. A regulatory investigation announced after signing but before closing, a sexual harassment scandal involving the CEO that becomes public during the approval process, or a product safety recall that triggers a class action — each of these post-signing events has significant deal implications but will be missed entirely if there is no systematic ongoing monitoring between signing and closing. The MAC clause analysis, while theoretically protective, requires the buyer to have actual knowledge of the adverse event and to make a timely decision to invoke it — both of which require monitoring capability that most deal teams lack.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Comprehensive Global Media Monitoring Setup**: COCO configures and maintains broad adverse media coverage:
+1. **Comprehensive Global Media Monitoring Setup**: OpenMax configures and maintains broad adverse media coverage:
    - Monitors 10,000+ news sources, news agencies, business publications, regulatory portals, and court announcement services across 60+ countries
    - Applies monitoring in 40+ languages with AI translation and significance scoring — ensuring that regional language adverse media is captured with the same reliability as English-language coverage
    - Configures monitoring for each entity and individual in the due diligence universe: the corporate entity, its key subsidiaries, all directors and officers, and significant shareholders
    - Sets up monitoring alerts calibrated to the deal's most material risk categories: financial crime, regulatory enforcement, environmental violations, labor relations, data breaches, product safety
    - Maintains historical coverage by populating a 10-year adverse media archive for each monitored entity at the beginning of the monitoring engagement
 
-2. **AI Severity Scoring and Signal Filtering**: COCO distinguishes material adverse media from noise:
+2. **AI Severity Scoring and Signal Filtering**: OpenMax distinguishes material adverse media from noise:
    - Applies NLP-based semantic analysis to classify each media item by topic (regulatory investigation / financial fraud / environmental / labor / sexual misconduct / product safety / commercial dispute / other)
    - Scores each item by severity: confirmed adverse finding / credible allegation / preliminary inquiry / minor dispute / routine coverage / no adverse content
    - Identifies source credibility and publication authority — mainstream financial press vs. anonymous blogs vs. regulatory announcements receive appropriately weighted treatment
    - Filters out irrelevant content: articles mentioning the entity's name in passing, non-adverse commercial coverage, and duplicate reporting across sources
    - Applies pattern recognition to identify escalation sequences: when multiple low-severity items in the same category appear within a defined time window, triggering an aggregate escalation alert
 
-3. **Historical Adverse Media Deep Archive Review**: COCO conducts a systematic historical review:
+3. **Historical Adverse Media Deep Archive Review**: OpenMax conducts a systematic historical review:
    - Searches a 10-year historical archive across all monitored sources for each entity and individual at engagement start
    - Identifies any prior adverse coverage that may not be apparent from a surface-level news search — articles indexed only in local language databases, industry trade publications, or court announcement feeds
    - Reconstructs the reputational history: were there prior allegations that were resolved, litigated, or simply went quiet? What happened at each stage?
    - Identifies prior patterns that may recur: serial regulatory inquiries, repeated customer disputes in the same category, management misconduct patterns at prior employers
    - Generates a historical adverse media timeline with severity ratings and resolution status for each identified event
 
-4. **Real-Time Alert Management and Deal Period Monitoring**: COCO maintains continuous monitoring through the deal period:
+4. **Real-Time Alert Management and Deal Period Monitoring**: OpenMax maintains continuous monitoring through the deal period:
    - Delivers real-time alerts to the deal team when new adverse media items above the configured severity threshold are identified
    - Generates a daily digest for the deal team summarizing all new media items across all monitored entities, with significance ratings
    - Maintains a running adverse media log for the signing-to-close period, creating a contemporaneous record of all new information received
    - Escalates critical alerts (confirmed enforcement action, significant litigation filing, major product safety event) immediately to designated deal team contacts
    - Provides a post-alert action framework: recommended deal team response for each alert category (immediate legal review / MAC analysis / regulatory notification / monitor)
 
-5. **Social Media and Digital Reputation Intelligence**: COCO extends monitoring beyond traditional media:
+5. **Social Media and Digital Reputation Intelligence**: OpenMax extends monitoring beyond traditional media:
    - Monitors social media platforms (Twitter/X, LinkedIn, Reddit, Glassdoor, product review platforms) for mentions of the entity and key principals
    - Identifies patterns of employee dissatisfaction on Glassdoor and employer review platforms that may indicate culture, governance, or compensation issues
    - Monitors customer feedback and complaint platforms for product quality, safety, or service delivery concerns
    - Tracks social media campaigns against the entity: organized customer boycotts, activist investor campaigns, or coordinated reputational attacks
    - Applies brand sentiment analysis to track changes in public sentiment over the deal period
 
-6. **Adverse Media Due Diligence Report**: COCO delivers structured reputational intelligence:
+6. **Adverse Media Due Diligence Report**: OpenMax delivers structured reputational intelligence:
    - Generates a comprehensive adverse media report summarizing all material findings organized by entity, by category, and by severity
    - Produces a reputational risk profile narrative explaining the significance of identified findings in the context of the deal
    - Creates a historical adverse media timeline for visual presentation to investment committees
@@ -3444,7 +3444,7 @@ Output: Interview question matrix organized by finding + expected responses vs. 
 
 > Analyzes the target entity's environmental liabilities, regulatory compliance history, and ESG risk profile — identifying remediation obligations, permit violations, climate transition risks, and supply chain ESG exposure that affect deal value and post-close liability.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Environmental Liabilities Are Among the Largest and Most Unpredictable Post-Acquisition Costs**
 
@@ -3454,44 +3454,44 @@ The regulatory compliance dimension extends far beyond historical contamination.
 
 The ESG dimension has expanded the scope of environmental due diligence dramatically in the post-Paris Agreement era. Institutional investors, lenders, and insurers increasingly require climate risk assessments, greenhouse gas emission inventories, water stress analyses, and biodiversity impact assessments as part of investment approval processes. The physical risks of climate change — flooding, wildfire, sea level rise, extreme heat — affect the insurance costs, operational continuity, and asset values of facilities in affected geographies. Transition risks — carbon pricing, fossil fuel phaseout policies, clean energy mandates — can fundamentally alter the economics of energy-intensive businesses. A traditional environmental due diligence process that focuses only on historical contamination and permit compliance fails to address these forward-looking material risks that are now standard elements of institutional investor and lender analysis.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Environmental Regulatory Compliance Audit**: COCO systematically verifies facility-level environmental compliance:
+1. **Environmental Regulatory Compliance Audit**: OpenMax systematically verifies facility-level environmental compliance:
    - Retrieves current permit status for each operating facility from EPA databases, state environmental agency portals, and equivalent international regulatory sources
    - Verifies Clean Air Act Title V permit currency and compliance history — including any notices of violation, consent agreements, or administrative orders
    - Checks NPDES wastewater discharge permit status and identifies any effluent limit exceedances or monitoring violations in public compliance records
    - Reviews RCRA hazardous waste generator status and confirms compliance with applicable storage, labeling, manifesting, and disposal requirements
    - Generates a facility-by-facility compliance status register with permit currency, known violations, and open enforcement actions
 
-2. **Historical Contamination and Superfund Liability Research**: COCO investigates site contamination history:
+2. **Historical Contamination and Superfund Liability Research**: OpenMax investigates site contamination history:
    - Searches EPA CERCLIS/ACRES database and state cleanup program databases for all facilities and adjacent properties for any historical contamination designations
    - Identifies any National Priorities List (Superfund) sites where the target entity or its predecessors may hold PRP status
    - Reviews EPA Phase I and Phase II environmental site assessments in the data room and identifies any Recognized Environmental Conditions (RECs) requiring further investigation
    - Cross-references historical industrial use data (aerial photography archives, Sanborn Fire Insurance Maps) with current facility locations to identify historical contamination sources not reflected in current assessments
    - Models the range of remediation cost exposure for identified RECs based on comparable site cleanup costs in the EPA's remediation cost database
 
-3. **Chemical and Hazardous Materials Compliance Review**: COCO identifies chemical management risks:
+3. **Chemical and Hazardous Materials Compliance Review**: OpenMax identifies chemical management risks:
    - Analyzes TSCA chemical inventory and identifies any PFAS, asbestos, PCB, or other priority substances subject to new or upcoming regulatory restrictions
    - Reviews TRI reporting history for any significant toxic releases or reporting violations
    - Checks Proposition 65 compliance status and identifies any potential labeling or warning deficiencies for California operations
    - Identifies OSHA Process Safety Management (PSM) and EPA Risk Management Program (RMP) applicability and compliance status for facilities handling highly hazardous chemicals
    - Flags any REACH, CLP, or SVHC compliance issues for EU operations or products distributed in the EU
 
-4. **Climate Physical and Transition Risk Assessment**: COCO evaluates climate-related financial risks:
+4. **Climate Physical and Transition Risk Assessment**: OpenMax evaluates climate-related financial risks:
    - Applies physical climate risk mapping to all operating facilities: identifies facilities in FEMA flood zones, wildfire hazard areas, coastal sea-level-rise exposure zones, and extreme heat stress regions
    - Models the financial impact of physical climate risks on insurance costs, operational continuity, and asset replacement value
    - Assesses greenhouse gas emissions profile: quantifies Scope 1, 2, and 3 emissions and identifies the business's position relative to sector net-zero transition pathways
    - Identifies transition risk exposure: carbon pricing obligations in applicable jurisdictions, fossil fuel phase-out timelines affecting key inputs or products, clean energy mandate compliance costs
    - Evaluates alignment with applicable climate disclosure frameworks (TCFD, SEC climate disclosure rules, CSRD in Europe) and identifies any disclosure gaps
 
-5. **Supply Chain and Product ESG Risk Assessment**: COCO extends ESG analysis beyond owned operations:
+5. **Supply Chain and Product ESG Risk Assessment**: OpenMax extends ESG analysis beyond owned operations:
    - Identifies supply chain ESG risks: suppliers in high-impact industries or geographies with documented environmental violations, deforestation, or biodiversity impact
    - Analyzes the target's products for ESG risk factors: carbon-intensive products facing regulatory phaseout, products containing restricted or scrutinized substances
    - Reviews the target's current ESG reporting and certifications against applicable standards (GRI, SASB, CDP) and identifies gaps vs. required disclosures
    - Assesses the target's readiness for mandatory ESG reporting under EU CSRD, SEC climate rules, or other applicable mandatory frameworks
    - Generates a supply chain ESG risk register with remediation urgency and regulatory obligation implications
 
-6. **Environmental and ESG Due Diligence Report**: COCO delivers comprehensive findings:
+6. **Environmental and ESG Due Diligence Report**: OpenMax delivers comprehensive findings:
    - Generates an environmental liability assessment with per-facility compliance status, contamination risk ratings, and estimated remediation exposure ranges
    - Produces an ESG risk profile summarizing climate physical risk, transition risk, supply chain ESG exposure, and reporting gap analysis
    - Creates a quantified environmental liability register: each identified liability with probability, low/expected/high cost range, and timing
@@ -3624,7 +3624,7 @@ Output: Environmental liability register + quantification summary table + deal s
 
 > Identifies and quantifies the business's dependence on specific individuals — founders, technical leads, sales champions, and regulatory relationship holders — modeling the revenue, operational, and valuation impact of key person departure scenarios.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Unquantified Key Person Risk Materializes Immediately When Founders or Stars Depart Post-Close**
 
@@ -3634,44 +3634,44 @@ The contractual and organizational analysis required to genuinely assess key per
 
 The equity structure dimension creates additional complexity. In founder-led businesses and PE-backed companies with management incentive plans, the post-close equity structure critically determines the departure probability of every identified key person. A founder who is cashing out 80% of their net worth at closing has very different retention incentives from a founder who retains a meaningful stake in the combined entity. A management team that holds options with a post-close vesting cliff has strong reasons to stay through the vesting period — and strong reasons to leave immediately afterward. Understanding the equity structure, vesting schedules, and economic incentives of each key person is an essential input to any realistic key person risk assessment, yet it requires access to compensation data that sellers frequently resist providing before the LOI stage.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Key Person Identification and Dependency Mapping**: COCO identifies who the business genuinely depends on:
+1. **Key Person Identification and Dependency Mapping**: OpenMax identifies who the business genuinely depends on:
    - Analyzes customer contracts, account management records, and CRM data to identify customer relationships personally managed by specific individuals
    - Reviews patent inventorship, technical documentation authorship, and software development contribution records to identify knowledge concentration in specific engineers or scientists
    - Maps regulatory filing authorship and relationship holder status: who is the primary contact for each material regulatory license and approval
    - Analyzes sales performance data (where available) to identify revenue attribution by individual sales person — distinguishing institutional pipeline from personal-relationship driven revenue
    - Reviews organizational charts, reporting structures, and management meeting attendee records to identify operational decision-making concentration
 
-2. **Revenue Impact Modeling for Key Person Departure**: COCO quantifies the financial exposure:
+2. **Revenue Impact Modeling for Key Person Departure**: OpenMax quantifies the financial exposure:
    - Models the revenue at risk if identified key persons depart — including both customer-specific risk and broader organizational disruption effects
    - Calculates the replacement timeline for each key role: how long before a qualified replacement could be operationally effective?
    - Estimates the cost of replacement: recruiter fees, compensation premium for replacement talent, training and onboarding investment
    - Models the revenue impact of a delay in replacement: for each month the role is vacant, what revenue is likely affected?
    - Generates a key person departure scenario model with best-case (orderly transition), base-case (disruption but recovery), and worst-case (immediate loss of personal relationships) financial impacts
 
-3. **Employment Agreement and Non-Compete Analysis**: COCO reviews legal protections against key person risk:
+3. **Employment Agreement and Non-Compete Analysis**: OpenMax reviews legal protections against key person risk:
    - Reviews employment agreements for all identified key persons: notice periods, non-competition scope and duration, non-solicitation provisions, and garden leave entitlements
    - Assesses the enforceability of non-compete and non-solicitation provisions under applicable jurisdiction law — considering recent case law and statutory restrictions (California, FTC rule developments)
    - Identifies any agreements that are deficient: key persons without signed agreements, agreements without adequate non-solicitation provisions, or provisions that are clearly unenforceable
    - Reviews intellectual property assignment provisions in employment agreements — confirms that all IP created by key persons is validly assigned to the company
    - Identifies any change-of-control provisions in employment agreements that trigger acceleration, termination rights, or enhanced compensation obligations
 
-4. **Knowledge Documentation and Transfer Risk Assessment**: COCO evaluates institutional knowledge retention:
+4. **Knowledge Documentation and Transfer Risk Assessment**: OpenMax evaluates institutional knowledge retention:
    - Reviews documentation completeness for key technical systems, processes, and regulatory submissions — identifying knowledge that exists only in implicit form with specific individuals
    - Assesses the target's knowledge management practices: is process documentation maintained, updated, and accessible to multiple people, or concentrated with one expert?
    - Identifies critical systems administered by single points of failure: database administrators, network engineers, or compliance managers who are the only people who can operate critical systems
    - Reviews succession planning documentation: does the target have identified successors for each key role, and have those successors been developed?
    - Generates a knowledge transfer risk register rating each identified concentration by severity and difficulty of remediation
 
-5. **Retention Plan Assessment and Recommendation**: COCO evaluates existing retention mechanisms and gaps:
+5. **Retention Plan Assessment and Recommendation**: OpenMax evaluates existing retention mechanisms and gaps:
    - Reviews current equity incentive plans for key persons: vesting schedules, performance conditions, acceleration provisions, and post-close treatment under the deal structure
    - Calculates the post-close equity value retention for each key person under the proposed deal structure — identifying individuals who will be fully cashed out vs. those with meaningful post-close economic stake
    - Identifies individuals with inadequate post-close retention incentives based on equity analysis and market compensation benchmarks
    - Reviews non-economic retention factors: title preservation, operational autonomy commitments, investment in career development
    - Generates retention recommendations for each high-risk key person: specific equity, cash, or non-economic incentive packages calibrated to the individual's departure risk profile
 
-6. **Key Person Risk Report and Post-Close Retention Plan**: COCO delivers actionable findings:
+6. **Key Person Risk Report and Post-Close Retention Plan**: OpenMax delivers actionable findings:
    - Generates a comprehensive key person risk report with dependency maps, revenue-at-risk models, legal protection analysis, and knowledge transfer risk register
    - Produces a key person risk scorecard ranking all identified individuals by departure risk and impact severity
    - Drafts a post-close retention package recommendation for each high-risk individual
@@ -3803,7 +3803,7 @@ Output: Retention package recommendation per individual + total retention cost e
 
 > Verifies the current status, coverage adequacy, and renewal compliance of all regulatory licenses, operating permits, and professional certifications held by the target entity — across all jurisdictions of operation, ensuring full authorization before deal close.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Operating Without Valid Licenses Creates Immediate Post-Close Enforcement Exposure**
 
@@ -3813,44 +3813,44 @@ The license assignment challenge adds complexity in stock purchase transactions 
 
 The professional certification dimension is distinct but equally important. Businesses that provide professional services — law firms, accounting firms, engineering firms, medical practices — must ensure that the individuals providing services hold current professional certifications in each jurisdiction where services are delivered. An engineering firm that employs licensed professional engineers in states where their licenses have expired, been disciplined, or never been obtained for the specific project jurisdiction faces liability for unlicensed professional practice. A law firm in a multi-jurisdictional M&A creates similar exposure if partners practice in jurisdictions where they lack the required admission. These individual professional certifications rarely appear in a data room index — they must be proactively requested and verified.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Comprehensive License and Permit Inventory Construction**: COCO builds a complete authorization register:
+1. **Comprehensive License and Permit Inventory Construction**: OpenMax builds a complete authorization register:
    - Identifies all regulatory licenses and operating permits required for the target's business activities based on its operational description, industry classification, and geographic footprint
    - Extracts license documentation from the data room and cross-references against the expected license universe — identifying missing authorization documents
    - Queries applicable regulatory databases to independently verify the current status of each identified license: active, expired, suspended, revoked, or under renewal
    - Identifies the license holder entity for each license — confirming it matches the contracting entity rather than a related party or predecessor
    - Generates a complete license and permit register with current status, expiration dates, and renewal history for each authorization
 
-2. **Activity Coverage Analysis**: COCO verifies that licenses cover actual business activities:
+2. **Activity Coverage Analysis**: OpenMax verifies that licenses cover actual business activities:
    - Compares each license's authorized activities or covered scope against the target's described business operations
    - Flags any business activities for which no authorization document is present — identifying potential unlicensed operation exposure
    - Identifies licenses with restricted scope that may not cover all current activities (e.g., broker-dealer license without investment advisory coverage; general contractor license in some but not all required states)
    - Reviews any license conditions or restrictions that limit authorized activities beyond the license's face coverage
    - Generates an activity coverage matrix: every business activity mapped against the authorization that covers it, with gaps highlighted
 
-3. **Change-of-Control License Approval Identification**: COCO identifies all licenses requiring pre-close approval:
+3. **Change-of-Control License Approval Identification**: OpenMax identifies all licenses requiring pre-close approval:
    - Classifies each identified license by transferability: freely transferable / change-of-control notification required / change-of-control approval required / non-transferable (requires new application)
    - Applies jurisdiction-specific regulatory rules for each license type: financial services, insurance, healthcare, gaming, cannabis, telecommunications, defense
    - Identifies the applicable regulatory body for each change-of-control approval and extracts timeline and application requirements
    - Flags any licenses that must be surrendered and re-applied for under the acquirer's name — with assessment of the probability and timeline for new license approval
    - Generates a change-of-control license approval tracker as a component of the overall regulatory approval roadmap
 
-4. **Individual Professional Certification Verification**: COCO verifies practitioner-level licensing:
+4. **Individual Professional Certification Verification**: OpenMax verifies practitioner-level licensing:
    - Identifies all professional roles within the target that require individual licensure: licensed professional engineers, licensed attorneys, CPAs, licensed physicians, registered nurses, real estate brokers, insurance agents, securities professionals
    - Verifies individual license status for all identified professionals through applicable licensing board databases: state bar records (attorneys), FINRA BrokerCheck (securities professionals), state engineering boards, medical boards
    - Identifies expired, disciplined, or revoked individual professional licenses — and assesses whether the affected services can continue to be delivered
    - Maps individual professional certifications against the jurisdictions in which services are actually provided — flagging cross-jurisdictional practice without required local admission or licensing
    - Generates a professional certification compliance register with status, renewal dates, and any disciplinary history
 
-5. **License Compliance History and Regulatory Relationship Analysis**: COCO assesses the target's track record with regulators:
+5. **License Compliance History and Regulatory Relationship Analysis**: OpenMax assesses the target's track record with regulators:
    - Retrieves publicly available compliance history for each material license: past violations, enforcement actions, license conditions imposed, and consent agreements
    - Identifies any patterns of recurring compliance issues in the same license category — which may indicate systemic rather than isolated compliance problems
    - Assesses the quality of the target's regulatory relationships: are there open enforcement matters, ongoing monitoring requirements, or enhanced supervision obligations?
    - Reviews license renewal history: does the target renew licenses on time, or is there a pattern of operating with expired licenses pending renewal?
    - Generates a regulatory relationship risk assessment for each material regulatory authority with whom the target has significant interaction
 
-6. **License Due Diligence Report and Pre-Close Action Plan**: COCO delivers actionable licensing findings:
+6. **License Due Diligence Report and Pre-Close Action Plan**: OpenMax delivers actionable licensing findings:
    - Generates a comprehensive license verification report with per-license current status, coverage assessment, change-of-control requirement, and compliance history
    - Produces a priority action matrix: licenses requiring immediate remediation (expired, suspended), change-of-control approvals required before close, and licenses with coverage gaps requiring supplementary authorization
    - Drafts targeted data room document requests for licenses, renewal confirmations, and regulatory correspondence not yet in the data room
@@ -3975,7 +3975,7 @@ Output: License action plan (item / action / responsible party / timeline / pre/
 
 > Searches UCC filings, mortgage records, tax liens, judgment liens, and cross-border security interest registers to build a complete picture of all encumbrances on the target's assets — enabling clean title delivery at closing and identifying unexpected lender consents.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Undiscovered Asset Encumbrances Prevent Clean Title Transfer and Create Lender Consent Failures**
 
@@ -3985,44 +3985,44 @@ The complexity of lien search in commercial M&A has several dimensions that make
 
 The lender consent problem compounds the challenge. Most secured lending facilities contain provisions requiring lender consent before the borrower can sell all or substantially all of its assets, undergo a change of control, or merge into another entity. The consequence of violating these provisions — even inadvertently — is a technical event of default under the credit agreement, which may trigger acceleration of all outstanding debt, cross-default provisions in other credit facilities, and automatic termination of hedging agreements. Identifying all secured creditors from lien search results and reviewing their credit agreements for consent or notification requirements is a critical pre-close step that requires both the lien search results and a careful reading of the governing loan documents. Missing a single creditor's consent requirement can destroy months of deal work at the last minute.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **UCC Financing Statement Search and Analysis**: COCO executes comprehensive UCC lien searches:
+1. **UCC Financing Statement Search and Analysis**: OpenMax executes comprehensive UCC lien searches:
    - Queries UCC filing offices in all applicable states: the debtor's state of formation, state of principal place of business, and states where specific asset collateral is located
    - Searches under the debtor's full legal name, all prior names identified in corporate history review, and any trade names or DBAs
    - Retrieves and analyzes all filed financing statements: collateral description, secured party identity, filing date, and lapse date
    - Distinguishes active filings (within 5-year effective period or subject to continuation statements) from lapsed filings (past effective date and not continued)
    - Identifies stale filings that appear active but where the underlying obligation has been disclosed as repaid — and flags for termination statement follow-up
 
-2. **Real Property Mortgage and Deed of Trust Search**: COCO searches real property encumbrances:
+2. **Real Property Mortgage and Deed of Trust Search**: OpenMax searches real property encumbrances:
    - Identifies all real property owned or leased by the target from the asset register and lease schedule
    - Queries county recorder databases in all applicable counties for recorded mortgages, deeds of trust, and other encumbrances against owned real property
    - Retrieves easements, CC&Rs, and other recorded encumbrances that may restrict use or development of real property assets
    - Identifies any mechanics' liens or materialman's liens filed against construction or improvement projects at owned or leased facilities
    - Cross-references mortgage records against disclosed financing facilities to identify any mortgages not referenced in the data room
 
-3. **Federal and State Tax Lien Search**: COCO identifies government revenue liens:
+3. **Federal and State Tax Lien Search**: OpenMax identifies government revenue liens:
    - Queries IRS tax lien records for all federal tax liens filed against the debtor in all applicable filing offices
    - Searches state department of revenue records for state income tax, sales tax, and payroll tax liens in all states where the target has operations
    - Identifies the specific tax obligations underlying each identified lien — tax type, period, and amount assessed — from available public records
    - Assesses whether identified tax liens represent resolved disputes (lien filed but subsequently released pending final determination) or genuine undisclosed tax liability
    - Cross-references tax lien findings against the target's disclosed tax reserves and the results of the independent tax due diligence review
 
-4. **Judgment Lien and Litigation Creditor Search**: COCO identifies judgment-related encumbrances:
+4. **Judgment Lien and Litigation Creditor Search**: OpenMax identifies judgment-related encumbrances:
    - Searches court records for outstanding money judgments against the debtor — entered but not yet satisfied
    - Identifies any judgment creditors who have recorded judgment liens against real property to secure collection of their judgments
    - Cross-references identified judgment liens against the target's disclosed litigation register to identify any judgments not included in the litigation disclosure
    - Searches for any foreign judgments that have been domesticated in US courts and may be enforceable against US assets
    - Assesses the priority of identified judgment liens relative to purchase money security interests and proposed financing in the new structure
 
-5. **Cross-Border Security Interest Research**: COCO addresses international asset encumbrances:
+5. **Cross-Border Security Interest Research**: OpenMax addresses international asset encumbrances:
    - Identifies and queries PPSR registers in Australia, New Zealand, and Canada for security interests against target assets in those jurisdictions
    - Searches applicable European security interest registers (charges registers in UK, Ireland; security interest databases in France, Germany) for encumbrances on European assets
    - Reviews the ISDA Global Close-out Netting Register and CFTC security interest data for financial collateral arrangements in derivatives counterparty portfolios
    - Identifies any aircraft, vessel, or rolling stock encumbrances in applicable FAA, USCG, and state DMV records
    - Generates a cross-border encumbrance register for each jurisdiction with identified assets
 
-6. **Lien Search Report and Release Coordination**: COCO produces actionable encumbrance management deliverables:
+6. **Lien Search Report and Release Coordination**: OpenMax produces actionable encumbrance management deliverables:
    - Generates a comprehensive lien search report with all identified encumbrances organized by jurisdiction, asset type, and secured party
    - Produces a payoff and release planning matrix: for each active lien, the amount required for payoff, the release documentation required, and the timeline for obtaining a filed termination statement
    - Identifies all secured creditors requiring deal consent under their credit agreements — providing a direct input to the consent management process
@@ -4156,7 +4156,7 @@ Output: Lien clearance checklist with status tracking + pending items requiring 
 
 > Analyzes the target entity's customer revenue distribution, contract terms, renewal rates, and relationship stability — identifying dangerous revenue concentration, churn risk, and counterparty dependency that affect post-acquisition commercial continuity.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Customer Concentration Is the Most Common Driver of Post-Acquisition Revenue Underperformance**
 
@@ -4166,44 +4166,44 @@ The analytical challenge is that customer concentration data is rarely presented
 
 The relationship stability dimension adds a qualitative layer that is difficult to analyze from documents alone. Customer relationships are managed by account managers — sometimes the same individuals identified in the key person risk analysis — whose departure post-close may jeopardize the relationship. Customer satisfaction data, Net Promoter Scores, and executive relationship maps are qualitative inputs that rarely appear in due diligence but are often more predictive of post-close revenue performance than any financial metric. A customer whose key executive sponsor at the target's company is the CEO (who is leaving post-close) represents a very different risk from a customer relationship managed by an account manager who will remain post-close and who is protected by a contractual relationship rather than a personal one. This analysis requires integrating CRM data, management presentation claims, and key person risk findings into a coherent customer risk profile.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Customer Revenue Concentration Analysis**: COCO quantifies the full concentration picture:
+1. **Customer Revenue Concentration Analysis**: OpenMax quantifies the full concentration picture:
    - Processes customer-level revenue data to calculate concentration metrics: top 1, 3, 5, 10, and 20 customers as percentages of total revenue over the past 3 years
    - Calculates the Herfindahl-Hirschman Index (HHI) for the revenue distribution — providing a single concentration score that enables comparison against sector benchmarks
    - Identifies customers whose revenue share has been growing (concentration increasing) vs. declining (customer losing share or churning)
    - Maps any recent new customer additions that represent exceptional one-time revenue not predictive of going-forward relationship value
    - Generates a customer tier analysis: A-tier (strategic relationships), B-tier (material but replaceable), C-tier (transactional) — enabling risk calibration by tier
 
-2. **Contract Term and Renewal Risk Analysis**: COCO assesses the contractual basis of key customer relationships:
+2. **Contract Term and Renewal Risk Analysis**: OpenMax assesses the contractual basis of key customer relationships:
    - Extracts all material customer contracts from the data room and maps each against the corresponding customer revenue stream
    - Identifies contract expiration dates: which major customer contracts expire within 12, 24, and 36 months of the projected closing date
    - Reviews contract renewal terms: automatic renewal vs. affirmative renewal required, notice periods for non-renewal, and any early termination rights
    - Identifies minimum purchase commitments and take-or-pay obligations that secure future revenue — distinguishing contracted from discretionary revenue
    - Flags contracts with pricing mechanisms that create margin compression risk at renewal: price escalation caps, most-favored-nation clauses, and competitive rebidding requirements
 
-3. **Customer Churn and Retention Analysis**: COCO models the historical and forward-looking retention picture:
+3. **Customer Churn and Retention Analysis**: OpenMax models the historical and forward-looking retention picture:
    - Calculates cohort-based retention rates: of customers acquired in each year, what percentage were still active in each subsequent year?
    - Identifies customers who reduced their purchase volume significantly in the most recent period — a leading indicator of churn before complete departure
    - Analyzes customer acquisition cost and lifetime value metrics (where data is available) to assess the economics of the customer base
    - Cross-references customer retention against management claims of "long-term sticky relationships" — testing whether retention data supports the assertion
    - Models forward revenue scenarios: applying historical retention rates to the current customer base to generate a probability distribution of future revenue
 
-4. **Customer Counterparty Financial Health Assessment**: COCO assesses the risk of key customers themselves failing:
+4. **Customer Counterparty Financial Health Assessment**: OpenMax assesses the risk of key customers themselves failing:
    - Applies financial distress screening to the target's largest customers — credit ratings, adverse news, financial distress model scores
    - Identifies any key customers who are themselves going through financial difficulty, ownership changes, or industry disruption
    - Assesses the concentration of receivables with financially vulnerable customers — creating both revenue continuation risk and bad debt exposure simultaneously
    - Reviews accounts receivable aging for key customers: is the largest customer also the slowest paying, indicating underlying financial stress?
    - Generates a customer financial health register for the top 20 customers by revenue
 
-5. **Change-of-Control and Relationship Continuity Risk**: COCO analyzes customer sensitivity to the acquisition:
+5. **Change-of-Control and Relationship Continuity Risk**: OpenMax analyzes customer sensitivity to the acquisition:
    - Reviews all major customer contracts for change-of-control provisions: consent rights, renegotiation triggers, and termination options
    - Identifies customers who are competitors of the acquirer — and where acquiring the target would give them grounds to terminate or renegotiate
    - Assesses customer relationship ownership: which customers have executive relationships with the target's key personnel (and therefore face key person risk)?
    - Reviews any non-compete or exclusivity provisions in customer contracts that may conflict with the acquirer's existing business
    - Generates a customer relationship continuity risk profile rating each major customer's likelihood of continuing, renegotiating, or exiting post-close
 
-6. **Customer Concentration Report and Commercial Due Diligence Integration**: COCO delivers structured commercial findings:
+6. **Customer Concentration Report and Commercial Due Diligence Integration**: OpenMax delivers structured commercial findings:
    - Generates a comprehensive customer concentration analysis report with financial metrics, contract analysis, retention modeling, and relationship stability assessment
    - Produces a customer risk register ranking major customers by revenue significance, departure risk, and contract term exposure
    - Creates a revenue probability distribution model showing the range of first-year post-acquisition revenue outcomes based on customer risk assessment
@@ -4332,7 +4332,7 @@ Output: Scenario revenue model + probability-weighted expected revenue + deal va
 
 > Analyzes the target entity's cybersecurity architecture, breach history, regulatory compliance posture, and third-party vendor security risk — identifying material vulnerabilities, data privacy obligations, and cyber liability exposure before deal close.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Undetected Cybersecurity Vulnerabilities Become the Acquirer's Liability the Moment the Deal Closes**
 
@@ -4342,44 +4342,44 @@ The regulatory dimension of cyber due diligence has expanded dramatically. Compa
 
 The technical complexity of cybersecurity assessment is a significant barrier to adequate due diligence. Unlike financial or legal review, which works primarily from documents, genuine cybersecurity assessment requires technical access to network architecture diagrams, vulnerability scan results, penetration testing reports, endpoint detection and response telemetry, and threat intelligence feeds — most of which sellers are understandably reluctant to share with potential acquirers until advanced stages of the process, because the documents themselves are security-sensitive. This creates a structural due diligence challenge: the information most needed for assessment is the information sellers are most reluctant to provide. AI-assisted analysis of available documentation, combined with external threat intelligence and dark web monitoring, can identify material risk signals from the limited information typically provided in data rooms — enabling informed risk assessment without requiring premature technical access that sellers legitimately want to protect.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Cybersecurity Documentation and Policy Assessment**: COCO evaluates the target's documented security posture:
+1. **Cybersecurity Documentation and Policy Assessment**: OpenMax evaluates the target's documented security posture:
    - Reviews all cybersecurity-related documentation in the data room: security policies, incident response plans, vulnerability management procedures, penetration testing reports, and security awareness training records
    - Assesses documentation coverage against NIST Cybersecurity Framework (CSF), ISO 27001, CIS Critical Security Controls, and SOC 2 Type II standards as applicable
    - Evaluates the maturity of the incident response plan: does it cover detection, containment, eradication, recovery, and notification procedures? Has it been tested through tabletop exercises?
    - Reviews penetration testing reports (where provided) for scope, methodology, critical findings, and remediation status of identified vulnerabilities
    - Generates a security program maturity score by domain (governance, risk management, technical controls, incident response, vendor management) with gap identification
 
-2. **Data Privacy and Compliance Posture Review**: COCO assesses regulatory privacy compliance:
+2. **Data Privacy and Compliance Posture Review**: OpenMax assesses regulatory privacy compliance:
    - Identifies all data types processed by the target (personal data, sensitive personal data, protected health information, financial data) and maps them against applicable regulatory regimes
    - Verifies GDPR compliance foundations: lawful basis for processing, data subject rights mechanisms, privacy notices, data processing agreements with vendors, and data protection officer designation
    - Assesses CCPA/CPRA compliance: opt-out mechanisms, consumer rights request procedures, service provider agreements, and annual privacy report obligations
    - Reviews breach response procedures against applicable notification timelines (GDPR 72-hour requirement, state breach notification deadlines)
    - Identifies any prior data privacy regulatory investigations, enforcement actions, or consent decrees that impose ongoing compliance obligations
 
-3. **Known Breach and Incident History Investigation**: COCO surfaces cybersecurity incident history:
+3. **Known Breach and Incident History Investigation**: OpenMax surfaces cybersecurity incident history:
    - Reviews disclosed cybersecurity incident history in the data room: security incident logs, breach notification letters sent to regulators or affected individuals, insurance claims related to cyber incidents
    - Searches public breach disclosure databases (HHS Wall of Shame for healthcare breaches, SEC 8-K filings for material cyber incidents, state AG breach notifications) for any disclosed incidents involving the target
    - Queries dark web monitoring databases and threat intelligence feeds for evidence of the target's data appearing in criminal forums — a potential indicator of an undisclosed breach or active compromise
    - Checks cybercriminal infrastructure databases for any evidence of the target's systems or credentials being listed for sale or having been recently exfiltrated
    - Assesses the completeness of disclosed incident history against independent threat intelligence findings
 
-4. **Third-Party and Supply Chain Cyber Risk Assessment**: COCO evaluates vendor-introduced cyber risk:
+4. **Third-Party and Supply Chain Cyber Risk Assessment**: OpenMax evaluates vendor-introduced cyber risk:
    - Identifies all material technology vendors, SaaS providers, and cloud infrastructure services used by the target from contracts and technical descriptions
    - Assesses vendor security posture: reviews available SOC 2 reports, ISO 27001 certificates, and security questionnaire responses for critical vendors
    - Identifies vendors with known security vulnerabilities or recent breach disclosures — vendors whose compromise could create supply chain attack pathways into the target's environment
    - Reviews data processing agreements with vendors for GDPR/CCPA compliance and security requirements
    - Flags any vendor relationships that create single points of failure for the target's cybersecurity posture
 
-5. **Cyber Insurance Coverage and Claims History Review**: COCO analyzes cyber insurance adequacy:
+5. **Cyber Insurance Coverage and Claims History Review**: OpenMax analyzes cyber insurance adequacy:
    - Reviews the target's cyber insurance policy for coverage scope, limits, deductibles, sublimits, and exclusions relevant to material identified risks
    - Assesses whether coverage limits are adequate relative to the target's data breach notification obligations, data volume, and regulatory exposure
    - Identifies any material exclusions that may leave significant risks uninsured: state-sponsored attack exclusions, war exclusions, retroactive date limitations
    - Reviews prior cyber insurance claims history for evidence of prior incidents not fully disclosed in the data room
    - Recommends post-close insurance enhancements based on identified coverage gaps and post-acquisition risk exposure increase
 
-6. **Cybersecurity Due Diligence Report and Remediation Roadmap**: COCO delivers structured security findings:
+6. **Cybersecurity Due Diligence Report and Remediation Roadmap**: OpenMax delivers structured security findings:
    - Generates a comprehensive cybersecurity due diligence report organized by risk domain with maturity ratings and specific finding descriptions
    - Produces a critical vulnerability register prioritized by severity, exploitability, and potential impact on deal value
    - Drafts a 90-day post-close cybersecurity remediation roadmap with prioritized actions, resource requirements, and expected outcomes
@@ -4507,7 +4507,7 @@ Output: Phased cybersecurity remediation roadmap + total estimated cost by phase
 
 > Audits the target entity's employment practices, workforce classifications, benefits compliance, collective bargaining obligations, and labor law violations across all operating jurisdictions — identifying exposure that affects deal value, post-close operations, and employee transition planning.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Labor Law Non-Compliance Creates Immediate Post-Close Enforcement and Employee Claims Exposure**
 
@@ -4517,44 +4517,44 @@ The collective bargaining dimension adds governance complexity that many acquire
 
 The benefits compliance dimension represents a distinct and substantial liability category. ERISA governs defined benefit pension plans, 401(k) plans, and welfare benefit plans for US employers — and its violation can result in DOL enforcement actions, plan disqualification (causing immediate income tax on all plan assets for participants), and personal liability for plan fiduciaries. Underfunded defined benefit pension plans create obligations that the acquirer must assume: a plan that is $50 million underfunded at acquisition pricing is a $50 million liability that must be funded over a defined period regardless of the acquirer's own financial performance. Multi-employer pension plans create contingent withdrawal liability that can be triggered by the transaction itself — creating a liability for a share of the plan's total underfunding that the target's actuary has likely never fully disclosed.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Worker Classification Compliance Review**: COCO analyzes misclassification risk:
+1. **Worker Classification Compliance Review**: OpenMax analyzes misclassification risk:
    - Extracts the target's independent contractor population from payment records, 1099 data, and contractor agreements
    - Applies the IRS 20-factor test, ABC test (applicable in California and other states), and Department of Labor economic realities test to each significant contractor category
    - Identifies contractors who exhibit characteristics of employees: fixed work schedule, provision of equipment, supervision, and integration into core business operations
    - Calculates estimated payroll tax liability, benefits entitlement exposure, and state law premium pay exposure for identified misclassified workers
    - Reviews any prior IRS, DOL, or state agency investigations or assessments related to worker classification
 
-2. **ERISA Benefits Compliance Audit**: COCO reviews employee benefit plan compliance:
+2. **ERISA Benefits Compliance Audit**: OpenMax reviews employee benefit plan compliance:
    - Reviews qualified plan documentation (plan documents, SPDs, trust agreements) for compliance with current law and IRS/DOL requirements
    - Identifies any plan design features that may be out of compliance with current law (compensation limits, non-discrimination testing, plan document restatement requirements)
    - Reviews 401(k) plan administration for timely remittance of employee contributions, proper loan processing, and required employer contribution funding
    - Assesses defined benefit plan funding status and projected contribution requirements over the next 5 years
    - Identifies any prohibited transactions, fiduciary breaches, or plan violations disclosed in Form 5500 filings
 
-3. **Collective Bargaining Agreement Analysis**: COCO reviews union contracts and labor relations:
+3. **Collective Bargaining Agreement Analysis**: OpenMax reviews union contracts and labor relations:
    - Extracts all active collective bargaining agreements and identifies covered employee populations and business units
    - Analyzes CBA terms affecting integration plans: wage scales, benefits provisions, work rules, layoff procedures, subcontracting restrictions, and successorship language
    - Identifies CBA expiration dates and upcoming renegotiation cycles — flagging negotiations that will occur in the first 12–24 months post-close
    - Reviews any pending grievances, arbitrations, or unfair labor practice charges under existing CBAs
    - Assesses NLRA successorship obligations: whether the acquirer will be bound by the inherited CBA and what its bargaining obligations are post-close
 
-4. **Wage and Hour Compliance Assessment**: COCO identifies wage and hour violations:
+4. **Wage and Hour Compliance Assessment**: OpenMax identifies wage and hour violations:
    - Reviews payroll records for overtime calculation accuracy, minimum wage compliance, and meal/rest break compliance in applicable states
    - Identifies any exempt employee classifications that may be misapplied — particularly in light of recent DOL changes to salary threshold requirements
    - Reviews tip pooling practices, commission calculation accuracy, and piece-rate compliance for relevant business types
    - Identifies any pending or historical wage and hour class actions or collective actions that create ongoing liability
    - Calculates estimated exposure for identified wage and hour violations under applicable state and federal statutes, including back pay, liquidated damages, and attorneys' fees
 
-5. **Employment Agreement and Non-Compete Review**: COCO analyzes workforce contractual landscape:
+5. **Employment Agreement and Non-Compete Review**: OpenMax analyzes workforce contractual landscape:
    - Reviews executive employment agreements for severance obligations, change-of-control payments, and non-compete/non-solicitation provisions
    - Assesses the enforceability of non-compete provisions across the applicable jurisdictions (California, FTC rule implications, state-by-state enforceability variations)
    - Identifies employees without signed employment agreements who perform sensitive roles or hold material intellectual property
    - Reviews offer letters and equity grant agreements for change-of-control acceleration provisions that create transaction-cost obligations
    - Generates a workforce contractual exposure summary — aggregate severance, change-of-control payments, and equity acceleration triggered by the proposed transaction
 
-6. **Workforce Due Diligence Report and Post-Close HR Roadmap**: COCO delivers actionable labor findings:
+6. **Workforce Due Diligence Report and Post-Close HR Roadmap**: OpenMax delivers actionable labor findings:
    - Generates a comprehensive employment and labor compliance report organized by risk category (classification / ERISA / collective bargaining / wage and hour / employment agreements)
    - Produces a quantified exposure register for each identified compliance failure with probability, estimated liability range, and timeline
    - Drafts a post-close HR transition roadmap: benefits harmonization plan, classification remediation program, and CBA management strategy
@@ -4688,7 +4688,7 @@ Output: Employment cost summary table (cost category / employees affected / aggr
 
 > Verifies legal title, encumbrances, zoning compliance, and lease assignment rights for all real property and material tangible assets held by the target — identifying title defects, restriction violations, and landlord consent requirements before deal close.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Real Property Title Defects and Lease Assignment Failures Create Post-Close Operational and Legal Crises**
 
@@ -4698,44 +4698,44 @@ The complexity of real property due diligence is geometric in deals involving mu
 
 The commercial lease landscape creates a distinct layer of complexity in asset purchases and acquisitions of multi-location businesses. Commercial leases frequently contain assignment restrictions that prohibit the tenant from assigning the lease without landlord consent — and many leases define "assignment" broadly enough to include indirect assignments triggered by a change of control of the tenant entity. The consequences of a non-consented assignment vary: some leases make the assignment void, some give the landlord a termination right, some require the assignor to remain liable as a guarantor. In a retail or hospitality acquisition where the entire business model depends on maintaining the current location portfolio, a landlord who exercises their rights to terminate a group of leases — or demands substantial rent increases as the price of consent — can destroy the economics of the deal. Identifying these provisions before signing, and managing the consent solicitation process as part of the pre-close timeline, is a fundamental deal management task.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Real Property Asset Inventory Construction**: COCO builds a complete property register:
+1. **Real Property Asset Inventory Construction**: OpenMax builds a complete property register:
    - Extracts all owned and leased real property from the target's property register, lease schedules, balance sheet, and data room documentation
    - Identifies all properties by legal description, address, county, state, and title holder entity — cross-referencing against corporate registry records to confirm entity alignment
    - Categorizes properties by type (owned fee / ground lease / commercial lease / license / easement) and by operational significance (critical / significant / non-core)
    - Flags any properties where the title holder entity differs from the operating entity — identifying title held in a related party entity not immediately apparent in the corporate structure
    - Generates a complete property register as the foundation for all subsequent property-level due diligence
 
-2. **Title Search and Encumbrance Analysis**: COCO investigates title quality for owned properties:
+2. **Title Search and Encumbrance Analysis**: OpenMax investigates title quality for owned properties:
    - Queries county recorder databases and title plant records for all owned properties to retrieve the full chain of title, recorded mortgages, liens, easements, and restrictions
    - Identifies any gaps or breaks in the chain of title that may create title defect issues requiring curative action
    - Reviews recorded easements for scope and impact: utility easements, access easements, conservation easements, and road right-of-way
    - Identifies restrictive covenants in deeds or CC&Rs that may restrict the use, development, or disposition of the property
    - Generates a per-property title risk assessment with specific defects identified and curative action recommendations
 
-3. **Commercial Lease Assignment and Change-of-Control Analysis**: COCO analyzes lease transfer requirements:
+3. **Commercial Lease Assignment and Change-of-Control Analysis**: OpenMax analyzes lease transfer requirements:
    - Reviews all material leases for assignment restriction provisions: defines "assignment," specifies consent procedure, and describes landlord's rights on non-consented assignment
    - Identifies leases with change-of-control definitions that capture indirect transfers through corporate ownership changes
    - Classifies each lease by consent requirement: freely assignable / notice required / consent required / consent not to be unreasonably withheld / absolute consent required
    - Prioritizes consent requirements by property operational significance and landlord market leverage
    - Generates a lease assignment consent matrix as input to the pre-close consent management process
 
-4. **Zoning and Land Use Compliance Verification**: COCO verifies that properties comply with applicable zoning:
+4. **Zoning and Land Use Compliance Verification**: OpenMax verifies that properties comply with applicable zoning:
    - Identifies the current zoning designation for each material property from county assessor, planning department, and zoning map databases
    - Verifies that the current use of each property is a permitted use in its zoning designation — or a lawful non-conforming use
    - Flags any recently issued zoning amendments or pending re-zoning applications that may affect the property's current use
    - Identifies properties requiring special use permits or conditional use permits — and confirms those permits are current and transferable
    - Reviews any building code violations, open permits, or certificate of occupancy issues that may restrict current operations or require remediation
 
-5. **Key Lease Term Review and Risk Assessment**: COCO extracts and analyzes critical commercial lease provisions:
+5. **Key Lease Term Review and Risk Assessment**: OpenMax extracts and analyzes critical commercial lease provisions:
    - Extracts key economic terms: rent and rent escalation, free rent periods, operating expense pass-throughs, CAM cap provisions
    - Identifies lease expiration dates, renewal options (exercised or unexercised), and holdover provisions
    - Reviews tenant default provisions and cure periods — assessing current compliance and any pending default risk
    - Identifies any lease provisions affected by the target's financial condition: cross-default provisions, financial covenant requirements, and letter of credit or deposit obligations
    - Summarizes aggregate lease obligation profile: total minimum lease payments by year, upcoming lease expirations, and unexercised renewal options that represent value if timely exercised
 
-6. **Real Property Due Diligence Report and Closing Requirements**: COCO delivers structured property findings:
+6. **Real Property Due Diligence Report and Closing Requirements**: OpenMax delivers structured property findings:
    - Generates a portfolio-level real property report with owned property title analysis, leased property consent matrix, zoning compliance summary, and key lease terms
    - Produces a pre-close action matrix: title curative items, landlord consent solicitations, zoning compliance corrections, and survey updates required before closing
    - Creates a post-close property management transition plan: lease assignment filings, title insurance policy updates, and landlord notification obligations
@@ -4866,7 +4866,7 @@ Output: Lease portfolio key terms table + portfolio risk summary + renewal prior
 
 > Evaluates integration risks before deal close — analyzing cultural compatibility, systems architecture complexity, organizational structure conflicts, and regulatory integration timeline — producing a pre-close integration risk register and Day-1 readiness assessment.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Integration Failures Drive More Value Destruction Than Due Diligence Failures**
 
@@ -4876,44 +4876,44 @@ Integration risk is not a single risk category but an aggregate of overlapping c
 
 The financial cost of integration failure is quantifiable and substantial. Failed ERP integrations in major M&A transactions have cost hundreds of millions of dollars and taken years longer than planned. Cultural clashes that result in mass departures of the acquired company's top performers can destroy the very asset that drove the deal's investment thesis. Regulatory consents that require employee-by-employee re-badging in each jurisdiction, or that impose employment law constraints on how the workforce can be restructured, can delay cost synergy realization by 12–24 months. Organizations that invest adequately in pre-close integration planning — identifying these risks before close, preparing the remediation approaches, and ensuring Day-1 readiness for the most critical operational transitions — consistently outperform those that begin integration planning at Day 1.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Organizational Structure Compatibility Analysis**: COCO maps integration complexity in human structure:
+1. **Organizational Structure Compatibility Analysis**: OpenMax maps integration complexity in human structure:
    - Compares acquirer and target organizational charts across functions — identifying duplicate roles, span-of-control mismatches, and reporting line conflicts
    - Maps the decision-making authority levels across both organizations for key functions (finance, legal, HR, operations) — identifying cultural authority-level disparities
    - Identifies key integration leadership decisions: which functions will be led by acquirer vs. target personnel post-close, and what is the impact of those decisions on retention risk
    - Reviews both organizations' stated values and culture assessments (employee engagement surveys, Glassdoor profiles) for compatibility indicators
    - Generates an organizational integration complexity score — a measure of the structural distance between the two organizations that predicts integration timeline and conflict risk
 
-2. **Technology Systems Architecture Analysis**: COCO maps system integration requirements:
+2. **Technology Systems Architecture Analysis**: OpenMax maps system integration requirements:
    - Inventories the target's material IT systems: ERP, CRM, HRIS, financial consolidation, supply chain management, and industry-specific applications
    - Compares the target's systems landscape against the acquirer's existing systems environment — identifying overlaps, gaps, and incompatibilities
    - Assesses the data migration complexity for each system: structured data migration vs. legacy system decommissioning vs. parallel operation requirement
    - Identifies systems with third-party dependencies (SaaS agreements, data center contracts, software licenses) whose assignment requires vendor consent
    - Generates a technology integration risk map rating each system by integration complexity and operational criticality
 
-3. **Day-1 Readiness Assessment**: COCO identifies the minimum requirements for operational continuity at close:
+3. **Day-1 Readiness Assessment**: OpenMax identifies the minimum requirements for operational continuity at close:
    - Identifies all systems and processes that must be operational from Day 1 — financial reporting, payroll processing, customer order management, compliance monitoring
    - Reviews transition service agreement (TSA) requirements: which services does the acquirer need to receive from the seller post-close while integration is underway?
    - Identifies any regulatory or contractual deadlines that apply immediately at close: employee re-badging requirements, license assignments, change-of-control notifications to customers and vendors
    - Assesses the acquirer's readiness to absorb the target: does the acquirer's own systems, finance, HR, and IT infrastructure have the capacity to onboard the acquired business from Day 1?
    - Generates a Day-1 operational readiness checklist with critical path items requiring pre-close completion
 
-4. **Regulatory and Compliance Integration Timeline**: COCO maps post-close regulatory requirements:
+4. **Regulatory and Compliance Integration Timeline**: OpenMax maps post-close regulatory requirements:
    - Identifies all regulatory consents that remain outstanding at close — their completion timelines and operational restrictions during the interim period
    - Maps data transfer and privacy compliance requirements for integrating HR, customer, and operational data systems across jurisdictional boundaries
    - Identifies employment law requirements in each jurisdiction for the workforce integration: TUPE protections in the EU/UK, consultation obligations, works council rights in Continental Europe
    - Reviews any regulatory-imposed separation or firewalls between the target and acquirer businesses during the regulatory review period
    - Generates a compliance integration calendar with all regulatory deadlines affecting the integration timeline
 
-5. **Cost and Revenue Synergy Risk Assessment**: COCO evaluates synergy achievability:
+5. **Cost and Revenue Synergy Risk Assessment**: OpenMax evaluates synergy achievability:
    - Reviews the acquirer's stated synergy assumptions against the organizational, technology, and contractual findings from due diligence — identifying where synergies are at risk
    - Models the timeline to synergy realization for each synergy category, incorporating identified integration risk factors (CBA constraints, system integration timelines, key person retention)
    - Identifies one-time integration costs not fully reflected in the deal model: IT system integration, employee transition costs, facility consolidation, brand transition
    - Flags synergies dependent on contract modifications (customer re-pricing, supplier renegotiation) that may not be achievable within the assumed timeline
    - Generates an adjusted synergy model showing probability-weighted achievable synergies with realistic timing
 
-6. **Integration Risk Register and Planning Report**: COCO delivers pre-close integration planning outputs:
+6. **Integration Risk Register and Planning Report**: OpenMax delivers pre-close integration planning outputs:
    - Generates a comprehensive integration risk register with 50+ identified risks, rated by probability and impact, across organizational, technology, regulatory, commercial, and cultural dimensions
    - Produces a 100-day integration plan framework with key workstreams, milestones, and dependencies pre-populated from due diligence findings
    - Creates an integration governance recommendation: integration management office structure, decision-making authority, and escalation protocol
@@ -5050,7 +5050,7 @@ Output: 100-day integration plan with milestones, owners, and dependencies + cri
 
 > Transform insurance due diligence from a clerical exercise into a strategic risk transfer assessment that surfaces hidden liabilities before they become your problem.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Insurance Due Diligence Is Chronically Underdone and Dangerously Incomplete**
 
@@ -5060,44 +5060,44 @@ The problem compounds dramatically when claims history is fragmented across mult
 
 Analysts processing this material typically spend four to six hours per target manually requesting certificates, contacting brokers, and building comparison spreadsheets — only to produce a coverage summary that a seasoned insurance professional would consider superficial. The real work — identifying whether D&O limits are sufficient given the litigation environment, whether cyber coverage aligns with the target's actual data footprint, whether the general liability tower has adequate umbrella layers — requires domain expertise and comparative benchmarking that a standard financial analyst cannot provide. The cost of getting this wrong is existential: a single uninsured major claim post-close can exceed the deal premium paid.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Policy Inventory Extraction & Normalization**: COCO ingests raw insurance policy documents, binders, endorsements, and certificates and structures them into a standardized coverage matrix:
+1. **Policy Inventory Extraction & Normalization**: OpenMax ingests raw insurance policy documents, binders, endorsements, and certificates and structures them into a standardized coverage matrix:
    - Extracts carrier, policy number, effective dates, limits, deductibles, and retention levels from unstructured policy language
    - Identifies all endorsements and maps which base policy provisions they modify or exclude
    - Flags sublimits buried in policy schedules (e.g., $500K sublimit for mold within a $10M property policy)
    - Categorizes policies by line of business: GL, D&O, E&O, cyber, property, workers' comp, EPLI, crime, marine, aviation
    - Builds a consolidated coverage tower visualization showing primary, excess, and umbrella layer relationships
 
-2. **Exposure-to-Coverage Gap Analysis**: COCO benchmarks current coverage limits against the target's actual operational risk profile:
+2. **Exposure-to-Coverage Gap Analysis**: OpenMax benchmarks current coverage limits against the target's actual operational risk profile:
    - Quantifies property insured values against replacement cost estimates using RSMeans or equivalent construction cost databases
    - Compares D&O limits against peer-company benchmarks for companies of similar revenue, headcount, and regulatory complexity
    - Assesses cyber policy limits against the target's data inventory — records count, PII volume, payment card data — using CISO-standard exposure modeling
    - Evaluates product liability limits against historical claim severity in the target's industry vertical using ISO loss statistics
    - Maps workers' compensation experience modifier (X-MOD) trends and identifies state-specific compliance gaps
 
-3. **Claims History Deep Dive & Pattern Recognition**: COCO analyzes multi-year loss runs to identify patterns that underwriters use to price risk:
+3. **Claims History Deep Dive & Pattern Recognition**: OpenMax analyzes multi-year loss runs to identify patterns that underwriters use to price risk:
    - Aggregates loss runs from all carriers and brokers, normalizing claim descriptions and categorization across different reporting formats
    - Computes frequency and severity trends by line of business and identifies deteriorating loss ratios
    - Flags large open reserves that may not have been disclosed in financial statements and quantifies IBNR (incurred but not reported) exposure
    - Identifies claims involving regulatory agencies, environmental incidents, or employment practices that signal systemic risk
    - Detects prior coverage denials and reservation-of-rights letters that indicate disputed coverage positions with carriers
 
-4. **Tail & Runoff Exposure Identification**: COCO maps legacy liabilities that survive policy cancellation:
+4. **Tail & Runoff Exposure Identification**: OpenMax maps legacy liabilities that survive policy cancellation:
    - Traces occurrence-basis policies from prior years that remain open to claims arising from incidents during the policy period
    - Identifies discontinued products still within their statute of limitations for product liability claims in all states of distribution
    - Evaluates adequacy of extended reporting period (ERP/tail) endorsements for claims-made policies (D&O, E&O, cyber) at change of control
    - Flags environmental site histories that may trigger legacy general liability coverage and assesses applicable pollution exclusions
    - Reviews indemnification obligations under prior acquisition or divestiture agreements that backstop insurance coverage
 
-5. **Captive & Alternative Risk Structure Assessment**: COCO evaluates non-standard risk financing arrangements:
+5. **Captive & Alternative Risk Structure Assessment**: OpenMax evaluates non-standard risk financing arrangements:
    - Analyzes captive insurance subsidiary financials — loss reserves, investment portfolio, reinsurance arrangements, and surplus adequacy
    - Reviews self-insured retention programs and large deductible policies for adequacy of collateral posted (letters of credit, surety bonds)
    - Evaluates group captive participation agreements for exit provisions, assessments, and ongoing obligations post-acquisition
    - Assesses retrospective premium programs and understands downside exposure if loss development exceeds base premium
    - Identifies fronting arrangements and verifies that the fronting carrier's credit quality meets buyer's standards
 
-6. **Actionable Recommendations & Representations & Warranties Insurance Coordination**: COCO translates findings into deal-specific recommendations:
+6. **Actionable Recommendations & Representations & Warranties Insurance Coordination**: OpenMax translates findings into deal-specific recommendations:
    - Prioritizes coverage gaps by financial materiality and likelihood of claim realization within 24 months post-close
    - Generates specific escrow, indemnification, or price adjustment recommendations to address uninsured exposure
    - Produces a coverage enhancement checklist — policies to be canceled, replaced, supplemented, or renegotiated at close
@@ -5110,7 +5110,7 @@ Analysts processing this material typically spend four to six hours per target m
 
 **Measurable Results**
 
-- **Coverage Gap Identification Rate**: Manual review detects 12% of material coverage gaps; COCO-assisted review achieves 87% detection rate, preventing an average of $3.2M in uninsured post-close exposure per transaction
+- **Coverage Gap Identification Rate**: Manual review detects 12% of material coverage gaps; OpenMax-assisted review achieves 87% detection rate, preventing an average of $3.2M in uninsured post-close exposure per transaction
 - **Review Cycle Time**: Insurance diligence timeline reduced from 5–7 business days to 18–24 hours, enabling parallel workstreams in compressed deal timelines
 - **Claims Pattern Analysis**: Multi-year loss run analysis that previously required a specialist actuary (3–5 days, $15,000–$25,000 fee) completed in under 2 hours with comparable analytical depth
 - **Tail Exposure Quantification**: Legacy runoff exposure identification improved from 34% detection rate to 91%, reducing unexpected post-close claims by an estimated 58%
@@ -5120,7 +5120,7 @@ Analysts processing this material typically spend four to six hours per target m
 
 - **M&A Due Diligence Analysts**: Gain insurance-specialist-level analytical capability without requiring actuarial credentials, enabling comprehensive coverage review without engaging costly external advisors on every deal.
 - **Deal Partners and Transaction Counsel**: Receive insurance gap summaries formatted for direct integration into deal memos and SPA indemnification schedules, enabling faster negotiation of insurance-related reps and warranties.
-- **Chief Risk Officers and Insurance Managers**: Use COCO's post-acquisition coverage enhancement plan to execute broker transitions, policy replacements, and limits adjustments within the Day 1 integration window.
+- **Chief Risk Officers and Insurance Managers**: Use OpenMax's post-acquisition coverage enhancement plan to execute broker transitions, policy replacements, and limits adjustments within the Day 1 integration window.
 - **CFOs and Finance Teams**: Obtain quantified insurance liability exposure that feeds directly into purchase price adjustment models, escrow sizing decisions, and financial statement reserve assessments.
 
 :::
@@ -5252,7 +5252,7 @@ Output: Representation-by-representation assessment table + list of R&W carve-ou
 
 > Go beyond LinkedIn profiles and reference calls — systematically verify what management actually delivered versus what they claim to have built.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Management Due Diligence Relies on Self-Reported Credentials That Are Rarely Verified**
 
@@ -5262,44 +5262,44 @@ The consequences of management misrepresentation in M&A are severe and well-docu
 
 The verification problem is fundamentally a data aggregation challenge. A CEO's actual track record is distributed across SEC filings, court records, state corporate databases, former employer press releases, Glassdoor reviews from direct reports, patent filings, bankruptcy court documents, and hundreds of other public sources. No single analyst can efficiently search all of these sources, cross-reference the findings, and surface contradictions against the executive's claimed narrative within a compressed deal timeline. Diligence teams typically rely on a single third-party background check provider that returns a standardized report — adequate for employment screening, wholly inadequate for evaluating whether an executive actually built the $200M revenue business they credit to themselves.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Credential and Employment History Verification**: COCO cross-references stated credentials against authoritative public sources:
+1. **Credential and Employment History Verification**: OpenMax cross-references stated credentials against authoritative public sources:
    - Verifies academic degrees via National Student Clearinghouse data patterns and university public records, flagging diploma mill institutions using accreditation databases
    - Cross-references claimed employment dates and titles against SEC EDGAR filings (proxy statements, 10-Ks listing named executive officers with compensation), Bloomberg executive profiles, and corporate press release archives
    - Identifies gaps between stated employment periods and verifiable public record of employment — particularly gaps that overlap with known regulatory investigations or company distress periods
    - Searches state bar databases, CPA license registries, medical board records, FINRA BrokerCheck, and professional certification bodies for license status and disciplinary history
    - Reviews LinkedIn profile history using archived versions to detect retroactive credential inflation
 
-2. **Actual Performance Attribution Analysis**: COCO separates management contribution from market and macro factors:
+2. **Actual Performance Attribution Analysis**: OpenMax separates management contribution from market and macro factors:
    - Pulls SEC filings and public financial data for any company the executive led during their tenure and computes revenue growth, EBITDA margin trajectory, and return on capital during their specific tenure period
    - Benchmarks their company's performance against sector peers during the same period to distinguish manager alpha from favorable industry tailwinds
    - Identifies whether growth occurred before, during, or after the executive's arrival — distinguishing inheritors of momentum from actual builders
    - Reviews press releases and investor day transcripts during their tenure to understand what strategic initiatives they championed and whether those initiatives succeeded
    - Maps capital raises, acquisitions, and divestitures the executive led and assesses transaction outcomes using post-close public data
 
-3. **Regulatory, Enforcement, and Litigation History**: COCO conducts systematic legal history searches:
+3. **Regulatory, Enforcement, and Litigation History**: OpenMax conducts systematic legal history searches:
    - Searches SEC EDGAR for enforcement actions, administrative proceedings, and bars named by the executive (not just their companies)
    - Reviews PACER federal court filings and state court databases for civil litigation naming the executive personally as defendant — particularly fraud, breach of fiduciary duty, and employment-related claims
    - Searches FINRA BrokerCheck, CFTC enforcement database, FinCEN SAR-related public actions, and OCC enforcement history
    - Reviews state AG enforcement databases across all states where the executive has resided or operated businesses
    - Identifies bankruptcy filings by the executive personally and by companies during their leadership tenure
 
-4. **Reference Intelligence: Beyond the Provided List**: COCO expands reference sourcing beyond executive-selected contacts:
+4. **Reference Intelligence: Beyond the Provided List**: OpenMax expands reference sourcing beyond executive-selected contacts:
    - Identifies former colleagues, board members, direct reports, and major customers from LinkedIn network analysis, company alumni communities, and press release archives
    - Generates structured reference interview guides calibrated to the specific claims the executive has made about their role and contributions
    - Provides sentiment analysis frameworks for detecting coached or evasive reference responses
    - Cross-references reference providers to assess potential conflicts of interest (co-investors, friends, family members)
    - Designs back-channel reference outreach strategy for industry contacts who are likely to provide candid assessments
 
-5. **Compensation History and Equity Ownership Analysis**: COCO assesses financial credibility:
+5. **Compensation History and Equity Ownership Analysis**: OpenMax assesses financial credibility:
    - Reviews SEC proxy statement disclosures of named executive compensation at any public company they've led or been a named officer of
    - Analyzes equity ownership patterns — percentage held at exit vs. claimed, dilution events, secondary sales before company distress
    - Identifies whether the executive has historically aligned with investor interests (held equity through downturns) or extracted value ahead of investor liquidity
    - Reviews any disclosed clawback provisions that were triggered and publicly disclosed
    - Searches for patterns of executive compensation at companies that subsequently underperformed or failed
 
-6. **Culture and Leadership Style Intelligence**: COCO synthesizes qualitative signals into structured assessments:
+6. **Culture and Leadership Style Intelligence**: OpenMax synthesizes qualitative signals into structured assessments:
    - Analyzes Glassdoor, Blind, and Indeed reviews from verified former employees during the executive's tenure, identifying recurring themes in leadership style criticisms
    - Reviews court records from employment-related litigation (EEOC charges, wrongful termination suits, non-compete disputes) that reflect management culture
    - Analyzes tone and content of the executive's public communications — earnings calls, conference presentations, interviews — for consistency with stated values and management philosophy
@@ -5312,7 +5312,7 @@ The verification problem is fundamentally a data aggregation challenge. A CEO's 
 
 **Measurable Results**
 
-- **Credential Verification Coverage**: COCO covers 23 distinct credential and employment verification data sources vs. 3–4 for standard background check providers, increasing material misrepresentation detection rate from 18% to 74%
+- **Credential Verification Coverage**: OpenMax covers 23 distinct credential and employment verification data sources vs. 3–4 for standard background check providers, increasing material misrepresentation detection rate from 18% to 74%
 - **Performance Attribution Accuracy**: Analyst time to build verifiable performance track record reduced from 12–16 hours per executive to 2–3 hours, while data source coverage increases by 6x
 - **Reference Network Expansion**: Average independent reference contacts identified (beyond executive-provided list) increases from 0 to 8–12 per executive, with back-channel contact rate of 60–70%
 - **Legal History Completeness**: Litigation and regulatory history search covering 14 jurisdictions completed in 4 hours vs. 3–5 days for manual multi-jurisdictional searches
@@ -5321,7 +5321,7 @@ The verification problem is fundamentally a data aggregation challenge. A CEO's 
 **Who Benefits**
 
 - **Private Equity Deal Teams**: Gain structured, evidence-based management assessment frameworks that replace anecdotal impression-based evaluation, reducing post-acquisition leadership failures that cost an average of $14M per incident in value destruction.
-- **Board Members and Nomination Committees**: Use COCO's verification output to fulfill fiduciary obligations in executive hiring and acquisition approval, with documented evidence supporting governance decisions.
+- **Board Members and Nomination Committees**: Use OpenMax's verification output to fulfill fiduciary obligations in executive hiring and acquisition approval, with documented evidence supporting governance decisions.
 - **M&A Legal Counsel**: Obtain verified factual record of management representations that directly supports SPA reps and warranties review and informs indemnification scope for management-related claims.
 - **Operating Partners and Portfolio Company CEOs**: Use management benchmarking to evaluate incoming leadership against high-performance peer profiles, informing retention decisions and succession planning immediately post-acquisition.
 
@@ -5471,7 +5471,7 @@ Output: Culture risk assessment (High/Medium/Low with rationale) + top 5 culture
 
 > Vet your joint venture partner with the rigor of a merger — because a bad JV partner can cost you market access, IP, and reputation without the protections of full ownership.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: JV Partner Diligence Is Treated as a Formality Rather Than a Risk Management Process**
 
@@ -5481,44 +5481,44 @@ The financial consequences of inadequate JV partner vetting are well-documented.
 
 Due diligence teams conducting JV partner assessments typically rely on the same playbook as domestic M&A: financial statement review, standard background checks, and management interviews. This approach is wholly inadequate for evaluating partner integrity, operational complementarity, and governance compatibility in a shared-control structure. The specific risks of JV arrangements — deadlock provisions, intellectual property protection, technology transfer obligations, exit mechanics, and partner conflict resolution — require a dedicated due diligence framework that most deal teams never apply.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Partner Ownership Structure and Beneficial Ownership Mapping**: COCO unravels complex partner corporate structures:
+1. **Partner Ownership Structure and Beneficial Ownership Mapping**: OpenMax unravels complex partner corporate structures:
    - Maps full entity ownership chain to ultimate beneficial owners using Orbis, OpenCorporates, and jurisdiction-specific corporate registries (SAMR in China, MCA in India, Companies House in UK)
    - Identifies state-owned enterprise connections, government agency ownership stakes, and sovereign wealth fund participation that create regulatory notification obligations under CFIUS, FOCI, or EU FDI screening
    - Detects nominee directors and nominee shareholders through registry pattern analysis and cross-reference with known nominee service providers
    - Maps any cross-ownership between the proposed JV partner and the target's existing competitors, suppliers, or customers — identifying undisclosed conflicts of interest
    - Identifies prior JV relationships of the partner with other international companies and researches publicly available outcomes of those partnerships
 
-2. **Anti-Corruption and FCPA/UKBA Compliance Assessment**: COCO conducts structured anti-bribery due diligence:
+2. **Anti-Corruption and FCPA/UKBA Compliance Assessment**: OpenMax conducts structured anti-bribery due diligence:
    - Reviews partner's government relationships using PEP screening, sanctions list checks (OFAC SDN, EU Consolidated List, UN Sanctions, HM Treasury), and government contracting databases
    - Analyzes partner's customer concentration in government sectors and assesses whether revenue patterns suggest improper payments through margin analysis (unusually high government contract margins vs. private sector)
    - Reviews partner's third-party distributor and agent network for payment pattern red flags — particularly high-commission agents in markets with elevated Transparency International CPI scores
    - Assesses partner's documented anti-corruption compliance program against FCPA/UKBA adequate procedures standards: written policies, training records, third-party due diligence procedures, whistleblower channels
    - Identifies any prior FCPA resolutions, UK SFO investigations, or foreign bribery prosecutions involving the partner or its affiliates using DOJ/SEC enforcement databases
 
-3. **Operational Capability and Complementarity Verification**: COCO validates whether the partner can actually deliver its stated JV contributions:
+3. **Operational Capability and Complementarity Verification**: OpenMax validates whether the partner can actually deliver its stated JV contributions:
    - Verifies claimed production capacity, facility ownership, and equipment through local regulatory filings, environmental permits, and satellite imagery analysis for manufacturing-intensive JVs
    - Assesses distribution network reach claims against independently verifiable market presence data — logistics permits, retail outlet contracts, customs import/export records
    - Reviews patent and technology ownership claimed as JV contribution — verifies patents are currently in force, not licensed from third parties, and not subject to encumbrances
    - Evaluates financial capacity to fund committed JV contributions using audited financial statements and independent credit assessments
    - Benchmarks partner's claimed market share and customer relationships against independent market research and interviews with industry contacts
 
-4. **Governance Compatibility and Deadlock Risk Assessment**: COCO evaluates structural fit for shared governance:
+4. **Governance Compatibility and Deadlock Risk Assessment**: OpenMax evaluates structural fit for shared governance:
    - Analyzes partner's historical JV governance patterns from prior partnership agreements (where publicly available) and case law from prior partnership disputes
    - Identifies decision-making culture misalignment through management interview structure: consensus-based vs. hierarchical, speed of decision authority, risk tolerance in operational decisions
    - Reviews any prior shareholder disputes, board deadlocks, or minority oppression claims involving the partner entity or its principals using court record searches
    - Assesses exit mechanics compatibility — does the partner's expected hold period, liquidity needs, and return expectations align with the proposed JV term structure?
    - Reviews applicable JV governance laws in the target jurisdiction (e.g., China Sino-foreign JV regulations, Gulf state ownership requirements, India JV shareholder agreement enforcement)
 
-5. **IP Protection and Technology Transfer Risk Assessment**: COCO maps intellectual property exposure in JV structures:
+5. **IP Protection and Technology Transfer Risk Assessment**: OpenMax maps intellectual property exposure in JV structures:
    - Identifies IP contributed to the JV by each party and assesses whether contribution agreements adequately segregate contributed IP from retained IP
    - Reviews Chinese Technology Import and Export Regulations (TIER), Indian FDI technology transfer conditions, and jurisdiction-specific IP transfer approval requirements
    - Assesses enforceability of IP confidentiality and non-compete provisions under the governing law of the JV jurisdiction — many emerging market courts provide weak IP enforcement
    - Reviews partner's history of IP-related disputes, trade secret claims, and patent infringement actions to assess IP discipline culture
    - Identifies whether the partner has pre-existing technology licensing agreements with parties that could claim rights over IP jointly developed in the JV
 
-6. **Exit and Dispute Resolution Pre-Assessment**: COCO evaluates the unwinding scenario before the deal closes:
+6. **Exit and Dispute Resolution Pre-Assessment**: OpenMax evaluates the unwinding scenario before the deal closes:
    - Reviews proposed put/call option mechanics, ROFR provisions, and drag/tag rights for asymmetric exposure — particularly important where valuations will be determined by a third-party appraiser
    - Assesses dispute resolution clause effectiveness in the proposed JV jurisdiction — arbitration seat selection, enforceability of foreign arbitral awards (New York Convention membership), interim relief availability
    - Identifies local law restrictions on capital repatriation that could prevent effective JV exit (foreign exchange controls, thin capitalization rules, withholding tax on deemed distributions)
@@ -5531,7 +5531,7 @@ Due diligence teams conducting JV partner assessments typically rely on the same
 
 **Measurable Results**
 
-- **Partner Red Flag Detection**: Structured COCO-assisted JV partner assessment detects material integrity or capability issues in 63% of cases before commitment vs. 22% detected through standard reference-based vetting
+- **Partner Red Flag Detection**: Structured OpenMax-assisted JV partner assessment detects material integrity or capability issues in 63% of cases before commitment vs. 22% detected through standard reference-based vetting
 - **FCPA/Anti-Corruption Screening Coverage**: Expands screening from 3 standard watchlists to 47 global sanctions, enforcement, and PEP databases, reducing post-formation FCPA enforcement exposure by an estimated 71%
 - **Beneficial Ownership Mapping Time**: Complete ownership chain mapping to UBO level completed in 4–6 hours vs. 5–10 business days for manual multi-registry searches
 - **IP Risk Identification**: JV IP exposure analysis coverage increased from a review of proposed contract terms only to a full IP registry cross-reference across USPTO, CNIPA, EPO, and WIPO databases
@@ -5667,7 +5667,7 @@ Output: Scenario-by-scenario risk assessment + contract gap matrix + recommended
 
 > Protect your acquisition from inherited federal exclusions — a single debarment finding post-close can disqualify your entire entity from all government contracting.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Government Contracting History Is a Specialized Diligence Domain That Generic Due Diligence Frameworks Ignore**
 
@@ -5677,44 +5677,44 @@ The contracting history risk extends beyond active debarments. A company in a go
 
 The structural complexity of government contracting creates additional layers of risk that require specialized expertise. Federal contract assignability requires agency consent — most standard commercial contract assignment provisions do not survive federal procurement law. Task orders under Indefinite Delivery/Indefinite Quantity (IDIQ) contracts may not transfer with the base contract. Small business set-aside contracts are immediately void if the acquiring entity is not itself a qualifying small business. State and local government contracts carry different assignability rules and exclusion databases that are not captured in the federal SAM.gov system. International government contracts — NATO, UN, World Bank, regional development bank — have independent debarment registries that no single database covers.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Multi-Database Exclusion and Debarment Screening**: COCO conducts comprehensive exclusion searches across all relevant registries:
+1. **Multi-Database Exclusion and Debarment Screening**: OpenMax conducts comprehensive exclusion searches across all relevant registries:
    - Screens all target entities (current and historical names, DBAs, acquired entities) against SAM.gov/FAPIIS for active exclusions, proposed debarments, administrative agreements, and integrity records
    - Searches state-level exclusion databases for all states where target operates: New York OGS exclusion list, California Department of General Services, Texas Comptroller debarment list, and 30+ additional state procurement exclusion registries
    - Reviews World Bank Sanctions List, Inter-American Development Bank debarment list, Asian Development Bank sanctions list, and European Bank for Reconstruction and Development debarment registry for international contracting exposure
    - Screens target principals (officers, directors, key personnel) individually against FAR 9.4-related exclusion records — individual exclusions affiliate to the acquiring entity under FAR 9.406-1(c)
    - Reviews EPLS historical data and FAPIIS contractor performance records for documented past performance issues — terminations for default, significant quality deficiency findings, and cure notices
 
-2. **Contract Portfolio Assignability Analysis**: COCO evaluates the transferability of the government contract revenue base:
+2. **Contract Portfolio Assignability Analysis**: OpenMax evaluates the transferability of the government contract revenue base:
    - Reviews each federal prime contract against applicable FAR/DFARS provisions governing novation (FAR 42.12) — identifies contracts requiring agency consent and maps the novation approval timeline for each cognizant contracting officer
    - Identifies IDIQ contracts and assesses whether existing task orders survive a novation — distinguishes between novation of the base contract (permitted) and automatic assignment of task orders (requires separate agency determination)
    - Flags small business set-aside contracts that will be immediately void upon acquisition by a non-qualifying large business acquirer — quantifies the revenue at risk and identifies required agency notifications under FAR 19.301-2
    - Reviews subcontract flow-down provisions in prime contracts that may require government consent to sub-tier assignment or impose performance obligations on successor entities
    - Assesses classified contract access implications — security clearances require cognizant security agency notification and cannot be assumed by the acquirer entity without separate facility clearance action
 
-3. **Inspector General and Audit History Review**: COCO surfaces regulatory performance scrutiny:
+3. **Inspector General and Audit History Review**: OpenMax surfaces regulatory performance scrutiny:
    - Searches DOD Inspector General, HHS OIG, GSA OIG, and agency-specific IG published reports for any audit findings, referrals for suspension/debarment, or fraud investigation disclosures involving the target
    - Reviews DCAA (Defense Contract Audit Agency) audit history — identifies open findings, questioned costs, unresolved indirect rate audits, and cost accounting standard non-compliance findings that create post-close liability
    - Searches Congressional hearing transcripts and Government Accountability Office reports for named contractor criticism or program failure attributions
    - Reviews False Claims Act (31 USC §3729) qui tam suit history using federal court PACER searches — qui tam suits involving government contractors can remain under seal for 1–3 years, creating hidden FCA exposure
    - Identifies any active debarment referrals from contracting officers documented in FAPIIS Contractor Performance Assessment Reports (CPARs)
 
-4. **Procurement Fraud and Compliance History Assessment**: COCO evaluates systemic compliance risk:
+4. **Procurement Fraud and Compliance History Assessment**: OpenMax evaluates systemic compliance risk:
    - Reviews DOJ Civil and Criminal Division press releases and federal court records for government procurement fraud cases: bid rigging, false claims, defective pricing, product substitution, and labor mischarging
    - Searches SEC enforcement actions for revenue recognition issues on percentage-of-completion government contracts — often a precursor to False Claims Act liability
    - Assesses target's compliance with cost accounting standards (CAS 9903), Truth in Negotiations Act (TINA) certified cost or pricing data obligations, and FAR 52.215-2 audit access clause compliance
    - Reviews government cost-type contract billing practices for labor mischarging indicators: time-card review procedures, indirect rate control mechanisms, and allowable cost policy compliance
    - Identifies any voluntary disclosure to agency IGs or DOJ under the DOJ's procurement fraud voluntary self-disclosure program that indicates management awareness of compliance failures
 
-5. **International Government Contracting and Export Control Integration**: COCO maps cross-border government contracting risk:
+5. **International Government Contracting and Export Control Integration**: OpenMax maps cross-border government contracting risk:
    - Reviews export license requirements for all government contracts involving defense articles, dual-use technology, or controlled software under EAR/ITAR — identifies contracts that cannot be novated without new export authorization
    - Assesses Foreign Military Sales (FMS) and Direct Commercial Sale (DCS) contract portfolios for country-specific restrictions that survive acquisition
    - Reviews ITAR registration status for manufacturer/exporter entities and assesses registration continuity requirements post-acquisition (ITAR §122.4 change of ownership disclosure requirement within 5 days)
    - Identifies contracts with foreign government end-users that trigger OFAC, EAR, and State Department licensing obligations on the acquirer
    - Reviews NATO support contracts and UN procurement contracts for contractor integrity requirements that apply to the acquiring entity
 
-6. **Post-Acquisition Compliance Remediation Roadmap**: COCO structures the path to full compliance:
+6. **Post-Acquisition Compliance Remediation Roadmap**: OpenMax structures the path to full compliance:
    - Prioritizes pre-close agency notifications required by law: ITAR change of ownership (5 days), SBA change of ownership for 8(a) participants (immediate), security clearance DSS notification (30 days)
    - Maps each identified compliance gap to the specific FAR/DFARS/agency supplement provision requiring remediation and the regulatory deadline for cure
    - Designs government contracting compliance integration plan: ethics and compliance program harmonization, cost accounting system assessment, DCAA audit accommodation procedures
@@ -5730,14 +5730,14 @@ The structural complexity of government contracting creates additional layers of
 - **Exclusion Detection Completeness**: Multi-registry screening covers 47 exclusion databases vs. SAM.gov alone (1 database), with material exclusion discovery rate 8x higher than single-database screening
 - **Contract Novation Timeline Accuracy**: Government contract assignability analysis completed in 3–4 hours vs. 2–3 weeks for manual contract-by-contract counsel review, with 94% accuracy on novation requirement identification
 - **False Claims Act Exposure Quantification**: Systematic FCA search protocol identifies qui tam exposure in an average of 11% of defense contractor acquisitions, with average exposure of $8.5M — exposure that would be entirely missed by standard diligence
-- **ITAR Compliance Gap Identification**: Change-of-ownership ITAR notification obligation missed in 67% of defense acquisitions without specialized screening; COCO-assisted review achieves 100% identification with pre-close notification timeline
+- **ITAR Compliance Gap Identification**: Change-of-ownership ITAR notification obligation missed in 67% of defense acquisitions without specialized screening; OpenMax-assisted review achieves 100% identification with pre-close notification timeline
 - **Revenue Protection**: Acquirers using comprehensive government contract diligence preserve an average of $23M in contract revenue that would have been at risk from missed novation requirements or set-aside violations
 
 **Who Benefits**
 
 - **Defense Industry M&A Teams**: Systematically address the specialized compliance universe of federal defense contracting — ITAR, DFARS, DCAA, security clearances — without requiring a separate government contracting law firm review on every transaction.
 - **Private Equity Firms Acquiring Government Services Companies**: Identify debarment and compliance risk before commitment, enabling informed price adjustment or deal structure modifications that protect the investment thesis built on government contract revenue.
-- **Government Contracts Counsel**: Use COCO's multi-database screening and contract portfolio analysis as the foundation for legal opinion on assignability and compliance, focusing attorney time on high-risk findings rather than database mechanics.
+- **Government Contracts Counsel**: Use OpenMax's multi-database screening and contract portfolio analysis as the foundation for legal opinion on assignability and compliance, focusing attorney time on high-risk findings rather than database mechanics.
 - **Chief Compliance Officers of Acquiring Entities**: Obtain a pre-close compliance gap inventory and post-close remediation roadmap that enables immediate integration planning and proactive agency communication — preventing inadvertent compliance violations during the integration window.
 
 :::
@@ -5872,7 +5872,7 @@ Output: State-by-state contract assignability assessment + state debarment scree
 
 > When your acquisition spans three countries and four regulatory regimes, you need a compliance map before you can build a compliance plan.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Multi-Jurisdictional Compliance Is the Fastest-Growing Source of Post-Acquisition Surprises**
 
@@ -5882,44 +5882,44 @@ Privacy law is just the most visible dimension of cross-jurisdictional complianc
 
 Due diligence teams facing multi-jurisdictional acquisitions typically lack the geographic expertise to map compliance requirements beyond their home jurisdiction. A New York-based deal team will diligence US compliance thoroughly, outsource EU compliance to Brussels counsel, and hope that the two compliance summaries can be stitched together into a coherent picture — often without identifying the conflicts between jurisdictions (e.g., EU works council consultation requirements that prohibit certain US restructuring actions during integration). The result is a siloed compliance picture that identifies issues by jurisdiction but fails to identify cross-jurisdictional conflicts, integration sequencing constraints, and regulatory approval interdependencies.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Comprehensive Compliance Universe Mapping**: COCO identifies every applicable regulatory framework based on the target's operational footprint:
+1. **Comprehensive Compliance Universe Mapping**: OpenMax identifies every applicable regulatory framework based on the target's operational footprint:
    - Maps applicable regulatory domains by jurisdiction: data protection, employment/labor, environmental, financial services, competition/antitrust, consumer protection, product safety, and sector-specific regulation
    - Identifies the specific statute, regulation, and supervisory authority for each compliance obligation across all 40+ jurisdictions where target operates
    - Flags jurisdictions with extraterritorial application — GDPR's reach to non-EU processors of EU resident data, FCPA's application to non-US companies with US nexus, and OFAC's long-arm jurisdiction
    - Distinguishes primary compliance obligations (direct licensee/registrant) from secondary compliance obligations (flow-down contractual requirements from customers or supply chain)
    - Identifies pending regulatory changes in each jurisdiction with effective dates that will affect the post-acquisition compliance burden
 
-2. **Data Protection and Privacy Compliance Cross-Map**: COCO navigates the global privacy regulatory patchwork:
+2. **Data Protection and Privacy Compliance Cross-Map**: OpenMax navigates the global privacy regulatory patchwork:
    - Maps all applicable privacy laws by jurisdiction: GDPR (EU 27 member states), UK GDPR, US state laws (CCPA/CPRA, VCDPA, CPA, CTDPA, and 15+ additional state laws), PIPL (China), PDPA (Singapore, Thailand), LGPD (Brazil), POPIA (South Africa)
    - Identifies data transfers between jurisdictions and assesses the legal mechanism required for each: SCCs under GDPR, BCRs, adequacy decisions, consent-based mechanisms
    - Maps data subject rights obligations by jurisdiction — right to deletion, right to portability, right to object, consent withdrawal — and identifies operational systems that must support each right
    - Calculates maximum penalty exposure by jurisdiction under worst-case breach scenario: GDPR (4% of global turnover), CCPA ($7,500 per intentional violation), LGPD (2% of Brazilian revenue)
    - Designs unified data protection compliance framework that satisfies the most restrictive jurisdiction while remaining operable across all jurisdictions
 
-3. **Employment and Labor Law Harmonization Analysis**: COCO identifies cross-border employment compliance conflicts:
+3. **Employment and Labor Law Harmonization Analysis**: OpenMax identifies cross-border employment compliance conflicts:
    - Maps mandatory employee consultation obligations: EU Works Council requirements (European Works Council Directive), German Betriebsrat co-determination rights, French Comité Social et Économique — identifies which integration actions require consultation before implementation
    - Identifies employment contracts that cannot be unilaterally modified under civil law employment protection: German KSchG, French Code du Travail, Italian Statuto dei Lavoratori, Spanish Estatuto de los Trabajadores
    - Assesses mandatory severance and redundancy payment obligations by jurisdiction for anticipated integration workforce reductions — builds total workforce cost model for any planned restructuring
    - Reviews non-compete and non-solicitation enforceability by jurisdiction: unenforceable in California, highly restricted in Germany and France, broadly enforceable in most US states
    - Maps benefits harmonization requirements: pension plan consolidation (defined benefit legacy plans requiring actuarial assessment), health benefit design requirements under ACA and equivalent EU directives
 
-4. **Environmental and Product Safety Cross-Jurisdictional Assessment**: COCO identifies product and site compliance conflicts:
+4. **Environmental and Product Safety Cross-Jurisdictional Assessment**: OpenMax identifies product and site compliance conflicts:
    - Maps chemical registration obligations: US TSCA inventory, EU REACH registration, Canada DSL, South Korea K-REACH, China MEP chemical inventory — identifies substances permitted in some but not all markets
    - Assesses EU RoHS, WEEE, CE marking, and UKCA marking requirements for product compliance post-Brexit (UK no longer accepts CE marking for most product categories)
    - Reviews environmental site remediation obligations by jurisdiction — particularly differences between US Superfund (strict liability, retroactive) vs. EU contaminated land directives (polluter pays, contemporaneous)
    - Maps product liability regulatory regimes: EU Product Liability Directive reform (2024), US state tort law, and emerging markets product safety regulation
    - Identifies product recall coordination requirements across jurisdictions for any product safety issues discovered in diligence
 
-5. **Financial Services Regulatory Licensing and Authorization Assessment**: COCO maps the license portfolio for financial services acquisitions:
+5. **Financial Services Regulatory Licensing and Authorization Assessment**: OpenMax maps the license portfolio for financial services acquisitions:
    - Inventories all financial services licenses, authorizations, and registrations across all jurisdictions: banking licenses, investment advisor registrations, insurance licenses, payment institution authorizations
    - Identifies change-of-control approval requirements for each license — typically requiring 60–180 days advance application to each regulator
    - Assesses regulatory capital requirements that must be satisfied at each licensed entity post-acquisition — merger of entities may trigger minimum capital re-calculation
    - Reviews passporting arrangements under EU financial services law that may be disrupted by change of ownership or group restructuring
    - Identifies any regulatory enforcement actions, formal warnings, or elevated supervisory attention that could delay or condition change-of-control approval
 
-6. **Compliance Gap Prioritization and Integration Sequencing**: COCO translates the compliance map into an actionable integration plan:
+6. **Compliance Gap Prioritization and Integration Sequencing**: OpenMax translates the compliance map into an actionable integration plan:
    - Prioritizes compliance gaps by: (a) regulatory penalty severity, (b) likelihood of regulatory scrutiny, (c) operational disruption if gap is discovered post-close
    - Identifies compliance obligations with pre-close deadlines: ITAR notification (5 days), GDPR change of controller notification, works council consultation (must be completed before restructuring implementation)
    - Sequences compliance remediation actions against integration milestones — identifies which integration steps are legally blocked until compliance requirements are satisfied
@@ -5932,8 +5932,8 @@ Due diligence teams facing multi-jurisdictional acquisitions typically lack the 
 
 **Measurable Results**
 
-- **Compliance Universe Coverage**: COCO-assisted mapping identifies an average of 340% more applicable compliance obligations than jurisdiction-by-jurisdiction counsel review alone, particularly for emerging market and extraterritorial applications
-- **Works Council Consultation Compliance**: EU works council consultation requirement missed in 78% of US-headquartered acquirers' integration plans; COCO-assisted review achieves 100% identification with pre-close timeline embedded in integration plan
+- **Compliance Universe Coverage**: OpenMax-assisted mapping identifies an average of 340% more applicable compliance obligations than jurisdiction-by-jurisdiction counsel review alone, particularly for emerging market and extraterritorial applications
+- **Works Council Consultation Compliance**: EU works council consultation requirement missed in 78% of US-headquartered acquirers' integration plans; OpenMax-assisted review achieves 100% identification with pre-close timeline embedded in integration plan
 - **Data Transfer Mechanism Identification**: Cross-border data transfer legal mechanism gaps identified in an average of 4.7 data flows per target company, preventing GDPR enforcement actions averaging €2.8M per incident
 - **Regulatory Change-of-Control Application Timeline**: Advance identification of change-of-control license applications enables 60-day earlier filing, reducing deal close-to-full-operation delay by an average of 45 days for financial services transactions
 - **Compliance Remediation Cost Accuracy**: Pre-close compliance gap quantification achieves 85% accuracy on total remediation cost vs. post-close discovery, which typically uncovers 3.2x higher costs than pre-close estimates
@@ -5942,7 +5942,7 @@ Due diligence teams facing multi-jurisdictional acquisitions typically lack the 
 
 - **Chief Compliance Officers and General Counsel**: Obtain a comprehensive, jurisdiction-resolved compliance map that enables confident integration planning rather than reactive compliance crisis management in the post-close period.
 - **Integration Management Office Leaders**: Receive a sequenced compliance integration plan that embeds regulatory deadlines into integration milestones — preventing integration actions that inadvertently trigger compliance violations.
-- **M&A Partners at Law Firms**: Use COCO's cross-jurisdictional compliance matrix as the foundation for multi-jurisdictional legal opinion coordination, reducing duplication across local counsel and identifying cross-jurisdictional conflicts that no single local counsel can see.
+- **M&A Partners at Law Firms**: Use OpenMax's cross-jurisdictional compliance matrix as the foundation for multi-jurisdictional legal opinion coordination, reducing duplication across local counsel and identifying cross-jurisdictional conflicts that no single local counsel can see.
 - **Private Equity Portco CFOs**: Accurately model compliance remediation costs in the acquisition business plan, avoiding the cash flow surprise that post-close compliance discovery creates for portfolio company financial models.
 
 :::
@@ -6077,7 +6077,7 @@ Output: Environmental compliance gap matrix by site and jurisdiction + product s
 
 > Uncover the full liability footprint of a distressed acquisition before the gavel falls — because in bankruptcy, what you don't know absolutely can hurt you.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Distressed Asset Transactions Compress Diligence Timelines While Hiding Concentrated Liability**
 
@@ -6087,44 +6087,44 @@ The structural complexity of distressed acquisitions creates liability vectors t
 
 Analysts conducting diligence on distressed assets face a fundamental challenge: the company's records are often a shambles. Accounting systems haven't been maintained. Personnel who understood the business have departed. Customer and vendor relationships are in flux. Environmental compliance lapsed during the financial crisis period. The distressed company may have layered on new secured debt using assets as collateral in ways that aren't obvious from the capital structure summary. A systematic approach to distressed asset diligence requires a dedicated analytical framework that goes far beyond the standard M&A checklist.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Bankruptcy Proceeding Deep Dive and Liability Mapping**: COCO analyzes the complete bankruptcy case record:
+1. **Bankruptcy Proceeding Deep Dive and Liability Mapping**: OpenMax analyzes the complete bankruptcy case record:
    - Retrieves and analyzes all filed documents in the target's bankruptcy proceeding via PACER: schedules of assets and liabilities, statements of financial affairs, proof of claim register, and all contested matter dockets
    - Identifies all filed proofs of claim by category (secured, priority, unsecured), creditor identity, and claimed amount — assesses which claims are likely to survive sale vs. be discharged
    - Reviews all executory contracts and unexpired leases listed on Schedule G to identify which must be assumed or rejected in the 363 sale, and the associated cure costs
    - Tracks all adversary proceedings and contested matters — preference actions, fraudulent transfer claims, and lien avoidance actions — that could affect the asset pool
    - Monitors docket daily during the bid period for new filings that materially affect the asset or liability profile
 
-2. **Pre-Petition Liability Archaeology**: COCO excavates legacy liabilities from before the bankruptcy filing:
+2. **Pre-Petition Liability Archaeology**: OpenMax excavates legacy liabilities from before the bankruptcy filing:
    - Reconstructs the liability timeline through 5–10 years of pre-petition financial statements, tax returns, and regulatory filings to identify obligations that may not appear in filed schedules
    - Searches EPA Comprehensive Environmental Response, Compensation and Liability Information System (CERCLIS) and equivalent state environmental databases for undisclosed site contamination
    - Reviews pre-petition litigation history using PACER and state court databases for mass tort, product liability, and class action exposure — particularly cases that may have been stayed by the automatic stay but not discharged
    - Identifies WARN Act violations and Worker Adjustment and Retraining Notification obligations from pre-petition or bankruptcy-period layoffs — unaddressed WARN claims survive 363 sales as successor liability in some circuits
    - Reviews PBGC Premium Filings and 5500 filings for pension plan funding deficiencies — ERISA multiemployer pension withdrawal liability can attach to acquirers of unionized workforces
 
-3. **Secured Debt and Lien Analysis**: COCO maps the capital structure and lien priority:
+3. **Secured Debt and Lien Analysis**: OpenMax maps the capital structure and lien priority:
    - Retrieves all UCC-1 financing statements from all relevant jurisdictions (state of incorporation, state of operations) and maps collateral packages securing each creditor
    - Identifies any lien avoidance actions pending that could affect the priority or validity of purportedly senior secured debt
    - Assesses DIP (Debtor-in-Possession) financing terms — particularly DIP super-priority priming liens, roll-up provisions, and milestones that constrain the sale process
    - Reviews pre-petition credit agreement amendments, including any disputed lien grants that are subject to preference period challenge
    - Maps any subordination agreements between creditor classes that affect recovery waterfalls and asset sale proceeds distribution
 
-4. **Operational Continuity Risk During Distressed Integration**: COCO assesses what survives and what doesn't:
+4. **Operational Continuity Risk During Distressed Integration**: OpenMax assesses what survives and what doesn't:
    - Evaluates customer contract retention: identifies which contracts have change-of-control provisions, assignment restrictions, or termination rights triggered by bankruptcy or sale
    - Assesses vendor and supplier relationship stability: reviews payment history during the distressed period and identifies critical sole-source suppliers who may not extend trade credit to the acquirer
    - Reviews intellectual property ownership — IP may have been pledged to lenders, licensed under terms affected by debtor's rejection power, or subject to pending infringement disputes
    - Evaluates workforce retention risk: key talent departures during bankruptcy reduce operational value; assesses what retention agreements the estate has in place and whether acquirer can maintain them
    - Reviews regulatory license and permit transferability — licenses issued to the debtor entity may not transfer with the sale absent regulatory approval
 
-5. **Post-Sale Successor Liability Risk Assessment**: COCO identifies which liabilities survive a "free and clear" sale:
+5. **Post-Sale Successor Liability Risk Assessment**: OpenMax identifies which liabilities survive a "free and clear" sale:
    - Analyzes the circuit-specific treatment of CERCLA successor liability in 363 sales — critically important in circuits (like the Third Circuit) where environmental successor liability survives 363 orders
    - Assesses NLRA successor liability exposure if acquirer retains a majority of the target's workforce — union contract obligations, pending NLRB charges, and unfair labor practice findings
    - Reviews product liability mass tort exposure: identifies whether a channeling injunction or trust has been established for pre-petition product liability claims, or whether claims remain open against successor
    - Assesses state tax successor liability statutes — many states impose bulk sale notice requirements and successor liability for state taxes even in bankruptcy sales
    - Evaluates whether the 363 sale notice process was adequate to bind future claimants — particularly for latent injury claims (asbestos, toxic tort) where claimants are not ascertainable at time of sale
 
-6. **Distressed Asset Valuation Support and Bid Strategy**: COCO provides analytical support for pricing and bid structure:
+6. **Distressed Asset Valuation Support and Bid Strategy**: OpenMax provides analytical support for pricing and bid structure:
    - Quantifies total liability exposure by category — disclosed claims, undisclosed estimated claims, successor liability risk, and environmental exposure — and risk-adjusts against 363 protection scope
    - Models alternative bid structures: cash bid vs. credit bid by secured creditors, asset purchase vs. equity purchase, assumed liabilities vs. cash price trade-offs
    - Benchmarks the distressed asset's financial profile against comparable distressed transaction multiples using bankruptcy case databases and distressed M&A comps
@@ -6137,7 +6137,7 @@ Analysts conducting diligence on distressed assets face a fundamental challenge:
 
 **Measurable Results**
 
-- **Pre-Petition Liability Detection Rate**: Systematic COCO-assisted distressed diligence identifies undisclosed pre-petition liabilities in 71% of cases — average undisclosed liability identified: $4.8M per transaction
+- **Pre-Petition Liability Detection Rate**: Systematic OpenMax-assisted distressed diligence identifies undisclosed pre-petition liabilities in 71% of cases — average undisclosed liability identified: $4.8M per transaction
 - **CERCLA Successor Liability Identification**: Environmental site review detects unreported CERCLA/CERCLIS liability entries in 34% of industrial distressed acquisitions — average exposure identified: $6.2M
 - **Bankruptcy Docket Monitoring**: Automated docket tracking surfaces material new filings within 2 hours vs. manual monitoring (typically 24–48 hours) — critical during compressed 363 sale timelines
 - **Executory Contract Cure Cost Accuracy**: Systematic Schedule G review identifies cure cost obligations with 89% accuracy, vs. 45% accuracy from informal diligence in compressed timelines
@@ -6146,7 +6146,7 @@ Analysts conducting diligence on distressed assets face a fundamental challenge:
 **Who Benefits**
 
 - **Distressed Debt and Special Situations Investors**: Conduct comprehensive liability archaeology within the compressed timelines of bankruptcy auctions, enabling confident bid pricing without the "hope and pray" liability estimation that characterizes many distressed situations.
-- **Turnaround and Restructuring Advisors**: Use COCO's operational continuity analysis to design 100-day stabilization plans that address the specific customer, vendor, and workforce risks of the distressed target.
+- **Turnaround and Restructuring Advisors**: Use OpenMax's operational continuity analysis to design 100-day stabilization plans that address the specific customer, vendor, and workforce risks of the distressed target.
 - **Bankruptcy Counsel and Litigation Finance Investors**: Rapidly analyze complex bankruptcy case records to identify litigation value — preference claims, fraudulent transfer actions, and lien avoidance — in distressed investment opportunities.
 - **Corporate Development Teams Pursuing Distressed Bolt-On Acquisitions**: Apply systematic distressed diligence framework to opportunities that arise when competitors enter financial distress, capturing strategic assets at distressed valuations with manageable risk.
 
@@ -6282,7 +6282,7 @@ Output: Maximum supportable bid recommendation with supporting model + bid struc
 
 > Transform thousands of pages of workstream findings into a board-ready investment thesis validation document in hours, not weeks.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: The Final Due Diligence Report Is the Most Important Deliverable That Receives the Least Systematic Attention**
 
@@ -6292,44 +6292,44 @@ The structural problem is that individual workstream leads — financial, legal,
 
 Report assembly mechanics compound the problem. A typical deal generates 3,000–8,000 pages of data room documents, workstream notes, expert reports, management presentation materials, and legal memoranda. Distilling this into a 50–100 page investible report requires reading and synthesizing everything that happened across all workstreams — a task that falls on the most senior (and most expensive) deal team members at the exact moment when deal execution demands are also highest. The final sprint to assemble the diligence report consistently produces the most errors: misattributed statistics, inconsistent deal metrics across sections, findings that are mentioned in workstream summaries but not elevated to the risk section, and key deal considerations that never make it into the executive summary.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Multi-Workstream Findings Aggregation and Normalization**: COCO ingests all diligence outputs and creates a unified findings database:
+1. **Multi-Workstream Findings Aggregation and Normalization**: OpenMax ingests all diligence outputs and creates a unified findings database:
    - Ingests financial model workpapers, legal memoranda, commercial diligence reports, IT assessments, HR reviews, and management presentations from all functional workstreams
    - Normalizes findings across different formats, reporting conventions, and terminology used by different workstream leads — resolves inconsistencies in how the same metrics are presented across sections
    - Extracts all identified risks from each workstream and builds a unified risk register with consistent taxonomy: finding description, workstream source, financial impact quantification, probability assessment, and deal relevance
    - Identifies contradictions and inconsistencies between workstreams — where financial findings conflict with commercial findings or legal risk assessment contradicts operational assessment
    - Builds a comprehensive fact base with version control — ensuring that all statistics cited across the final report are sourced from the same document version and consistently defined
 
-2. **Cross-Workstream Synthesis and Amplification Analysis**: COCO identifies compound risks that no single workstream can see:
+2. **Cross-Workstream Synthesis and Amplification Analysis**: OpenMax identifies compound risks that no single workstream can see:
    - Maps how identified risks interact across domains — a customer concentration risk in commercial diligence combined with IT infrastructure dependency on the top customer's proprietary EDI system creates a compound risk that neither workstream individually quantifies
    - Builds risk amplification chains: "Finding A in workstream X makes Finding B in workstream Y worse by [quantified mechanism]" — presented as an integrated risk narrative rather than parallel workstream summaries
    - Identifies risk offsets: where a finding in one workstream partially mitigates a concern in another — e.g., strong management depth partially offsets key person dependency risk identified in HR diligence
    - Maps all findings to deal model sensitivities — shows investment committee which identified risks, if materialized, would move the model outside investment return parameters
    - Identifies the three to five findings that represent the most critical read-through to deal pricing, structure, and conditions precedent
 
-3. **Executive Summary and Investment Thesis Validation**: COCO produces board-ready summary materials:
+3. **Executive Summary and Investment Thesis Validation**: OpenMax produces board-ready summary materials:
    - Drafts an executive summary structured around investment thesis validation — for each pillar of the investment thesis, presents the confirming evidence and the contradicting evidence from diligence
    - Writes the "key deal considerations" section that distills the entire diligence process into the 5–7 most important insights that the investment committee must understand and accept to proceed
    - Produces a risk-adjusted deal metric summary: headline deal metrics (EV/EBITDA, EV/Revenue) adjusted for identified liabilities, normalized earnings, and contingent considerations
    - Drafts deal structure and pricing recommendation section with specific rationale grounded in diligence findings — recommended price adjustment, indemnification, escrow, or deal condition for each material finding
    - Produces the management representation analysis: which management representations have been confirmed, which are unverifiable, and which have been contradicted by diligence
 
-4. **Risk Register Prioritization and Materiality Assessment**: COCO applies structured risk prioritization:
+4. **Risk Register Prioritization and Materiality Assessment**: OpenMax applies structured risk prioritization:
    - Scores all identified risks on three dimensions: financial impact (quantified in dollar terms), probability of occurrence (High/Medium/Low based on evidence quality), and detectability post-close
    - Generates a risk heat map visualization — categorizes findings into Red (deal-critical), Amber (price/structure consideration), and Green (acceptable with monitoring)
    - Writes deal-critical risk narratives for Red findings: what the finding is, what evidence supports it, what the financial impact is, and what deal structure mechanism is recommended to address it
    - Produces "known unknowns" registry — areas where diligence was limited by data access and additional investigation is recommended before close
    - Separates confirmed findings (supported by documentation) from management representations only (unverified claims) throughout the risk register
 
-5. **Representations and Warranties Summary and Coverage Map**: COCO aligns diligence findings with SPA protections:
+5. **Representations and Warranties Summary and Coverage Map**: OpenMax aligns diligence findings with SPA protections:
    - Reviews the representations and warranties section of the draft SPA and maps each representation to the diligence findings that test its accuracy
    - Identifies representations that are not supported by diligence evidence and flags them for enhanced warranty coverage or specific indemnification
    - Produces the R&W insurance underwriter package — organizes diligence findings in the format required by R&W insurance underwriters for policy binding, with specific findings mapped to relevant reps
    - Generates indemnification schedule support: for each identified issue that will be addressed by a specific indemnity, provides the supporting evidence, exposure quantification, and proposed cap and basket
    - Drafts disclosure schedule review notes — identifies where management's proposed disclosure schedule disclosures are inadequate, overly broad, or in conflict with diligence findings
 
-6. **Final Report Production and Quality Assurance**: COCO assembles the final deliverable with editorial discipline:
+6. **Final Report Production and Quality Assurance**: OpenMax assembles the final deliverable with editorial discipline:
    - Enforces consistent terminology, metric definitions, and financial figures across all sections — eliminates the most common error in due diligence reports (inconsistent numbers across sections from different workstream submissions)
    - Generates a complete table of contents, cross-reference index, and appendix organization that enables investment committee members to navigate directly to supporting detail
    - Produces an assumptions and limitations section that documents diligence scope, restricted access areas, and reliance on management representations — creating an appropriate legal record of diligence process
@@ -6342,17 +6342,17 @@ Report assembly mechanics compound the problem. A typical deal generates 3,000�
 
 **Measurable Results**
 
-- **Report Assembly Time**: Final diligence report assembly reduced from 3–5 weeks (partner-intensive) to 5–7 business days using COCO-assisted compilation, enabling faster committee presentations without sacrificing analytical depth
-- **Cross-Workstream Finding Integration Rate**: Manual report assembly integrates cross-workstream findings in 23% of applicable cases; COCO-assisted synthesis achieves 91% cross-workstream integration, surfacing an average of 4.2 compound risk insights per deal that would otherwise be missed
-- **Consistency Error Rate**: Metric inconsistency errors across report sections reduced from an average of 14 per report (manual compilation) to fewer than 2 per report (COCO-assisted compilation with consistency checking)
+- **Report Assembly Time**: Final diligence report assembly reduced from 3–5 weeks (partner-intensive) to 5–7 business days using OpenMax-assisted compilation, enabling faster committee presentations without sacrificing analytical depth
+- **Cross-Workstream Finding Integration Rate**: Manual report assembly integrates cross-workstream findings in 23% of applicable cases; OpenMax-assisted synthesis achieves 91% cross-workstream integration, surfacing an average of 4.2 compound risk insights per deal that would otherwise be missed
+- **Consistency Error Rate**: Metric inconsistency errors across report sections reduced from an average of 14 per report (manual compilation) to fewer than 2 per report (OpenMax-assisted compilation with consistency checking)
 - **Investment Committee Preparation Time**: Partner time spent preparing for investment committee review reduced by 60%, as report structure and supporting evidence mapping are pre-organized
-- **Post-Close Finding Correlation**: Acquirers using COCO-assembled final reports with comprehensive cross-workstream synthesis experience 44% fewer post-close surprises — findings that "appeared in diligence but weren't elevated" — within 18 months of close
+- **Post-Close Finding Correlation**: Acquirers using OpenMax-assembled final reports with comprehensive cross-workstream synthesis experience 44% fewer post-close surprises — findings that "appeared in diligence but weren't elevated" — within 18 months of close
 
 **Who Benefits**
 
 - **Deal Partners and Managing Directors**: Produce final reports that accurately reflect the quality of workstream diligence without dedicating disproportionate senior time to assembly mechanics — maintaining deal pace while preserving analytical rigor.
 - **Investment Committees and Boards of Directors**: Receive executive summaries that present findings in a format optimized for decision-making — investment thesis validation, risk prioritization, and deal structure recommendations — rather than workstream-organized data dumps.
-- **M&A Legal Counsel and SPA Negotiators**: Use COCO's diligence-to-SPA mapping to directly inform specific indemnification provisions, disclosure schedule review, and R&W insurance package preparation.
+- **M&A Legal Counsel and SPA Negotiators**: Use OpenMax's diligence-to-SPA mapping to directly inform specific indemnification provisions, disclosure schedule review, and R&W insurance package preparation.
 - **Portfolio Monitoring Teams and Post-Close Integration Leaders**: Inherit a complete, searchable diligence record with findings mapped to integration workstreams — enabling accountability for risk mitigation during the integration period and continuity of institutional knowledge as deal team members rotate off.
 
 :::

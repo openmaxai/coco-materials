@@ -19,7 +19,7 @@ AI-powered use cases for logistics manager professionals.
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Shipment Tracking Is Draining Your Team's Productivity**
 
@@ -29,19 +29,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Shipment Tracker integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI Shipment Tracker integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Logistics & Supply Chain.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Logistics & Supply Chain.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -49,7 +49,7 @@ COCO's AI Shipment Tracker integrates directly into your existing workflow and a
 
 **Measurable Results**
 
-Teams using COCO's AI Shipment Tracker report:
+Teams using OpenMax's AI Shipment Tracker report:
 - **71% reduction** in task completion time
 - **31% decrease** in operational costs for this workflow
 - **96% accuracy** rate, exceeding manual benchmarks
@@ -143,7 +143,7 @@ This week's data:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Layout Optimization Is Draining Your Team's Productivity**
 
@@ -153,19 +153,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Warehouse Layout Optimizer integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI Warehouse Layout Optimizer integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Logistics & Supply Chain.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Logistics & Supply Chain.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -173,7 +173,7 @@ COCO's AI Warehouse Layout Optimizer integrates directly into your existing work
 
 **Measurable Results**
 
-Teams using COCO's AI Warehouse Layout Optimizer report:
+Teams using OpenMax's AI Warehouse Layout Optimizer report:
 - **79% reduction** in task completion time
 - **33% decrease** in operational costs for this workflow
 - **96% accuracy** rate, exceeding manual benchmarks
@@ -267,7 +267,7 @@ This week's data:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Inefficient Routes Are Burning Fuel and Wasting Hours**
 
@@ -277,19 +277,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Route Optimizer integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI Route Optimizer integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Logistics & Supply Chain.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Logistics & Supply Chain.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -297,7 +297,7 @@ COCO's AI Route Optimizer integrates directly into your existing workflow and ac
 
 **Measurable Results**
 
-Teams using COCO's AI Route Optimizer report:
+Teams using OpenMax's AI Route Optimizer report:
 - **66% reduction** in task completion time
 - **38% decrease** in operational costs for this workflow
 - **89% accuracy** rate, exceeding manual benchmarks
@@ -391,7 +391,7 @@ This week's data:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Delivery Tracking Is Draining Your Team's Productivity**
 
@@ -401,19 +401,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Last-Mile Delivery Tracker integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI Last-Mile Delivery Tracker integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for E-Commerce & Retail.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for E-Commerce & Retail.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -421,7 +421,7 @@ COCO's AI Last-Mile Delivery Tracker integrates directly into your existing work
 
 **Measurable Results**
 
-Teams using COCO's AI Last-Mile Delivery Tracker report:
+Teams using OpenMax's AI Last-Mile Delivery Tracker report:
 - **72% reduction** in task completion time
 - **54% decrease** in operational costs for this workflow
 - **93% accuracy** rate, exceeding manual benchmarks
@@ -515,7 +515,7 @@ This week's data:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Dock Scheduling Is Draining Your Team's Productivity**
 
@@ -525,19 +525,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Cross-Dock Scheduler integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI Cross-Dock Scheduler integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Logistics & Supply Chain.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Logistics & Supply Chain.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -545,7 +545,7 @@ COCO's AI Cross-Dock Scheduler integrates directly into your existing workflow a
 
 **Measurable Results**
 
-Teams using COCO's AI Cross-Dock Scheduler report:
+Teams using OpenMax's AI Cross-Dock Scheduler report:
 - **83% reduction** in task completion time
 - **32% decrease** in operational costs for this workflow
 - **93% accuracy** rate, exceeding manual benchmarks
@@ -639,7 +639,7 @@ This week's data:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Customs Filing Is Draining Your Team's Productivity**
 
@@ -649,19 +649,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Customs Declaration Filer integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI Customs Declaration Filer integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Logistics & Supply Chain.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Logistics & Supply Chain.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -669,7 +669,7 @@ COCO's AI Customs Declaration Filer integrates directly into your existing workf
 
 **Measurable Results**
 
-Teams using COCO's AI Customs Declaration Filer report:
+Teams using OpenMax's AI Customs Declaration Filer report:
 - **84% reduction** in task completion time
 - **50% decrease** in operational costs for this workflow
 - **91% accuracy** rate, exceeding manual benchmarks
@@ -757,7 +757,7 @@ This week's data:
 
 > Organizations operating in Logistics face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Logistics Route Optimization Disorganization**
 
@@ -767,44 +767,44 @@ The core challenge is that route planning requires synthesizing large volumes of
 
 The downstream cost extends beyond direct labor. Delayed outputs slow downstream decisions. Inconsistent quality creates rework cycles. Missed insights lead to suboptimal resource allocation. And when teams are overwhelmed with execution, there's no bandwidth left for the proactive thinking that prevents problems before they occur — creating a reactive culture that's perpetually behind.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Intelligent Data Ingestion and Structuring**: COCO connects to relevant data sources and normalizes inputs:
+1. **Intelligent Data Ingestion and Structuring**: OpenMax connects to relevant data sources and normalizes inputs:
    - Ingests documents, spreadsheets, databases, and unstructured text simultaneously
    - Identifies key entities, metrics, and relationships across disparate data sources
    - Applies domain-specific schemas to structure raw inputs into analyzable formats
    - Flags data quality issues, missing fields, and inconsistencies before analysis begins
    - Maintains audit trails linking every output back to its source data
 
-2. **Pattern Recognition and Anomaly Detection**: COCO surfaces insights that manual review misses:
+2. **Pattern Recognition and Anomaly Detection**: OpenMax surfaces insights that manual review misses:
    - Applies statistical models to identify trends, outliers, and emerging patterns
    - Benchmarks current performance against historical baselines and industry standards
    - Detects early warning signals before they escalate into critical issues
    - Cross-references multiple data dimensions to reveal non-obvious correlations
    - Prioritizes findings by potential business impact and urgency
 
-3. **Automated Report and Document Generation**: COCO eliminates manual document production:
+3. **Automated Report and Document Generation**: OpenMax eliminates manual document production:
    - Generates structured reports following organization-specific templates and standards
    - Produces executive summaries calibrated to the appropriate audience and detail level
    - Creates supporting visualizations, tables, and data exhibits automatically
    - Maintains consistent terminology, formatting, and citation standards across all outputs
    - Drafts multiple output versions (technical detail vs. executive summary) from the same analysis
 
-4. **Workflow Automation and Task Orchestration**: COCO streamlines multi-step processes:
+4. **Workflow Automation and Task Orchestration**: OpenMax streamlines multi-step processes:
    - Breaks complex workflows into discrete, trackable steps with clear ownership
    - Automates handoffs between team members with appropriate context and instructions
    - Tracks completion status and surfaces blockers before deadlines are missed
    - Generates checklists, reminders, and escalation triggers at critical checkpoints
    - Integrates with existing tools (Slack, email, project management) to reduce context switching
 
-5. **Quality Assurance and Compliance Checking**: COCO builds quality into the process:
+5. **Quality Assurance and Compliance Checking**: OpenMax builds quality into the process:
    - Validates outputs against regulatory requirements and internal policy standards
    - Checks for completeness, consistency, and accuracy before outputs are finalized
    - Documents the reasoning behind key recommendations for review and audit purposes
    - Flags potential compliance risks or policy violations with specific rule references
    - Maintains a version history of all outputs for regulatory and audit purposes
 
-6. **Continuous Improvement and Learning**: COCO improves outcomes over time:
+6. **Continuous Improvement and Learning**: OpenMax improves outcomes over time:
    - Tracks which recommendations were acted on and correlates with downstream outcomes
    - Identifies systematic biases or gaps in the current process
    - Recommends process improvements based on analysis of workflow bottlenecks
@@ -817,7 +817,7 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 
 **Measurable Results**
 
-- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with COCO assistance (85% time savings)
+- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with OpenMax assistance (85% time savings)
 - **Output quality score**: Improved from 71% accuracy on manual reviews to **96% with AI-assisted validation**
 - **Throughput capacity**: Team handles **3.4x more cases** monthly without additional headcount
 - **Error rate and rework**: Downstream errors requiring rework reduced from 18% to **under 3%**
@@ -956,7 +956,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Logistics face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Supply Chain Disruption Risk Monitor**
 
@@ -966,44 +966,44 @@ The core challenge is that risk assessment requires synthesizing large volumes o
 
 The downstream cost extends beyond direct labor. Delayed outputs slow downstream decisions. Inconsistent quality creates rework cycles. Missed insights lead to suboptimal resource allocation. And when teams are overwhelmed with execution, there's no bandwidth left for the proactive thinking that prevents problems before they occur — creating a reactive culture that's perpetually behind.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Intelligent Data Ingestion and Structuring**: COCO connects to relevant data sources and normalizes inputs:
+1. **Intelligent Data Ingestion and Structuring**: OpenMax connects to relevant data sources and normalizes inputs:
    - Ingests documents, spreadsheets, databases, and unstructured text simultaneously
    - Identifies key entities, metrics, and relationships across disparate data sources
    - Applies domain-specific schemas to structure raw inputs into analyzable formats
    - Flags data quality issues, missing fields, and inconsistencies before analysis begins
    - Maintains audit trails linking every output back to its source data
 
-2. **Pattern Recognition and Anomaly Detection**: COCO surfaces insights that manual review misses:
+2. **Pattern Recognition and Anomaly Detection**: OpenMax surfaces insights that manual review misses:
    - Applies statistical models to identify trends, outliers, and emerging patterns
    - Benchmarks current performance against historical baselines and industry standards
    - Detects early warning signals before they escalate into critical issues
    - Cross-references multiple data dimensions to reveal non-obvious correlations
    - Prioritizes findings by potential business impact and urgency
 
-3. **Automated Report and Document Generation**: COCO eliminates manual document production:
+3. **Automated Report and Document Generation**: OpenMax eliminates manual document production:
    - Generates structured reports following organization-specific templates and standards
    - Produces executive summaries calibrated to the appropriate audience and detail level
    - Creates supporting visualizations, tables, and data exhibits automatically
    - Maintains consistent terminology, formatting, and citation standards across all outputs
    - Drafts multiple output versions (technical detail vs. executive summary) from the same analysis
 
-4. **Workflow Automation and Task Orchestration**: COCO streamlines multi-step processes:
+4. **Workflow Automation and Task Orchestration**: OpenMax streamlines multi-step processes:
    - Breaks complex workflows into discrete, trackable steps with clear ownership
    - Automates handoffs between team members with appropriate context and instructions
    - Tracks completion status and surfaces blockers before deadlines are missed
    - Generates checklists, reminders, and escalation triggers at critical checkpoints
    - Integrates with existing tools (Slack, email, project management) to reduce context switching
 
-5. **Quality Assurance and Compliance Checking**: COCO builds quality into the process:
+5. **Quality Assurance and Compliance Checking**: OpenMax builds quality into the process:
    - Validates outputs against regulatory requirements and internal policy standards
    - Checks for completeness, consistency, and accuracy before outputs are finalized
    - Documents the reasoning behind key recommendations for review and audit purposes
    - Flags potential compliance risks or policy violations with specific rule references
    - Maintains a version history of all outputs for regulatory and audit purposes
 
-6. **Continuous Improvement and Learning**: COCO improves outcomes over time:
+6. **Continuous Improvement and Learning**: OpenMax improves outcomes over time:
    - Tracks which recommendations were acted on and correlates with downstream outcomes
    - Identifies systematic biases or gaps in the current process
    - Recommends process improvements based on analysis of workflow bottlenecks
@@ -1016,7 +1016,7 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 
 **Measurable Results**
 
-- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with COCO assistance (85% time savings)
+- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with OpenMax assistance (85% time savings)
 - **Output quality score**: Improved from 71% accuracy on manual reviews to **96% with AI-assisted validation**
 - **Throughput capacity**: Team handles **3.4x more cases** monthly without additional headcount
 - **Error rate and rework**: Downstream errors requiring rework reduced from 18% to **under 3%**
@@ -1155,7 +1155,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Logistics face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Warehouse Space Utilization Inefficiency**
 
@@ -1165,44 +1165,44 @@ The core challenge is that space analysis requires synthesizing large volumes of
 
 The downstream cost extends beyond direct labor. Delayed outputs slow downstream decisions. Inconsistent quality creates rework cycles. Missed insights lead to suboptimal resource allocation. And when teams are overwhelmed with execution, there's no bandwidth left for the proactive thinking that prevents problems before they occur — creating a reactive culture that's perpetually behind.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Intelligent Data Ingestion and Structuring**: COCO connects to relevant data sources and normalizes inputs:
+1. **Intelligent Data Ingestion and Structuring**: OpenMax connects to relevant data sources and normalizes inputs:
    - Ingests documents, spreadsheets, databases, and unstructured text simultaneously
    - Identifies key entities, metrics, and relationships across disparate data sources
    - Applies domain-specific schemas to structure raw inputs into analyzable formats
    - Flags data quality issues, missing fields, and inconsistencies before analysis begins
    - Maintains audit trails linking every output back to its source data
 
-2. **Pattern Recognition and Anomaly Detection**: COCO surfaces insights that manual review misses:
+2. **Pattern Recognition and Anomaly Detection**: OpenMax surfaces insights that manual review misses:
    - Applies statistical models to identify trends, outliers, and emerging patterns
    - Benchmarks current performance against historical baselines and industry standards
    - Detects early warning signals before they escalate into critical issues
    - Cross-references multiple data dimensions to reveal non-obvious correlations
    - Prioritizes findings by potential business impact and urgency
 
-3. **Automated Report and Document Generation**: COCO eliminates manual document production:
+3. **Automated Report and Document Generation**: OpenMax eliminates manual document production:
    - Generates structured reports following organization-specific templates and standards
    - Produces executive summaries calibrated to the appropriate audience and detail level
    - Creates supporting visualizations, tables, and data exhibits automatically
    - Maintains consistent terminology, formatting, and citation standards across all outputs
    - Drafts multiple output versions (technical detail vs. executive summary) from the same analysis
 
-4. **Workflow Automation and Task Orchestration**: COCO streamlines multi-step processes:
+4. **Workflow Automation and Task Orchestration**: OpenMax streamlines multi-step processes:
    - Breaks complex workflows into discrete, trackable steps with clear ownership
    - Automates handoffs between team members with appropriate context and instructions
    - Tracks completion status and surfaces blockers before deadlines are missed
    - Generates checklists, reminders, and escalation triggers at critical checkpoints
    - Integrates with existing tools (Slack, email, project management) to reduce context switching
 
-5. **Quality Assurance and Compliance Checking**: COCO builds quality into the process:
+5. **Quality Assurance and Compliance Checking**: OpenMax builds quality into the process:
    - Validates outputs against regulatory requirements and internal policy standards
    - Checks for completeness, consistency, and accuracy before outputs are finalized
    - Documents the reasoning behind key recommendations for review and audit purposes
    - Flags potential compliance risks or policy violations with specific rule references
    - Maintains a version history of all outputs for regulatory and audit purposes
 
-6. **Continuous Improvement and Learning**: COCO improves outcomes over time:
+6. **Continuous Improvement and Learning**: OpenMax improves outcomes over time:
    - Tracks which recommendations were acted on and correlates with downstream outcomes
    - Identifies systematic biases or gaps in the current process
    - Recommends process improvements based on analysis of workflow bottlenecks
@@ -1215,7 +1215,7 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 
 **Measurable Results**
 
-- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with COCO assistance (85% time savings)
+- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with OpenMax assistance (85% time savings)
 - **Output quality score**: Improved from 71% accuracy on manual reviews to **96% with AI-assisted validation**
 - **Throughput capacity**: Team handles **3.4x more cases** monthly without additional headcount
 - **Error rate and rework**: Downstream errors requiring rework reduced from 18% to **under 3%**
@@ -1354,7 +1354,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Logistics face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Logistics Customs Documentation Preparer**
 
@@ -1364,44 +1364,44 @@ The core challenge is that customs filing requires synthesizing large volumes of
 
 The downstream cost extends beyond direct labor. Delayed outputs slow downstream decisions. Inconsistent quality creates rework cycles. Missed insights lead to suboptimal resource allocation. And when teams are overwhelmed with execution, there's no bandwidth left for the proactive thinking that prevents problems before they occur — creating a reactive culture that's perpetually behind.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Intelligent Data Ingestion and Structuring**: COCO connects to relevant data sources and normalizes inputs:
+1. **Intelligent Data Ingestion and Structuring**: OpenMax connects to relevant data sources and normalizes inputs:
    - Ingests documents, spreadsheets, databases, and unstructured text simultaneously
    - Identifies key entities, metrics, and relationships across disparate data sources
    - Applies domain-specific schemas to structure raw inputs into analyzable formats
    - Flags data quality issues, missing fields, and inconsistencies before analysis begins
    - Maintains audit trails linking every output back to its source data
 
-2. **Pattern Recognition and Anomaly Detection**: COCO surfaces insights that manual review misses:
+2. **Pattern Recognition and Anomaly Detection**: OpenMax surfaces insights that manual review misses:
    - Applies statistical models to identify trends, outliers, and emerging patterns
    - Benchmarks current performance against historical baselines and industry standards
    - Detects early warning signals before they escalate into critical issues
    - Cross-references multiple data dimensions to reveal non-obvious correlations
    - Prioritizes findings by potential business impact and urgency
 
-3. **Automated Report and Document Generation**: COCO eliminates manual document production:
+3. **Automated Report and Document Generation**: OpenMax eliminates manual document production:
    - Generates structured reports following organization-specific templates and standards
    - Produces executive summaries calibrated to the appropriate audience and detail level
    - Creates supporting visualizations, tables, and data exhibits automatically
    - Maintains consistent terminology, formatting, and citation standards across all outputs
    - Drafts multiple output versions (technical detail vs. executive summary) from the same analysis
 
-4. **Workflow Automation and Task Orchestration**: COCO streamlines multi-step processes:
+4. **Workflow Automation and Task Orchestration**: OpenMax streamlines multi-step processes:
    - Breaks complex workflows into discrete, trackable steps with clear ownership
    - Automates handoffs between team members with appropriate context and instructions
    - Tracks completion status and surfaces blockers before deadlines are missed
    - Generates checklists, reminders, and escalation triggers at critical checkpoints
    - Integrates with existing tools (Slack, email, project management) to reduce context switching
 
-5. **Quality Assurance and Compliance Checking**: COCO builds quality into the process:
+5. **Quality Assurance and Compliance Checking**: OpenMax builds quality into the process:
    - Validates outputs against regulatory requirements and internal policy standards
    - Checks for completeness, consistency, and accuracy before outputs are finalized
    - Documents the reasoning behind key recommendations for review and audit purposes
    - Flags potential compliance risks or policy violations with specific rule references
    - Maintains a version history of all outputs for regulatory and audit purposes
 
-6. **Continuous Improvement and Learning**: COCO improves outcomes over time:
+6. **Continuous Improvement and Learning**: OpenMax improves outcomes over time:
    - Tracks which recommendations were acted on and correlates with downstream outcomes
    - Identifies systematic biases or gaps in the current process
    - Recommends process improvements based on analysis of workflow bottlenecks
@@ -1414,7 +1414,7 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 
 **Measurable Results**
 
-- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with COCO assistance (85% time savings)
+- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with OpenMax assistance (85% time savings)
 - **Output quality score**: Improved from 71% accuracy on manual reviews to **96% with AI-assisted validation**
 - **Throughput capacity**: Team handles **3.4x more cases** monthly without additional headcount
 - **Error rate and rework**: Downstream errors requiring rework reduced from 18% to **under 3%**
@@ -1553,7 +1553,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Logistics face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Logistics Fleet Maintenance Inefficiency**
 
@@ -1563,44 +1563,44 @@ The core challenge is that fleet management requires synthesizing large volumes 
 
 The downstream cost extends beyond direct labor. Delayed outputs slow downstream decisions. Inconsistent quality creates rework cycles. Missed insights lead to suboptimal resource allocation. And when teams are overwhelmed with execution, there's no bandwidth left for the proactive thinking that prevents problems before they occur — creating a reactive culture that's perpetually behind.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Intelligent Data Ingestion and Structuring**: COCO connects to relevant data sources and normalizes inputs:
+1. **Intelligent Data Ingestion and Structuring**: OpenMax connects to relevant data sources and normalizes inputs:
    - Ingests documents, spreadsheets, databases, and unstructured text simultaneously
    - Identifies key entities, metrics, and relationships across disparate data sources
    - Applies domain-specific schemas to structure raw inputs into analyzable formats
    - Flags data quality issues, missing fields, and inconsistencies before analysis begins
    - Maintains audit trails linking every output back to its source data
 
-2. **Pattern Recognition and Anomaly Detection**: COCO surfaces insights that manual review misses:
+2. **Pattern Recognition and Anomaly Detection**: OpenMax surfaces insights that manual review misses:
    - Applies statistical models to identify trends, outliers, and emerging patterns
    - Benchmarks current performance against historical baselines and industry standards
    - Detects early warning signals before they escalate into critical issues
    - Cross-references multiple data dimensions to reveal non-obvious correlations
    - Prioritizes findings by potential business impact and urgency
 
-3. **Automated Report and Document Generation**: COCO eliminates manual document production:
+3. **Automated Report and Document Generation**: OpenMax eliminates manual document production:
    - Generates structured reports following organization-specific templates and standards
    - Produces executive summaries calibrated to the appropriate audience and detail level
    - Creates supporting visualizations, tables, and data exhibits automatically
    - Maintains consistent terminology, formatting, and citation standards across all outputs
    - Drafts multiple output versions (technical detail vs. executive summary) from the same analysis
 
-4. **Workflow Automation and Task Orchestration**: COCO streamlines multi-step processes:
+4. **Workflow Automation and Task Orchestration**: OpenMax streamlines multi-step processes:
    - Breaks complex workflows into discrete, trackable steps with clear ownership
    - Automates handoffs between team members with appropriate context and instructions
    - Tracks completion status and surfaces blockers before deadlines are missed
    - Generates checklists, reminders, and escalation triggers at critical checkpoints
    - Integrates with existing tools (Slack, email, project management) to reduce context switching
 
-5. **Quality Assurance and Compliance Checking**: COCO builds quality into the process:
+5. **Quality Assurance and Compliance Checking**: OpenMax builds quality into the process:
    - Validates outputs against regulatory requirements and internal policy standards
    - Checks for completeness, consistency, and accuracy before outputs are finalized
    - Documents the reasoning behind key recommendations for review and audit purposes
    - Flags potential compliance risks or policy violations with specific rule references
    - Maintains a version history of all outputs for regulatory and audit purposes
 
-6. **Continuous Improvement and Learning**: COCO improves outcomes over time:
+6. **Continuous Improvement and Learning**: OpenMax improves outcomes over time:
    - Tracks which recommendations were acted on and correlates with downstream outcomes
    - Identifies systematic biases or gaps in the current process
    - Recommends process improvements based on analysis of workflow bottlenecks
@@ -1613,7 +1613,7 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 
 **Measurable Results**
 
-- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with COCO assistance (85% time savings)
+- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with OpenMax assistance (85% time savings)
 - **Output quality score**: Improved from 71% accuracy on manual reviews to **96% with AI-assisted validation**
 - **Throughput capacity**: Team handles **3.4x more cases** monthly without additional headcount
 - **Error rate and rework**: Downstream errors requiring rework reduced from 18% to **under 3%**
@@ -1752,7 +1752,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Logistics face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Logistics Demand Planning Overhead**
 
@@ -1762,44 +1762,44 @@ The core challenge is that demand forecasting requires synthesizing large volume
 
 The downstream cost extends beyond direct labor. Delayed outputs slow downstream decisions. Inconsistent quality creates rework cycles. Missed insights lead to suboptimal resource allocation. And when teams are overwhelmed with execution, there's no bandwidth left for the proactive thinking that prevents problems before they occur — creating a reactive culture that's perpetually behind.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Intelligent Data Ingestion and Structuring**: COCO connects to relevant data sources and normalizes inputs:
+1. **Intelligent Data Ingestion and Structuring**: OpenMax connects to relevant data sources and normalizes inputs:
    - Ingests documents, spreadsheets, databases, and unstructured text simultaneously
    - Identifies key entities, metrics, and relationships across disparate data sources
    - Applies domain-specific schemas to structure raw inputs into analyzable formats
    - Flags data quality issues, missing fields, and inconsistencies before analysis begins
    - Maintains audit trails linking every output back to its source data
 
-2. **Pattern Recognition and Anomaly Detection**: COCO surfaces insights that manual review misses:
+2. **Pattern Recognition and Anomaly Detection**: OpenMax surfaces insights that manual review misses:
    - Applies statistical models to identify trends, outliers, and emerging patterns
    - Benchmarks current performance against historical baselines and industry standards
    - Detects early warning signals before they escalate into critical issues
    - Cross-references multiple data dimensions to reveal non-obvious correlations
    - Prioritizes findings by potential business impact and urgency
 
-3. **Automated Report and Document Generation**: COCO eliminates manual document production:
+3. **Automated Report and Document Generation**: OpenMax eliminates manual document production:
    - Generates structured reports following organization-specific templates and standards
    - Produces executive summaries calibrated to the appropriate audience and detail level
    - Creates supporting visualizations, tables, and data exhibits automatically
    - Maintains consistent terminology, formatting, and citation standards across all outputs
    - Drafts multiple output versions (technical detail vs. executive summary) from the same analysis
 
-4. **Workflow Automation and Task Orchestration**: COCO streamlines multi-step processes:
+4. **Workflow Automation and Task Orchestration**: OpenMax streamlines multi-step processes:
    - Breaks complex workflows into discrete, trackable steps with clear ownership
    - Automates handoffs between team members with appropriate context and instructions
    - Tracks completion status and surfaces blockers before deadlines are missed
    - Generates checklists, reminders, and escalation triggers at critical checkpoints
    - Integrates with existing tools (Slack, email, project management) to reduce context switching
 
-5. **Quality Assurance and Compliance Checking**: COCO builds quality into the process:
+5. **Quality Assurance and Compliance Checking**: OpenMax builds quality into the process:
    - Validates outputs against regulatory requirements and internal policy standards
    - Checks for completeness, consistency, and accuracy before outputs are finalized
    - Documents the reasoning behind key recommendations for review and audit purposes
    - Flags potential compliance risks or policy violations with specific rule references
    - Maintains a version history of all outputs for regulatory and audit purposes
 
-6. **Continuous Improvement and Learning**: COCO improves outcomes over time:
+6. **Continuous Improvement and Learning**: OpenMax improves outcomes over time:
    - Tracks which recommendations were acted on and correlates with downstream outcomes
    - Identifies systematic biases or gaps in the current process
    - Recommends process improvements based on analysis of workflow bottlenecks
@@ -1812,7 +1812,7 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 
 **Measurable Results**
 
-- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with COCO assistance (85% time savings)
+- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with OpenMax assistance (85% time savings)
 - **Output quality score**: Improved from 71% accuracy on manual reviews to **96% with AI-assisted validation**
 - **Throughput capacity**: Team handles **3.4x more cases** monthly without additional headcount
 - **Error rate and rework**: Downstream errors requiring rework reduced from 18% to **under 3%**
@@ -1951,7 +1951,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Logistics face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Logistics Carrier Performance Scorecard**
 
@@ -1961,44 +1961,44 @@ The core challenge is that performance monitoring requires synthesizing large vo
 
 The downstream cost extends beyond direct labor. Delayed outputs slow downstream decisions. Inconsistent quality creates rework cycles. Missed insights lead to suboptimal resource allocation. And when teams are overwhelmed with execution, there's no bandwidth left for the proactive thinking that prevents problems before they occur — creating a reactive culture that's perpetually behind.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Intelligent Data Ingestion and Structuring**: COCO connects to relevant data sources and normalizes inputs:
+1. **Intelligent Data Ingestion and Structuring**: OpenMax connects to relevant data sources and normalizes inputs:
    - Ingests documents, spreadsheets, databases, and unstructured text simultaneously
    - Identifies key entities, metrics, and relationships across disparate data sources
    - Applies domain-specific schemas to structure raw inputs into analyzable formats
    - Flags data quality issues, missing fields, and inconsistencies before analysis begins
    - Maintains audit trails linking every output back to its source data
 
-2. **Pattern Recognition and Anomaly Detection**: COCO surfaces insights that manual review misses:
+2. **Pattern Recognition and Anomaly Detection**: OpenMax surfaces insights that manual review misses:
    - Applies statistical models to identify trends, outliers, and emerging patterns
    - Benchmarks current performance against historical baselines and industry standards
    - Detects early warning signals before they escalate into critical issues
    - Cross-references multiple data dimensions to reveal non-obvious correlations
    - Prioritizes findings by potential business impact and urgency
 
-3. **Automated Report and Document Generation**: COCO eliminates manual document production:
+3. **Automated Report and Document Generation**: OpenMax eliminates manual document production:
    - Generates structured reports following organization-specific templates and standards
    - Produces executive summaries calibrated to the appropriate audience and detail level
    - Creates supporting visualizations, tables, and data exhibits automatically
    - Maintains consistent terminology, formatting, and citation standards across all outputs
    - Drafts multiple output versions (technical detail vs. executive summary) from the same analysis
 
-4. **Workflow Automation and Task Orchestration**: COCO streamlines multi-step processes:
+4. **Workflow Automation and Task Orchestration**: OpenMax streamlines multi-step processes:
    - Breaks complex workflows into discrete, trackable steps with clear ownership
    - Automates handoffs between team members with appropriate context and instructions
    - Tracks completion status and surfaces blockers before deadlines are missed
    - Generates checklists, reminders, and escalation triggers at critical checkpoints
    - Integrates with existing tools (Slack, email, project management) to reduce context switching
 
-5. **Quality Assurance and Compliance Checking**: COCO builds quality into the process:
+5. **Quality Assurance and Compliance Checking**: OpenMax builds quality into the process:
    - Validates outputs against regulatory requirements and internal policy standards
    - Checks for completeness, consistency, and accuracy before outputs are finalized
    - Documents the reasoning behind key recommendations for review and audit purposes
    - Flags potential compliance risks or policy violations with specific rule references
    - Maintains a version history of all outputs for regulatory and audit purposes
 
-6. **Continuous Improvement and Learning**: COCO improves outcomes over time:
+6. **Continuous Improvement and Learning**: OpenMax improves outcomes over time:
    - Tracks which recommendations were acted on and correlates with downstream outcomes
    - Identifies systematic biases or gaps in the current process
    - Recommends process improvements based on analysis of workflow bottlenecks
@@ -2011,7 +2011,7 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 
 **Measurable Results**
 
-- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with COCO assistance (85% time savings)
+- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with OpenMax assistance (85% time savings)
 - **Output quality score**: Improved from 71% accuracy on manual reviews to **96% with AI-assisted validation**
 - **Throughput capacity**: Team handles **3.4x more cases** monthly without additional headcount
 - **Error rate and rework**: Downstream errors requiring rework reduced from 18% to **under 3%**
@@ -2150,7 +2150,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Logistics face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Cold Chain Integrity Monitoring Breakdowns**
 
@@ -2160,44 +2160,44 @@ The core challenge is that health monitoring requires synthesizing large volumes
 
 The downstream cost extends beyond direct labor. Delayed outputs slow downstream decisions. Inconsistent quality creates rework cycles. Missed insights lead to suboptimal resource allocation. And when teams are overwhelmed with execution, there's no bandwidth left for the proactive thinking that prevents problems before they occur — creating a reactive culture that's perpetually behind.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Intelligent Data Ingestion and Structuring**: COCO connects to relevant data sources and normalizes inputs:
+1. **Intelligent Data Ingestion and Structuring**: OpenMax connects to relevant data sources and normalizes inputs:
    - Ingests documents, spreadsheets, databases, and unstructured text simultaneously
    - Identifies key entities, metrics, and relationships across disparate data sources
    - Applies domain-specific schemas to structure raw inputs into analyzable formats
    - Flags data quality issues, missing fields, and inconsistencies before analysis begins
    - Maintains audit trails linking every output back to its source data
 
-2. **Pattern Recognition and Anomaly Detection**: COCO surfaces insights that manual review misses:
+2. **Pattern Recognition and Anomaly Detection**: OpenMax surfaces insights that manual review misses:
    - Applies statistical models to identify trends, outliers, and emerging patterns
    - Benchmarks current performance against historical baselines and industry standards
    - Detects early warning signals before they escalate into critical issues
    - Cross-references multiple data dimensions to reveal non-obvious correlations
    - Prioritizes findings by potential business impact and urgency
 
-3. **Automated Report and Document Generation**: COCO eliminates manual document production:
+3. **Automated Report and Document Generation**: OpenMax eliminates manual document production:
    - Generates structured reports following organization-specific templates and standards
    - Produces executive summaries calibrated to the appropriate audience and detail level
    - Creates supporting visualizations, tables, and data exhibits automatically
    - Maintains consistent terminology, formatting, and citation standards across all outputs
    - Drafts multiple output versions (technical detail vs. executive summary) from the same analysis
 
-4. **Workflow Automation and Task Orchestration**: COCO streamlines multi-step processes:
+4. **Workflow Automation and Task Orchestration**: OpenMax streamlines multi-step processes:
    - Breaks complex workflows into discrete, trackable steps with clear ownership
    - Automates handoffs between team members with appropriate context and instructions
    - Tracks completion status and surfaces blockers before deadlines are missed
    - Generates checklists, reminders, and escalation triggers at critical checkpoints
    - Integrates with existing tools (Slack, email, project management) to reduce context switching
 
-5. **Quality Assurance and Compliance Checking**: COCO builds quality into the process:
+5. **Quality Assurance and Compliance Checking**: OpenMax builds quality into the process:
    - Validates outputs against regulatory requirements and internal policy standards
    - Checks for completeness, consistency, and accuracy before outputs are finalized
    - Documents the reasoning behind key recommendations for review and audit purposes
    - Flags potential compliance risks or policy violations with specific rule references
    - Maintains a version history of all outputs for regulatory and audit purposes
 
-6. **Continuous Improvement and Learning**: COCO improves outcomes over time:
+6. **Continuous Improvement and Learning**: OpenMax improves outcomes over time:
    - Tracks which recommendations were acted on and correlates with downstream outcomes
    - Identifies systematic biases or gaps in the current process
    - Recommends process improvements based on analysis of workflow bottlenecks
@@ -2210,7 +2210,7 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 
 **Measurable Results**
 
-- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with COCO assistance (85% time savings)
+- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with OpenMax assistance (85% time savings)
 - **Output quality score**: Improved from 71% accuracy on manual reviews to **96% with AI-assisted validation**
 - **Throughput capacity**: Team handles **3.4x more cases** monthly without additional headcount
 - **Error rate and rework**: Downstream errors requiring rework reduced from 18% to **under 3%**
@@ -2349,7 +2349,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Logistics face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: International Shipping Cost Inefficiency**
 
@@ -2359,44 +2359,44 @@ The core challenge is that cost analysis requires synthesizing large volumes of 
 
 The downstream cost extends beyond direct labor. Delayed outputs slow downstream decisions. Inconsistent quality creates rework cycles. Missed insights lead to suboptimal resource allocation. And when teams are overwhelmed with execution, there's no bandwidth left for the proactive thinking that prevents problems before they occur — creating a reactive culture that's perpetually behind.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Intelligent Data Ingestion and Structuring**: COCO connects to relevant data sources and normalizes inputs:
+1. **Intelligent Data Ingestion and Structuring**: OpenMax connects to relevant data sources and normalizes inputs:
    - Ingests documents, spreadsheets, databases, and unstructured text simultaneously
    - Identifies key entities, metrics, and relationships across disparate data sources
    - Applies domain-specific schemas to structure raw inputs into analyzable formats
    - Flags data quality issues, missing fields, and inconsistencies before analysis begins
    - Maintains audit trails linking every output back to its source data
 
-2. **Pattern Recognition and Anomaly Detection**: COCO surfaces insights that manual review misses:
+2. **Pattern Recognition and Anomaly Detection**: OpenMax surfaces insights that manual review misses:
    - Applies statistical models to identify trends, outliers, and emerging patterns
    - Benchmarks current performance against historical baselines and industry standards
    - Detects early warning signals before they escalate into critical issues
    - Cross-references multiple data dimensions to reveal non-obvious correlations
    - Prioritizes findings by potential business impact and urgency
 
-3. **Automated Report and Document Generation**: COCO eliminates manual document production:
+3. **Automated Report and Document Generation**: OpenMax eliminates manual document production:
    - Generates structured reports following organization-specific templates and standards
    - Produces executive summaries calibrated to the appropriate audience and detail level
    - Creates supporting visualizations, tables, and data exhibits automatically
    - Maintains consistent terminology, formatting, and citation standards across all outputs
    - Drafts multiple output versions (technical detail vs. executive summary) from the same analysis
 
-4. **Workflow Automation and Task Orchestration**: COCO streamlines multi-step processes:
+4. **Workflow Automation and Task Orchestration**: OpenMax streamlines multi-step processes:
    - Breaks complex workflows into discrete, trackable steps with clear ownership
    - Automates handoffs between team members with appropriate context and instructions
    - Tracks completion status and surfaces blockers before deadlines are missed
    - Generates checklists, reminders, and escalation triggers at critical checkpoints
    - Integrates with existing tools (Slack, email, project management) to reduce context switching
 
-5. **Quality Assurance and Compliance Checking**: COCO builds quality into the process:
+5. **Quality Assurance and Compliance Checking**: OpenMax builds quality into the process:
    - Validates outputs against regulatory requirements and internal policy standards
    - Checks for completeness, consistency, and accuracy before outputs are finalized
    - Documents the reasoning behind key recommendations for review and audit purposes
    - Flags potential compliance risks or policy violations with specific rule references
    - Maintains a version history of all outputs for regulatory and audit purposes
 
-6. **Continuous Improvement and Learning**: COCO improves outcomes over time:
+6. **Continuous Improvement and Learning**: OpenMax improves outcomes over time:
    - Tracks which recommendations were acted on and correlates with downstream outcomes
    - Identifies systematic biases or gaps in the current process
    - Recommends process improvements based on analysis of workflow bottlenecks
@@ -2409,7 +2409,7 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 
 **Measurable Results**
 
-- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with COCO assistance (85% time savings)
+- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with OpenMax assistance (85% time savings)
 - **Output quality score**: Improved from 71% accuracy on manual reviews to **96% with AI-assisted validation**
 - **Throughput capacity**: Team handles **3.4x more cases** monthly without additional headcount
 - **Error rate and rework**: Downstream errors requiring rework reduced from 18% to **under 3%**
@@ -2548,7 +2548,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Logistics face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Warehouse Dock Scheduling Inefficiency**
 
@@ -2558,44 +2558,44 @@ The core challenge is that dock scheduling requires synthesizing large volumes o
 
 The downstream cost extends beyond direct labor. Delayed outputs slow downstream decisions. Inconsistent quality creates rework cycles. Missed insights lead to suboptimal resource allocation. And when teams are overwhelmed with execution, there's no bandwidth left for the proactive thinking that prevents problems before they occur — creating a reactive culture that's perpetually behind.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Intelligent Data Ingestion and Structuring**: COCO connects to relevant data sources and normalizes inputs:
+1. **Intelligent Data Ingestion and Structuring**: OpenMax connects to relevant data sources and normalizes inputs:
    - Ingests documents, spreadsheets, databases, and unstructured text simultaneously
    - Identifies key entities, metrics, and relationships across disparate data sources
    - Applies domain-specific schemas to structure raw inputs into analyzable formats
    - Flags data quality issues, missing fields, and inconsistencies before analysis begins
    - Maintains audit trails linking every output back to its source data
 
-2. **Pattern Recognition and Anomaly Detection**: COCO surfaces insights that manual review misses:
+2. **Pattern Recognition and Anomaly Detection**: OpenMax surfaces insights that manual review misses:
    - Applies statistical models to identify trends, outliers, and emerging patterns
    - Benchmarks current performance against historical baselines and industry standards
    - Detects early warning signals before they escalate into critical issues
    - Cross-references multiple data dimensions to reveal non-obvious correlations
    - Prioritizes findings by potential business impact and urgency
 
-3. **Automated Report and Document Generation**: COCO eliminates manual document production:
+3. **Automated Report and Document Generation**: OpenMax eliminates manual document production:
    - Generates structured reports following organization-specific templates and standards
    - Produces executive summaries calibrated to the appropriate audience and detail level
    - Creates supporting visualizations, tables, and data exhibits automatically
    - Maintains consistent terminology, formatting, and citation standards across all outputs
    - Drafts multiple output versions (technical detail vs. executive summary) from the same analysis
 
-4. **Workflow Automation and Task Orchestration**: COCO streamlines multi-step processes:
+4. **Workflow Automation and Task Orchestration**: OpenMax streamlines multi-step processes:
    - Breaks complex workflows into discrete, trackable steps with clear ownership
    - Automates handoffs between team members with appropriate context and instructions
    - Tracks completion status and surfaces blockers before deadlines are missed
    - Generates checklists, reminders, and escalation triggers at critical checkpoints
    - Integrates with existing tools (Slack, email, project management) to reduce context switching
 
-5. **Quality Assurance and Compliance Checking**: COCO builds quality into the process:
+5. **Quality Assurance and Compliance Checking**: OpenMax builds quality into the process:
    - Validates outputs against regulatory requirements and internal policy standards
    - Checks for completeness, consistency, and accuracy before outputs are finalized
    - Documents the reasoning behind key recommendations for review and audit purposes
    - Flags potential compliance risks or policy violations with specific rule references
    - Maintains a version history of all outputs for regulatory and audit purposes
 
-6. **Continuous Improvement and Learning**: COCO improves outcomes over time:
+6. **Continuous Improvement and Learning**: OpenMax improves outcomes over time:
    - Tracks which recommendations were acted on and correlates with downstream outcomes
    - Identifies systematic biases or gaps in the current process
    - Recommends process improvements based on analysis of workflow bottlenecks
@@ -2608,7 +2608,7 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 
 **Measurable Results**
 
-- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with COCO assistance (85% time savings)
+- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with OpenMax assistance (85% time savings)
 - **Output quality score**: Improved from 71% accuracy on manual reviews to **96% with AI-assisted validation**
 - **Throughput capacity**: Team handles **3.4x more cases** monthly without additional headcount
 - **Error rate and rework**: Downstream errors requiring rework reduced from 18% to **under 3%**
@@ -2748,7 +2748,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Eliminate the back-and-forth of booking dock appointments — schedule, confirm, and reschedule inbound shipments automatically across all carriers.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Dock Appointment Scheduling Is a Full-Time Administrative Burden**
 
@@ -2758,43 +2758,43 @@ The administrative overhead is only part of the problem. When appointments are p
 
 The downstream cost compounds: inbound delays push inventory receipts back, triggering stockout alerts, disrupting production schedules for manufacturing clients, and degrading the on-shelf availability metrics that customers measure you against. What looks like a scheduling inconvenience is actually a root cause of service failures throughout the supply chain.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Automated Appointment Request Processing**: COCO reads incoming appointment requests across channels:
+1. **Automated Appointment Request Processing**: OpenMax reads incoming appointment requests across channels:
    - Parses appointment requests from email, EDI, carrier portals, and supplier messages
    - Extracts key fields: carrier, PO number, commodity type, pallet count, estimated arrival window
    - Cross-references against open purchase orders and expected receipts to validate relevance
    - Flags discrepancies (wrong PO, unexpected commodity, quantity mismatch) before booking
    - Generates confirmation messages with dock number, time window, and check-in instructions
 
-2. **Intelligent Slot Allocation**: COCO distributes appointments to maximize dock productivity:
+2. **Intelligent Slot Allocation**: OpenMax distributes appointments to maximize dock productivity:
    - Maps available dock doors against equipment type, commodity requirements, and labor shifts
    - Distributes arrivals evenly across the operating day to prevent clustering
    - Reserves buffer time between large or complex deliveries (hazmat, oversized, temperature-controlled)
    - Enforces carrier-specific lead time rules and blackout windows
    - Automatically adjusts slot availability when dock doors go out of service
 
-3. **Proactive Rescheduling Management**: COCO handles disruptions before they cascade:
+3. **Proactive Rescheduling Management**: OpenMax handles disruptions before they cascade:
    - Monitors carrier tracking data and ETA updates against booked appointment windows
    - Alerts the scheduling team when a carrier is running more than 30 minutes late
    - Proposes alternative slots and sends rescheduling offers directly to the carrier
    - Repopulates vacated slots from a waitlist of pending appointment requests
    - Logs no-show and late-arrival patterns by carrier for performance tracking
 
-4. **Supplier and Carrier Communication Automation**: COCO handles routine communication:
+4. **Supplier and Carrier Communication Automation**: OpenMax handles routine communication:
    - Sends appointment confirmations, reminders (24h and 2h before), and check-in instructions
    - Notifies suppliers when purchase orders are past due and no appointment has been scheduled
    - Escalates critical inbound shipments (replenishment for stockout SKUs) to priority windows
    - Generates daily inbound manifests for dock staff with appointment details and special instructions
    - Creates post-appointment summaries with actual vs. scheduled arrival time and unload duration
 
-5. **Compliance and Documentation Tracking**: COCO ensures documentation is ready before trucks arrive:
+5. **Compliance and Documentation Tracking**: OpenMax ensures documentation is ready before trucks arrive:
    - Verifies that required documents (ASN, BOL, COA for food/pharma) are submitted before appointment
    - Flags appointments where documentation is missing and holds confirmation until resolved
    - Captures digital proof-of-delivery and links to the corresponding appointment record
    - Maintains a complete audit trail of all scheduling activity for compliance reporting
 
-6. **Performance Analytics and Continuous Improvement**: COCO identifies patterns to improve future scheduling:
+6. **Performance Analytics and Continuous Improvement**: OpenMax identifies patterns to improve future scheduling:
    - Tracks on-time arrival rates, no-show rates, and average unload times by carrier and commodity
    - Identifies which time slots consistently underperform and recommends reallocation
    - Benchmarks dock utilization against capacity targets and highlights waste
@@ -2888,7 +2888,7 @@ Please generate:
 
 > Catch receiving discrepancies at the dock door — not three weeks later when the supplier invoice arrives.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Quality and Quantity Exceptions at Receiving Get Lost Before Anyone Acts on Them**
 
@@ -2898,44 +2898,44 @@ The financial exposure compounds when exceptions go unresolved. Short shipments 
 
 The operational impact extends to customer service. When a short shipment isn't flagged at receiving, inventory records show stock that doesn't exist. Customer orders get allocated against that phantom stock, generating pick failures, backorders, and service failures that erode customer relationships — all traceable to a receiving exception that was never properly documented.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Structured Exception Capture at the Dock**: COCO provides a guided documentation workflow:
+1. **Structured Exception Capture at the Dock**: OpenMax provides a guided documentation workflow:
    - Presents dock staff with a mobile-friendly exception recording interface for each delivery
    - Prompts for exception type (damage, short ship, overage, substitution, wrong item, label issue)
    - Captures quantity, condition description, and photo documentation at the point of receiving
    - Links every exception to the specific PO line, carrier, and appointment record
    - Generates an immediate exception reference number for tracking and supplier communication
 
-2. **Automatic Supplier Dispute Initiation**: COCO removes the manual follow-up burden:
+2. **Automatic Supplier Dispute Initiation**: OpenMax removes the manual follow-up burden:
    - Classifies exceptions by dispute type and applicable supplier agreement terms
    - Drafts dispute notifications to suppliers with exception details, photo evidence, and resolution request
    - Tracks dispute response deadlines and escalates unacknowledged disputes at configurable intervals
    - Monitors supplier dispute resolution rates and flags suppliers with chronic exception patterns
    - Maintains a dispute log with status (open, acknowledged, resolved, escalated) for each exception
 
-3. **Inventory Record Correction**: COCO ensures WMS accuracy reflects physical reality:
+3. **Inventory Record Correction**: OpenMax ensures WMS accuracy reflects physical reality:
    - Generates WMS adjustment instructions for each confirmed exception (quantity, location, status)
    - Flags accepted-with-damage items for quality hold pending inspection
    - Identifies substituted SKUs and routes for authorization review before put-away
    - Reconciles received quantities against PO expectations and highlights systemic vendor fill-rate issues
    - Produces a daily receiving accuracy report showing exceptions by type, supplier, and value
 
-4. **Financial Exposure Quantification**: COCO makes the dollar impact visible:
+4. **Financial Exposure Quantification**: OpenMax makes the dollar impact visible:
    - Calculates the open financial exposure for all unresolved exceptions (cost of goods, freight, rework)
    - Tracks time-to-resolution for each exception and identifies disputes approaching statute of limitations
    - Summarizes monthly exception costs by supplier for sourcing team review and contract negotiation
    - Generates AP hold recommendations for invoices where receiving exceptions remain unresolved
    - Produces exception trend reports showing whether supplier quality is improving or deteriorating
 
-5. **Root Cause Analysis Support**: COCO identifies systemic patterns:
+5. **Root Cause Analysis Support**: OpenMax identifies systemic patterns:
    - Clusters exceptions by supplier, carrier, commodity type, and origin facility
    - Identifies whether damage patterns correlate with specific carriers, lanes, or packaging types
    - Highlights suppliers with fill rates below contract thresholds across multiple shipments
    - Recommends corrective actions — packaging changes, carrier substitution, supplier audits
    - Generates data packages to support supplier quality review meetings
 
-6. **Compliance and Claims Documentation**: COCO builds the audit trail needed for insurance and legal:
+6. **Compliance and Claims Documentation**: OpenMax builds the audit trail needed for insurance and legal:
    - Preserves timestamped photo evidence and exception documentation for each incident
    - Generates formal claims packages for cargo insurance submissions
    - Maintains chain-of-custody documentation for high-value or regulated commodities
@@ -3025,7 +3025,7 @@ Generate a report that includes:
 
 > Identify where your freight budget is leaking — and recover it before the next contract cycle.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Transportation Spend Is Your Largest Controllable Cost and You're Flying Blind**
 
@@ -3035,44 +3035,44 @@ The analytical complexity compounds the problem. Freight invoices contain dozens
 
 Beyond billing accuracy, organizations miss opportunities to restructure their carrier mix, shift volume between lanes to hit tier thresholds, or consolidate shipments that are currently moving as costly single-piece LTL. These optimization opportunities are visible in the data but never surfaced because analytical bandwidth is consumed by tactical execution rather than strategic analysis.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Invoice Audit and Rate Compliance Checking**: COCO validates every charge against contract terms:
+1. **Invoice Audit and Rate Compliance Checking**: OpenMax validates every charge against contract terms:
    - Compares each invoice line against contracted rates, discounts, and accessorial schedules
    - Flags billing errors: incorrect weight, wrong service level applied, duplicate charges, expired accessorials
    - Calculates the dollar variance between billed and contracted amounts for each exception
    - Prioritizes disputes by dollar value and generates dispute packages with supporting documentation
    - Tracks dispute submission, carrier response, and credit resolution timelines
 
-2. **Spend Visibility and Categorization**: COCO builds the spend picture your TMS probably doesn't show:
+2. **Spend Visibility and Categorization**: OpenMax builds the spend picture your TMS probably doesn't show:
    - Categorizes freight spend by lane, carrier, service type, business unit, and cost center
    - Separates base freight from accessorial spend to reveal true cost-per-shipment economics
    - Identifies the top 20 lanes by spend and compares actual cost against benchmark rates
    - Surfaces accessorial categories (residential delivery, address correction, liftgate) where spend is trending upward
    - Creates a freight spend dashboard updated from invoice data without manual aggregation
 
-3. **Carrier Performance vs. Cost Analysis**: COCO connects service quality to spend:
+3. **Carrier Performance vs. Cost Analysis**: OpenMax connects service quality to spend:
    - Correlates carrier on-time delivery performance against cost per shipment by lane
    - Identifies carriers where you're paying a premium but receiving below-average service
    - Benchmarks carrier cost and performance against market rates and peer data
    - Flags lanes where a single carrier dependency creates both cost and service risk
    - Generates carrier mix recommendations based on cost, service, and volume concentration analysis
 
-4. **Consolidation and Mode Optimization Opportunities**: COCO finds savings in shipment patterns:
+4. **Consolidation and Mode Optimization Opportunities**: OpenMax finds savings in shipment patterns:
    - Identifies LTL shipments moving within 24 hours on the same lane that could consolidate to TL
    - Flags parcel shipments that exceed the parcel/LTL breakeven threshold
    - Surfaces opportunities to shift to intermodal on lanes where transit time allows
    - Calculates the savings potential for each consolidation or mode shift opportunity with feasibility assessment
    - Ranks opportunities by annual savings potential to prioritize for implementation
 
-5. **Contract Rate Benchmark and Negotiation Preparation**: COCO prepares you for carrier negotiations:
+5. **Contract Rate Benchmark and Negotiation Preparation**: OpenMax prepares you for carrier negotiations:
    - Compares your current contracted rates against market benchmarks by lane and service type
    - Identifies where you're over-market (renegotiation priority) and under-market (protect in renewals)
    - Models the spend impact of rate changes at different discount levels to set negotiation targets
    - Prepares volume commitment data to support tier threshold negotiations
    - Generates negotiation briefing documents with lane-by-lane analysis and target rate recommendations
 
-6. **Budget Variance Explanation**: COCO answers the "why did freight cost more this month?" question:
+6. **Budget Variance Explanation**: OpenMax answers the "why did freight cost more this month?" question:
    - Decomposes freight spend variance into volume, rate, mix, and accessorial components
    - Identifies one-time events (weather events, carrier surcharges, demand spikes) vs. structural changes
    - Generates plain-language variance explanations suitable for finance reporting
@@ -3175,7 +3175,7 @@ Please generate:
 
 > Stop treating returns as an unavoidable cost — identify the 30% of return spend that's recoverable.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Returns Processing Is Managed as a Cost Center With No Visibility Into What's Driving It**
 
@@ -3185,43 +3185,43 @@ The bigger problem is opacity. Most organizations know their total return cost a
 
 Without visibility into these drivers, returns management becomes a cost-minimization exercise on the processing side, while the root causes — poor product quality, inaccurate descriptions, inadequate packaging, carrier mishandling — continue to generate high volumes of preventable returns.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Return Reason Code Analysis**: COCO surfaces why customers are returning goods:
+1. **Return Reason Code Analysis**: OpenMax surfaces why customers are returning goods:
    - Aggregates return reason codes across all channels (e-commerce platform, call center, retail)
    - Distinguishes avoidable returns (description mismatch, sizing issues, DOA product) from unavoidable returns (change of mind)
    - Identifies SKUs with anomalously high return rates relative to category benchmarks
    - Correlates return spikes with product launches, supplier changes, and carrier shifts
    - Generates root cause hypotheses for high-return SKUs with supporting data
 
-2. **Return Condition and Disposition Analysis**: COCO optimizes what happens to returned goods:
+2. **Return Condition and Disposition Analysis**: OpenMax optimizes what happens to returned goods:
    - Tracks return condition distribution (sellable as-new, requires repackaging, requires refurbishment, scrap) by SKU and supplier
    - Calculates recovery value under each disposition path (resell, refurb, liquidate, donate, destroy)
    - Identifies items being liquidated that meet the condition threshold for full-value resale
    - Benchmarks disposition decisions against industry recovery rates by category
    - Recommends disposition rule changes that could improve recovery value by SKU class
 
-3. **Reverse Transportation Cost Analysis**: COCO finds savings in return shipping economics:
+3. **Reverse Transportation Cost Analysis**: OpenMax finds savings in return shipping economics:
    - Analyzes return shipping cost by carrier, zone, weight, and customer return method
    - Identifies where prepaid return label costs exceed the cost of alternative return methods
    - Flags returns where transportation cost exceeds the recovery value of the item (write-off candidates)
    - Models the cost impact of return consolidation programs (e.g., hold and batch vs. immediate return)
    - Benchmarks return transportation rates against market and flags contracts due for renegotiation
 
-4. **Returns Volume Forecasting**: COCO anticipates return flows for labor and capacity planning:
+4. **Returns Volume Forecasting**: OpenMax anticipates return flows for labor and capacity planning:
    - Builds return volume forecasts by week based on forward sales, historical return lag, and seasonality
    - Calculates expected condition distribution and processing time requirements for each return cohort
    - Generates staffing recommendations for the returns processing area based on forecasted volume
    - Alerts operations planners when forecasted return volume will exceed processing capacity
    - Models the impact of promotional events and new product launches on anticipated return spikes
 
-5. **Upstream Prevention Recommendations**: COCO identifies changes that reduce return volume:
+5. **Upstream Prevention Recommendations**: OpenMax identifies changes that reduce return volume:
    - Prioritizes SKUs where enhanced product descriptions, size guides, or photography would reduce return rates
    - Flags packaging specifications that correlate with higher transit damage and return rates
    - Identifies supplier quality issues driving DOA returns — with data for supplier quality conversations
    - Calculates the ROI of preventive investments (e.g., improved packaging) against expected return reduction
 
-6. **Vendor Chargeback and Recovery Tracking**: COCO ensures supplier accountability:
+6. **Vendor Chargeback and Recovery Tracking**: OpenMax ensures supplier accountability:
    - Identifies returns attributable to supplier defects that qualify for vendor chargeback under contract terms
    - Calculates chargeback amounts and generates supporting documentation for claims
    - Tracks chargeback submission, dispute, and recovery status
@@ -3319,7 +3319,7 @@ Please generate:
 
 > Recover the 30–60% of eligible freight claims that go unfiled because the process is too time-consuming.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Freight Claims Are Filed Late, Documented Poorly, and Abandoned Before Resolution**
 
@@ -3329,44 +3329,44 @@ The claims process is genuinely painful. Filing a freight claim requires gatheri
 
 The downstream financial impact is direct. Unfiled claims are pure cost. Underdocumented claims that get denied are cost. Claims filed on time but never followed up — because the carrier acknowledged receipt but hasn't paid in 6 months — are cost. A systematic claims management program that files promptly, documents completely, and follows up relentlessly can recover 60–80% of claim value. Most organizations recover far less because the process lacks discipline.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Claim Identification and Eligibility Screening**: COCO catches claimable incidents automatically:
+1. **Claim Identification and Eligibility Screening**: OpenMax catches claimable incidents automatically:
    - Monitors receiving exception records and delivery PODs for damage notations and shortage indicators
    - Screens potential claims against carrier liability standards (released value, actual value, declared value)
    - Calculates estimated recovery potential for each incident before investing time in full documentation
    - Prioritizes claim queue by dollar value and filing deadline proximity
    - Flags incidents approaching the carrier's filing deadline to prevent deadline failures
 
-2. **Automated Claim Package Assembly**: COCO assembles the documentation:
+2. **Automated Claim Package Assembly**: OpenMax assembles the documentation:
    - Pulls required documents from connected systems (BOL from TMS, invoice from ERP, POD from carrier portal)
    - Generates the formal claim letter with required elements: shipment details, liability basis, amount claimed, supporting documents
    - Formats the claim package to meet each carrier's specific submission requirements
    - Attaches photo evidence from the receiving exception record
    - Produces a complete, submission-ready claim package in under 10 minutes per claim
 
-3. **Claim Submission and Tracking**: COCO manages the claim lifecycle:
+3. **Claim Submission and Tracking**: OpenMax manages the claim lifecycle:
    - Submits claims through carrier portals or generates email submissions with correct routing
    - Records submission date, claim number, and carrier acknowledgment for each claim
    - Tracks carrier response status and flags claims with no response within [X] days
    - Generates follow-up communications for unacknowledged or stalled claims
    - Maintains a claim register with current status (filed, acknowledged, under review, settled, denied, appealed)
 
-4. **Settlement Evaluation and Appeal Support**: COCO analyzes carrier settlement offers:
+4. **Settlement Evaluation and Appeal Support**: OpenMax analyzes carrier settlement offers:
    - Compares carrier settlement offer against claimed amount and identifies shortfall rationale
    - Assesses whether the carrier's denial or reduction basis is valid under applicable tariff rules
    - Drafts appeal letters for denials where the carrier's basis appears contestable
    - Calculates the expected recovery under appeal vs. accepting the settlement offer
    - Tracks appeal submission and response timelines
 
-5. **Carrier Claim Performance Analytics**: COCO reveals carrier behavior patterns:
+5. **Carrier Claim Performance Analytics**: OpenMax reveals carrier behavior patterns:
    - Tracks claim payment rate, average time-to-settlement, and settlement-to-claim ratio by carrier
    - Identifies carriers that systematically undersettle claims or delay payment as a practice
    - Benchmarks carrier claim performance against industry standards
    - Flags carriers with deteriorating claim performance for contract review
    - Generates claim performance data for carrier scorecards and annual negotiations
 
-6. **Financial Reporting and Recovery Tracking**: COCO quantifies the program's impact:
+6. **Financial Reporting and Recovery Tracking**: OpenMax quantifies the program's impact:
    - Tracks total claim value filed, total recovered, total denied, and total pending by period
    - Calculates claim recovery rate and benchmarks against industry average
    - Identifies the dollar impact of process improvements (e.g., faster filing, better documentation)
@@ -3463,7 +3463,7 @@ Please produce:
 
 > Replace the spreadsheet of "expected arrival dates" with live supplier lead time intelligence that actually predicts late deliveries.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Supplier Lead Times Are Commitments Made at Contracting and Rarely Monitored Afterward**
 
@@ -3473,44 +3473,44 @@ The downstream consequences of undetected lead time drift compound quickly. Inve
 
 Monitoring lead time performance manually is impractical at scale. A mid-size manufacturer may have 300–500 active supplier-SKU combinations, each with its own lead time commitment. Tracking actual lead time against commitment for each PO, identifying suppliers with systematic drift, and escalating to procurement before it affects production schedules requires a level of ongoing analytical attention that operations teams simply don't have bandwidth for.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Lead Time Performance Measurement**: COCO calculates actual vs. committed lead time for every PO:
+1. **Lead Time Performance Measurement**: OpenMax calculates actual vs. committed lead time for every PO:
    - Records the lead time commitment for each supplier-SKU combination from the supplier master
    - Measures actual lead time from PO issue date to confirmed delivery date for each purchase order
    - Calculates the variance between committed and actual lead time for each transaction
    - Builds a rolling lead time performance history by supplier, SKU, and facility
    - Flags suppliers with average actual lead time more than [X]% above commitment
 
-2. **Early Warning and Predictive Alerting**: COCO alerts planners before late deliveries materialize:
+2. **Early Warning and Predictive Alerting**: OpenMax alerts planners before late deliveries materialize:
    - Monitors open PO status and expected delivery dates against committed lead times
    - Identifies POs that are approaching their due date without confirmed shipping notification
    - Applies lead time drift patterns (supplier X is currently running 8 days late on average) to flag at-risk POs
    - Sends early warning alerts when an open PO is likely to deliver late based on historical patterns
    - Provides estimated late delivery date so planners can adjust production and replenishment schedules
 
-3. **Root Cause Classification**: COCO categorizes lead time failures:
+3. **Root Cause Classification**: OpenMax categorizes lead time failures:
    - Distinguishes supplier production delays from transportation delays from administrative errors (late PO release)
    - Identifies whether lead time failures cluster around specific commodities, suppliers, or origin regions
    - Correlates lead time failures with external events (port disruptions, raw material shortages, labor actions)
    - Generates root cause summaries for supplier performance review meetings
    - Tracks whether corrective actions result in measurable improvement
 
-4. **Planning System Feedback**: COCO keeps lead time parameters accurate in planning systems:
+4. **Planning System Feedback**: OpenMax keeps lead time parameters accurate in planning systems:
    - Calculates statistically reliable lead time estimates (mean, 90th percentile) based on recent actuals
    - Recommends updated lead time parameters for replenishment system inputs by supplier and SKU
    - Identifies SKUs where lead time variability requires additional safety stock buffer
    - Generates updated reorder point recommendations based on revised lead time assumptions
    - Flags where current inventory policy is insufficient given actual (vs. contracted) lead times
 
-5. **Supplier Accountability and Corrective Action**: COCO enables data-driven supplier conversations:
+5. **Supplier Accountability and Corrective Action**: OpenMax enables data-driven supplier conversations:
    - Generates lead time performance summaries by supplier for quarterly business reviews
    - Calculates the cost impact of lead time failures (expedited freight, lost sales, safety stock inflation)
    - Drafts corrective action requests with performance data, business impact, and improvement targets
    - Tracks supplier corrective action commitments and measures subsequent performance improvement
    - Supports contract renegotiation with documented lead time performance history
 
-6. **Market Lead Time Benchmarking**: COCO contextualizes supplier performance:
+6. **Market Lead Time Benchmarking**: OpenMax contextualizes supplier performance:
    - Benchmarks supplier lead times against industry norms for the commodity category
    - Identifies where suppliers are delivering lead times significantly longer than market alternatives
    - Flags strategic supply dependencies where lead time risk is high and alternatives are limited
@@ -3607,7 +3607,7 @@ Please generate:
 
 > Identify which truckload lanes can move to rail — and quantify the cost and carbon savings before you pitch it to the business.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Intermodal Is Underutilized Because the Analysis to Justify Each Lane Shift Is Too Time-Consuming**
 
@@ -3617,44 +3617,44 @@ The evaluation complexity is real. Intermodal is not a simple rate substitution 
 
 Beyond the analysis challenge, most organizations don't have a systematic process for monitoring their truckload lane portfolio for new intermodal opportunities as rail rates, service improvements, and their own freight patterns evolve. Opportunities that weren't viable two years ago may be viable today, but without regular analysis no one identifies the shift.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Lane Portfolio Screening**: COCO identifies intermodal candidates from your lane data:
+1. **Lane Portfolio Screening**: OpenMax identifies intermodal candidates from your lane data:
    - Screens the truckload lane portfolio for lanes meeting minimum distance and volume thresholds for intermodal
    - Maps each candidate lane against intermodal ramp locations and calculates dray distance and cost
    - Filters out lanes where receiver/shipper constraints (operating hours, dock equipment) would prevent intermodal
    - Ranks candidate lanes by annual spend and estimated savings potential
    - Produces a prioritized list of lanes to evaluate in depth, eliminating lanes that fail the initial screen
 
-2. **Comprehensive Lane Economics Analysis**: COCO builds the full cost comparison:
+2. **Comprehensive Lane Economics Analysis**: OpenMax builds the full cost comparison:
    - Calculates total intermodal cost: linehaul rate + origin dray + destination dray + intermodal fuel surcharge
    - Compares against current OTR rate for equivalent volume on the same lane
    - Adjusts for transit time difference: calculates inventory carrying cost impact of extended transit
    - Models volume consolidation requirements for committed intermodal blocks vs. spot intermodal
    - Produces a net savings figure that accounts for all cost components, not just linehaul rate
 
-3. **Service Reliability Assessment**: COCO quantifies service risk alongside cost:
+3. **Service Reliability Assessment**: OpenMax quantifies service risk alongside cost:
    - Pulls historical on-time performance data for each intermodal corridor
    - Calculates the frequency and magnitude of transit time variability on candidate lanes
    - Assesses the business impact of transit variability given the receiver's inventory policy and service requirements
    - Identifies lanes where transit variability risk outweighs the cost savings
    - Recommends safety stock adjustments required to maintain service levels under intermodal transit variability
 
-4. **Carbon Footprint Reduction Quantification**: COCO builds the sustainability case:
+4. **Carbon Footprint Reduction Quantification**: OpenMax builds the sustainability case:
    - Calculates the CO2 reduction from each lane shift using EPA FLEET methodology
    - Aggregates carbon savings across the proposed intermodal portfolio
    - Generates Scope 3 emissions reduction data for ESG reporting
    - Quantifies carbon credit value where applicable
    - Produces a sustainability impact summary suitable for ESG disclosures and executive presentations
 
-5. **Implementation Planning**: COCO defines the path from analysis to execution:
+5. **Implementation Planning**: OpenMax defines the path from analysis to execution:
    - Identifies required operational changes at origin and destination (ramp appointment processes, dray carrier setup)
    - Develops a phased implementation sequence starting with the highest-confidence lanes
    - Generates a timeline with carrier negotiation, pilot, and ramp-up milestones
    - Anticipates operational objections and prepares responses with supporting data
    - Creates a 90-day pilot plan for the first lane with measurement criteria for scale decision
 
-6. **Ongoing Portfolio Monitoring**: COCO maintains the analysis over time:
+6. **Ongoing Portfolio Monitoring**: OpenMax maintains the analysis over time:
    - Re-screens the lane portfolio quarterly as rates, volumes, and rail service evolve
    - Tracks actual performance (cost, transit time, service incidents) on lanes already shifted to intermodal
    - Alerts when a currently-intermodal lane is no longer economical relative to current OTR rates
@@ -3774,7 +3774,7 @@ Please generate a business case document including:
 
 > Aggregates shipment data, on-time delivery rates, damage claims, and cost metrics to produce carrier scorecards — identifying which carriers to retain, renegotiate, or replace.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Carrier Management Decisions Are Made Without Systematic Performance Data**
 
@@ -3782,13 +3782,13 @@ Most logistics teams manage 5–15 active carrier relationships and make routing
 
 Without systematic carrier scorecards, poor-performing carriers are retained because relationships are easier to maintain than to replace. High-performing carriers don't receive the volume increases that would deepen the relationship and improve negotiating leverage. Carrier contract renewals happen on the carrier's timeline and terms because the shipper lacks the performance evidence to negotiate from a position of strength.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Multi-Source Data Aggregation**: COCO pulls shipment records, POD scans, claims history, and invoice data from TMS and ERP systems to build a consolidated carrier performance database.
-2. **KPI Calculation and Trending**: COCO calculates on-time delivery rate, damage rate, claims resolution time, accessorial frequency, and cost-per-mile trends for each carrier by lane and service type.
-3. **Scorecard Generation**: COCO builds structured carrier scorecards with performance ratings, trend indicators, and peer benchmarks for quarterly business reviews.
-4. **Volume Allocation Recommendations**: COCO recommends volume allocation changes based on carrier performance — increasing share to high performers and reducing exposure to chronic underperformers.
-5. **Negotiation Brief Preparation**: COCO generates carrier negotiation briefs with performance data, market benchmarks, and recommended contractual terms for upcoming renewals.
+1. **Multi-Source Data Aggregation**: OpenMax pulls shipment records, POD scans, claims history, and invoice data from TMS and ERP systems to build a consolidated carrier performance database.
+2. **KPI Calculation and Trending**: OpenMax calculates on-time delivery rate, damage rate, claims resolution time, accessorial frequency, and cost-per-mile trends for each carrier by lane and service type.
+3. **Scorecard Generation**: OpenMax builds structured carrier scorecards with performance ratings, trend indicators, and peer benchmarks for quarterly business reviews.
+4. **Volume Allocation Recommendations**: OpenMax recommends volume allocation changes based on carrier performance — increasing share to high performers and reducing exposure to chronic underperformers.
+5. **Negotiation Brief Preparation**: OpenMax generates carrier negotiation briefs with performance data, market benchmarks, and recommended contractual terms for upcoming renewals.
 
 :::
 
@@ -3886,7 +3886,7 @@ Analyze:
 
 > Analyzes inbound freight invoices against purchase orders, contracted rates, and delivery terms to identify overcharges, rate deviations, and cost reduction opportunities.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Inbound Freight Costs Are Poorly Controlled and Systematically Overcharged**
 
@@ -3894,13 +3894,13 @@ Inbound freight — transportation charges incurred on supplier shipments — re
 
 Invoice auditing for inbound freight is even less systematic than for outbound. Freight invoices are processed by accounts payable based on amounts submitted, without systematic comparison to contracted rates or delivery terms. Rate errors, duplicate billings, and unauthorized accessorial charges accumulate undetected.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Invoice vs. Contract Rate Comparison**: COCO matches each freight invoice line against contracted rate tariffs and flags deviations above a configurable threshold.
-2. **Delivery Terms Audit**: COCO identifies shipments billed under prepaid terms where collect terms would have applied the buyer's lower rates, and flags where suppliers changed delivery terms without authorization.
-3. **Accessorial Charge Audit**: COCO reviews accessorial charges (fuel surcharge, liftgate, inside delivery, detention) against contracted terms and industry norms, flagging overbilling.
-4. **Carrier Selection Analysis**: COCO compares supplier-selected carrier rates against the buyer's preferred carrier rates for the same lanes, quantifying the cost of carrier non-compliance.
-5. **Recovery Claim Generation**: COCO drafts freight invoice dispute letters and recovery claim documentation for overcharges identified in the audit.
+1. **Invoice vs. Contract Rate Comparison**: OpenMax matches each freight invoice line against contracted rate tariffs and flags deviations above a configurable threshold.
+2. **Delivery Terms Audit**: OpenMax identifies shipments billed under prepaid terms where collect terms would have applied the buyer's lower rates, and flags where suppliers changed delivery terms without authorization.
+3. **Accessorial Charge Audit**: OpenMax reviews accessorial charges (fuel surcharge, liftgate, inside delivery, detention) against contracted terms and industry norms, flagging overbilling.
+4. **Carrier Selection Analysis**: OpenMax compares supplier-selected carrier rates against the buyer's preferred carrier rates for the same lanes, quantifying the cost of carrier non-compliance.
+5. **Recovery Claim Generation**: OpenMax drafts freight invoice dispute letters and recovery claim documentation for overcharges identified in the audit.
 
 :::
 
@@ -3996,7 +3996,7 @@ Draft a formal dispute letter that:
 
 > Monitors temperature data from cold chain shipments, identifies excursion events, generates compliance reports, and coordinates investigation and disposition of affected inventory.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Temperature Excursions in Cold Chain Shipments Are Discovered Too Late**
 
@@ -4004,13 +4004,13 @@ Cold chain integrity is critical for food, pharmaceutical, biotech, and specialt
 
 Regulatory requirements for cold chain documentation are also increasing. FDA, EU GMP, and food safety standards require complete temperature chain-of-custody documentation for audits and investigations. Manual documentation processes that rely on paper logs and periodic data downloads create documentation gaps and audit vulnerabilities.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Real-Time Excursion Alerting**: COCO monitors temperature logger data and triggers alerts when temperature thresholds are exceeded — enabling intervention during transit rather than at delivery.
-2. **Excursion Investigation Report**: COCO generates structured excursion investigation reports documenting the duration, magnitude, and location of the excursion with supporting sensor data.
-3. **Disposition Recommendation**: COCO applies product-specific stability data and regulatory guidelines to generate evidence-based disposition recommendations for excursed product.
-4. **Chain-of-Custody Documentation**: COCO compiles complete temperature chain-of-custody documentation from multiple data sources for regulatory submissions and audits.
-5. **Carrier Responsibility Analysis**: COCO determines whether excursions occurred during carrier custody and generates carrier notification and claims documentation.
+1. **Real-Time Excursion Alerting**: OpenMax monitors temperature logger data and triggers alerts when temperature thresholds are exceeded — enabling intervention during transit rather than at delivery.
+2. **Excursion Investigation Report**: OpenMax generates structured excursion investigation reports documenting the duration, magnitude, and location of the excursion with supporting sensor data.
+3. **Disposition Recommendation**: OpenMax applies product-specific stability data and regulatory guidelines to generate evidence-based disposition recommendations for excursed product.
+4. **Chain-of-Custody Documentation**: OpenMax compiles complete temperature chain-of-custody documentation from multiple data sources for regulatory submissions and audits.
+5. **Carrier Responsibility Analysis**: OpenMax determines whether excursions occurred during carrier custody and generates carrier notification and claims documentation.
 
 :::
 

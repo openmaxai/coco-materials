@@ -1,10 +1,10 @@
 # Zalo — Usage Tips
 
-Use your COCO AI employee on Zalo, Vietnam's most popular messaging platform with over 75 million users.
+Use your OpenMax AI employee on Zalo, Vietnam's most popular messaging platform with over 75 million users.
 
 ## Zalo (Official) vs Zalo Personal (Unofficial)
 
-COCO supports two ways to connect to Zalo. Choose the one that fits your needs:
+OpenMax supports two ways to connect to Zalo. Choose the one that fits your needs:
 
 | | Zalo (Official) | Zalo Personal (Unofficial) |
 |---|---|---|
@@ -92,7 +92,7 @@ Zalo Personal uses an unofficial protocol, so connections may occasionally drop.
 
 | Issue | Solution |
 |-------|----------|
-| Bot not responding (Official) | Verify the Bot Token is correct. Check the connection status in COCO Dashboard |
+| Bot not responding (Official) | Verify the Bot Token is correct. Check the connection status in OpenMax Dashboard |
 | Bot not responding (Personal) | Ask your AI employee to reconnect — the session may have expired |
 | Others can't message the bot | By default only the Owner can chat. Enable Allowlist or Open mode |
 | Account warning (Personal only) | Stop using the unofficial integration and switch to [Zalo (Official)](#zalo-official-usage) |

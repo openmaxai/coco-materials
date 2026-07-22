@@ -1,11 +1,11 @@
 ---
 layout: page
-title: "AI Customer Service Email Automation: Scan, Classify, Draft, Review | COCO"
+title: "AI Customer Service Email Automation: Scan, Classify, Draft, Review | OpenMax"
 description: "AI Agent monitors inboxes every 10 minutes, classifies emails, filters noise, sends instant alerts, and drafts replies — with mandatory human review before sending. A real-world human-AI collaboration case study for enterprise email management."
 head:
   - - meta
     - property: og:title
-      content: "AI Customer Service Email Automation: Scan, Classify, Draft, Review | COCO"
+      content: "AI Customer Service Email Automation: Scan, Classify, Draft, Review | OpenMax"
   - - meta
     - property: og:description
       content: "AI Agent scans inboxes every 10 minutes, classifies and drafts replies — humans review before sending. Real enterprise email automation case study."
@@ -876,9 +876,9 @@ head:
 
 Customer service email management sits at an uncomfortable intersection for most businesses: the volume of incoming messages is too high for manual monitoring to be reliable, but the stakes of each individual message are too high to hand off entirely to automation without oversight. Marketing platforms can handle bulk email campaigns. Support ticketing systems can route and track issues. But the gap between "email arrives" and "appropriate human makes a decision about it" is where customer relationships are won or lost — and where most small teams struggle.
 
-COCO AI's email automation addresses this gap by treating email management as a two-part problem: monitoring (which can be fully automated) and response quality (which requires human judgment). The AI digital employee owns the monitoring layer completely — it checks the inbox every 10 minutes around the clock, applies intelligent classification to filter out noise, and surfaces only real customer communications as immediate alerts. The human layer owns the response decision — the AI provides a high-quality draft, but nothing goes out without explicit approval. This division of labor is not a compromise; it's the correct architecture for a workflow where speed matters but quality cannot be sacrificed.
+OpenMax AI's email automation addresses this gap by treating email management as a two-part problem: monitoring (which can be fully automated) and response quality (which requires human judgment). The AI digital employee owns the monitoring layer completely — it checks the inbox every 10 minutes around the clock, applies intelligent classification to filter out noise, and surfaces only real customer communications as immediate alerts. The human layer owns the response decision — the AI provides a high-quality draft, but nothing goes out without explicit approval. This division of labor is not a compromise; it's the correct architecture for a workflow where speed matters but quality cannot be sacrificed.
 
-From the moment a customer sends an email to the moment COCO sends a reply — fully automated, with human approval at every send decision.
+From the moment a customer sends an email to the moment OpenMax sends a reply — fully automated, with human approval at every send decision.
 
 <div class="sop-timeline">
   <div class="sop-item">
@@ -917,9 +917,9 @@ From the moment a customer sends an email to the moment COCO sends a reply — f
 
 ## The Design <em>Principles</em>
 
-Every technical decision in the COCO email automation system reflects a deliberate design philosophy: AI should handle the work that can be fully specified (monitoring frequency, classification logic, draft generation), and humans should handle the work that requires judgment (is this reply appropriate given what I know about this customer's history? does this wording represent our brand?). The four principles below are not features — they're architectural commitments that determine where the boundary between AI execution and human oversight sits, and why it sits there.
+Every technical decision in the OpenMax email automation system reflects a deliberate design philosophy: AI should handle the work that can be fully specified (monitoring frequency, classification logic, draft generation), and humans should handle the work that requires judgment (is this reply appropriate given what I know about this customer's history? does this wording represent our brand?). The four principles below are not features — they're architectural commitments that determine where the boundary between AI execution and human oversight sits, and why it sits there.
 
-The hard gate on human approval deserves particular emphasis. Many email automation systems offer an "auto-respond" mode that sends replies without human review when the AI's confidence is above a threshold. COCO AI does not offer this mode, and the COCO team has deliberately chosen not to use it even where it might be technically feasible. The reasoning: a single inappropriate automated reply can damage a customer relationship in ways that take months to repair. The cost of 2 minutes of human review per email is substantially lower than the cost of one bad automated response per hundred emails. Speed matters less than trust.
+The hard gate on human approval deserves particular emphasis. Many email automation systems offer an "auto-respond" mode that sends replies without human review when the AI's confidence is above a threshold. OpenMax AI does not offer this mode, and the OpenMax team has deliberately chosen not to use it even where it might be technically feasible. The reasoning: a single inappropriate automated reply can damage a customer relationship in ways that take months to repair. The cost of 2 minutes of human review per email is substantially lower than the cost of one bad automated response per hundred emails. Speed matters less than trust.
 
 <div class="workflow-section">
   <div class="workflow-block marketing">
@@ -962,7 +962,7 @@ The hard gate on human approval deserves particular emphasis. Many email automat
 
 ## <em>Live System</em> Metrics
 
-The performance metrics below reflect actual production data from COCO AI's own customer service operation. The system has been running continuously since March 2026, processing all incoming emails to service@icoco.ai. The most significant operational finding is not the efficiency gains — it's the reliability. Manual inbox monitoring, even by a diligent team member, is subject to vacation schedules, sick days, meeting schedules, and late-night gaps. The 10-minute scan cycle doesn't have any of these constraints. Every customer email that has arrived at service@icoco.ai since March 2026 has been acknowledged and handled — none have fallen through the cracks.
+The performance metrics below reflect actual production data from OpenMax AI's own customer service operation. The system has been running continuously since March 2026, processing all incoming emails to service@icoco.ai. The most significant operational finding is not the efficiency gains — it's the reliability. Manual inbox monitoring, even by a diligent team member, is subject to vacation schedules, sick days, meeting schedules, and late-night gaps. The 10-minute scan cycle doesn't have any of these constraints. Every customer email that has arrived at service@icoco.ai since March 2026 has been acknowledged and handled — none have fallen through the cracks.
 
 The 80% AI draft adoption rate reflects a secondary benefit that wasn't anticipated at deployment: the process of reviewing a high-quality AI draft is faster than starting a reply from scratch, even when the final reply is substantially edited. The AI's draft provides structure, addresses the customer's core concerns, and suggests appropriate tone — the human's review time is spent refining and adding relationship context, not composing from a blank page.
 
@@ -1035,9 +1035,9 @@ Running in production since March 2026.
 
 ## Frequently Asked Questions
 
-### Q: Which email providers does the COCO AI email automation system support?
+### Q: Which email providers does the OpenMax AI email automation system support?
 
-The COCO AI email monitoring system supports any email provider that offers IMAP access, which covers the vast majority of business email setups including Google Workspace (Gmail), Microsoft 365 (Outlook), and most enterprise mail servers. Configuration requires an app password or OAuth credential for the monitored inbox — the setup process typically takes under 30 minutes. Notification delivery is via the team's existing communication platform (Lark, Slack, or other supported channels), so the monitoring output integrates directly into existing workflows rather than adding a new tool to manage.
+The OpenMax AI email monitoring system supports any email provider that offers IMAP access, which covers the vast majority of business email setups including Google Workspace (Gmail), Microsoft 365 (Outlook), and most enterprise mail servers. Configuration requires an app password or OAuth credential for the monitored inbox — the setup process typically takes under 30 minutes. Notification delivery is via the team's existing communication platform (Lark, Slack, or other supported channels), so the monitoring output integrates directly into existing workflows rather than adding a new tool to manage.
 
 ### Q: How does the AI classify emails accurately enough to avoid missing real customer messages?
 
@@ -1053,7 +1053,7 @@ The 10-minute scan cycle runs continuously regardless of time zone, date, or tea
 
 ### Q: Can the email automation handle scenarios beyond customer service replies, like lead qualification or invoice follow-ups?
 
-Yes — the same underlying architecture (monitor, classify, alert, draft, approve, send) applies to other email workflow scenarios with different classification rules and draft templates. Common extensions include lead qualification (flag inbound sales inquiries, draft qualification responses), invoice follow-up (detect payment-related emails, draft appropriate payment status responses), and vendor communication (route supplier emails to the relevant team member with context). Each scenario requires configuring the appropriate classification criteria and draft generation guidelines, but the core monitoring and approval infrastructure is the same. COCO AI's enterprise onboarding team supports custom scenario configuration beyond the standard customer service template.
+Yes — the same underlying architecture (monitor, classify, alert, draft, approve, send) applies to other email workflow scenarios with different classification rules and draft templates. Common extensions include lead qualification (flag inbound sales inquiries, draft qualification responses), invoice follow-up (detect payment-related emails, draft appropriate payment status responses), and vendor communication (route supplier emails to the relevant team member with context). Each scenario requires configuring the appropriate classification criteria and draft generation guidelines, but the core monitoring and approval infrastructure is the same. OpenMax AI's enterprise onboarding team supports custom scenario configuration beyond the standard customer service template.
 
 ### Q: How many steps does it take to get the email automation system running?
 
@@ -1064,7 +1064,7 @@ The standard setup process involves five steps: (1) provide the email credential
 <div class="blog-meta">
   <div class="blog-meta-item">
     <span class="blog-meta-label">Written by</span>
-    <span class="blog-meta-value">COCO Team</span>
+    <span class="blog-meta-value">OpenMax Team</span>
   </div>
   <div class="blog-meta-item">
     <span class="blog-meta-label">Published on</span>
@@ -1076,7 +1076,7 @@ The standard setup process involves five steps: (1) provide the email credential
   <div class="case-cta">
     <h2>Let AI Guard Your Inbox</h2>
     <p>Every user email caught. Every reply quality-checked by you.</p>
-    <a href="https://icoco.ai" class="cta-btn">Try COCO Free</a>
+    <a href="https://icoco.ai" class="cta-btn">Try OpenMax Free</a>
   </div>
 </div>
 
@@ -1096,7 +1096,7 @@ The standard setup process involves five steps: (1) provide the email credential
       <div class="blog-related-card-img">📊</div>
       <div class="blog-related-card-body">
         <div class="blog-related-card-label">AI Agent Case Study</div>
-        <div class="blog-related-card-title">COCO CRM — Built by AI, Run by AI</div>
+        <div class="blog-related-card-title">OpenMax CRM — Built by AI, Run by AI</div>
         <div class="blog-related-card-desc">A complete CRM system designed, built, and operated daily by an AI Agent.</div>
       </div>
     </a>

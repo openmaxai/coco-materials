@@ -1,11 +1,11 @@
 ---
 layout: page
-title: "7 AI Agents in Parallel: How a 3-Person Team Gets 10x Output | COCO"
-description: "HxA built a 7-agent AI team with COCO — Coordinator, Frontend, Backend, DevOps, UI/UX, and Copywriter Agents working in parallel. A 3-4 person team delivers 10x output, from idea to live website in 20 minutes. Multi-agent enterprise AI automation case study."
+title: "7 AI Agents in Parallel: How a 3-Person Team Gets 10x Output | OpenMax"
+description: "HxA built a 7-agent AI team with OpenMax — Coordinator, Frontend, Backend, DevOps, UI/UX, and Copywriter Agents working in parallel. A 3-4 person team delivers 10x output, from idea to live website in 20 minutes. Multi-agent enterprise AI automation case study."
 head:
   - - meta
     - property: og:title
-      content: "7 AI Agents in Parallel: How a 3-Person Team Gets 10x Output | COCO"
+      content: "7 AI Agents in Parallel: How a 3-Person Team Gets 10x Output | OpenMax"
   - - meta
     - property: og:description
       content: "7 specialized AI Agents run in parallel — from idea to live website in 20 minutes. Multi-agent enterprise automation case study."
@@ -868,7 +868,7 @@ head:
     <span class="po-icon">🔧</span>
     <div class="po-content">
       <span class="po-label">Core Stack</span>
-      <span class="po-value">COCO + HXA Connect</span>
+      <span class="po-value">OpenMax + HXA Connect</span>
     </div>
   </div>
   <div class="po-field">
@@ -1055,7 +1055,7 @@ The real shift is from one person using AI to one person managing an AI team.
 <div class="case-section">
 
 <div class="case-quote">
-  <p>The bottleneck isn't AI capability. It's my own capacity to direct the team. The bottleneck is me. — Kevin He, Founder, COCO.xyz</p>
+  <p>The bottleneck isn't AI capability. It's my own capacity to direct the team. The bottleneck is me. — Kevin He, Founder, OpenMax</p>
 </div>
 
 </div>
@@ -1105,7 +1105,7 @@ Visit icoco.ai to start a free trial. Describe your team structure and workflows
 <div class="blog-meta">
   <div class="blog-meta-item">
     <span class="blog-meta-label">Written by</span>
-    <span class="blog-meta-value">COCO Team</span>
+    <span class="blog-meta-value">OpenMax Team</span>
   </div>
   <div class="blog-meta-item">
     <span class="blog-meta-label">Published on</span>
@@ -1117,7 +1117,7 @@ Visit icoco.ai to start a free trial. Describe your team structure and workflows
   <div class="case-cta">
     <h2>Start with one AI employee, then scale into a team.</h2>
     <p>You set the direction. A manageable AI team handles execution.</p>
-    <a href="https://icoco.ai" class="cta-btn">Try COCO Free</a>
+    <a href="https://icoco.ai" class="cta-btn">Try OpenMax Free</a>
   </div>
 </div>
 
@@ -1129,7 +1129,7 @@ Visit icoco.ai to start a free trial. Describe your team structure and workflows
       <div class="blog-related-card-img">📊</div>
       <div class="blog-related-card-body">
         <div class="blog-related-card-label">AI Agent Case Study</div>
-        <div class="blog-related-card-title">COCO CRM — Built by AI, Run by AI</div>
+        <div class="blog-related-card-title">OpenMax CRM — Built by AI, Run by AI</div>
         <div class="blog-related-card-desc">A complete CRM system designed, built, and operated daily by an AI agent.</div>
       </div>
     </a>

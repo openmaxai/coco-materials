@@ -6,7 +6,7 @@ AI-powered use cases for designers and creative professionals.
 
 > Reduces brand compliance audit cycle from 3 weeks to 4 hours — catching 97%+ of violations automatically.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Brand Inconsistency Is Silent Revenue Leakage**
 
@@ -16,11 +16,11 @@ The audit process itself is the core bottleneck. A typical enterprise brand audi
 
 The problem compounds with scale. When 50+ stakeholders across marketing, product, sales, and regional teams are producing assets, enforcing standards through ad-hoc Slack reminders and style guide PDFs is structurally impossible. The style guide itself becomes outdated as the brand evolves, and there's no system to propagate changes or check for compliance after updates.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Brand Asset Consistency Auditor transforms brand governance from a reactive manual process into an automated, continuous compliance system.
+OpenMax's AI Brand Asset Consistency Auditor transforms brand governance from a reactive manual process into an automated, continuous compliance system.
 
-1. **Brand Standards Ingestion**: COCO absorbs the complete brand ruleset:
+1. **Brand Standards Ingestion**: OpenMax absorbs the complete brand ruleset:
    - Primary, secondary, and tertiary color codes (HEX/RGB/CMYK/Pantone)
    - Typography hierarchy (typefaces, weights, sizes, line-height ratios)
    - Logo usage rules (minimum sizes, clear space, forbidden backgrounds, prohibited modifications)
@@ -28,33 +28,33 @@ COCO's AI Brand Asset Consistency Auditor transforms brand governance from a rea
    - Tone-of-voice guidelines and prohibited phrases
    - Approved imagery style parameters (photography, illustration, iconography)
 
-2. **Asset Inventory Analysis**: Given a batch of assets (images, PDFs, screenshots, Figma exports), COCO:
+2. **Asset Inventory Analysis**: Given a batch of assets (images, PDFs, screenshots, Figma exports), OpenMax:
    - Extracts color values from every significant element
    - Identifies fonts in use and compares against approved typeface list
    - Checks logo placement, size, and surrounding clear space
    - Detects unauthorized modifications (stretched logos, recolored marks)
    - Flags layout patterns that deviate from grid specifications
 
-3. **Violation Classification and Severity Scoring**: COCO doesn't just flag — it prioritizes:
+3. **Violation Classification and Severity Scoring**: OpenMax doesn't just flag — it prioritizes:
    - **Critical**: Logo misuse, off-brand colors in hero elements, unauthorized font families
    - **Major**: Inconsistent button styles, incorrect heading hierarchy, spacing violations
    - **Minor**: Subtle color drift (within tolerance but trending), typography size inconsistencies
    - Each violation includes screenshot coordinates, rule reference, and remediation suggestion
 
-4. **Automated Audit Report Generation**: COCO produces a structured compliance report:
+4. **Automated Audit Report Generation**: OpenMax produces a structured compliance report:
    - Executive summary with overall compliance score (0-100)
    - Asset-by-asset breakdown with violation counts by severity
    - Heat map of most common violation types
    - Comparison against previous audit to show trend
    - Prioritized fix list sorted by business impact (customer-facing > internal)
 
-5. **Style Guide Gap Detection**: COCO identifies where the style guide itself is ambiguous or incomplete:
+5. **Style Guide Gap Detection**: OpenMax identifies where the style guide itself is ambiguous or incomplete:
    - Rules that are applied inconsistently (suggesting unclear guidance)
    - New use cases not covered by existing guidelines (dark mode, mobile-first, co-branding)
    - Conflicting rules that create interpretation disputes across teams
    - Produces a list of recommended style guide additions
 
-6. **Ongoing Compliance Monitoring**: At scale, COCO enables continuous governance:
+6. **Ongoing Compliance Monitoring**: At scale, OpenMax enables continuous governance:
    - Automated weekly or monthly audits on a defined asset folder
    - Alerts when new asset uploads contain violations before they reach production
    - Brand change propagation: when guidelines update, auto-identify all assets needing refresh
@@ -68,7 +68,7 @@ COCO's AI Brand Asset Consistency Auditor transforms brand governance from a rea
 
 - **Audit cycle time**: From 3 weeks manual review to **4 hours automated scan** (95% reduction)
 - **Brand compliance score**: From 61% baseline to **89% within 2 quarters** of implementation
-- **Violation detection rate**: Manual audits caught 34% of violations; COCO catches **97%+**
+- **Violation detection rate**: Manual audits caught 34% of violations; OpenMax catches **97%+**
 - **Designer time reclaimed**: 28–40 hours per quarter freed from audit work, **reinvested in creation**
 - **Time-to-fix**: Average violation remediation from 12 days to **2 days** (fix prioritization effect)
 
@@ -197,7 +197,7 @@ Make it clear, practical, and scannable — the agency PM and designers should b
 
 > Cuts design system drift detection from quarterly manual reviews to **continuous automated monitoring** — catching 94% of component violations before they ship.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Design System Entropy Is the Quiet Death of Product Consistency**
 
@@ -207,45 +207,45 @@ The cost isn't just aesthetic. Inconsistent components mean inconsistent behavio
 
 Manual audits don't scale. A design system team of 3-5 people cannot monitor hundreds of screens across dozens of product surfaces. They rely on engineers and designers to self-report deviations — which rarely happens. Quarterly "component health checks" catch only the most obvious violations, weeks after they've already shipped to production and become entrenched in the codebase.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Design System Component Auditor turns design system governance from a periodic manual exercise into continuous, automated compliance enforcement.
+OpenMax's AI Design System Component Auditor turns design system governance from a periodic manual exercise into continuous, automated compliance enforcement.
 
-1. **Component Specification Ingestion**: COCO absorbs the full design system definition:
+1. **Component Specification Ingestion**: OpenMax absorbs the full design system definition:
    - Component taxonomy (atoms, molecules, organisms) with naming conventions
    - Property specifications per component (size variants, color tokens, padding values, border radii)
    - Usage rules and constraints (where each component should and should not be used)
    - Composition rules (which components can nest inside which)
    - Deprecated components and their approved replacements
 
-2. **Implementation Scanning and Matching**: COCO analyzes production screens or Figma files against the canonical system:
+2. **Implementation Scanning and Matching**: OpenMax analyzes production screens or Figma files against the canonical system:
    - Identifies every component instance on a given screen
    - Matches each instance to its closest canonical component definition
    - Detects property deviations (wrong color token, non-standard padding, missing state variants)
    - Flags fully detached or unrecognized components that exist outside the system
    - Maps component usage patterns to identify where unofficial variants have emerged
 
-3. **Drift Classification and Impact Assessment**: COCO categorizes each deviation by severity and blast radius:
+3. **Drift Classification and Impact Assessment**: OpenMax categorizes each deviation by severity and blast radius:
    - **Critical**: Component behaves differently than canonical version (broken interactions, missing accessible states)
    - **High**: Visual deviation on customer-facing surfaces (wrong tokens, custom overrides)
    - **Medium**: Internal tool deviations or minor property mismatches
    - **Low**: Cosmetic drift within acceptable tolerance thresholds
    - Each violation includes the specific property, expected value, actual value, and screen location
 
-4. **Automated Compliance Dashboard**: COCO generates a living health report for the design system:
+4. **Automated Compliance Dashboard**: OpenMax generates a living health report for the design system:
    - Overall adoption score by product area (percentage of screens using canonical components)
    - Component-level compliance rates (which components have the most drift)
    - Trend analysis showing drift acceleration or deceleration over time
    - Top violating teams or product surfaces with specific examples
    - Estimated engineering hours to remediate current drift backlog
 
-5. **Variant Rationalization Recommendations**: COCO identifies opportunities to consolidate unofficial variants:
+5. **Variant Rationalization Recommendations**: OpenMax identifies opportunities to consolidate unofficial variants:
    - Clusters similar custom components that could be unified into a new canonical variant
    - Detects patterns where the same override appears across multiple teams (signals a missing system feature)
    - Proposes design system additions based on actual usage patterns rather than theoretical needs
    - Calculates adoption probability for proposed new variants based on current usage data
 
-6. **Pre-Merge Compliance Gating**: COCO enables shift-left quality enforcement:
+6. **Pre-Merge Compliance Gating**: OpenMax enables shift-left quality enforcement:
    - Reviews Figma designs before handoff to flag non-system components
    - Checks pull requests for hard-coded style values that should use design tokens
    - Provides real-time feedback during design reviews with inline violation annotations
@@ -402,7 +402,7 @@ Provide a checklist the designer can use to fix issues before handoff.
 
 > Reduces responsive design QA from 2 days of manual testing to **35 minutes of automated scanning** — detecting 96% of layout breakage across all breakpoints.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Responsive Breakage Ships Silently and Costs Conversions**
 
@@ -412,18 +412,18 @@ The result is predictable: layout issues ship to production. Text overflows cont
 
 The testing bottleneck is structural. Manual responsive QA requires a designer or QA engineer to resize a browser window (or use device emulators), visually scan every element, document issues with screenshots and annotations, and file tickets. This is cognitively exhausting, easy to miss things, and impossible to do consistently across every release. Automated visual regression tools help with pixel-level comparison but miss semantic issues — they can't tell if a layout is "technically rendering" but functionally broken (e.g., a button that's visible but positioned off-screen on mobile).
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Responsive Design QA Engine automates layout validation across every breakpoint, combining visual analysis with semantic understanding to catch issues that both humans and traditional automation miss.
+OpenMax's AI Responsive Design QA Engine automates layout validation across every breakpoint, combining visual analysis with semantic understanding to catch issues that both humans and traditional automation miss.
 
-1. **Breakpoint Configuration and Device Matrix**: COCO ingests the product's responsive strategy:
+1. **Breakpoint Configuration and Device Matrix**: OpenMax ingests the product's responsive strategy:
    - Defined breakpoints (e.g., 320px, 480px, 768px, 1024px, 1280px, 1440px, 1920px)
    - Target device profiles with viewport dimensions, pixel ratios, and safe areas
    - Orientation rules (portrait-only, landscape-only, or both per breakpoint)
    - Component-specific responsive behavior rules (e.g., navigation collapses to hamburger below 768px)
    - Critical user flows that must remain functional at every breakpoint
 
-2. **Automated Multi-Breakpoint Rendering and Analysis**: For each page or component, COCO:
+2. **Automated Multi-Breakpoint Rendering and Analysis**: For each page or component, OpenMax:
    - Renders the layout at every defined breakpoint simultaneously
    - Identifies text overflow, truncation, and content clipping issues
    - Detects horizontal scroll on viewports where it shouldn't exist
@@ -431,28 +431,28 @@ COCO's AI Responsive Design QA Engine automates layout validation across every b
    - Validates image scaling, aspect ratios, and art direction across breakpoints
    - Flags z-index stacking issues where elements overlap incorrectly
 
-3. **Semantic Layout Validation**: Beyond pixel-level checks, COCO understands layout intent:
+3. **Semantic Layout Validation**: Beyond pixel-level checks, OpenMax understands layout intent:
    - Verifies content hierarchy is maintained across breakpoints (H1 stays above H2, CTAs remain prominent)
    - Checks that navigation patterns transition correctly (desktop nav to mobile hamburger)
    - Validates that interactive elements remain reachable and functional (not hidden behind overlapping content)
    - Confirms reading order makes sense when layouts reflow from multi-column to single-column
    - Detects "zombie states" — elements that render but are functionally inaccessible
 
-4. **Regression Detection Across Releases**: COCO compares current responsive behavior against previous baselines:
+4. **Regression Detection Across Releases**: OpenMax compares current responsive behavior against previous baselines:
    - Tracks layout changes between releases at each breakpoint
    - Distinguishes intentional redesigns from accidental regressions
    - Highlights new breakage introduced by code changes (CSS specificity wars, container query side effects)
    - Maintains a history of responsive health scores per page over time
    - Generates a "responsive risk score" for each pull request based on CSS changes
 
-5. **Issue Prioritization and Developer-Ready Reports**: COCO produces actionable output:
+5. **Issue Prioritization and Developer-Ready Reports**: OpenMax produces actionable output:
    - Issues ranked by viewport traffic share (breakages at popular breakpoints rank higher)
    - Each issue includes before/after screenshots, affected breakpoint, and CSS element selector
    - Suggested fixes with specific CSS properties and values to change
    - Grouped by root cause (a single CSS issue may cause breakage at multiple breakpoints)
    - Effort estimates (quick fix vs. requires layout refactor)
 
-6. **Continuous Responsive Monitoring**: For production environments, COCO enables ongoing vigilance:
+6. **Continuous Responsive Monitoring**: For production environments, OpenMax enables ongoing vigilance:
    - Scheduled weekly responsive scans of critical user flows
    - Alerts when new deployments introduce responsive regressions
    - Performance-aware scanning that flags layouts causing layout shift (CLS) spikes on mobile
@@ -466,8 +466,8 @@ COCO's AI Responsive Design QA Engine automates layout validation across every b
 **Measurable Results**
 
 - **QA cycle time**: From 2 days of manual responsive testing to **35 minutes of automated scanning** (97% reduction)
-- **Breakage detection rate**: Manual QA caught 41% of responsive issues; COCO catches **96%** including subtle intermediate breakpoint failures
-- **Mobile conversion impact**: Responsive fixes driven by COCO increased mobile conversion by **12-18%** within 6 weeks
+- **Breakage detection rate**: Manual QA caught 41% of responsive issues; OpenMax catches **96%** including subtle intermediate breakpoint failures
+- **Mobile conversion impact**: Responsive fixes driven by OpenMax increased mobile conversion by **12-18%** within 6 weeks
 - **Production incidents**: Responsive-related support tickets decreased **73%** after continuous monitoring deployment
 - **Developer efficiency**: Average time to fix responsive issues reduced from 4 hours to **45 minutes** due to precise root cause identification
 
@@ -605,7 +605,7 @@ Provide a prioritized remediation plan for non-ready components.
 
 > Reduces design-to-code discrepancy resolution from **5 days of back-and-forth** to **2-hour automated comparison** — achieving 98% pixel-level fidelity on first implementation.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: What Gets Designed Is Not What Gets Built**
 
@@ -615,11 +615,11 @@ The root cause is a communication gap compounded by workflow friction. Designers
 
 The review process itself is broken. Designers compare screenshots of the implementation against their Figma files by toggling between tabs and squinting at differences. This is unreliable for subtle deviations — the human eye adapts and normalizes small differences. The resulting "design QA" cycle involves filing tickets like "spacing looks off on the card component," which the engineer then spends 30 minutes trying to understand. Three rounds of back-and-forth per component, across 20 components per release, adds up to days of lost productivity — and the result is still imperfect.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Design-to-Code Fidelity Validator automates the comparison between design files and implemented UIs, catching every discrepancy down to the sub-pixel level and generating developer-ready fix instructions.
+OpenMax's AI Design-to-Code Fidelity Validator automates the comparison between design files and implemented UIs, catching every discrepancy down to the sub-pixel level and generating developer-ready fix instructions.
 
-1. **Design Source Ingestion**: COCO captures the design intent with full fidelity:
+1. **Design Source Ingestion**: OpenMax captures the design intent with full fidelity:
    - Parses Figma/Sketch design files to extract exact specifications (colors, spacing, typography, effects)
    - Captures component hierarchy and auto-layout rules
    - Records responsive variants and breakpoint-specific designs
@@ -627,35 +627,35 @@ COCO's AI Design-to-Code Fidelity Validator automates the comparison between des
    - Handles complex specifications including gradients, blend modes, and composite effects
    - Preserves z-order, opacity, and layering information
 
-2. **Implementation Capture and Normalization**: COCO screenshots the built interface and prepares for comparison:
+2. **Implementation Capture and Normalization**: OpenMax screenshots the built interface and prepares for comparison:
    - Renders the implemented page at the exact viewport dimensions matching the design
    - Captures computed CSS values for every visible element (not just what's in the stylesheet)
    - Accounts for browser rendering differences (anti-aliasing, sub-pixel rendering, font smoothing)
    - Normalizes platform-specific rendering artifacts that designers shouldn't worry about
    - Captures interactive states (hover, focus, active) when specified in the design
 
-3. **Multi-Layer Comparison Engine**: COCO compares designs and implementations across multiple dimensions:
+3. **Multi-Layer Comparison Engine**: OpenMax compares designs and implementations across multiple dimensions:
    - **Pixel overlay**: Exact visual diff highlighting every pixel that differs between design and implementation
    - **Property comparison**: Element-by-element comparison of spacing, colors, typography, borders, shadows, and effects
    - **Layout analysis**: Alignment, distribution, and relative positioning between elements
    - **Typography audit**: Font family, weight, size, line-height, letter-spacing, and text color for every text element
    - **Responsive fidelity**: Comparison repeated at every breakpoint with breakpoint-specific designs
 
-4. **Intelligent Discrepancy Classification**: Not all differences matter equally — COCO prioritizes:
+4. **Intelligent Discrepancy Classification**: Not all differences matter equally — OpenMax prioritizes:
    - **Critical**: Wrong color, wrong font family, missing elements, broken layout structure
    - **Major**: Spacing off by >4px, wrong font weight, incorrect border radius, shadow mismatch
    - **Minor**: 1-2px spacing drift, sub-pixel rendering differences, platform-specific anti-aliasing
    - **Acceptable**: Differences within defined tolerance thresholds (e.g., ±1px spacing, ±2% color)
    - Context-aware: the same 4px spacing error on a hero section is more critical than in a footer
 
-5. **Developer-Ready Fix Instructions**: COCO generates precise, actionable remediation:
+5. **Developer-Ready Fix Instructions**: OpenMax generates precise, actionable remediation:
    - Exact CSS properties to change with current value and target value
    - Element selectors (class names, data attributes, or DOM path) for each discrepancy
    - Grouped by component so developers can fix all issues in one file at a time
    - Before/after visual preview of what the fix will look like
    - Auto-generated code snippets for common frameworks (React, Vue, Tailwind, CSS Modules)
 
-6. **Continuous Fidelity Monitoring**: COCO prevents regression and tracks improvement:
+6. **Continuous Fidelity Monitoring**: OpenMax prevents regression and tracks improvement:
    - Post-fix verification scan confirms all issues were resolved
    - Release-over-release fidelity tracking shows whether design-to-code quality is improving or degrading
    - Integration with CI/CD pipelines to flag fidelity regressions before merging
@@ -669,7 +669,7 @@ COCO's AI Design-to-Code Fidelity Validator automates the comparison between des
 **Measurable Results**
 
 - **Design QA cycle time**: From 5 days of designer-engineer back-and-forth to **2-hour automated comparison and fix generation** (95% reduction)
-- **First-pass fidelity**: Implementation accuracy increased from 68% to **98% pixel-level match** after adopting COCO's validator
+- **First-pass fidelity**: Implementation accuracy increased from 68% to **98% pixel-level match** after adopting OpenMax's validator
 - **Design QA tickets**: Reduced from 45 per release to **fewer than 5** requiring manual designer review
 - **Engineering rework hours**: **32 hours saved per sprint** previously spent on "make it match the design" iterations
 - **Visual consistency score**: Cross-product visual consistency improved from 71% to **95%** as measured by automated fidelity scans
@@ -818,7 +818,7 @@ Format for design team sign-off — this will be attached to the release notes.
 
 > Cuts pattern library maintenance from **40 hours/month** to **6 hours/month** — ensuring 95% pattern adoption across product teams.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Pattern Libraries That Nobody Uses**
 
@@ -828,44 +828,44 @@ The curation bottleneck is structural, not motivational. Pattern librarians must
 
 Discovery is the other half of the problem. Even when the right pattern exists, designers and engineers can't find it. Pattern libraries grow to 200+ entries with inconsistent naming, overlapping categories, and search that returns too many results. A designer looking for "a card with an image, title, and action buttons" might not realize the library calls it a "media object" or "content tile." The result: teams reinvent existing patterns, creating visual inconsistency and duplicated engineering effort that compounds with every sprint.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Cross-Product Pattern Discovery**: COCO continuously scans product designs and codebases to identify UI patterns in active use:
+1. **Cross-Product Pattern Discovery**: OpenMax continuously scans product designs and codebases to identify UI patterns in active use:
    - Monitors Figma files across all product teams to detect recurring component structures
    - Analyzes front-end codebases for repeated UI implementations that aren't using library components
    - Identifies "pattern drift" where teams have modified official patterns in similar ways (signaling a gap)
    - Catalogs usage frequency and context for every detected pattern variant
    - Generates weekly reports of emerging patterns that are candidates for library promotion
 
-2. **Intelligent Pattern Classification and Tagging**: COCO organizes patterns so designers find what they need:
+2. **Intelligent Pattern Classification and Tagging**: OpenMax organizes patterns so designers find what they need:
    - Auto-generates multiple search aliases for each pattern (card, tile, content-block, media-object all point to the same pattern)
    - Tags patterns by use case context (e-commerce, dashboard, onboarding, settings) rather than just visual taxonomy
    - Creates relationship maps between patterns (this card pattern is often used with this list pattern)
    - Maintains a synonym dictionary that learns from failed searches to improve future discoverability
    - Assigns complexity ratings so designers know which patterns require engineering support vs. self-serve
 
-3. **Automated Pattern Documentation**: COCO generates and maintains comprehensive pattern documentation:
+3. **Automated Pattern Documentation**: OpenMax generates and maintains comprehensive pattern documentation:
    - Creates usage guidelines from analyzing how the pattern is successfully deployed across products
    - Generates do/don't examples by comparing correct implementations against common misuses
    - Documents all supported variants, states, and responsive behaviors with visual examples
    - Writes accessibility specifications including ARIA attributes, keyboard behavior, and screen reader expectations
    - Keeps code snippets current by syncing with the actual component library repository
 
-4. **Gap Analysis and Recommendation Engine**: COCO proactively identifies what's missing from the library:
+4. **Gap Analysis and Recommendation Engine**: OpenMax proactively identifies what's missing from the library:
    - Detects when 3+ teams build similar custom components that should be a shared pattern
    - Analyzes competitor and industry UI patterns to identify gaps in coverage
    - Recommends pattern consolidation when multiple overlapping patterns serve similar purposes
    - Prioritizes new pattern development by projected adoption rate and implementation effort
    - Generates pattern proposals with preliminary specs based on the best existing implementations
 
-5. **Adoption Tracking and Nudging**: COCO drives pattern adoption without policing:
+5. **Adoption Tracking and Nudging**: OpenMax drives pattern adoption without policing:
    - Measures per-team and per-product pattern adoption rates with granular dashboards
    - Identifies specific instances where a custom implementation could be replaced by a library pattern
    - Generates contextual suggestions during design reviews linking to relevant existing patterns
    - Tracks which patterns have low adoption and investigates why (too rigid, missing variants, hard to find)
    - Produces monthly adoption reports showing trends and highlighting teams that improved
 
-6. **Pattern Lifecycle Management**: COCO manages the full lifecycle from proposal to deprecation:
+6. **Pattern Lifecycle Management**: OpenMax manages the full lifecycle from proposal to deprecation:
    - Tracks pattern maturity stages (draft, beta, stable, deprecated) with automated promotion criteria
    - Monitors usage trends to flag patterns approaching obsolescence (declining adoption over 3 months)
    - Generates migration guides when patterns are deprecated, mapping old pattern to new replacement
@@ -878,7 +878,7 @@ Discovery is the other half of the problem. Even when the right pattern exists, 
 
 **Measurable Results**
 
-- **Pattern adoption rate**: From 42% average across teams to **91%** within two quarters of COCO deployment
+- **Pattern adoption rate**: From 42% average across teams to **91%** within two quarters of OpenMax deployment
 - **Library maintenance effort**: From 40 hours/month of manual curation to **6 hours/month** of review and approval
 - **Pattern discovery time**: Designers find relevant patterns in **under 90 seconds** vs. previous average of 12 minutes (87% faster)
 - **Duplicate component creation**: Reduced from 15 custom duplicates per quarter to **2 or fewer**, saving ~120 engineering hours/quarter
@@ -1017,7 +1017,7 @@ Format as a self-contained migration guide document.
 
 > Transforms brand palettes into **WCAG AAA-compliant** color systems in **under 2 hours** — maintaining 94% perceptual brand similarity while achieving full accessibility.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Beautiful Brands That Exclude Millions of Users**
 
@@ -1027,44 +1027,44 @@ The typical response is a painful negotiation between brand and accessibility te
 
 The challenge multiplies with dark mode, high contrast mode, and colorblind simulations. A color pair that passes WCAG on a white background may fail on dark. A green-red distinction that works for most users is invisible to the 8% of men with color vision deficiency. Organizations need not one accessible palette but a system of accessible palettes across modes and contexts — and keeping them all synchronized with the brand is a design problem that manual processes simply can't solve at scale.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Brand Color DNA Extraction**: COCO analyzes the brand palette at a perceptual level to preserve what makes it distinctive:
+1. **Brand Color DNA Extraction**: OpenMax analyzes the brand palette at a perceptual level to preserve what makes it distinctive:
    - Converts all brand colors to perceptual color spaces (OKLCH, CIELAB) for accurate human-vision-based analysis
    - Identifies the core perceptual attributes that define brand identity (hue angle, chroma range, lightness relationships)
    - Maps emotional associations of each color based on color psychology research and brand guidelines
    - Determines which color properties are essential (hue) vs. adjustable (lightness, chroma) for compliance
    - Creates a "brand color fingerprint" that serves as the constraint boundary for optimization
 
-2. **Exhaustive Combination Testing**: COCO tests every possible color combination against accessibility standards:
+2. **Exhaustive Combination Testing**: OpenMax tests every possible color combination against accessibility standards:
    - Generates the full matrix of foreground/background color combinations used in the product
    - Tests each combination against WCAG 2.1 AA (4.5:1 text, 3:1 large text, 3:1 non-text) and AAA (7:1, 4.5:1) thresholds
    - Simulates all three types of color vision deficiency (protanopia, deuteranopia, tritanopia) for each combination
    - Tests against light mode, dark mode, and high contrast mode simultaneously
    - Flags color pairs that rely solely on color to convey meaning (colorblind-unsafe patterns)
 
-3. **Perceptual-Aware Color Adjustment**: COCO optimizes colors using human perception models, not naive math:
+3. **Perceptual-Aware Color Adjustment**: OpenMax optimizes colors using human perception models, not naive math:
    - Adjusts lightness and chroma in OKLCH space to achieve target contrast ratios with minimal perceptual shift
    - Preserves hue angles exactly — the most recognizable aspect of brand color identity
    - Uses just-noticeable-difference (JND) calculations to ensure adjustments are as small as possible
    - Generates multiple candidate adjustments ranked by perceptual similarity to the original color
    - Validates that adjusted colors maintain intended relationships (primary darker than secondary, etc.)
 
-4. **Systematic Palette Generation**: COCO produces a complete, coherent accessible color system — not ad-hoc fixes:
+4. **Systematic Palette Generation**: OpenMax produces a complete, coherent accessible color system — not ad-hoc fixes:
    - Generates a full light mode palette with all combinations passing WCAG AA minimum
    - Generates a matching dark mode palette that maintains the same brand feel and color relationships
    - Creates a high contrast mode variant for users who need maximum readability
    - Produces semantic color tokens (success, warning, error, info) that are accessible in all modes
    - Ensures all generated palettes are internally consistent (no color conflicts between modes)
 
-5. **Colorblind Safety Verification**: COCO ensures the palette works for all types of color vision:
+5. **Colorblind Safety Verification**: OpenMax ensures the palette works for all types of color vision:
    - Simulates the full palette under protanopia, deuteranopia, and tritanopia vision models
    - Verifies that all functional color distinctions (error vs. success, active vs. inactive) remain distinguishable
    - Adds secondary indicators (icons, patterns, labels) where color-only distinction cannot be avoided
    - Tests data visualization palettes for distinguishability across all color vision types
    - Generates colorblind-safe alternative palettes for charts, graphs, and status indicators
 
-6. **Living Documentation and Token Export**: COCO delivers implementation-ready outputs:
+6. **Living Documentation and Token Export**: OpenMax delivers implementation-ready outputs:
    - Exports accessible palettes as design tokens in all major formats (CSS variables, Tailwind config, Figma variables, iOS/Android)
    - Generates a visual comparison showing original brand colors alongside accessible alternatives with delta values
    - Produces a color usage guide specifying which combinations are approved and which are prohibited
@@ -1236,7 +1236,7 @@ Output:
 
 > Compresses a **5-day design sprint** into **2 days** — generating research synthesis, sketches, and test protocols that would normally require a full facilitation team.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Design Sprints That Consume a Week and Still Miss the Mark**
 
@@ -1246,44 +1246,44 @@ Facilitation quality varies wildly and drives outcomes more than any other facto
 
 The output quality problem extends beyond facilitation. Sprint sketches are often rough to the point of being uninterpretable by anyone who wasn't in the room. Decision-making defaults to the highest-paid person's opinion rather than structured evaluation criteria. And the research synthesis that should ground the sprint in user reality is frequently a hasty 30-minute review of whatever data is available. Teams leave the sprint energized but with artifacts that don't hold up under scrutiny — prototypes that test surface-level preferences rather than core assumptions, and learnings that don't translate into product decisions.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Pre-Sprint Research Synthesis**: COCO prepares a comprehensive knowledge base so the sprint starts informed, not cold:
+1. **Pre-Sprint Research Synthesis**: OpenMax prepares a comprehensive knowledge base so the sprint starts informed, not cold:
    - Aggregates and synthesizes all available user research (interviews, surveys, analytics, support tickets, NPS comments)
    - Identifies the top 5 user problems ranked by frequency, severity, and business impact
    - Maps the current user journey with pain points, drop-off rates, and emotional arc
    - Generates "How Might We" questions from real user quotes and behavioral data
    - Produces competitor analysis of how 5+ competitors address the same problem space
 
-2. **Structured Problem Framing**: COCO ensures the sprint targets the right problem with the right scope:
+2. **Structured Problem Framing**: OpenMax ensures the sprint targets the right problem with the right scope:
    - Generates a long-term goal and sprint questions based on the research synthesis
    - Creates a customer journey map with critical moments highlighted for sprint focus
    - Produces assumption maps categorizing beliefs by importance and uncertainty
    - Drafts multiple problem frames so the team can choose the most generative angle
    - Prepares "expert interview" summaries from stakeholder input gathered asynchronously
 
-3. **AI-Assisted Ideation and Sketching**: COCO augments the divergent thinking phase with breadth and variety:
+3. **AI-Assisted Ideation and Sketching**: OpenMax augments the divergent thinking phase with breadth and variety:
    - Generates 20+ solution concepts across different design paradigms (mobile, desktop, conversational, spatial)
    - Produces lightning demo references by searching for analogous solutions in other industries
    - Creates low-fidelity wireframe concepts for each solution direction with annotated rationale
    - Ensures ideation covers the full solution space — not just the obvious first ideas
    - Generates "crazy eight" variations for each promising direction to push creative boundaries
 
-4. **Decision Framework and Convergence Support**: COCO replaces subjective debate with structured evaluation:
+4. **Decision Framework and Convergence Support**: OpenMax replaces subjective debate with structured evaluation:
    - Creates weighted scoring matrices based on sprint goals, feasibility, and user impact
    - Facilitates dot-voting analysis by tallying votes and identifying consensus vs. split decisions
    - Generates storyboard narratives from selected concepts with clear user flow steps
    - Resolves "decider" conflicts by presenting trade-off analyses for competing approaches
    - Documents decision rationale so the team can revisit why they chose a particular direction
 
-5. **Rapid Prototype Specification**: COCO translates storyboards into buildable prototype specs in hours:
+5. **Rapid Prototype Specification**: OpenMax translates storyboards into buildable prototype specs in hours:
    - Converts the selected storyboard into a screen-by-screen interaction flow with content
    - Generates realistic sample data and copy for every screen in the prototype
    - Specifies interaction patterns, transitions, and micro-interactions to make the prototype feel real
    - Creates a clickable flow map showing all paths, branches, and decision points
    - Produces a test script mapping each prototype screen to the hypothesis it's validating
 
-6. **User Test Protocol and Analysis**: COCO prepares rigorous test materials and synthesizes results:
+6. **User Test Protocol and Analysis**: OpenMax prepares rigorous test materials and synthesizes results:
    - Generates a moderated usability test script with tasks, follow-up probes, and timing estimates
    - Creates screener criteria and recruitment messaging for the target user profile
    - Designs a structured observation template for note-takers during test sessions
@@ -1299,7 +1299,7 @@ The output quality problem extends beyond facilitation. Sprint sketches are ofte
 - **Sprint duration**: Compressed from 5 full days to **2 focused days** with equivalent output quality
 - **Preparation time**: Facilitator prep reduced from 3 days to **4 hours** with AI-generated research synthesis and materials
 - **Solution breadth**: Ideation phase generates **3x more distinct concepts** (60+ vs. typical 20) due to AI-augmented divergent thinking
-- **Hypothesis accuracy**: Sprints facilitated with COCO have **78% hypothesis validation rate** vs. 52% industry average — better problem framing leads to better prototypes
+- **Hypothesis accuracy**: Sprints facilitated with OpenMax have **78% hypothesis validation rate** vs. 52% industry average — better problem framing leads to better prototypes
 - **Post-sprint documentation**: From 2-3 days of manual write-up to **same-day delivery** of complete sprint outcome report
 
 **Who Benefits**
@@ -1456,7 +1456,7 @@ Format for stakeholder presentation — executive summary on page 1, details fol
 
 > Generates complete user flow wireframes in **3 hours** instead of **3 days** — producing 40+ screens with consistent interaction patterns and edge case coverage.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Wireframing Bottlenecks That Delay Every Project**
 
@@ -1466,44 +1466,44 @@ The bottleneck cascades through the entire product development timeline. Enginee
 
 Quality suffers under time pressure. When designers rush wireframes to unblock downstream teams, they skip edge cases. Empty states are marked "TBD." Error flows get a single generic screen instead of contextual error handling. Responsive behavior is implied rather than specified. The result: engineers encounter unspecified scenarios during development and either make their own design decisions (creating inconsistency) or file questions that block their work for hours or days. One analysis found that 35% of engineering "blocked" tickets trace back to incomplete or ambiguous wireframes.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Requirements-to-Flow Conversion**: COCO transforms product requirements into structured user flows before wireframing begins:
+1. **Requirements-to-Flow Conversion**: OpenMax transforms product requirements into structured user flows before wireframing begins:
    - Parses product requirement documents, user stories, and acceptance criteria into discrete interaction steps
    - Generates flow diagrams showing all paths — happy path, error paths, alternative paths, and edge cases
    - Identifies missing requirements by detecting flow branches that have no specified behavior
    - Maps each flow step to appropriate UI patterns from the design system
    - Produces a flow completeness score indicating what percentage of scenarios are accounted for
 
-2. **Intelligent Wireframe Generation**: COCO produces layout-accurate wireframes based on the user flow and design system:
+2. **Intelligent Wireframe Generation**: OpenMax produces layout-accurate wireframes based on the user flow and design system:
    - Generates screen-level wireframes with proper information hierarchy, spacing, and component placement
    - Applies consistent interaction patterns across similar screen types (all list views use the same pattern, all forms follow the same structure)
    - Includes realistic placeholder content that reflects actual content length and complexity
    - Renders wireframes in the correct device frame (mobile, tablet, desktop) based on the target platform
    - Annotations explain the design rationale for each major layout decision
 
-3. **Edge Case and State Enumeration**: COCO systematically generates screens for every state a component or page can be in:
+3. **Edge Case and State Enumeration**: OpenMax systematically generates screens for every state a component or page can be in:
    - Produces empty state wireframes with appropriate messaging and CTAs for every data-dependent view
    - Generates loading state wireframes showing skeleton screens, progressive loading, and spinner placement
    - Creates error state wireframes for network failures, validation errors, permission errors, and timeout scenarios
    - Designs first-time-user vs. returning-user variations where the experience differs
    - Documents boundary conditions (maximum items, minimum content, overflow text, extreme data scenarios)
 
-4. **Responsive Adaptation Specification**: COCO shows how each wireframe adapts across breakpoints:
+4. **Responsive Adaptation Specification**: OpenMax shows how each wireframe adapts across breakpoints:
    - Generates mobile, tablet, and desktop wireframe variants for each screen
    - Specifies layout changes (column collapse, component stacking, navigation transformation)
    - Notes content priority shifts (what gets hidden, collapsed, or reordered on smaller screens)
    - Indicates touch-target sizing adjustments for mobile contexts
    - Documents scroll behavior and viewport-dependent interactions (sticky headers, bottom sheets)
 
-5. **Interaction Annotation Layer**: COCO adds rich behavioral annotations that engineers need but designers often omit:
+5. **Interaction Annotation Layer**: OpenMax adds rich behavioral annotations that engineers need but designers often omit:
    - Documents click/tap behavior for every interactive element (navigation, state change, modal trigger, API call)
    - Specifies transition animations between screens (slide, fade, expand, modal overlay)
    - Notes keyboard navigation order and focus management for accessibility
    - Describes drag-and-drop, swipe, long-press, and gesture interactions where applicable
    - Maps form validation rules to each input field (required, format, min/max, dependencies)
 
-6. **Consistency Audit and Iteration**: COCO reviews its own output and flags issues before designer review:
+6. **Consistency Audit and Iteration**: OpenMax reviews its own output and flags issues before designer review:
    - Checks all wireframes against design system patterns and flags deviations
    - Verifies navigation consistency (back button behavior, breadcrumb accuracy, tab states)
    - Ensures content hierarchy is consistent across similar screen types
@@ -1686,7 +1686,7 @@ Output as a navigation specification with wireframes for each navigation level.
 
 > Reduces design handoff documentation time from **8 hours per feature** to **45 minutes** — generating pixel-perfect specs that eliminate 90% of engineer follow-up questions.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Handoffs That Create More Questions Than They Answer**
 
@@ -1696,44 +1696,44 @@ The quality of handoff documentation directly predicts implementation quality, a
 
 The problem is fundamentally one of translation between mental models. Designers think in visual compositions, spatial relationships, and user intent. Engineers think in DOM structures, state machines, and data flow. A designer might describe a dropdown as "it opens and shows the options." An engineer needs to know: does it open on click or hover? What's the max height before scrolling? What happens when options overflow the viewport? How does keyboard navigation work? What's the animation timing and easing? What happens when the dropdown is inside a modal? These aren't edge cases — they're implementation requirements that the design doesn't visually represent.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Automated Design File Parsing**: COCO extracts comprehensive specifications directly from the design file:
+1. **Automated Design File Parsing**: OpenMax extracts comprehensive specifications directly from the design file:
    - Reads all layers, groups, and components from Figma files via API with full property extraction
    - Captures every measurable property: dimensions, spacing (padding, margin, gap), colors, typography, borders, shadows, opacity, and blend modes
    - Detects auto-layout rules, constraints, and responsive resize behavior as specified in Figma
    - Maps design components to their design system counterparts with token names (not raw values)
    - Identifies instances where raw values are used instead of tokens and flags them for designer review
 
-2. **Interaction Specification Generation**: COCO documents every behavioral detail that designs can't visually show:
+2. **Interaction Specification Generation**: OpenMax documents every behavioral detail that designs can't visually show:
    - Generates state documentation for all interactive elements: default, hover, focus, active, disabled, loading, error, success
    - Specifies transition animations between states with duration, easing curve, and affected properties
    - Documents click/tap behavior chains (what happens on click → what loads → what the next state is)
    - Creates micro-interaction specifications for feedback animations (button press, toggle switch, skeleton loading)
    - Maps keyboard interactions (Tab order, Enter/Space behavior, Escape to dismiss, arrow key navigation)
 
-3. **Responsive Behavior Documentation**: COCO specifies how designs adapt across every breakpoint:
+3. **Responsive Behavior Documentation**: OpenMax specifies how designs adapt across every breakpoint:
    - Generates side-by-side comparison specs for all defined breakpoints showing exact layout changes
    - Documents container queries and component-level responsive rules (not just viewport breakpoints)
    - Specifies what elements hide, reorder, resize, or change style at each breakpoint
    - Notes scroll behavior changes (fixed headers become scrollable, bottom sheets replace modals)
    - Includes exact values for every breakpoint: column counts, gutter widths, max-widths, and component size changes
 
-4. **Component API Specification**: COCO translates design variations into developer-friendly component interfaces:
+4. **Component API Specification**: OpenMax translates design variations into developer-friendly component interfaces:
    - Generates prop tables for each component (prop name, type, default, required/optional, description)
    - Maps design variants to component props (size: "small" | "medium" | "large")
    - Documents slot/children content specifications with content constraints
    - Specifies conditional rendering rules (show element X only when prop Y is true)
    - Creates a component composition diagram showing how components nest and interact
 
-5. **Content and Data Specification**: COCO documents the content requirements that designers often skip:
+5. **Content and Data Specification**: OpenMax documents the content requirements that designers often skip:
    - Specifies character limits for every text element based on the design's space constraints
    - Identifies where content is dynamic (from API) vs. static (hardcoded), with sample API response shapes
    - Documents truncation behavior (ellipsis, line clamp, "show more") for overflow scenarios
    - Provides realistic test data sets that cover minimum, typical, and maximum content lengths
    - Notes localization considerations (text expansion factors, RTL layout requirements, translatable vs. non-translatable strings)
 
-6. **Developer-Ready Export Package**: COCO delivers the handoff as a comprehensive, structured document:
+6. **Developer-Ready Export Package**: OpenMax delivers the handoff as a comprehensive, structured document:
    - Generates a single-page spec with a table of contents, component index, and cross-referenced annotations
    - Includes code snippets in the team's framework (React, Vue, Swift, Kotlin) for complex interaction patterns
    - Produces a visual diff highlighting what's new, changed, or deprecated compared to the previous version
@@ -1748,7 +1748,7 @@ The problem is fundamentally one of translation between mental models. Designers
 
 - **Documentation time per feature**: From 8 hours of manual spec writing to **45 minutes** of AI-generated spec review and approval (91% reduction)
 - **Engineer clarifying questions**: From 4.2 questions per component to **0.4** — a 90% reduction in implementation ambiguity
-- **Implementation accuracy**: First-pass design fidelity increased from 72% to **96%** when engineers work from COCO-generated specs
+- **Implementation accuracy**: First-pass design fidelity increased from 72% to **96%** when engineers work from OpenMax-generated specs
 - **Handoff-to-code cycle time**: From 5 days (including back-and-forth) to **1.5 days** for a complete feature implementation
 - **Spec coverage**: Edge cases and states documented per feature increased from 60% to **98%**, reducing production bug reports related to unspecified behavior by 85%
 
@@ -1918,7 +1918,7 @@ Output as a change log document that developers can use as a PR checklist.
 
 > Audits icon libraries of **500+ icons** in **under 30 minutes** — catching 98% of visual inconsistencies that manual reviews miss across stroke weight, optical size, and grid alignment.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Icon Sets That Look Like They Were Designed by 12 Different People**
 
@@ -1928,44 +1928,44 @@ The review process for icon consistency is agonizingly manual and unreliable. A 
 
 The problem intensifies when organizations use icons from multiple sources — a mix of custom icons, open-source icon sets, and icons inherited from acquisitions or third-party integrations. Each source follows its own grid system, optical sizing conventions, and style language. Merging them into a unified library requires tedious manual normalization that few teams budget time for. The result is a Frankenstein icon set where shopping cart icons have different visual weights than user icons, arrows feel oversized relative to other symbols, and filled icons sit uncomfortably next to outlined ones in the same interface.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Automated Property Extraction**: COCO analyzes every icon in the library at the vector level:
+1. **Automated Property Extraction**: OpenMax analyzes every icon in the library at the vector level:
    - Parses SVG files to extract all path data, stroke widths, fill colors, opacity values, and transform attributes
    - Measures the actual visual bounds of each icon within its viewBox (not just the viewBox dimensions)
    - Detects stroke weight variations across all paths within each icon and across the library
    - Identifies corner radius values on all rounded elements and checks consistency
    - Catalogs all colors used across the library to detect unintended color variations
 
-2. **Grid and Alignment Verification**: COCO checks that every icon follows the defined grid system:
+2. **Grid and Alignment Verification**: OpenMax checks that every icon follows the defined grid system:
    - Verifies each icon sits within the defined keyline shapes (circle, square, vertical rectangle, horizontal rectangle)
    - Measures optical centering — not just mathematical centering — accounting for visual weight distribution
    - Checks pixel alignment at target render sizes (16px, 20px, 24px, 32px) for crisp rendering
    - Detects icons that overflow the safe zone or underutilize the grid area
    - Validates consistent padding between icon content and viewBox edges
 
-3. **Visual Weight Balancing Analysis**: COCO ensures icons feel the same size even when their shapes differ:
+3. **Visual Weight Balancing Analysis**: OpenMax ensures icons feel the same size even when their shapes differ:
    - Calculates ink density (ratio of filled pixels to total area) for each icon at target render sizes
    - Compares visual weight across icon categories — a simple arrow should not feel heavier than a complex settings gear
    - Identifies icons that are optically too small or too large relative to the library median
    - Suggests scaling adjustments (percentage increase/decrease) to achieve balanced visual weight
    - Groups icons by visual weight class and flags outliers within each group
 
-4. **Style Rule Enforcement**: COCO validates every icon against the team's defined style specifications:
+4. **Style Rule Enforcement**: OpenMax validates every icon against the team's defined style specifications:
    - Checks stroke width consistency (e.g., all icons should use exactly 1.5px stroke at 24px size)
    - Validates stroke cap and join styles (round, square, bevel) match the specification
    - Ensures fill rules are consistent (evenodd vs. nonzero) and opacity values match conventions
    - Checks that line endpoints follow the defined terminal style (flat, rounded, extended)
    - Verifies that icon complexity is appropriate — flags icons that are too detailed or too simple for the set
 
-5. **Cross-Source Normalization**: COCO identifies and resolves inconsistencies between icons from different sources:
+5. **Cross-Source Normalization**: OpenMax identifies and resolves inconsistencies between icons from different sources:
    - Groups icons by detected source style (different stroke weights, grid sizes, or design languages)
    - Generates a normalization map showing what adjustments each source group needs
    - Produces specific transformation instructions per icon (scale by X%, adjust stroke to Y px, shift alignment by Z px)
    - Previews the normalized version alongside the original for designer approval
    - Batch-processes approved normalizations to update SVG files automatically
 
-6. **Continuous Library Health Monitoring**: COCO prevents future inconsistencies as the library grows:
+6. **Continuous Library Health Monitoring**: OpenMax prevents future inconsistencies as the library grows:
    - Validates every new icon submission against the full library style specification before it's added
    - Generates a library health report with consistency scores across dimensions (weight, alignment, style, color)
    - Tracks consistency trends over time — is the library getting more or less consistent with each update?
@@ -1979,8 +1979,8 @@ The problem intensifies when organizations use icons from multiple sources — a
 **Measurable Results**
 
 - **Audit time**: Full library audit of 500+ icons reduced from **3 days** of manual inspection to **28 minutes** of automated analysis
-- **Inconsistency detection rate**: COCO catches **98%** of visual inconsistencies vs. **70-75%** for expert manual review
-- **Stroke weight variance**: Library-wide stroke weight standard deviation reduced from ±0.4px to **±0.05px** after COCO-guided remediation
+- **Inconsistency detection rate**: OpenMax catches **98%** of visual inconsistencies vs. **70-75%** for expert manual review
+- **Stroke weight variance**: Library-wide stroke weight standard deviation reduced from ±0.4px to **±0.05px** after OpenMax-guided remediation
 - **New icon rejection rate**: Pre-submission validation catches inconsistencies before merge, reducing post-merge fixes from 35% to **3%** of new icon submissions
 - **Visual weight variance**: Optical size deviation across the library reduced from **18% coefficient of variation** to **4%** after normalization
 
@@ -2140,7 +2140,7 @@ Output: Icon usability scorecard with prioritized improvements and alternative i
 
 > Synthesizes feedback from **15+ stakeholders** into actionable design direction in **20 minutes** — resolving contradictory opinions that previously stalled projects for weeks.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Death by a Thousand Conflicting Opinions**
 
@@ -2150,44 +2150,44 @@ The synthesis burden falls entirely on the designer, who must parse subjective l
 
 The political dimension makes it worse. When the VP of Marketing says "this needs to be more brand-forward" and the VP of Product says "reduce the branding, focus on the content," the designer faces a political decision disguised as a design decision. Without a structured way to surface these conflicts and resolve them through explicit trade-off discussions, designers either try to please everyone (resulting in a compromised design) or implicitly choose a side (risking political fallout). Projects stall for weeks in review limbo while designers iterate on contradictory feedback.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Multi-Source Feedback Collection and Normalization**: COCO aggregates feedback from all channels into a unified view:
+1. **Multi-Source Feedback Collection and Normalization**: OpenMax aggregates feedback from all channels into a unified view:
    - Ingests feedback from Figma comments, Slack threads, email, meeting transcripts, and direct messages
    - Normalizes subjective language into concrete design attributes ("make it pop" → "increase visual contrast and color saturation")
    - Tags each piece of feedback with the stakeholder's role, seniority, and domain expertise
    - Deduplicates identical feedback from multiple reviewers (5 people said the same thing = 1 issue, not 5)
    - Timestamps and orders feedback to track how opinions evolved across review rounds
 
-2. **Conflict Detection and Mapping**: COCO explicitly surfaces contradictions instead of letting them fester:
+2. **Conflict Detection and Mapping**: OpenMax explicitly surfaces contradictions instead of letting them fester:
    - Identifies pairs of feedback that directly conflict (stakeholder A wants more features, stakeholder B wants less)
    - Maps each conflict on a priority-impact matrix showing which trade-offs matter most
    - Generates "tension diagrams" showing the opposing forces acting on key design decisions
    - Assesses which conflicts are genuine (real trade-offs) vs. apparent (different words for the same request)
    - Produces a conflict resolution agenda for focused discussion with decision-makers
 
-3. **Thematic Analysis and Prioritization**: COCO groups feedback into actionable themes ranked by importance:
+3. **Thematic Analysis and Prioritization**: OpenMax groups feedback into actionable themes ranked by importance:
    - Clusters feedback into themes (layout, typography, color, content, interaction, information architecture)
    - Calculates theme urgency based on number of stakeholders, their seniority, and alignment with product goals
    - Separates "must-address" feedback (from decision-makers, accessibility requirements, blockers) from "nice-to-have"
    - Identifies feedback that aligns with user research findings vs. pure stakeholder opinion
    - Produces a prioritized action list: the top 10 changes that will address 80% of stakeholder concerns
 
-4. **Actionable Revision Plan**: COCO translates synthesized feedback into a specific design revision plan:
+4. **Actionable Revision Plan**: OpenMax translates synthesized feedback into a specific design revision plan:
    - Generates concrete design changes for each prioritized theme (not vague direction but specific adjustments)
    - Maps each proposed change to the feedback it addresses (so stakeholders can see their input was heard)
    - Estimates revision effort for each change (quick CSS tweak vs. significant layout restructure)
    - Groups changes into a phased revision approach (address critical feedback first, iterate on secondary)
    - Creates a before/after preview description showing the impact of proposed changes
 
-5. **Stakeholder Communication Generator**: COCO drafts the responses and summaries that designers hate writing:
+5. **Stakeholder Communication Generator**: OpenMax drafts the responses and summaries that designers hate writing:
    - Generates a feedback summary email showing what was heard and what will be acted on
    - Drafts diplomatic responses to feedback that won't be incorporated, with rationale
    - Creates a "decisions made" document for organizational memory (why certain trade-offs were resolved a specific way)
    - Produces per-stakeholder summaries highlighting the feedback from their domain that's being addressed
    - Generates design review presentation notes that frame revisions as responses to specific feedback
 
-6. **Review Cycle Analytics**: COCO tracks feedback patterns to improve the design review process itself:
+6. **Review Cycle Analytics**: OpenMax tracks feedback patterns to improve the design review process itself:
    - Measures review cycle efficiency: how many rounds to convergence, which stakeholders require most iterations
    - Identifies recurring feedback patterns that indicate systemic issues (if navigation feedback comes up every review, the nav approach needs rethinking)
    - Tracks feedback follow-through: was feedback from round N actually addressed in round N+1?
@@ -2204,7 +2204,7 @@ The political dimension makes it worse. When the VP of Marketing says "this need
 - **Review cycles to approval**: From an average of 4.2 review rounds to **2.1 rounds** — conflicts surface and resolve faster
 - **Project stall time**: Design review-related project delays reduced from **12 days average** to **3 days** (75% reduction)
 - **Stakeholder satisfaction**: Post-review surveys show stakeholders feel "heard" **89% of the time** (up from 54%) because feedback is explicitly mapped to actions
-- **Contradiction resolution rate**: 92% of conflicting feedback is resolved in a single focused meeting using COCO's conflict analysis, vs. 40% without structured synthesis
+- **Contradiction resolution rate**: 92% of conflicting feedback is resolved in a single focused meeting using OpenMax's conflict analysis, vs. 40% without structured synthesis
 
 **Who Benefits**
 
@@ -2368,7 +2368,7 @@ Output as a design review retrospective report with specific, implementable reco
 
 > Analyzes component usage across **200+ Figma files** in **under 1 hour** — identifying orphaned components, detached instances, and adoption gaps that waste 30% of design system investment.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: A Design System Nobody Fully Adopts**
 
@@ -2378,44 +2378,44 @@ The adoption gap manifests in three expensive ways. First, detached instances: d
 
 The data problem extends beyond simple adoption counting. Design system teams need to understand why adoption gaps exist. Is the button component used everywhere except in the checkout flow because checkout has special requirements? Is the modal component frequently detached because it's missing a configuration option? Is the new card component being adopted by some teams but not others — and is that because of awareness, file migration lag, or genuine unsuitability? Without this diagnostic data, design system teams can't prioritize improvements effectively. They invest effort upgrading components nobody wants while neglecting the components everybody is hacking around.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Automated Cross-File Component Scanning**: COCO analyzes every Figma file in the organization to build a comprehensive usage map:
+1. **Automated Cross-File Component Scanning**: OpenMax analyzes every Figma file in the organization to build a comprehensive usage map:
    - Connects to the Figma API to enumerate all team projects, files, and pages
    - Identifies every instance of every library component across all files, including nested instances
    - Detects detached instances by comparing layer structures against known component signatures
    - Finds custom recreations by identifying groups/frames that structurally match library components but aren't linked
    - Processes 200+ files in under an hour with incremental scanning (only re-scans files modified since last analysis)
 
-2. **Usage Analytics Dashboard**: COCO produces actionable metrics that design system teams actually need:
+2. **Usage Analytics Dashboard**: OpenMax produces actionable metrics that design system teams actually need:
    - Per-component usage count with breakdown by team, project, and file
    - Adoption rate per component: (instances used) / (opportunities where it should have been used)
    - Detachment rate: percentage of instances that were detached after initial placement
    - Version distribution: which version of each component is most used (indicates migration completion)
    - Trend data: is adoption increasing or decreasing over the last 3/6/12 months?
 
-3. **Detachment Analysis and Root Cause Identification**: COCO diagnoses why designers detach components:
+3. **Detachment Analysis and Root Cause Identification**: OpenMax diagnoses why designers detach components:
    - Compares detached instances against their source component to identify what was modified
    - Clusters modifications into categories (color override, layout change, content structure, added element, removed element)
    - Identifies the top 5 most common reasons components are detached — these are the highest-priority library improvements
    - Maps detachment rate against component flexibility (components with fewer variant options have higher detachment)
    - Generates specific feature requests: "Adding a 'compact' size variant would prevent 73% of detachments on the Card component"
 
-4. **Orphan and Redundancy Detection**: COCO identifies waste in the component library:
+4. **Orphan and Redundancy Detection**: OpenMax identifies waste in the component library:
    - Flags library components with zero instances across all files (orphans) — candidates for deprecation
    - Identifies near-duplicate components that could be consolidated (e.g., CardSmall and CompactCard serve the same purpose)
    - Detects components that are only used by a single team — should they be team-level, not library-level?
    - Finds Figma styles (colors, text styles, effects) that aren't applied anywhere
    - Calculates maintenance cost of orphan components (designer time spent updating components nobody uses)
 
-5. **Team-Level Adoption Reporting**: COCO breaks down adoption by team so governance is targeted, not generic:
+5. **Team-Level Adoption Reporting**: OpenMax breaks down adoption by team so governance is targeted, not generic:
    - Per-team adoption scorecards showing overall component usage rate and trends
    - Identifies which teams are "power users" vs. which teams need adoption support
    - Detects teams still using deprecated components and generates migration reminders
    - Highlights team-specific component requests (Team X keeps detaching the Table because they need sortable columns)
    - Produces "adoption nudges" — contextual recommendations sent when a designer creates a custom component that matches a library component
 
-6. **Impact Measurement and ROI Reporting**: COCO quantifies the design system's value to justify continued investment:
+6. **Impact Measurement and ROI Reporting**: OpenMax quantifies the design system's value to justify continued investment:
    - Calculates time saved per month by component reuse (instances × estimated creation time if built from scratch)
    - Measures consistency improvement: what percentage of the product UI uses standardized components?
    - Tracks bug reduction: are teams using library components filing fewer visual QA bugs?
@@ -2598,7 +2598,7 @@ Format as an executive presentation with key metrics on page 1 and supporting de
 
 > Converts light mode designs to **production-ready dark mode** in **4 hours** instead of **3 weeks** — handling semantic color mapping, elevation adjustments, and image treatments across 100+ screens.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Dark Mode Is Not "Invert the Colors"**
 
@@ -2608,44 +2608,44 @@ Proper dark mode design requires rethinking the entire color system semantically
 
 The scale of the work is what makes it truly painful. A typical SaaS product has 80-150 unique screens. Each screen needs dark mode treatment, and each treatment involves dozens of individual color decisions. A single designer working full-time can handle 5-8 screens per day — putting the timeline at 2-4 weeks for a complete dark mode conversion. Multiply by the need for responsive variants, component states, and edge cases, and dark mode easily becomes a quarter-long project. Most teams cut corners, launching dark mode with visual issues that create a subpar experience: cards that blend into backgrounds, unreadable text on colored surfaces, and images that look wrong in dark context.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Semantic Color System Analysis**: COCO maps the light mode design into a semantic color structure before converting:
+1. **Semantic Color System Analysis**: OpenMax maps the light mode design into a semantic color structure before converting:
    - Analyzes the entire light mode design to identify all unique colors and their semantic roles (background, surface, text, border, brand, status)
    - Maps each color to its functional purpose rather than its visual value (this isn't "white" — it's "background-primary")
    - Identifies color relationships that must be preserved (primary text is always X contrast ratio above its background)
    - Detects hardcoded colors that should be tokens and flags them for tokenization
    - Creates a complete semantic color inventory with light mode values ready for dark mode mapping
 
-2. **Intelligent Dark Mode Palette Generation**: COCO generates dark mode colors using established perceptual science:
+2. **Intelligent Dark Mode Palette Generation**: OpenMax generates dark mode colors using established perceptual science:
    - Converts the background system to dark surfaces using Material Design 3 elevation principles (not pure black — #121212 base)
    - Adjusts brand colors by reducing saturation and increasing lightness to prevent vibration on dark backgrounds
    - Recalibrates text colors to maintain the same apparent hierarchy (primary/secondary/disabled) on dark surfaces
    - Modifies status colors (error, warning, success, info) for correct recognition and sufficient contrast on dark
    - Generates the complete dark mode palette with every color mapped from its light mode semantic equivalent
 
-3. **Surface Elevation Redesign**: COCO transforms the elevation system from shadow-based to lightness-based:
+3. **Surface Elevation Redesign**: OpenMax transforms the elevation system from shadow-based to lightness-based:
    - Maps each light mode elevation level (shadow depth) to a dark mode surface lightness level
    - Creates 5-8 elevation tiers with precisely calibrated surface colors (each step lighter than the one below)
    - Ensures borders and dividers are visible against dark surfaces (often needs opacity and color adjustment)
    - Adjusts overlay colors (modal backdrops, drawer scrims) for appropriate dimming on dark backgrounds
    - Validates that elevation hierarchy is visually clear — users can distinguish surface layers at a glance
 
-4. **Image and Media Treatment**: COCO handles the visual assets that break most dark mode implementations:
+4. **Image and Media Treatment**: OpenMax handles the visual assets that break most dark mode implementations:
    - Identifies images with transparent backgrounds that need dark-compatible treatment (adding dark backgrounds or adjusting transparency)
    - Recommends dimming values for photography to prevent bright images from overwhelming dark interfaces
    - Adjusts illustration colors for dark context (light illustrations on dark backgrounds need inversion or recoloring)
    - Handles logo variants — detects when the primary logo is invisible on dark backgrounds and flags for alternative version
    - Generates CSS/filter recommendations for images that can be adapted programmatically vs. those needing new assets
 
-5. **Component-Level Dark Mode Specification**: COCO generates dark mode specs for every component in the design system:
+5. **Component-Level Dark Mode Specification**: OpenMax generates dark mode specs for every component in the design system:
    - Produces a dark mode variant specification for each component with exact color values for every state
    - Handles complex components: data tables with alternating rows, charts with multiple series, form fields with validation states
    - Specifies focus indicators that are visible on dark backgrounds (light mode blue focus rings often disappear)
    - Documents hover and active state colors that provide visible feedback without harsh contrast shifts
    - Creates a component migration checklist showing what changes per component for dark mode support
 
-6. **Cross-Screen Validation and Consistency**: COCO verifies the dark mode conversion works holistically:
+6. **Cross-Screen Validation and Consistency**: OpenMax verifies the dark mode conversion works holistically:
    - Renders every screen in dark mode and runs automated contrast checks against WCAG standards
    - Identifies screens where the dark mode conversion creates layout issues (elements that relied on shadow for separation)
    - Checks that the dark mode experience feels consistent across all screens — same surface hierarchy, same text colors
@@ -2832,7 +2832,7 @@ Output: Copy-paste-ready token files with implementation instructions.
 
 > Generates **production-ready micro-interaction specifications** in **90 minutes** — complete with timing curves, state transitions, and code snippets that previously took **2 weeks** to prototype and document.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Micro-Interactions That Get Cut Because Nobody Has Time to Spec Them**
 
@@ -2842,44 +2842,44 @@ The specification problem is the root cause. Designing a micro-interaction requi
 
 Most designers skip the detailed specification and give engineers vague direction: "add a nice transition here" or "make it slide in smoothly." Engineers, who are optimizing for shipping speed, implement the simplest possible motion (a 300ms ease-in-out on opacity) or no motion at all. The result: a product with inconsistent, generic motion that neither delights users nor reinforces the spatial model of the interface. The teams that do invest in polished micro-interactions typically have a dedicated motion designer — a luxury that 90% of product organizations can't justify as a full-time role.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Interaction Pattern Recognition**: COCO identifies where micro-interactions should exist based on interaction design principles:
+1. **Interaction Pattern Recognition**: OpenMax identifies where micro-interactions should exist based on interaction design principles:
    - Analyzes the product's user flows to identify all state transitions that benefit from motion feedback
    - Categorizes triggers: user action (click, hover, drag), system event (data loaded, error occurred), or state change (toggle, navigation)
    - Maps each trigger to the appropriate motion pattern: entrance, exit, transition, feedback, loading, or celebration
    - Prioritizes interactions by user impact: high-frequency actions get polished animation, rare actions get simple transitions
    - Generates an interaction audit showing where motion exists today, where it's missing, and where it's inconsistent
 
-2. **Motion Specification Generation**: COCO produces precise, implementable animation specifications:
+2. **Motion Specification Generation**: OpenMax produces precise, implementable animation specifications:
    - Defines every parameter: property animated (transform, opacity, height, color), duration (ms), delay (ms), easing (cubic-bezier values)
    - Generates keyframe breakdowns for complex animations with percentage-based waypoints
    - Specifies spring physics parameters (stiffness, damping, mass) for natural-feeling motion
    - Documents state machine logic: what happens if the animation is interrupted (reversed, completed, or cancelled)
    - Creates timing diagrams showing how multiple animated properties coordinate (staggered, sequential, parallel)
 
-3. **Easing Curve Library**: COCO applies appropriate easing curves based on the interaction context:
+3. **Easing Curve Library**: OpenMax applies appropriate easing curves based on the interaction context:
    - Maps each interaction type to the correct easing paradigm: ease-out for entrances, ease-in for exits, ease-in-out for transitions
    - Provides exact cubic-bezier values tuned for the interaction (not generic ease-in-out for everything)
    - Generates custom spring curves for interactions that should feel physical (pull-to-refresh, swipe-to-dismiss, snap-to-grid)
    - Ensures easing consistency across the product — all entrance animations use the same family of curves
    - Documents the easing rationale so future designers understand why each curve was chosen
 
-4. **Multi-State Transition Mapping**: COCO handles complex interaction flows where multiple states and animations interact:
+4. **Multi-State Transition Mapping**: OpenMax handles complex interaction flows where multiple states and animations interact:
    - Creates state transition diagrams for components with 3+ states (button: default → hover → pressed → loading → success)
    - Specifies the animation between every pair of connected states (not just forward — also reverse, skip, and interrupt)
    - Defines choreography rules: when a container animates, which child elements animate and in what order?
    - Handles responsive motion: specifies how animations adapt on different devices (reduced motion preferences, lower-power devices)
    - Documents gesture-driven animations with physics-based parameters (velocity threshold, deceleration rate, snap points)
 
-5. **Code-Ready Implementation Snippets**: COCO generates framework-specific code for every micro-interaction:
+5. **Code-Ready Implementation Snippets**: OpenMax generates framework-specific code for every micro-interaction:
    - Produces CSS animation/transition code for simple state-based animations
    - Generates Framer Motion (React), Vue Transition, or SwiftUI animation code for complex interactions
    - Creates Lottie-compatible specifications for animations that need higher fidelity than CSS can provide
    - Includes accessibility considerations: prefers-reduced-motion media query fallbacks for every animation
    - Provides performance notes: which animations are GPU-compositable (transform, opacity) vs. CPU-intensive (height, width)
 
-6. **Motion System Documentation**: COCO creates a comprehensive motion language for the design system:
+6. **Motion System Documentation**: OpenMax creates a comprehensive motion language for the design system:
    - Defines motion design principles for the product (e.g., "motion is functional, not decorative; fast and responsive, not slow and dramatic")
    - Creates a duration scale: micro (100ms), small (200ms), medium (300ms), large (500ms) with when to use each
    - Documents standard easing curves with names and use cases (standard, decelerate, accelerate, sharp)
@@ -2895,8 +2895,8 @@ Most designers skip the detailed specification and give engineers vague directio
 - **Micro-interaction specification time**: From 2 weeks of prototyping and documentation to **90 minutes** of AI-generated specs with code snippets
 - **Implementation accuracy**: First-pass motion implementation matches specification **95% of the time** (vs. 40% when engineers interpret vague "make it smooth" direction)
 - **Motion consistency**: Product-wide motion consistency score improved from 34% (random, ad-hoc motion) to **91%** (systematic motion language)
-- **Animation performance**: 100% of COCO-specified animations use GPU-compositable properties, eliminating janky animation reports that previously averaged **8 per release**
-- **Reduced motion compliance**: All specified animations include prefers-reduced-motion fallbacks, achieving **100% motion accessibility** (vs. 12% without COCO)
+- **Animation performance**: 100% of OpenMax-specified animations use GPU-compositable properties, eliminating janky animation reports that previously averaged **8 per release**
+- **Reduced motion compliance**: All specified animations include prefers-reduced-motion fallbacks, achieving **100% motion accessibility** (vs. 12% without OpenMax)
 
 **Who Benefits**
 
@@ -3117,7 +3117,7 @@ Format as a design system documentation page.
 
 > Automates design token lifecycle across **Figma, code, and documentation** — reducing token drift incidents from **35 per quarter** to **fewer than 2** while cutting token management overhead by 85%.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Design Tokens That Fall Out of Sync Across Every Platform**
 
@@ -3127,44 +3127,44 @@ The synchronization problem is compounded by organizational complexity. A typica
 
 Documentation is the perpetually neglected third pillar. Even when Figma and code are in sync, the design system documentation site often shows stale token values, wrong usage examples, or missing new tokens. Designers reference the docs when building new screens, and if the docs say --spacing-lg is 24px when it was actually updated to 28px two months ago, every new design created from those docs is wrong from the start. The documentation gap erodes trust in the design system — teams stop consulting it because they've been burned by stale information, which further accelerates divergence.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Centralized Token Registry**: COCO establishes a single source of truth for all tokens with automated distribution:
+1. **Centralized Token Registry**: OpenMax establishes a single source of truth for all tokens with automated distribution:
    - Maintains a canonical token database with every token's name, value, description, category, and usage guidelines
    - Version-controls all token changes with full audit trail (who changed what, when, and why)
    - Supports the complete token hierarchy: base (raw values) → semantic (purpose-based) → component (specific usage)
    - Manages platform-specific token transformations (HEX for web, UIColor for iOS, @ColorRes for Android)
    - Generates unique token IDs to track the same token across all platforms regardless of naming format differences
 
-2. **Cross-Platform Synchronization Engine**: COCO keeps every platform in sync with zero manual intervention:
+2. **Cross-Platform Synchronization Engine**: OpenMax keeps every platform in sync with zero manual intervention:
    - Pushes token updates to Figma variables, CSS custom properties, Tailwind config, Swift/Kotlin files, and JSON configs simultaneously
    - Detects platform-specific drift by comparing each platform's current values against the canonical registry
    - Generates pull requests in code repositories when tokens change, with clear diff and rollback instructions
    - Updates Figma library variables through the API and triggers a library publish notification to all users
    - Runs daily drift detection scans and alerts the design system team to any unauthorized platform-level overrides
 
-3. **Cascade Impact Analysis**: COCO maps the full ripple effect of any token change before it ships:
+3. **Cascade Impact Analysis**: OpenMax maps the full ripple effect of any token change before it ships:
    - Traces every downstream dependency when a base token is modified (base → semantic → component → usage locations)
    - Generates a visual impact report showing all screens, components, and states affected by the change
    - Identifies breaking changes (a spacing token increase that causes layout overflow) before they reach production
    - Provides safe/unsafe change classification: renaming a token is breaking, adjusting its value is usually safe
    - Recommends phased rollout for high-impact changes with specific migration steps per team
 
-4. **Token Naming and Governance**: COCO enforces naming conventions and prevents token proliferation:
+4. **Token Naming and Governance**: OpenMax enforces naming conventions and prevents token proliferation:
    - Validates new token names against the established naming convention (e.g., category-property-variant-state)
    - Detects duplicate tokens (different names, same or nearly-same value) and recommends consolidation
    - Flags tokens that are too specific (should be generalized) or too general (name doesn't convey purpose)
    - Enforces tier discipline: prevents semantic tokens from referencing other semantic tokens (must reference base)
    - Generates quarterly token health reports: total count, growth rate, usage frequency, and cleanup recommendations
 
-5. **Automated Documentation Generation**: COCO keeps token documentation perfectly current:
+5. **Automated Documentation Generation**: OpenMax keeps token documentation perfectly current:
    - Auto-generates a browsable token catalog with current values, visual swatches, and usage examples
    - Updates documentation within minutes of any token change — documentation is never stale
    - Produces platform-specific usage guides (how to reference each token in CSS, React, Swift, Kotlin)
    - Generates before/after visual comparisons for every token change so designers can verify the impact
    - Creates migration guides automatically when tokens are renamed, deprecated, or restructured
 
-6. **Token Usage Analytics**: COCO tracks how tokens are actually used to inform design system decisions:
+6. **Token Usage Analytics**: OpenMax tracks how tokens are actually used to inform design system decisions:
    - Counts references to each token across all codebases to identify the most and least used tokens
    - Detects hardcoded values in code that should be tokens (e.g., #0052CC appears in CSS but doesn't reference the token)
    - Identifies tokens that are never used in code (orphans) — candidates for deprecation
@@ -3362,7 +3362,7 @@ Output:
 
 > Catches **100% of unintended visual changes** before deployment — reducing visual bugs in production from **22 per release** to **zero** with automated screenshot comparison across 50+ page-component combinations.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Visual Bugs That Slip Through Code Review and QA**
 
@@ -3372,44 +3372,44 @@ The cost of visual regressions in production is disproportionate to their techni
 
 Existing visual regression tools (Percy, Chromatic, BackstopJS) help but have adoption and maintenance challenges. They require extensive setup: screenshot baselines for every component state, viewport size, and data variation. As the product evolves, baselines must be updated — and distinguishing "intentional change that needs new baseline" from "unintentional regression that needs a fix" requires human judgment. Teams frequently disable tests that produce too many false positives, eroding coverage. The tooling overhead means most teams only cover their most critical pages rather than the full product surface, leaving 60-80% of the UI without visual regression protection.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Intelligent Baseline Management**: COCO maintains visual baselines that evolve with the product rather than fighting against change:
+1. **Intelligent Baseline Management**: OpenMax maintains visual baselines that evolve with the product rather than fighting against change:
    - Automatically captures screenshot baselines for every page, component, state, and viewport combination in the design system
    - Uses perceptual hashing rather than pixel-by-pixel comparison — immune to sub-pixel rendering differences across environments
    - Classifies changes as intentional (linked to design ticket or token update) vs. unintentional (no corresponding design change)
    - Auto-updates baselines when changes are confirmed as intentional, maintaining coverage without manual maintenance
    - Maintains baseline version history so any baseline can be rolled back if an approved change is later reconsidered
 
-2. **Comprehensive Coverage Generation**: COCO ensures every visual state is tested, not just the happy path:
+2. **Comprehensive Coverage Generation**: OpenMax ensures every visual state is tested, not just the happy path:
    - Generates test configurations for every page at every defined breakpoint (mobile, tablet, desktop, wide)
    - Creates data variations: empty state, single-item, many-items, long-text, error-state for every data-dependent view
    - Tests all component states: default, hover, focus, active, disabled, loading, error across the component library
    - Handles dynamic content by generating deterministic test data that produces repeatable screenshots
    - Discovers new pages and components automatically as the codebase grows, preventing coverage gaps
 
-3. **Perceptual Difference Analysis**: COCO distinguishes meaningful visual changes from rendering noise:
+3. **Perceptual Difference Analysis**: OpenMax distinguishes meaningful visual changes from rendering noise:
    - Applies anti-aliasing tolerance to ignore sub-pixel rendering differences between environments
    - Uses structural similarity (SSIM) comparison in addition to pixel diff for layout-level regression detection
    - Groups related differences (all text on the page shifted = font change, not 100 separate issues)
    - Calculates perceptual impact scores: a 2px shift on a primary CTA matters more than a 2px shift in a footer link
    - Filters known acceptable differences (date/time stamps, randomized avatar colors, animated elements)
 
-4. **Root Cause Identification**: COCO doesn't just flag the problem — it traces it to the causing code change:
+4. **Root Cause Identification**: OpenMax doesn't just flag the problem — it traces it to the causing code change:
    - Correlates visual changes with specific commits by running differential screenshot comparisons per commit
    - Identifies the exact CSS rule change, component update, or dependency bump that introduced the regression
    - Detects cascade regressions (a global style change affecting 20 pages traces to one CSS modification)
    - Provides the specific file, line number, and property change that caused the visual difference
    - Suggests the fix: either a targeted CSS override to preserve the original appearance or a baseline update if the change is intentional
 
-5. **CI/CD Integration and Gating**: COCO acts as an automated design quality gate in the deployment pipeline:
+5. **CI/CD Integration and Gating**: OpenMax acts as an automated design quality gate in the deployment pipeline:
    - Runs visual comparison on every pull request before merge, with results posted as PR comments
    - Blocks deployment when critical visual regressions are detected (configurable severity threshold)
    - Provides a visual diff gallery in the PR showing before/after screenshots for every detected change
    - Supports manual approval workflow: flagged changes can be approved by a designer, updating the baseline
    - Runs in under 5 minutes for standard comparison sets (50 pages × 3 breakpoints = 150 screenshots)
 
-6. **Trend Analysis and Prevention**: COCO identifies patterns in visual regressions to prevent them structurally:
+6. **Trend Analysis and Prevention**: OpenMax identifies patterns in visual regressions to prevent them structurally:
    - Tracks visual regression frequency by component, page, and team to identify fragile areas
    - Identifies CSS architecture patterns that correlate with high regression rates (deeply nested selectors, !important overrides, global styles)
    - Recommends CSS architecture improvements to reduce regression risk (more specific selectors, CSS modules, scoped styles)
@@ -3595,7 +3595,7 @@ Format for a team retrospective presentation — data-driven, actionable, under 
 
 > Generates **professionally harmonious typography pairings** in **15 minutes** — replacing weeks of trial-and-error with data-driven recommendations that improve readability scores by 28%.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Typography Pairing That Relies on Gut Feel and Good Luck**
 
@@ -3605,44 +3605,44 @@ The trial-and-error approach that most designers use is remarkably inefficient. 
 
 The downstream cost of a poor typography choice is enormous because it's embedded everywhere. If the pairing doesn't work and the team realizes it after implementation, changing typography requires updating every text style in Figma, every CSS declaration in the codebase, and every piece of marketing collateral. A mid-project typography change can cost weeks of rework. This reality means teams often stick with mediocre typography choices rather than risk the disruption of changing, leading to products that are functionally fine but fail to convey the intended brand personality or reading experience.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Contextual Typography Analysis**: COCO understands the project's specific needs before recommending fonts:
+1. **Contextual Typography Analysis**: OpenMax understands the project's specific needs before recommending fonts:
    - Analyzes the product's content type (long-form reading, data-heavy dashboard, marketing site, mobile app) to determine typographic requirements
    - Evaluates brand attributes (playful vs. serious, modern vs. traditional, technical vs. approachable) to filter fonts by personality
    - Assesses technical requirements: language support (Latin, Cyrillic, CJK, Arabic), variable font availability, web performance budget
    - Reviews existing brand assets to identify typographic DNA that new pairings should complement
    - Considers the competitive landscape: what typography do competitors use, and how can this product differentiate?
 
-2. **Algorithmic Pairing Generation**: COCO generates pairings based on objective typographic properties, not just aesthetic intuition:
+2. **Algorithmic Pairing Generation**: OpenMax generates pairings based on objective typographic properties, not just aesthetic intuition:
    - Analyzes font metrics (x-height ratio, cap-height, ascender/descender length, stroke contrast, width) to find harmonious structural matches
    - Applies proven pairing strategies: complementary contrast (serif + sans-serif), superfamily matching, historical period alignment
    - Evaluates rhythm compatibility by comparing character width distributions — fonts with similar rhythm feel cohesive together
    - Generates 20-30 candidate pairings ranked by harmonic score (a composite of structural compatibility, contrast balance, and personality match)
    - Includes unconventional pairings that designers might not discover through browsing, with rationale for why they work
 
-3. **Readability Optimization**: COCO ensures pairings perform well in actual reading contexts, not just specimen displays:
+3. **Readability Optimization**: OpenMax ensures pairings perform well in actual reading contexts, not just specimen displays:
    - Tests pairings at all intended sizes (headings: 24-48px, body: 14-18px, captions: 11-13px, data: 12-14px)
    - Evaluates reading speed and comprehension metrics based on typographic research (optimal x-height ratios, line-length, letter-spacing)
    - Checks paragraph density: how many characters fit per line at the intended column width (optimal: 45-75 characters)
    - Assesses small-size legibility for fonts used in captions, labels, and data tables
    - Validates screen rendering quality across operating systems (Windows ClearType, macOS antialiasing, mobile rendering)
 
-4. **Scale and Hierarchy Specification**: COCO generates a complete typographic scale, not just a font pairing:
+4. **Scale and Hierarchy Specification**: OpenMax generates a complete typographic scale, not just a font pairing:
    - Creates a modular scale (major third, perfect fourth, augmented fourth) based on the base font size and reading context
    - Assigns each font role: which font for headings, which for body, which for captions, which for UI labels
    - Specifies font weight usage across the hierarchy: which weights create clear hierarchy without overuse
    - Generates line-height values per size that ensure consistent vertical rhythm
    - Documents letter-spacing adjustments per size (headings often need tighter spacing, small text needs looser)
 
-5. **Performance and Technical Validation**: COCO verifies that beautiful pairings are also practical:
+5. **Performance and Technical Validation**: OpenMax verifies that beautiful pairings are also practical:
    - Calculates total font payload (KB) for the selected pairing with all required weights and character sets
    - Recommends font subsetting strategies to minimize download size (Latin-extended vs. full character set)
    - Evaluates variable font availability (one variable font file replaces multiple static weight files)
    - Tests font loading behavior: what does the page look like during FOIT (flash of invisible text) or FOUT (flash of unstyled text)?
    - Generates font-display strategy recommendations (swap, optional, fallback) based on the content type
 
-6. **Presentation-Ready Pairing Deliverable**: COCO generates a typography pairing proposal that designers can immediately present to stakeholders:
+6. **Presentation-Ready Pairing Deliverable**: OpenMax generates a typography pairing proposal that designers can immediately present to stakeholders:
    - Produces side-by-side specimen renders showing the pairing at all hierarchy levels
    - Creates mockup descriptions showing the pairing applied to realistic content (article, dashboard, form, marketing page)
    - Documents the rationale: why these fonts work together (structural harmony, personality match, readability data)
@@ -3656,7 +3656,7 @@ The downstream cost of a poor typography choice is enormous because it's embedde
 **Measurable Results**
 
 - **Typography selection time**: From 1-2 weeks of exploration to **15 minutes** for a data-driven recommendation with alternatives
-- **Readability improvement**: Pairings selected with COCO show **28% higher readability scores** (measured by Flesch-Kincaid reading ease applied to typographic rendering) compared to designer gut-feel selections
+- **Readability improvement**: Pairings selected with OpenMax show **28% higher readability scores** (measured by Flesch-Kincaid reading ease applied to typographic rendering) compared to designer gut-feel selections
 - **Font payload optimization**: Average web font download reduced from **280KB** to **95KB** through intelligent subsetting and variable font recommendations (66% reduction)
 - **Stakeholder approval rate**: First-presented typography pairings approved **82% of the time** (vs. 35% without data-driven rationale), reducing revision cycles
 - **Post-launch typography changes**: Near-zero post-launch font changes (vs. 23% of projects requiring typography adjustment after implementation)
@@ -3843,7 +3843,7 @@ Format as a brand guidelines chapter ready for the brand book.
 
 > Reviews design portfolios in **10 minutes** with institutional-quality critique — helping designers improve presentation quality by **65%** and doubling interview callback rates.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Portfolio Feedback Is Expensive, Subjective, and Inaccessible**
 
@@ -3853,44 +3853,44 @@ The stakes are enormous. A hiring manager spends an average of 3-4 minutes revie
 
 Self-review is insufficient because designers are too close to their own work. They include context that exists in their head but not on the page. They assume the reviewer understands the problem space. They present work chronologically (how they did it) rather than strategically (why it matters). Without an external perspective that simulates a hiring manager's fresh eyes, designers can't identify what's confusing, what's missing, and what's undermining their narrative. The feedback gap perpetuates itself: designers with strong networks get better feedback, build better portfolios, get better jobs, and expand their networks further — while equally talented designers without access stagnate.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **First-Impression Analysis**: COCO evaluates the portfolio the way a hiring manager actually experiences it — in the first 3 minutes:
+1. **First-Impression Analysis**: OpenMax evaluates the portfolio the way a hiring manager actually experiences it — in the first 3 minutes:
    - Assesses the landing page: is it immediately clear who this person is, what they do, and what their strongest work is?
    - Evaluates the first 30 seconds of each case study: does it hook the reader with a compelling problem and result?
    - Checks information hierarchy: are the most important elements (outcomes, role, impact) visually prominent?
    - Identifies cognitive load issues: too much text, unclear navigation, buried call-to-action, or confusing project selection
    - Generates a "3-minute walkthrough" showing exactly what a time-constrained reviewer would see and conclude
 
-2. **Case Study Structure Evaluation**: COCO analyzes each case study against proven portfolio narrative frameworks:
+2. **Case Study Structure Evaluation**: OpenMax analyzes each case study against proven portfolio narrative frameworks:
    - Checks for the essential elements: problem context, user insight, design process, key decisions, final solution, and measurable impact
    - Evaluates the balance: is the case study 80% process documentation and 20% outcome (common mistake), or properly weighted toward impact?
    - Assesses storytelling arc: does the narrative build tension (problem) and resolve it (solution), or does it meander?
    - Identifies missing specificity: "improved the user experience" vs. "reduced task completion time from 4 minutes to 90 seconds"
    - Flags common anti-patterns: showing every iteration, including irrelevant research details, or burying the final design
 
-3. **Quantitative Impact Assessment**: COCO identifies where case studies lack the metrics that hiring managers care about:
+3. **Quantitative Impact Assessment**: OpenMax identifies where case studies lack the metrics that hiring managers care about:
    - Flags case studies with no measurable outcomes (the single biggest portfolio weakness)
    - Suggests metric categories appropriate to the project type (conversion rate, task time, error rate, NPS, revenue impact)
    - Identifies claims that lack evidence ("users loved it" — based on what data?)
    - Recommends how to present metrics visually for maximum impact (before/after comparisons, delta callouts)
    - Helps reframe qualitative outcomes as quantified improvements where possible
 
-4. **Visual Presentation Critique**: COCO evaluates the portfolio's own design quality:
+4. **Visual Presentation Critique**: OpenMax evaluates the portfolio's own design quality:
    - Assesses typography: is the portfolio readable? Is the type hierarchy clear? Are case study text blocks skimmable?
    - Evaluates layout: does the visual structure guide the reader's eye through the narrative?
    - Checks image quality: are mockups crisp, properly sized, and presented in appropriate context (device frames, environment)?
    - Reviews responsive behavior: how does the portfolio look on mobile (30%+ of portfolio views come from phones)
    - Flags visual inconsistencies between case studies (different layout styles, font changes, tonal shifts)
 
-5. **Role and Level Calibration**: COCO calibrates feedback to the designer's target role and seniority:
+5. **Role and Level Calibration**: OpenMax calibrates feedback to the designer's target role and seniority:
    - Evaluates whether the portfolio demonstrates skills appropriate for the target level (junior: craft and process, senior: strategy and impact, lead: team and system thinking)
    - Identifies skill gaps relative to common job requirements for the target role (e.g., senior product designer portfolios need design system thinking)
    - Suggests project framing adjustments: the same project can be presented as a craft exercise (junior) or a strategic initiative (senior) depending on emphasis
    - Compares the portfolio's signals against what specific company types look for (startup vs. enterprise, product vs. agency)
    - Recommends which projects to include, cut, or reframe based on the target audience
 
-6. **Actionable Revision Plan**: COCO generates a specific, prioritized improvement plan:
+6. **Actionable Revision Plan**: OpenMax generates a specific, prioritized improvement plan:
    - Ranks all feedback by impact (what will most improve hiring outcomes) and effort (quick fixes vs. major rewrites)
    - Provides before/after text examples for weak case study sections (rewrites the first paragraph of a case study as a demonstration)
    - Suggests structural reorganization with a recommended case study template
@@ -3904,10 +3904,10 @@ Self-review is insufficient because designers are too close to their own work. T
 **Measurable Results**
 
 - **Review time**: Comprehensive portfolio critique generated in **10 minutes** vs. 2-4 weeks waiting for a senior designer's availability
-- **Portfolio quality improvement**: Designers who implement COCO's recommendations improve their portfolio presentation score by **65%** (rated by a panel of hiring managers)
-- **Interview callback rate**: Designers report **2x higher callback rates** after COCO-guided portfolio revisions (from 12% to 26% average)
-- **Revision efficiency**: Average portfolio revision time reduced from 3 weeks of unfocused iteration to **5 days** of targeted improvements using COCO's prioritized plan
-- **Metric inclusion rate**: Case studies with measurable outcomes increased from 30% to **90%** after COCO flagged missing metrics and suggested appropriate measures
+- **Portfolio quality improvement**: Designers who implement OpenMax's recommendations improve their portfolio presentation score by **65%** (rated by a panel of hiring managers)
+- **Interview callback rate**: Designers report **2x higher callback rates** after OpenMax-guided portfolio revisions (from 12% to 26% average)
+- **Revision efficiency**: Average portfolio revision time reduced from 3 weeks of unfocused iteration to **5 days** of targeted improvements using OpenMax's prioritized plan
+- **Metric inclusion rate**: Case studies with measurable outcomes increased from 30% to **90%** after OpenMax flagged missing metrics and suggested appropriate measures
 
 **Who Benefits**
 
@@ -4080,7 +4080,7 @@ Output as a presentation prep document with scripted talking points for key mome
 
 > Exports design assets for **7+ platforms** simultaneously in **under 30 minutes** — replacing a manual process that takes **2 full days** and eliminates the platform-specific sizing errors that cause 40% of asset-related bug reports.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Exporting Assets Is a Full-Time Job Nobody Wants**
 
@@ -4090,44 +4090,44 @@ The export process is tedious, error-prone, and consistently deprioritized. Desi
 
 The organizational dysfunction is that asset export is neither a design task nor an engineering task — it's an operational task that falls in the gap between teams. Designers consider it done when the design is complete. Engineers expect ready-to-use assets. The export step is an unfunded mandate that someone does reluctantly, often under time pressure at the end of a sprint. When assets need updating (a brand color changes, an icon is redesigned, a new platform is added), the entire export process must be repeated. Without automation, most organizations maintain stale asset libraries where some platforms have the latest version and others don't — creating visual inconsistencies that undermine the carefully maintained design system.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Platform-Aware Export Configuration**: COCO maintains export profiles for every target platform with current specifications:
+1. **Platform-Aware Export Configuration**: OpenMax maintains export profiles for every target platform with current specifications:
    - Pre-configured export profiles for: Web (SVG, PNG @1x/2x, WebP), iOS (PDF vector, PNG @1x/@2x/@3x), Android (vector drawable, PNG at all density buckets), macOS, Windows, email, and social media
    - Automatically applies the correct color space per platform (sRGB for web, Display P3 for iOS where supported, CMYK for print)
    - Handles naming conventions per platform (kebab-case for web, camelCase for iOS, snake_case for Android) automatically
    - Generates the correct directory structure per platform (Android's drawable-mdpi/, drawable-hdpi/ structure, iOS Assets.xcassets)
    - Stays current with platform specification changes (e.g., when Android adds a new density bucket)
 
-2. **Intelligent Format Selection**: COCO chooses the optimal file format for each asset and platform:
+2. **Intelligent Format Selection**: OpenMax chooses the optimal file format for each asset and platform:
    - Analyzes each asset's characteristics: vector vs. raster, transparency needs, color complexity, animation
    - Selects SVG for scalable icons and illustrations on web (with PNG fallback generation for email clients)
    - Chooses WebP with PNG fallback for photographs on web (40-50% smaller than JPEG at equivalent quality)
    - Generates PDF vectors for iOS and Android vector drawable XML for Android — resolution-independent where possible
    - Applies lossy vs. lossless compression based on the asset type (logos always lossless, photography lossy with quality threshold)
 
-3. **Automated Quality Validation**: COCO verifies every exported asset before delivery:
+3. **Automated Quality Validation**: OpenMax verifies every exported asset before delivery:
    - Checks dimensions match the exact specification for each platform (e.g., iOS app icon must be exactly 1024x1024)
    - Validates file size is within acceptable limits (mobile assets flag if a single image exceeds 100KB)
    - Verifies SVGs are clean: no embedded raster images, no external font dependencies, no unnecessary metadata
    - Confirms PNGs have correct transparency handling (no white-matte artifacts on transparent backgrounds)
    - Runs visual comparison between exported assets and the source design to catch export corruption
 
-4. **Batch Processing with Smart Diffing**: COCO only exports what changed, dramatically reducing incremental update time:
+4. **Batch Processing with Smart Diffing**: OpenMax only exports what changed, dramatically reducing incremental update time:
    - Maintains a hash of every previously exported asset to detect which sources have been modified
    - Only re-exports assets that have actually changed since the last export run
    - Detects design token changes (color update, spacing change) that affect all assets and triggers a full re-export
    - Supports selective export by category (only icons, only illustrations, only marketing assets)
    - Generates a change manifest showing exactly what was added, updated, or removed in each export run
 
-5. **Asset Optimization Pipeline**: COCO applies platform-specific optimizations to minimize file size without quality loss:
+5. **Asset Optimization Pipeline**: OpenMax applies platform-specific optimizations to minimize file size without quality loss:
    - SVG optimization: removes metadata, combines paths, simplifies coordinates, removes hidden elements (SVGO-equivalent)
    - PNG optimization: color depth reduction where possible, chunk stripping, optimal compression (TinyPNG-equivalent)
    - WebP optimization: quality tuning per asset to hit the target file size with maximum visual quality
    - Sprite sheet generation for icon sets where appropriate (CSS sprites for web, texture atlases for games)
    - Progressive JPEG rendering for large photographs (shows a low-quality preview while loading)
 
-6. **Distribution and Integration**: COCO delivers assets directly to where engineers need them:
+6. **Distribution and Integration**: OpenMax delivers assets directly to where engineers need them:
    - Pushes exported assets to code repositories via pull requests with visual diff for review
    - Uploads to CDN or asset management systems with cache-busting version hashes
    - Updates package managers (npm packages for web icon libraries, CocoaPods/SPM for iOS, Maven for Android)
@@ -4350,7 +4350,7 @@ Output as an implementation specification with HTML/CSS code examples for each i
 
 > Run focused, high-output design workshops with structured facilitation that keeps teams aligned and moving.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: AI Design Workshop Planner**
 
@@ -4360,9 +4360,9 @@ Preparation is another significant challenge. A well-run sprint requires a caref
 
 Sprint documentation also tends to be poor. The rich thinking that happens during a sprint — user journey maps, problem statements, "How Might We" clusters, storyboards — gets captured inconsistently in photos and sticky notes that no one organizes afterward. Six months later, the team cannot reconstruct why they made the decisions they did during the sprint, and valuable insights are lost.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO acts as a comprehensive design sprint facilitator, reducing preparation overhead, guiding sprint execution, and producing structured documentation throughout the process:
+OpenMax acts as a comprehensive design sprint facilitator, reducing preparation overhead, guiding sprint execution, and producing structured documentation throughout the process:
 
 1. **Sprint planning and preparation**
    - Generates a complete sprint schedule tailored to the specific problem, team size, and available days
@@ -4516,7 +4516,7 @@ Include: a list of phrases facilitators must avoid that could bias responses.
 
 > Design products that feel native in every language — not just translated.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: AI Localization Design Advisor**
 
@@ -4526,9 +4526,9 @@ The problem runs deeper than string length and text direction. Different culture
 
 Designers working on localization also lack efficient tools for testing their designs against different locales. Manually translating strings into a design file, testing the layout at different text expansion rates, and checking RTL layout behavior is time-consuming and inconsistent. Without a systematic approach, localization issues get discovered late, fixed expensively, and re-introduced in subsequent design iterations.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO serves as a localization design expert, helping designers build for global from the beginning rather than retrofitting localization as an afterthought:
+OpenMax serves as a localization design expert, helping designers build for global from the beginning rather than retrofitting localization as an afterthought:
 
 1. **String expansion and layout stress testing**
    - Calculates text expansion rates for target languages (German +35%, French +25%, etc.) and applies them to design components
@@ -4672,7 +4672,7 @@ Also provide:
 
 > Build a living, consistent interaction pattern library that the whole team actually uses.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: AI Interaction Pattern Library Builder**
 
@@ -4682,9 +4682,9 @@ The result is a product that looks visually consistent but behaves inconsistentl
 
 Documenting interaction patterns requires a different skill set than documenting visual components. Interactions are inherently temporal and conditional — they require specifying behavior across multiple states, multiple edge cases, and multiple device contexts. Writing this documentation is painstaking, and keeping it up to date as the product evolves is even harder. Most design teams find that interaction documentation starts strong and becomes stale within months.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO helps design teams build comprehensive, maintainable interaction pattern libraries by providing structured pattern documentation, identifying gaps, and generating the specification content that teams find most difficult to write:
+OpenMax helps design teams build comprehensive, maintainable interaction pattern libraries by providing structured pattern documentation, identifying gaps, and generating the specification content that teams find most difficult to write:
 
 1. **Interaction audit and inventory**
    - Catalogs all existing interaction patterns across the product by analyzing component libraries, design files, and product descriptions
@@ -4857,19 +4857,19 @@ Also specify: how loading states should behave differently on mobile (where data
 
 > Produces comprehensive component documentation, usage guidelines, and do/don't examples from design system tokens and component specs — keeping docs in sync with the system.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Design System Documentation Is Always Outdated and Under-Maintained**
 
 Design systems create organizational leverage — when components are well-documented, teams build faster and more consistently. But documentation is the part of design system maintenance that is almost universally neglected. As components evolve, documentation lags. Usage guidelines written months ago don't reflect current best practices. A design system with 50+ components requires hundreds of hours of documentation work, and that work must be repeated every time a component is updated. The manual effort required is prohibitive, so documentation is perpetually incomplete.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Component Documentation Generation**: COCO generates structured documentation for each component from design token specifications, prop definitions, and visual examples.
-2. **Usage Guideline Writing**: COCO writes clear when-to-use and when-not-to-use guidelines based on component purpose and design system patterns.
-3. **Accessibility Documentation**: COCO documents WCAG compliance details, keyboard navigation patterns, and screen reader behaviors for each component.
-4. **Code Example Generation**: COCO generates usage code examples in the primary implementation framework showing common use cases.
-5. **Changelog Drafting**: COCO generates component changelog entries when specification changes are provided, maintaining a consistent documentation history.
+1. **Component Documentation Generation**: OpenMax generates structured documentation for each component from design token specifications, prop definitions, and visual examples.
+2. **Usage Guideline Writing**: OpenMax writes clear when-to-use and when-not-to-use guidelines based on component purpose and design system patterns.
+3. **Accessibility Documentation**: OpenMax documents WCAG compliance details, keyboard navigation patterns, and screen reader behaviors for each component.
+4. **Code Example Generation**: OpenMax generates usage code examples in the primary implementation framework showing common use cases.
+5. **Changelog Drafting**: OpenMax generates component changelog entries when specification changes are provided, maintaining a consistent documentation history.
 
 :::
 
@@ -4952,19 +4952,19 @@ Generate token documentation including:
 
 > Processes user research interview transcripts, usability test recordings, and survey responses to extract themes, prioritize findings, and generate research reports.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: User Research Insights Sit Unprocessed in Spreadsheets and Interview Transcripts**
 
 UX research generates valuable insight — but the synthesis process between raw data collection and actionable findings is the bottleneck that determines whether research influences product decisions. Manual affinity mapping and thematic analysis for a standard usability study (5–8 participants, 60-minute sessions) requires 12–20 hours of analysis work. Most design teams cannot afford this throughput, so research is conducted less frequently than the product roadmap needs, or synthesis is skipped in favor of gut-feel interpretations of raw observations.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Interview Transcript Analysis**: COCO processes interview transcripts and extracts observations, quotes, and behavioral patterns per participant.
-2. **Thematic Synthesis**: COCO groups observations into themes across participants, identifying the frequency and severity of each pattern.
-3. **Usability Severity Scoring**: COCO rates each finding by severity (critical / high / medium / low) based on frequency of occurrence and impact on task completion.
-4. **Insight Report Generation**: COCO generates structured research reports with executive summaries, prioritized findings, representative quotes, and design recommendations.
-5. **Persona and Journey Map Inputs**: COCO extracts mental models, motivations, and pain points from research data suitable for persona and journey map development.
+1. **Interview Transcript Analysis**: OpenMax processes interview transcripts and extracts observations, quotes, and behavioral patterns per participant.
+2. **Thematic Synthesis**: OpenMax groups observations into themes across participants, identifying the frequency and severity of each pattern.
+3. **Usability Severity Scoring**: OpenMax rates each finding by severity (critical / high / medium / low) based on frequency of occurrence and impact on task completion.
+4. **Insight Report Generation**: OpenMax generates structured research reports with executive summaries, prioritized findings, representative quotes, and design recommendations.
+5. **Persona and Journey Map Inputs**: OpenMax extracts mental models, motivations, and pain points from research data suitable for persona and journey map development.
 
 :::
 
@@ -5048,19 +5048,19 @@ Analyze:
 
 > Structures design critique sessions, synthesizes feedback from multiple reviewers into actionable priorities, and identifies conflicting feedback that needs resolution.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Design Critique Feedback Is Inconsistent, Conflicting, and Hard to Act On**
 
 Design critique sessions produce feedback that is difficult to act on. Comments range from subjective preferences to objective usability concerns, with no distinction between the two. Conflicting feedback from different stakeholders leaves designers paralyzed. Without a structured framework for evaluating critique quality and prioritizing feedback, designers either act on everything (creating design by committee) or dismiss feedback they disagree with (missing valid concerns). The synthesis challenge is compounded when feedback comes from multiple channels — Figma comments, meeting notes, Slack messages — at different times.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Feedback Collection and Structuring**: COCO organizes raw critique feedback into categories (usability, visual, business, technical) and separates factual observations from subjective preferences.
-2. **Conflict Detection**: COCO identifies contradictory feedback from different reviewers and flags conflicts that require a design decision.
-3. **Priority Ranking**: COCO applies severity and feasibility criteria to rank feedback by implementation priority.
-4. **Response Drafting**: COCO drafts responses to each piece of feedback — either a design change plan or a documented rationale for not implementing.
-5. **Critique Session Facilitation**: COCO generates structured critique agendas and evaluation criteria to make live critique sessions more productive.
+1. **Feedback Collection and Structuring**: OpenMax organizes raw critique feedback into categories (usability, visual, business, technical) and separates factual observations from subjective preferences.
+2. **Conflict Detection**: OpenMax identifies contradictory feedback from different reviewers and flags conflicts that require a design decision.
+3. **Priority Ranking**: OpenMax applies severity and feasibility criteria to rank feedback by implementation priority.
+4. **Response Drafting**: OpenMax drafts responses to each piece of feedback — either a design change plan or a documented rationale for not implementing.
+5. **Critique Session Facilitation**: OpenMax generates structured critique agendas and evaluation criteria to make live critique sessions more productive.
 
 :::
 

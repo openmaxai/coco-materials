@@ -1,14 +1,14 @@
 ---
 layout: page
-title: "Singapore Building Materials Distributor × COCO AI — From Missed Orders to Smart Quoting | COCO"
-description: "200+ daily WhatsApp messages, a 30-invoice-per-day human ceiling, and SGD 3–5K QS outsourcing fees with 5–7 day turnarounds. How a Singapore building materials distributor used COCO AI to achieve near-zero missed orders, multiply invoice throughput, and compress quantity surveying from a week to hours."
+title: "Singapore Building Materials Distributor × OpenMax AI — From Missed Orders to Smart Quoting | OpenMax"
+description: "200+ daily WhatsApp messages, a 30-invoice-per-day human ceiling, and SGD 3–5K QS outsourcing fees with 5–7 day turnarounds. How a Singapore building materials distributor used OpenMax AI to achieve near-zero missed orders, multiply invoice throughput, and compress quantity surveying from a week to hours."
 head:
   - - meta
     - property: og:title
-      content: "Singapore Building Materials Distributor × COCO AI — From Missed Orders to Smart Quoting"
+      content: "Singapore Building Materials Distributor × OpenMax AI — From Missed Orders to Smart Quoting"
   - - meta
     - property: og:description
-      content: "200+ daily WhatsApp messages, a 30-invoice-per-day human ceiling, and SGD 3–5K QS outsourcing fees with 5–7 day turnarounds. How a Singapore building materials distributor used COCO AI to achieve near-zero missed orders, multiply invoice throughput, and compress quantity surveying from a week to hours."
+      content: "200+ daily WhatsApp messages, a 30-invoice-per-day human ceiling, and SGD 3–5K QS outsourcing fees with 5–7 day turnarounds. How a Singapore building materials distributor used OpenMax AI to achieve near-zero missed orders, multiply invoice throughput, and compress quantity surveying from a week to hours."
   - - meta
     - property: og:image
       content: "https://docs.icoco.ai/coco-logo-black.png"
@@ -767,7 +767,7 @@ head:
 <div class="case-hero">
   <div class="hero-text-box">
     <h1>Building Materials Distributor<br/><em>From Missed Orders to Smart Quoting</em></h1>
-    <p class="subtitle">200+ daily WhatsApp messages drowning the team. Manual invoices capped at 30 per day.<br/>QS quotes taking a week. COCO AI changed all three.</p>
+    <p class="subtitle">200+ daily WhatsApp messages drowning the team. Manual invoices capped at 30 per day.<br/>QS quotes taking a week. OpenMax AI changed all three.</p>
     <div class="hero-stats">
       <div class="stat">
         <div class="stat-value">~0</div>
@@ -816,7 +816,7 @@ Third, the **quantity surveying workflow** was both expensive and slow. Every QS
 
 ## Solution: <em>An Integrated AI Capability Layer</em>
 
-COCO built an integrated AI capability layer covering three core operational areas: front-end customer communication, invoice processing, and construction quantity estimation. Rather than deploying three separate point solutions, COCO delivered a unified AI system that shares context across all three workflows.
+OpenMax built an integrated AI capability layer covering three core operational areas: front-end customer communication, invoice processing, and construction quantity estimation. Rather than deploying three separate point solutions, OpenMax delivered a unified AI system that shares context across all three workflows.
 
 <div class="pipeline-grid">
   <div class="pipeline-card">
@@ -873,7 +873,7 @@ The annualized savings from eliminating QS outsourcing alone represent a signifi
 <div class="case-section">
 
 <div class="case-quote">
-  <p>In building materials, the competition is straightforward: whoever quotes first, wins the order. COCO moved us from the back of the pack to the front on response speed.</p>
+  <p>In building materials, the competition is straightforward: whoever quotes first, wins the order. OpenMax moved us from the back of the pack to the front on response speed.</p>
 </div>
 
 </div>
@@ -882,7 +882,7 @@ The annualized savings from eliminating QS outsourcing alone represent a signifi
   <div class="case-cta">
     <h2>Let AI Transform Your Operations</h2>
     <p>From message triage to smart quoting — start with a single conversation</p>
-    <a href="https://icoco.ai" class="cta-btn">Get Started with COCO</a>
+    <a href="https://icoco.ai" class="cta-btn">Get Started with OpenMax</a>
   </div>
 </div>
 
@@ -895,7 +895,7 @@ The annualized savings from eliminating QS outsourcing alone represent a signifi
       <div class="blog-related-card-body">
         <div class="blog-related-card-label">AI Agent Case Study</div>
         <div class="blog-related-card-title">Container Shipping Group — AI Collaboration Network</div>
-        <div class="blog-related-card-desc">10+ AI employees, zero visibility. How COCO Workspace broke the black box and turned isolated agents into an orchestrated network.</div>
+        <div class="blog-related-card-desc">10+ AI employees, zero visibility. How OpenMax Workspace broke the black box and turned isolated agents into an orchestrated network.</div>
       </div>
     </a>
     <a class="blog-related-card" href="/case-studies/tea-brand-franchise">

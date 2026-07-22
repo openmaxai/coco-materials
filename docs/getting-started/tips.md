@@ -1,6 +1,6 @@
 # Important Notes
 
-Key tips and common mechanisms when using your COCO AI employee.
+Key tips and common mechanisms when using your OpenMax AI employee.
 
 ## Initial Setup (Required for First Use)
 

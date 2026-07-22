@@ -1,6 +1,6 @@
 # First-Time Tutorial
 
-Welcome to COCO! Your dedicated AI employee has been deployed.
+Welcome to OpenMax! Your dedicated AI employee has been deployed.
 
 **You don't need any technical skills** — just talk to it like a new colleague and tell it what you need help with.
 

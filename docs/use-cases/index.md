@@ -1,13 +1,13 @@
 ---
-title: "AI Agent Use Cases: 1000+ Enterprise Automation Examples | COCO"
-description: "Explore 1001 AI agent use cases for enterprise automation. From customer support to code review, see how COCO's multi-agent platform delivers 3-10x efficiency gains across industries."
+title: "AI Agent Use Cases: 1000+ Enterprise Automation Examples | OpenMax"
+description: "Explore 1001 AI agent use cases for enterprise automation. From customer support to code review, see how OpenMax's multi-agent platform delivers 3-10x efficiency gains across industries."
 head:
   - - meta
     - property: og:title
-      content: "AI Agent Use Cases: 1000+ Enterprise Automation Examples | COCO"
+      content: "AI Agent Use Cases: 1000+ Enterprise Automation Examples | OpenMax"
   - - meta
     - property: og:description
-      content: "Explore 1001 AI agent use cases for enterprise automation. From customer support to code review, see how COCO's multi-agent platform delivers 3-10x efficiency gains across industries."
+      content: "Explore 1001 AI agent use cases for enterprise automation. From customer support to code review, see how OpenMax's multi-agent platform delivers 3-10x efficiency gains across industries."
   - - meta
     - property: og:image
       content: "https://docs.icoco.ai/use-cases-og.png"
@@ -22,9 +22,9 @@ import { withBase } from 'vitepress'
 
 # AI Agent Use Cases: 1001 Enterprise Automation Examples
 
-Discover **1001 real-world scenarios** where COCO AI employees save time and money. Browse by **Role**, **Task**, or **Industry**.
+Discover **1001 real-world scenarios** where OpenMax AI employees save time and money. Browse by **Role**, **Task**, or **Industry**.
 
-<img :src="withBase('/getting-started-banner.png')" alt="COCO" style="width:100%;border-radius:12px;margin:16px 0;" />
+<img :src="withBase('/getting-started-banner.png')" alt="OpenMax" style="width:100%;border-radius:12px;margin:16px 0;" />
 
 ## Browse by Role
 
@@ -725,10 +725,10 @@ Find use cases by what you need to get done:
 | 619 | [AI Post-Merger Integration Risk Pre-Assessment](/use-cases/role/due-diligence-analyst#_28-ai-post-merger-integration-risk-pre-assessment) | Due Diligence Analyst | Financial Services | Research | AI pre-close integration risk assessment identi... |
 | 620 | [AI Insurance Coverage Gap & Claims History Reviewer](/use-cases/role/due-diligence-analyst#_29-ai-insurance-coverage-gap-claims-history-reviewer) | Due Diligence Analyst | Financial Services | Research | Manual review detects 12% of material coverage ... |
 | 621 | [AI Management Team Credibility & Track Record Verifier](/use-cases/role/due-diligence-analyst#_30-ai-management-team-credibility-track-record-verifier) | Due Diligence Analyst | Financial Services | Research | 18% → 74% |
-| 622 | [AI Joint Venture Partner Due Diligence Engine](/use-cases/role/due-diligence-analyst#_31-ai-joint-venture-partner-due-diligence-engine) | Due Diligence Analyst | Financial Services | Research | Structured COCO-assisted JV partner assessment ... |
+| 622 | [AI Joint Venture Partner Due Diligence Engine](/use-cases/role/due-diligence-analyst#_31-ai-joint-venture-partner-due-diligence-engine) | Due Diligence Analyst | Financial Services | Research | Structured OpenMax-assisted JV partner assessment ... |
 | 623 | [AI Government Contract & Debarment History Checker](/use-cases/role/due-diligence-analyst#_32-ai-government-contract-debarment-history-checker) | Due Diligence Analyst | Financial Services | Research | Multi-registry screening covers 47 exclusion da... |
-| 624 | [AI Cross-Jurisdictional Compliance Framework Mapper](/use-cases/role/due-diligence-analyst#_33-ai-cross-jurisdictional-compliance-framework-mapper) | Due Diligence Analyst | Financial Services | Research | COCO-assisted mapping identifies an average of ... |
-| 625 | [AI Distressed Asset & Bankruptcy History Analyzer](/use-cases/role/due-diligence-analyst#_34-ai-distressed-asset-bankruptcy-history-analyzer) | Due Diligence Analyst | Financial Services | Research | Systematic COCO-assisted distressed diligence i... |
+| 624 | [AI Cross-Jurisdictional Compliance Framework Mapper](/use-cases/role/due-diligence-analyst#_33-ai-cross-jurisdictional-compliance-framework-mapper) | Due Diligence Analyst | Financial Services | Research | OpenMax-assisted mapping identifies an average of ... |
+| 625 | [AI Distressed Asset & Bankruptcy History Analyzer](/use-cases/role/due-diligence-analyst#_34-ai-distressed-asset-bankruptcy-history-analyzer) | Due Diligence Analyst | Financial Services | Research | Systematic OpenMax-assisted distressed diligence i... |
 | 626 | [AI Due Diligence Final Report Compiler & Summarizer](/use-cases/role/due-diligence-analyst#_35-ai-due-diligence-final-report-compiler-summarizer) | Due Diligence Analyst | Financial Services | Research | Final diligence report assembly reduced from 3–... |
 | 627 | [AI LP Quarterly Report Generator](/use-cases/role/fund-manager#_1-ai-lp-quarterly-report-generator) | Fund Manager | Financial Services | Analysis | 3–4 weeks → 3–4 business days per quarterly |
 | 628 | [AI Deal Flow Pipeline Scoring & Prioritization Engine](/use-cases/role/fund-manager#_2-ai-deal-flow-pipeline-scoring-prioritization-engine) | Fund Manager | Financial Services | Analysis | Reduced from 45–60 minutes per deal to under 8 ... |
@@ -738,17 +738,17 @@ Find use cases by what you need to get done:
 | 632 | [AI Portfolio Company KPI Health Monitor](/use-cases/role/fund-manager#_6-ai-portfolio-company-kpi-health-monitor) | Fund Manager | Financial Services | Analysis | Material performance deterioration flagged an a... |
 | 633 | [AI IRR & MOIC Sensitivity Scenario Calculator](/use-cases/role/fund-manager#_7-ai-irr-moic-sensitivity-scenario-calculator) | Fund Manager | Financial Services | Analysis | Investment committee presentations now include ... |
 | 634 | [AI Co-Investment Opportunity Risk-Return Analyzer](/use-cases/role/fund-manager#_8-ai-co-investment-opportunity-risk-return-analyzer) | Fund Manager | Financial Services | Analysis | Comprehensive risk-return assessment completed ... |
-| 635 | [AI M&A Add-On Target Screening Engine](/use-cases/role/fund-manager#_9-ai-ma-add-on-target-screening-engine) | Fund Manager | Financial Services | Analysis | COCO identifies an average of 4.2x more potenti... |
+| 635 | [AI M&A Add-On Target Screening Engine](/use-cases/role/fund-manager#_9-ai-ma-add-on-target-screening-engine) | Fund Manager | Financial Services | Analysis | OpenMax identifies an average of 4.2x more potenti... |
 | 636 | [AI Investment Memo Drafting Assistant](/use-cases/role/fund-manager#_10-ai-investment-memo-drafting-assistant) | Fund Manager | Financial Services | Analysis | First complete draft produced in under 6 hours ... |
 | 637 | [AI Fund Marketing Deck & Pitch Book Builder](/use-cases/role/fund-manager#_11-ai-fund-marketing-deck-pitch-book-builder) | Fund Manager | Financial Services | Analysis | 8–12 weeks → 2–3 weeks |
 | 638 | [AI LP Relationship & Commitment Tracker](/use-cases/role/fund-manager#_12-ai-lp-relationship-commitment-tracker) | Fund Manager | Financial Services | Analysis | Average time from LP inquiry or information req... |
 | 639 | [AI Form D / AIFMD Regulatory Filing Preparer](/use-cases/role/fund-manager#_13-ai-form-d-aifmd-regulatory-filing-preparer) | Fund Manager | Financial Services | Analysis | Reduced from 2–3 business days (legal/complianc... |
 | 640 | [AI ESG & Impact Reporting Engine for LPs](/use-cases/role/fund-manager#_14-ai-esg-impact-reporting-engine-for-lps) | Fund Manager | Financial Services | Analysis | Annual ESG data collection from portfolio compa... |
-| 641 | [AI Venture Portfolio Concentration Risk Analyzer](/use-cases/role/fund-manager#_15-ai-venture-portfolio-concentration-risk-analyzer) | Fund Manager | Financial Services | Analysis | Funds using COCO track an average of 7 distinct... |
+| 641 | [AI Venture Portfolio Concentration Risk Analyzer](/use-cases/role/fund-manager#_15-ai-venture-portfolio-concentration-risk-analyzer) | Fund Manager | Financial Services | Analysis | Funds using OpenMax track an average of 7 distinct... |
 | 642 | [AI Secondary Market LP Interest Valuation Tool](/use-cases/role/fund-manager#_16-ai-secondary-market-lp-interest-valuation-tool) | Fund Manager | Financial Services | Analysis | Bottom-up portfolio company valuation assessmen... |
 | 643 | [AI Management Fee & Carry Waterfall Calculator](/use-cases/role/fund-manager#_17-ai-management-fee-carry-waterfall-calculator) | Fund Manager | Financial Services | Analysis | Material errors in carry distribution calculati... |
 | 644 | [AI Startup Founder Reference Check Synthesizer](/use-cases/role/fund-manager#_18-ai-startup-founder-reference-check-synthesizer) | Fund Manager | Financial Services | Analysis | Structured management assessment from 8–10 call... |
-| 645 | [AI Competitive Landscape Mapping for Portfolio Companies](/use-cases/role/fund-manager#_19-ai-competitive-landscape-mapping-for-portfolio-companies) | Fund Manager | Financial Services | Analysis | Portfolio companies receiving quarterly COCO-ge... |
+| 645 | [AI Competitive Landscape Mapping for Portfolio Companies](/use-cases/role/fund-manager#_19-ai-competitive-landscape-mapping-for-portfolio-companies) | Fund Manager | Financial Services | Analysis | Portfolio companies receiving quarterly OpenMax-ge... |
 | 646 | [AI Board Meeting Preparation Pack Generator](/use-cases/role/fund-manager#_20-ai-board-meeting-preparation-pack-generator) | Fund Manager | Financial Services | Analysis | 4–6 hours → 90 minutes |
 | 647 | [AI Model Evaluation Framework Builder](/use-cases/role/ai-product-manager#_1-ai-model-evaluation-framework-builder) | AI PM | Tech/SaaS | Automation | Reduced from 6–10 weeks of ad-hoc evaluation to... |
 | 648 | [AI Prompt Engineering Workflow Optimizer](/use-cases/role/ai-product-manager#_2-ai-prompt-engineering-workflow-optimizer) | AI PM | Tech/SaaS | Automation | 85% savings |
@@ -1127,14 +1127,14 @@ Multi-agent teams assign specialized AI agents to different parts of a workflow,
 <details>
 <summary><strong>What industries benefit most from AI agent automation?</strong></summary>
 
-AI agents deliver measurable ROI across virtually every industry. The highest-impact sectors include Technology/SaaS (code review, DevOps, QA), Financial Services (claims processing, compliance, due diligence), E-commerce/Retail (customer support, inventory management), Healthcare (patient intake, clinical trial screening), and Professional Services (legal document review, consulting research). COCO's use case library covers 18+ industries with proven efficiency metrics for each.
+AI agents deliver measurable ROI across virtually every industry. The highest-impact sectors include Technology/SaaS (code review, DevOps, QA), Financial Services (claims processing, compliance, due diligence), E-commerce/Retail (customer support, inventory management), Healthcare (patient intake, clinical trial screening), and Professional Services (legal document review, consulting research). OpenMax's use case library covers 18+ industries with proven efficiency metrics for each.
 
 </details>
 
 <details>
-<summary><strong>How long does it take to deploy a COCO AI agent team?</strong></summary>
+<summary><strong>How long does it take to deploy an OpenMax AI agent team?</strong></summary>
 
-Most COCO AI agent teams can be deployed and productive within days, not months. Simple single-agent use cases (like ticket classification or meeting note generation) can be live within hours. More complex multi-agent workflows (like a full sales development pipeline or M&A due diligence accelerator) typically take 1-2 weeks to configure and optimize. COCO's enterprise cloud platform handles the infrastructure so your team can focus on defining workflows rather than building from scratch.
+Most OpenMax AI agent teams can be deployed and productive within days, not months. Simple single-agent use cases (like ticket classification or meeting note generation) can be live within hours. More complex multi-agent workflows (like a full sales development pipeline or M&A due diligence accelerator) typically take 1-2 weeks to configure and optimize. OpenMax's enterprise cloud platform handles the infrastructure so your team can focus on defining workflows rather than building from scratch.
 
 </details>
 
@@ -1146,22 +1146,22 @@ Enterprises typically see 3-10x efficiency gains from AI agent deployment, with 
 </details>
 
 <details>
-<summary><strong>How does COCO compare to other AI agent platforms?</strong></summary>
+<summary><strong>How does OpenMax compare to other AI agent platforms?</strong></summary>
 
-COCO is built on an open-source AI agent infrastructure (Zylos.ai) with an enterprise cloud layer (icoco.ai). Unlike DIY agent-building platforms, COCO provides a three-layer architecture: open-source framework, multi-agent orchestration (HXA Connect), and enterprise-ready deployment. COCO supports multi-agent team architectures where agents collaborate autonomously, works across both Western and Chinese markets, and integrates with the communication tools your team already uses (Slack, Lark/Feishu, Telegram, Microsoft Teams, and more).
+OpenMax is built on an open-source AI agent infrastructure (Zylos.ai) with an enterprise cloud layer (icoco.ai). Unlike DIY agent-building platforms, OpenMax provides a three-layer architecture: open-source framework, multi-agent orchestration (HXA Connect), and enterprise-ready deployment. OpenMax supports multi-agent team architectures where agents collaborate autonomously, works across both Western and Chinese markets, and integrates with the communication tools your team already uses (Slack, Lark/Feishu, Telegram, Microsoft Teams, and more).
 
 </details>
 
 <details>
 <summary><strong>Can AI agents work with existing enterprise tools like Slack, Lark, Microsoft Teams, and Telegram?</strong></summary>
 
-Yes. COCO AI agents integrate natively with popular enterprise communication and collaboration platforms including Slack, Lark (Feishu), Telegram, Microsoft Teams, and more. Agents can receive tasks, send updates, and collaborate with human team members directly within your existing workflows -- no context switching required. This means your AI employees work where your human employees already work.
+Yes. OpenMax AI agents integrate natively with popular enterprise communication and collaboration platforms including Slack, Lark (Feishu), Telegram, Microsoft Teams, and more. Agents can receive tasks, send updates, and collaborate with human team members directly within your existing workflows -- no context switching required. This means your AI employees work where your human employees already work.
 
 </details>
 
 <details>
-<summary><strong>Is there a free trial for COCO AI agent platform?</strong></summary>
+<summary><strong>Is there a free trial for OpenMax AI agent platform?</strong></summary>
 
-Yes, COCO offers a free trial so you can experience AI agent capabilities firsthand. Visit [icoco.ai](https://icoco.ai) to get started, or check our [Getting Started guide](/getting-started/) for step-by-step onboarding instructions. You can deploy your first AI agent team and see measurable results before committing to a plan.
+Yes, OpenMax offers a free trial so you can experience AI agent capabilities firsthand. Visit [icoco.ai](https://icoco.ai) to get started, or check our [Getting Started guide](/getting-started/) for step-by-step onboarding instructions. You can deploy your first AI agent team and see measurable results before committing to a plan.
 
 </details>

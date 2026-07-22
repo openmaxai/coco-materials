@@ -12,7 +12,7 @@ AI-powered use cases for compliance officer professionals.
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Permit Tracking Is Draining Your Team's Productivity**
 
@@ -22,19 +22,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Permit Application Tracker integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI Permit Application Tracker integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Government.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Government.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -42,7 +42,7 @@ COCO's AI Permit Application Tracker integrates directly into your existing work
 
 **Measurable Results**
 
-Teams using COCO's AI Permit Application Tracker report:
+Teams using OpenMax's AI Permit Application Tracker report:
 - **61% reduction** in task completion time
 - **39% decrease** in operational costs for this workflow
 - **96% accuracy** rate, exceeding manual benchmarks
@@ -136,7 +136,7 @@ This week's data:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Recall Monitoring Is Draining Your Team's Productivity**
 
@@ -146,19 +146,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Vehicle Recall Monitor integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI Vehicle Recall Monitor integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Automotive.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Automotive.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -166,7 +166,7 @@ COCO's AI Vehicle Recall Monitor integrates directly into your existing workflow
 
 **Measurable Results**
 
-Teams using COCO's AI Vehicle Recall Monitor report:
+Teams using OpenMax's AI Vehicle Recall Monitor report:
 - **79% reduction** in task completion time
 - **40% decrease** in operational costs for this workflow
 - **96% accuracy** rate, exceeding manual benchmarks
@@ -260,7 +260,7 @@ This week's data:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Esg Reporting Is Draining Your Team's Productivity**
 
@@ -270,19 +270,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Carbon Footprint Reporter integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI Carbon Footprint Reporter integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Energy.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Energy.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -290,7 +290,7 @@ COCO's AI Carbon Footprint Reporter integrates directly into your existing workf
 
 **Measurable Results**
 
-Teams using COCO's AI Carbon Footprint Reporter report:
+Teams using OpenMax's AI Carbon Footprint Reporter report:
 - **69% reduction** in task completion time
 - **55% decrease** in operational costs for this workflow
 - **89% accuracy** rate, exceeding manual benchmarks
@@ -384,7 +384,7 @@ This week's data:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Compliance Audits Are a Time Sink That Never Ends**
 
@@ -394,19 +394,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI HIPAA Compliance Auditor integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI HIPAA Compliance Auditor integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Healthcare.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Healthcare.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -414,7 +414,7 @@ COCO's AI HIPAA Compliance Auditor integrates directly into your existing workfl
 
 **Measurable Results**
 
-Teams using COCO's AI HIPAA Compliance Auditor report:
+Teams using OpenMax's AI HIPAA Compliance Auditor report:
 - **68% reduction** in task completion time
 - **54% decrease** in operational costs for this workflow
 - **90% accuracy** rate, exceeding manual benchmarks
@@ -508,7 +508,7 @@ This week's data:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Accreditation Review Is Draining Your Team's Productivity**
 
@@ -518,19 +518,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Accreditation Compliance Checker integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI Accreditation Compliance Checker integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Education.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Education.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -538,7 +538,7 @@ COCO's AI Accreditation Compliance Checker integrates directly into your existin
 
 **Measurable Results**
 
-Teams using COCO's AI Accreditation Compliance Checker report:
+Teams using OpenMax's AI Accreditation Compliance Checker report:
 - **62% reduction** in task completion time
 - **38% decrease** in operational costs for this workflow
 - **93% accuracy** rate, exceeding manual benchmarks
@@ -632,7 +632,7 @@ This week's data:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Incident Reporting Is Draining Your Team's Productivity**
 
@@ -642,19 +642,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Safety Incident Reporter integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI Safety Incident Reporter integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Manufacturing.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Manufacturing.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -662,7 +662,7 @@ COCO's AI Safety Incident Reporter integrates directly into your existing workfl
 
 **Measurable Results**
 
-Teams using COCO's AI Safety Incident Reporter report:
+Teams using OpenMax's AI Safety Incident Reporter report:
 - **71% reduction** in task completion time
 - **41% decrease** in operational costs for this workflow
 - **92% accuracy** rate, exceeding manual benchmarks
@@ -756,7 +756,7 @@ This week's data:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Esg Disclosure Is Draining Your Team's Productivity**
 
@@ -766,19 +766,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI ESG Disclosure Writer integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI ESG Disclosure Writer integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Enterprise.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Enterprise.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -786,7 +786,7 @@ COCO's AI ESG Disclosure Writer integrates directly into your existing workflow 
 
 **Measurable Results**
 
-Teams using COCO's AI ESG Disclosure Writer report:
+Teams using OpenMax's AI ESG Disclosure Writer report:
 - **76% reduction** in task completion time
 - **35% decrease** in operational costs for this workflow
 - **96% accuracy** rate, exceeding manual benchmarks
@@ -874,7 +874,7 @@ This week's data:
 
 > Organizations operating in Insurance face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Insurance Claims Adjudication Overhead**
 
@@ -884,44 +884,44 @@ The core challenge is that claims processing requires synthesizing large volumes
 
 The downstream cost extends beyond direct labor. Delayed outputs slow downstream decisions. Inconsistent quality creates rework cycles. Missed insights lead to suboptimal resource allocation. And when teams are overwhelmed with execution, there's no bandwidth left for the proactive thinking that prevents problems before they occur — creating a reactive culture that's perpetually behind.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Intelligent Data Ingestion and Structuring**: COCO connects to relevant data sources and normalizes inputs:
+1. **Intelligent Data Ingestion and Structuring**: OpenMax connects to relevant data sources and normalizes inputs:
    - Ingests documents, spreadsheets, databases, and unstructured text simultaneously
    - Identifies key entities, metrics, and relationships across disparate data sources
    - Applies domain-specific schemas to structure raw inputs into analyzable formats
    - Flags data quality issues, missing fields, and inconsistencies before analysis begins
    - Maintains audit trails linking every output back to its source data
 
-2. **Pattern Recognition and Anomaly Detection**: COCO surfaces insights that manual review misses:
+2. **Pattern Recognition and Anomaly Detection**: OpenMax surfaces insights that manual review misses:
    - Applies statistical models to identify trends, outliers, and emerging patterns
    - Benchmarks current performance against historical baselines and industry standards
    - Detects early warning signals before they escalate into critical issues
    - Cross-references multiple data dimensions to reveal non-obvious correlations
    - Prioritizes findings by potential business impact and urgency
 
-3. **Automated Report and Document Generation**: COCO eliminates manual document production:
+3. **Automated Report and Document Generation**: OpenMax eliminates manual document production:
    - Generates structured reports following organization-specific templates and standards
    - Produces executive summaries calibrated to the appropriate audience and detail level
    - Creates supporting visualizations, tables, and data exhibits automatically
    - Maintains consistent terminology, formatting, and citation standards across all outputs
    - Drafts multiple output versions (technical detail vs. executive summary) from the same analysis
 
-4. **Workflow Automation and Task Orchestration**: COCO streamlines multi-step processes:
+4. **Workflow Automation and Task Orchestration**: OpenMax streamlines multi-step processes:
    - Breaks complex workflows into discrete, trackable steps with clear ownership
    - Automates handoffs between team members with appropriate context and instructions
    - Tracks completion status and surfaces blockers before deadlines are missed
    - Generates checklists, reminders, and escalation triggers at critical checkpoints
    - Integrates with existing tools (Slack, email, project management) to reduce context switching
 
-5. **Quality Assurance and Compliance Checking**: COCO builds quality into the process:
+5. **Quality Assurance and Compliance Checking**: OpenMax builds quality into the process:
    - Validates outputs against regulatory requirements and internal policy standards
    - Checks for completeness, consistency, and accuracy before outputs are finalized
    - Documents the reasoning behind key recommendations for review and audit purposes
    - Flags potential compliance risks or policy violations with specific rule references
    - Maintains a version history of all outputs for regulatory and audit purposes
 
-6. **Continuous Improvement and Learning**: COCO improves outcomes over time:
+6. **Continuous Improvement and Learning**: OpenMax improves outcomes over time:
    - Tracks which recommendations were acted on and correlates with downstream outcomes
    - Identifies systematic biases or gaps in the current process
    - Recommends process improvements based on analysis of workflow bottlenecks
@@ -934,7 +934,7 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 
 **Measurable Results**
 
-- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with COCO assistance (85% time savings)
+- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with OpenMax assistance (85% time savings)
 - **Output quality score**: Improved from 71% accuracy on manual reviews to **96% with AI-assisted validation**
 - **Throughput capacity**: Team handles **3.4x more cases** monthly without additional headcount
 - **Error rate and rework**: Downstream errors requiring rework reduced from 18% to **under 3%**
@@ -1073,7 +1073,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Real Estate face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Construction Permit Compliance Tracker**
 
@@ -1083,44 +1083,44 @@ The core challenge is that permit management requires synthesizing large volumes
 
 The downstream cost extends beyond direct labor. Delayed outputs slow downstream decisions. Inconsistent quality creates rework cycles. Missed insights lead to suboptimal resource allocation. And when teams are overwhelmed with execution, there's no bandwidth left for the proactive thinking that prevents problems before they occur — creating a reactive culture that's perpetually behind.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Intelligent Data Ingestion and Structuring**: COCO connects to relevant data sources and normalizes inputs:
+1. **Intelligent Data Ingestion and Structuring**: OpenMax connects to relevant data sources and normalizes inputs:
    - Ingests documents, spreadsheets, databases, and unstructured text simultaneously
    - Identifies key entities, metrics, and relationships across disparate data sources
    - Applies domain-specific schemas to structure raw inputs into analyzable formats
    - Flags data quality issues, missing fields, and inconsistencies before analysis begins
    - Maintains audit trails linking every output back to its source data
 
-2. **Pattern Recognition and Anomaly Detection**: COCO surfaces insights that manual review misses:
+2. **Pattern Recognition and Anomaly Detection**: OpenMax surfaces insights that manual review misses:
    - Applies statistical models to identify trends, outliers, and emerging patterns
    - Benchmarks current performance against historical baselines and industry standards
    - Detects early warning signals before they escalate into critical issues
    - Cross-references multiple data dimensions to reveal non-obvious correlations
    - Prioritizes findings by potential business impact and urgency
 
-3. **Automated Report and Document Generation**: COCO eliminates manual document production:
+3. **Automated Report and Document Generation**: OpenMax eliminates manual document production:
    - Generates structured reports following organization-specific templates and standards
    - Produces executive summaries calibrated to the appropriate audience and detail level
    - Creates supporting visualizations, tables, and data exhibits automatically
    - Maintains consistent terminology, formatting, and citation standards across all outputs
    - Drafts multiple output versions (technical detail vs. executive summary) from the same analysis
 
-4. **Workflow Automation and Task Orchestration**: COCO streamlines multi-step processes:
+4. **Workflow Automation and Task Orchestration**: OpenMax streamlines multi-step processes:
    - Breaks complex workflows into discrete, trackable steps with clear ownership
    - Automates handoffs between team members with appropriate context and instructions
    - Tracks completion status and surfaces blockers before deadlines are missed
    - Generates checklists, reminders, and escalation triggers at critical checkpoints
    - Integrates with existing tools (Slack, email, project management) to reduce context switching
 
-5. **Quality Assurance and Compliance Checking**: COCO builds quality into the process:
+5. **Quality Assurance and Compliance Checking**: OpenMax builds quality into the process:
    - Validates outputs against regulatory requirements and internal policy standards
    - Checks for completeness, consistency, and accuracy before outputs are finalized
    - Documents the reasoning behind key recommendations for review and audit purposes
    - Flags potential compliance risks or policy violations with specific rule references
    - Maintains a version history of all outputs for regulatory and audit purposes
 
-6. **Continuous Improvement and Learning**: COCO improves outcomes over time:
+6. **Continuous Improvement and Learning**: OpenMax improves outcomes over time:
    - Tracks which recommendations were acted on and correlates with downstream outcomes
    - Identifies systematic biases or gaps in the current process
    - Recommends process improvements based on analysis of workflow bottlenecks
@@ -1133,7 +1133,7 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 
 **Measurable Results**
 
-- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with COCO assistance (85% time savings)
+- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with OpenMax assistance (85% time savings)
 - **Output quality score**: Improved from 71% accuracy on manual reviews to **96% with AI-assisted validation**
 - **Throughput capacity**: Team handles **3.4x more cases** monthly without additional headcount
 - **Error rate and rework**: Downstream errors requiring rework reduced from 18% to **under 3%**
@@ -1272,7 +1272,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Insurance face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Insurance Fraud Detection Alert Breakdowns**
 
@@ -1282,44 +1282,44 @@ The core challenge is that fraud detection requires synthesizing large volumes o
 
 The downstream cost extends beyond direct labor. Delayed outputs slow downstream decisions. Inconsistent quality creates rework cycles. Missed insights lead to suboptimal resource allocation. And when teams are overwhelmed with execution, there's no bandwidth left for the proactive thinking that prevents problems before they occur — creating a reactive culture that's perpetually behind.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Intelligent Data Ingestion and Structuring**: COCO connects to relevant data sources and normalizes inputs:
+1. **Intelligent Data Ingestion and Structuring**: OpenMax connects to relevant data sources and normalizes inputs:
    - Ingests documents, spreadsheets, databases, and unstructured text simultaneously
    - Identifies key entities, metrics, and relationships across disparate data sources
    - Applies domain-specific schemas to structure raw inputs into analyzable formats
    - Flags data quality issues, missing fields, and inconsistencies before analysis begins
    - Maintains audit trails linking every output back to its source data
 
-2. **Pattern Recognition and Anomaly Detection**: COCO surfaces insights that manual review misses:
+2. **Pattern Recognition and Anomaly Detection**: OpenMax surfaces insights that manual review misses:
    - Applies statistical models to identify trends, outliers, and emerging patterns
    - Benchmarks current performance against historical baselines and industry standards
    - Detects early warning signals before they escalate into critical issues
    - Cross-references multiple data dimensions to reveal non-obvious correlations
    - Prioritizes findings by potential business impact and urgency
 
-3. **Automated Report and Document Generation**: COCO eliminates manual document production:
+3. **Automated Report and Document Generation**: OpenMax eliminates manual document production:
    - Generates structured reports following organization-specific templates and standards
    - Produces executive summaries calibrated to the appropriate audience and detail level
    - Creates supporting visualizations, tables, and data exhibits automatically
    - Maintains consistent terminology, formatting, and citation standards across all outputs
    - Drafts multiple output versions (technical detail vs. executive summary) from the same analysis
 
-4. **Workflow Automation and Task Orchestration**: COCO streamlines multi-step processes:
+4. **Workflow Automation and Task Orchestration**: OpenMax streamlines multi-step processes:
    - Breaks complex workflows into discrete, trackable steps with clear ownership
    - Automates handoffs between team members with appropriate context and instructions
    - Tracks completion status and surfaces blockers before deadlines are missed
    - Generates checklists, reminders, and escalation triggers at critical checkpoints
    - Integrates with existing tools (Slack, email, project management) to reduce context switching
 
-5. **Quality Assurance and Compliance Checking**: COCO builds quality into the process:
+5. **Quality Assurance and Compliance Checking**: OpenMax builds quality into the process:
    - Validates outputs against regulatory requirements and internal policy standards
    - Checks for completeness, consistency, and accuracy before outputs are finalized
    - Documents the reasoning behind key recommendations for review and audit purposes
    - Flags potential compliance risks or policy violations with specific rule references
    - Maintains a version history of all outputs for regulatory and audit purposes
 
-6. **Continuous Improvement and Learning**: COCO improves outcomes over time:
+6. **Continuous Improvement and Learning**: OpenMax improves outcomes over time:
    - Tracks which recommendations were acted on and correlates with downstream outcomes
    - Identifies systematic biases or gaps in the current process
    - Recommends process improvements based on analysis of workflow bottlenecks
@@ -1332,7 +1332,7 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 
 **Measurable Results**
 
-- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with COCO assistance (85% time savings)
+- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with OpenMax assistance (85% time savings)
 - **Output quality score**: Improved from 71% accuracy on manual reviews to **96% with AI-assisted validation**
 - **Throughput capacity**: Team handles **3.4x more cases** monthly without additional headcount
 - **Error rate and rework**: Downstream errors requiring rework reduced from 18% to **under 3%**
@@ -1471,7 +1471,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Financial Services face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Compliance Officer Audit Trail Manual Effort**
 
@@ -1481,44 +1481,44 @@ The core challenge is that compliance audit requires synthesizing large volumes 
 
 The downstream cost extends beyond direct labor. Delayed outputs slow downstream decisions. Inconsistent quality creates rework cycles. Missed insights lead to suboptimal resource allocation. And when teams are overwhelmed with execution, there's no bandwidth left for the proactive thinking that prevents problems before they occur — creating a reactive culture that's perpetually behind.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Intelligent Data Ingestion and Structuring**: COCO connects to relevant data sources and normalizes inputs:
+1. **Intelligent Data Ingestion and Structuring**: OpenMax connects to relevant data sources and normalizes inputs:
    - Ingests documents, spreadsheets, databases, and unstructured text simultaneously
    - Identifies key entities, metrics, and relationships across disparate data sources
    - Applies domain-specific schemas to structure raw inputs into analyzable formats
    - Flags data quality issues, missing fields, and inconsistencies before analysis begins
    - Maintains audit trails linking every output back to its source data
 
-2. **Pattern Recognition and Anomaly Detection**: COCO surfaces insights that manual review misses:
+2. **Pattern Recognition and Anomaly Detection**: OpenMax surfaces insights that manual review misses:
    - Applies statistical models to identify trends, outliers, and emerging patterns
    - Benchmarks current performance against historical baselines and industry standards
    - Detects early warning signals before they escalate into critical issues
    - Cross-references multiple data dimensions to reveal non-obvious correlations
    - Prioritizes findings by potential business impact and urgency
 
-3. **Automated Report and Document Generation**: COCO eliminates manual document production:
+3. **Automated Report and Document Generation**: OpenMax eliminates manual document production:
    - Generates structured reports following organization-specific templates and standards
    - Produces executive summaries calibrated to the appropriate audience and detail level
    - Creates supporting visualizations, tables, and data exhibits automatically
    - Maintains consistent terminology, formatting, and citation standards across all outputs
    - Drafts multiple output versions (technical detail vs. executive summary) from the same analysis
 
-4. **Workflow Automation and Task Orchestration**: COCO streamlines multi-step processes:
+4. **Workflow Automation and Task Orchestration**: OpenMax streamlines multi-step processes:
    - Breaks complex workflows into discrete, trackable steps with clear ownership
    - Automates handoffs between team members with appropriate context and instructions
    - Tracks completion status and surfaces blockers before deadlines are missed
    - Generates checklists, reminders, and escalation triggers at critical checkpoints
    - Integrates with existing tools (Slack, email, project management) to reduce context switching
 
-5. **Quality Assurance and Compliance Checking**: COCO builds quality into the process:
+5. **Quality Assurance and Compliance Checking**: OpenMax builds quality into the process:
    - Validates outputs against regulatory requirements and internal policy standards
    - Checks for completeness, consistency, and accuracy before outputs are finalized
    - Documents the reasoning behind key recommendations for review and audit purposes
    - Flags potential compliance risks or policy violations with specific rule references
    - Maintains a version history of all outputs for regulatory and audit purposes
 
-6. **Continuous Improvement and Learning**: COCO improves outcomes over time:
+6. **Continuous Improvement and Learning**: OpenMax improves outcomes over time:
    - Tracks which recommendations were acted on and correlates with downstream outcomes
    - Identifies systematic biases or gaps in the current process
    - Recommends process improvements based on analysis of workflow bottlenecks
@@ -1531,7 +1531,7 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 
 **Measurable Results**
 
-- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with COCO assistance (85% time savings)
+- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with OpenMax assistance (85% time savings)
 - **Output quality score**: Improved from 71% accuracy on manual reviews to **96% with AI-assisted validation**
 - **Throughput capacity**: Team handles **3.4x more cases** monthly without additional headcount
 - **Error rate and rework**: Downstream errors requiring rework reduced from 18% to **under 3%**
@@ -1670,7 +1670,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Healthcare face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Healthcare Medical Coding Accuracy Auditor**
 
@@ -1680,44 +1680,44 @@ The core challenge is that medical coding requires synthesizing large volumes of
 
 The downstream cost extends beyond direct labor. Delayed outputs slow downstream decisions. Inconsistent quality creates rework cycles. Missed insights lead to suboptimal resource allocation. And when teams are overwhelmed with execution, there's no bandwidth left for the proactive thinking that prevents problems before they occur — creating a reactive culture that's perpetually behind.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Intelligent Data Ingestion and Structuring**: COCO connects to relevant data sources and normalizes inputs:
+1. **Intelligent Data Ingestion and Structuring**: OpenMax connects to relevant data sources and normalizes inputs:
    - Ingests documents, spreadsheets, databases, and unstructured text simultaneously
    - Identifies key entities, metrics, and relationships across disparate data sources
    - Applies domain-specific schemas to structure raw inputs into analyzable formats
    - Flags data quality issues, missing fields, and inconsistencies before analysis begins
    - Maintains audit trails linking every output back to its source data
 
-2. **Pattern Recognition and Anomaly Detection**: COCO surfaces insights that manual review misses:
+2. **Pattern Recognition and Anomaly Detection**: OpenMax surfaces insights that manual review misses:
    - Applies statistical models to identify trends, outliers, and emerging patterns
    - Benchmarks current performance against historical baselines and industry standards
    - Detects early warning signals before they escalate into critical issues
    - Cross-references multiple data dimensions to reveal non-obvious correlations
    - Prioritizes findings by potential business impact and urgency
 
-3. **Automated Report and Document Generation**: COCO eliminates manual document production:
+3. **Automated Report and Document Generation**: OpenMax eliminates manual document production:
    - Generates structured reports following organization-specific templates and standards
    - Produces executive summaries calibrated to the appropriate audience and detail level
    - Creates supporting visualizations, tables, and data exhibits automatically
    - Maintains consistent terminology, formatting, and citation standards across all outputs
    - Drafts multiple output versions (technical detail vs. executive summary) from the same analysis
 
-4. **Workflow Automation and Task Orchestration**: COCO streamlines multi-step processes:
+4. **Workflow Automation and Task Orchestration**: OpenMax streamlines multi-step processes:
    - Breaks complex workflows into discrete, trackable steps with clear ownership
    - Automates handoffs between team members with appropriate context and instructions
    - Tracks completion status and surfaces blockers before deadlines are missed
    - Generates checklists, reminders, and escalation triggers at critical checkpoints
    - Integrates with existing tools (Slack, email, project management) to reduce context switching
 
-5. **Quality Assurance and Compliance Checking**: COCO builds quality into the process:
+5. **Quality Assurance and Compliance Checking**: OpenMax builds quality into the process:
    - Validates outputs against regulatory requirements and internal policy standards
    - Checks for completeness, consistency, and accuracy before outputs are finalized
    - Documents the reasoning behind key recommendations for review and audit purposes
    - Flags potential compliance risks or policy violations with specific rule references
    - Maintains a version history of all outputs for regulatory and audit purposes
 
-6. **Continuous Improvement and Learning**: COCO improves outcomes over time:
+6. **Continuous Improvement and Learning**: OpenMax improves outcomes over time:
    - Tracks which recommendations were acted on and correlates with downstream outcomes
    - Identifies systematic biases or gaps in the current process
    - Recommends process improvements based on analysis of workflow bottlenecks
@@ -1730,7 +1730,7 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 
 **Measurable Results**
 
-- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with COCO assistance (85% time savings)
+- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with OpenMax assistance (85% time savings)
 - **Output quality score**: Improved from 71% accuracy on manual reviews to **96% with AI-assisted validation**
 - **Throughput capacity**: Team handles **3.4x more cases** monthly without additional headcount
 - **Error rate and rework**: Downstream errors requiring rework reduced from 18% to **under 3%**
@@ -1869,7 +1869,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Financial Services face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Finance Regulatory Filing Overhead**
 
@@ -1879,44 +1879,44 @@ The core challenge is that regulatory compliance requires synthesizing large vol
 
 The downstream cost extends beyond direct labor. Delayed outputs slow downstream decisions. Inconsistent quality creates rework cycles. Missed insights lead to suboptimal resource allocation. And when teams are overwhelmed with execution, there's no bandwidth left for the proactive thinking that prevents problems before they occur — creating a reactive culture that's perpetually behind.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Intelligent Data Ingestion and Structuring**: COCO connects to relevant data sources and normalizes inputs:
+1. **Intelligent Data Ingestion and Structuring**: OpenMax connects to relevant data sources and normalizes inputs:
    - Ingests documents, spreadsheets, databases, and unstructured text simultaneously
    - Identifies key entities, metrics, and relationships across disparate data sources
    - Applies domain-specific schemas to structure raw inputs into analyzable formats
    - Flags data quality issues, missing fields, and inconsistencies before analysis begins
    - Maintains audit trails linking every output back to its source data
 
-2. **Pattern Recognition and Anomaly Detection**: COCO surfaces insights that manual review misses:
+2. **Pattern Recognition and Anomaly Detection**: OpenMax surfaces insights that manual review misses:
    - Applies statistical models to identify trends, outliers, and emerging patterns
    - Benchmarks current performance against historical baselines and industry standards
    - Detects early warning signals before they escalate into critical issues
    - Cross-references multiple data dimensions to reveal non-obvious correlations
    - Prioritizes findings by potential business impact and urgency
 
-3. **Automated Report and Document Generation**: COCO eliminates manual document production:
+3. **Automated Report and Document Generation**: OpenMax eliminates manual document production:
    - Generates structured reports following organization-specific templates and standards
    - Produces executive summaries calibrated to the appropriate audience and detail level
    - Creates supporting visualizations, tables, and data exhibits automatically
    - Maintains consistent terminology, formatting, and citation standards across all outputs
    - Drafts multiple output versions (technical detail vs. executive summary) from the same analysis
 
-4. **Workflow Automation and Task Orchestration**: COCO streamlines multi-step processes:
+4. **Workflow Automation and Task Orchestration**: OpenMax streamlines multi-step processes:
    - Breaks complex workflows into discrete, trackable steps with clear ownership
    - Automates handoffs between team members with appropriate context and instructions
    - Tracks completion status and surfaces blockers before deadlines are missed
    - Generates checklists, reminders, and escalation triggers at critical checkpoints
    - Integrates with existing tools (Slack, email, project management) to reduce context switching
 
-5. **Quality Assurance and Compliance Checking**: COCO builds quality into the process:
+5. **Quality Assurance and Compliance Checking**: OpenMax builds quality into the process:
    - Validates outputs against regulatory requirements and internal policy standards
    - Checks for completeness, consistency, and accuracy before outputs are finalized
    - Documents the reasoning behind key recommendations for review and audit purposes
    - Flags potential compliance risks or policy violations with specific rule references
    - Maintains a version history of all outputs for regulatory and audit purposes
 
-6. **Continuous Improvement and Learning**: COCO improves outcomes over time:
+6. **Continuous Improvement and Learning**: OpenMax improves outcomes over time:
    - Tracks which recommendations were acted on and correlates with downstream outcomes
    - Identifies systematic biases or gaps in the current process
    - Recommends process improvements based on analysis of workflow bottlenecks
@@ -1929,7 +1929,7 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 
 **Measurable Results**
 
-- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with COCO assistance (85% time savings)
+- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with OpenMax assistance (85% time savings)
 - **Output quality score**: Improved from 71% accuracy on manual reviews to **96% with AI-assisted validation**
 - **Throughput capacity**: Team handles **3.4x more cases** monthly without additional headcount
 - **Error rate and rework**: Downstream errors requiring rework reduced from 18% to **under 3%**
@@ -2068,7 +2068,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Legal Services face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Regulatory Change Impact Tracker**
 
@@ -2078,44 +2078,44 @@ The core challenge is that regulatory tracking requires synthesizing large volum
 
 The downstream cost extends beyond direct labor. Delayed outputs slow downstream decisions. Inconsistent quality creates rework cycles. Missed insights lead to suboptimal resource allocation. And when teams are overwhelmed with execution, there's no bandwidth left for the proactive thinking that prevents problems before they occur — creating a reactive culture that's perpetually behind.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Intelligent Data Ingestion and Structuring**: COCO connects to relevant data sources and normalizes inputs:
+1. **Intelligent Data Ingestion and Structuring**: OpenMax connects to relevant data sources and normalizes inputs:
    - Ingests documents, spreadsheets, databases, and unstructured text simultaneously
    - Identifies key entities, metrics, and relationships across disparate data sources
    - Applies domain-specific schemas to structure raw inputs into analyzable formats
    - Flags data quality issues, missing fields, and inconsistencies before analysis begins
    - Maintains audit trails linking every output back to its source data
 
-2. **Pattern Recognition and Anomaly Detection**: COCO surfaces insights that manual review misses:
+2. **Pattern Recognition and Anomaly Detection**: OpenMax surfaces insights that manual review misses:
    - Applies statistical models to identify trends, outliers, and emerging patterns
    - Benchmarks current performance against historical baselines and industry standards
    - Detects early warning signals before they escalate into critical issues
    - Cross-references multiple data dimensions to reveal non-obvious correlations
    - Prioritizes findings by potential business impact and urgency
 
-3. **Automated Report and Document Generation**: COCO eliminates manual document production:
+3. **Automated Report and Document Generation**: OpenMax eliminates manual document production:
    - Generates structured reports following organization-specific templates and standards
    - Produces executive summaries calibrated to the appropriate audience and detail level
    - Creates supporting visualizations, tables, and data exhibits automatically
    - Maintains consistent terminology, formatting, and citation standards across all outputs
    - Drafts multiple output versions (technical detail vs. executive summary) from the same analysis
 
-4. **Workflow Automation and Task Orchestration**: COCO streamlines multi-step processes:
+4. **Workflow Automation and Task Orchestration**: OpenMax streamlines multi-step processes:
    - Breaks complex workflows into discrete, trackable steps with clear ownership
    - Automates handoffs between team members with appropriate context and instructions
    - Tracks completion status and surfaces blockers before deadlines are missed
    - Generates checklists, reminders, and escalation triggers at critical checkpoints
    - Integrates with existing tools (Slack, email, project management) to reduce context switching
 
-5. **Quality Assurance and Compliance Checking**: COCO builds quality into the process:
+5. **Quality Assurance and Compliance Checking**: OpenMax builds quality into the process:
    - Validates outputs against regulatory requirements and internal policy standards
    - Checks for completeness, consistency, and accuracy before outputs are finalized
    - Documents the reasoning behind key recommendations for review and audit purposes
    - Flags potential compliance risks or policy violations with specific rule references
    - Maintains a version history of all outputs for regulatory and audit purposes
 
-6. **Continuous Improvement and Learning**: COCO improves outcomes over time:
+6. **Continuous Improvement and Learning**: OpenMax improves outcomes over time:
    - Tracks which recommendations were acted on and correlates with downstream outcomes
    - Identifies systematic biases or gaps in the current process
    - Recommends process improvements based on analysis of workflow bottlenecks
@@ -2128,7 +2128,7 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 
 **Measurable Results**
 
-- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with COCO assistance (85% time savings)
+- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with OpenMax assistance (85% time savings)
 - **Output quality score**: Improved from 71% accuracy on manual reviews to **96% with AI-assisted validation**
 - **Throughput capacity**: Team handles **3.4x more cases** monthly without additional headcount
 - **Error rate and rework**: Downstream errors requiring rework reduced from 18% to **under 3%**
@@ -2267,7 +2267,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Manufacturing face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: ISO Audit Preparation Overhead**
 
@@ -2277,44 +2277,44 @@ The core challenge is that compliance audit requires synthesizing large volumes 
 
 The downstream cost extends beyond direct labor. Delayed outputs slow downstream decisions. Inconsistent quality creates rework cycles. Missed insights lead to suboptimal resource allocation. And when teams are overwhelmed with execution, there's no bandwidth left for the proactive thinking that prevents problems before they occur — creating a reactive culture that's perpetually behind.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Intelligent Data Ingestion and Structuring**: COCO connects to relevant data sources and normalizes inputs:
+1. **Intelligent Data Ingestion and Structuring**: OpenMax connects to relevant data sources and normalizes inputs:
    - Ingests documents, spreadsheets, databases, and unstructured text simultaneously
    - Identifies key entities, metrics, and relationships across disparate data sources
    - Applies domain-specific schemas to structure raw inputs into analyzable formats
    - Flags data quality issues, missing fields, and inconsistencies before analysis begins
    - Maintains audit trails linking every output back to its source data
 
-2. **Pattern Recognition and Anomaly Detection**: COCO surfaces insights that manual review misses:
+2. **Pattern Recognition and Anomaly Detection**: OpenMax surfaces insights that manual review misses:
    - Applies statistical models to identify trends, outliers, and emerging patterns
    - Benchmarks current performance against historical baselines and industry standards
    - Detects early warning signals before they escalate into critical issues
    - Cross-references multiple data dimensions to reveal non-obvious correlations
    - Prioritizes findings by potential business impact and urgency
 
-3. **Automated Report and Document Generation**: COCO eliminates manual document production:
+3. **Automated Report and Document Generation**: OpenMax eliminates manual document production:
    - Generates structured reports following organization-specific templates and standards
    - Produces executive summaries calibrated to the appropriate audience and detail level
    - Creates supporting visualizations, tables, and data exhibits automatically
    - Maintains consistent terminology, formatting, and citation standards across all outputs
    - Drafts multiple output versions (technical detail vs. executive summary) from the same analysis
 
-4. **Workflow Automation and Task Orchestration**: COCO streamlines multi-step processes:
+4. **Workflow Automation and Task Orchestration**: OpenMax streamlines multi-step processes:
    - Breaks complex workflows into discrete, trackable steps with clear ownership
    - Automates handoffs between team members with appropriate context and instructions
    - Tracks completion status and surfaces blockers before deadlines are missed
    - Generates checklists, reminders, and escalation triggers at critical checkpoints
    - Integrates with existing tools (Slack, email, project management) to reduce context switching
 
-5. **Quality Assurance and Compliance Checking**: COCO builds quality into the process:
+5. **Quality Assurance and Compliance Checking**: OpenMax builds quality into the process:
    - Validates outputs against regulatory requirements and internal policy standards
    - Checks for completeness, consistency, and accuracy before outputs are finalized
    - Documents the reasoning behind key recommendations for review and audit purposes
    - Flags potential compliance risks or policy violations with specific rule references
    - Maintains a version history of all outputs for regulatory and audit purposes
 
-6. **Continuous Improvement and Learning**: COCO improves outcomes over time:
+6. **Continuous Improvement and Learning**: OpenMax improves outcomes over time:
    - Tracks which recommendations were acted on and correlates with downstream outcomes
    - Identifies systematic biases or gaps in the current process
    - Recommends process improvements based on analysis of workflow bottlenecks
@@ -2327,7 +2327,7 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 
 **Measurable Results**
 
-- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with COCO assistance (85% time savings)
+- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with OpenMax assistance (85% time savings)
 - **Output quality score**: Improved from 71% accuracy on manual reviews to **96% with AI-assisted validation**
 - **Throughput capacity**: Team handles **3.4x more cases** monthly without additional headcount
 - **Error rate and rework**: Downstream errors requiring rework reduced from 18% to **under 3%**
@@ -2467,7 +2467,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Transforms complex regulatory requirements into clear, audience-appropriate communications employees actually read and understand.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Compliance Notices That Nobody Reads Until Something Goes Wrong**
 
@@ -2477,44 +2477,44 @@ The challenge is that compliance professionals are subject matter experts in reg
 
 At the same time, the volume of required communications is relentless. Policy updates, regulatory change alerts, audit findings, training reminders, attestation requests — a compliance team in a regulated industry may send dozens of communications per month. Without AI support, quality suffers in favor of speed.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Plain Language Policy and Procedure Drafting**: COCO transforms regulatory language into readable guidance:
+1. **Plain Language Policy and Procedure Drafting**: OpenMax transforms regulatory language into readable guidance:
    - Rewrites policy documents from legalese to plain English while preserving regulatory intent
    - Creates "what this means for you" summaries tailored to specific employee roles
    - Produces FAQ supplements that address the questions employees actually ask
    - Generates tiered versions of the same policy (employee summary, manager guide, detailed reference)
    - Checks readability scores and flags text exceeding appropriate grade level for the audience
 
-2. **Regulatory Change Communication**: COCO keeps employees informed on what changed and why:
+2. **Regulatory Change Communication**: OpenMax keeps employees informed on what changed and why:
    - Drafts regulatory change alerts explaining the change, effective date, and required action
    - Creates comparison documents showing old vs. new requirements in plain language
    - Produces manager briefing packs with talking points for team discussions
    - Generates role-specific impact summaries identifying who needs to change what behavior
    - Drafts executive summaries of regulatory changes for board and C-suite briefings
 
-3. **Training and Attestation Communication**: COCO drives completion without creating friction:
+3. **Training and Attestation Communication**: OpenMax drives completion without creating friction:
    - Writes training launch announcements with clear "what, why, when, and what happens if you don't" language
    - Creates escalating reminder sequences calibrated to improve completion rates
    - Drafts manager accountability communications for teams with low completion rates
    - Generates attestation request language that is clear about what the signatory is confirming
    - Produces post-training reinforcement communications summarizing key obligations
 
-4. **Audit Finding Communication**: COCO translates findings into actionable direction:
+4. **Audit Finding Communication**: OpenMax translates findings into actionable direction:
    - Drafts management response letters to internal and external audit findings
    - Creates corrective action plan communications for affected business units
    - Produces progress update templates for ongoing remediation tracking
    - Generates root cause analysis reports in language suitable for regulator submission
    - Drafts escalation communications when remediation timelines are at risk
 
-5. **Multi-Audience Communication Adaptation**: COCO tailors the same core message for different recipients:
+5. **Multi-Audience Communication Adaptation**: OpenMax tailors the same core message for different recipients:
    - Adapts compliance communications for employees, managers, executives, and external regulators
    - Creates channel-specific versions (email, intranet post, training module text, policy portal)
    - Translates communications into multiple languages for global compliance programs
    - Adjusts tone and formality level based on recipient and channel norms
    - Produces visual communication briefs (infographic outlines, poster copy) for high-priority obligations
 
-6. **Communication Effectiveness Tracking**: COCO measures whether communications are working:
+6. **Communication Effectiveness Tracking**: OpenMax measures whether communications are working:
    - Designs read-receipt and acknowledgment tracking for critical policy communications
    - Creates comprehension check questions embedded in policy acknowledgment workflows
    - Generates open-rate and action-rate dashboards for compliance communication campaigns
@@ -2611,7 +2611,7 @@ Produce a formal management response letter that:
 
 > Identifies which employees need which compliance training based on role, risk exposure, and regulatory requirements.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Everyone Gets the Same Compliance Training Whether They Need It or Not**
 
@@ -2621,44 +2621,44 @@ Compliance training design should be driven by a structured needs assessment lin
 
 For compliance officers, building and maintaining a role-to-obligation mapping is a labor-intensive analytical task. It requires synthesizing the organization's regulatory inventory, its org chart, and its operational risk profile — and keeping all three current as the business and regulatory landscape evolve.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Regulatory Obligation Inventory and Role Mapping**: COCO builds the analytical foundation:
+1. **Regulatory Obligation Inventory and Role Mapping**: OpenMax builds the analytical foundation:
    - Compiles applicable regulations by jurisdiction, business unit, and activity type
    - Maps each regulatory obligation to the job roles with relevant exposure or accountability
    - Identifies roles that require enhanced training due to elevated risk (financial, data, safety, etc.)
    - Flags roles in scope for specific regulatory regimes (GDPR data processors, FCPA-covered employees, etc.)
    - Produces a role-obligation matrix suitable for use in LMS assignment configuration
 
-2. **Risk-Based Training Prioritization**: COCO focuses resources on the highest-risk gaps:
+2. **Risk-Based Training Prioritization**: OpenMax focuses resources on the highest-risk gaps:
    - Scores each role-obligation combination by consequence of non-compliance and likelihood of exposure
    - Identifies the top 20% of role-obligation combinations driving 80% of compliance risk
    - Recommends training frequency and depth calibrated to risk level (annual awareness vs. quarterly assessment)
    - Flags new regulations or business changes that create new training obligations
    - Generates a risk-based training priority list for the annual compliance training plan
 
-3. **Training Gap Analysis**: COCO identifies what is missing in the current program:
+3. **Training Gap Analysis**: OpenMax identifies what is missing in the current program:
    - Compares current training assignments against the role-obligation matrix to surface gaps
    - Identifies regulations for which no training content currently exists
    - Flags training content that has not been updated to reflect recent regulatory changes
    - Maps training completion data against risk exposure to identify high-risk, low-completion populations
    - Produces a gap closure roadmap with estimated effort for each gap
 
-4. **LMS Assignment Recommendation Engine**: COCO generates precise training assignment rules:
+4. **LMS Assignment Recommendation Engine**: OpenMax generates precise training assignment rules:
    - Drafts LMS audience rules based on job title, department, location, and system access criteria
    - Recommends training curricula (sequences of modules) for each high-risk role profile
    - Creates recertification schedules aligned to regulatory requirements and risk level
    - Generates documentation supporting the assignment logic for audit purposes
    - Flags edge cases (role changes, contractors, secondees) requiring manual review
 
-5. **New Hire and Role Change Training Workflow**: COCO handles personnel transitions:
+5. **New Hire and Role Change Training Workflow**: OpenMax handles personnel transitions:
    - Generates role-specific onboarding compliance training checklists for new hires
    - Creates training assignment triggers for role changes that alter compliance obligations
    - Drafts manager notifications when a team member's compliance training requirements change
    - Produces expedited training pathways for employees taking on high-risk responsibilities immediately
    - Generates completion verification records for regulatory files and HR systems
 
-6. **Regulatory Change Impact Assessment**: COCO identifies training implications of new rules:
+6. **Regulatory Change Impact Assessment**: OpenMax identifies training implications of new rules:
    - Analyzes new or amended regulations to identify training obligation changes
    - Maps the affected roles and estimates the number of employees requiring new or updated training
    - Recommends whether to update existing content or build new modules
@@ -2762,7 +2762,7 @@ Produce:
 
 > Manages regulatory requirements across multiple jurisdictions and surfaces conflicts before they become violations.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Operating Across Borders Multiplies Compliance Complexity Exponentially**
 
@@ -2772,44 +2772,44 @@ Compliance officers in multinational organizations spend enormous amounts of tim
 
 The operational challenge is that regulatory monitoring must be continuous in multiple languages, across multiple regulatory bodies, with different update frequencies. Most compliance teams don't have the bandwidth to track all jurisdictions rigorously, so coverage becomes uneven — well-monitored in the home country and increasingly patchy in secondary markets.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Multi-Jurisdiction Regulatory Inventory**: COCO maintains a comprehensive requirements map:
+1. **Multi-Jurisdiction Regulatory Inventory**: OpenMax maintains a comprehensive requirements map:
    - Builds jurisdiction-specific regulatory profiles covering key compliance domains (data, labor, anti-corruption, financial crime, environmental)
    - Maps requirements by business activity (data processing, hiring, payments, contracting, marketing) across all operating countries
    - Identifies where the same activity triggers different requirements in different jurisdictions
    - Flags jurisdictions with the most frequent regulatory change cycles for enhanced monitoring
    - Produces country-by-country compliance summary cards for executive and legal review
 
-2. **Conflict Detection and Harmonization Analysis**: COCO surfaces incompatible requirements:
+2. **Conflict Detection and Harmonization Analysis**: OpenMax surfaces incompatible requirements:
    - Identifies regulatory conflicts where compliance in one jurisdiction creates non-compliance in another
    - Analyzes whether a global standard policy can satisfy all jurisdictions or requires local variations
    - Produces conflict resolution options ranked by legal risk and operational complexity
    - Flags "highest standard" analysis: which jurisdiction's requirements, if adopted globally, would satisfy all others?
    - Generates legal review request packages for jurisdictions with unresolvable conflicts
 
-3. **Cross-Border Data Transfer Compliance**: COCO navigates international data flow requirements:
+3. **Cross-Border Data Transfer Compliance**: OpenMax navigates international data flow requirements:
    - Maps data transfer mechanisms available between specific jurisdiction pairs (SCCs, BCRs, adequacy decisions)
    - Identifies data flows that currently lack an appropriate legal transfer mechanism
    - Drafts data transfer impact assessments for high-risk cross-border data flows
    - Tracks adequacy decision changes that may invalidate existing transfer arrangements
    - Generates data flow inventory templates for GDPR Article 30 and equivalent requirements
 
-4. **Local Law Monitoring and Alerting**: COCO tracks regulatory changes in multiple markets:
+4. **Local Law Monitoring and Alerting**: OpenMax tracks regulatory changes in multiple markets:
    - Monitors regulatory publications and enforcement actions across all operating jurisdictions
    - Translates non-English regulatory guidance into English summaries for the compliance team
    - Flags changes that affect current practices with urgency scoring and action recommendations
    - Produces jurisdiction-specific regulatory change digests on a weekly or monthly cadence
    - Generates early warning alerts when proposed regulations in key markets approach enactment
 
-5. **Global Policy Localization**: COCO adapts global standards for local application:
+5. **Global Policy Localization**: OpenMax adapts global standards for local application:
    - Reviews global policies for compliance with local mandatory requirements
    - Drafts jurisdiction-specific policy schedules or addenda where global policy is insufficient
    - Identifies where global policies exceed local requirements and may create unnecessary operational constraints
    - Produces localization checklists for new country entries or policy updates
    - Generates side-by-side comparison documents (global standard vs. local requirement) for legal review
 
-6. **Cross-Border Incident Response Support**: COCO coordinates compliance responses across jurisdictions:
+6. **Cross-Border Incident Response Support**: OpenMax coordinates compliance responses across jurisdictions:
    - Identifies all jurisdictions potentially affected by a compliance incident
    - Maps notification obligations (regulator, data subjects, other parties) by jurisdiction with deadlines
    - Drafts parallel incident response communications for multiple regulatory bodies
@@ -2907,7 +2907,7 @@ For each domain:
 
 > Streamlines the intake, triage, investigation workflow, and reporting of ethics and misconduct complaints.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Ethics Hotline Reports Pile Up While Investigation Quality and Consistency Suffer**
 
@@ -2917,44 +2917,44 @@ The triage problem is acute. Not every hotline report requires the same response
 
 For compliance officers managing the investigations function, the documentation burden is relentless. Each investigation requires intake records, investigative plans, interview notes, evidence logs, findings reports, and closure documentation — all produced at a quality level that will hold up under legal scrutiny.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Case Intake and Initial Triage**: COCO systematizes the intake process:
+1. **Case Intake and Initial Triage**: OpenMax systematizes the intake process:
    - Generates standardized intake questionnaires for each report category (fraud, harassment, conflicts of interest, safety, etc.)
    - Applies risk-based triage criteria to assign severity level and recommended investigation track
    - Identifies cases requiring immediate escalation (executive involvement, regulatory notification, emergency safety response)
    - Drafts initial acknowledgment communications to reporters that are warm, clear, and compliant with whistleblower protection obligations
    - Creates case records with all intake data organized for investigative use
 
-2. **Investigation Planning and Workflow Management**: COCO structures the investigative process:
+2. **Investigation Planning and Workflow Management**: OpenMax structures the investigative process:
    - Generates investigation plans tailored to the allegation type with specific steps, evidence sources, and interview list
    - Creates case timelines with milestone dates based on regulatory and policy deadlines
    - Drafts investigation charters defining scope, objectives, and authority for complex cases
    - Produces evidence collection checklists organized by allegation type
    - Generates interviewer preparation guides with topic outlines and probing question banks for specific allegation categories
 
-3. **Interview Preparation and Documentation**: COCO supports interview quality:
+3. **Interview Preparation and Documentation**: OpenMax supports interview quality:
    - Drafts structured interview guides for different witness types (reporter, subject, neutral witness)
    - Creates witness-specific question sequences based on their role in the alleged conduct
    - Produces interview summary templates for consistent documentation across investigators
    - Generates follow-up question recommendations based on initial interview responses
    - Drafts interview notification letters with appropriate legal notices and protections language
 
-4. **Findings Documentation and Report Generation**: COCO produces defensible investigation records:
+4. **Findings Documentation and Report Generation**: OpenMax produces defensible investigation records:
    - Drafts findings reports with structured sections (background, scope, methodology, findings, conclusions, recommendations)
    - Generates remediation recommendation sections calibrated to finding severity and employee history
    - Creates executive summary versions of full investigation reports for leadership and audit committee
    - Produces case closure documentation including notification letters to the reporter and subject
    - Drafts substantiation summaries in language appropriate for HR action documentation
 
-5. **Analytics and Pattern Detection**: COCO surfaces systemic issues hidden in case volume:
+5. **Analytics and Pattern Detection**: OpenMax surfaces systemic issues hidden in case volume:
    - Analyzes the case inventory to identify repeat allegation types, departments, or individuals
    - Detects patterns that suggest systemic culture or control failures vs. isolated incidents
    - Generates quarterly ethics and compliance incident trend reports for the audit committee
    - Identifies gaps in the current investigation function (unresolved cases, missed deadlines, quality variances)
    - Produces benchmarking analysis comparing case volumes and types against industry norms
 
-6. **Regulatory Reporting and External Disclosure**: COCO ensures required notifications are timely:
+6. **Regulatory Reporting and External Disclosure**: OpenMax ensures required notifications are timely:
    - Identifies cases triggering mandatory regulatory reporting obligations with applicable deadlines
    - Drafts regulator notification letters for reportable incidents
    - Generates annual ethics program effectiveness reports for board and regulatory filings
@@ -3056,7 +3056,7 @@ Use neutral, factual language throughout. Avoid conclusions on credibility unles
 
 > Analyzes enforcement actions, identifies mitigating factors, and builds the strongest possible response to regulatory penalties.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Regulatory Penalties Are Accepted Without Adequate Challenge or Mitigation**
 
@@ -3066,44 +3066,44 @@ The financial stakes of this gap are significant. Regulatory penalties can range
 
 Beyond the immediate financial impact, how an organization responds to a regulatory action sets a precedent for future enforcement. A well-documented, cooperative response that demonstrates genuine compliance program investment can influence how regulators view the organization for years. A poorly organized response that fails to articulate mitigating factors can result in enhanced scrutiny and unfavorable treatment in subsequent interactions.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Enforcement Action Analysis**: COCO deconstructs the regulatory action:
+1. **Enforcement Action Analysis**: OpenMax deconstructs the regulatory action:
    - Reviews the regulatory notice, order, or complaint to identify all alleged violations
    - Maps each alleged violation to the specific regulatory provision cited
    - Identifies the penalty calculation methodology and the factors the regulator applied
    - Flags the factors the regulator did not credit that may be favorable to the organization
    - Produces a structured legal analysis brief for the response strategy team
 
-2. **Mitigating Factors Identification and Documentation**: COCO builds the mitigation case:
+2. **Mitigating Factors Identification and Documentation**: OpenMax builds the mitigation case:
    - Analyzes all applicable published penalty mitigation frameworks (FCPA resource guide, OIG compliance guidance, FTC factors, etc.)
    - Identifies which mitigating factors the organization can credibly claim based on its compliance program
    - Generates evidence inventory checklists for each mitigation factor (what documentation is needed)
    - Drafts narrative summaries of each mitigating factor suitable for inclusion in the response
    - Produces a gap analysis identifying which mitigating factors the organization cannot currently claim and why
 
-3. **Compliance Program Quality Assessment**: COCO documents program effectiveness for regulator submission:
+3. **Compliance Program Quality Assessment**: OpenMax documents program effectiveness for regulator submission:
    - Evaluates the compliance program against the regulator's published effectiveness criteria
    - Produces a structured compliance program description covering the seven elements of an effective program
    - Identifies program investments made before and after the violation that demonstrate good faith
    - Generates supporting documentation requests for the program assessment
    - Drafts the compliance program section of the regulatory response
 
-4. **Response Letter and Submission Drafting**: COCO produces the formal regulatory response:
+4. **Response Letter and Submission Drafting**: OpenMax produces the formal regulatory response:
    - Drafts the response letter with appropriate legal positioning and mitigating arguments
    - Creates organized exhibits presenting supporting evidence in logical sequence
    - Produces a remediation plan section demonstrating the organization's commitment to correction
    - Drafts requests for penalty reduction or alternative resolution where available
    - Generates timeline and commitment documentation for any proposed compliance undertakings
 
-5. **Settlement Scenario Modeling**: COCO quantifies the range of outcomes:
+5. **Settlement Scenario Modeling**: OpenMax quantifies the range of outcomes:
    - Models penalty reduction scenarios under different mitigation credit assumptions
    - Compares settlement value against estimated costs of contesting the action
    - Produces risk-adjusted expected value analysis for the response strategy decision
    - Identifies settlement structures that may reduce monetary penalty in exchange for compliance commitments
    - Generates a recommendation memo comparing respond/settle/contest options
 
-6. **Post-Enforcement Compliance Enhancement**: COCO turns enforcement into program improvement:
+6. **Post-Enforcement Compliance Enhancement**: OpenMax turns enforcement into program improvement:
    - Analyzes the enforcement action findings to identify root cause control failures
    - Produces a remediation roadmap addressing each identified control gap
    - Drafts enhanced compliance program policies and procedures responsive to the violation findings
@@ -3214,7 +3214,7 @@ Produce:
 
 > Designs real-time compliance performance dashboards that give leadership instant visibility into program health.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Compliance Programs Are Managed Without Adequate Performance Data**
 
@@ -3224,44 +3224,44 @@ Board members and audit committees are increasingly asking compliance officers t
 
 The data exists in most organizations — policy acknowledgment rates, training completions, audit findings, hotline metrics, third-party due diligence results, control testing outcomes, regulatory examination results — but it is scattered across multiple systems and never synthesized into a coherent performance picture. Compliance officers spend days before board meetings manually compiling data that should be available in seconds.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Compliance KPI Framework Design**: COCO builds a measurement architecture:
+1. **Compliance KPI Framework Design**: OpenMax builds a measurement architecture:
    - Designs KPI frameworks covering leading indicators (training completion, policy coverage), process indicators (investigation timeliness, audit findings closure), and outcome indicators (regulatory actions, incident rates)
    - Maps KPIs to the specific compliance risk areas most material to the organization
    - Creates KPI definitions with clear measurement methodology, data source, and owner
    - Recommends benchmarks and targets based on industry standards and regulatory guidance
    - Produces a KPI dictionary suitable for use in dashboard design and audit documentation
 
-2. **Dashboard Design and Data Source Mapping**: COCO architects the visualization:
+2. **Dashboard Design and Data Source Mapping**: OpenMax architects the visualization:
    - Designs dashboard layouts for different audiences (board, C-suite, CCO, compliance team)
    - Maps each KPI to its data source and identifies data collection or integration requirements
    - Creates drill-down structures allowing high-level metrics to link to underlying detail
    - Designs traffic-light (RAG) systems with specific threshold criteria for each metric
    - Produces data dictionary and dashboard specification documents for IT or BI team implementation
 
-3. **Board and Audit Committee Reporting**: COCO produces executive-level compliance reporting:
+3. **Board and Audit Committee Reporting**: OpenMax produces executive-level compliance reporting:
    - Drafts quarterly compliance program status reports for board and audit committee
    - Creates compliance heat maps showing risk level and program health by business unit
    - Produces trend analysis narratives linking metric changes to specific program actions or external events
    - Generates regulatory landscape updates summarizing key developments and their implications
    - Drafts compliance officer certification language for board reporting requirements
 
-4. **Metrics Data Collection Automation**: COCO streamlines data gathering:
+4. **Metrics Data Collection Automation**: OpenMax streamlines data gathering:
    - Generates data collection templates for compliance metrics that are not system-generated
    - Drafts automated survey instruments for metrics requiring self-reported data
    - Creates data request packages for compliance team members responsible for specific metrics
    - Produces calendar-based reminders and escalation workflows for data submission deadlines
    - Generates data quality validation rules to flag missing or anomalous metric values
 
-5. **Regulatory Examination Readiness**: COCO prepares the program for external scrutiny:
+5. **Regulatory Examination Readiness**: OpenMax prepares the program for external scrutiny:
    - Produces compliance program effectiveness summaries formatted to regulator expectations
    - Creates evidence packages demonstrating metric performance over the past 12-24 months
    - Drafts narrative explanations for metric trends that require context (e.g., a spike in hotline reports following a speak-up campaign)
    - Generates self-assessment reports scoring the program against regulatory effectiveness criteria
    - Produces remediation tracking dashboards showing progress against audit and examination findings
 
-6. **Program Investment and ROI Analysis**: COCO connects compliance spend to outcomes:
+6. **Program Investment and ROI Analysis**: OpenMax connects compliance spend to outcomes:
    - Analyzes compliance budget allocation against risk profile and program component performance
    - Produces cost-per-outcome calculations linking compliance investment to specific risk reduction metrics
    - Generates comparison analyses of program performance before and after specific investments
@@ -3369,7 +3369,7 @@ For each element:
 
 > Scans commercial contracts for compliance obligations, non-standard terms, and regulatory risk before signature.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Compliance Risks Hidden in Commercial Contracts Are Found Too Late**
 
@@ -3379,44 +3379,44 @@ The volume challenge compounds the problem. A mid-size organization may execute 
 
 After execution, the challenge shifts to ongoing performance. Most organizations have no systematic process for tracking compliance covenants embedded in their contract portfolio. Audit rights that should be exercised go dormant. Regulatory certifications that require annual renewal are missed. Data processing restrictions that became non-compliant after a system migration go undetected. Contract-based compliance failures often surface only when a counterparty exercises their audit right or a regulator asks for records.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Compliance Clause Extraction and Inventory**: COCO identifies all compliance obligations in contract language:
+1. **Compliance Clause Extraction and Inventory**: OpenMax identifies all compliance obligations in contract language:
    - Reviews contracts and extracts all compliance-relevant provisions (representations, warranties, covenants, restrictions)
    - Categorizes extracted clauses by compliance domain (data, sanctions, anti-corruption, environmental, labor, financial crime)
    - Identifies obligations that require ongoing performance vs. one-time representations
    - Flags clauses with specific deadlines, reporting requirements, or audit rights
    - Produces a structured compliance obligation register for each contract and across the portfolio
 
-2. **Non-Standard and High-Risk Clause Detection**: COCO flags unusual terms:
+2. **Non-Standard and High-Risk Clause Detection**: OpenMax flags unusual terms:
    - Compares contract language against playbook standards and flags deviations
    - Identifies compliance representations that are broader than the organization's actual capabilities
    - Flags unlimited liability clauses associated with compliance breaches
    - Detects indemnification provisions that may expose the organization to third-party compliance failures
    - Highlights data protection, confidentiality, or IP transfer provisions with compliance implications
 
-3. **Regulatory Alignment Review**: COCO checks contracts against applicable regulatory requirements:
+3. **Regulatory Alignment Review**: OpenMax checks contracts against applicable regulatory requirements:
    - Reviews data processing agreements for GDPR, CCPA, or other applicable privacy law requirements
    - Checks sanctions and restricted party representations against current program requirements
    - Verifies that anti-corruption clauses meet applicable legal standards (UK Bribery Act, FCPA, local laws)
    - Reviews subcontracting and flow-down provisions for regulatory compliance obligations
    - Flags contracts that may create regulated relationships (lending, insurance, securities) requiring licensing
 
-4. **Contract Compliance Obligation Tracking**: COCO maintains ongoing visibility:
+4. **Contract Compliance Obligation Tracking**: OpenMax maintains ongoing visibility:
    - Creates contract compliance obligation calendars with milestone dates for certifications, renewals, and notices
    - Generates alerts for upcoming contract compliance deadlines 30, 60, and 90 days in advance
    - Tracks counterparty compliance certification receipt and flags overdue items
    - Produces contract compliance status dashboards showing the obligation performance across the portfolio
    - Generates annual contract compliance review packages for contracts with ongoing obligations
 
-5. **Compliance Risk Scoring and Prioritization**: COCO helps focus review resources:
+5. **Compliance Risk Scoring and Prioritization**: OpenMax helps focus review resources:
    - Scores each contract on compliance risk based on obligation complexity, counterparty risk, and deal size
    - Identifies the top 10% of contracts requiring immediate compliance review attention
    - Generates risk-based review queues for the compliance team prioritizing highest-risk contracts
    - Produces portfolio-level compliance risk heat maps by business unit, contract type, and geography
    - Creates compliance risk trend reports tracking portfolio risk evolution over time
 
-6. **Remediation and Negotiation Support**: COCO assists when contracts need to change:
+6. **Remediation and Negotiation Support**: OpenMax assists when contracts need to change:
    - Drafts redline responses to non-standard compliance clauses with standard alternative language
    - Generates negotiation briefs for compliance officers supporting contract discussions
    - Produces amendment drafts for contracts with compliance provisions that need updating
@@ -3524,7 +3524,7 @@ Produce:
 
 > Compares your compliance program against regulatory expectations and industry best practices to identify the highest-priority gaps.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Compliance Officers Don't Know What "Good" Looks Like Until a Regulator Tells Them**
 
@@ -3534,44 +3534,44 @@ Regulatory expectations for compliance programs have become increasingly specifi
 
 For compliance officers, the barrier to benchmarking is threefold: knowing which frameworks apply, understanding how to interpret the criteria objectively, and having the bandwidth to conduct a thorough assessment while managing day-to-day compliance operations. External consultants can fill this gap but are expensive and not always available when needed for board presentations or examination preparation.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Regulatory Framework Mapping and Selection**: COCO identifies the right benchmarks:
+1. **Regulatory Framework Mapping and Selection**: OpenMax identifies the right benchmarks:
    - Maps applicable regulatory compliance program standards based on industry, jurisdiction, and risk profile
    - Identifies overlapping requirements across multiple frameworks to prioritize shared elements
    - Creates a consolidated assessment framework that satisfies multiple regulatory standards simultaneously
    - Explains the regulatory context and enforcement implications of each framework selected
    - Recommends assessment prioritization based on upcoming examination schedules or enforcement environment
 
-2. **Structured Program Self-Assessment**: COCO guides a rigorous internal evaluation:
+2. **Structured Program Self-Assessment**: OpenMax guides a rigorous internal evaluation:
    - Provides detailed assessment questions for each element of the applicable frameworks
    - Generates evidence checklists specifying what documentation would support each assessment response
    - Creates calibrated scoring rubrics to reduce subjective variation in self-assessment scores
    - Identifies specific regulatory language from enforcement actions and guidance that illuminates each criterion
    - Produces a structured assessment workbook that generates a program health profile upon completion
 
-3. **Gap Analysis and Prioritization**: COCO converts assessment results into an actionable agenda:
+3. **Gap Analysis and Prioritization**: OpenMax converts assessment results into an actionable agenda:
    - Scores each program element against the regulatory standard and identifies gap severity
    - Prioritizes gaps by regulatory enforcement frequency, financial exposure, and remediation difficulty
    - Distinguishes between foundational gaps (structure and governance) and maturity gaps (process and technology)
    - Maps gaps to specific regulatory citations to support the business case for remediation
    - Generates a gap closure roadmap with phased recommendations over 12, 24, and 36 months
 
-4. **Peer Benchmarking Analysis**: COCO contextualizes the gap assessment against industry:
+4. **Peer Benchmarking Analysis**: OpenMax contextualizes the gap assessment against industry:
    - Synthesizes publicly available enforcement actions and compliance program assessments for the industry
    - Identifies program elements where the organization's maturity appears below industry norm
    - Highlights areas where the organization appears ahead of peers — potential reputational and regulatory credit
    - Produces an anonymized peer comparison summary for board or executive presentation
    - Generates industry-specific case studies illustrating the consequences of the identified gaps
 
-5. **Remediation Program Design**: COCO builds the improvement plan:
+5. **Remediation Program Design**: OpenMax builds the improvement plan:
    - Drafts project charters for each high-priority gap remediation initiative
    - Creates resource and budget estimates for recommended program enhancements
    - Generates implementation timelines with dependencies and sequencing logic
    - Produces change management considerations for program enhancements requiring stakeholder adoption
    - Drafts communication materials to announce program improvements internally and externally
 
-6. **Ongoing Monitoring and Progress Tracking**: COCO maintains accountability for gap closure:
+6. **Ongoing Monitoring and Progress Tracking**: OpenMax maintains accountability for gap closure:
    - Creates gap closure progress dashboards for compliance leadership and the board
    - Generates quarterly milestone review templates to track remediation progress
    - Produces updated gap assessments at each re-assessment cycle to show program improvement
@@ -3697,7 +3697,7 @@ Produce a board report (3-4 pages) including:
 
 > Screens vendors, partners, and suppliers against sanctions lists, adverse media, and regulatory exclusions — flags high-risk relationships before onboarding completes.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Third-Party Risk Reviews Are Slow, Inconsistent, and Under-Resourced**
 
@@ -3705,13 +3705,13 @@ Organizations onboard hundreds of vendors, contractors, and partners each year. 
 
 When compliance reviews are inconsistent, high-risk vendors slip through. Sanctions violations, undisclosed conflicts of interest, and regulatory exclusions that should have blocked a vendor relationship are discovered after contracts are signed and payments are made — creating legal exposure and reputational damage that is far more costly to remediate than a proper upfront review.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Automated Sanctions and Debarment Screening**: COCO cross-references vendor names, beneficial owners, and jurisdiction against OFAC, EU, UN, and government debarment lists, flagging exact and fuzzy matches for review.
-2. **Adverse Media Monitoring**: COCO scans news databases and regulatory bulletins for negative coverage of prospective vendors — identifying corruption allegations, enforcement actions, and reputational concerns.
-3. **Risk Classification and Prioritization**: COCO scores vendors by risk tier based on spend level, data access, jurisdiction, and industry, routing high-risk cases to senior compliance review.
-4. **Ongoing Monitoring**: For active vendors, COCO monitors for sanctions updates, enforcement actions, and adverse events — alerting compliance when a previously approved vendor's risk profile changes.
-5. **Screening Documentation**: COCO generates a structured screening record for each vendor, suitable for audit files, regulatory examinations, and board reporting.
+1. **Automated Sanctions and Debarment Screening**: OpenMax cross-references vendor names, beneficial owners, and jurisdiction against OFAC, EU, UN, and government debarment lists, flagging exact and fuzzy matches for review.
+2. **Adverse Media Monitoring**: OpenMax scans news databases and regulatory bulletins for negative coverage of prospective vendors — identifying corruption allegations, enforcement actions, and reputational concerns.
+3. **Risk Classification and Prioritization**: OpenMax scores vendors by risk tier based on spend level, data access, jurisdiction, and industry, routing high-risk cases to senior compliance review.
+4. **Ongoing Monitoring**: For active vendors, OpenMax monitors for sanctions updates, enforcement actions, and adverse events — alerting compliance when a previously approved vendor's risk profile changes.
+5. **Screening Documentation**: OpenMax generates a structured screening record for each vendor, suitable for audit files, regulatory examinations, and board reporting.
 
 :::
 
@@ -3792,7 +3792,7 @@ For each alert:
 
 > Triages incoming ethics hotline submissions — classifies allegation type, assesses credibility indicators, and generates structured intake summaries for investigators.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Ethics Hotline Volume and Inconsistent Triage Undermine Investigation Quality**
 
@@ -3800,13 +3800,13 @@ Ethics hotlines receive reports that range from clearly actionable fraud allegat
 
 The intake documentation problem compounds the challenge. When triage is manual, the quality of intake summaries varies by analyst. Critical detail — specific dates, named individuals, described transactions — is sometimes captured incompletely or omitted entirely. Investigators receive intake packages that require significant reconstruction before meaningful analysis can begin.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Allegation Classification**: COCO analyzes report text and classifies the allegation type (financial misconduct, harassment, safety, conflict of interest, data privacy, retaliation, etc.) with confidence scoring.
-2. **Credibility Indicator Assessment**: COCO identifies factors that increase or decrease report credibility — specific details, corroborating information, reporter relationship to the alleged conduct, and internal consistency.
-3. **Structured Intake Summary**: COCO generates a standardized intake summary extracting the who, what, when, where, and how from freeform report text.
-4. **Priority Routing**: COCO recommends investigation priority (urgent / standard / monitor) based on allegation severity, credibility score, and potential regulatory implications.
-5. **Investigation Checklist**: COCO generates a preliminary investigation checklist based on allegation type, identifying initial document requests, interview candidates, and relevant policies.
+1. **Allegation Classification**: OpenMax analyzes report text and classifies the allegation type (financial misconduct, harassment, safety, conflict of interest, data privacy, retaliation, etc.) with confidence scoring.
+2. **Credibility Indicator Assessment**: OpenMax identifies factors that increase or decrease report credibility — specific details, corroborating information, reporter relationship to the alleged conduct, and internal consistency.
+3. **Structured Intake Summary**: OpenMax generates a standardized intake summary extracting the who, what, when, where, and how from freeform report text.
+4. **Priority Routing**: OpenMax recommends investigation priority (urgent / standard / monitor) based on allegation severity, credibility score, and potential regulatory implications.
+5. **Investigation Checklist**: OpenMax generates a preliminary investigation checklist based on allegation type, identifying initial document requests, interview candidates, and relevant policies.
 
 :::
 
@@ -3890,7 +3890,7 @@ Draft a closure report including:
 
 > Organizes regulatory examination requests, tracks document production deadlines, and drafts response cover letters and gap explanations for examiner review.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Regulatory Examinations Consume Disproportionate Compliance Resources**
 
@@ -3898,13 +3898,13 @@ Regulatory examinations arrive with information requests that must be fulfilled 
 
 The quality of examination responses directly affects regulatory outcomes. Examiners assess not just the documents produced but how they are presented — whether requests are fully addressed, whether gaps are explained proactively, and whether the organization demonstrates systematic control over its compliance records. Poor response quality signals a weak compliance infrastructure even when underlying practices are sound.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Request Inventory and Tracking**: COCO ingests examination request letters and creates a structured tracking register with assigned owners, due dates, and completion status for each item.
-2. **Response Drafting**: COCO drafts production cover letters, response narratives, and explanations for partial responses or gaps.
-3. **Gap Analysis**: COCO identifies requests where responsive documents are incomplete and helps draft proactive explanations acceptable to regulators.
-4. **Status Reporting**: COCO generates examination status dashboards for senior leadership showing production progress, upcoming deadlines, and outstanding items.
-5. **Exam Prep Briefings**: COCO prepares examination briefing packages for subject matter experts being interviewed.
+1. **Request Inventory and Tracking**: OpenMax ingests examination request letters and creates a structured tracking register with assigned owners, due dates, and completion status for each item.
+2. **Response Drafting**: OpenMax drafts production cover letters, response narratives, and explanations for partial responses or gaps.
+3. **Gap Analysis**: OpenMax identifies requests where responsive documents are incomplete and helps draft proactive explanations acceptable to regulators.
+4. **Status Reporting**: OpenMax generates examination status dashboards for senior leadership showing production progress, upcoming deadlines, and outstanding items.
+5. **Exam Prep Briefings**: OpenMax prepares examination briefing packages for subject matter experts being interviewed.
 
 :::
 

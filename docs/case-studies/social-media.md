@@ -1,11 +1,11 @@
 ---
 layout: page
-title: "AI Social Media Automation & BD Operations: From One Prompt to Full Operations Model | COCO"
-description: "Two companies automated their social media content creation and BD outreach with COCO AI Agents. From a single prompt to a complete operations model — AI handles volume, humans handle strategy."
+title: "AI Social Media Automation & BD Operations: From One Prompt to Full Operations Model | OpenMax"
+description: "Two companies automated their social media content creation and BD outreach with OpenMax AI Agents. From a single prompt to a complete operations model — AI handles volume, humans handle strategy."
 head:
   - - meta
     - property: og:title
-      content: "AI Social Media Automation & BD Operations: From One Prompt to Full Operations Model | COCO"
+      content: "AI Social Media Automation & BD Operations: From One Prompt to Full Operations Model | OpenMax"
   - - meta
     - property: og:description
       content: "Automate social media content and BD outreach with AI Agents. From one prompt to a full operations model — AI handles volume, humans handle strategy."
@@ -827,7 +827,7 @@ head:
     <div class="card-label compliance">Tech Compliance</div>
     <h3>A Tech Compliance Firm</h3>
     <div class="card-meta">BD & Marketing Lead · One Person Does Everything</div>
-    <p>Her work spans KOL monitoring, content production, conference BD, and lead management — a scope that typically requires several dedicated roles. She came to COCO with a specific need.</p>
+    <p>Her work spans KOL monitoring, content production, conference BD, and lead management — a scope that typically requires several dedicated roles. She came to OpenMax with a specific need.</p>
   </div>
   <div class="company-card">
     <div class="card-label media">Tech Media</div>
@@ -851,7 +851,7 @@ She sent one message:
   <p>Find which KOLs on a certain project's follow list have posted news recently — in the last two hours</p>
 </div>
 
-COCO scanned **325 followed accounts**, found **4 recent KOL posts** with direct links, including several top-tier accounts (millions of followers) — **completed in minutes**, no manual Twitter scrolling needed.
+OpenMax scanned **325 followed accounts**, found **4 recent KOL posts** with direct links, including several top-tier accounts (millions of followers) — **completed in minutes**, no manual Twitter scrolling needed.
 
 That single interaction opened up a much bigger conversation.
 
@@ -861,7 +861,7 @@ That single interaction opened up a much bigger conversation.
 
 ## From Prompt to <em>Complete Operations Model</em>
 
-COCO worked with her to design a full suite of workflows covering marketing, BD, and sales operations:
+OpenMax worked with her to design a full suite of workflows covering marketing, BD, and sales operations:
 
 <div class="workflow-section">
   <div class="workflow-block marketing">
@@ -922,7 +922,7 @@ COCO worked with her to design a full suite of workflows covering marketing, BD,
 
 ## The Media Team's <em>Semi-Automated Publishing</em>
 
-After the Singapore tech media team integrated COCO:
+After the Singapore tech media team integrated OpenMax:
 
 - AI digital employees auto-generate **platform-specific content** — Telegram groups, Twitter, Newsletters, each with its own tone
 - Scheduled publishing to communities and social media channels
@@ -935,7 +935,7 @@ After the Singapore tech media team integrated COCO:
   <div class="publish-flow">
     <div class="publish-source">
       <div class="publish-icon">🤖</div>
-      <div class="publish-label">COCO AI</div>
+      <div class="publish-label">OpenMax AI</div>
       <div class="publish-sub">Content Engine</div>
     </div>
     <div class="publish-arrows">
@@ -998,7 +998,7 @@ After the Singapore tech media team integrated COCO:
 
 <div class="insight-block">
   <h3>Two Cases, One Lesson</h3>
-  <p>Whether you're one person running BD and marketing at a compliance firm, or a small media team trying to cover an entire industry, COCO's solution is the same — <strong>AI handles volume, humans handle strategy</strong>. First to publish, first to reach the right people, wins.</p>
+  <p>Whether you're one person running BD and marketing at a compliance firm, or a small media team trying to cover an entire industry, OpenMax's solution is the same — <strong>AI handles volume, humans handle strategy</strong>. First to publish, first to reach the right people, wins.</p>
 </div>
 
 </div>
@@ -1006,7 +1006,7 @@ After the Singapore tech media team integrated COCO:
 <div class="blog-meta">
   <div class="blog-meta-item">
     <span class="blog-meta-label">Written by</span>
-    <span class="blog-meta-value">COCO Team</span>
+    <span class="blog-meta-value">OpenMax Team</span>
   </div>
   <div class="blog-meta-item">
     <span class="blog-meta-label">Published on</span>
@@ -1018,7 +1018,7 @@ After the Singapore tech media team integrated COCO:
   <div class="case-cta">
     <h2>Let AI Take Over Your Content Volume</h2>
     <p>Start with a single message, build a complete operations model</p>
-    <a href="https://icoco.ai" class="cta-btn">Try COCO Free</a>
+    <a href="https://icoco.ai" class="cta-btn">Try OpenMax Free</a>
   </div>
 </div>
 
@@ -1038,7 +1038,7 @@ After the Singapore tech media team integrated COCO:
       <div class="blog-related-card-img">📊</div>
       <div class="blog-related-card-body">
         <div class="blog-related-card-label">AI Agent Case Study</div>
-        <div class="blog-related-card-title">COCO CRM — Built by AI, Run by AI</div>
+        <div class="blog-related-card-title">OpenMax CRM — Built by AI, Run by AI</div>
         <div class="blog-related-card-desc">A complete CRM system designed, built, and operated daily by an AI Agent.</div>
       </div>
     </a>

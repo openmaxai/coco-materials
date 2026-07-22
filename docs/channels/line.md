@@ -1,6 +1,6 @@
 # LINE — Usage Tips
 
-Use your COCO AI employee in LINE for personal assistance, customer-facing support, and team chats — especially across Japan, Taiwan, and Thailand where LINE is the primary messaging app.
+Use your OpenMax AI employee in LINE for personal assistance, customer-facing support, and team chats — especially across Japan, Taiwan, and Thailand where LINE is the primary messaging app.
 
 > New here? See the [LINE Deployment guide](../getting-started/channel-deployment#line) to connect your Official Account first.
 

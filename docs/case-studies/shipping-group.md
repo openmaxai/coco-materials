@@ -1,14 +1,14 @@
 ---
 layout: page
-title: "Leading Container Shipping Group × COCO AI — From AI Tools to an AI Collaboration Network | COCO"
-description: "A Southeast Asian shipping group that had already deployed 10+ AI employees but couldn't see what they were doing. How COCO Workspace solved the black-box problem, compressed cross-border routing from 10+ minutes to seconds, and upgraded agents from Q&A to end-to-end workflow automation."
+title: "Leading Container Shipping Group × OpenMax AI — From AI Tools to an AI Collaboration Network | OpenMax"
+description: "A Southeast Asian shipping group that had already deployed 10+ AI employees but couldn't see what they were doing. How OpenMax Workspace solved the black-box problem, compressed cross-border routing from 10+ minutes to seconds, and upgraded agents from Q&A to end-to-end workflow automation."
 head:
   - - meta
     - property: og:title
-      content: "Leading Container Shipping Group × COCO AI — From AI Tools to an AI Collaboration Network"
+      content: "Leading Container Shipping Group × OpenMax AI — From AI Tools to an AI Collaboration Network"
   - - meta
     - property: og:description
-      content: "A Southeast Asian shipping group that had already deployed 10+ AI employees but couldn't see what they were doing. How COCO Workspace solved the black-box problem, compressed cross-border routing from 10+ minutes to seconds, and upgraded agents from Q&A to end-to-end workflow automation."
+      content: "A Southeast Asian shipping group that had already deployed 10+ AI employees but couldn't see what they were doing. How OpenMax Workspace solved the black-box problem, compressed cross-border routing from 10+ minutes to seconds, and upgraded agents from Q&A to end-to-end workflow automation."
   - - meta
     - property: og:image
       content: "https://docs.icoco.ai/coco-logo-black.png"
@@ -767,7 +767,7 @@ head:
 <div class="case-hero">
   <div class="hero-text-box">
     <h1>Container Shipping Group<br/><em>From AI Tools to an AI Collaboration Network</em></h1>
-    <p class="subtitle">10+ AI employees deployed. No visibility into what any of them were doing.<br/>COCO Workspace broke open the black box and turned isolated agents into a network.</p>
+    <p class="subtitle">10+ AI employees deployed. No visibility into what any of them were doing.<br/>OpenMax Workspace broke open the black box and turned isolated agents into a network.</p>
     <div class="hero-stats">
       <div class="stat">
         <div class="stat-value">10+</div>
@@ -816,22 +816,22 @@ Finally, the **capability ceiling at Q&A** meant that existing AI employees were
 
 <div class="case-section">
 
-## Solution: <em>COCO Workspace — The Collaboration Layer</em>
+## Solution: <em>OpenMax Workspace — The Collaboration Layer</em>
 
-COCO deployed the COCO Workspace collaboration layer on top of the group's existing AI employees, adding cross-organizational connectivity and an agent collaboration network without requiring replacement of any existing AI deployments. This was a deliberate architectural choice — rather than ripping out what worked, COCO added the missing coordination layer that tied everything together.
+OpenMax deployed the OpenMax Workspace collaboration layer on top of the group's existing AI employees, adding cross-organizational connectivity and an agent collaboration network without requiring replacement of any existing AI deployments. This was a deliberate architectural choice — rather than ripping out what worked, OpenMax added the missing coordination layer that tied everything together.
 
 <div class="pipeline-grid">
   <div class="pipeline-card">
     <div class="card-icon">🌐</div>
     <div class="time-badge">CROSS-BORDER CONNECTIVITY</div>
     <h3>Cross-Organizational Information Routing</h3>
-    <p>COCO established authorized information channels across country subsidiaries and partner organizations, enabling AI employees to retrieve and route information across organizational boundaries in real time. The previous "information to human, human to relay" intermediate step was eliminated entirely — replaced by direct, automated routing that compressed cross-border coordination from 10+ minutes to seconds.</p>
+    <p>OpenMax established authorized information channels across country subsidiaries and partner organizations, enabling AI employees to retrieve and route information across organizational boundaries in real time. The previous "information to human, human to relay" intermediate step was eliminated entirely — replaced by direct, automated routing that compressed cross-border coordination from 10+ minutes to seconds.</p>
   </div>
   <div class="pipeline-card">
     <div class="card-icon">🤝</div>
     <div class="time-badge">AGENT PROTOCOL</div>
     <h3>Multi-Agent Collaboration Network</h3>
-    <p>COCO built an inter-agent communication protocol that allows one AI employee to automatically pass results or subsequent tasks to another upon completion. Complex multi-step business processes — booking confirmation, document generation, customer notification — now flow automatically through the agent network without requiring human touchpoints at each stage. What was a chain of manual handoffs became a seamless automated pipeline.</p>
+    <p>OpenMax built an inter-agent communication protocol that allows one AI employee to automatically pass results or subsequent tasks to another upon completion. Complex multi-step business processes — booking confirmation, document generation, customer notification — now flow automatically through the agent network without requiring human touchpoints at each stage. What was a chain of manual handoffs became a seamless automated pipeline.</p>
   </div>
   <div class="pipeline-card">
     <div class="card-icon">📊</div>
@@ -875,7 +875,7 @@ For the first time, management achieved real-time visibility into what their AI 
 <div class="case-section">
 
 <div class="case-quote">
-  <p>When you have more than 10 AI employees, managing those agents becomes a new operational problem in itself. COCO Workspace addresses the collaboration and governance layer that emerges at AI scale.</p>
+  <p>When you have more than 10 AI employees, managing those agents becomes a new operational problem in itself. OpenMax Workspace addresses the collaboration and governance layer that emerges at AI scale.</p>
 </div>
 
 </div>
@@ -884,7 +884,7 @@ For the first time, management achieved real-time visibility into what their AI 
   <div class="case-cta">
     <h2>Let AI Transform Your Operations</h2>
     <p>From isolated AI tools to a coordinated AI workforce — start the conversation</p>
-    <a href="https://icoco.ai" class="cta-btn">Get Started with COCO</a>
+    <a href="https://icoco.ai" class="cta-btn">Get Started with OpenMax</a>
   </div>
 </div>
 

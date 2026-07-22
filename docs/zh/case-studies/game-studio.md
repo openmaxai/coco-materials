@@ -1,14 +1,14 @@
 ---
 layout: page
-title: "某游戏工作室 × COCO AI — 10 人团队的 AI 原生组织实验 | COCO"
-description: "一个不足 10 人的游戏工作室如何用 COCO AI 构建 Agentic OS，打通 Google Workspace，让 3 个 AI 员工分别负责研发、市场与用户运营，从「用 AI 工具」升级为「AI 原生组织」。"
+title: "某游戏工作室 × OpenMax AI — 10 人团队的 AI 原生组织实验 | OpenMax"
+description: "一个不足 10 人的游戏工作室如何用 OpenMax AI 构建 Agentic OS，打通 Google Workspace，让 3 个 AI 员工分别负责研发、市场与用户运营，从「用 AI 工具」升级为「AI 原生组织」。"
 head:
   - - meta
     - property: og:title
-      content: "某游戏工作室 × COCO AI — 10 人团队的 AI 原生组织实验"
+      content: "某游戏工作室 × OpenMax AI — 10 人团队的 AI 原生组织实验"
   - - meta
     - property: og:description
-      content: "一个不足 10 人的游戏工作室如何用 COCO AI 构建 Agentic OS，打通 Google Workspace，让 3 个 AI 员工分别负责研发、市场与用户运营，从「用 AI 工具」升级为「AI 原生组织」。"
+      content: "一个不足 10 人的游戏工作室如何用 OpenMax AI 构建 Agentic OS，打通 Google Workspace，让 3 个 AI 员工分别负责研发、市场与用户运营，从「用 AI 工具」升级为「AI 原生组织」。"
   - - meta
     - property: og:image
       content: "https://docs.icoco.ai/coco-logo-black.png"
@@ -766,7 +766,7 @@ head:
 
 <div class="case-hero">
   <div class="hero-text-box">
-    <h1>游戏工作室 × COCO AI<br/><em>构建 AI 原生组织</em></h1>
+    <h1>游戏工作室 × OpenMax AI<br/><em>构建 AI 原生组织</em></h1>
     <p class="subtitle">不足 10 人的独立游戏团队部署 3 名 AI 员工，<br/>在统一平台上从「用 AI 工具」跃迁为「AI 原生组织」。</p>
     <div class="hero-stats">
       <div class="stat">
@@ -794,7 +794,7 @@ head:
 
 核心的挫败感并非 AI 能力不足，而是 AI 之间缺乏协同。每个工具各自运行在自己的孤岛上：产出无法在团队中共享、上下文在会话之间不断丢失，而大量的创造力竟然被消耗在了"从一个应用复制粘贴到另一个应用"这种低效操作上。更关键的是，团队真正工作的平台——Google Docs、Sheets、Calendar——与所有 AI 能力完全割裂，意味着 AI 能力恰恰无法触达日常工作流程的核心。
 
-工作室真正需要的不是再多一个 AI 订阅，而是一次组织层面的升级：一个能覆盖在现有工作平台之上的统一 AI 操作层，能记住团队的产品决策，让每一位成员——无论是人类还是 AI——都能从同一个知识池中获取信息。COCO 正好提供了这个基础，让工作室得以搭建出他们所称的 Agentic OS（智能体操作系统）。
+工作室真正需要的不是再多一个 AI 订阅，而是一次组织层面的升级：一个能覆盖在现有工作平台之上的统一 AI 操作层，能记住团队的产品决策，让每一位成员——无论是人类还是 AI——都能从同一个知识池中获取信息。OpenMax 正好提供了这个基础，让工作室得以搭建出他们所称的 Agentic OS（智能体操作系统）。
 
 </div>
 
@@ -802,7 +802,7 @@ head:
 
 ## 解决方案：<em>三名 AI 员工，一个共享大脑</em>
 
-COCO 帮助工作室构建了一套 **Agentic OS（智能体操作系统）**——以 Google Workspace 为底座的统一 AI 操作层，为全体团队成员提供共享的 AI 记忆、上下文和自动化能力。三名专属 AI 员工现在每天与人类团队并肩协作。
+OpenMax 帮助工作室构建了一套 **Agentic OS（智能体操作系统）**——以 Google Workspace 为底座的统一 AI 操作层，为全体团队成员提供共享的 AI 记忆、上下文和自动化能力。三名专属 AI 员工现在每天与人类团队并肩协作。
 
 <div class="pipeline-grid">
   <div class="pipeline-card">
@@ -870,7 +870,7 @@ COCO 帮助工作室构建了一套 **Agentic OS（智能体操作系统）**—
 
 大多数团队采用 AI 的方式都一样：每个成员各自注册各自的工具、各自完成各自的任务、产出各自留在各自的会话里。AI 许诺的那种复合价值——知识积累、跨职能上下文、组织学习——从来没有真正实现，因为缺少支撑它的基础设施。
 
-这家游戏工作室证明了，一个不足 10 人的小团队完全可以构建出与大公司匹敌的 AI 原生运作结构。关键洞察是：瓶颈从来不是 AI 的能力，而是 AI 的架构。通过将 COCO 部署为覆盖在现有 Google Workspace 之上的统一操作层，工作室将零散的 AI 实验整合为一个有机的系统——在这个系统中，人类的创造力和 AI 的执行力每天都在相互增强。
+这家游戏工作室证明了，一个不足 10 人的小团队完全可以构建出与大公司匹敌的 AI 原生运作结构。关键洞察是：瓶颈从来不是 AI 的能力，而是 AI 的架构。通过将 OpenMax 部署为覆盖在现有 Google Workspace 之上的统一操作层，工作室将零散的 AI 实验整合为一个有机的系统——在这个系统中，人类的创造力和 AI 的执行力每天都在相互增强。
 
 </div>
 
@@ -878,7 +878,7 @@ COCO 帮助工作室构建了一套 **Agentic OS（智能体操作系统）**—
   <div class="case-cta">
     <h2>构建你的 AI 原生组织</h2>
     <p>像这家工作室一样，从统一 AI 操作层开始</p>
-    <a href="https://icoco.ai" class="cta-btn">开始使用 COCO</a>
+    <a href="https://icoco.ai" class="cta-btn">开始使用 OpenMax</a>
   </div>
 </div>
 
@@ -907,7 +907,7 @@ COCO 帮助工作室构建了一套 **Agentic OS（智能体操作系统）**—
       <div class="blog-related-card-body">
         <div class="blog-related-card-label">AI 智能体案例</div>
         <div class="blog-related-card-title">茶饮加盟品牌 — AI 赋能连锁运营</div>
-        <div class="blog-related-card-desc">一家加盟制茶饮品牌用 COCO AI 标准化运营，在数十家门店间保持品质一致。</div>
+        <div class="blog-related-card-desc">一家加盟制茶饮品牌用 OpenMax AI 标准化运营，在数十家门店间保持品质一致。</div>
       </div>
     </a>
     <a class="blog-related-card" href="/zh/case-studies/fmcg-collaboration">

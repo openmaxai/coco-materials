@@ -1,6 +1,6 @@
 # Discord — Usage Tips
 
-Use your COCO AI employee in Discord for developer communities, support servers, and team collaboration.
+Use your OpenMax AI employee in Discord for developer communities, support servers, and team collaboration.
 
 ## Basic Usage
 
@@ -10,7 +10,7 @@ Send any message directly to the bot. No @mention needed in DMs — just open a 
 ### Server Channels & Threads
 @mention the bot in any server channel or thread:
 ```
-@COCO AI Employee summarize the latest release notes
+@OpenMax AI Employee summarize the latest release notes
 ```
 
 ## Best Use Cases

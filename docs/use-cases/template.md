@@ -14,7 +14,7 @@
 
 **Problem:** [What pain point does this solve?]
 
-**Solution:** [How COCO/Zylos solves it]
+**Solution:** [How OpenMax/Zylos solves it]
 
 ---
 

@@ -84,7 +84,7 @@ Tweet 4:
 
 ## Assets
 
-- Video: `agent-team-video-v4.mp4` (36s, 1080x1920, yellow COCO brand theme)
+- Video: `agent-team-video-v4.mp4` (36s, 1080x1920, yellow OpenMax brand theme)
 - Video URL: https://zylos100.jinglever.com/agent-team-video-v4.mp4
 - Chat mockup: `../../assets/mockups/agent-team-chat-mockup.png`
 - SF index (EN): screenshot of https://zylos100.jinglever.com/docs/sf/index-en.md

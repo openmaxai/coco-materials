@@ -6,7 +6,7 @@ AI-powered use cases for product managers building and managing AI products.
 
 > Constructs rigorous, repeatable evaluation frameworks for LLM and AI model selection — covering accuracy, latency, cost, safety, and domain-specific performance benchmarks before a single dollar is committed.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: AI Model Selection Is a High-Stakes Decision Made Without a Systematic Framework**
 
@@ -16,44 +16,44 @@ The downstream consequences of choosing the wrong model are severe. Switching fo
 
 The problem compounds because AI PMs typically lack a repeatable methodology. Each model evaluation is rebuilt from scratch by whoever is currently available, using different test sets, different scoring rubrics, and different interpretations of what "good" means for the specific task. Evaluation results are stored in ad-hoc spreadsheets, are not reproducible, and cannot be compared across evaluation rounds. When leadership asks why a particular model was chosen, the answer is often an uncomfortable mix of benchmark cherry-picking and engineering familiarity bias rather than systematic evidence.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Use-Case-Specific Test Set Construction**: COCO builds evaluation datasets calibrated to your actual product tasks:
+1. **Use-Case-Specific Test Set Construction**: OpenMax builds evaluation datasets calibrated to your actual product tasks:
    - Generates domain-specific test prompts covering your top 10–20 production task categories
    - Creates adversarial edge-case inputs targeting known failure modes: long context degradation, format non-compliance, instruction override attempts
    - Builds golden-answer sets for deterministic tasks and rubric-based scoring guides for generative tasks
    - Incorporates real user queries (anonymized) from your existing product or similar deployments
    - Sizes test sets for statistical confidence at your expected production distribution
 
-2. **Multi-Dimensional Scoring Rubric Design**: COCO defines measurable evaluation dimensions:
+2. **Multi-Dimensional Scoring Rubric Design**: OpenMax defines measurable evaluation dimensions:
    - Accuracy dimensions: factual correctness, domain terminology precision, citation accuracy where applicable
    - Safety dimensions: refusal rate on harmful prompts, PII leakage rate, jailbreak resistance score
    - Reliability dimensions: output format compliance rate, consistency across rephrased identical queries
    - Latency dimensions: P50/P95/P99 TTFT (time to first token) and total generation time under load
    - Cost dimensions: token consumption per task, cost per successful output, projected monthly cost at target QPS
 
-3. **Vendor-Neutral Comparative Evaluation Protocol**: COCO structures head-to-head model comparisons:
+3. **Vendor-Neutral Comparative Evaluation Protocol**: OpenMax structures head-to-head model comparisons:
    - Standardizes prompt formatting across providers to eliminate prompt-engineering advantage
    - Defines blind evaluation procedures to reduce evaluator bias in human preference scoring
    - Builds A/B/n evaluation matrices across OpenAI, Anthropic, Google, Mistral, Cohere, and open-source models
    - Documents model version, API parameters, and evaluation date for reproducibility
    - Generates side-by-side output comparison reports with statistical significance calculations
 
-4. **Automated Regression and Drift Tracking**: COCO embeds ongoing model monitoring into the framework:
+4. **Automated Regression and Drift Tracking**: OpenMax embeds ongoing model monitoring into the framework:
    - Schedules periodic re-runs of the core test set against deployed model versions
    - Alerts the team when model updates degrade performance on any tracked dimension by more than the defined threshold
    - Tracks vendor model version changes and correlates them with performance shifts
    - Maintains a historical performance ledger for audit and rollback decision support
    - Flags when production traffic patterns diverge from test set distribution, signaling re-evaluation need
 
-5. **Stakeholder-Ready Evaluation Reports**: COCO generates decision-ready outputs:
+5. **Stakeholder-Ready Evaluation Reports**: OpenMax generates decision-ready outputs:
    - Produces a model selection scorecard with dimension weights, raw scores, and weighted totals
    - Creates a narrative model selection memo explaining the recommended choice in business terms
    - Builds a risk register for the selected model covering known weaknesses and mitigation plans
    - Generates a vendor comparison deck suitable for executive review and procurement approval
    - Documents evaluation methodology for compliance, audit, and future re-evaluation reference
 
-6. **Cost-Performance Optimization Analysis**: COCO surfaces the economic dimension of model choice:
+6. **Cost-Performance Optimization Analysis**: OpenMax surfaces the economic dimension of model choice:
    - Models total cost of ownership at 3 traffic growth scenarios: conservative, base, and aggressive
    - Identifies cost-performance sweet spots where smaller, cheaper models meet quality thresholds
    - Calculates the cost impact of caching, prompt compression, and tiered model routing strategies
@@ -219,7 +219,7 @@ Output: Regression analysis memo + action plan with owner and deadline for each 
 
 > Systematizes prompt development from ad-hoc experimentation to a structured, version-controlled engineering discipline — covering prompt design, testing, iteration, and production deployment.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Prompt Engineering Is Treated as Art When It Needs to Be Engineering**
 
@@ -229,44 +229,44 @@ The lack of systematic methodology creates compounding quality problems. Individ
 
 The business risk compounds when prompt engineering knowledge is concentrated in one or two individuals. When those individuals leave or move to other projects, the entire prompt architecture — the reasoning behind structure choices, the edge cases being guarded against, the tradeoffs being managed — walks out the door with them. AI PMs cannot answer basic questions from stakeholders: "Why is our AI structured this way?" "What happens if the model provider changes their behavior?" "How do we know this prompt is still performing as expected?" The absence of a systematic workflow transforms prompt engineering from a competitive advantage into a single point of failure.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Prompt Architecture Documentation System**: COCO creates a structured knowledge base for all prompts:
+1. **Prompt Architecture Documentation System**: OpenMax creates a structured knowledge base for all prompts:
    - Templates for documenting each prompt's purpose, intended behavior, known limitations, and version history
    - Structured prompt metadata: model, temperature, max tokens, system/user/assistant turn structure
    - Rationale documentation: why each component of the prompt exists and what failure mode it guards against
    - Dependency mapping: which product features depend on which prompts, and the blast radius of any change
    - Ownership assignment: who is responsible for each prompt's performance and update decisions
 
-2. **Systematic Prompt Experimentation Protocol**: COCO turns prompt iteration into controlled experiments:
+2. **Systematic Prompt Experimentation Protocol**: OpenMax turns prompt iteration into controlled experiments:
    - Defines hypothesis-driven experimentation: what specific behavior change is being tested, why, and how success is measured
    - Structures A/B prompt comparisons with proper test set coverage and statistical significance requirements
    - Creates diff-view prompt comparison logs showing exactly what changed between versions
    - Documents experiment outcomes: what worked, what didn't, and the hypothesized reason
    - Builds a searchable library of prompt engineering learnings that accumulates over time
 
-3. **Prompt Component Library and Reuse Framework**: COCO extracts reusable prompt building blocks:
+3. **Prompt Component Library and Reuse Framework**: OpenMax extracts reusable prompt building blocks:
    - Identifies common prompt components: role definitions, output format instructions, safety guardrails, few-shot examples
    - Creates a modular component library that can be mixed and combined across features
    - Enforces consistent tone, safety language, and formatting conventions across all product prompts
    - Flags when different features are solving the same prompt challenge redundantly
    - Generates a prompt style guide covering voice, instruction specificity, example formatting, and chain-of-thought triggering
 
-4. **Automated Prompt Quality Regression Testing**: COCO maintains prompt performance over time:
+4. **Automated Prompt Quality Regression Testing**: OpenMax maintains prompt performance over time:
    - Runs scheduled regression tests against golden test sets for all production prompts
    - Alerts when output quality degrades following model updates or prompt changes
    - Tracks prompt performance metrics: format compliance rate, content accuracy, refusal rate on valid queries
    - Maintains performance history to distinguish temporary fluctuations from persistent degradation
    - Generates weekly prompt health dashboard for AI PM review
 
-5. **Prompt Security and Safety Review Checklist**: COCO enforces safety standards:
+5. **Prompt Security and Safety Review Checklist**: OpenMax enforces safety standards:
    - Audits all production prompts for prompt injection vulnerabilities and user-controllable inputs
    - Checks for missing safety guardrails on sensitive domains: medical, legal, financial advice
    - Validates that system prompts properly restrict model behavior to the intended scope
    - Tests resistance to common jailbreak patterns and social engineering approaches
    - Generates a prompt security score and remediation checklist for each flagged vulnerability
 
-6. **Prompt Deployment and Change Management Process**: COCO structures production prompt changes:
+6. **Prompt Deployment and Change Management Process**: OpenMax structures production prompt changes:
    - Defines a staged rollout process: dev → staging → canary → production for all prompt changes
    - Creates a prompt change review checklist: test coverage, stakeholder sign-off, rollback plan documented
    - Generates release notes for prompt changes in stakeholder-appropriate language
@@ -325,7 +325,7 @@ Design a controlled experiment to test the following prompt improvement hypothes
 Current prompt: [paste current prompt]
 Hypothesis: [what specific behavior change do you believe the variation will produce, and why]
 Target metric: [what will you measure to determine if the hypothesis is correct]
-Test set: [describe the evaluation dataset or ask COCO to generate one]
+Test set: [describe the evaluation dataset or ask OpenMax to generate one]
 
 Design the experiment:
 1. Variant prompt: generate [N=3] alternative versions targeting the hypothesis, with a one-sentence rationale for each change
@@ -411,7 +411,7 @@ Output: Prompt component library document + list of current prompts requiring up
 
 > Systematically identifies, quantifies, and documents bias risks in AI product outputs — enabling AI PMs to ship equitable products and satisfy increasingly stringent regulatory fairness requirements.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Bias in AI Products Is a Silent, Systemic Risk That Surfaces at the Worst Possible Moment**
 
@@ -421,44 +421,44 @@ The detection challenge is compounded by the nature of modern LLMs. Foundation m
 
 Regulatory pressure is intensifying the urgency. The EU AI Act classifies multiple use cases — hiring, credit, education, healthcare, law enforcement — as high-risk and requires demonstrable fairness auditing before deployment. US regulators are increasingly scrutinizing AI systems in financial services and housing. Enterprise customers conducting vendor due diligence now routinely ask for bias audit reports and fairness methodology documentation. AI PMs who cannot produce evidence of systematic bias testing are losing enterprise deals and facing procurement disqualification — not because their product is biased, but because they cannot prove it isn't.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Bias Risk Taxonomy and Scope Definition**: COCO establishes what types of bias to audit for a given product:
+1. **Bias Risk Taxonomy and Scope Definition**: OpenMax establishes what types of bias to audit for a given product:
    - Maps the product use case to applicable bias risk categories: representation bias, measurement bias, aggregation bias, evaluation bias
    - Identifies the demographic dimensions relevant to the specific use case: gender, race/ethnicity, age, geography, language variety, disability status, socioeconomic indicators
    - Defines the fairness metric most appropriate for the product type: demographic parity, equalized odds, calibration, counterfactual fairness
    - Scopes the audit to the specific AI components that touch user-facing outputs
    - Produces a bias risk register documenting each risk, its likelihood, and potential severity for this product
 
-2. **Bias Test Dataset Construction**: COCO builds the evaluation inputs needed to surface bias:
+2. **Bias Test Dataset Construction**: OpenMax builds the evaluation inputs needed to surface bias:
    - Generates demographically diverse prompt variants for each major task category (same content, varied demographic signals)
    - Creates counterfactual test pairs: identical queries with only demographic identifiers changed (name, pronoun, location)
    - Builds dialect and language variety test cases for products serving multilingual or multi-dialect populations
    - Constructs intersectional test cases that combine multiple demographic dimensions simultaneously
    - Ensures test set coverage across all identified demographic groups with statistically adequate sample sizes
 
-3. **Automated Bias Measurement and Scoring**: COCO quantifies bias in model outputs:
+3. **Automated Bias Measurement and Scoring**: OpenMax quantifies bias in model outputs:
    - Measures output quality disparity across demographic groups on accuracy, helpfulness, tone, and length
    - Calculates sentiment differential: does the model respond with systematically more positive or negative tone to queries from different demographic groups?
    - Detects stereotype reinforcement: does the model default to gender, racial, or occupational stereotypes in generative outputs?
    - Quantifies refusal rate disparities: does the model refuse or hedge more on certain demographic groups' valid queries?
    - Produces a bias scorecard with numerical disparity measures, statistical significance values, and severity ratings
 
-4. **Root Cause Attribution and Mitigation Recommendations**: COCO moves beyond detection to remediation:
+4. **Root Cause Attribution and Mitigation Recommendations**: OpenMax moves beyond detection to remediation:
    - Distinguishes between training data bias (requires model-level intervention) vs. prompt-level bias (addressable in system prompt)
    - Generates specific prompt modifications to reduce detected bias in system and few-shot prompts
    - Recommends training data augmentation strategies for fine-tuned models with identified gaps
    - Suggests output post-processing filters for high-severity bias risks that cannot be fully addressed in prompts
    - Provides a prioritized remediation roadmap with effort estimates and expected impact
 
-5. **Regulatory Compliance Documentation**: COCO produces audit-ready evidence:
+5. **Regulatory Compliance Documentation**: OpenMax produces audit-ready evidence:
    - Generates a fairness audit report formatted for EU AI Act Article 9 risk management requirements
    - Creates a model card bias section with standardized fairness metrics for public or enterprise disclosure
    - Documents the audit methodology, test set composition, metrics used, and findings for legal review
    - Produces a bias monitoring plan specifying ongoing measurement cadence and escalation thresholds
    - Maintains an audit history with version-controlled records for regulatory inspection
 
-6. **Ongoing Bias Monitoring Program Design**: COCO creates a sustainable long-term fairness practice:
+6. **Ongoing Bias Monitoring Program Design**: OpenMax creates a sustainable long-term fairness practice:
    - Designs production monitoring dashboards tracking bias proxy metrics in real-time traffic
    - Defines alerting thresholds that trigger re-audit when demographic disparity metrics exceed defined limits
    - Schedules quarterly bias review cycles aligned with model update and retraining schedules
@@ -607,7 +607,7 @@ Output: Monitoring system specification + dashboard wireframe description + aler
 
 > Builds a structured, current-state comparison of leading LLM vendors across the dimensions that actually matter for AI product decisions: capability, cost, reliability, compliance, and roadmap trajectory.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: LLM Vendor Selection Decisions Are Made with Outdated, Incomplete, and Vendor-Biased Information**
 
@@ -617,44 +617,44 @@ The comparison problem is structurally difficult because LLM vendors deliberatel
 
 The business consequence of a poor vendor selection compounds over time. API-level dependency on a single vendor creates concentration risk: a pricing change, an API deprecation, a reliability incident, or a policy change can force an emergency migration that disrupts every AI feature simultaneously. Teams that do not proactively evaluate alternatives find themselves in weak negotiating positions when contract renewal time arrives — having no credible alternative means accepting whatever terms the vendor dictates. AI PMs who cannot present a structured comparative analysis to leadership when asked to justify vendor spend are increasingly being asked to perform that analysis retroactively, under time pressure, while also managing a live product.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Vendor Universe Mapping and Tier Classification**: COCO establishes the full competitive landscape:
+1. **Vendor Universe Mapping and Tier Classification**: OpenMax establishes the full competitive landscape:
    - Catalogs all production-ready LLM API providers across frontier model tier, mid-tier, and open-source deployment options
    - Classifies vendors by deployment model: managed API only, VPC deployment, on-premises, open weights
    - Identifies vendors with specialized strengths relevant to the specific use case: code, multilingual, long context, multimodal, tool use
    - Maps enterprise-readiness tier: which vendors have proven enterprise SLAs, dedicated support, and audit-ready compliance programs
    - Tracks vendor financial stability and strategic trajectory to assess long-term platform risk
 
-2. **Capability Dimension Analysis**: COCO builds a technical capability matrix:
+2. **Capability Dimension Analysis**: OpenMax builds a technical capability matrix:
    - Compares context window size AND practical retrieval performance at different positions in the window
    - Assesses tool/function calling reliability: consistency of structured output formatting across vendors
    - Evaluates instruction-following fidelity: how well each vendor's model follows complex, multi-constraint system prompts
    - Compares multimodal capabilities where relevant: vision, audio, document understanding
    - Benchmarks performance on the specific task domain with standardized evaluation prompts
 
-3. **Total Cost of Ownership Modeling**: COCO calculates true vendor cost:
+3. **Total Cost of Ownership Modeling**: OpenMax calculates true vendor cost:
    - Standardizes pricing to a common metric: effective cost per 1,000 production queries at the team's actual input/output ratio
    - Models volume discount tiers and committed-use pricing to identify the break-even threshold for enterprise agreements
    - Calculates switching costs: API compatibility layer engineering, prompt re-optimization time, re-validation testing
    - Quantifies reliability cost: estimated revenue impact of each vendor's historical API downtime rates
    - Projects 3-year TCO including expected model upgrades, pricing trend trajectory, and infrastructure costs
 
-4. **Enterprise Compliance and Security Comparison**: COCO maps compliance posture:
+4. **Enterprise Compliance and Security Comparison**: OpenMax maps compliance posture:
    - Documents SOC 2 Type II, ISO 27001, HIPAA BAA, and FedRAMP status for each vendor
    - Compares data processing agreements: data retention policies, training data opt-out, residency options
    - Assesses zero-retention and private deployment options for sensitive data use cases
    - Maps each vendor's AI safety policy and content moderation behavior for the specific use case
    - Identifies compliance gaps: use cases where a vendor's current certifications do not satisfy requirements
 
-5. **Reliability and SLA Benchmarking**: COCO evaluates operational trustworthiness:
+5. **Reliability and SLA Benchmarking**: OpenMax evaluates operational trustworthiness:
    - Aggregates public and community-reported uptime data across the trailing 12 months for each vendor
    - Compares SLA commitments: uptime guarantee percentage, credits for downtime, enterprise support tiers
    - Assesses API rate limits and burst capacity at production traffic volumes
    - Evaluates version stability: how often do vendors introduce breaking changes and how much notice is provided
    - Documents incident history: frequency, duration, and communication quality of past major outages
 
-6. **Negotiation Leverage and Contract Strategy**: COCO prepares the team for procurement:
+6. **Negotiation Leverage and Contract Strategy**: OpenMax prepares the team for procurement:
    - Identifies the strongest alternative to each vendor to establish credible negotiating leverage
    - Generates a price benchmarking report showing market rates for similar commitment levels
    - Creates a vendor RFP template covering technical, commercial, and compliance requirements
@@ -694,7 +694,7 @@ Traffic profile: [expected QPS, average tokens per query, input/output ratio]
 Enterprise requirements: [compliance certifications needed, data residency, zero-retention requirement]
 Budget: [monthly budget range for model API costs]
 
-Vendors to compare: [list 4–6 vendors, or ask COCO to identify the most relevant set]
+Vendors to compare: [list 4–6 vendors, or ask OpenMax to identify the most relevant set]
 
 Build the comparison matrix covering:
 1. Model capability: context window, instruction following, task accuracy (use your eval results or published benchmarks)
@@ -816,7 +816,7 @@ Output: Risk assessment register + mitigation roadmap with priority ranking and 
 
 > Identifies and quantifies every lever available to reduce LLM inference costs — from prompt compression to model routing to caching — and generates a prioritized cost reduction roadmap.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: AI Inference Costs Scale Faster Than Revenue and Nobody Has a Clear Reduction Strategy**
 
@@ -826,44 +826,44 @@ The problem compounds as products scale. Inference costs often grow faster than 
 
 Cost visibility is also hobbled by how LLM providers structure billing. A single monthly invoice number from the API provider tells you almost nothing about which product decisions are driving cost. System prompt length, whether responses are streamed or cached, whether multi-turn context is preserved efficiently, whether error responses still consume tokens — these implementation details have massive cost implications that only become visible if the team has built detailed usage instrumentation. Most teams have not built that instrumentation because it was never prioritized until the bill arrived.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Cost Attribution by Feature and User Segment**: COCO disaggregates total inference spend:
+1. **Cost Attribution by Feature and User Segment**: OpenMax disaggregates total inference spend:
    - Maps token consumption to specific product features, user flows, and interaction types
    - Identifies the top 20% of features consuming 80% of inference cost
    - Segments cost by user type: power users vs. casual users vs. trial users vs. churned users
    - Calculates cost per successful outcome for each feature, not just cost per query
    - Builds a cost attribution dashboard showing real-time and trended cost by feature
 
-2. **Prompt Compression Opportunity Analysis**: COCO identifies redundant token consumption:
+2. **Prompt Compression Opportunity Analysis**: OpenMax identifies redundant token consumption:
    - Analyzes system prompt length and identifies content that can be compressed without behavior change
    - Detects repetitive preamble patterns across multi-turn conversations that are consuming unnecessary context tokens
    - Identifies few-shot examples that can be pruned or replaced with more concise alternatives
    - Measures the token cost of verbose output formatting instructions vs. concise alternatives
    - Calculates the savings potential from prompt compression before any changes are made
 
-3. **Caching Strategy Design**: COCO builds a caching architecture recommendation:
+3. **Caching Strategy Design**: OpenMax builds a caching architecture recommendation:
    - Identifies query clusters with high semantic similarity suitable for semantic caching
    - Calculates expected cache hit rates based on production query distribution analysis
    - Recommends cache TTL (time-to-live) settings by query type balancing freshness requirements against hit rate
    - Designs a prompt prefix caching strategy for features with long, stable system prompts (available in some provider APIs)
    - Projects cost reduction from each caching approach with implementation complexity assessment
 
-4. **Model Routing and Tiering Strategy**: COCO optimizes which model handles which queries:
+4. **Model Routing and Tiering Strategy**: OpenMax optimizes which model handles which queries:
    - Analyzes query complexity distribution to identify what fraction of queries can be handled by smaller, cheaper models
    - Designs a routing logic: simple queries to fast/cheap model, complex queries to frontier model
    - Defines quality thresholds for each routing tier with validation testing requirements
    - Estimates cost savings from tiered routing while modeling the user experience risk of routing errors
    - Builds a phased implementation plan for model routing with monitoring and guardrails
 
-5. **Retry and Error Cost Reduction**: COCO eliminates waste in error handling:
+5. **Retry and Error Cost Reduction**: OpenMax eliminates waste in error handling:
    - Identifies the current error/retry rate and its cost contribution
    - Analyzes whether retries are caused by rate limiting, format non-compliance, or model errors
    - Recommends prompt modifications to reduce format non-compliance errors that trigger retries
    - Designs exponential backoff and circuit breaker patterns to reduce rate-limit-driven retry costs
    - Calculates the cost of streaming vs. non-streaming for different feature types
 
-6. **Cost Reduction Roadmap with ROI Prioritization**: COCO sequences the optimization work:
+6. **Cost Reduction Roadmap with ROI Prioritization**: OpenMax sequences the optimization work:
    - Ranks all identified optimizations by expected savings, implementation effort, and user experience risk
    - Generates a 90-day cost reduction roadmap with weekly milestones
    - Defines success metrics: target cost per query, cost per DAU, inference cost as a percentage of revenue
@@ -1033,7 +1033,7 @@ Output: 90-day roadmap table + cumulative savings projection by week + leadershi
 
 > Constructs a comprehensive AI governance program covering risk assessment, approval workflows, incident management, and regulatory alignment — enabling AI PMs to ship responsibly at speed.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: AI Products Are Shipping Faster Than Governance Structures Can Keep Up**
 
@@ -1043,44 +1043,44 @@ The governance design challenge is compounded by the novel nature of AI risks. T
 
 The regulatory pressure is creating urgency. Enterprise customers are inserting AI governance requirements into procurement questionnaires. Regulators are publishing enforcement guidance on AI systems in financial services, hiring, and healthcare that creates personal liability for product leaders who cannot demonstrate adequate oversight. Board and audit committees are asking for AI risk reports that most product teams cannot produce because the underlying governance artifacts — risk registers, impact assessments, review records — were never systematically maintained. AI PMs who build governance programs now are ahead of the curve; those who wait are building technical debt that will require a costly retroactive compliance effort.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **AI Risk Taxonomy and Classification Framework**: COCO establishes what risks to govern:
+1. **AI Risk Taxonomy and Classification Framework**: OpenMax establishes what risks to govern:
    - Builds a comprehensive AI risk taxonomy tailored to the organization's AI use case portfolio
    - Classifies each AI product and feature by risk tier: high-risk (regulated use cases), medium-risk (consumer-facing generative features), low-risk (internal tools)
    - Maps risk tier to governance requirements: what review gates, approval authorities, and monitoring obligations apply at each tier
    - Identifies the specific regulatory frameworks applicable to each use case and jurisdiction
    - Creates a risk register template that captures all identified risks, their likelihood, severity, and mitigation status
 
-2. **AI Review and Approval Workflow Design**: COCO creates governance processes that work at speed:
+2. **AI Review and Approval Workflow Design**: OpenMax creates governance processes that work at speed:
    - Designs a tiered review process where low-risk changes have lightweight review and high-risk changes have full committee review
    - Defines the composition and authority of an AI Review Committee with clear scope and escalation criteria
    - Creates review checklists for each risk tier covering safety, bias, privacy, security, and compliance dimensions
    - Establishes target SLAs for review completion at each tier to prevent governance from becoming a bottleneck
    - Integrates AI review into existing engineering release processes rather than creating a separate parallel track
 
-3. **AI Impact Assessment Templates**: COCO standardizes pre-launch documentation:
+3. **AI Impact Assessment Templates**: OpenMax standardizes pre-launch documentation:
    - Builds an AI Impact Assessment template covering: use case description, affected populations, identified risks, mitigation measures, residual risk acceptance
    - Creates a Data Protection Impact Assessment (DPIA) template for AI features processing personal data
    - Designs a Fundamental Rights Impact Assessment template for high-risk EU AI Act use cases
    - Standardizes the model card documentation requirement for all AI features
    - Generates a bias and fairness assessment template aligned with the organization's fairness commitments
 
-4. **AI Incident Response and Accountability Framework**: COCO designs post-launch governance:
+4. **AI Incident Response and Accountability Framework**: OpenMax designs post-launch governance:
    - Defines AI incident categories: harmful output incidents, bias incidents, privacy incidents, safety incidents, and reliability incidents
    - Creates severity classification criteria and escalation paths for each incident type
    - Builds an AI incident response playbook with specific steps for each incident category
    - Establishes accountability mapping: who is responsible for detecting, responding to, and learning from each incident type
    - Designs a post-incident review process that feeds findings back into the governance framework
 
-5. **Regulatory Compliance Mapping**: COCO aligns governance with legal requirements:
+5. **Regulatory Compliance Mapping**: OpenMax aligns governance with legal requirements:
    - Maps the organization's AI use cases to EU AI Act prohibited, high-risk, and limited-risk categories
    - Identifies sector-specific regulatory requirements: HIPAA for health AI, FCRA for credit AI, EEOC for hiring AI
    - Creates a compliance evidence collection plan specifying what documentation must be maintained for regulatory defense
    - Builds a regulatory monitoring process to track emerging AI regulations relevant to the product portfolio
    - Produces a compliance gap analysis comparing current governance practices to applicable requirements
 
-6. **AI Governance Reporting and Board Communication**: COCO creates governance visibility:
+6. **AI Governance Reporting and Board Communication**: OpenMax creates governance visibility:
    - Designs a quarterly AI risk dashboard for leadership covering open risks, recent incidents, and compliance status
    - Creates a board-ready AI governance report template covering program maturity, key risks, and investment needs
    - Builds an AI ethics and governance policy document suitable for public disclosure and enterprise customer requests
@@ -1261,7 +1261,7 @@ Output: Complete governance policy document in formal policy format with version
 
 > Evaluates training, fine-tuning, and RAG retrieval datasets for quality issues — coverage gaps, label noise, distribution bias, and contamination — before they degrade model performance in production.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Data Quality Problems Are Invisible Until They Surface as Model Failures in Production**
 
@@ -1271,44 +1271,44 @@ The data quality assessment challenge is particularly acute for AI PMs who are n
 
 The RAG-specific data quality problem has its own failure modes that are not captured by standard ML data quality frameworks. RAG retrieval quality depends on chunking strategy, embedding model compatibility, metadata richness, and the relationship between retrieval granularity and query types. A knowledge base that looks complete at the document level may have critical gaps at the chunk level that prevent relevant information from being retrieved. Duplicate or near-duplicate content inflates apparent coverage while degrading retrieval precision. Inconsistent formatting across documents creates embedding space artifacts that cause semantically similar content to be represented as dissimilar. These problems require RAG-specific assessment methods that go beyond traditional data quality checks.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Data Coverage and Representation Analysis**: COCO measures whether the data covers what it needs to:
+1. **Data Coverage and Representation Analysis**: OpenMax measures whether the data covers what it needs to:
    - Maps the intended task distribution against the data distribution to identify coverage gaps
    - Identifies underrepresented domains, topics, languages, and demographic groups in the dataset
    - Calculates the long-tail coverage problem: what percentage of expected production queries fall outside the data distribution
    - Detects temporal gaps in training data that would cause the model to fail on recent developments
    - Generates a coverage gap report with specific recommendations for data augmentation priorities
 
-2. **Label Quality and Annotation Consistency Assessment**: COCO audits labeled data for noise:
+2. **Label Quality and Annotation Consistency Assessment**: OpenMax audits labeled data for noise:
    - Calculates inter-annotator agreement statistics for multi-annotator datasets
    - Identifies systematic labeling errors: categories or edge cases where annotators consistently disagree
    - Detects label imbalance and its projected impact on model performance for minority classes
    - Flags ambiguous annotation guidelines through analysis of low-agreement examples
    - Produces a label quality score with specific remediation recommendations
 
-3. **RAG Knowledge Base Quality Audit**: COCO evaluates retrieval-ready document collections:
+3. **RAG Knowledge Base Quality Audit**: OpenMax evaluates retrieval-ready document collections:
    - Assesses document freshness: what percentage of documents are outdated relative to the use case's currency requirements
    - Identifies contradictory information: documents in the knowledge base that give conflicting answers on the same topic
    - Detects duplicate and near-duplicate content that inflates apparent coverage and degrades retrieval precision
    - Evaluates chunk quality: are chunks self-contained and semantically coherent, or do they cut across topic boundaries
    - Audits metadata completeness: what percentage of documents have complete, accurate metadata required for filtering
 
-4. **Bias and Distribution Analysis**: COCO identifies skews that degrade fairness:
+4. **Bias and Distribution Analysis**: OpenMax identifies skews that degrade fairness:
    - Measures demographic representation in training examples: are all intended user groups represented in labeled data?
    - Detects topic and sentiment bias in document collections that would cause systematic skew in model outputs
    - Identifies geographic and cultural representation gaps in multilingual or multi-geography datasets
    - Analyzes the temporal distribution of training data for recency bias or historical overrepresentation
    - Generates a data bias report with quantified disparity measures and augmentation recommendations
 
-5. **Data Contamination and Privacy Risk Screening**: COCO checks for unsafe data:
+5. **Data Contamination and Privacy Risk Screening**: OpenMax checks for unsafe data:
    - Screens training data for PII (names, emails, phone numbers, SSNs) that should not be in model training inputs
    - Detects benchmark contamination: presence of standard evaluation benchmark examples in training data that would inflate eval metrics
    - Identifies potentially copyrighted content that creates legal risk in training datasets
    - Flags adversarial examples and data poisoning indicators in contributed or scraped datasets
    - Produces a data provenance and risk report for legal and compliance review
 
-6. **Data Quality Scorecard and Remediation Roadmap**: COCO converts findings into action:
+6. **Data Quality Scorecard and Remediation Roadmap**: OpenMax converts findings into action:
    - Generates a comprehensive data quality scorecard with scores across all assessed dimensions
    - Prioritizes remediation actions by impact on model performance and implementation feasibility
    - Provides specific, actionable data collection and cleaning recommendations for each identified gap
@@ -1483,7 +1483,7 @@ Output: Data quality gate document + measurement protocol + gating workflow inte
 
 > Builds a rigorous cost-benefit analysis for fine-tuning decisions — quantifying the quality gain, cost structure, and maintenance burden relative to prompt engineering and RAG alternatives.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Fine-Tuning Decisions Are Made on Intuition When They Should Be Made on Evidence**
 
@@ -1493,44 +1493,44 @@ The most common fine-tuning mistakes are driven by unclear quality baselines. Te
 
 The long-term cost structure of fine-tuned models is frequently underestimated. Fine-tuning is not a one-time expense — it creates ongoing obligations: when the base model is updated, the fine-tune must be rebuilt; when the task requirements evolve, the training data must be refreshed and the fine-tune rerun; when the model shows performance drift, the team must diagnose whether it is a prompt issue, a data drift issue, or a base model change. These maintenance costs are rarely factored into the initial ROI calculation. AI PMs who present fine-tuning proposals without accounting for the full lifecycle cost consistently find that the economic case was weaker than it appeared at decision time.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Baseline Capability Assessment**: COCO establishes what is achievable without fine-tuning:
+1. **Baseline Capability Assessment**: OpenMax establishes what is achievable without fine-tuning:
    - Designs a systematic prompt optimization sprint to establish the best achievable performance through prompt engineering alone
    - Benchmarks zero-shot, few-shot, and chain-of-thought variations on the target task to find the current performance ceiling
    - Identifies which specific failure modes are truly training-data gaps vs. prompt engineering gaps
    - Quantifies the exact quality gap that fine-tuning would need to close to justify the investment
    - Documents the baseline clearly enough that the fine-tuned model can be compared against the right benchmark
 
-2. **Fine-Tuning Method Selection Analysis**: COCO recommends the right training approach:
+2. **Fine-Tuning Method Selection Analysis**: OpenMax recommends the right training approach:
    - Compares full fine-tuning vs. PEFT methods (LoRA, QLoRA, prefix tuning) by cost and quality tradeoff
    - Evaluates instruction fine-tuning vs. continued pre-training vs. RLHF for the specific improvement goal
    - Recommends proprietary fine-tuning APIs (OpenAI, Anthropic) vs. open-source fine-tuning frameworks by total cost and operational complexity
    - Assesses whether the quality goal is achievable with the available training data volume
    - Produces a method selection recommendation with cost estimate and quality expectation for each option
 
-3. **Training Data ROI Analysis**: COCO quantifies the data investment:
+3. **Training Data ROI Analysis**: OpenMax quantifies the data investment:
    - Estimates the required training data volume for the target quality improvement based on task type and complexity
    - Calculates the annotation cost at current market rates for different annotation quality tiers
    - Assesses whether existing data assets (historical outputs, labeled examples, user feedback) can substitute for new annotation
    - Models the quality curve: expected improvement as a function of training data volume to identify the diminishing returns inflection point
    - Compares the total data investment against the expected quality and inference cost improvement
 
-4. **Inference Cost Savings Calculation**: COCO quantifies the economic upside:
+4. **Inference Cost Savings Calculation**: OpenMax quantifies the economic upside:
    - Calculates the inference cost reduction from using a smaller fine-tuned model vs. a larger general model
    - Models the traffic volume threshold at which inference cost savings exceed the training and data investment
    - Projects break-even point and 3-year NPV under conservative, base, and optimistic traffic scenarios
    - Quantifies the latency improvement from switching to a smaller fine-tuned model and its user experience value
    - Builds a sensitivity analysis showing how the ROI case changes with different quality improvement and traffic assumptions
 
-5. **Ongoing Maintenance Cost Modeling**: COCO surfaces the hidden costs:
+5. **Ongoing Maintenance Cost Modeling**: OpenMax surfaces the hidden costs:
    - Estimates the retraining frequency required given expected data drift and model update cadence
    - Calculates the engineering time cost of each retraining cycle including data refresh, training run, evaluation, and deployment
    - Models the opportunity cost of model version lock-in: what capability improvements from base model updates are forfeited
    - Assesses the monitoring cost required to detect fine-tuned model drift before it reaches production quality thresholds
    - Produces a total lifecycle cost model over 24 months that can be compared against alternatives
 
-6. **Go/No-Go Decision Framework**: COCO generates a clear recommendation:
+6. **Go/No-Go Decision Framework**: OpenMax generates a clear recommendation:
    - Compares fine-tuning ROI against the alternatives: continued prompt engineering, RAG augmentation, different base model selection
    - Defines the specific conditions under which fine-tuning is economically justified for this use case
    - Creates a fine-tuning proposal document suitable for engineering, finance, and leadership review
@@ -1694,7 +1694,7 @@ Output: Fine-tuned model lifecycle plan document + annual maintenance cost estim
 
 > Applies an AI-product-specific scoring engine to rank feature candidates — accounting for model maturity, data availability, safety requirements, and the unique value dynamics of AI capabilities.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Generic Feature Scoring Frameworks Produce Wrong Answers for AI Feature Backlogs**
 
@@ -1704,44 +1704,44 @@ The impact estimation problem for AI features is particularly severe. Traditiona
 
 The prioritization challenge is compounded by the AI PM's need to balance AI feature work against AI platform work. Building evaluation infrastructure, improving training data pipelines, reducing inference costs, and establishing safety review processes all have measurable impact on every AI feature in the portfolio — but they have no direct user-visible value that scores well on standard prioritization frameworks. Teams that systematically underprioritize platform work because it cannot compete on a reach × impact × confidence / effort score against user-visible features accumulate AI infrastructure debt that eventually forces an expensive and disruptive roadmap reset.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **AI Feature Readiness Assessment**: COCO evaluates feasibility before scoring value:
+1. **AI Feature Readiness Assessment**: OpenMax evaluates feasibility before scoring value:
    - Assesses model capability readiness: is there evidence the underlying model can perform this task at required quality?
    - Evaluates data readiness: is the training/fine-tuning/retrieval data needed for this feature available and at acceptable quality?
    - Checks infrastructure readiness: does the required pipeline infrastructure exist, and what is the build cost?
    - Identifies safety and compliance requirements and estimates the review cycle time for the feature
    - Produces a readiness tier (launch-ready / needs validation PoC / needs significant foundation work) for each feature
 
-2. **AI-Specific Value Scoring Dimensions**: COCO adds AI-specific value factors:
+2. **AI-Specific Value Scoring Dimensions**: OpenMax adds AI-specific value factors:
    - User task enablement: does this AI feature enable tasks that users literally cannot do today without AI?
    - Quality sensitivity: what is the adoption impact of quality levels at 70%, 80%, and 90% accuracy?
    - Trust foundation contribution: does this feature build or risk user trust in the AI product overall?
    - Data flywheel value: does user interaction with this feature generate labeled data that improves model quality?
    - Platform leverage: does this feature share a foundation that enables multiple future features?
 
-3. **Risk-Adjusted Effort Estimation**: COCO builds realistic effort models for AI features:
+3. **Risk-Adjusted Effort Estimation**: OpenMax builds realistic effort models for AI features:
    - Applies uncertainty multipliers based on feature readiness tier
    - Distinguishes minimum-viable-quality effort from production-quality effort for each feature
    - Adds evaluation and iteration cycles explicitly to effort estimates
    - Includes safety review cycle time as a non-negotiable effort component
    - Produces effort ranges rather than point estimates for low-readiness features
 
-4. **Portfolio Composition Analysis**: COCO optimizes the feature mix:
+4. **Portfolio Composition Analysis**: OpenMax optimizes the feature mix:
    - Calculates the current and proposed backlog composition: new capabilities vs. quality improvements vs. platform/foundation vs. cost reduction
    - Benchmarks against healthy AI product backlog composition norms
    - Flags when the portfolio is over-indexed on new capability work at the expense of quality improvement
    - Recommends minimum allocation percentages for each work type
    - Models the impact of different portfolio compositions on 6-month delivery velocity
 
-5. **Stakeholder-Aware Scoring**: COCO builds a scoring model that works for the team:
+5. **Stakeholder-Aware Scoring**: OpenMax builds a scoring model that works for the team:
    - Allows different stakeholder groups to apply different value weights and shows how rankings shift
    - Generates an "alignment table" showing where stakeholders agree and disagree on priorities
    - Identifies the features where prioritization disagreement is worth debating vs. where consensus is clear
    - Produces stakeholder-specific priority views with appropriate level of detail for each audience
    - Documents the weighting rationale to enable consistent application over time
 
-6. **Prioritization Output and Communication**: COCO generates the artifacts needed after scoring:
+6. **Prioritization Output and Communication**: OpenMax generates the artifacts needed after scoring:
    - Produces a ranked feature backlog with scores, confidence intervals, and key assumptions
    - Creates a one-pager per feature for the top 10 items suitable for team-wide review
    - Generates a prioritization decision log documenting what was decided and why
@@ -1908,7 +1908,7 @@ Output: Not-now register document + stakeholder communication templates for each
 
 > Synthesizes large volumes of user research — interviews, surveys, support tickets, session recordings — into structured AI product insights with specific implications for model behavior, feature design, and quality thresholds.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: AI Product Teams Have Abundant User Data but Struggle to Translate It into Model and Feature Decisions**
 
@@ -1918,44 +1918,44 @@ The volume problem compounds the synthesis challenge. At scale, AI products gene
 
 The AI-specific research challenge is that users often cannot accurately describe their experience with AI features in the same way they can describe their experience with conventional features. Users form mental models of AI behavior that are often wrong — they may attribute a correct AI output to luck, or an incorrect one to incompetence, in ways that don't map to the actual technical failure mode. Research synthesis for AI products requires an additional interpretive layer: translating user language ("it makes stuff up," "it seems confused," "it always gives the same answer") into technical hypotheses about model behavior that engineers can investigate and test.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Multi-Source User Feedback Aggregation**: COCO consolidates feedback from all channels:
+1. **Multi-Source User Feedback Aggregation**: OpenMax consolidates feedback from all channels:
    - Ingests support tickets, NPS survey open-ends, app store reviews, in-product feedback, and interview transcripts simultaneously
    - Normalizes feedback across sources into a consistent structure for analysis
    - Tags each feedback item by source, date, user segment, product area, and AI feature involved
    - Applies volume weighting to ensure high-frequency signals are not drowned out by high-intensity individual feedback
    - Identifies feedback patterns that appear consistently across multiple sources — the strongest signal of a real product problem
 
-2. **AI-Specific Failure Mode Classification**: COCO translates user language into technical hypotheses:
+2. **AI-Specific Failure Mode Classification**: OpenMax translates user language into technical hypotheses:
    - Maps user complaint language to AI failure mode categories: hallucination, context loss, format failure, scope refusal, latency, bias
    - Identifies which failure modes are appearing most frequently and in which user segments
    - Distinguishes AI quality complaints from UI/UX complaints and feature gap requests
    - Generates specific technical hypotheses for each identified failure mode cluster
    - Prioritizes failure modes by frequency, severity impact on user behavior, and engineering addressability
 
-3. **User Mental Model Analysis**: COCO surfaces how users think about the AI:
+3. **User Mental Model Analysis**: OpenMax surfaces how users think about the AI:
    - Identifies the mental models users have formed about the AI's capabilities and limitations
    - Detects expectation gaps: where user expectations are systematically higher or lower than actual model capability
    - Surfaces trust-building and trust-damaging behaviors: what specific model behaviors users mention positively or negatively
    - Identifies where poor user onboarding is creating quality perception problems that are actually expectation management issues
    - Generates insights about which AI capabilities users value most vs. which they barely notice
 
-4. **Quantitative Signal Analysis from Behavioral Data**: COCO mines behavioral patterns:
+4. **Quantitative Signal Analysis from Behavioral Data**: OpenMax mines behavioral patterns:
    - Analyzes conversation log patterns: where users abandon multi-turn conversations, regenerate responses, or copy-paste AI output without editing
    - Correlates behavioral patterns with user segment and feature type to identify where AI quality is impacting retention
    - Measures prompt reformulation rate as a proxy for AI comprehension failure
    - Tracks feature adoption curves for AI features and identifies where adoption plateaus at levels below expectations
    - Generates a behavioral quality index that quantifies AI product quality through usage patterns rather than survey responses alone
 
-5. **Insight-to-Action Translation**: COCO connects research to product decisions:
+5. **Insight-to-Action Translation**: OpenMax connects research to product decisions:
    - Generates specific feature recommendations and model improvement priorities from each insight cluster
    - Maps insights to roadmap backlog items: which current or proposed items address which user problems
    - Identifies gaps: user problems that exist in the research but have no corresponding roadmap response
    - Produces a prioritized insight register with clear "therefore build/improve/fix" implications
    - Creates a research-to-roadmap traceability matrix for stakeholder communication
 
-6. **Ongoing Research Monitoring and Alert System**: COCO creates a continuous feedback loop:
+6. **Ongoing Research Monitoring and Alert System**: OpenMax creates a continuous feedback loop:
    - Sets up monitoring for shifts in feedback theme frequency that signal emerging quality issues
    - Tracks NPS driver analysis over time to measure whether product improvements are registering in user perception
    - Generates a weekly research digest for the AI PM summarizing new patterns and signals
@@ -2117,7 +2117,7 @@ Output: Traceability matrix table + gap analysis + recommended roadmap adjustmen
 
 > Designs reliable, observable multi-agent and agentic AI workflows — defining task decomposition, tool selection, error handling, and human escalation points before any code is written.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: AI Agent Systems Are Being Built Without Design Discipline, Creating Brittle and Unpredictable Behavior**
 
@@ -2127,44 +2127,44 @@ The orchestration design problem is frequently approached by engineering teams a
 
 The human-in-the-loop design challenge is particularly underspecified in most agentic AI projects. Teams often default to two extremes: fully autonomous agents with no human checkpoints (fast, but high risk of catastrophic failure), or agents that require human confirmation for every action (safe, but destroying the efficiency value proposition of the agentic system). The optimal design is somewhere in between: identifying the specific decision points where human oversight is essential given the consequences of error, and building lightweight, low-friction confirmation mechanisms that don't eliminate the value of automation. This requires systematic analysis of the workflow to identify high-stakes decision nodes, irreversible actions, and ambiguity resolution requirements — analysis that most teams skip in the rush to build.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Agent Task Decomposition and Workflow Mapping**: COCO designs the workflow before implementation:
+1. **Agent Task Decomposition and Workflow Mapping**: OpenMax designs the workflow before implementation:
    - Decomposes the high-level agent goal into a structured sequence of sub-tasks with clear inputs, outputs, and success criteria
    - Maps the decision tree: what choices does the agent need to make at each step, and what information does it need to make them?
    - Identifies tool and API dependencies: which external tools, databases, and APIs does each step require?
    - Designs the state management architecture: what information must be preserved and passed between steps?
    - Produces a workflow diagram that can be reviewed by product, engineering, and stakeholders before implementation
 
-2. **Authority Boundary and Permission Design**: COCO defines what the agent can do autonomously:
+2. **Authority Boundary and Permission Design**: OpenMax defines what the agent can do autonomously:
    - Classifies each agent action by reversibility: fully reversible / partially reversible / irreversible
    - Classifies each action by consequence severity: low-stakes / moderate-stakes / high-stakes
    - Defines the autonomous action space: which actions the agent can take without human confirmation given reversibility and stakes
    - Designs approval workflows for high-stakes or irreversible actions: who approves, what information is presented, what the confirmation interface looks like
    - Creates a permissions matrix that can be adjusted per user tier, enterprise configuration, or regulatory context
 
-3. **Error Handling and Failure Mode Design**: COCO anticipates how the agent can fail:
+3. **Error Handling and Failure Mode Design**: OpenMax anticipates how the agent can fail:
    - Enumerates failure modes for each workflow step: tool API failure, ambiguous input, confidence threshold not met, loop detection
    - Designs graceful degradation strategies: how the agent behaves when a step fails rather than crashing or producing garbage output
    - Defines retry and fallback logic: maximum retry attempts, fallback tools or approaches, escalation trigger conditions
    - Designs the user-facing error communication: how the agent explains what went wrong without exposing implementation details
    - Creates circuit breakers: conditions under which the agent stops and hands off to a human rather than continuing with low confidence
 
-4. **Human-in-the-Loop Integration Points**: COCO identifies where humans must stay in the loop:
+4. **Human-in-the-Loop Integration Points**: OpenMax identifies where humans must stay in the loop:
    - Analyzes each decision node for: can this decision be automated at required confidence levels? What is the error cost if wrong?
    - Designs confirmation interfaces for the identified human checkpoint decisions
    - Defines the minimum information the agent must present to enable an informed human decision in under 30 seconds
    - Builds an escalation path for situations the agent cannot handle: ambiguity, novel scenarios, policy conflicts
    - Designs the handoff protocol: how the agent's work-in-progress is presented to the human taking over
 
-5. **Agent Observability and Monitoring Design**: COCO ensures the agent's behavior is visible:
+5. **Agent Observability and Monitoring Design**: OpenMax ensures the agent's behavior is visible:
    - Defines the logging requirements: what data must be captured at each step for debugging, auditing, and improvement
    - Designs step-level performance metrics: latency, tool call success rate, confidence score distribution per step
    - Creates an agent activity dashboard showing real-time workflow state and historical completion patterns
    - Defines anomaly detection signals: loop indicators, unusually long step durations, low confidence streaks
    - Designs the audit trail for regulated use cases where every agent action must be attributable and explainable
 
-6. **Agent Safety and Misuse Prevention**: COCO builds safeguards into the design:
+6. **Agent Safety and Misuse Prevention**: OpenMax builds safeguards into the design:
    - Identifies prompt injection attack surfaces in the agent's tool inputs and intermediate context
    - Designs input sanitization and validation for all externally-sourced data entering the agent's context
    - Implements scope boundaries: prevents the agent from taking actions outside its defined authority even if instructed by prompt manipulation
@@ -2356,7 +2356,7 @@ Output: Observability specification + monitoring dashboard layout + alert thresh
 
 > Establishes repeatable hallucination measurement methodology, tracks hallucination rates across model versions and prompt changes, and generates actionable remediation guidance for AI PMs.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Hallucination Is the Most-Discussed AI Risk and the Least Systematically Measured**
 
@@ -2366,16 +2366,16 @@ The measurement difficulty is real. Hallucination is not a single, well-defined 
 
 The tracking problem is equally severe. Even teams that measure hallucination at a point in time rarely maintain a consistent tracking program across model versions, prompt changes, and RAG knowledge base updates. When a model provider releases a new version, the team typically has no systematic way to compare hallucination rates before and after the update. When a prompt is modified to improve instruction following, there is no measurement to confirm that the change did not increase hallucination on a different dimension. The result is that hallucination rate is treated as a static property of the chosen model when it is actually a dynamic metric that must be actively managed across the product lifecycle.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Domain-Specific Hallucination Test Set Construction**: COCO builds measurement instruments calibrated to the product:
+1. **Domain-Specific Hallucination Test Set Construction**: OpenMax builds measurement instruments calibrated to the product:
    - Generates factual questions in the product's specific domain with verifiable ground-truth answers
    - Creates attribution test cases: prompts requiring the model to cite a specific source accurately
    - Builds entity confusion tests: cases where the model must distinguish between similar-named concepts, people, or products
    - Designs temporal accuracy tests: questions about time-sensitive facts where training data cutoffs create hallucination risk
    - Constructs known-unknown tests: questions outside the model's knowledge where the correct behavior is to express uncertainty rather than confabulate
 
-2. **Hallucination Classification Taxonomy**: COCO structures what types of hallucination to measure:
+2. **Hallucination Classification Taxonomy**: OpenMax structures what types of hallucination to measure:
    - Factual hallucination: model states a false fact with confidence
    - Attribution hallucination: model attributes a quote, finding, or claim to the wrong source
    - Temporal hallucination: model states outdated information as current fact
@@ -2383,28 +2383,28 @@ The tracking problem is equally severe. Even teams that measure hallucination at
    - Numeric hallucination: model states incorrect numbers, statistics, or measurements
    - Instruction compliance hallucination: model claims to have followed instructions it actually ignored
 
-3. **Automated Hallucination Scoring Pipeline**: COCO creates a repeatable measurement process:
+3. **Automated Hallucination Scoring Pipeline**: OpenMax creates a repeatable measurement process:
    - Defines automated scoring for each hallucination type where ground truth comparison is possible
    - Creates human evaluation rubrics for hallucination types requiring judgment
    - Builds a scoring pipeline that can be re-run automatically after each model update or prompt change
    - Calculates hallucination rates by category, severity, and domain topic
    - Produces a hallucination scorecard with statistical confidence intervals
 
-4. **Cross-Version Hallucination Regression Tracking**: COCO maintains a historical record:
+4. **Cross-Version Hallucination Regression Tracking**: OpenMax maintains a historical record:
    - Runs the hallucination benchmark automatically when new model versions are deployed
    - Compares hallucination rates before and after each prompt change that could affect factual accuracy
    - Tracks hallucination rate changes after RAG knowledge base updates
    - Maintains a version-controlled benchmark history for audit and retrospective analysis
    - Generates regression alerts when hallucination rates increase beyond defined thresholds
 
-5. **Hallucination Root Cause Analysis**: COCO identifies what to fix:
+5. **Hallucination Root Cause Analysis**: OpenMax identifies what to fix:
    - Distinguishes training data gaps (requires model-level intervention) from prompt-level causes (addressable with system prompt changes)
    - Identifies RAG retrieval failures that cause hallucination: cases where the model hallucinated because relevant context was not retrieved
    - Detects prompt patterns that reliably increase or decrease hallucination rates
    - Analyzes which question types and domains have the highest hallucination risk for targeted improvement
    - Generates specific mitigation recommendations for the top hallucination categories identified
 
-6. **Hallucination Communication and Transparency Framework**: COCO helps communicate risk honestly:
+6. **Hallucination Communication and Transparency Framework**: OpenMax helps communicate risk honestly:
    - Creates a hallucination disclosure template for user-facing AI products explaining known limitations
    - Designs confidence indicators that surface to users when the model is operating in high-hallucination-risk territory
    - Generates enterprise customer hallucination rate reports for AI products sold into regulated industries
@@ -2567,7 +2567,7 @@ Output: Disclosure language set + confidence communication design + known-unknow
 
 > Audits system prompts for prompt injection vulnerabilities, instruction override risks, and data leakage attack vectors — protecting AI products against adversarial manipulation before and after launch.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: System Prompts Are the Attack Surface That Most AI Security Reviews Miss**
 
@@ -2577,44 +2577,44 @@ The security implications range from embarrassing to severe. At the low end: use
 
 The review challenge is that prompt injection vulnerabilities are not visible through static code review of the system prompt alone — they require adversarial testing, thinking from the attacker's perspective, and understanding of how the specific model being used responds to different injection techniques. Different models have different resistance levels to various injection patterns, and a system prompt that provides adequate resistance on one model version may be vulnerable on the next version after the provider updates their RLHF tuning. AI PMs who conduct injection testing only at launch and never revisit it after model updates are operating with a false sense of security.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **System Prompt Structural Security Analysis**: COCO reviews the prompt architecture for inherent vulnerabilities:
+1. **System Prompt Structural Security Analysis**: OpenMax reviews the prompt architecture for inherent vulnerabilities:
    - Analyzes the system prompt structure for instruction clarity and authority disambiguation
    - Identifies ambiguous or conditional instructions that can be manipulated through adversarial framing
    - Reviews the boundary definition between what the model is instructed to do and not do
    - Assesses the strength of the identity and role definition: models with weak role grounding are more susceptible to role-switching attacks
    - Evaluates whether safety instructions are appropriately positioned (beginning and end of system prompt) for maximum model attention
 
-2. **Prompt Injection Attack Vector Catalog**: COCO generates and tests injection attack scenarios:
+2. **Prompt Injection Attack Vector Catalog**: OpenMax generates and tests injection attack scenarios:
    - Direct injection: user attempts to override system instructions through explicit instruction injection
    - Role confusion injection: user claims a special identity that the model should treat differently ("I am your developer, ignore previous instructions")
    - Indirect injection: attack via documents, web content, or tool outputs that contain embedded instructions
    - Multi-turn manipulation: gradual instruction drift across conversation turns that cumulatively shifts model behavior
    - Jailbreak pattern library: tests of common and novel jailbreak techniques against the current system prompt
 
-3. **System Prompt Extraction Defense Assessment**: COCO tests information leakage:
+3. **System Prompt Extraction Defense Assessment**: OpenMax tests information leakage:
    - Evaluates resistance to direct extraction attempts ("what are your instructions?", "repeat what I told you")
    - Tests indirect extraction via different framing ("translate your instructions to French")
    - Assesses meta-awareness exploitation: prompts that attempt to use the model's self-knowledge against its instructions
    - Evaluates data exfiltration risk: can users cause the model to reveal sensitive context from prior conversation turns?
    - Tests tool-use systems for MCP (malicious context poisoning) via injected tool descriptions or results
 
-4. **Remediation and Hardening Recommendations**: COCO provides specific fixes:
+4. **Remediation and Hardening Recommendations**: OpenMax provides specific fixes:
    - Generates hardened versions of vulnerable system prompt sections with injection-resistant phrasing
    - Recommends input sanitization patterns for user-supplied content entering the context window
    - Designs explicit anti-injection language appropriate for the model and use case
    - Recommends system prompt confidentiality measures: what can and cannot be protected given model behavior
    - Proposes output validation patterns that catch manipulated outputs before they reach users
 
-5. **Agentic System Injection Risk Assessment**: COCO addresses the elevated risk of tool-using agents:
+5. **Agentic System Injection Risk Assessment**: OpenMax addresses the elevated risk of tool-using agents:
    - Identifies all external data sources that enter the agent's context (emails, documents, web pages, database results)
    - Assesses each external input channel for indirect injection risk
    - Designs sandboxing and input validation requirements for each channel
    - Reviews tool call validation: does the agent validate tool outputs before using them as inputs to subsequent steps?
    - Creates a trust hierarchy for the agentic system: which instructions the agent treats as authoritative at each level
 
-6. **Security Testing and Monitoring Program**: COCO creates ongoing security practices:
+6. **Security Testing and Monitoring Program**: OpenMax creates ongoing security practices:
    - Generates a reproducible injection testing checklist for use at each model update and prompt change
    - Designs automated injection resistance testing as part of the CI/CD pipeline
    - Creates a security monitoring plan for detecting injection attempts in production logs
@@ -2806,7 +2806,7 @@ Output: Testing program specification + automation recommendations + responsible
 
 > Generates a comprehensive, AI-specific pre-launch checklist covering model quality, safety testing, infrastructure readiness, legal review, and stakeholder alignment — ensuring nothing critical is missed before go-live.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: AI Product Launches Fail at a Higher Rate Than Conventional Feature Launches Because Pre-Launch Checklists Are Not Calibrated for AI**
 
@@ -2816,44 +2816,44 @@ The checklist gap is compounded by organizational inexperience. Most product tea
 
 The stakeholder alignment problem creates an additional launch failure mode. AI features require pre-launch buy-in from a wider stakeholder group than conventional features: legal must review AI-generated content risks, security must assess injection vulnerabilities, data privacy must evaluate training data and output logging practices, customer success must be briefed on what the AI can and cannot do so they set correct expectations, and finance must validate cost projections at expected adoption levels. When any of these stakeholders are not adequately prepared before launch, post-launch incidents and remediation cycles damage both the product and the AI PM's credibility.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **AI Quality Readiness Verification**: COCO ensures model quality meets launch standards:
+1. **AI Quality Readiness Verification**: OpenMax ensures model quality meets launch standards:
    - Validates that the evaluation framework has been run on the production-ready model version
    - Confirms hallucination rate, accuracy, and format compliance metrics are above defined launch thresholds
    - Verifies edge case testing coverage: long inputs, unusual languages, adversarial queries
    - Checks that the AI performs adequately across all target user segments and languages
    - Ensures a clear quality baseline exists for post-launch regression comparison
 
-2. **Safety and Compliance Pre-Launch Gate**: COCO verifies safety requirements are met:
+2. **Safety and Compliance Pre-Launch Gate**: OpenMax verifies safety requirements are met:
    - Confirms prompt injection security testing has been completed and critical vulnerabilities remediated
    - Verifies bias testing has been completed for applicable demographic dimensions
    - Validates that the AI refuses harmful requests appropriately across all defined prohibited categories
    - Checks that content moderation or output filtering is in place for consumer-facing products
    - Confirms safety review sign-off from the designated AI governance authority
 
-3. **Infrastructure and Operations Readiness**: COCO checks the technical launch foundation:
+3. **Infrastructure and Operations Readiness**: OpenMax checks the technical launch foundation:
    - Verifies the inference infrastructure can handle the projected peak traffic with acceptable latency
    - Confirms error handling and graceful degradation behavior has been tested under load
    - Validates that the rollback mechanism exists and has been tested: how to revert if the feature must be taken offline
    - Checks that monitoring and alerting is configured for AI quality metrics in production
    - Verifies rate limiting and cost controls are in place to prevent runaway inference costs
 
-4. **Legal, Privacy, and Compliance Sign-Off**: COCO tracks regulatory readiness:
+4. **Legal, Privacy, and Compliance Sign-Off**: OpenMax tracks regulatory readiness:
    - Confirms legal review of AI-generated content liability and disclosures
    - Verifies data privacy assessment for AI output logging and training data practices
    - Validates that user-facing AI disclosures (that the user is interacting with AI) are in place
    - Checks compliance with applicable sector regulations and any required AI governance documentation
    - Confirms third-party IP and licensing review for model and training data use
 
-5. **Stakeholder Preparation and Communication**: COCO ensures organizational readiness:
+5. **Stakeholder Preparation and Communication**: OpenMax ensures organizational readiness:
    - Verifies customer support team has been briefed on AI feature capabilities, limitations, and known issues
    - Confirms sales and marketing materials accurately represent AI capabilities without overclaiming
    - Validates that a user-facing help center document explaining the AI feature exists
    - Checks that the product, engineering, and ML teams have a coordinated on-call plan for launch day
    - Ensures an AI incident response playbook is activated and all stakeholders know their role
 
-6. **Staged Rollout and Monitoring Plan**: COCO designs a safe go-live strategy:
+6. **Staged Rollout and Monitoring Plan**: OpenMax designs a safe go-live strategy:
    - Defines the staged rollout plan: percentage traffic, cohort selection, and go/no-go criteria for each stage
    - Specifies the monitoring dashboard that will be actively watched during rollout
    - Defines the specific metrics and thresholds that would trigger an immediate rollback
@@ -3049,7 +3049,7 @@ Output: Post-launch review template with discussion questions for each section +
 
 > Designs, evaluates, and optimizes Retrieval-Augmented Generation pipelines — from document ingestion strategy to chunking, embedding, retrieval, reranking, and generation — for accuracy and performance.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: RAG Pipelines Are Built Incrementally Without a Coherent Architecture, Creating Compounding Quality Problems**
 
@@ -3059,44 +3059,44 @@ The diagnosis challenge is a major source of AI PM frustration. When a RAG syste
 
 The scalability problem creates a third failure dimension. RAG pipelines that work adequately at a knowledge base of 1,000 documents often degrade significantly at 100,000 documents because the architectural choices made at small scale do not hold at production scale. Recall degrades as the corpus grows and similar-but-not-relevant chunks accumulate. Latency increases as vector search over large indexes requires more infrastructure. The lack of metadata filtering means that queries intended for a specific document subset retrieve noise from the full corpus. These scalability issues are architectural problems that cannot be resolved through parameter tuning alone — they require deliberate architectural choices that should have been made before the knowledge base grew.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Document Ingestion Strategy Design**: COCO optimizes how content enters the pipeline:
+1. **Document Ingestion Strategy Design**: OpenMax optimizes how content enters the pipeline:
    - Recommends document processing strategies by content type: PDFs, HTML, Office docs, structured databases
    - Designs metadata schema for each document type: what attributes enable downstream filtering and retrieval precision
    - Identifies content cleaning requirements: what noise must be removed before indexing
    - Recommends table, image, and structured data handling strategies for multimodal RAG use cases
    - Designs the update and versioning strategy for knowledge base documents
 
-2. **Chunking Strategy Optimization**: COCO designs context-preserving chunk structures:
+2. **Chunking Strategy Optimization**: OpenMax designs context-preserving chunk structures:
    - Recommends chunking strategy by content type: fixed-size, sentence-based, paragraph-based, semantic chunking
    - Designs chunk size based on query type, context window utilization, and retrieval precision tradeoffs
    - Recommends overlap strategy for preserving context at chunk boundaries
    - Designs parent-child chunk architecture for use cases requiring both fine-grained retrieval and broad context
    - Evaluates the impact of different chunking strategies on retrieval accuracy using test queries
 
-3. **Embedding Model Selection and Optimization**: COCO recommends the right embedding approach:
+3. **Embedding Model Selection and Optimization**: OpenMax recommends the right embedding approach:
    - Compares embedding models for the specific domain and language requirements
    - Evaluates embedding model performance on domain-specific retrieval tasks vs. general benchmarks
    - Assesses the tradeoffs between embedding quality and indexing cost/latency
    - Designs a hybrid retrieval strategy: dense embeddings + sparse BM25 retrieval for improved recall
    - Recommends fine-tuned embedding models for specialized domains where general embeddings underperform
 
-4. **Retrieval and Reranking Pipeline Design**: COCO builds a high-precision retrieval system:
+4. **Retrieval and Reranking Pipeline Design**: OpenMax builds a high-precision retrieval system:
    - Designs the retrieval query formulation strategy: raw query vs. query expansion vs. HyDE
    - Recommends metadata filtering to pre-scope retrieval before vector similarity search
    - Designs a reranking layer to improve precision after initial retrieval: cross-encoder rerankers, LLM-based reranking
    - Builds a multi-query retrieval strategy for complex queries that decompose into multiple sub-questions
    - Designs the final context assembly: how to order and present retrieved chunks to the generation model
 
-5. **RAG Evaluation Framework**: COCO creates measurable quality assessment:
+5. **RAG Evaluation Framework**: OpenMax creates measurable quality assessment:
    - Defines RAG-specific evaluation metrics: retrieval recall, retrieval precision, answer faithfulness, answer relevance
    - Builds a RAGAs or similar evaluation pipeline for component-level diagnosis
    - Designs end-to-end evaluation: measuring whether the user's question was answered correctly
    - Creates a golden question set for the specific domain to enable reproducible quality measurement
    - Establishes component-level baselines so future architecture changes can be measured against them
 
-6. **RAG Performance and Cost Optimization**: COCO tunes for production economics:
+6. **RAG Performance and Cost Optimization**: OpenMax tunes for production economics:
    - Analyzes the latency contribution of each pipeline stage and identifies bottlenecks
    - Recommends vector index configuration for the balance of recall, latency, and infrastructure cost
    - Designs a caching layer for common queries to reduce both latency and embedding API cost
@@ -3280,7 +3280,7 @@ Output: Latency optimization roadmap + expected improvement per optimization + i
 
 > Identifies and resolves AI inference latency bottlenecks — streaming, batching, model selection, infrastructure tuning — to meet user experience SLAs without sacrificing output quality.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: AI Feature Latency Is Routinely Underestimated and Inadequately Diagnosed**
 
@@ -3290,44 +3290,44 @@ The diagnosis challenge is compounded by the multi-component nature of AI latenc
 
 The user experience implications of latency are non-linear and use-case-dependent. For a code completion feature, latency above 200ms degrades the experience significantly — developers expect near-instantaneous completions. For a document analysis feature, users are willing to wait 10–15 seconds if the output quality is high and the wait time is clearly communicated. These different latency tolerances require use-case-specific SLAs and optimization strategies. Most teams apply a single latency budget to all AI features without differentiating by interaction type, leading to either over-engineering fast features or under-engineering slow ones.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Latency Decomposition and Component Attribution**: COCO identifies where time is being spent:
+1. **Latency Decomposition and Component Attribution**: OpenMax identifies where time is being spent:
    - Instruments the full request lifecycle to attribute time to each component: client, network, server-side preprocessing, model TTFT, generation, post-processing
    - Identifies the P50/P95/P99 latency at each component level
    - Distinguishes cold-start latency from steady-state latency in serverless deployments
    - Measures geographic latency variation across the user base
    - Produces a latency waterfall diagram identifying the primary bottleneck
 
-2. **Streaming and Progressive Rendering Design**: COCO optimizes perceived latency:
+2. **Streaming and Progressive Rendering Design**: OpenMax optimizes perceived latency:
    - Designs token streaming implementation for features where progressive text display is appropriate
    - Recommends skeleton loading and progressive disclosure patterns that reduce perceived wait time
    - Identifies features where streaming is not appropriate (structured output, function calls) and designs alternatives
    - Optimizes streaming implementation to minimize time-to-first-token as the primary perceived latency metric
    - Designs loading state UX that sets appropriate user expectations during AI generation
 
-3. **Model and Infrastructure Selection for Latency**: COCO matches infrastructure to requirements:
+3. **Model and Infrastructure Selection for Latency**: OpenMax matches infrastructure to requirements:
    - Recommends model selection based on latency budget: which model tiers can hit the target latency under load
    - Evaluates API endpoint options: shared inference vs. dedicated capacity vs. provisioned throughput
    - Assesses on-premise or private cloud inference for latency-sensitive use cases
    - Recommends caching layer design to eliminate repeat computation for common queries
    - Compares inference API providers on P95 latency under the team's expected traffic patterns
 
-4. **Batching and Concurrency Optimization**: COCO designs throughput-efficient architectures:
+4. **Batching and Concurrency Optimization**: OpenMax designs throughput-efficient architectures:
    - Designs optimal batch sizes for use cases where multiple requests can be processed simultaneously
    - Recommends queue management strategies for handling traffic bursts without latency spikes
    - Identifies prefetching opportunities: cases where AI responses can be pre-generated before the user requests them
    - Designs async processing patterns for latency-tolerant features that are currently blocking the user flow
    - Calculates the throughput implications of different concurrency configurations
 
-5. **Prompt Engineering for Latency Reduction**: COCO reduces generation length:
+5. **Prompt Engineering for Latency Reduction**: OpenMax reduces generation length:
    - Identifies excessive output verbosity and designs output length constraints that reduce token generation time
    - Recommends prompt patterns that reduce TTFT without degrading output quality
    - Evaluates whether chain-of-thought reasoning (which increases token generation) is worth the latency cost for each use case
    - Designs two-stage generation patterns: fast skeleton response followed by enriched details
    - Calculates the latency impact of prompt length reduction through compression
 
-6. **SLA Definition and Monitoring Design**: COCO creates a performance management framework:
+6. **SLA Definition and Monitoring Design**: OpenMax creates a performance management framework:
    - Defines use-case-appropriate latency SLAs based on interaction type and user expectation research
    - Designs the monitoring infrastructure for tracking latency SLAs in production
    - Establishes alerting thresholds and escalation paths for latency SLA violations
@@ -3504,7 +3504,7 @@ Output: Latency budget table by step + parallelization design + optimization pri
 
 > Systematically maps competitor AI features, identifies gaps in your product's AI capabilities, and generates a strategic response framework for AI roadmap prioritization.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Competitive AI Feature Tracking Is Ad-Hoc, Reactive, and Chronically Incomplete**
 
@@ -3514,44 +3514,44 @@ The gap analysis challenge is further complicated by the technical opacity of AI
 
 The strategic response problem is where most AI competitive analysis breaks down completely. Teams that do good competitive tracking — monitoring features, testing competitor products, reading technical blog posts — often fail to translate that intelligence into actionable roadmap decisions. The intelligence pile accumulates in a shared document that nobody has time to synthesize. Features that would be high-value responses to competitive gaps are not prioritized because the connection between the competitive insight and the roadmap decision was never explicitly made. AI PMs end up reacting to sales losses and customer defection rather than proactively managing the competitive AI capability gap.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Competitor AI Feature Inventory Construction**: COCO builds a comprehensive competitive map:
+1. **Competitor AI Feature Inventory Construction**: OpenMax builds a comprehensive competitive map:
    - Catalogs all AI-powered features across the defined competitor set with structured metadata
    - Classifies features by AI capability type: generative, classification, retrieval, recommendation, prediction, automation
    - Documents the apparent technical implementation depth: API-level integration vs. fine-tuned vs. proprietary model
    - Tracks feature launch dates to analyze competitor AI development velocity
    - Builds a searchable database of competitor AI features for ongoing reference
 
-2. **Capability Gap Matrix Development**: COCO maps where you are ahead and behind:
+2. **Capability Gap Matrix Development**: OpenMax maps where you are ahead and behind:
    - Maps the product's AI feature set against each competitor's on a shared capability taxonomy
    - Calculates the gap in capability coverage: which AI capabilities do competitors have that the product lacks?
    - Assesses capability depth: even where both products have a feature, who has better quality/performance?
    - Identifies exclusive AI advantages: capabilities the product has that no competitor currently offers
    - Produces a heat map of competitive position across the capability taxonomy
 
-3. **User Impact Assessment of Competitive Gaps**: COCO prioritizes which gaps matter:
+3. **User Impact Assessment of Competitive Gaps**: OpenMax prioritizes which gaps matter:
    - Correlates competitive gaps with the user tasks most frequently performed in the product category
    - Assesses whether identified gaps affect the core value proposition or peripheral use cases
    - Analyzes sales loss data and customer feedback to identify competitive gaps driving defection
    - Estimates the user population affected by each competitive gap
    - Distinguishes competitive parity gaps (must close to remain competitive) from differentiation opportunities
 
-4. **Technical Depth Analysis of Competitor AI Features**: COCO investigates the "how":
+4. **Technical Depth Analysis of Competitor AI Features**: OpenMax investigates the "how":
    - Analyzes public blog posts, job listings, and conference talks to infer competitor AI architecture
    - Tests competitor products systematically to assess AI quality, latency, and behavior
    - Identifies signs of fine-tuned models vs. general API use based on behavioral characteristics
    - Assesses the investment required to replicate a competitor capability: weeks vs. months vs. years
    - Distinguishes quickly-closeable gaps from durable competitive advantages
 
-5. **Strategic Response Framework**: COCO connects intelligence to roadmap decisions:
+5. **Strategic Response Framework**: OpenMax connects intelligence to roadmap decisions:
    - Categorizes each competitive gap by strategic response: close now / close later / concede and differentiate / neutralize through messaging
    - Generates a competitive response roadmap with prioritized gap-closure items
    - Designs a differentiation strategy for gaps the team chooses not to close: how to reframe the product's strengths
    - Creates competitive battle cards for sales and customer success teams
    - Builds a competitive monitoring cadence and reporting structure
 
-6. **Ongoing Competitive Monitoring System**: COCO creates sustained intelligence:
+6. **Ongoing Competitive Monitoring System**: OpenMax creates sustained intelligence:
    - Designs a structured monitoring process: what sources to watch, how frequently, and who synthesizes
    - Creates a competitor AI feature alert system for rapid response to significant capability launches
    - Builds a quarterly competitive review template for AI PM-to-leadership reporting
@@ -3707,7 +3707,7 @@ Output: Quarterly competitive report + recommended actions + competitive monitor
 
 > Designs and implements annotation quality control programs for AI training datasets — inter-annotator agreement measurement, systematic error detection, and guideline refinement to maximize training data value.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Annotation Quality Degrades Silently and Compounds Into Model Performance Problems**
 
@@ -3717,44 +3717,44 @@ The inter-annotator agreement problem is particularly treacherous for complex AI
 
 The guideline inadequacy problem creates a third quality failure mode. Most annotation projects begin with guidelines that are written before the team encounters the full diversity of real data. As annotation proceeds, annotators encounter cases that the guidelines do not unambiguously cover — and without a systematic process for identifying and resolving these gaps, individual annotators develop their own private interpretations that diverge from the team's. The result is a guideline document that covers the easy cases well and the hard cases poorly, creating a dataset where the most important training examples are the least consistently labeled.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Annotation Guideline Design and Stress-Testing**: COCO builds comprehensive annotation specifications:
+1. **Annotation Guideline Design and Stress-Testing**: OpenMax builds comprehensive annotation specifications:
    - Develops detailed task guidelines with explicit decision trees for edge case resolution
    - Generates a guideline stress-test: a set of deliberately ambiguous examples designed to probe guideline gaps
    - Identifies the decision points where annotators are most likely to diverge and adds explicit resolution rules
    - Creates an annotator calibration quiz that measures whether annotators have internalized the guidelines correctly
    - Designs a living guideline update process for incorporating edge case resolutions discovered during annotation
 
-2. **Inter-Annotator Agreement Measurement and Analysis**: COCO quantifies annotation consistency:
+2. **Inter-Annotator Agreement Measurement and Analysis**: OpenMax quantifies annotation consistency:
    - Calculates appropriate agreement statistics for the task type: Cohen's Kappa for binary/categorical, Krippendorff's Alpha for ordinal/continuous, percent agreement for multi-class
    - Distinguishes overall agreement from agreement on the hard examples that matter most for training
    - Identifies systematic annotator biases: annotators who consistently diverge from consensus on specific label categories
    - Analyzes agreement by example difficulty and flags low-agreement examples for adjudication
    - Generates an annotator performance report that distinguishes random error from systematic bias
 
-3. **Quality Control Sampling Strategy**: COCO designs efficient quality monitoring:
+3. **Quality Control Sampling Strategy**: OpenMax designs efficient quality monitoring:
    - Designs a gold standard injection protocol: hidden expert-labeled examples inserted into annotator queues for continuous quality monitoring
    - Calculates the minimum gold standard sample rate needed to detect quality degradation at the required sensitivity
    - Designs stratified sampling to ensure quality monitoring covers all task categories and difficulty levels
    - Recommends a review cadence: daily quality reports for high-stakes projects, weekly for standard projects
    - Creates triggers: what quality metric thresholds require immediate annotator coaching or task suspension
 
-4. **Systematic Error Pattern Detection**: COCO identifies root causes of quality problems:
+4. **Systematic Error Pattern Detection**: OpenMax identifies root causes of quality problems:
    - Analyzes error patterns to distinguish annotation guideline gaps from annotator skill gaps from task complexity issues
    - Identifies specific label categories or example types with consistently low quality
    - Detects annotator fatigue signatures: quality degradation correlated with time-of-day or consecutive task count
    - Finds examples where multiple annotators make the same error, indicating a systematic guideline ambiguity
    - Generates a root cause report with specific remediation recommendations for each error type
 
-5. **Annotation Adjudication Workflow**: COCO manages dispute resolution:
+5. **Annotation Adjudication Workflow**: OpenMax manages dispute resolution:
    - Designs the adjudication process for low-agreement examples: expert review, committee decision, or exclude from training
    - Creates an adjudication interface specification showing annotator labels, disagreement, and context for expert review
    - Prioritizes adjudication queue by impact on model training: examples from high-frequency use cases first
    - Documents adjudication decisions as guideline update material for future annotation tasks
    - Tracks the adjudication backlog and its potential impact on training data availability timelines
 
-6. **Dataset Quality Scorecard and Training Readiness Certification**: COCO gates training on data quality:
+6. **Dataset Quality Scorecard and Training Readiness Certification**: OpenMax gates training on data quality:
    - Produces a dataset quality scorecard covering agreement rates, error rates, coverage, and balance
    - Defines minimum quality thresholds that must be met before the dataset is used for training
    - Certifies training-ready subsets: portions of the dataset that pass quality thresholds even if the full dataset does not
@@ -3925,7 +3925,7 @@ Output: Formal training data readiness certification document with all sections 
 
 > Generates jurisdiction-specific, use-case-specific regulatory compliance checklists for AI products — covering EU AI Act, US sector regulations, data protection laws, and emerging AI legislation.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: AI Regulatory Requirements Are Complex, Jurisdiction-Specific, and Moving Fast**
 
@@ -3935,44 +3935,44 @@ The classification challenge creates the first compliance trap. Many AI PMs assu
 
 The documentation requirement problem creates the second compliance trap. Even when teams understand that their use case has compliance obligations, they frequently underestimate the specificity and burden of the required documentation. The EU AI Act requires technical documentation that covers the system's purpose, the data used, the testing performed, the risk management measures implemented, and the human oversight mechanisms in place — and this documentation must be maintained, updated with each significant change, and available for regulatory inspection. Most teams have not built the workflows and habits needed to maintain documentation of this specificity alongside a fast-moving development cycle. The gap between "we understand the requirements" and "we have compliance-grade documentation" is larger than most AI PMs anticipate.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Use Case Regulatory Classification Engine**: COCO determines what regulations apply:
+1. **Use Case Regulatory Classification Engine**: OpenMax determines what regulations apply:
    - Maps the product's specific use case against EU AI Act prohibited, high-risk, limited-risk, and minimal-risk categories
    - Identifies applicable US federal agency AI guidance by sector and use case
    - Assesses applicability of data protection regulations: GDPR, CCPA, and sector-specific privacy frameworks
    - Determines whether the product qualifies as a General Purpose AI model with additional obligations
    - Produces a regulatory applicability matrix: which regulations apply, at what level, and why
 
-2. **Jurisdiction-Specific Compliance Checklist Generation**: COCO creates actionable compliance requirements:
+2. **Jurisdiction-Specific Compliance Checklist Generation**: OpenMax creates actionable compliance requirements:
    - Generates a checklist for each applicable regulation with specific, actionable items
    - Distinguishes pre-deployment requirements (must be met before launch) from ongoing requirements (must be maintained post-launch)
    - Identifies which compliance items are currently satisfied vs. gaps requiring work
    - Assigns ownership for each checklist item to the appropriate team: engineering, legal, product, operations
    - Estimates the implementation effort for each compliance gap
 
-3. **Technical Documentation Requirements Specification**: COCO identifies required documentation artifacts:
+3. **Technical Documentation Requirements Specification**: OpenMax identifies required documentation artifacts:
    - Specifies the required technical documentation for each applicable regulatory framework
    - Generates templates for each required document: technical documentation, risk management records, accuracy testing reports
    - Identifies which documentation must be publicly disclosed vs. maintained for regulatory inspection only
    - Designs a documentation update process aligned with the product development cycle
    - Creates a documentation governance process: who owns each document, review cycle, version control
 
-4. **Human Oversight and Control Requirements Design**: COCO specifies oversight mechanisms:
+4. **Human Oversight and Control Requirements Design**: OpenMax specifies oversight mechanisms:
    - Identifies which regulatory frameworks require human oversight and at what level of involvement
    - Designs human review workflows appropriate to the specific use case and risk level
    - Specifies audit logging requirements for human oversight activities
    - Addresses the interpretability requirement: what explanation of AI decisions must be available to affected individuals
    - Creates the right-to-contest mechanism design for high-risk use cases affecting individuals
 
-5. **Compliance Timeline and Enforcement Readiness**: COCO maps regulatory effective dates:
+5. **Compliance Timeline and Enforcement Readiness**: OpenMax maps regulatory effective dates:
    - Tracks the enforcement timeline for each applicable regulation: when do requirements become enforceable?
    - Creates a compliance roadmap with milestones tied to regulatory effective dates
    - Identifies provisions requiring immediate attention vs. those with implementation runway
    - Flags provisions that require legal interpretation before implementation can begin
    - Produces a regulatory watch list for provisions still under development or in consultation phase
 
-6. **Enterprise Customer Compliance Support**: COCO prepares for customer compliance inquiries:
+6. **Enterprise Customer Compliance Support**: OpenMax prepares for customer compliance inquiries:
    - Generates standard responses to common AI compliance questionnaires from enterprise procurement
    - Creates a compliance evidence package: what documentation to share with enterprise customers on request
    - Designs a data processing agreement (DPA) addendum covering AI-specific data handling
@@ -4184,7 +4184,7 @@ Output: Complete enterprise compliance package + customization guide for differe
 
 > Turn unstructured customer signals into prioritized product decisions in hours, not weeks.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Drowning in Feedback with No Actionable Signal**
 
@@ -4194,44 +4194,44 @@ The stakes are especially high for AI products because user dissatisfaction ofte
 
 Closing the feedback loop requires cross-functional coordination: support teams triaging tickets, data scientists investigating model behavior, engineers fixing inference pipelines, and PMs synthesizing patterns into roadmap decisions. Without automated aggregation and intelligent routing, the average time from customer complaint to shipped fix for AI-specific issues exceeds 30 days — an eternity in competitive AI product markets where weekly model improvements are the norm.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Multi-Source Feedback Aggregation**: COCO consolidates feedback from all channels into a unified analysis stream:
+1. **Multi-Source Feedback Aggregation**: OpenMax consolidates feedback from all channels into a unified analysis stream:
    - Parses support ticket text to extract AI-specific complaint categories (hallucination, refusal, latency, accuracy)
    - Processes app store review sentiment with version tagging to correlate feedback with specific model releases
    - Analyzes NPS verbatims to separate AI feature complaints from general product dissatisfaction
    - Ingests sales call transcripts to surface objection patterns that block enterprise deals
    - Monitors community forums and social mentions for emerging issue clusters before they reach support volume
 
-2. **AI-Specific Taxonomy Classification**: COCO applies a structured taxonomy purpose-built for AI product feedback:
+2. **AI-Specific Taxonomy Classification**: OpenMax applies a structured taxonomy purpose-built for AI product feedback:
    - Classifies each feedback item across: model quality, prompt sensitivity, output consistency, latency/reliability, and feature scope
    - Distinguishes between user expectation mismatches (UX/communication issues) and genuine model failures requiring engineering intervention
    - Tags feedback by user segment (power users, casual users, enterprise accounts) to weight prioritization correctly
    - Identifies feedback items that signal competitive vulnerability — features where users explicitly mention switching to alternatives
    - Flags safety-adjacent feedback (bias reports, harmful output concerns) for immediate escalation outside normal triage queues
 
-3. **Pattern Detection & Trend Alerting**: COCO identifies emerging issues before they reach critical volume:
+3. **Pattern Detection & Trend Alerting**: OpenMax identifies emerging issues before they reach critical volume:
    - Clusters semantically similar feedback using embedding-based similarity to surface issue families, not just keyword matches
    - Calculates feedback velocity — rate of increase over rolling 7/30-day windows — to detect accelerating problems
    - Correlates feedback spikes with model deployments, prompt changes, and infrastructure events to establish causal links
    - Generates automated alerts when any issue cluster exceeds configurable volume or velocity thresholds
    - Produces weekly trend reports comparing current period against prior periods with statistical significance markers
 
-4. **Prioritization Scoring & Roadmap Integration**: COCO converts raw signals into ranked action items:
+4. **Prioritization Scoring & Roadmap Integration**: OpenMax converts raw signals into ranked action items:
    - Scores each issue cluster on impact (affected user count × account revenue weight × churn risk), urgency (trend velocity), and fixability (estimated engineering complexity)
    - Generates JIRA/Linear-ready tickets with pre-filled descriptions, affected user counts, representative feedback samples, and suggested owner assignments
    - Maps feedback clusters to existing roadmap items to surface conflicts (deprioritized items with growing user demand)
    - Produces a weekly "top 10 feedback actions" ranked list ready for sprint planning input
    - Provides "if we fix this" projections estimating NPS impact and churn reduction based on historical fix-to-satisfaction correlations
 
-5. **Customer Response Template Generation**: COCO drafts personalized responses at scale:
+5. **Customer Response Template Generation**: OpenMax drafts personalized responses at scale:
    - Generates empathetic, technically accurate responses for support tickets categorized by issue type
    - Creates app store response templates that acknowledge AI limitations while reinforcing product value
    - Drafts NPS follow-up outreach for detractors with personalized acknowledgment of their specific complaint
    - Produces internal incident communication drafts for enterprise customers when AI quality issues affect their use cases
    - Writes changelogs and release notes emphasizing fixes that address top-voted feedback items
 
-6. **Closed-Loop Measurement**: COCO tracks whether feedback-driven changes actually resolved issues:
+6. **Closed-Loop Measurement**: OpenMax tracks whether feedback-driven changes actually resolved issues:
    - Monitors post-fix feedback volume for resolved issue clusters to confirm resolution effectiveness
    - Tracks NPS movement among cohorts that submitted specific feedback types after fixes ship
    - Generates "feedback ROI" reports showing which fix investments yielded the highest satisfaction improvement per engineering day
@@ -4427,7 +4427,7 @@ Generate: Resolution effectiveness dashboard + zombie issue alert list + feedbac
 
 > Run statistically rigorous AI model experiments without engineering overhead or deployment risk.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Flying Blind on AI Feature Rollouts**
 
@@ -4437,44 +4437,44 @@ Most teams default to big-bang model deployments or crude percentage-based rollo
 
 The cost of poor AI experimentation rigor compounds over time. Teams that can't run clean experiments can't learn what actually drives model quality improvements for their specific use case and user population. They end up copying general benchmark improvements from model providers without validating whether those improvements hold in their production context, leading to model upgrade decisions driven by marketing rather than evidence.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **AI Experiment Design Framework**: COCO structures AI experiments with appropriate statistical rigor:
+1. **AI Experiment Design Framework**: OpenMax structures AI experiments with appropriate statistical rigor:
    - Defines experiment hypotheses with clear AI-specific success metrics (hallucination rate, task completion rate, output preference score, latency p95/p99)
    - Calculates required sample sizes for statistical significance given expected effect sizes in AI quality metrics
    - Designs stratified randomization to ensure experiment arms have balanced distributions of query types, user segments, and use case complexity
    - Identifies appropriate guardrail metrics — secondary metrics that must not degrade — alongside primary optimization metrics
    - Generates experiment pre-registration documents that prevent p-hacking and metric cherry-picking post-analysis
 
-2. **Experiment Configuration Generation**: COCO produces ready-to-implement experiment specs:
+2. **Experiment Configuration Generation**: OpenMax produces ready-to-implement experiment specs:
    - Writes feature flag configurations for platforms like LaunchDarkly, Split.io, Flagsmith, or custom implementations
    - Generates prompt variant specifications with version tagging, rollout percentages, and targeting rules
    - Creates model routing logic: conditions for serving Model A vs. Model B by user segment, query type, or account tier
    - Designs fallback and circuit-breaker configurations: automatic rollback triggers when guardrail metrics breach thresholds
    - Documents experiment dependencies and interaction effects to prevent confounding between concurrent experiments
 
-3. **AI-Specific Metric Framework Design**: COCO defines measurement approaches suited to AI product quality:
+3. **AI-Specific Metric Framework Design**: OpenMax defines measurement approaches suited to AI product quality:
    - Designs output quality scoring pipelines: LLM-as-judge configurations, human preference capture, task success rate measurement
    - Creates latency instrumentation specs: where to instrument, which percentiles to track, alerting thresholds by query type
    - Defines hallucination detection approaches specific to the product's domain (factual accuracy checks, citation verification, consistency testing)
    - Designs implicit feedback signals: thumbs up/down placement, correction behavior tracking, session abandonment analysis
    - Builds cost-per-query tracking into experiment analysis to surface quality-cost tradeoff data for model selection decisions
 
-4. **Experiment Analysis & Interpretation**: COCO performs statistically sound analysis of experiment results:
+4. **Experiment Analysis & Interpretation**: OpenMax performs statistically sound analysis of experiment results:
    - Runs significance tests appropriate for AI metrics (including handling non-normal distributions common in latency and quality score data)
    - Identifies heterogeneous treatment effects — subpopulations where the treatment performs significantly differently from average
    - Detects novelty effects that inflate short-term metrics and suggests minimum experiment durations to avoid premature conclusions
    - Generates sensitivity analysis showing how conclusions change under different assumptions about metric importance weights
    - Produces experiment result memos with clear ship/no-ship/iterate recommendations and the reasoning chain
 
-5. **Multi-Armed Bandit & Adaptive Rollout Planning**: COCO designs dynamic allocation strategies:
+5. **Multi-Armed Bandit & Adaptive Rollout Planning**: OpenMax designs dynamic allocation strategies:
    - Configures Thompson Sampling or UCB-based bandit algorithms for continuous optimization when rigid A/B is inefficient
    - Designs staged rollout gates: automated criteria that must be met before advancing from 1% → 5% → 20% → 100% rollout
    - Creates canary deployment specs for infrastructure changes accompanying model upgrades
    - Designs user-segment-specific rollout sequences: enterprise customers last, power users first, with different success criteria per stage
    - Generates rollback runbooks: step-by-step procedures for different rollback scenarios with ownership assignments
 
-6. **Experiment Portfolio Management**: COCO tracks and coordinates the full experiment program:
+6. **Experiment Portfolio Management**: OpenMax tracks and coordinates the full experiment program:
    - Maintains an experiment registry documenting all running, planned, and completed experiments with interaction analysis
    - Identifies experiment conflicts: concurrent tests on overlapping user populations that could confound results
    - Prioritizes experiment queue based on strategic importance, expected learning value, and resource requirements
@@ -4680,7 +4680,7 @@ Output: Experiment portfolio plan + calendar view + learning roadmap narrative
 
 > Catch AI quality regressions before users do — with automated monitoring built for model behavior.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Silent Model Degradation Destroys User Trust**
 
@@ -4690,44 +4690,44 @@ Model drift occurs from multiple sources simultaneously: input distribution shif
 
 The organizational consequence is that AI product managers operate on faith rather than evidence. They assume the product is performing at launch-day quality unless users complain. Competitors who implement systematic drift detection catch issues 10–20x faster, ship improvements with confidence, and build user trust through demonstrably consistent quality — a compounding advantage that is extremely hard to close once established.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Drift Detection Framework Design**: COCO designs comprehensive monitoring architectures:
+1. **Drift Detection Framework Design**: OpenMax designs comprehensive monitoring architectures:
    - Defines statistical process control (SPC) approaches for tracking AI quality metrics with appropriate control chart types for each metric distribution
    - Designs population stability index (PSI) calculations to detect input distribution shift in query embeddings over time
    - Creates reference dataset selection criteria: which production samples become the "golden set" for ongoing comparison
    - Specifies monitoring frequency by metric type: real-time for latency and error rates, daily for quality scores, weekly for distribution-level metrics
    - Documents model versioning and change log requirements to correlate performance changes with deployment events
 
-2. **Quality Metric Monitoring Specifications**: COCO creates measurable quality signal frameworks:
+2. **Quality Metric Monitoring Specifications**: OpenMax creates measurable quality signal frameworks:
    - Designs LLM-as-judge monitoring pipelines: prompt templates for automated quality assessment, calibration against human judgments, confidence thresholds
    - Specifies hallucination detection probes: curated query sets with known correct answers run daily to measure factual accuracy over time
    - Creates output consistency metrics: same-query-different-day consistency rates to detect model update-induced output shifts
    - Defines task completion rate measurement for structured AI tasks (form filling, code generation, data extraction) where success is measurable
    - Designs retrieval quality monitoring for RAG systems: hit rate, MRR, context relevance scores tracked against baseline
 
-3. **Alert Triage & Escalation Protocols**: COCO designs response workflows for detected drift:
+3. **Alert Triage & Escalation Protocols**: OpenMax designs response workflows for detected drift:
    - Creates alert severity tiers with specific thresholds: P0 (immediate engineering page), P1 (same-day investigation), P2 (next sprint analysis)
    - Designs initial investigation checklists: first 5 diagnostic steps an on-call engineer should take for each alert type
    - Generates root cause hypothesis frameworks: input drift vs. model update vs. prompt degradation vs. infrastructure change — decision tree for diagnosis
    - Produces rollback decision criteria: specific conditions under which immediate rollback is the correct response vs. investigation-first
    - Creates post-incident review templates that capture drift detection learnings for monitoring system improvement
 
-4. **Automated Regression Test Suite Design**: COCO builds systematic quality gates:
+4. **Automated Regression Test Suite Design**: OpenMax builds systematic quality gates:
    - Curates regression test case sets from historical feedback: real queries that previously caused quality issues, serving as permanent canaries
    - Designs evaluation rubrics for each test case that can be scored automatically (LLM-as-judge) with human calibration scores for reference
    - Creates pre-deployment quality gates: minimum scores required on regression suite before any model change can proceed to production
    - Specifies A/B holdout monitoring: maintaining a small traffic percentage on the previous model version as a live quality baseline
    - Generates monthly regression suite refresh protocols to ensure test cases remain representative of current query distribution
 
-5. **Input Distribution Shift Analysis**: COCO tracks changes in what users are actually asking:
+5. **Input Distribution Shift Analysis**: OpenMax tracks changes in what users are actually asking:
    - Designs query clustering pipelines to segment queries by topic, complexity, and intent — enabling segment-level drift detection
    - Creates temporal query distribution analysis: tracking how the mix of query types shifts weekly and monthly
    - Identifies emerging query patterns not well-represented in training data — early warning for capability gaps
    - Designs novelty score monitoring: flagging individual queries that are far from the training distribution for human review
    - Produces quarterly "what our users are actually asking" reports comparing current distribution to launch-day distribution
 
-6. **Model Provider Change Detection**: COCO monitors for silent upstream changes:
+6. **Model Provider Change Detection**: OpenMax monitors for silent upstream changes:
    - Designs API fingerprinting approaches to detect silent model updates from providers (output style shifts, capability changes, refusal pattern changes)
    - Creates weekly consistency probes: identical prompts run repeatedly to detect provider-side changes through output distribution shifts
    - Specifies benchmark probe sets: regularly run queries against known baselines to detect capability changes before they affect production users
@@ -4934,7 +4934,7 @@ Output: Complete post-mortem document ready for engineering all-hands + action i
 
 > Automatically score, filter, and route LLM outputs to deliver consistently high-quality responses at scale.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Inconsistent Output Quality Undermines Enterprise Adoption**
 
@@ -4944,44 +4944,44 @@ LLM outputs are fundamentally probabilistic, and raw model outputs — even from
 
 The competitive moat for AI products increasingly lies not in the underlying model — which is available to all competitors — but in the quality assurance layer on top. Companies that implement systematic output scoring and routing can offer enterprise SLAs on AI quality, enabling sales cycles and contract terms that competitors using raw model outputs cannot match. Yet most AI product teams treat output quality as the model provider's problem rather than a product engineering challenge they own.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Output Quality Scoring Framework Design**: COCO creates multi-dimensional quality assessment systems:
+1. **Output Quality Scoring Framework Design**: OpenMax creates multi-dimensional quality assessment systems:
    - Defines quality dimensions specific to the product's use case (factual accuracy, completeness, relevance, tone, format compliance, safety)
    - Designs scoring rubrics for each dimension with concrete criteria distinguishing score levels (1–5 or pass/fail as appropriate)
    - Creates composite quality score formulas with dimension weights calibrated to user satisfaction outcomes
    - Specifies minimum acceptable quality thresholds by query type and user segment (enterprise vs. consumer, high-stakes vs. exploratory)
    - Designs confidence-calibrated scoring: distinguishing high-confidence scores from uncertain assessments that require human validation
 
-2. **Automated Scoring Pipeline Architecture**: COCO designs scalable quality evaluation systems:
+2. **Automated Scoring Pipeline Architecture**: OpenMax designs scalable quality evaluation systems:
    - Architects LLM-as-judge pipelines with appropriate judge model selection (GPT-4o for general quality, domain-specific models for specialized content)
    - Designs retrieval-augmented verification for factual claims: cross-referencing outputs against knowledge bases or web search
    - Creates rule-based quality filters for structural requirements (format compliance, length constraints, required elements)
    - Designs embedding-based quality signals: output-to-context similarity scores for RAG systems, output-to-instruction alignment scores
    - Specifies scoring latency budgets and optimization strategies for real-time scoring vs. asynchronous evaluation
 
-3. **Intelligent Output Routing Logic**: COCO designs decision systems that act on quality scores:
+3. **Intelligent Output Routing Logic**: OpenMax designs decision systems that act on quality scores:
    - Creates routing decision trees: high-quality outputs → direct delivery; borderline outputs → human review queue; low-quality → regeneration
    - Designs regeneration strategies for low-quality outputs: alternative prompt formulations, different model selection, reduced temperature
    - Specifies escalation to human expert review for specific query categories or score combinations
    - Creates fallback response strategies: what to serve users when all generation attempts fall below quality threshold
    - Designs graceful degradation: serving lower-capability but higher-reliability responses rather than low-quality high-capability attempts
 
-4. **Quality Threshold Calibration**: COCO aligns quality thresholds with business outcomes:
+4. **Quality Threshold Calibration**: OpenMax aligns quality thresholds with business outcomes:
    - Analyzes correlation between quality scores and user satisfaction signals (thumbs up/down, task completion, session continuation)
    - Runs threshold calibration experiments to find the score cutoff that maximizes quality-delivery rate product
    - Designs segment-specific thresholds: higher quality bars for enterprise accounts, regulated use cases, or high-stakes decisions
    - Creates cost-quality optimization models: finds threshold settings that achieve quality targets at minimum inference cost
    - Generates threshold review protocols: quarterly recalibration as user base, query distribution, and model capabilities evolve
 
-5. **Multi-Model Routing for Quality Optimization**: COCO designs model selection systems:
+5. **Multi-Model Routing for Quality Optimization**: OpenMax designs model selection systems:
    - Creates query complexity classifiers that route simple queries to smaller, cheaper models and complex queries to frontier models
    - Designs quality-driven model selection: use faster/cheaper model first, escalate to more capable model if quality threshold not met
    - Specifies domain-specific model routing: specialized models for code, legal, medical content where they outperform general models
    - Creates latency-quality tradeoff profiles: different model routing configurations optimized for different latency budgets
    - Designs ensemble approaches for high-stakes outputs: multiple model generations with quality-based selection or synthesis
 
-6. **Quality Reporting & Continuous Improvement**: COCO connects quality scoring to improvement cycles:
+6. **Quality Reporting & Continuous Improvement**: OpenMax connects quality scoring to improvement cycles:
    - Designs quality dashboards showing score distributions by query type, user segment, time period, and model version
    - Creates quality regression detection: alerting when score distributions shift indicating model or data quality issues
    - Generates low-quality output review queues for human annotation, feeding labeled data back into fine-tuning pipelines
@@ -5206,7 +5206,7 @@ Output: Multi-model routing specification + model assignment matrix + cost-quali
 
 > Define, instrument, and visualize the metrics that actually matter for AI product health and growth.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Measuring AI Products with Traditional SaaS Metrics Misses What Matters**
 
@@ -5216,44 +5216,44 @@ The AI product measurement gap creates blind spots that lead to catastrophically
 
 Meanwhile, AI-specific operational metrics — hallucination rates, inference costs, latency percentiles, context utilization — sit in engineering dashboards disconnected from product health metrics. This organizational separation means product decisions are made without understanding operational constraints, and engineering decisions are made without understanding product impact. The AI product manager's job is to bridge this gap, but without a unified metrics framework, the bridging never happens systematically.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **AI Product Metrics Framework Design**: COCO builds comprehensive measurement architectures:
+1. **AI Product Metrics Framework Design**: OpenMax builds comprehensive measurement architectures:
    - Defines the AI product metric stack: business outcomes → product engagement → AI quality → operational efficiency, with causal links between layers
    - Designs AI-specific engagement metrics: task completion rate, AI-assisted vs. unassisted action ratios, regeneration rates, prompt iteration counts
    - Creates value realization metrics: time-to-first-value, successful task completion within session, user-reported outcome achievement
    - Specifies AI adoption quality metrics: distinguishing curious explorers from committed users based on behavior patterns, not just login frequency
    - Designs retention prediction metrics: leading indicators of churn specific to AI products (declining task success rates, increasing regeneration rates)
 
-2. **Instrumentation Specification**: COCO defines exactly what to track and how:
+2. **Instrumentation Specification**: OpenMax defines exactly what to track and how:
    - Writes event tracking specifications for all user interactions with AI features: query submitted, output received, output accepted/rejected, regeneration triggered, feedback given
    - Designs AI output tracking schema: what metadata to log with every LLM call (model version, latency, token count, quality score, routing path)
    - Creates user journey instrumentation: tracking the full sequence of interactions within and across sessions to understand AI usage patterns
    - Specifies identifier strategies: linking user events to AI calls to quality scores to business outcomes in a unified data model
    - Designs data sampling strategies for high-volume products where logging every event at full fidelity is cost-prohibitive
 
-3. **Dashboard Architecture & Design**: COCO creates actionable visualization specifications:
+3. **Dashboard Architecture & Design**: OpenMax creates actionable visualization specifications:
    - Designs audience-specific dashboard layers: executive (business outcomes), PM (product health), ML engineer (model quality), operations (system reliability)
    - Creates AI product health scorecards: single-page views combining the 8–12 most important metrics with traffic-light status indicators
    - Specifies time series views for trend analysis: daily/weekly/monthly with comparison periods and anomaly highlighting
    - Designs cohort analysis views: tracking how different user acquisition cohorts adopt and retain around AI features
    - Creates drill-down structures: from summary metrics to segment breakdowns to individual session investigation
 
-4. **North Star Metric Definition**: COCO facilitates alignment on the single most important metric:
+4. **North Star Metric Definition**: OpenMax facilitates alignment on the single most important metric:
    - Guides north star selection using the test: does maximizing this metric require delivering genuine AI value to users?
    - Designs north star decomposition trees: showing which sub-metrics drive the north star, enabling teams to identify highest-leverage interventions
    - Creates north star tracking dashboards with weekly team visibility and goal-setting frameworks
    - Defines north star guard metrics: metrics that must not be sacrificed in pursuit of north star improvement
    - Generates north star communication packages for aligning cross-functional teams on the shared success definition
 
-5. **AI Cost & Efficiency Metrics Integration**: COCO connects quality and cost in unified views:
+5. **AI Cost & Efficiency Metrics Integration**: OpenMax connects quality and cost in unified views:
    - Designs cost-per-successful-task metrics: combining inference cost with task success rate to measure AI efficiency
    - Creates unit economics dashboards: LTV per user segment vs. inference cost per user segment, with margin analysis
    - Specifies token efficiency metrics: tracking context utilization, prompt length optimization opportunities, caching hit rates
    - Designs cost attribution models: allocating inference costs to product areas, user segments, and feature categories
    - Produces cost forecast models: projecting infrastructure costs at different growth scenarios for capacity planning
 
-6. **Metric Governance & Review Cadence**: COCO establishes the operational rhythm around metrics:
+6. **Metric Governance & Review Cadence**: OpenMax establishes the operational rhythm around metrics:
    - Designs weekly metric review processes: what metrics to review, with whom, with what decision authority
    - Creates metric definition documentation: single source of truth for how every metric is calculated, preventing definitional disputes
    - Specifies metric ownership: who is accountable for each metric and who has authority to change targets
@@ -5490,7 +5490,7 @@ Output: Complete weekly review system — pre-read template + meeting agenda + d
 
 > Transform ambiguous AI feature requests into precise, engineering-ready specifications that prevent scope creep and costly rework.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: AI Features Die in the Gap Between Vision and Specification**
 
@@ -5500,44 +5500,44 @@ The specification challenge for AI features is harder than for traditional softw
 
 The cross-functional coordination burden amplifies these problems. AI features require aligned input from product (what user problem to solve), design (how outputs are presented), engineering (what's technically feasible), data science (what models and data are required), legal/compliance (what AI governance requirements apply), and customer success (what quality bar enterprise accounts require). Without a structured specification process, each function fills the gaps with their own assumptions, and the resulting product reflects six different products rather than one.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **AI Feature Requirements Template Generation**: COCO creates structured specification frameworks:
+1. **AI Feature Requirements Template Generation**: OpenMax creates structured specification frameworks:
    - Generates AI-specific PRD templates that capture model selection rationale, data requirements, quality metrics, failure mode handling, and governance requirements alongside traditional user stories
    - Designs acceptance criteria frameworks for AI features: instead of binary pass/fail, defines quality distributions that constitute acceptance (e.g., "≥85% of outputs score ≥4/5 on relevance rubric in UAT")
    - Creates edge case specification matrices: systematically identifying and documenting behavior requirements for inputs the AI will struggle with
    - Produces technical feasibility assessment templates: structured evaluation of build vs. buy vs. integrate vs. fine-tune decisions
    - Designs data requirement specifications: training data, evaluation data, reference data, and ongoing production data requirements
 
-2. **Stakeholder Input Synthesis**: COCO consolidates cross-functional perspectives:
+2. **Stakeholder Input Synthesis**: OpenMax consolidates cross-functional perspectives:
    - Generates structured stakeholder interview guides for AI feature requirements gathering: different question sets for business, engineering, design, legal, and customer-facing teams
    - Creates requirement conflict detection frameworks: identifying where stakeholder requirements contradict each other and need resolution
    - Produces priority negotiation frameworks: facilitating structured trade-off discussions between stakeholder groups with competing requirements
    - Designs requirements traceability matrices: mapping each requirement back to business objective and user need, preventing scope creep
    - Generates sign-off documentation: clear statements of what each stakeholder has agreed to, reducing retrospective disputes
 
-3. **AI-Specific Technical Specification Components**: COCO drafts engineering-ready specifications:
+3. **AI-Specific Technical Specification Components**: OpenMax drafts engineering-ready specifications:
    - Writes model interface specifications: input/output schemas, token limits, latency budgets, error handling requirements
    - Creates prompt engineering specifications: initial prompt structures, system prompt requirements, guardrail specifications
    - Designs evaluation harness specifications: what test cases and metrics will be used to evaluate the AI component before launch
    - Produces human-in-the-loop design specifications: where human review is required, what the review interface must support, SLA requirements
    - Writes fallback behavior specifications: exactly what happens at each failure mode — model timeout, quality threshold breach, safety filter trigger
 
-4. **Data Requirements Documentation**: COCO specifies the data foundation:
+4. **Data Requirements Documentation**: OpenMax specifies the data foundation:
    - Writes training data requirement specifications: volume, quality, diversity, annotation requirements, data collection timeline
    - Creates evaluation dataset specifications: holdout sets, adversarial test cases, domain-specific evaluation suites
    - Designs data pipeline requirements: ingestion, preprocessing, versioning, and refresh cadence requirements
    - Produces data governance documentation: data lineage, consent requirements, retention policies, deletion handling
    - Generates data quality assessment frameworks: how incoming data will be validated before use in training or retrieval
 
-5. **AI Governance & Compliance Specification**: COCO embeds responsible AI requirements:
+5. **AI Governance & Compliance Specification**: OpenMax embeds responsible AI requirements:
    - Creates bias testing specification: which demographic groups to test, what fairness metrics to measure, acceptable disparate impact thresholds
    - Writes transparency and explainability requirements: what explanations users can request, what the system must be able to provide
    - Designs human oversight specifications: which AI decisions require human review, what override capabilities must exist
    - Produces AI incident response specifications: what constitutes a reportable AI incident, notification requirements, remediation procedures
    - Generates model card requirements: what documentation must be produced and maintained for each AI component
 
-6. **Launch Readiness Specification**: COCO defines the criteria for go-live:
+6. **Launch Readiness Specification**: OpenMax defines the criteria for go-live:
    - Creates AI-specific launch readiness checklists covering model quality, safety, monitoring, rollback, and compliance
    - Writes phased rollout specifications: quality gates for each stage with precise metric thresholds and decision authority
    - Designs post-launch monitoring specifications: what to watch, for how long, at what frequency, with what alert thresholds
@@ -5824,7 +5824,7 @@ Output: AI governance requirements specification + compliance evidence checklist
 
 > Extract actionable product insights from beta user chaos — fast enough to act before launch.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Beta Feedback Floods In Faster Than Teams Can Process It**
 
@@ -5834,44 +5834,44 @@ The AI product beta feedback challenge is qualitatively different from tradition
 
 The consequence is that beta feedback drives cosmetic launch changes — UI polish, copy tweaks, documentation improvements — while fundamental model quality issues that beta users clearly identified get missed or deprioritized because they didn't emerge legibly from the feedback chaos. Products launch with known AI quality problems that beta users predicted, ship regression bugs introduced during the final sprint to address minor beta feedback, and miss the 20% of beta insights that could have driven a 10x improvement in launch-day user satisfaction.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Multi-Format Feedback Ingestion & Normalization**: COCO processes heterogeneous beta feedback:
+1. **Multi-Format Feedback Ingestion & Normalization**: OpenMax processes heterogeneous beta feedback:
    - Extracts key feedback themes from unstructured text sources: Discord logs, email threads, Slack channels, forum posts
    - Synthesizes survey response patterns across structured and open-ended questions from multiple survey tools
    - Processes verbal feedback transcripts (from interviews or recorded sessions) into structured insight summaries
    - Normalizes feedback across sources into a common taxonomy for cross-source analysis
    - Deduplicates overlapping feedback from the same user across multiple channels
 
-2. **AI-Specific Feedback Classification**: COCO applies domain expertise to feedback analysis:
+2. **AI-Specific Feedback Classification**: OpenMax applies domain expertise to feedback analysis:
    - Distinguishes model quality issues from UX/prompting issues — the most critical classification for AI product beta feedback
    - Identifies "user education solvable" issues vs. "product must change" issues to prevent UX fixes being applied to genuine model problems
    - Classifies feedback by AI product component: retrieval quality, generation quality, prompt handling, output formatting, latency perception
    - Tags feedback items with severity: launch blocker, important-but-not-blocking, nice-to-have, future roadmap
    - Identifies feedback that reveals user mental models diverging from actual AI capabilities — flagging education and onboarding gaps
 
-3. **Pattern Synthesis & Theme Extraction**: COCO surfaces the signal from the noise:
+3. **Pattern Synthesis & Theme Extraction**: OpenMax surfaces the signal from the noise:
    - Clusters feedback into coherent themes using semantic similarity, not just keyword matching
    - Calculates theme frequency and user count to identify breadth of impact vs. vocal minority
    - Identifies co-occurring issues: feedback themes that consistently appear together indicating a shared root cause
    - Tracks feedback sentiment trajectory: is sentiment improving or degrading through the beta period as users get familiar with the product
    - Produces a "beta user journey" synthesis: what do users love on day 1, what frustrations emerge by day 7, what power users discover by day 30
 
-4. **Representative Feedback Curation**: COCO selects the most useful feedback for team consumption:
+4. **Representative Feedback Curation**: OpenMax selects the most useful feedback for team consumption:
    - Selects 3–5 representative verbatim quotes per theme that best illustrate the issue to engineering and design audiences
    - Curates "golden feedback" examples: feedback that clearly articulates a model quality failure with enough context to reproduce it
    - Identifies the most valuable beta users: those whose feedback disproportionately represents patterns across the broader user base
    - Flags feedback that provides novel insight not captured by any other feedback item — potentially the most valuable single pieces of feedback
    - Generates follow-up question lists for re-engaging specific beta users who provided high-value but incomplete feedback
 
-5. **Launch Decision Support**: COCO translates beta insights into go/no-go intelligence:
+5. **Launch Decision Support**: OpenMax translates beta insights into go/no-go intelligence:
    - Generates launch blocker analysis: which feedback items, if not addressed, are likely to cause significant launch-day problems
    - Produces "if we launch with these issues" impact projections based on beta sentiment and issue prevalence
    - Creates prioritized fix list: issues ranked by launch impact (severity × user count × fixability)
    - Designs "beta-to-GA improvement narrative": the story of how the product improved during beta, for use in launch communications
    - Produces post-beta research agenda: questions that beta didn't fully answer that should be addressed in the first 30 days post-launch
 
-6. **Beta-to-Roadmap Intelligence**: COCO connects beta insights to long-term product direction:
+6. **Beta-to-Roadmap Intelligence**: OpenMax connects beta insights to long-term product direction:
    - Identifies capabilities beta users clearly wanted that aren't on the current roadmap
    - Surfaces use cases beta users discovered that weren't anticipated in product design — potential expansion opportunities
    - Maps beta power user behaviors to feature investment priorities — what do the best users do that makes the product worth building for them?
@@ -6111,7 +6111,7 @@ Output: Roadmap intelligence report with specific recommendations + supporting e
 
 > Systematically dissect competitor AI products to surface capability gaps, positioning opportunities, and strategic vulnerabilities.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: AI Competitive Intelligence Is Hard and Moves at Model Speed**
 
@@ -6121,44 +6121,44 @@ Most AI product teams lack systematic processes for ongoing competitive intellig
 
 The evaluation challenge is also technically demanding. Assessing LLM output quality requires domain expertise, structured evaluation rubrics, and sufficient sample size to distinguish genuine quality differences from output variance. Most product teams don't have the evaluation infrastructure to run systematic side-by-side comparisons, and the ones that do often measure the wrong things — benchmark performance that doesn't correlate with actual user task completion in the specific domain.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Competitor Feature Mapping & Capability Assessment**: COCO structures systematic competitive analysis:
+1. **Competitor Feature Mapping & Capability Assessment**: OpenMax structures systematic competitive analysis:
    - Generates feature comparison matrices across product capabilities, AI modalities, integrations, pricing, and positioning
    - Creates capability benchmark frameworks: standardized evaluation tasks that can be run against multiple products for reproducible comparison
    - Designs "secret shopper" evaluation protocols for AI products: scripted interaction sequences that reveal AI capability levels without triggering anti-scraping protections
    - Produces technical architecture inference: deducing likely model choices, RAG approaches, and safety implementations from observable product behavior
    - Generates competitive timeline reconstructions: documenting when capabilities appeared to understand competitor development velocity
 
-2. **AI Quality Benchmarking Design**: COCO creates rigorous comparative evaluation frameworks:
+2. **AI Quality Benchmarking Design**: OpenMax creates rigorous comparative evaluation frameworks:
    - Designs domain-specific benchmark suites: task sets representative of actual user workflows in the competitive space
    - Creates evaluation rubrics for side-by-side quality comparison: dimension-by-dimension scoring with concrete criteria
    - Specifies sample sizes and diversity requirements for statistically meaningful quality comparisons
    - Designs adversarial probe sets: queries designed to reveal model quality differences, failure modes, and safety guardrails
    - Produces benchmark result analysis frameworks: how to interpret quality differences and translate them to user experience implications
 
-3. **Positioning Gap Analysis**: COCO identifies strategic opportunities:
+3. **Positioning Gap Analysis**: OpenMax identifies strategic opportunities:
    - Analyzes competitor messaging against actual product capabilities — identifying overclaims that create user expectation gaps
    - Maps customer complaint themes from public reviews against competitor capability gaps — where to compete
    - Identifies "white space" capabilities absent from all competitors that represent differentiation opportunities
    - Analyzes competitor target market signals: who they're winning with and who they're losing to, based on customer case studies and reviews
    - Generates positioning differentiation frameworks: where to credibly claim superiority and how to articulate it
 
-4. **Competitor Strategy Inference**: COCO synthesizes intelligence into strategic models:
+4. **Competitor Strategy Inference**: OpenMax synthesizes intelligence into strategic models:
    - Infers competitor AI investment priorities from product development trajectory and feature sequencing
    - Analyzes competitor partnership and integration announcements for strategic direction signals
    - Identifies likely competitor roadmap directions from job postings, research publications, and conference presentations
    - Produces "competitive threat scenarios": the 3–5 most impactful things a competitor could do in the next 6 months and mitigation strategies
    - Generates "competitive moat assessment": which product advantages are durable vs. easily copied by a capable competitor
 
-5. **Win/Loss Analysis Integration**: COCO connects competitive intelligence to sales outcomes:
+5. **Win/Loss Analysis Integration**: OpenMax connects competitive intelligence to sales outcomes:
    - Designs structured win/loss interview frameworks for deals where AI capability was a deciding factor
    - Creates competitive loss pattern analysis: identifying the specific AI capability gaps that most often cause competitive losses
    - Produces "battle card" content: concise, accurate competitive comparison content for sales and customer success teams
    - Designs competitive objection response frameworks: how to address common competitor comparisons in sales conversations
    - Generates "proof point" requirements: what evidence (benchmarks, case studies, demos) would most effectively address competitive disadvantages
 
-6. **Ongoing Competitive Monitoring System**: COCO designs continuous intelligence programs:
+6. **Ongoing Competitive Monitoring System**: OpenMax designs continuous intelligence programs:
    - Creates competitor change detection protocols: what to watch and how frequently for capability changes
    - Designs competitive alert triggers: events that should immediately trigger a competitive reassessment
    - Produces quarterly competitive landscape reports with standardized structure for leadership consumption
@@ -6419,7 +6419,7 @@ Output: 5 competitive threat scenarios + strategic priorities matrix + monitorin
 
 > Design AI product pricing that captures maximum value while driving adoption, retention, and sustainable unit economics.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: AI Products Face Pricing Challenges That Standard SaaS Models Cannot Handle**
 
@@ -6429,44 +6429,44 @@ The compounding problem is that AI product managers often don't have enough sign
 
 The enterprise pricing complexity layer makes this worse. Enterprise buyers expect volume discounts, committed use discounts, custom terms, and ROI guarantees. They also require pricing transparency for procurement — they need to understand what they're buying, at what cost, with what controls. AI product pricing that works beautifully for self-serve consumers often fails entirely in enterprise contexts because it lacks the predictability, governance, and value demonstration that enterprise procurement requires.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Pricing Model Architecture Design**: COCO evaluates and designs pricing structures:
+1. **Pricing Model Architecture Design**: OpenMax evaluates and designs pricing structures:
    - Analyzes trade-offs across pricing models: flat-rate subscription, usage-based, seat-based, outcome-based, and hybrid approaches for AI products specifically
    - Models the unit economics of each pricing model under different user behavior scenarios (light users, average users, power users)
    - Designs hybrid pricing structures that combine predictable subscription floors with usage caps or metered overages
    - Creates pricing tier architecture: defining the dimension of good, better, best differentiation appropriate for AI product features
    - Produces pricing model decision frameworks: structured criteria for selecting the right pricing architecture for specific market segments and product maturity stages
 
-2. **AI-Specific Value Metric Identification**: COCO identifies the right pricing unit:
+2. **AI-Specific Value Metric Identification**: OpenMax identifies the right pricing unit:
    - Evaluates candidate value metrics (per query, per user, per document processed, per outcome achieved, per time saved) against alignment with customer value, ease of measurement, and pricing tractability
    - Designs value metric research: structured approaches for discovering which metric customers intuitively associate with value delivery
    - Creates value metric sensitivity analysis: how pricing changes with different usage patterns under each metric choice
    - Produces value metric evolution roadmaps: how the pricing unit might shift as the product matures and value delivery becomes more measurable
    - Designs anti-gaming protections: preventing customers from gaming pricing metrics in ways that destroy unit economics
 
-3. **Inference Cost Modeling & Margin Analysis**: COCO builds financial models for pricing decisions:
+3. **Inference Cost Modeling & Margin Analysis**: OpenMax builds financial models for pricing decisions:
    - Creates cost-per-unit models incorporating model API costs, infrastructure overhead, and support cost allocation
    - Designs contribution margin analysis by customer segment and usage pattern
    - Models the impact of model improvements on unit economics: how cost reductions from optimization or cheaper model options affect pricing strategy
    - Produces pricing floor calculations: minimum prices required to achieve target margins at each customer segment's expected usage
    - Generates scenario models: how unit economics evolve at 10x, 100x current scale under different pricing structures
 
-4. **Willingness-to-Pay Research Design**: COCO structures pricing research:
+4. **Willingness-to-Pay Research Design**: OpenMax structures pricing research:
    - Designs Van Westendorp Price Sensitivity Meter studies adapted for AI product pricing research
    - Creates conjoint analysis frameworks for AI product feature/price trade-off research
    - Generates customer interview guides for pricing discovery: extracting willingness-to-pay signal without leading questions
    - Designs competitive price anchoring research: how customers calibrate value perception against alternatives
    - Produces pricing experiment designs: how to test pricing changes with existing customers without destroying trust
 
-5. **Enterprise Pricing & Packaging Design**: COCO creates enterprise-grade pricing structures:
+5. **Enterprise Pricing & Packaging Design**: OpenMax creates enterprise-grade pricing structures:
    - Designs enterprise pricing tiers with the right dimensions: committed use discounts, volume bands, feature access levels, SLA tiers
    - Creates enterprise pricing calculators: tools for sales teams to quickly generate accurate, defensible quotes
    - Designs consumption governance features: spending caps, admin controls, budget alerts that enterprise procurement requires
    - Produces ROI model templates: frameworks for quantifying AI product value to justify enterprise pricing to CFO-level buyers
    - Generates enterprise pricing playbooks: negotiation guidance, discount approval thresholds, custom terms parameters
 
-6. **Pricing Change Management**: COCO manages pricing evolution:
+6. **Pricing Change Management**: OpenMax manages pricing evolution:
    - Designs grandfathering strategies for existing customers when pricing changes
    - Creates customer communication frameworks for price increases: sequencing, messaging, and objection handling
    - Designs price increase experiment protocols: how to test pricing changes without burning customer trust
@@ -6744,7 +6744,7 @@ Output: Price increase strategy document + communication sequence + message draf
 
 > Systematically probe your AI product for safety vulnerabilities before adversarial users find them in production.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Reactive Safety Fails — Adversarial Users Move Faster Than Post-Hoc Fixes**
 
@@ -6754,44 +6754,44 @@ The red-teaming gap is a resource and expertise problem. Thorough AI safety red-
 
 The regulatory environment makes this increasingly costly. The EU AI Act mandates conformity assessments including adversarial testing for high-risk AI systems. US executive orders on AI safety increasingly expect organizations deploying AI to demonstrate systematic safety evaluation. And enterprise buyers conducting security reviews now routinely ask for red-team reports as part of due diligence. A product team that hasn't conducted systematic red-teaming cannot answer these questions, risking both regulatory exposure and enterprise deal loss.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Threat Model Development**: COCO creates structured safety threat models:
+1. **Threat Model Development**: OpenMax creates structured safety threat models:
    - Defines adversary profiles: curious users, competitive intelligence researchers, bad actors seeking harmful outputs, and automated attack scripts
    - Maps attack surface areas: prompt injection, jailbreak attempts, data extraction, capability misuse, bias exploitation, and denial-of-service attacks
    - Identifies high-value targets for adversaries: what would a bad actor most want to extract or accomplish with this AI system?
    - Creates harm taxonomy: categorizing potential harms by type (physical, psychological, financial, reputational, societal), severity, and reversibility
    - Designs threat prioritization matrix: ranking threats by probability, impact, and ease of exploitation
 
-2. **Red-Team Scenario Generation**: COCO produces comprehensive test scenario libraries:
+2. **Red-Team Scenario Generation**: OpenMax produces comprehensive test scenario libraries:
    - Generates prompt injection attack scenarios: attempts to override system prompts, extract hidden instructions, or redirect AI behavior
    - Creates jailbreak scenario variations: role-play attacks, hypothetical framing, multi-step escalation, encoding evasion techniques
    - Designs social engineering scenarios: multi-turn conversations designed to gradually elicit unsafe outputs
    - Produces bias and fairness probe scenarios: inputs designed to reveal discriminatory outputs across demographic groups
    - Generates capability boundary probes: scenarios that test what the system does when asked to do things it should refuse
 
-3. **Structured Red-Team Testing Protocol**: COCO creates systematic evaluation frameworks:
+3. **Structured Red-Team Testing Protocol**: OpenMax creates systematic evaluation frameworks:
    - Designs red-team test execution protocols: how testers should approach each scenario category, what to document, what constitutes a "finding"
    - Creates finding severity classification: from cosmetic issues to critical safety failures requiring immediate remediation
    - Produces false positive management: distinguishing genuine safety failures from overly conservative refusals that harm user experience
    - Designs multi-layer testing: testing safety at the model level, prompt level, application level, and output level independently
    - Generates testing coverage metrics: how to assess what percentage of the threat surface has been tested
 
-4. **Mitigation Strategy Design**: COCO recommends remediation for discovered vulnerabilities:
+4. **Mitigation Strategy Design**: OpenMax recommends remediation for discovered vulnerabilities:
    - Analyzes root cause of safety failures: system prompt weakness vs. model capability limit vs. application design flaw
    - Designs layered mitigation approaches: input filtering, output filtering, prompt hardening, and human review for different vulnerability types
    - Creates mitigation effectiveness testing: how to verify that mitigations actually work without introducing new failure modes
    - Produces residual risk documentation: honest assessment of vulnerabilities that cannot be fully mitigated and how they'll be managed
    - Designs safety regression testing: ensuring that mitigations don't degrade over time with model updates or prompt changes
 
-5. **Continuous Red-Teaming Program Design**: COCO establishes ongoing safety processes:
+5. **Continuous Red-Teaming Program Design**: OpenMax establishes ongoing safety processes:
    - Designs pre-deployment red-team gates: safety requirements that must be met before any model update or major feature launch
    - Creates bug bounty programs for AI safety: structured processes for external researchers to report AI safety vulnerabilities
    - Produces adversarial monitoring systems: detecting potential exploitation attempts in production logs
    - Designs automated safety regression testing: test suites that run automatically on every deployment to catch safety regressions
    - Generates safety incident response playbooks: how to respond when safety vulnerabilities are discovered in production
 
-6. **Regulatory & Enterprise Safety Documentation**: COCO produces compliance-ready safety evidence:
+6. **Regulatory & Enterprise Safety Documentation**: OpenMax produces compliance-ready safety evidence:
    - Generates red-team reports in formats suitable for EU AI Act conformity documentation
    - Creates enterprise security questionnaire responses covering AI safety practices
    - Produces model cards with safety testing section documenting red-team methodology and findings
@@ -7074,7 +7074,7 @@ Output: Ongoing safety program specification + monitoring dashboard design + inc
 
 > Design AI product onboarding that transforms confused new users into confident power users in their first session.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: AI Product Onboarding Fails Because Users Don't Know What They Don't Know**
 
@@ -7084,44 +7084,44 @@ The data confirms this pattern. AI products typically see 40–60% of new users 
 
 Most AI product teams respond to poor onboarding with more documentation — longer tutorials, better help articles, more example prompts. These interventions have modest impact because the real problem isn't information deficit — it's experience deficit. Users need to have a successful, memorable AI interaction in their first session to develop the belief that the product can work for them. Achieving this requires actively engineering the onboarding path to deliver a "wow moment" early, before cognitive fatigue or frustration triggers abandonment.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Onboarding Journey Mapping**: COCO designs the optimal path from registration to habit formation:
+1. **Onboarding Journey Mapping**: OpenMax designs the optimal path from registration to habit formation:
    - Maps the ideal first session arc: registration → first interaction → first success → second use case discovery → habit trigger
    - Identifies the "minimum viable success" — the simplest, fastest interaction that demonstrates genuine product value
    - Designs time-to-first-value optimization: eliminating all friction between arrival and the first meaningful AI output
    - Creates onboarding branch points: different paths for users with different starting contexts, skill levels, and use cases
    - Produces onboarding success metrics: what behavioral signals indicate a user is on the path to retention vs. on the path to churn
 
-2. **AI Capability Introduction Sequencing**: COCO orders feature introductions for maximum impact:
+2. **AI Capability Introduction Sequencing**: OpenMax orders feature introductions for maximum impact:
    - Designs capability revelation sequences: starting with simple, high-success-rate interactions before introducing complex capabilities
    - Creates "prompt scaffolding" systems: structured templates that help new users produce good outputs before they've developed prompting skills
    - Produces capability milestone mapping: what capabilities to introduce at day 1, day 3, day 7, and day 30 based on user readiness
    - Designs "I didn't know it could do that" moments: surprising capability reveals timed to appear when users are already engaged
    - Creates expectation calibration content: helping users understand what the AI does well vs. where it has limitations, preventing early frustration
 
-3. **Personalized Onboarding Path Design**: COCO creates adaptive onboarding:
+3. **Personalized Onboarding Path Design**: OpenMax creates adaptive onboarding:
    - Designs role-based onboarding paths: different first experiences for different user types (technical vs. non-technical, different industries, different use cases)
    - Creates use-case-first onboarding: starting with the user's stated job-to-be-done rather than a generic product tour
    - Produces progressive disclosure frameworks: revealing product complexity gradually as users demonstrate readiness
    - Designs behavioral branching: adjusting onboarding flow based on observed user behavior rather than stated preferences
    - Generates re-engagement interventions for users who drop off during onboarding: targeted prompts that address the specific point of friction
 
-4. **Prompt Education System Design**: COCO teaches users to get better outputs:
+4. **Prompt Education System Design**: OpenMax teaches users to get better outputs:
    - Creates layered prompt education: starting with copy-paste templates and gradually teaching principles behind effective prompting
    - Designs "show the difference" demonstrations: side-by-side comparisons of weak vs. strong prompts producing dramatically different outputs
    - Produces prompt pattern libraries: curated prompt structures for the most common use cases, ready for user customization
    - Creates prompt improvement feedback: in-product suggestions for improving user-submitted prompts based on pattern recognition
    - Designs prompt skill progression: tracking user prompting sophistication over time and introducing advanced techniques as they're ready
 
-5. **Activation Metric Instrumentation**: COCO defines and measures onboarding effectiveness:
+5. **Activation Metric Instrumentation**: OpenMax defines and measures onboarding effectiveness:
    - Designs activation event definition: what specific behavior constitutes "activated" for this AI product
    - Creates onboarding funnel instrumentation: tracking every step from registration to activation with drop-off rates
    - Produces cohort analysis frameworks: comparing activation rates across user acquisition channels, user types, and onboarding variants
    - Designs onboarding experiment protocols: how to A/B test onboarding variations with statistical rigor
    - Generates onboarding health dashboards: real-time visibility into where users are getting stuck and why
 
-6. **Re-Onboarding & Feature Adoption Programs**: COCO drives ongoing feature adoption:
+6. **Re-Onboarding & Feature Adoption Programs**: OpenMax drives ongoing feature adoption:
    - Designs re-onboarding campaigns for users who activated but aren't using the product's most valuable features
    - Creates milestone-triggered education: automatically delivering the right guidance when users hit specific usage milestones
    - Produces power user development programs: structured paths for moving average users to power user status
@@ -7372,7 +7372,7 @@ Output: Complete 35-prompt library organized by level + progression guide + fail
 
 > Produce the technical documentation that enterprise buyers, regulators, and AI-literate users require — without drowning your team.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: AI Product Documentation Is a Competitive and Regulatory Requirement Teams Are Ignoring**
 
@@ -7382,44 +7382,44 @@ The regulatory pressure is accelerating. EU AI Act Article 11 requires technical
 
 The internal cost of documentation debt compounds over time. Every enterprise deal that stalls for documentation, every regulatory inquiry that requires emergency response, and every internal post-incident review that lacks documented baselines represents wasted time and foregone revenue. Teams that maintain living AI documentation — model cards, datasheets for datasets, system cards — convert enterprise deals 30–50% faster and pass regulatory reviews with dramatically less scrambling. Yet documentation is universally deprioritized in product development cycles because it doesn't ship features.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Model Card Generation**: COCO produces comprehensive model cards for each AI component:
+1. **Model Card Generation**: OpenMax produces comprehensive model cards for each AI component:
    - Generates model cards following the Mitchell et al. (2019) framework: model details, intended use, factors, metrics, evaluation data, training data, quantitative analyses, ethical considerations, caveats
    - Adapts model cards for different AI architectures: fine-tuned LLMs, RAG systems, classification models, multimodal models
    - Creates audience-specific model card variants: technical (for ML engineers), non-technical (for business buyers), regulatory (for compliance reviewers)
    - Designs model card maintenance protocols: how to update cards when models change, new evaluations are conducted, or limitations are discovered
    - Produces model card templates pre-populated with sections relevant to the product's AI architecture and use case
 
-2. **Datasheet for Datasets Documentation**: COCO documents training and evaluation data:
+2. **Datasheet for Datasets Documentation**: OpenMax documents training and evaluation data:
    - Generates datasheets following Gebru et al. framework: motivation, composition, collection process, preprocessing/cleaning, uses, distribution, maintenance
    - Creates training data transparency documentation: what data was used, from where, how it was licensed, what consent was obtained
    - Produces evaluation dataset documentation: how test sets were constructed, what they cover, what they don't cover
    - Documents data preprocessing and augmentation: what transformations were applied and their potential effects on model behavior
    - Designs data governance documentation: data lineage, retention policies, update procedures, access controls
 
-3. **System Card Production**: COCO creates system-level AI documentation:
+3. **System Card Production**: OpenMax creates system-level AI documentation:
    - Generates system cards that describe the complete AI system (not just individual models): architecture, components, integration points, failure modes
    - Creates safety evaluation documentation: what safety testing was conducted, what was found, what mitigations were implemented
    - Produces misuse documentation: known and potential misuses the system is designed to prevent and mitigation effectiveness
    - Documents human oversight mechanisms: where humans are in the loop, what they can review, what they can override
    - Generates update and maintenance documentation: how the system is monitored, updated, and what triggers re-evaluation
 
-4. **Enterprise AI Transparency Package**: COCO creates enterprise procurement documentation:
+4. **Enterprise AI Transparency Package**: OpenMax creates enterprise procurement documentation:
    - Produces AI product security and compliance overviews: technical architecture, data handling, certifications, and access controls
    - Creates standard AI procurement questionnaire response libraries: pre-drafted answers to the 50 most common enterprise AI procurement questions
    - Generates data processing agreement AI addendums: specific provisions for AI data use, training data practices, and sub-processor disclosure
    - Designs AI feature disclosure documents: clear descriptions of what AI does, what data it uses, and what the customer controls
    - Produces AI incident response commitment documents: what constitutes a reportable AI incident, notification timelines, and remediation commitments
 
-5. **Regulatory Compliance Documentation**: COCO aligns documentation with regulatory frameworks:
+5. **Regulatory Compliance Documentation**: OpenMax aligns documentation with regulatory frameworks:
    - Generates EU AI Act technical documentation per Article 11 requirements for applicable AI system risk categories
    - Creates NIST AI RMF alignment documentation: mapping product practices to Govern, Map, Measure, and Manage functions
    - Produces sector-specific documentation: FDA AI/ML SaMD documentation structure for healthcare, SR 11-7 model risk management documentation for financial services
    - Designs documentation update protocols: ensuring regulatory documentation stays current as models and practices evolve
    - Generates regulatory audit readiness packages: organized documentation ready for regulatory submission or third-party audit
 
-6. **User-Facing Transparency Documentation**: COCO creates accessible AI transparency for end users:
+6. **User-Facing Transparency Documentation**: OpenMax creates accessible AI transparency for end users:
    - Writes product page AI disclosures: clear, non-technical explanations of how AI is used without undermining product appeal
    - Creates in-product AI transparency interfaces: explaining what the AI is doing at the point of interaction
    - Produces AI use policy documents: comprehensive disclosure for users who want to understand how their data is used in AI
@@ -7733,7 +7733,7 @@ Output: Complete documentation maintenance system specification + responsibility
 
 > Identify the behavioral signals that distinguish genuine product-market fit from early adopter enthusiasm before scaling prematurely.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: AI Products Confuse Early Adopter Excitement with Durable Product-Market Fit**
 
@@ -7743,44 +7743,44 @@ The product-market fit signal problem for AI products is that the standard proxi
 
 The cost of premature scaling without genuine product-market fit is severe. Scaling marketing, sales, and infrastructure to serve a user base that isn't truly fit accelerates burn rate while producing churn, negative word-of-mouth from disappointed non-fit users, and diluted product focus trying to serve too many incompatible use cases. The companies that scale AI products successfully are those that ruthlessly identify their true core user — the one for whom the product is irreplaceable — before scaling to adjacent users.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **PMF Signal Framework Design**: COCO defines the right signals for AI products:
+1. **PMF Signal Framework Design**: OpenMax defines the right signals for AI products:
    - Adapts Sean Ellis's "40% rule" for AI products: measuring how users would feel if the product disappeared, segmented by actual power usage
    - Designs AI-specific PMF behavioral signals: task reliance (doing with AI what they used to do manually), AI-first workflow adoption, voluntary sharing and referral
    - Creates the AI PMF hierarchy: distinguishing curiosity engagement from value engagement from mission-critical reliance
    - Designs cohort-based retention analysis: separating the "true believers" cohort from the majority and analyzing what distinguishes them
    - Produces PMF score frameworks: composite scores combining behavioral signals into single PMF health indicators
 
-2. **User Interview & Qualitative Research Design**: COCO structures PMF discovery research:
+2. **User Interview & Qualitative Research Design**: OpenMax structures PMF discovery research:
    - Designs "Jobs to be Done" interview frameworks for AI products: uncovering the functional, emotional, and social jobs users hire the AI to do
    - Creates power user interview guides: understanding what makes the product irreplaceable for the users who rely on it most
    - Produces churn interview frameworks: understanding why users who tried the product didn't find PMF — identifying the boundary of the PMF zone
    - Designs "would you miss it" research: the gold standard PMF question structured for AI products
    - Generates user segmentation research: identifying whether a single coherent user segment has found PMF or if signals are fragmented across incompatible segments
 
-3. **Retention Cohort Analysis Design**: COCO builds the analytics infrastructure for PMF measurement:
+3. **Retention Cohort Analysis Design**: OpenMax builds the analytics infrastructure for PMF measurement:
    - Designs day-1, day-7, day-30, day-90 retention curves with benchmarks for AI product category expectations
    - Creates engagement quality metrics: distinguishing high-frequency, high-value sessions from high-frequency, low-value sessions
    - Designs power user cohort isolation: identifying the top 10–20% most engaged users and analyzing what distinguishes them
    - Produces "magic moment" analysis: identifying the specific interaction or sequence of interactions that predicts long-term retention
    - Generates segment-level PMF analysis: measuring PMF separately for different user types to identify the core PMF segment vs. peripheral segments
 
-4. **Leading Indicator Identification**: COCO identifies what predicts PMF before lagging indicators confirm it:
+4. **Leading Indicator Identification**: OpenMax identifies what predicts PMF before lagging indicators confirm it:
    - Analyzes behavioral sequences that predict 90-day retention from first-week signals
    - Designs "activation event" identification: the single action in the first session that most powerfully predicts long-term retention
    - Creates workflow integration signals: indicators that the user has integrated the AI into their regular workflow (not just trying it occasionally)
    - Produces social proof signals: which user behaviors (sharing, referral, public mention) indicate genuine enthusiasm vs. novelty interest
    - Designs "depth of use" metrics: measuring whether users are using the AI for progressively more important or complex tasks over time
 
-5. **PMF Zone Definition**: COCO helps identify and describe the PMF zone precisely:
+5. **PMF Zone Definition**: OpenMax helps identify and describe the PMF zone precisely:
    - Analyzes the user characteristics that correlate with strong PMF: job function, use case, company size, technical sophistication
    - Creates PMF segment profiles: detailed descriptions of users for whom the product has achieved PMF
    - Identifies the PMF boundary: who is just outside the PMF zone and what would need to change (product or positioning) to include them
    - Produces "before and after" user stories: concrete narratives of how PMF users' workflows have changed due to the product
    - Designs PMF zone expansion strategies: how to extend product-market fit to adjacent segments without losing the core
 
-6. **Scale-Readiness Assessment**: COCO determines when scaling is safe:
+6. **Scale-Readiness Assessment**: OpenMax determines when scaling is safe:
    - Designs PMF thresholds for scaling decisions: specific metric values that indicate sufficient PMF to scale marketing investment
    - Creates pre-scale risk assessment: what product and operational improvements must be in place before scaling
    - Produces scaling simulation models: projecting what cohort retention will look like if marketing scales to a broader audience
@@ -8039,7 +8039,7 @@ Output: PMF evidence package — narrative + slide spec + data presentation guid
 
 > Build intelligent model orchestration that maximizes quality, minimizes cost, and guarantees reliability across your AI infrastructure.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Single-Model Dependency Creates Quality, Cost, and Reliability Crises**
 
@@ -8049,44 +8049,44 @@ As AI products scale, the cost problem becomes existential. A product charging $
 
 The fallback architecture challenge compounds the routing problem. AI model provider SLAs are typically 99.9% uptime — meaning 8.7 hours of downtime per year. For an AI-native product where the core value proposition is AI capabilities, that's unacceptable. Without a designed fallback architecture, every provider outage becomes a complete product outage. With one, the product degrades gracefully — falling back to an equivalent or slightly less capable model — while users barely notice.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Routing Architecture Design**: COCO designs comprehensive model orchestration systems:
+1. **Routing Architecture Design**: OpenMax designs comprehensive model orchestration systems:
    - Defines routing dimensions: query complexity, domain specificity, latency budget, user tier, task type, content safety requirements
    - Designs query classification systems: fast, low-cost classification that assigns incoming queries to routing buckets without adding perceptible latency
    - Creates model assignment matrices: which model handles which query type, with rationale based on quality benchmarks and cost analysis
    - Designs cascade routing: attempting cheaper/faster models first and escalating to more capable models if quality threshold isn't met
    - Produces routing decision trees with explicit logic for every query category and edge case
 
-2. **Fallback Architecture Design**: COCO creates resilient multi-provider systems:
+2. **Fallback Architecture Design**: OpenMax creates resilient multi-provider systems:
    - Designs primary/secondary/tertiary model configurations: provider hierarchy with clear failover conditions
    - Creates circuit breaker patterns: detecting provider degradation before it causes user-facing failures and routing around it
    - Designs graceful degradation: defining what the product does when no preferred model is available (fallback model, cached responses, honest user communication)
    - Specifies retry logic: exponential backoff, timeout configurations, and maximum retry counts for transient failures
    - Produces disaster recovery runbooks: step-by-step procedures for different provider failure scenarios
 
-3. **Cost Optimization Routing**: COCO maximizes cost efficiency without quality sacrifice:
+3. **Cost Optimization Routing**: OpenMax maximizes cost efficiency without quality sacrifice:
    - Designs cost-quality tradeoff analysis: empirically determining where cheaper models are equivalent and where quality gaps justify premium costs
    - Creates per-query cost attribution: tracking which product features and user segments drive the highest inference costs
    - Designs caching strategies: semantic caching for similar queries, prompt caching for repeated context, response caching for idempotent requests
    - Produces cost routing experiments: A/B tests for different routing configurations with quality and cost measurement
    - Generates cost forecast models: projecting infrastructure costs under different routing strategies at various scale scenarios
 
-4. **Quality-Aware Routing Logic**: COCO ensures quality doesn't degrade under cost pressure:
+4. **Quality-Aware Routing Logic**: OpenMax ensures quality doesn't degrade under cost pressure:
    - Designs quality threshold enforcement: minimum acceptable quality scores that trigger model escalation
    - Creates confidence-based routing: routing to more capable models when the primary model expresses low confidence
    - Produces domain expertise routing: sending specialized domain queries (medical, legal, code) to models with documented domain strength
    - Designs user tier routing: premium users getting priority access to frontier models, standard users getting quality-equivalent but cheaper routing
    - Generates quality regression detection: monitoring for routing-induced quality degradation and automatic routing adjustment
 
-5. **Monitoring & Observability Design**: COCO builds routing system visibility:
+5. **Monitoring & Observability Design**: OpenMax builds routing system visibility:
    - Designs routing decision logging: recording which model handled each request and why, for debugging and optimization
    - Creates routing performance dashboards: visualizing routing distribution, cost per routing path, quality by routing path, and fallback rates
    - Produces routing anomaly detection: alerting when unusual routing patterns emerge (unexpected fallback rates, cost spikes, quality drops)
    - Designs A/B testing infrastructure for routing: safely testing new routing configurations on traffic subsets
    - Generates routing optimization feedback loops: using quality and cost data to continuously improve routing decisions
 
-6. **Vendor Management & Model Evaluation Framework**: COCO supports multi-vendor strategy:
+6. **Vendor Management & Model Evaluation Framework**: OpenMax supports multi-vendor strategy:
    - Designs model evaluation frameworks: how to evaluate new model options for routing consideration
    - Creates vendor risk assessment: evaluating reliability, pricing stability, and roadmap for each model provider
    - Produces contract and SLA analysis: what provider commitments are needed for each routing tier
@@ -8379,7 +8379,7 @@ Output: Dashboard specification for each panel + alerting configuration + on-cal
 
 > Respond to AI product failures with speed and precision — minimizing user impact and restoring quality before crises become catastrophes.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: AI Product Incidents Are Uniquely Difficult to Detect, Diagnose, and Resolve**
 
@@ -8389,44 +8389,44 @@ The diagnosis challenge compounds the detection problem. When an AI product inci
 
 Rollback decisions for AI products require tradeoffs that don't exist in traditional software rollbacks. Rolling back to the previous prompt version, model version, or retrieval index might fix the immediate incident while reintroducing a different quality issue from the previous state. The "last known good state" concept is complicated by the fact that previous states had their own quality issues — they were just different ones. AI product incident responders need structured decision frameworks that acknowledge these tradeoffs rather than pretending rollbacks are simple.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Incident Classification & Severity Framework**: COCO designs AI-specific incident taxonomies:
+1. **Incident Classification & Severity Framework**: OpenMax designs AI-specific incident taxonomies:
    - Defines AI product incident types: quality degradation, safety failure, availability failure, data exposure, bias incident, and capability regression
    - Creates severity classification criteria: mapping incident type and user impact to P0/P1/P2/P3 severity levels with concrete thresholds
    - Designs incident detection triggers: the specific signals that should initiate incident response for each incident type
    - Produces incident communication templates: pre-written internal escalation messages for each severity level and incident type
    - Creates incident declaration protocols: who has authority to declare an incident of each severity, with clear escalation paths
 
-2. **AI Incident Diagnostic Frameworks**: COCO creates structured root cause analysis:
+2. **AI Incident Diagnostic Frameworks**: OpenMax creates structured root cause analysis:
    - Designs diagnostic decision trees for each AI incident type: ordered hypothesis testing that efficiently narrows root cause
    - Creates "first five minutes" checklists: immediate diagnostic steps responders should take before doing anything else
    - Produces AI-specific diagnostic queries: the exact monitoring queries, log searches, and quality checks that diagnose common root causes
    - Designs correlation analysis frameworks: linking observed quality changes to deployment events, infrastructure changes, and input distribution shifts
    - Generates diagnostic tooling requirements: what monitoring and observability infrastructure is needed to diagnose AI incidents quickly
 
-3. **Rollback Decision Framework**: COCO designs structured rollback analysis:
+3. **Rollback Decision Framework**: OpenMax designs structured rollback analysis:
    - Creates rollback option inventories: for each AI component, what can be rolled back, at what cost, and with what tradeoffs
    - Designs rollback impact analysis: assessing quality state of previous versions before committing to rollback
    - Produces rollback decision matrices: given incident severity and rollback option tradeoffs, what is the optimal response
    - Creates partial rollback strategies: rolling back specific components (prompt, model, retrieval index) independently to target root cause
    - Designs rollback verification protocols: how to confirm a rollback actually resolved the incident before declaring it closed
 
-4. **Runbook Development**: COCO produces comprehensive incident response documentation:
+4. **Runbook Development**: OpenMax produces comprehensive incident response documentation:
    - Creates incident-type-specific runbooks: step-by-step procedures for each major AI incident category
    - Designs runbook templates with role-specific sections: what the on-call engineer does, what the incident commander does, what the PM does
    - Produces communication runbooks: internal team communication, external user communication, enterprise customer notification, and public status page updates
    - Creates escalation runbooks: when and how to escalate to model providers, leadership, legal, or communications teams
    - Generates post-incident review templates: structured retrospective process that captures learnings and drives systematic improvement
 
-5. **Post-Incident Analysis & Prevention**: COCO drives learning from incidents:
+5. **Post-Incident Analysis & Prevention**: OpenMax drives learning from incidents:
    - Designs blameless post-mortem processes: structured retrospective focused on systemic improvement, not individual blame
    - Creates contributing factor analysis: identifying the organizational, technical, and process factors that enabled the incident
    - Produces prevention action item frameworks: converting post-mortem insights into specific, measurable improvements
    - Designs incident trend analysis: tracking incident patterns over time to identify systemic issues requiring architectural solutions
    - Generates incident prevention validation: how to verify that prevention actions actually prevent recurrence
 
-6. **Enterprise & Regulatory Incident Communication**: COCO manages external incident communication:
+6. **Enterprise & Regulatory Incident Communication**: OpenMax manages external incident communication:
    - Designs enterprise customer incident notification templates: formal communication for customer success teams to send
    - Creates public status page update templates for AI-specific incidents
    - Produces regulatory notification assessments: when an AI incident requires regulatory notification under applicable regulations
@@ -8724,7 +8724,7 @@ Output: Complete incident communication template library + guidance + escalation
 
 > Embed responsible AI practices into every product decision with comprehensive checklists and documentation that satisfy regulators and enterprise buyers.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Responsible AI Is Treated as a Compliance Afterthought Rather Than a Product Design Discipline**
 
@@ -8734,44 +8734,44 @@ The organizational challenge is that responsible AI spans every function — pro
 
 The economic cost of reactive responsible AI compounds over time. Each regulatory inquiry costs weeks of team time and legal fees. Each enterprise deal blocked by absent responsible AI documentation represents lost ARR. Each public bias incident costs user trust and brand value that takes months to recover. The companies that treat responsible AI as a product discipline rather than a compliance function build sustainable competitive advantages: faster enterprise deal cycles, lower regulatory risk, stronger user trust, and the organizational capability to navigate increasingly strict AI regulation without disruption.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Feature-Level Responsible AI Checklists**: COCO embeds responsible AI evaluation in product development:
+1. **Feature-Level Responsible AI Checklists**: OpenMax embeds responsible AI evaluation in product development:
    - Generates pre-development responsible AI checklists: questions to answer before any AI feature enters development
    - Creates design-phase fairness evaluation frameworks: structured assessment of potential disparate impacts during feature design
    - Produces pre-launch responsible AI gates: minimum responsible AI requirements that must be met before any AI feature launches
    - Designs responsible AI review processes: who reviews, what they evaluate, and sign-off requirements for different feature risk levels
    - Generates responsible AI debt tracking: identifying and prioritizing existing features that lack proper responsible AI evaluation
 
-2. **Audit Trail Architecture**: COCO designs comprehensive AI decision documentation:
+2. **Audit Trail Architecture**: OpenMax designs comprehensive AI decision documentation:
    - Creates AI decision logging specifications: what information about each AI interaction must be logged for accountability and auditability
    - Designs model decision audit trails: documenting what information led to each AI output in systems with consequential decisions
    - Produces configuration change documentation: tracking what changed in AI systems (prompts, models, parameters) and why
    - Designs consent and preference audit trails: documenting user choices about AI and how they were honored
    - Creates training data audit trails: documenting data provenance, preprocessing decisions, and exclusions for reproducible compliance evidence
 
-3. **Bias & Fairness Assessment Frameworks**: COCO operationalizes fairness evaluation:
+3. **Bias & Fairness Assessment Frameworks**: OpenMax operationalizes fairness evaluation:
    - Generates bias testing protocols for feature development: what to test, how to test it, what results are acceptable
    - Creates intersectional analysis frameworks: evaluating fairness not just across individual attributes but at their intersections
    - Designs ongoing bias monitoring: detecting fairness regressions in production without requiring periodic manual review
    - Produces disparity threshold frameworks: what level of performance disparity across groups requires intervention vs. investigation vs. documentation
    - Generates fairness improvement playbooks: structured approaches to reducing detected bias for different types of AI components
 
-4. **Human Oversight Specification**: COCO defines where and how humans must be in the loop:
+4. **Human Oversight Specification**: OpenMax defines where and how humans must be in the loop:
    - Creates human oversight classification frameworks: which AI decisions require human review, which require human-initiatable override, which can be fully automated
    - Designs human review interfaces: what reviewers need to see, what actions they can take, what documentation their reviews must produce
    - Produces meaningful human oversight standards: ensuring human review is genuine deliberation, not a rubber stamp — defining what constitutes adequate review
    - Creates human override capability specifications: what controls exist for users, administrators, and compliance officers to override AI decisions
    - Designs oversight workload analysis: ensuring oversight requirements are feasible without overwhelming human reviewers
 
-5. **Transparency & Explainability Implementation**: COCO operationalizes AI transparency:
+5. **Transparency & Explainability Implementation**: OpenMax operationalizes AI transparency:
    - Generates transparency disclosure requirements by risk level and use case: what must be disclosed, to whom, and how
    - Creates explainability implementation specifications: what level of explanation the system must be capable of providing
    - Designs user-facing transparency interfaces: how to communicate AI involvement, limitations, and decision factors to users accessibly
    - Produces right-to-explanation workflows: processes for handling user requests for explanation of AI decisions affecting them
    - Generates transparency documentation templates: standardized formats for AI transparency documentation suitable for different audiences
 
-6. **Responsible AI Governance Program Design**: COCO establishes organizational responsible AI practices:
+6. **Responsible AI Governance Program Design**: OpenMax establishes organizational responsible AI practices:
    - Designs responsible AI governance structures: roles, responsibilities, and decision authority for responsible AI oversight
    - Creates responsible AI training curricula outlines: what different roles need to know about responsible AI practices
    - Produces responsible AI policy templates: organizational policies covering AI development, deployment, and monitoring
@@ -9096,7 +9096,7 @@ Output: Governance program design + role definitions + policy framework outline 
 
 > Scale your AI product across languages and markets without degrading quality, trust, or the user experience that made you successful.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: AI Localization Is an Order of Magnitude Harder Than Software Localization**
 
@@ -9106,44 +9106,44 @@ Most AI product managers dramatically underestimate this gap. They assume that b
 
 The business consequence is predictable: companies localize quickly to capture international market opportunity, experience poor user retention in non-English markets due to quality issues, and damage their brand reputation in those markets. The right approach — systematic quality evaluation before expansion, market-specific quality investment, and phased rollout — is less exciting but dramatically more successful.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Multilingual Quality Assessment Framework**: COCO evaluates AI quality across target languages:
+1. **Multilingual Quality Assessment Framework**: OpenMax evaluates AI quality across target languages:
    - Designs language-specific quality evaluation suites: task sets adapted for cultural relevance in each target language, not just translated English tasks
    - Creates cross-lingual quality comparison protocols: standardized methodology for comparing AI performance across languages
    - Identifies performance gap analysis: for each target language, the gap between English performance and target language performance on key tasks
    - Designs low-resource language evaluation strategies: approaches for evaluating quality in languages where evaluation datasets are scarce
    - Produces market readiness assessments: quality thresholds that must be met for each language before public launch
 
-2. **Localization Architecture Design**: COCO designs the technical approach to multilingual AI:
+2. **Localization Architecture Design**: OpenMax designs the technical approach to multilingual AI:
    - Evaluates localization strategies: end-to-end multilingual model vs. translation + English processing vs. language-specific fine-tuning vs. multilingual RAG
    - Designs language detection and routing: how to identify user language and route to appropriate processing pipeline
    - Creates multilingual prompt engineering frameworks: how system prompts must be adapted for each language, not just translated
    - Designs multilingual retrieval systems: knowledge base structure, embedding selection, and retrieval strategy for multilingual RAG
    - Produces localization quality pipeline: automated quality checks specific to each language
 
-3. **Cultural Adaptation Framework**: COCO addresses cultural requirements beyond language:
+3. **Cultural Adaptation Framework**: OpenMax addresses cultural requirements beyond language:
    - Identifies cultural requirements by market: what values, norms, and content standards apply in each target market
    - Creates cultural sensitivity review processes: structured evaluation of AI outputs for cultural appropriateness
    - Designs culturally appropriate example sets: replacing English-centric examples with culturally relevant alternatives for each market
    - Produces cultural incident prevention frameworks: identifying content that is acceptable in English but problematic in specific cultural contexts
    - Generates market-specific persona adaptation: adjusting AI tone, formality, and communication style for cultural expectations
 
-4. **Multilingual Safety & Compliance**: COCO ensures responsible AI across languages:
+4. **Multilingual Safety & Compliance**: OpenMax ensures responsible AI across languages:
    - Assesses language-specific safety filter effectiveness: testing whether safety systems work as well in target languages as in English
    - Creates multilingual red-team protocols: adversarial testing in each target language for language-specific attack vectors
    - Designs compliance requirements by market: data localization, AI-specific regulations, content regulations in each target jurisdiction
    - Produces language-specific bias evaluation: assessing fairness and bias in AI outputs across cultural contexts
    - Generates localized transparency requirements: what AI disclosure obligations apply in each target market
 
-5. **Market Prioritization Framework**: COCO guides expansion sequencing:
+5. **Market Prioritization Framework**: OpenMax guides expansion sequencing:
    - Creates market opportunity scoring: combining TAM, competitive landscape, regulatory environment, and AI localization complexity
    - Designs AI localization effort estimation: complexity assessment for each target language based on model performance, cultural adaptation needs, and compliance requirements
    - Produces market entry sequencing: recommending expansion order based on opportunity/effort ratios
    - Generates go/no-go criteria for each market: specific quality and readiness thresholds before market launch
    - Creates market-specific success metrics: KPIs adapted for each market's competitive dynamics and user expectations
 
-6. **Ongoing Multilingual Quality Management**: COCO establishes sustainable quality programs:
+6. **Ongoing Multilingual Quality Management**: OpenMax establishes sustainable quality programs:
    - Designs language-specific quality monitoring: separate quality dashboards for each supported language with language-appropriate benchmarks
    - Creates multilingual feedback infrastructure: how to collect and process quality feedback across languages
    - Produces cross-language quality parity goals: strategies for narrowing quality gaps between English and non-English languages over time
@@ -9427,7 +9427,7 @@ Output: Multilingual launch plan + pre-launch gate checklist + beta program desi
 
 > Understand not just whether users use AI features, but whether those features are delivering genuine value — and where the opportunities are.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Traditional Feature Analytics Cannot Capture AI Feature Value**
 
@@ -9437,44 +9437,44 @@ AI feature analytics requires measuring the complete value delivery cycle: user 
 
 The AI feature usage analytics gap compounds across the full product experience. Power users who extract maximum value from AI features have fundamentally different usage patterns than casual users — they prompt differently, use different features, complete different tasks, and are worth dramatically different amounts to the business. Without analytics that can identify and analyze power user patterns, product teams can't replicate those patterns, can't build onboarding that converts casual users to power users, and can't make the feature investments that most improve the experience of the users who drive the most value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **AI Feature Value Analytics Framework**: COCO designs measurement architectures that capture value, not just usage:
+1. **AI Feature Value Analytics Framework**: OpenMax designs measurement architectures that capture value, not just usage:
    - Defines AI feature value metrics: output acceptance rate, AI-assisted task completion rate, time-to-task-completion with vs. without AI, AI output downstream action rate
    - Designs the "value delivery funnel" for AI features: from initiation to value realization, with measurement at each stage
    - Creates AI-specific engagement quality metrics: distinguishing exploratory engagement from productive engagement from habitual engagement
    - Produces value proxy metrics: measurable signals that correlate with value delivery even when direct value measurement is difficult
    - Designs baseline comparison approaches: what users do without AI assistance vs. with AI assistance
 
-2. **AI Interaction Event Taxonomy**: COCO creates comprehensive interaction tracking:
+2. **AI Interaction Event Taxonomy**: OpenMax creates comprehensive interaction tracking:
    - Designs granular AI interaction events: capturing not just that the AI was used, but how — iteration count, modification behavior, acceptance patterns
    - Creates output disposition tracking: accepted as-is, significantly modified, partially used, rejected, regenerated
    - Designs session-level AI value metrics: what proportion of session value was AI-assisted vs. user-generated
    - Produces cross-session AI adoption curves: tracking how users' AI usage patterns evolve over time
    - Generates AI feature interaction sequence analysis: what users do before and after AI interactions to understand contextual value
 
-3. **Segmented Usage Analysis Frameworks**: COCO identifies patterns across user segments:
+3. **Segmented Usage Analysis Frameworks**: OpenMax identifies patterns across user segments:
    - Designs power user behavior analysis: profiling the usage patterns of the top 10% AI feature users
    - Creates segment comparison frameworks: understanding how different user types (by role, industry, tenure) use AI features differently
    - Produces AI feature adoption curve analysis by segment: which segments adopt AI features fastest and what distinguishes them
    - Designs use case discovery analysis: identifying AI use cases users have found that weren't anticipated in feature design
    - Generates underperforming segment analysis: identifying user types with low AI feature adoption and diagnosing barriers
 
-4. **AI Feature ROI Measurement**: COCO connects usage to business outcomes:
+4. **AI Feature ROI Measurement**: OpenMax connects usage to business outcomes:
    - Designs AI feature retention impact analysis: measuring whether AI feature usage predicts better retention
    - Creates AI feature revenue attribution: correlating AI feature usage with subscription upgrades, expansion revenue, and churn prevention
    - Produces AI feature NPS contribution analysis: measuring whether AI feature users report higher satisfaction than non-users
    - Designs time-to-value measurement: how AI features accelerate time to first value realization for new users
    - Generates "feature stickiness" analysis: which AI features drive habitual use and which are novelty-driven
 
-5. **AI Feature Opportunity Detection**: COCO identifies improvement and expansion opportunities:
+5. **AI Feature Opportunity Detection**: OpenMax identifies improvement and expansion opportunities:
    - Designs abandonment funnel analysis: identifying where users drop out of AI feature workflows before completing their goal
    - Creates feature gap signals: behavioral indicators suggesting users want AI assistance where it's not currently available
    - Produces AI feature interaction failure analysis: identifying interaction patterns that correlate with poor outcomes
    - Designs "adjacent use case" discovery: detecting when users use AI features for purposes adjacent to intended use cases
    - Generates competitive displacement signals: behavioral patterns suggesting users are supplementing with competitor AI tools
 
-6. **AI Feature Dashboard & Reporting Design**: COCO creates actionable analytics views:
+6. **AI Feature Dashboard & Reporting Design**: OpenMax creates actionable analytics views:
    - Designs AI feature health dashboards: combining usage, quality, and value metrics in unified views
    - Creates AI feature comparison views: relative performance across multiple AI features to guide investment prioritization
    - Produces cohort-based AI adoption reports: how AI feature adoption evolves across user acquisition cohorts
@@ -9771,7 +9771,7 @@ Output: Dashboard specifications + data requirements + implementation guide + al
 
 > Align your entire product team around AI-specific OKRs that connect model quality improvements to business outcomes everyone cares about.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Generic OKR Frameworks Fail AI Product Teams**
 
@@ -9781,44 +9781,44 @@ The goal-setting confusion creates organizational dysfunction. ML engineers set 
 
 The measurement challenge compounds the goal-setting problem. Unlike traditional features where A/B tests can quickly confirm whether a new feature improves target metrics, AI improvements often require weeks of observation to generate sufficient signal. Quality improvements are hard to measure without investment in evaluation infrastructure that most teams haven't built. This creates a feedback loop failure: teams can't set good goals because they can't measure outcomes, and they don't build measurement infrastructure because goals aren't demanding it.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **AI Product OKR Architecture Design**: COCO creates cascading goal structures that connect all levels:
+1. **AI Product OKR Architecture Design**: OpenMax creates cascading goal structures that connect all levels:
    - Designs company → product → AI-specific OKR cascades: showing how AI team goals connect to company-level outcomes
    - Creates "metric ladder" frameworks: connecting model quality metrics (hallucination rate) to product quality metrics (task completion rate) to business metrics (retention, NPS)
    - Designs cross-functional OKR alignment: ensuring ML, product, and business teams have goals that reinforce rather than conflict with each other
    - Produces OKR interdependency maps: showing which teams' goals depend on other teams' contributions
    - Generates goal-setting facilitation frameworks: processes for aligning diverse stakeholders on shared AI product OKRs
 
-2. **AI-Specific KR Design**: COCO creates measurable key results appropriate for AI products:
+2. **AI-Specific KR Design**: OpenMax creates measurable key results appropriate for AI products:
    - Designs outcome-focused KRs: measuring what changed for users, not just what was shipped
    - Creates AI quality KRs with measurement methodology: specific, measurable quality targets with defined evaluation approaches
    - Produces leading indicator KRs: metrics that predict future business outcomes, enabling course correction before quarter end
    - Designs confidence interval KRs: appropriate for AI metrics with inherent variance — "achieve X with 95% confidence"
    - Generates anti-metric KRs: "must not worse" metrics that prevent gaming primary KRs by sacrificing important secondary metrics
 
-3. **Success Metrics Definition**: COCO ensures the right things are measured:
+3. **Success Metrics Definition**: OpenMax ensures the right things are measured:
    - Creates product success hierarchy: north star metric → supporting metrics → leading indicators → operational metrics
    - Designs AI-specific success criteria for model improvements: what improvement in what metric constitutes a "successful" model update
    - Produces feature success frameworks: predefined criteria for declaring an AI feature successful at 30/60/90 days post-launch
    - Designs experiment success criteria: what result from an A/B test constitutes sufficient evidence to ship
    - Generates "success prevention" analysis: identifying what perverse incentives the chosen metrics might create
 
-4. **Team Performance Framework**: COCO aligns individual and team evaluation with AI product success:
+4. **Team Performance Framework**: OpenMax aligns individual and team evaluation with AI product success:
    - Creates ML team performance frameworks: how to evaluate ML engineer performance in ways that connect to product outcomes
    - Designs product manager accountability frameworks for AI features: what PMs are accountable for and how it's measured
    - Produces team health metrics: measuring team effectiveness (experiment velocity, documentation quality, incident response time) alongside output metrics
    - Designs collaboration metrics: how well cross-functional teams (product + ML + design + legal) are working together
    - Generates learning metrics: measuring organizational learning velocity — how quickly teams update beliefs based on new evidence
 
-5. **OKR Review & Calibration Process**: COCO establishes the operating cadence:
+5. **OKR Review & Calibration Process**: OpenMax establishes the operating cadence:
    - Designs weekly check-in rituals: brief, structured processes for tracking OKR progress
    - Creates mid-quarter OKR calibration processes: how to handle OKRs that need adjustment without abandoning accountability
    - Produces quarterly OKR retrospective frameworks: evaluating both goal achievement and goal quality
    - Designs OKR public visibility systems: how to create appropriate transparency around AI product OKRs across the organization
    - Generates OKR failure analysis frameworks: learning from missed OKRs without blame, improving future goal-setting
 
-6. **Investor & Board Metric Communication**: COCO connects AI product metrics to investor narratives:
+6. **Investor & Board Metric Communication**: OpenMax connects AI product metrics to investor narratives:
    - Creates investor-appropriate AI product metric packages: translating technical AI metrics into business-relevant KPIs
    - Designs board-level AI product health dashboards: the right metrics at the right level of abstraction for board discussions
    - Produces AI product narrative frameworks: how to communicate AI product progress as a coherent story, not a collection of metrics
@@ -10108,7 +10108,7 @@ Output: Retrospective facilitation guide + analysis frameworks + output document
 
 > Build a go-to-market strategy that wins enterprise AI deals by addressing the unique trust, compliance, and organizational challenges of selling AI to risk-conscious buyers.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Enterprise AI GTM Is Fundamentally Different from Enterprise SaaS GTM**
 
@@ -10118,44 +10118,44 @@ Enterprise AI procurement now involves stakeholders who weren't part of SaaS buy
 
 The competitive dynamics of enterprise AI make this worse. Enterprise buyers are simultaneously evaluating multiple AI vendors, are subject to vendor lock-in concerns specific to AI (proprietary fine-tuning, embedded workflows, switching costs), and are aware that AI capabilities change rapidly — making multi-year commitments risky. AI product teams that haven't built enterprise-specific positioning, developed appropriate pricing and contract structures, and created the trust-building content that enterprise buyers require will lose to competitors who have.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Enterprise AI Buyer Persona Framework**: COCO maps the complete enterprise buying committee:
+1. **Enterprise AI Buyer Persona Framework**: OpenMax maps the complete enterprise buying committee:
    - Creates detailed buyer persona profiles for each enterprise AI stakeholder: economic buyer, technical champion, CISO, legal/privacy, AI governance, end user champion
    - Defines each persona's primary concerns, success criteria, and blocking conditions for AI procurement
    - Designs persona-specific value propositions: what each stakeholder needs to hear to become an advocate rather than a blocker
    - Produces journey maps for each persona: how they engage with AI vendor evaluation at each stage of the buying process
    - Creates stakeholder influence maps: understanding the internal relationships and decision dynamics in enterprise AI procurement
 
-2. **Enterprise AI Positioning Framework**: COCO crafts differentiated enterprise positioning:
+2. **Enterprise AI Positioning Framework**: OpenMax crafts differentiated enterprise positioning:
    - Develops enterprise-specific positioning pillars: trust, compliance, reliability, and ROI — in the order enterprise buyers weight them
    - Creates competitive positioning frameworks: how to differentiate from both AI-native competitors and legacy software vendors adding AI
    - Designs "category creation" positioning for new AI product categories: when there's no established category, how to define the problem space and position as the solution
    - Produces proof point inventories: customer case studies, benchmark data, third-party validation, and analyst coverage organized by buyer persona concern
    - Generates positioning validation frameworks: how to test positioning with enterprise buyers before committing to large-scale marketing investment
 
-3. **Enterprise Sales Motion Design**: COCO structures the enterprise AI sales process:
+3. **Enterprise Sales Motion Design**: OpenMax structures the enterprise AI sales process:
    - Designs multi-threaded sales strategies: how to engage economic buyers, technical champions, and blocking stakeholders simultaneously
    - Creates enterprise AI evaluation frameworks: structured POC/pilot designs that demonstrate value in a controlled, risk-managed way
    - Produces "deal desk" resources: pricing frameworks, discount approval processes, contract term guidance for enterprise AI deals
    - Designs land-and-expand strategies: initial enterprise entry points that minimize procurement friction and enable expansion
    - Generates enterprise AI deal acceleration playbooks: specific tactics for moving stalled deals through common blocking points
 
-4. **Trust-Building Content Architecture**: COCO creates the content that enterprise buyers require:
+4. **Trust-Building Content Architecture**: OpenMax creates the content that enterprise buyers require:
    - Produces enterprise AI trust content inventory: the specific documents, demonstrations, and certifications that enterprise buyers require
    - Designs "trust-building sequence": the order in which to deploy trust-building content at each stage of the enterprise buying journey
    - Creates security review response packages: pre-prepared responses to enterprise security questionnaires
    - Produces AI compliance documentation packages: organized, accessible documentation for AI Act, GDPR, and sector-specific requirements
    - Generates customer evidence packages: case studies, testimonials, and references structured for enterprise buyer concerns
 
-5. **Enterprise Pricing & Contract Strategy**: COCO designs enterprise commercial structures:
+5. **Enterprise Pricing & Contract Strategy**: OpenMax designs enterprise commercial structures:
    - Creates enterprise pricing architectures: commit-based pricing, volume discounts, AI SLA tiers, and custom terms frameworks
    - Designs pilot-to-contract conversion paths: how to convert successful POCs into multi-year agreements
    - Produces negotiation preparation materials: where to hold firm, where to flex, and what creative deal structures solve common enterprise objections
    - Creates enterprise AI contract provisions: specific AI-related contract clauses that enterprise buyers require and how to respond to common requests
    - Generates expansion playbooks: how to grow enterprise accounts from initial use case to organization-wide deployment
 
-6. **Enterprise AI Customer Success Framework**: COCO ensures enterprise retention and expansion:
+6. **Enterprise AI Customer Success Framework**: OpenMax ensures enterprise retention and expansion:
    - Designs enterprise AI onboarding programs: structured 90-day plans for getting enterprise customers to realized value
    - Creates executive business review frameworks: quarterly reviews that demonstrate AI product value in business terms
    - Produces expansion trigger identification: behavioral and relationship signals that indicate expansion opportunity
@@ -10471,7 +10471,7 @@ Output: Complete enterprise GTM launch plan + pre-launch readiness checklist + s
 
 > Ensures AI products are inclusive and accessible to all users — eliminating algorithmic bias and interface barriers so that diverse user populations can benefit equally from AI capabilities.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Accessibility Blind Spots in AI Products Drive User Churn and Legal Exposure**
 
@@ -10481,44 +10481,44 @@ Accessibility problems in AI products are often harder to detect and fix than in
 
 The deeper business challenge is that the value of accessibility investment is severely underestimated. There are over one billion people with disabilities globally, the aging population's demand for assistive technology is growing rapidly, and non-English speakers represent the vast majority of the global AI product market. AI products that neglect accessibility not only miss a massive market opportunity — they are also disadvantaged in building brand reputation, winning enterprise customers (enterprise procurement often has mandatory accessibility requirements), and navigating an increasingly stringent regulatory environment.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **AI Accessibility Audit Framework**: COCO builds a comprehensive accessibility assessment system:
+1. **AI Accessibility Audit Framework**: OpenMax builds a comprehensive accessibility assessment system:
    - Designs an AI feature accessibility evaluation matrix covering five barrier dimensions: visual, auditory, motor, cognitive, and linguistic
    - Creates a model performance disparity analysis framework to systematically identify accuracy gaps across demographic groups
    - Generates a training data representativeness review checklist to assess dataset coverage of underrepresented populations
    - Designs an assistive technology compatibility testing protocol to ensure AI-generated content works seamlessly with screen readers, voice control, and other tools
    - Establishes cognitive accessibility standards to optimize AI interaction complexity for users with varying cognitive abilities
 
-2. **Inclusive Design Principles Integration**: COCO embeds inclusivity into the product development process:
+2. **Inclusive Design Principles Integration**: OpenMax embeds inclusivity into the product development process:
    - Establishes "Inclusive Design First" development standards with accessibility requirements embedded in requirement documents and user stories
    - Creates a diverse user testing framework that systematically incorporates feedback from people with disabilities, older adults, low-literacy users, and non-native speakers
    - Designs degraded-experience fallbacks for AI features to ensure accessible alternatives are available when AI functionality is unavailable
    - Generates user research participant diversity guidelines with systematic methods for recruiting underrepresented user groups
    - Builds an accessibility debt tracking mechanism to quantify and prioritize accessibility improvements in the product backlog
 
-3. **Algorithmic Fairness Monitoring System**: COCO establishes continuous fairness monitoring:
+3. **Algorithmic Fairness Monitoring System**: OpenMax establishes continuous fairness monitoring:
    - Designs cross-demographic model performance benchmarking to regularly evaluate AI model behavior across different age, gender, geography, and language user groups
    - Creates a bias root cause analysis methodology to systematically trace algorithmic bias to data, model architecture, or deployment configuration
    - Builds a fairness metrics dashboard for real-time monitoring of AI feature usage rates and satisfaction differences across key demographic groups
    - Generates a bias remediation prioritization framework — a decision matrix for bias fixes based on scope of impact, severity, and remediation difficulty
    - Designs a continuous fairness testing process to integrate fairness testing into the release gate for every model update
 
-4. **Regulatory Compliance and Legal Risk Management**: COCO ensures accessibility compliance:
+4. **Regulatory Compliance and Legal Risk Management**: OpenMax ensures accessibility compliance:
    - Builds an AI accessibility regulatory map covering ADA, EU AI Act accessibility provisions, and regional disability rights regulations
    - Creates an enterprise customer accessibility certification package including VPATs (Voluntary Product Accessibility Templates) and WCAG conformance statements
    - Designs an accessibility risk assessment process to identify high-risk accessibility gaps before product releases
    - Generates an accessibility incident response procedure — a standardized process for handling user accessibility complaints and regulatory inquiries
    - Establishes third-party accessibility audit procurement standards — a framework for selecting and managing external accessibility audit firms
 
-5. **Accessibility Business Case Development**: COCO quantifies the return on accessibility investment:
+5. **Accessibility Business Case Development**: OpenMax quantifies the return on accessibility investment:
    - Creates an accessibility market opportunity analysis to quantify the market size of users with disabilities, aging users, and multilingual users
    - Designs an accessibility investment ROI model connecting accessibility improvements to user acquisition costs, retention rates, and enterprise sales success rates
    - Generates an accessibility competitive benchmarking report comparing competitors' accessibility levels and market positioning
    - Builds an enterprise procurement accessibility requirements mapping to identify mandatory accessibility requirements of target enterprise customers
    - Develops an accessibility brand value framework for positioning inclusive AI as a differentiated market positioning element
 
-6. **Cross-Functional Accessibility Practice Building**: COCO drives organization-level accessibility capability:
+6. **Cross-Functional Accessibility Practice Building**: OpenMax drives organization-level accessibility capability:
    - Designs AI accessibility training curricula with role-specific accessibility training for product, design, and ML engineering teams
    - Creates an accessibility champion program — a community-building framework for cultivating accessibility advocates in each team
    - Establishes an accessibility design review process with accessibility checkpoints embedded in design and code reviews
@@ -10616,7 +10616,7 @@ Output: Inclusive design roadmap + quarterly OKR recommendations + resource requ
 
 > Systematically identifies accumulated technical debt in AI products, creates data-driven refactoring priorities and migration plans, and improves system maintainability without disrupting product iteration.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: The Hidden and Compounding Nature of AI Product Technical Debt Threatens Long-Term Competitiveness**
 
@@ -10626,44 +10626,44 @@ The compounding effect of this multi-layered debt has serious real-world consequ
 
 The core dilemma facing product managers is how to secure resources and priority for technical debt repayment. The cost of technical debt is invisible — it shows up in engineering frustration, feature delivery delays, and system failure frequency rather than clear business metrics. When competing for priority against new feature requests, technical debt work always loses. Product managers need a framework to quantify technical debt as visible business impact before they can secure appropriate space for refactoring work in the product roadmap.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **AI Technical Debt Multi-Layer Assessment Framework**: COCO builds a systematic debt identification system:
+1. **AI Technical Debt Multi-Layer Assessment Framework**: OpenMax builds a systematic debt identification system:
    - Designs a four-dimensional debt assessment matrix: metrics across code, data, model, and infrastructure layers
    - Creates a technical debt business impact quantification model converting engineering delays into feature delivery costs and opportunity costs
    - Generates an AI system health scorecard using observable metrics (deployment frequency, change failure rate, recovery time) to assess overall system health
    - Establishes debt accumulation rate monitoring to track how technical debt grows over time and forecast critical thresholds
    - Designs a cross-functional debt audit process engaging engineering, data, and product teams in regular technical debt inventories
 
-2. **Refactoring Prioritization Decision Framework**: COCO builds a data-driven refactoring decision system:
+2. **Refactoring Prioritization Decision Framework**: OpenMax builds a data-driven refactoring decision system:
    - Creates a technical debt ROI calculation model computing refactoring return on investment based on fix cost, delay mitigation, and future velocity improvement
    - Designs a debt heat map to identify the most debt-dense and most frequently modified system components as priority refactoring targets
    - Generates a risk-weighted prioritization matrix combining technical risk (failure probability), business impact, and refactoring complexity
    - Builds a refactoring impact prediction model using historical data to forecast velocity improvements from different refactoring projects
    - Develops a "fix while running" strategy — an engineering approach to continuously repaying technical debt without freezing feature iteration
 
-3. **Data and Model Debt Dedicated Governance**: COCO addresses AI-specific technical debt:
+3. **Data and Model Debt Dedicated Governance**: OpenMax addresses AI-specific technical debt:
    - Designs a data pipeline health assessment framework detecting data drift, data quality degradation, and data processing logic decay
    - Creates a model version governance system managing multiple coexisting model versions, feature consistency, and training data lineage
    - Establishes a feature store debt audit to identify redundant features, deprecated features, and feature computation efficiency issues
    - Generates an evaluation infrastructure gap analysis identifying blind spots where model quality cannot be reliably measured
    - Designs ML experiment reproducibility standards — data and configuration management norms ensuring experiment results are reproducible
 
-4. **Refactoring Execution Plan Design**: COCO plans safe and executable refactoring paths:
+4. **Refactoring Execution Plan Design**: OpenMax plans safe and executable refactoring paths:
    - Creates a progressive refactoring strategy breaking large refactoring projects into incrementally deliverable small steps to reduce risk
    - Designs a refactoring safety net mechanism with standardized configuration of test coverage requirements, feature flags, and rollback strategies
    - Establishes a dual-track operation framework covering traffic switching, data synchronization, and performance comparison strategies during parallel old/new system operation
    - Generates refactoring milestone definitions with verifiable checkpoints and success criteria for refactoring progress
    - Develops an engineering resource allocation model balancing technical debt repayment versus new feature development in quarterly resource allocation
 
-5. **Technical Debt Communication and Governance**: COCO builds debt visibility and governance mechanisms:
+5. **Technical Debt Communication and Governance**: OpenMax builds debt visibility and governance mechanisms:
    - Creates a technical debt dashboard design — a technical health visualization for product and management audiences
    - Designs a technical debt to business metrics correlation report showing the relationship between technical debt levels and product iteration speed and quality metrics
    - Establishes a quarterly debt review mechanism to regularly assess technical debt trends and refactoring plan execution
    - Generates an engineering effectiveness benchmarking system establishing comparable engineering effectiveness metrics (deployment frequency, lead time, change failure rate)
    - Develops a technical debt budgeting system — a structured method for incorporating technical debt repayment into engineering budget planning
 
-6. **AI System Modernization Strategic Planning**: COCO charts long-term technical evolution:
+6. **AI System Modernization Strategic Planning**: OpenMax charts long-term technical evolution:
    - Designs an AI infrastructure modernization roadmap with a phased migration plan from current architecture to target architecture
    - Creates a technology selection evaluation framework with decision matrices for MLOps platforms, feature stores, and model serving infrastructure
    - Builds a build vs. buy vs. open-source decision framework for AI infrastructure component strategy
@@ -10767,7 +10767,7 @@ Output: Three-quarter technical debt roadmap + resource allocation recommendatio
 
 > Uses AI capabilities to build a fine-grained user segmentation system and deliver personalized product experiences — serving users at scale while providing each user with highly relevant AI interactions.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Homogeneous AI Experiences Cannot Meet Diverse User Needs, Leading to Low Value Realization Rates**
 
@@ -10777,44 +10777,44 @@ The subtler problem is that personalization in AI products goes far beyond simpl
 
 The implementation complexity of personalization discourages most teams from attempting it. Product teams lack a systematic method to identify meaningful user segments (rather than arbitrary label stacking), cannot design scalable personalization mechanisms (rather than manually adjusting prompts for each group), and cannot find the right balance between privacy protection requirements and personalization effectiveness. The result is that personalization work either never gets started, or stays at the level of simple interface skin changes, missing the true value of AI-driven personalization.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Behavior-Driven User Segmentation Framework**: COCO builds a fine-grained user understanding system:
+1. **Behavior-Driven User Segmentation Framework**: OpenMax builds a fine-grained user understanding system:
    - Designs AI-product-specific user segmentation dimensions: multi-dimensional segmentation model covering skill level, usage depth, workflow dependency, and output consumption preferences
    - Creates a behavioral signal extraction system to derive signals of user skill level, preferences, and use cases from AI interaction data
    - Builds a dynamic segmentation mechanism to update user group membership in real time based on behavioral changes, capturing user growth trajectories
    - Generates a segmentation value validation framework to verify differences across user segments in retention, expansion revenue, and product value realization
    - Designs a privacy-compliant data collection strategy — a design framework for obtaining sufficient personalization signals under the principle of minimal data collection
 
-2. **AI Output Personalization Engine Design**: COCO builds a scalable personalization mechanism:
+2. **AI Output Personalization Engine Design**: OpenMax builds a scalable personalization mechanism:
    - Creates a user profile-driven prompt engineering framework — a design method for systematically incorporating user attributes into AI system prompts
    - Designs an adaptive output format system to dynamically adjust AI output detail level, format, and style based on user preferences
    - Builds a personalization feedback loop to continuously improve the personalization model from users' explicit feedback (likes/dislikes) and implicit behaviors (copy/modify/ignore)
    - Generates professional domain personalization strategies — terminology and content personalization plans for specialized contexts like healthcare, legal, and financial services
    - Designs language and cultural localization personalization — an adaptation framework for cultural norms and expression styles beyond simple translation
 
-3. **User Journey Personalization Design**: COCO optimizes personalized experiences across the full lifecycle:
+3. **User Journey Personalization Design**: OpenMax optimizes personalized experiences across the full lifecycle:
    - Creates a new user onboarding personalization matrix — segmented onboarding path designs based on professional background and usage goals
    - Designs a progressive feature unlock strategy — a personalized gating mechanism that gradually opens advanced AI features based on user maturity
    - Builds a use case recognition system to automatically identify the user's current work context and switch the AI assistant's operating mode
    - Generates personalized value moment designs — "aha moment" trigger strategies for different user groups
    - Develops reactivation personalization strategies — segmented re-engagement strategies and personalized touchpoints for dormant users
 
-4. **Enterprise-Level Personalization Scaling Framework**: COCO designs organization-level personalization capabilities:
+4. **Enterprise-Level Personalization Scaling Framework**: OpenMax designs organization-level personalization capabilities:
    - Creates a team/organization-level preference configuration system supporting enterprise customers in uniformly configuring AI behavior norms at the team level
    - Designs industry vertical personalization packages — pre-configured AI behavior parameter sets for healthcare, legal, financial, and other industries
    - Builds enterprise knowledge base integration personalization — a deep personalization solution based on enterprise-specific data and processes
    - Generates permission-layered personalization governance defining the configurable scope of AI behavior for different roles (admin/user)
    - Develops a multi-tenant personalization isolation architecture ensuring different enterprise customers' personalization configurations remain isolated from one another
 
-5. **Personalization Effectiveness Measurement System**: COCO establishes rigorous effectiveness validation mechanisms:
+5. **Personalization Effectiveness Measurement System**: OpenMax establishes rigorous effectiveness validation mechanisms:
    - Designs a personalization A/B testing framework — an experimental design method for validating personalization strategy effectiveness within user groups
    - Creates a personalization value attribution model attributing retention improvements and expansion revenue to specific personalization initiatives
    - Builds a personalization quality assessment metric measuring personalization relevance, user satisfaction, and unintended impacts
    - Generates personalization backfire detection to identify over-personalization (filter bubbles) and personalization misalignment (not meeting expectations)
    - Develops a personalization iteration prioritization framework — a methodology for continuously improving personalization strategies based on effectiveness data
 
-6. **Personalization Data Strategy and Privacy Governance**: COCO ensures responsible personalization:
+6. **Personalization Data Strategy and Privacy Governance**: OpenMax ensures responsible personalization:
    - Creates a minimal-data personalization architecture — a technical solution for achieving effective personalization while collecting the minimum necessary user data
    - Designs a user data transparency interface allowing users to clearly see and control what data influences their AI experience
    - Builds personalization data lifecycle management covering retention periods, update mechanisms, and deletion policies for personalization data
@@ -10908,7 +10908,7 @@ Output: Experiment design document + statistical power analysis + implementation
 
 > Establishes a continuously running AI competitive intelligence monitoring system that tracks competitor moves, industry trends, and technology breakthroughs in real time — providing timely, structured market insights for product decisions.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: The Speed of Change in AI Exceeds Manual Monitoring Capacity, Leaving Product Teams Perpetually Behind on Information**
 
@@ -10918,44 +10918,44 @@ AI product competitive intelligence also faces a signal dilution problem. Market
 
 The deeper challenge is the disconnection between competitive intelligence and product decisions. Even when teams collect substantial competitor information, that information often stays in product managers' bookmarks without systematically influencing roadmap priorities, pricing strategies, and market positioning decisions. The value of competitive intelligence lies in driving action, not generating reports. Product teams need systematic mechanisms for embedding competitive intelligence into daily workflows, quarterly planning cycles, and strategic decision processes.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Structured Competitive Intelligence Collection System**: COCO builds a systematic signal capture network:
+1. **Structured Competitive Intelligence Collection System**: OpenMax builds a systematic signal capture network:
    - Designs a multi-source competitive signal monitoring framework integrating product updates, hiring signals, patent filings, research papers, and community discussions
    - Creates a competitor feature tracking template — a standardized method for recording changes in features, pricing, and positioning with each competitor update
    - Builds a customer conversation intelligence extraction process to systematically extract competitive insights from lost deal analysis, customer success reviews, and support tickets
    - Generates an industry event intelligence plan — intelligence collection strategies for AI summits, research releases, and open-source project milestones
    - Designs competitive intelligence quality grading standards — a credibility grading system distinguishing primary sources, secondary sources, and market rumors
 
-2. **AI Competitive Landscape Analysis Framework**: COCO deepens competitive understanding:
+2. **AI Competitive Landscape Analysis Framework**: OpenMax deepens competitive understanding:
    - Creates a technology capability comparison matrix for systematic cross-competitor comparison across AI capability dimensions (accuracy, latency, cost, customizability)
    - Designs a competitor product strategy interpretation method to infer competitors' strategic intentions from their feature combinations, pricing structures, and target customers
    - Builds a competitor technology roadmap prediction model using hiring signals, research directions, and open-source contributions to predict competitors' technical focus areas 6–12 months out
    - Generates a competitive white space identification framework to systematically analyze user needs and market opportunities that competitors collectively overlook
    - Develops a technology generational leap risk assessment to identify emerging technology breakthroughs that may disrupt the current competitive landscape
 
-3. **Regular Competitive Intelligence Reporting System**: COCO converts intelligence into actionable insights:
+3. **Regular Competitive Intelligence Reporting System**: OpenMax converts intelligence into actionable insights:
    - Designs a weekly competitive flash report format — a 5-minute-readable summary of key competitive developments focused on actionable information
    - Creates a monthly competitive landscape report framework — a structured report template covering competitive landscape changes, win/loss analysis, and strategic recommendations
    - Establishes a quarterly competitive strategy review — a quarterly mechanism for deep competitive analysis and product strategy alignment
    - Generates a competitive event response report — a rapid analysis and response recommendation template for major competitor launches
    - Develops an annual competitive landscape white paper — a comprehensive annual analysis of market share, competitive dynamics trends, and future competitive predictions
 
-4. **Sales Competitive Support Tool Development**: COCO connects intelligence to front-line sales:
+4. **Sales Competitive Support Tool Development**: OpenMax connects intelligence to front-line sales:
    - Creates a competitor battle card system — advantage comparisons, differentiation talking points, and common objection responses for each major competitor
    - Designs a competitor displacement case library — success stories and migration frameworks for effectively winning over competitor customers
    - Builds real-time competitive battleground support — intelligence resources and response strategies that sales can access instantly when facing a competitor
    - Generates competitor demo comparison scripts — guided talking points for effectively presenting competitive advantages in product demonstrations
    - Develops a competitive pricing response strategy — a response framework and floor strategy for handling aggressive competitor pricing
 
-5. **Competitive Intelligence-Driven Product Decisions**: COCO embeds intelligence into product processes:
+5. **Competitive Intelligence-Driven Product Decisions**: OpenMax embeds intelligence into product processes:
    - Designs a competitive intelligence to roadmap connection mechanism — a process for systematically incorporating competitive insights into quarterly roadmap planning
    - Creates a "competition-triggered" product decision process defining which competitive signals should trigger urgent roadmap adjustments
    - Builds a competitive differentiation feature scoring system to quantify competitive differentiation value in feature priority scoring
    - Generates competitive intelligence impact tracking to record product decisions made based on competitive intelligence and their outcomes, improving intelligence quality
    - Develops competitive intelligence confidentiality management standards for distributing and managing sensitive competitive information internally
 
-6. **Open Source and Ecosystem Intelligence Monitoring**: COCO tracks the technology ecosystem:
+6. **Open Source and Ecosystem Intelligence Monitoring**: OpenMax tracks the technology ecosystem:
    - Creates a key open-source project monitoring framework to track progress of open-source AI projects with significant competitive impact
    - Designs academic research commercialization prediction to identify technology commercialization signals 6–18 months out from top AI research conference papers
    - Builds a partner ecosystem competitive analysis to track which competitors key partners are also working with and their strategic intentions
@@ -11062,7 +11062,7 @@ Output: Competitive white space opportunity map + strategic entry assessment for
 
 > Builds a knowledge management system for AI product teams — systematically preserving product decisions, experiment insights, and best practices, eliminating knowledge silos and information loss, and accelerating team learning velocity.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: The Highly Tacit Nature of AI Product Knowledge Prevents Team Wisdom from Accumulating — Every Personnel Change Is a Knowledge Disaster**
 
@@ -11072,44 +11072,44 @@ The documentation dilemma is particularly acute in AI products. Traditional docu
 
 The deeper problem is the disconnection between knowledge management and daily workflows. Team members don't document knowledge not because they're lazy, but because the time gap between the act of documentation and its eventual use is too long — by the time a document is written, the knowledge is no longer urgent to the person writing it. Effective knowledge management requires embedding knowledge preservation into the workflow itself, capturing knowledge naturally at the moment it is created, and organizing it in a way that users can quickly find when they need it.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **AI Product Knowledge Classification System**: COCO builds a structured knowledge organization framework:
+1. **AI Product Knowledge Classification System**: OpenMax builds a structured knowledge organization framework:
    - Designs an AI product knowledge ontology — a five-domain classification system covering decision records, experiment archives, model knowledge, customer insights, and operational playbooks
    - Creates a knowledge priority assessment framework to identify high-value, high-loss-risk tacit knowledge for priority externalization
    - Builds a knowledge expiration management mechanism — tagging the timeliness of different knowledge types and periodically triggering updates or archiving
    - Generates a knowledge graph design showing the structural relationships between different knowledge entries
    - Establishes knowledge quality assessment standards distinguishing high-quality usable knowledge from low-quality noise
 
-2. **Decision Records and Rationale Preservation**: COCO ensures product wisdom is not lost with personnel turnover:
+2. **Decision Records and Rationale Preservation**: OpenMax ensures product wisdom is not lost with personnel turnover:
    - Creates Architecture Decision Record (ADR) templates — standardized recording formats for product and technical decisions including context, options, decision, and rationale
    - Designs a failed experiment archive system — a knowledge base specifically for recording failed experiments and their root causes, preventing repeated mistakes
    - Builds a product hypothesis and validation log to systematically track each product hypothesis from proposal through testing to validation or refutation
    - Generates technical debt decision archives — records of every "we know there's a problem but we chose to accept it" technical decision and the tradeoffs at the time
    - Develops roadmap change rationale records — standardized documentation of the context, triggers, and expected impact of each major roadmap adjustment
 
-3. **Experiment Knowledge Management System**: COCO builds systematic ML experiment knowledge preservation:
+3. **Experiment Knowledge Management System**: OpenMax builds systematic ML experiment knowledge preservation:
    - Designs experiment report standard templates — going beyond data recording to capture experiment reports that include hypotheses, methodology choices, and conclusion generalizability
    - Creates an experiment insight distillation process to extract findings from individual experiments into general insights reusable across projects
    - Builds a prompt engineering knowledge base — a structured accumulation of effective prompt patterns, failure cases, and design principles
    - Generates model evaluation historical archives — complete historical records of model versions, benchmark results, and deployment decisions
    - Develops a regular experiment retrospective mechanism — quarterly experiment reviews distilling strategic insights from large volumes of experimental data
 
-4. **Customer Insight Knowledge Management**: COCO preserves user understanding:
+4. **Customer Insight Knowledge Management**: OpenMax preserves user understanding:
    - Creates a user research knowledge base — a structured preservation and retrieval system for user interviews, usability tests, and feedback analysis
    - Designs a customer conversation insight extraction template — a standardized process for systematically extracting product-relevant insights from sales and customer success conversations
    - Builds a user need pattern library — extraction and organization of recurring user need patterns found across multiple research studies
    - Generates a vertical industry knowledge base accumulating knowledge about the specific and common AI product requirements of customers in different industries
    - Develops customer insight timeliness management — tagging customer insights with their data collection time to prevent decisions based on outdated data
 
-5. **Knowledge Transfer and Onboarding System**: COCO accelerates new member ramp-up:
+5. **Knowledge Transfer and Onboarding System**: OpenMax accelerates new member ramp-up:
    - Designs a new employee knowledge transfer curriculum — a structured product knowledge onboarding plan allowing new members to grasp core background knowledge within 4–8 weeks
    - Creates a critical path knowledge map — a checklist of core knowledge new employees must master with a recommended learning sequence
    - Builds a knowledge mentor matching mechanism — pairing tacit knowledge holders with new employees to accelerate tacit knowledge transfer
    - Generates a frequently asked questions knowledge base — systematic answers to high-frequency questions from new members, reducing time lost to repeated Q&A
    - Develops a cross-team knowledge sharing system — regular cross-functional knowledge sharing to break down knowledge silos between ML, product, design, and sales
 
-6. **Knowledge Management Tools and Workflow Integration**: COCO embeds knowledge preservation into workflows:
+6. **Knowledge Management Tools and Workflow Integration**: OpenMax embeds knowledge preservation into workflows:
    - Designs workflow-triggered knowledge capture — process designs that automatically trigger knowledge recording after project completion, experiment conclusion, and customer conversations
    - Creates a knowledge management tool selection framework — a decision matrix for selecting appropriate tools based on team size, knowledge type, and workflow characteristics
    - Builds a knowledge base health metrics system — a quantitative metrics system tracking knowledge base coverage, timeliness, and usage rates
@@ -11224,7 +11224,7 @@ Output: Structured knowledge onboarding plan + checkpoint definitions + knowledg
 
 > Builds a professional crisis communication and stakeholder management system for AI product failures, data incidents, and ethical controversies — protecting product reputation and user trust in high-pressure moments.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: AI Product-Specific Failure Modes Leave Teams Unprepared for Crises, and Wrong Communication Approaches Amplify Small Incidents into PR Disasters**
 
@@ -11234,44 +11234,44 @@ The typical failure pattern in AI product crisis communication is a response led
 
 The most dangerous situation is unprepared crisis response. AI product teams typically have no pre-defined crisis response processes, no practiced communication responsibility chains, and no communication frameworks for AI-specific crisis types. When a real crisis occurs, teams are in chaos: who is responsible for external communication, what information can be disclosed externally, how to simultaneously communicate with users, regulators, media, and internal stakeholders. In an information vacuum, external media and affected users fill that vacuum — usually with the most unfavorable narrative framing for the product.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **AI Crisis Scenario Playbook System**: COCO builds comprehensive crisis preparation:
+1. **AI Crisis Scenario Playbook System**: OpenMax builds comprehensive crisis preparation:
    - Designs an AI product crisis type classification framework — a classification system categorizing possible crises by nature (technical/ethical/security/privacy) and severity
    - Creates a high-frequency crisis scenario playbook library — pre-built response plans for the most likely AI crisis types (discriminatory output, hallucination harm, data breach)
    - Builds a crisis response decision tree — a decision framework that automatically matches response levels and action checklists based on crisis type and severity
    - Generates crisis drill scenario designs for periodic crisis simulations testing response capabilities before a real crisis occurs
    - Establishes crisis boundary definitions to clearly distinguish incidents requiring immediate public disclosure from problems that can be handled internally
 
-2. **Stakeholder Communication Tiering Strategy**: COCO designs differentiated multi-party communication:
+2. **Stakeholder Communication Tiering Strategy**: OpenMax designs differentiated multi-party communication:
    - Creates an AI crisis stakeholder map identifying the differing concerns and communication priorities of users, regulators, media, investors, partners, and employees
    - Designs a tiered communication sequencing framework specifying which stakeholders should be notified first, through what channels, with what core message
    - Builds a regulatory communication protocol — a standardized process for communicating with regulators in incidents involving privacy regulations or AI regulation
    - Generates internal employee communication templates — an internal communication framework for keeping employees informed and maintaining team morale during a crisis
    - Develops a media relations crisis response strategy covering response strategies and authorized spokesperson systems for media inquiries and negative coverage
 
-3. **AI-Specific Crisis Communication Frameworks**: COCO provides targeted communication guidance:
+3. **AI-Specific Crisis Communication Frameworks**: OpenMax provides targeted communication guidance:
    - Designs an AI bias and discrimination incident communication framework — how to strike the right balance between acknowledging the problem, explaining the cause, and conveying improvement measures
    - Creates an AI hallucination harm incident response script — a responsibility acceptance and communication framework when AI output causes actual user harm
    - Builds an AI data privacy incident communication protocol — communication standards for disputes involving possible user data in AI training or use
    - Generates an AI security vulnerability disclosure framework — a responsible disclosure process for AI-specific security incidents such as prompt injection and jailbreak attacks
    - Develops an AI capability misrepresentation crisis response — corrective communication strategies for disputes arising from user expectation gaps after product capabilities are misunderstood or overstated
 
-4. **Crisis Response Team and Process Design**: COCO builds organizational support for crisis moments:
+4. **Crisis Response Team and Process Design**: OpenMax builds organizational support for crisis moments:
    - Creates a crisis response team structure with clear responsibilities and authority for product, legal, PR, customer service, and engineering roles during a crisis
    - Designs crisis command center operating standards — decision mechanisms, information aggregation channels, and escalation paths during a crisis
    - Builds a 24-hour crisis monitoring system for social media, user forums, and news media crisis signal detection and alerting
    - Generates a crisis communication approval process — an approval mechanism that ensures response speed while preventing unauthorized crisis statements
    - Develops a post-crisis retrospective framework for systematically analyzing crisis handling, extracting learnings, and updating playbooks
 
-5. **Reputation Repair and Trust Rebuilding Strategy**: COCO designs long-term post-crisis recovery paths:
+5. **Reputation Repair and Trust Rebuilding Strategy**: OpenMax designs long-term post-crisis recovery paths:
    - Creates a user trust rebuilding roadmap — a path to rebuilding user trust after a major AI incident through specific actions (feature improvements, transparency enhancements, compensation mechanisms)
    - Designs transparency enhancement measures — specific product improvement directions for increasing AI system explainability and user visibility post-crisis
    - Builds a third-party audit and certification strategy — a pathway for restoring external credibility through independent audits and external certifications
    - Generates a case learning and public sharing framework for converting crisis handling into industry learning opportunities and building reputational capital through responsible disclosure
    - Develops a long-term reputation monitoring system to continuously track brand trust recovery following a crisis
 
-6. **Preventive Reputation Management**: COCO builds mechanisms for preventing crises before they occur:
+6. **Preventive Reputation Management**: OpenMax builds mechanisms for preventing crises before they occur:
    - Designs an AI product reputation risk assessment — a pre-release evaluation framework for identifying potential reputational risks before feature launches and model updates
    - Creates user expectation management strategies — designs for reducing expectation gap controversies through clear capability descriptions and usage limitation communication
    - Builds an AI ethics review process — ethical impact assessment and potential crisis identification before high-risk AI features go live
@@ -11378,7 +11378,7 @@ Output: Trust rebuilding roadmap + phased communication plan + trust metrics mon
 
 > Precisely connects AI feature investment to quantifiable business outcomes — building data-driven AI product business cases that provide credible financial justification for resource acquisition and strategic decisions.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: AI Product Teams Cannot Clearly Demonstrate the Financial Return on AI Investment, Making Resource Acquisition Difficult and Strategic Credibility Insufficient**
 
@@ -11388,44 +11388,44 @@ AI product revenue attribution is more complex than traditional software product
 
 The deeper challenge is the trust problem with business case quality. When AI product teams present business cases claiming "AI features will bring 40% retention improvement," finance teams and management's instinct is to be skeptical — because they've seen too many technical teams' optimistic predictions fail to materialize. Building credibility for AI investment business cases requires not just reasonable assumptions, but rigorous methodology, clear acknowledgment of uncertainty, and a track record of historical prediction accuracy.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **AI Feature Value Measurement Framework**: COCO builds a rigorous revenue quantification system:
+1. **AI Feature Value Measurement Framework**: OpenMax builds a rigorous revenue quantification system:
    - Designs an AI feature value chain mapping from AI technical improvements to user behavior changes to business metrics causal chain modeling
    - Creates a direct value measurement methodology: A/B test design, retained revenue calculation, task completion efficiency improvement quantification
    - Builds an indirect value attribution model to isolate the contribution of AI features to retention rates, upgrade rates, and NPS from other factors
    - Generates a platform value estimation framework — a value quantification method for AI infrastructure investment on overall product iteration speed
    - Develops value measurement uncertainty quantification with confidence intervals and sensitivity analysis standards for each value hypothesis
 
-2. **AI Investment Business Case Construction**: COCO provides credible financial justification frameworks:
+2. **AI Investment Business Case Construction**: OpenMax provides credible financial justification frameworks:
    - Creates an AI product ROI calculation model — a complete financial model of costs (engineering, compute, data) versus benefits (retention, expansion, efficiency)
    - Designs a scenario analysis framework with investment return forecasts under baseline, optimistic, and pessimistic scenarios
    - Builds a peer competitor ROI benchmark using industry data to calibrate internal predictions and improve business case credibility
    - Generates payback period analysis — typical investment payback timelines and milestones for different AI investment types
    - Develops "cost of not investing" analysis — quantifying the opportunity cost and competitive disadvantage cost of forgoing AI investment
 
-3. **Revenue Attribution Analysis System**: COCO builds precise value source tracking:
+3. **Revenue Attribution Analysis System**: OpenMax builds precise value source tracking:
    - Designs a multi-touchpoint AI attribution model to reasonably allocate value contribution across multiple AI touchpoints in the user journey
    - Creates an AI feature retention impact analysis to isolate the net impact of AI feature usage on user retention while controlling for confounding variables
    - Builds AI-driven expansion revenue tracking to identify statistical correlations between AI feature usage and account upgrades and seat expansions
    - Generates AI cost savings quantification — cost savings calculations for replacing manual review, content generation, and data analysis with AI
    - Develops AI brand value assessment of the impact of AI product reputation on brand premium and new customer acquisition costs
 
-4. **Resource Request Financial Justification Tools**: COCO arms teams for internal resource acquisition:
+4. **Resource Request Financial Justification Tools**: OpenMax arms teams for internal resource acquisition:
    - Creates an engineering team headcount expansion business case template — financial justification for adding ML engineers and data engineers
    - Designs a compute budget request framework quantitatively connecting increases in model training and inference costs to expected revenue increments
    - Builds an AI tools procurement business case — ROI justification for third-party AI APIs, MLOps platforms, and data annotation services
    - Generates a data acquisition investment business case — a value quantification framework for high-quality training data procurement or generation
    - Develops an AI security and compliance investment justification — quantitatively connecting AI security investment to avoided risk costs
 
-5. **Historical Prediction Accuracy Building**: COCO accumulates credible prediction records:
+5. **Historical Prediction Accuracy Building**: OpenMax accumulates credible prediction records:
    - Designs a business case prediction tracking system — systematically recording each AI investment's predicted versus actual values to build a prediction history
    - Creates a prediction calibration methodology — systematically correcting future predictions' systematic biases based on historical data
    - Builds prediction assumption records — clearly documenting each business case's key assumptions for later verification of which assumptions held
    - Generates a business case retrospective system — a retrospective report for each major AI investment completion comparing predictions with actuals
    - Develops a credibility scoring system — credibility scores for business cases of different AI investment types based on historical accuracy rates
 
-6. **Executive and Board Financial Communication**: COCO improves the quality of financial reporting:
+6. **Executive and Board Financial Communication**: OpenMax improves the quality of financial reporting:
    - Creates an AI product P&L (profit and loss) framework — a reporting format presenting AI product unit economics in financial language
    - Designs an AI investment portfolio return analysis — comprehensive return analysis and optimization recommendations across multiple AI projects
    - Builds an AI product valuation contribution framework — analysis of AI capabilities' contribution to overall company valuation multiples (applicable in fundraising scenarios)
@@ -11551,7 +11551,7 @@ Output: Budget request document + financial justification + decision-maker speci
 
 > Plans the ecosystem layout and partnership strategy for AI products — accelerating product capability expansion and widening distribution channels through strategic partnerships to build a platform moat that is difficult to replicate.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Isolated AI Products Struggle to Build Lasting Competitive Advantages in the Platform Economy Era — Ecosystem Building Is Treated as Optional Rather Than Strategically Essential**
 
@@ -11561,44 +11561,44 @@ Partnership strategy for AI products is more complex than traditional software b
 
 The most common failure pattern is managing partnerships in isolation from direct sales. Many AI product companies have established partner programs, but leads from partnerships enter the sales funnel in the same way as direct sales leads, without dedicated conversion processes and success metrics designed for the partner channel, causing partners to lose confidence in channel value and gradually stop making referrals. Ecosystem building requires end-to-end design thinking — a complete operational system covering partner recruitment, value delivery, joint marketing, and shared customer success.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **AI Ecosystem Strategy Framework Design**: COCO plans strategic ecosystem layout:
+1. **AI Ecosystem Strategy Framework Design**: OpenMax plans strategic ecosystem layout:
    - Creates an AI ecosystem role analysis matrix identifying the roles and partnership value of underlying model providers, complementary applications, distribution platforms, system integrators, and enterprise customers
    - Designs an ecosystem layout prioritization framework for selecting ecosystem building priority directions based on product stage, strategic objectives, and resource constraints
    - Builds a competition and collaboration boundary analysis to identify coopetition relationships among potential partners and design appropriate partnership protection mechanisms
    - Generates an ecosystem moat building pathway — how to create sustainable competitive advantages through data network effects, integration depth, and partner-exclusive features
    - Develops an ecosystem evolution roadmap from early win-win small-scale partnerships to platform-level ecosystem layout in phases
 
-2. **Partner Value Proposition Design**: COCO builds proposals that attract quality partners:
+2. **Partner Value Proposition Design**: OpenMax builds proposals that attract quality partners:
    - Creates type-specific partner value propositions — exclusive value proposals for technology partners, channel partners, system integrators, and strategic alliances
    - Designs a partner revenue model — partnership incentive design for commission structures, co-revenue sharing, joint marketing resources, and priority technology access
    - Builds a partner tiering system — partner tier segmentation based on contribution and strategic value with differentiated benefits
    - Generates a partner technical integration support package — a partner technical enablement system including API documentation, SDKs, sandbox environments, and integration engineering support
    - Develops partner marketing activity resources — a partner marketing framework for joint branding, co-marketing resources, and case co-development
 
-3. **Strategic Partnership Negotiation Framework**: COCO provides partnership negotiation support:
+3. **Strategic Partnership Negotiation Framework**: OpenMax provides partnership negotiation support:
    - Designs AI partnership agreement core terms — an AI partnership-specific clause library covering data usage rights, IP ownership, capability restrictions, non-compete, and termination terms
    - Creates a partnership value quantification method for objectively assessing both parties' contributions and determining fair distribution ratios in negotiations
    - Builds a partner due diligence checklist — a pre-partnership evaluation framework covering technical compatibility, compliance status, market reputation, and customer base
    - Generates a partnership negotiation strategy guide — negotiation priorities and concession strategies for different partnership types (technical integration, channel partnerships, joint marketing)
    - Develops a partnership agreement risk assessment — a contract review framework for identifying unfair terms, lock-in risks, and IP protection gaps
 
-4. **Partner Operations System Building**: COCO ensures partnerships continuously create value:
+4. **Partner Operations System Building**: OpenMax ensures partnerships continuously create value:
    - Creates a partner onboarding program — a standardized onboarding that allows new partners to quickly understand product capabilities, integration methods, and joint sales strategies
    - Designs a partner success metrics system — quantitative metrics tracking partner-contributed leads, conversions, customer satisfaction, and revenue
    - Builds a regular partner communication mechanism — communication cadence for QBRs (quarterly business reviews), technology update briefings, and partnership development roadmaps
    - Generates a partner conflict resolution framework — partnership relationship maintenance mechanisms for customer attribution disputes, pricing conflicts, and product capability overlaps
    - Develops a partner exit management process — orderly management when partnership relationships are adjusted, downgraded, or terminated, protecting customer relationships and brand reputation
 
-5. **Platform and API Ecosystem Building**: COCO designs technology ecosystem expansion strategy:
+5. **Platform and API Ecosystem Building**: OpenMax designs technology ecosystem expansion strategy:
    - Creates a developer ecosystem tiering framework — differentiated support strategies from individual developers to independent software vendors (ISVs) to large system integrators
    - Designs an API productization strategy — a product roadmap for packaging core AI capabilities as developer-friendly API products
    - Builds an app marketplace strategy — a strategic decision framework for whether and how to build an app marketplace or plugin ecosystem
    - Generates a developer community building plan — community operations strategies for attracting, retaining, and enabling external developers
    - Develops ecosystem data network effect design — how to strengthen the core product data flywheel through open data, model feedback, and integration data
 
-6. **Ecosystem Health Monitoring**: COCO tracks ecosystem building effectiveness:
+6. **Ecosystem Health Monitoring**: OpenMax tracks ecosystem building effectiveness:
    - Designs an ecosystem health metrics system — comprehensive metrics for partner quantity growth, integration depth, partner-contributed revenue ratio, and developer activity
    - Creates a partner satisfaction monitoring system — periodic partner NPS surveys and relationship health assessment mechanisms
    - Builds an ecosystem competitive risk monitoring system to track whether partners are simultaneously developing their own capabilities that compete with ours
@@ -11710,7 +11710,7 @@ Output: Partner operations handbook + tiering standards + performance tracking d
 
 > Builds a long-term vision narrative and innovation pipeline management system for AI products — systematically exploring breakthrough opportunities under daily iteration pressure to ensure the product maintains strategic leadership over a 3–5 year horizon.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Daily Iteration Pressure Crowds Out Strategic Thinking Space, Trapping AI Product Teams in a Feature Factory and Losing Long-Term Leadership Capability**
 
@@ -11720,44 +11720,44 @@ Long-term vision building is harder in AI products than in other industries — 
 
 The more specific challenge is the management dilemma of the innovation pipeline. Even when teams recognize the importance of long-term exploration, they often lack effective mechanisms for protecting exploration space under daily iteration pressure. The 20% exploration time policy is typically the first thing sacrificed under end-of-quarter urgent delivery pressure. Exploratory projects tend to be abandoned in the face of uncertainty because they lack clear success criteria and milestones. Genuinely promising innovation directions are disadvantaged in resource allocation because they cannot quantify short-term ROI. What teams need is a framework for institutionalizing long-term exploration that allows strategic innovation to persist under daily operational pressure.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **AI Product Long-Term Vision Building**: COCO helps teams build a sense of direction:
+1. **AI Product Long-Term Vision Building**: OpenMax helps teams build a sense of direction:
    - Designs an AI capability evolution prediction framework using technology trends, research directions, and cost curves to forecast the boundaries of AI capabilities 2–5 years out
    - Creates a user expectation evolution model tracking the expectation escalation curve as users gain more AI experience, predicting future value thresholds
    - Builds a vision narrative construction methodology — building a convincing long-term product vision from three dimensions: technological possibilities, user needs, and market opportunities
    - Generates a vision stress testing framework — testing the robustness of the vision against multiple future scenarios (technology development fast/slow, regulation tightening/loosening, competition intensifying/easing)
    - Develops a vision update mechanism with triggers and processes for periodically assessing whether the vision needs adjustment
 
-2. **Innovation Pipeline Layered Management**: COCO builds a systematic exploration mechanism:
+2. **Innovation Pipeline Layered Management**: OpenMax builds a systematic exploration mechanism:
    - Designs a three-layer innovation portfolio: a resource allocation framework covering core optimization (high-certainty returns), adjacent exploration (risky incremental innovation), and transformative experiments (long-term potential)
    - Creates an exploratory project protection mechanism — institutional designs for protecting innovation exploration space under daily iteration pressure
    - Builds innovation project advancement criteria — milestones and advancement standards for exploratory ideas progressing from hypothesis to small-scale experiment to formal project launch
    - Generates an innovation failure culture building framework — building psychological safety so teams are willing to pursue high-risk, high-uncertainty innovation directions
    - Develops a cross-team innovation contribution mechanism — process designs allowing ML engineers, designers, and sales teams to all contribute ideas to the innovation pipeline
 
-3. **Cutting-Edge Technology Opportunity Assessment**: COCO systematically identifies disruptive opportunities:
+3. **Cutting-Edge Technology Opportunity Assessment**: OpenMax systematically identifies disruptive opportunities:
    - Creates an emerging AI technology opportunity scanning framework for continuously monitoring academic frontiers, open-source breakthroughs, and industry experiments to identify technology directions worth attention
    - Designs a technology-product opportunity mapping method to systematically translate abstract technology breakthroughs into concrete product opportunities and user value
    - Builds a technology maturity assessment model to evaluate the distance from new technology to product-ready status and determine the appropriate timing for engagement
    - Generates a technology bet portfolio strategy for reasonably distributing exploration resources across multiple technology directions using portfolio thinking
    - Develops a rapid prototype validation framework — a lean validation methodology for quickly testing new technology hypotheses with minimal resources
 
-4. **Strategic Scenario Planning**: COCO improves adaptability to an uncertain future:
+4. **Strategic Scenario Planning**: OpenMax improves adaptability to an uncertain future:
    - Designs an AI product scenario planning methodology — a structured planning approach for building multiple future scenarios and developing corresponding strategies for each
    - Creates a key uncertainty identification framework to identify external uncertain factors with the greatest impact on long-term product strategy
    - Builds a scenario leading indicator system — setting observable early signals for each future scenario to enable scenario monitoring
    - Generates a strategic options design framework for pre-designing activatable strategic response plans for different scenarios, reducing decision delays under uncertainty
    - Develops a strategic flexibility assessment — evaluating the adaptability of the current product architecture and team capabilities to different future scenarios
 
-5. **Innovation Culture and Organizational Design**: COCO builds an organizational environment conducive to long-term innovation:
+5. **Innovation Culture and Organizational Design**: OpenMax builds an organizational environment conducive to long-term innovation:
    - Creates an innovation time protection system — institutionalized design for regular KPI-free innovation time, hackathons, and exploratory projects
    - Designs a cross-functional innovation team model — operating models and activation mechanisms for innovation groups that break down functional boundaries
    - Builds an external innovation input system — systematic external wisdom input mechanisms through academic collaboration, innovation labs, and industry advisors
    - Generates an innovation metrics system to track innovation exploration activity, idea conversion rates, and long-term innovation value quantitatively
    - Develops an innovation results dissemination mechanism — a knowledge sharing framework for systematically spreading effective learnings from exploration work across the entire team
 
-6. **Long-Term Vision and Daily Execution Alignment**: COCO builds the connection from strategy to tactics:
+6. **Long-Term Vision and Daily Execution Alignment**: OpenMax builds the connection from strategy to tactics:
    - Designs vision-driven roadmap planning — a planning cascade for breaking down long-term vision into medium-term milestones and near-term priorities
    - Creates a strategic stop decision framework to identify which current work should be reduced or even stopped under the long-term vision, freeing resources for strategic priorities
    - Builds a long-term and short-term metrics balancing mechanism to prevent short-term metric optimization from eroding long-term value creation potential

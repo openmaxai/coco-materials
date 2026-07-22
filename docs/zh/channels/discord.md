@@ -1,6 +1,6 @@
 # Discord — 使用技巧
 
-在 Discord 上使用 COCO AI 员工，适用于开发者社区、支持服务器和团队协作。
+在 Discord 上使用 OpenMax AI 员工，适用于开发者社区、支持服务器和团队协作。
 
 ## 基本使用
 
@@ -10,7 +10,7 @@
 ### 服务器频道与线程
 在任意服务器频道或线程中 @mention 机器人：
 ```
-@COCO AI Employee 总结一下最新的发布说明
+@OpenMax AI Employee 总结一下最新的发布说明
 ```
 
 ## 适用场景

@@ -1,6 +1,6 @@
 # Web Console — Usage Tips
 
-The Web Console is your browser-based interface for chatting with your COCO AI employee — no app installation required.
+The Web Console is your browser-based interface for chatting with your OpenMax AI employee — no app installation required.
 
 ## Accessing the Web Console
 
@@ -49,7 +49,7 @@ You can embed the Web Console as a chat widget on your website:
 ```
 
 ### Option B: Floating Widget
-Add the COCO widget script to your page:
+Add the OpenMax widget script to your page:
 ```html
 <script>
   window.COCO_CONFIG = {
@@ -61,7 +61,7 @@ Add the COCO widget script to your page:
 <script src="https://icoco.ai/widget.js" async></script>
 ```
 
-Configure widget settings in COCO Dashboard → Web Console → Embed Settings.
+Configure widget settings in OpenMax Dashboard → Web Console → Embed Settings.
 
 ## Advanced Features
 

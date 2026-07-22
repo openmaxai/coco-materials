@@ -1,6 +1,6 @@
 # Microsoft Teams — Usage Tips
 
-Use your COCO AI employee in Microsoft Teams for enterprise collaboration, team channels, and Microsoft 365 workflows.
+Use your OpenMax AI employee in Microsoft Teams for enterprise collaboration, team channels, and Microsoft 365 workflows.
 
 ## Basic Usage
 
@@ -10,7 +10,7 @@ Send any message directly to the bot. No @mention needed in DMs — just open a 
 ### Group Chats & Team Channels
 @mention the bot in any group conversation or team channel:
 ```
-@COCO AI Employee summarize yesterday's discussion
+@OpenMax AI Employee summarize yesterday's discussion
 ```
 
 ## Best Use Cases

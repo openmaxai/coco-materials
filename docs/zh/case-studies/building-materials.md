@@ -1,14 +1,14 @@
 ---
 layout: page
-title: "新加坡某建材经销商 × COCO AI — 从漏单到智能报价 | COCO"
-description: "日均 200+ WhatsApp 消息、每天 30 张人工发票上限、动辄数千新元的 QS 外包费——新加坡建材经销商如何用 COCO AI 实现近零漏单、发票效率倍增、工程量清单从 1 周压缩到数小时。"
+title: "新加坡某建材经销商 × OpenMax AI — 从漏单到智能报价 | OpenMax"
+description: "日均 200+ WhatsApp 消息、每天 30 张人工发票上限、动辄数千新元的 QS 外包费——新加坡建材经销商如何用 OpenMax AI 实现近零漏单、发票效率倍增、工程量清单从 1 周压缩到数小时。"
 head:
   - - meta
     - property: og:title
-      content: "新加坡某建材经销商 × COCO AI — 从漏单到智能报价"
+      content: "新加坡某建材经销商 × OpenMax AI — 从漏单到智能报价"
   - - meta
     - property: og:description
-      content: "日均 200+ WhatsApp 消息、每天 30 张人工发票上限、动辄数千新元的 QS 外包费——新加坡建材经销商如何用 COCO AI 实现近零漏单、发票效率倍增、工程量清单从 1 周压缩到数小时。"
+      content: "日均 200+ WhatsApp 消息、每天 30 张人工发票上限、动辄数千新元的 QS 外包费——新加坡建材经销商如何用 OpenMax AI 实现近零漏单、发票效率倍增、工程量清单从 1 周压缩到数小时。"
   - - meta
     - property: og:image
       content: "https://docs.icoco.ai/coco-logo-black.png"
@@ -767,7 +767,7 @@ head:
 <div class="case-hero">
   <div class="hero-text-box">
     <h1>新加坡建材经销商<br/><em>从漏单到智能报价</em></h1>
-    <p class="subtitle">每天 200+ 条 WhatsApp 消息淹没团队，人工发票每天上限 30 张，<br/>QS 报价要等一周——COCO AI 让这三个问题同时消失。</p>
+    <p class="subtitle">每天 200+ 条 WhatsApp 消息淹没团队，人工发票每天上限 30 张，<br/>QS 报价要等一周——OpenMax AI 让这三个问题同时消失。</p>
     <div class="hero-stats">
       <div class="stat">
         <div class="stat-value">~0</div>
@@ -816,7 +816,7 @@ head:
 
 ## 解决方案：<em>一体化 AI 能力层</em>
 
-COCO 为该经销商搭建了覆盖前端客户沟通、发票处理和工程量估算三个核心场景的一体化 AI 能力层。不是部署三个独立的点状解决方案，而是交付一个跨三条工作流共享上下文的统一 AI 系统。
+OpenMax 为该经销商搭建了覆盖前端客户沟通、发票处理和工程量估算三个核心场景的一体化 AI 能力层。不是部署三个独立的点状解决方案，而是交付一个跨三条工作流共享上下文的统一 AI 系统。
 
 <div class="pipeline-grid">
   <div class="pipeline-card">
@@ -882,7 +882,7 @@ COCO 为该经销商搭建了覆盖前端客户沟通、发票处理和工程量
   <div class="case-cta">
     <h2>让 AI 改变您的运营方式</h2>
     <p>从消息分拣到智能报价——从一次对话开始</p>
-    <a href="https://icoco.ai" class="cta-btn">开始使用 COCO</a>
+    <a href="https://icoco.ai" class="cta-btn">开始使用 OpenMax</a>
   </div>
 </div>
 
@@ -895,7 +895,7 @@ COCO 为该经销商搭建了覆盖前端客户沟通、发票处理和工程量
       <div class="blog-related-card-body">
         <div class="blog-related-card-label">AI Agent 案例</div>
         <div class="blog-related-card-title">头部集装箱海运集团 — AI 协作网络</div>
-        <div class="blog-related-card-desc">10+ AI 员工，零可见性。COCO Workspace 如何打破黑盒，将孤立的 Agent 变成协同网络。</div>
+        <div class="blog-related-card-desc">10+ AI 员工，零可见性。OpenMax Workspace 如何打破黑盒，将孤立的 Agent 变成协同网络。</div>
       </div>
     </a>
     <a class="blog-related-card" href="/zh/case-studies/tea-brand-franchise">
