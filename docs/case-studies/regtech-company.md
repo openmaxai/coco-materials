@@ -1,14 +1,14 @@
 ---
 layout: page
-title: "Financial RegTech Company × COCO AI — Practicing What You Preach | COCO"
-description: "A RegTech firm selling AI compliance platforms to banks across Asia-Pacific and the Middle East — but running its own marketing and operations manually. How COCO AI unified three fragmented systems, automated regulatory push, and enabled the company to operate the way it advises its clients to."
+title: "Financial RegTech Company × OpenMax AI — Practicing What You Preach | OpenMax"
+description: "A RegTech firm selling AI compliance platforms to banks across Asia-Pacific and the Middle East — but running its own marketing and operations manually. How OpenMax AI unified three fragmented systems, automated regulatory push, and enabled the company to operate the way it advises its clients to."
 head:
   - - meta
     - property: og:title
-      content: "Financial RegTech Company × COCO AI — Practicing What You Preach"
+      content: "Financial RegTech Company × OpenMax AI — Practicing What You Preach"
   - - meta
     - property: og:description
-      content: "A RegTech firm selling AI compliance platforms to banks across Asia-Pacific and the Middle East — but running its own marketing and operations manually. How COCO AI unified three fragmented systems, automated regulatory push, and enabled the company to operate the way it advises its clients to."
+      content: "A RegTech firm selling AI compliance platforms to banks across Asia-Pacific and the Middle East — but running its own marketing and operations manually. How OpenMax AI unified three fragmented systems, automated regulatory push, and enabled the company to operate the way it advises its clients to."
   - - meta
     - property: og:image
       content: "https://docs.icoco.ai/coco-logo-black.png"
@@ -766,7 +766,7 @@ head:
 
 <div class="case-hero">
   <div class="hero-text-box">
-    <h1>RegTech Company × COCO AI<br/><em>Practicing What You Preach</em></h1>
+    <h1>RegTech Company × OpenMax AI<br/><em>Practicing What You Preach</em></h1>
     <p class="subtitle">A compliance tech firm selling AI to banks finally brought AI into its own operations —<br/>unifying three siloed systems and automating regulatory push across two continents.</p>
     <div class="hero-stats">
       <div class="stat">
@@ -794,7 +794,7 @@ This company is a financial compliance technology firm whose core product is an 
 
 But internally, the story was different. The company's own marketing, sales, and customer service functions ran on three entirely separate systems. Regulatory updates — the very lifeblood of the company's value proposition — were monitored, summarized, and distributed to clients through a manual process that was slow, labor-intensive, and inevitably prone to gaps. Client data could not flow between departments; the same customer was effectively a stranger to each team that interacted with them.
 
-The irony was not lost on leadership. They were building and selling the future of AI-driven compliance while operating their own business with yesterday's tools. The gap between their external message and internal reality had become a strategic liability — not just an operational inconvenience. When the decision was made to bring COCO in, it was as much about credibility as it was about efficiency.
+The irony was not lost on leadership. They were building and selling the future of AI-driven compliance while operating their own business with yesterday's tools. The gap between their external message and internal reality had become a strategic liability — not just an operational inconvenience. When the decision was made to bring OpenMax in, it was as much about credibility as it was about efficiency.
 
 </div>
 
@@ -802,7 +802,7 @@ The irony was not lost on leadership. They were building and selling the future 
 
 ## The Solution: <em>Three AI Employees, One Unified Platform</em>
 
-COCO deployed **3 AI employees** and integrated the company's three previously siloed systems into a unified platform. Each AI employee addresses a specific operational pain point while sharing a common data layer that finally connects marketing, sales, and customer service.
+OpenMax deployed **3 AI employees** and integrated the company's three previously siloed systems into a unified platform. Each AI employee addresses a specific operational pain point while sharing a common data layer that finally connects marketing, sales, and customer service.
 
 <div class="pipeline-grid">
   <div class="pipeline-card">
@@ -870,7 +870,7 @@ The company now operates the way it advises clients to — AI-driven from the in
 
 Every technology company faces a version of this challenge: the gap between what you sell and how you operate. For a RegTech firm whose entire value proposition is AI-driven compliance automation, that gap was particularly visible — and particularly costly. Clients who visited the office, who interacted with multiple departments, could sense the disconnect between the polished product demo and the manual reality behind it.
 
-What COCO enabled was not just operational improvement but strategic alignment. By deploying AI employees internally using the same philosophy they advocate externally, the company closed the credibility gap and turned it into a competitive advantage. When prospects ask "Do you actually use this approach yourselves?" the answer is now an unequivocal yes — backed by the same unified platform, the same automated workflows, and the same AI-driven operations model they are selling. For any company in the business of selling AI transformation, this case is a reminder that the transformation must start at home.
+What OpenMax enabled was not just operational improvement but strategic alignment. By deploying AI employees internally using the same philosophy they advocate externally, the company closed the credibility gap and turned it into a competitive advantage. When prospects ask "Do you actually use this approach yourselves?" the answer is now an unequivocal yes — backed by the same unified platform, the same automated workflows, and the same AI-driven operations model they are selling. For any company in the business of selling AI transformation, this case is a reminder that the transformation must start at home.
 
 </div>
 
@@ -878,7 +878,7 @@ What COCO enabled was not just operational improvement but strategic alignment. 
   <div class="case-cta">
     <h2>Practice What You Preach</h2>
     <p>Bring AI into your own operations — the way you advise your clients to</p>
-    <a href="https://icoco.ai" class="cta-btn">Get Started with COCO</a>
+    <a href="https://icoco.ai" class="cta-btn">Get Started with OpenMax</a>
   </div>
 </div>
 

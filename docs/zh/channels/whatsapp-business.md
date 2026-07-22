@@ -1,6 +1,6 @@
 # WhatsApp Business（官方 API）— 使用技巧
 
-在官方 WhatsApp Business Platform（Cloud API）上使用 COCO AI 员工——一个经过验证的企业号码，客户直接用日常使用的 WhatsApp 应用就能联系你。专为规模化的企业客户消息场景打造。
+在官方 WhatsApp Business Platform（Cloud API）上使用 OpenMax AI 员工——一个经过验证的企业号码，客户直接用日常使用的 WhatsApp 应用就能联系你。专为规模化的企业客户消息场景打造。
 
 > 第一次使用？请先查看 [WhatsApp Business 部署指南](../getting-started/channel-deployment#whatsapp-business) 连接你的企业号码。
 

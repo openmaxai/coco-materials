@@ -1,23 +1,23 @@
 # AI Video Generation Tutorial: From Installing Seedance Skill to Configuring API Key
 
-> Let your COCO AI Employee generate professional Jimeng video prompts and automatically call the API to produce videos.
+> Let your OpenMax AI Employee generate professional Jimeng video prompts and automatically call the API to produce videos.
 
 **Workflow:** Describe your idea → Seedance Skill generates prompt → You confirm → Jimeng API generates video → Auto-delivered
 
 ## Prerequisites
 
-- COCO AI Employee
+- OpenMax AI Employee
 - Volcengine account
 
 ---
 
 ## Step 1: Install Seedance Prompt Skill
 
-Seedance Skill is a prompt engineering skill that enables your COCO AI Employee to generate professional Jimeng video prompts. Simply send the GitHub link to your AI Employee to complete the installation.
+Seedance Skill is a prompt engineering skill that enables your OpenMax AI Employee to generate professional Jimeng video prompts. Simply send the GitHub link to your AI Employee to complete the installation.
 
 ### Send the link to your AI Employee
 
-Send the following GitHub link to your COCO AI Employee and tell it to "install this Skill":
+Send the following GitHub link to your OpenMax AI Employee and tell it to "install this Skill":
 
 ```
 https://github.com/songguoxs/seedance-prompt-skill
@@ -59,7 +59,7 @@ Search for "Jimeng AI" or "Smart Vision" in the console, go to the service page,
 
 ## Step 3: Configure API Key
 
-Send the API Key from Step 2 directly to your COCO AI Employee, for example:
+Send the API Key from Step 2 directly to your OpenMax AI Employee, for example:
 
 ```
 Access Key ID: AKLTxxxxxx
@@ -74,7 +74,7 @@ The AI Employee will automatically save the keys and complete the configuration.
 
 ## Step 4: Test & Verify
 
-After configuration, simply ask your COCO AI Employee:
+After configuration, simply ask your OpenMax AI Employee:
 
 ```
 Is the Jimeng API connected successfully?
@@ -90,13 +90,13 @@ The AI Employee will automatically verify whether the API Key is valid and repor
 
 ### 1. Write a prompt
 
-Tell your COCO AI Employee:
+Tell your OpenMax AI Employee:
 
 ```
-Generate a video prompt: COCO product intro, 5 seconds, 16:9 landscape
+Generate a video prompt: OpenMax product intro, 5 seconds, 16:9 landscape
 ```
 
-The COCO AI Employee will invoke the Seedance Skill to output a professional video prompt (including camera language, sound effects, and style descriptions).
+The OpenMax AI Employee will invoke the Seedance Skill to output a professional video prompt (including camera language, sound effects, and style descriptions).
 
 ### 2. Review / Adjust
 
@@ -108,7 +108,7 @@ Review the prompt and modify as needed. For example:
 
 ### 3. Generate video
 
-Once confirmed, the COCO AI Employee calls the Jimeng API to automatically generate the video and sends it directly to the chat.
+Once confirmed, the OpenMax AI Employee calls the Jimeng API to automatically generate the video and sends it directly to the chat.
 
 ---
 

@@ -19,7 +19,7 @@ AI use cases for the automotive industry.
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Recall Monitoring Is Draining Your Team's Productivity**
 
@@ -29,19 +29,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Vehicle Recall Monitor integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI Vehicle Recall Monitor integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Automotive.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Automotive.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -49,7 +49,7 @@ COCO's AI Vehicle Recall Monitor integrates directly into your existing workflow
 
 **Measurable Results**
 
-Teams using COCO's AI Vehicle Recall Monitor report:
+Teams using OpenMax's AI Vehicle Recall Monitor report:
 - **79% reduction** in task completion time
 - **40% decrease** in operational costs for this workflow
 - **96% accuracy** rate, exceeding manual benchmarks
@@ -143,7 +143,7 @@ This week's data:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Inventory Matching Is Draining Your Team's Productivity**
 
@@ -153,19 +153,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Dealership Inventory Matcher integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI Dealership Inventory Matcher integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Automotive.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Automotive.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -173,7 +173,7 @@ COCO's AI Dealership Inventory Matcher integrates directly into your existing wo
 
 **Measurable Results**
 
-Teams using COCO's AI Dealership Inventory Matcher report:
+Teams using OpenMax's AI Dealership Inventory Matcher report:
 - **76% reduction** in task completion time
 - **42% decrease** in operational costs for this workflow
 - **89% accuracy** rate, exceeding manual benchmarks
@@ -267,7 +267,7 @@ This week's data:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Catalog Management Is Draining Your Team's Productivity**
 
@@ -277,19 +277,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Parts Catalog Updater integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI Parts Catalog Updater integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Automotive.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Automotive.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -297,7 +297,7 @@ COCO's AI Parts Catalog Updater integrates directly into your existing workflow 
 
 **Measurable Results**
 
-Teams using COCO's AI Parts Catalog Updater report:
+Teams using OpenMax's AI Parts Catalog Updater report:
 - **77% reduction** in task completion time
 - **44% decrease** in operational costs for this workflow
 - **87% accuracy** rate, exceeding manual benchmarks
@@ -391,7 +391,7 @@ This week's data:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Fleet Analytics Is Draining Your Team's Productivity**
 
@@ -401,19 +401,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Fleet Telematics Analyzer integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI Fleet Telematics Analyzer integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Automotive.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Automotive.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -421,7 +421,7 @@ COCO's AI Fleet Telematics Analyzer integrates directly into your existing workf
 
 **Measurable Results**
 
-Teams using COCO's AI Fleet Telematics Analyzer report:
+Teams using OpenMax's AI Fleet Telematics Analyzer report:
 - **69% reduction** in task completion time
 - **57% decrease** in operational costs for this workflow
 - **91% accuracy** rate, exceeding manual benchmarks
@@ -515,7 +515,7 @@ This week's data:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Appointment Scheduling Is Draining Your Team's Productivity**
 
@@ -525,19 +525,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Test Drive Scheduler integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI Test Drive Scheduler integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Automotive.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Automotive.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -545,7 +545,7 @@ COCO's AI Test Drive Scheduler integrates directly into your existing workflow a
 
 **Measurable Results**
 
-Teams using COCO's AI Test Drive Scheduler report:
+Teams using OpenMax's AI Test Drive Scheduler report:
 - **81% reduction** in task completion time
 - **41% decrease** in operational costs for this workflow
 - **96% accuracy** rate, exceeding manual benchmarks
@@ -633,17 +633,17 @@ This week's data:
 
 > AI filters invalid leads; DMS system seamlessly integrated; defeated leads auto-nurtured; sales team efficiency dramatically improved.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Large Volumes of Unqualified Leads Consume Sales Resources While DMS Data Sits Isolated**
 
 Automotive dealers receive large volumes of leads from websites, ad landing pages, and third-party platforms each month, but genuinely purchase-intent leads often make up less than 30% of the total. Sales advisors waste significant time on unqualified follow-ups while high-intent customers don't receive sufficient attention. At the same time, customer history data in the DMS (dealer management system) can't effectively connect with front-end sales communication tools, leaving advisors without context and at risk of repeating questions or missing critical information.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **AI Intelligent Lead Scoring and Filtering**: COCO automatically scores incoming leads, using a standardized questionnaire (budget, purchase timeline, vehicle preferences) to rapidly filter low-intent contacts, routing high-quality leads to sales advisors first.
-2. **DMS System Seamless Integration**: COCO integrates with the dealer DMS, allowing sales advisors during follow-up to directly view a customer's history of visits, test drives, and service records — improving conversation relevance.
-3. **Defeated Lead Auto-nurture**: For customers who aren't ready to buy in the short term, COCO maintains connection through periodic seasonal greetings, new model announcements, and promotion notifications — ensuring the brand is top of mind when the customer is finally ready.
+1. **AI Intelligent Lead Scoring and Filtering**: OpenMax automatically scores incoming leads, using a standardized questionnaire (budget, purchase timeline, vehicle preferences) to rapidly filter low-intent contacts, routing high-quality leads to sales advisors first.
+2. **DMS System Seamless Integration**: OpenMax integrates with the dealer DMS, allowing sales advisors during follow-up to directly view a customer's history of visits, test drives, and service records — improving conversation relevance.
+3. **Defeated Lead Auto-nurture**: For customers who aren't ready to buy in the short term, OpenMax maintains connection through periodic seasonal greetings, new model announcements, and promotion notifications — ensuring the brand is top of mind when the customer is finally ready.
 
 :::
 
@@ -667,16 +667,16 @@ Automotive dealers receive large volumes of leads from websites, ad landing page
 
 > Maintenance records instantly accessible; smart appointment system optimizes scheduling; wait time reduced 30-40 minutes; bay utilization up 25-30%.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Maintenance Appointments Rely on Phone Calls, Bay Scheduling Is Inefficient, Customers Wait Too Long**
 
 4S dealership service advisors handle large volumes of maintenance appointment phone calls daily, manually recording and allocating service bays. Scheduling lacks systematic management, resulting in the paradox of empty bays and overloaded queues existing simultaneously. Customers arriving at the dealership face additional waits due to poor scheduling, damaging satisfaction scores. Meanwhile, underutilized bays during peak periods represent direct revenue loss.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Smart Maintenance Record Query**: When a customer initiates an appointment via WeChat, mini-program, or phone (voice-to-text), COCO automatically retrieves the vehicle's maintenance history and advises on due services and estimated costs — enhancing the professional service impression.
-2. **Smart Appointment and Bay Scheduling**: COCO matches customers to optimal appointment slots based on each bay's current queue status, estimated repair time, and technician specializations, and updates the bay scheduling board in real time.
+1. **Smart Maintenance Record Query**: When a customer initiates an appointment via WeChat, mini-program, or phone (voice-to-text), OpenMax automatically retrieves the vehicle's maintenance history and advises on due services and estimated costs — enhancing the professional service impression.
+2. **Smart Appointment and Bay Scheduling**: OpenMax matches customers to optimal appointment slots based on each bay's current queue status, estimated repair time, and technician specializations, and updates the bay scheduling board in real time.
 3. **Pre-appointment Reminders and Satisfaction Follow-up**: Automatic reminders are sent 24 hours before the appointment, and a satisfaction survey is pushed automatically after service completion, with feedback delivered to the service manager.
 
 :::

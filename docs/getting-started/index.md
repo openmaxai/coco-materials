@@ -4,9 +4,9 @@ import { withBase } from 'vitepress'
 
 # Getting Started
 
-Welcome to COCO! Your dedicated AI employee is ready. Get started in 3 simple steps.
+Welcome to OpenMax! Your dedicated AI employee is ready. Get started in 3 simple steps.
 
-<img :src="withBase('/faq-banner.png')" alt="COCO" style="width:100%;border-radius:12px;margin:16px 0;" />
+<img :src="withBase('/faq-banner.png')" alt="OpenMax" style="width:100%;border-radius:12px;margin:16px 0;" />
 
 ## Guides
 
@@ -17,7 +17,7 @@ Step-by-step guide for signing up, choosing the right plan (Air / Pro / Ultra / 
 Connect your AI employee to Telegram, Lark (Feishu), Microsoft Teams, or other channels in minutes. Detailed deployment guides for each platform.
 
 ### [First-Time Tutorial](./first-time-tutorial)
-New to COCO? Start here. Learn how to choose your AI employee's role, give it tasks, and get results. No technical skills needed.
+New to OpenMax? Start here. Learn how to choose your AI employee's role, give it tasks, and get results. No technical skills needed.
 
 ### [Important Notes](./tips)
 Group/private chat settings, long-term memory & SOP storage, message limits, file handling, and other usage notes.

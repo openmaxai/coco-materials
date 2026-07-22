@@ -82,7 +82,7 @@
 
 ## 素材
 
-- 视频：`agent-team-video-v4.mp4`（36秒，1080x1920，COCO黄色品牌主题）
+- 视频：`agent-team-video-v4.mp4`（36秒，1080x1920，OpenMax黄色品牌主题）
 - 视频链接：https://zylos100.jinglever.com/agent-team-video-v4.mp4
 
 ## 参考文档

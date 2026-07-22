@@ -1,11 +1,11 @@
 ---
 layout: page
-title: "制造业 AI 落地：4 个真实痛点，4 套实战方案 | COCO"
+title: "制造业 AI 落地：4 个真实痛点，4 套实战方案 | OpenMax"
 description: "传统制造企业 AI 选型实录：质量检测、库存管理、跨部门协同、合规审查四大痛点，四套 AI 落地方案。不回避难题，只解决问题。制造业企业 AI 自动化完整案例。"
 head:
   - - meta
     - property: og:title
-      content: "制造业 AI 落地：4 个真实痛点，4 套实战方案 | COCO"
+      content: "制造业 AI 落地：4 个真实痛点，4 套实战方案 | OpenMax"
   - - meta
     - property: og:description
       content: "制造业 AI 案例：四大痛点，四套实战方案。企业 AI 自动化在工厂的真正落地。"
@@ -932,7 +932,7 @@ head:
 
 选型要求也很务实：产品要足够成熟或半成熟，一旦选定就长期使用，不愿意踩初创产品的坑。他们不是在找一个"能演示的玩具"，而是在找一个"能上生产线的工具"。
 
-这次对话的价值不在于展示一个完美的成功案例，而在于真实记录了制造业企业在 AI 选型过程中遇到的每一个具体问题——以及 COCO 是如何回应的。
+这次对话的价值不在于展示一个完美的成功案例，而在于真实记录了制造业企业在 AI 选型过程中遇到的每一个具体问题——以及 OpenMax 是如何回应的。
 
 </div>
 
@@ -947,19 +947,19 @@ head:
     <div class="card-icon">📄</div>
     <div class="time-badge">问题 1</div>
     <h3>OCR 单据识别不准</h3>
-    <p>客户拿 10 张八号单（delivery notes）的照片让 AI 提取数据到 Excel。照片清晰，但通用 AI 裸跑识别仍有偏差，纠正后问题复现。<strong>COCO 方案：</strong>通用 AI 不适合专业图像识别场景，需要配置专业 OCR 工具/Skill。产品路线图已包含单据识别专用 Skill。短期方案：接入更专业的图像识别工具链，显著提升准确率。</p>
+    <p>客户拿 10 张八号单（delivery notes）的照片让 AI 提取数据到 Excel。照片清晰，但通用 AI 裸跑识别仍有偏差，纠正后问题复现。<strong>OpenMax 方案：</strong>通用 AI 不适合专业图像识别场景，需要配置专业 OCR 工具/Skill。产品路线图已包含单据识别专用 Skill。短期方案：接入更专业的图像识别工具链，显著提升准确率。</p>
   </div>
   <div class="pipeline-card">
     <div class="card-icon">🌐</div>
     <div class="time-badge">问题 2</div>
     <h3>浏览器操作超时（银行网站）</h3>
-    <p>需要登录银行网站执行操作，银行需要 token/OTP 验证，但 AI 操作浏览器太慢，token 还没用就过期了。本质问题：网站是为人类设计的，不是为 AI 设计的。<strong>COCO 方案：</strong>优先使用 API/命令行而非模拟浏览器操作；首次登录用远程桌面辅助（Browser Explorer 插件），登录一次后免登；双向推进——工具端持续改进 + 推动网站端 API 化。</p>
+    <p>需要登录银行网站执行操作，银行需要 token/OTP 验证，但 AI 操作浏览器太慢，token 还没用就过期了。本质问题：网站是为人类设计的，不是为 AI 设计的。<strong>OpenMax 方案：</strong>优先使用 API/命令行而非模拟浏览器操作；首次登录用远程桌面辅助（Browser Explorer 插件），登录一次后免登；双向推进——工具端持续改进 + 推动网站端 API 化。</p>
   </div>
   <div class="pipeline-card">
     <div class="card-icon">📱</div>
     <div class="time-badge">问题 3</div>
     <h3>OTP 验证码自动转发</h3>
-    <p>公司手机收到 OTP 验证码，每次都要手动发给 Agent，流程繁琐。<strong>COCO 方案：</strong>开发轻量 Android APK 安装到公司手机，接管短信权限，收到验证码后自动转发给 Agent。需求描述清楚后，Agent 甚至可以直接开发出这个 APK。</p>
+    <p>公司手机收到 OTP 验证码，每次都要手动发给 Agent，流程繁琐。<strong>OpenMax 方案：</strong>开发轻量 Android APK 安装到公司手机，接管短信权限，收到验证码后自动转发给 Agent。需求描述清楚后，Agent 甚至可以直接开发出这个 APK。</p>
   </div>
 </div>
 
@@ -968,7 +968,7 @@ head:
     <div class="card-icon">🔒</div>
     <div class="time-badge">问题 4</div>
     <h3>数据安全与信息隔离</h3>
-    <p>客户担心 AI 处理 ERP 数据的安全性。<strong>COCO 方案三层防护：</strong>第一层——ISO/SOC2 认证自证清白，全程加密传输；第二层——Agent 信息隔离最佳实践，公私分离、内外分离、部门间隔离；第三层——信息存系统不存 Agent 身上，Agent 只有查询权限，留存需授权且可审计。坦诚说：硬隔离是业界难题，目前只有最佳实践，包括 Anthropic/OpenAI 也没完全解决。</p>
+    <p>客户担心 AI 处理 ERP 数据的安全性。<strong>OpenMax 方案三层防护：</strong>第一层——ISO/SOC2 认证自证清白，全程加密传输；第二层——Agent 信息隔离最佳实践，公私分离、内外分离、部门间隔离；第三层——信息存系统不存 Agent 身上，Agent 只有查询权限，留存需授权且可审计。坦诚说：硬隔离是业界难题，目前只有最佳实践，包括 Anthropic/OpenAI 也没完全解决。</p>
   </div>
 </div>
 
@@ -995,7 +995,7 @@ head:
 
 ### Q: 图像识别准确率能达到多少？
 
-取决于文档类型和图像质量。通用 AI 裸跑在专业单据识别上存在局限，但配置专业 OCR 工具后准确率会显著提升。COCO 的产品路线图已包含针对不同单据类型（如八号单、发票、提货单）的专用识别 Skill，持续优化中。
+取决于文档类型和图像质量。通用 AI 裸跑在专业单据识别上存在局限，但配置专业 OCR 工具后准确率会显著提升。OpenMax 的产品路线图已包含针对不同单据类型（如八号单、发票、提货单）的专用识别 Skill，持续优化中。
 
 ### Q: 能否对接现有 ERP 系统？
 
@@ -1003,7 +1003,7 @@ head:
 
 ### Q: 数据安全如何保障？
 
-COCO 提供三层安全保障：ISO/SOC2 认证 + 全程加密传输、Agent 信息隔离最佳实践（公私分离、内外分离、部门间隔离）、以及查询权限控制（信息存系统不存 Agent，留存需授权且可审计）。我们坦诚地说，硬隔离是业界共同的难题，COCO 提供的是当前最佳实践方案。
+OpenMax 提供三层安全保障：ISO/SOC2 认证 + 全程加密传输、Agent 信息隔离最佳实践（公私分离、内外分离、部门间隔离）、以及查询权限控制（信息存系统不存 Agent，留存需授权且可审计）。我们坦诚地说，硬隔离是业界共同的难题，OpenMax 提供的是当前最佳实践方案。
 
 ### Q: Agent 会忘记之前学到的技能吗？
 
@@ -1015,7 +1015,7 @@ COCO 提供三层安全保障：ISO/SOC2 认证 + 全程加密传输、Agent 信
 <div class="blog-meta">
   <div class="blog-meta-item">
     <span class="blog-meta-label">Written by</span>
-    <span class="blog-meta-value">COCO Team</span>
+    <span class="blog-meta-value">OpenMax Team</span>
   </div>
   <div class="blog-meta-item">
     <span class="blog-meta-label">Published on</span>
@@ -1027,7 +1027,7 @@ COCO 提供三层安全保障：ISO/SOC2 认证 + 全程加密传输、Agent 信
   <div class="case-cta">
     <h2>让 AI 走进你的工厂</h2>
     <p>从一个真实问题开始，找到属于你的落地方案</p>
-    <a href="https://icoco.ai" class="cta-btn">开始试用 COCO</a>
+    <a href="https://icoco.ai" class="cta-btn">开始试用 OpenMax</a>
   </div>
 </div>
 
@@ -1039,7 +1039,7 @@ COCO 提供三层安全保障：ISO/SOC2 认证 + 全程加密传输、Agent 信
       <div class="blog-related-card-img">🤖</div>
       <div class="blog-related-card-body">
         <div class="blog-related-card-label">AI Agent 案例研究</div>
-        <div class="blog-related-card-title">COCO CRM — 由 AI 搭建，由 AI 运营</div>
+        <div class="blog-related-card-title">OpenMax CRM — 由 AI 搭建，由 AI 运营</div>
         <div class="blog-related-card-desc">一个 AI Agent 用一个晚上设计了完整 CRM，然后每天自动运营——零人工介入。</div>
       </div>
     </a>

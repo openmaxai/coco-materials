@@ -20,7 +20,7 @@ Complete guide from registration to getting started.
 
 ## Step 1: Register / Login
 
-### 1.1 Visit COCO Website
+### 1.1 Visit OpenMax Website
 - Open [icoco.ai](https://icoco.ai)
 - Click the **Login** button in the top right
 
@@ -126,4 +126,4 @@ After connecting a channel:
 2. It will respond and start working
 3. Check status anytime in the Dashboard
 
-Welcome to COCO! Your AI employee is ready to help.
+Welcome to OpenMax! Your AI employee is ready to help.

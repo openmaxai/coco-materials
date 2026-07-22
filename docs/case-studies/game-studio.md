@@ -1,14 +1,14 @@
 ---
 layout: page
-title: "Independent Game Studio × COCO AI — Building an AI-Native Organization | COCO"
-description: "How a sub-10-person game studio used COCO AI to build an Agentic OS on Google Workspace, deploy 3 AI employees across development, marketing, and user operations, and make the leap from 'using AI tools' to running an AI-native organization."
+title: "Independent Game Studio × OpenMax AI — Building an AI-Native Organization | OpenMax"
+description: "How a sub-10-person game studio used OpenMax AI to build an Agentic OS on Google Workspace, deploy 3 AI employees across development, marketing, and user operations, and make the leap from 'using AI tools' to running an AI-native organization."
 head:
   - - meta
     - property: og:title
-      content: "Independent Game Studio × COCO AI — Building an AI-Native Organization"
+      content: "Independent Game Studio × OpenMax AI — Building an AI-Native Organization"
   - - meta
     - property: og:description
-      content: "How a sub-10-person game studio used COCO AI to build an Agentic OS on Google Workspace, deploy 3 AI employees across development, marketing, and user operations, and make the leap from 'using AI tools' to running an AI-native organization."
+      content: "How a sub-10-person game studio used OpenMax AI to build an Agentic OS on Google Workspace, deploy 3 AI employees across development, marketing, and user operations, and make the leap from 'using AI tools' to running an AI-native organization."
   - - meta
     - property: og:image
       content: "https://docs.icoco.ai/coco-logo-black.png"
@@ -766,7 +766,7 @@ head:
 
 <div class="case-hero">
   <div class="hero-text-box">
-    <h1>Game Studio × COCO AI<br/><em>Building an AI-Native Organization</em></h1>
+    <h1>Game Studio × OpenMax AI<br/><em>Building an AI-Native Organization</em></h1>
     <p class="subtitle">A sub-10-person indie studio deployed 3 AI employees on a unified platform,<br/>transforming scattered AI tools into a cohesive AI-native operating structure.</p>
     <div class="hero-stats">
       <div class="stat">
@@ -794,7 +794,7 @@ This independent mobile game studio operates with fewer than ten people, yet cov
 
 The core frustration was not a lack of AI capability but a lack of AI coherence. Each tool operated in its own silo: outputs could not be shared across the team, context was lost between sessions, and a surprising amount of creative energy was consumed by the mundane act of copying and pasting between applications. The team's Google Workspace — Docs, Sheets, Calendar — sat entirely disconnected from any AI layer, which meant that the tools where real work happened were the very tools that AI could not reach.
 
-What the studio wanted was not another AI subscription. They wanted an organizational upgrade: a single AI operating layer that could sit on top of their existing workspace, remember the team's product decisions, and let every member — human or AI — draw from the same pool of knowledge. COCO provided exactly that foundation, enabling the studio to architect what they now call their Agentic OS.
+What the studio wanted was not another AI subscription. They wanted an organizational upgrade: a single AI operating layer that could sit on top of their existing workspace, remember the team's product decisions, and let every member — human or AI — draw from the same pool of knowledge. OpenMax provided exactly that foundation, enabling the studio to architect what they now call their Agentic OS.
 
 </div>
 
@@ -802,7 +802,7 @@ What the studio wanted was not another AI subscription. They wanted an organizat
 
 ## The Solution: <em>Three AI Employees, One Shared Brain</em>
 
-COCO helped the studio build an **Agentic OS** — a unified AI operating layer built on top of Google Workspace that gives every team member access to shared AI memory, context, and automation. Three dedicated AI employees now work alongside the human team every day.
+OpenMax helped the studio build an **Agentic OS** — a unified AI operating layer built on top of Google Workspace that gives every team member access to shared AI memory, context, and automation. Three dedicated AI employees now work alongside the human team every day.
 
 <div class="pipeline-grid">
   <div class="pipeline-card">
@@ -870,7 +870,7 @@ The studio now operates with the institutional memory of a much larger organizat
 
 Most teams adopt AI the same way: individual members sign up for individual tools, use them for individual tasks, and the outputs stay locked in individual sessions. The compound value that AI promises — accumulated knowledge, cross-functional context, organizational learning — never materializes because the infrastructure is not there to support it.
 
-This game studio proves that a sub-10-person team can build an AI-native operating structure that rivals the organizational sophistication of much larger companies. The key insight is that the bottleneck was never AI capability — it was AI architecture. By deploying COCO as a unified operating layer on top of their existing Google Workspace, the studio turned scattered AI experiments into a coherent system where human creativity and AI execution reinforce each other every single day.
+This game studio proves that a sub-10-person team can build an AI-native operating structure that rivals the organizational sophistication of much larger companies. The key insight is that the bottleneck was never AI capability — it was AI architecture. By deploying OpenMax as a unified operating layer on top of their existing Google Workspace, the studio turned scattered AI experiments into a coherent system where human creativity and AI execution reinforce each other every single day.
 
 </div>
 
@@ -878,7 +878,7 @@ This game studio proves that a sub-10-person team can build an AI-native operati
   <div class="case-cta">
     <h2>Build Your AI-Native Organization</h2>
     <p>Start with a unified AI operating layer — like this studio did</p>
-    <a href="https://icoco.ai" class="cta-btn">Get Started with COCO</a>
+    <a href="https://icoco.ai" class="cta-btn">Get Started with OpenMax</a>
   </div>
 </div>
 
@@ -907,7 +907,7 @@ This game studio proves that a sub-10-person team can build an AI-native operati
       <div class="blog-related-card-body">
         <div class="blog-related-card-label">AI Agent Case Study</div>
         <div class="blog-related-card-title">Tea Brand Franchise — Scaling with AI Operations</div>
-        <div class="blog-related-card-desc">A franchise tea brand used COCO AI to standardize operations and maintain quality across dozens of locations.</div>
+        <div class="blog-related-card-desc">A franchise tea brand used OpenMax AI to standardize operations and maintain quality across dozens of locations.</div>
       </div>
     </a>
     <a class="blog-related-card" href="/case-studies/fmcg-collaboration">

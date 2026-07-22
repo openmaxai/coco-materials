@@ -1,23 +1,23 @@
 # AI 视频生成教程：从安装 Seedance Skill 到配置 API Key
 
-> 让 COCO AI 员工帮你生成专业的即梦（Jimeng）视频提示词，并自动调用 API 生成视频。
+> 让 OpenMax AI 员工帮你生成专业的即梦（Jimeng）视频提示词，并自动调用 API 生成视频。
 
 **流程：** 用户描述创意 → Seedance Skill 生成提示词 → 用户确认 → 即梦 API 生成视频 → 自动发送
 
 ## 前置条件
 
-- COCO AI 员工
+- OpenMax AI 员工
 - 火山引擎账号
 
 ---
 
 ## 步骤 1：安装 Seedance Prompt Skill
 
-Seedance Skill 是一个提示词工程技能，让 COCO AI 员工能生成专业的即梦视频提示词。只需把 GitHub 链接发给 AI 员工即可完成安装。
+Seedance Skill 是一个提示词工程技能，让 OpenMax AI 员工能生成专业的即梦视频提示词。只需把 GitHub 链接发给 AI 员工即可完成安装。
 
 ### 发送链接给 AI 员工
 
-将以下 GitHub 链接发送给你的 COCO AI 员工，并告诉它「安装这个 Skill」：
+将以下 GitHub 链接发送给你的 OpenMax AI 员工，并告诉它「安装这个 Skill」：
 
 ```
 https://github.com/songguoxs/seedance-prompt-skill
@@ -59,7 +59,7 @@ AI 员工会自动完成下载和安装。
 
 ## 步骤 3：配置 API Key
 
-将第二步获取的 API Key 直接发送给你的 COCO AI 员工，例如：
+将第二步获取的 API Key 直接发送给你的 OpenMax AI 员工，例如：
 
 ```
 Access Key ID：AKLTxxxxxx
@@ -74,7 +74,7 @@ AI 员工会自动保存密钥并完成配置。
 
 ## 步骤 4：测试验证
 
-配置完成后，直接询问 COCO AI 员工：
+配置完成后，直接询问 OpenMax AI 员工：
 
 ```
 即梦 API 连接成功了吗？
@@ -90,13 +90,13 @@ AI 员工会自动验证 API Key 是否有效，并告知连接状态。
 
 ### 1. 写提示词
 
-告诉你的 COCO AI 员工：
+告诉你的 OpenMax AI 员工：
 
 ```
-帮我生成一个视频提示词：COCO 产品介绍，5 秒，16:9 横屏
+帮我生成一个视频提示词：OpenMax 产品介绍，5 秒，16:9 横屏
 ```
 
-COCO AI 员工会调用 Seedance Skill，输出专业的视频提示词（含镜头语言、音效、风格描述）。
+OpenMax AI 员工会调用 Seedance Skill，输出专业的视频提示词（含镜头语言、音效、风格描述）。
 
 ### 2. 确认 / 调整
 
@@ -108,7 +108,7 @@ Review 提示词，按需修改。例如：
 
 ### 3. 生成视频
 
-确认后，COCO AI 员工调用即梦 API 自动生成视频，完成后直接发送到聊天中。
+确认后，OpenMax AI 员工调用即梦 API 自动生成视频，完成后直接发送到聊天中。
 
 ---
 

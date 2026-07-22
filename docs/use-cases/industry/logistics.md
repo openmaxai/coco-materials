@@ -19,7 +19,7 @@ AI use cases for the logistics industry.
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Shipment Tracking Is Draining Your Team's Productivity**
 
@@ -29,19 +29,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Shipment Tracker integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI Shipment Tracker integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Logistics & Supply Chain.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Logistics & Supply Chain.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -49,7 +49,7 @@ COCO's AI Shipment Tracker integrates directly into your existing workflow and a
 
 **Measurable Results**
 
-Teams using COCO's AI Shipment Tracker report:
+Teams using OpenMax's AI Shipment Tracker report:
 - **71% reduction** in task completion time
 - **31% decrease** in operational costs for this workflow
 - **96% accuracy** rate, exceeding manual benchmarks
@@ -143,7 +143,7 @@ This week's data:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Layout Optimization Is Draining Your Team's Productivity**
 
@@ -153,19 +153,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Warehouse Layout Optimizer integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI Warehouse Layout Optimizer integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Logistics & Supply Chain.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Logistics & Supply Chain.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -173,7 +173,7 @@ COCO's AI Warehouse Layout Optimizer integrates directly into your existing work
 
 **Measurable Results**
 
-Teams using COCO's AI Warehouse Layout Optimizer report:
+Teams using OpenMax's AI Warehouse Layout Optimizer report:
 - **79% reduction** in task completion time
 - **33% decrease** in operational costs for this workflow
 - **96% accuracy** rate, exceeding manual benchmarks
@@ -267,7 +267,7 @@ This week's data:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Inefficient Routes Are Burning Fuel and Wasting Hours**
 
@@ -277,19 +277,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Route Optimizer integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI Route Optimizer integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Logistics & Supply Chain.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Logistics & Supply Chain.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -297,7 +297,7 @@ COCO's AI Route Optimizer integrates directly into your existing workflow and ac
 
 **Measurable Results**
 
-Teams using COCO's AI Route Optimizer report:
+Teams using OpenMax's AI Route Optimizer report:
 - **66% reduction** in task completion time
 - **38% decrease** in operational costs for this workflow
 - **89% accuracy** rate, exceeding manual benchmarks
@@ -391,7 +391,7 @@ This week's data:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Rate Negotiation Is Draining Your Team's Productivity**
 
@@ -401,19 +401,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Freight Rate Negotiator integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI Freight Rate Negotiator integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Logistics & Supply Chain.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Logistics & Supply Chain.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -421,7 +421,7 @@ COCO's AI Freight Rate Negotiator integrates directly into your existing workflo
 
 **Measurable Results**
 
-Teams using COCO's AI Freight Rate Negotiator report:
+Teams using OpenMax's AI Freight Rate Negotiator report:
 - **69% reduction** in task completion time
 - **39% decrease** in operational costs for this workflow
 - **86% accuracy** rate, exceeding manual benchmarks
@@ -515,7 +515,7 @@ This week's data:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Dock Scheduling Is Draining Your Team's Productivity**
 
@@ -525,19 +525,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Cross-Dock Scheduler integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI Cross-Dock Scheduler integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Logistics & Supply Chain.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Logistics & Supply Chain.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -545,7 +545,7 @@ COCO's AI Cross-Dock Scheduler integrates directly into your existing workflow a
 
 **Measurable Results**
 
-Teams using COCO's AI Cross-Dock Scheduler report:
+Teams using OpenMax's AI Cross-Dock Scheduler report:
 - **83% reduction** in task completion time
 - **32% decrease** in operational costs for this workflow
 - **93% accuracy** rate, exceeding manual benchmarks
@@ -639,7 +639,7 @@ This week's data:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Customs Filing Is Draining Your Team's Productivity**
 
@@ -649,19 +649,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Customs Declaration Filer integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI Customs Declaration Filer integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Logistics & Supply Chain.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Logistics & Supply Chain.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -669,7 +669,7 @@ COCO's AI Customs Declaration Filer integrates directly into your existing workf
 
 **Measurable Results**
 
-Teams using COCO's AI Customs Declaration Filer report:
+Teams using OpenMax's AI Customs Declaration Filer report:
 - **84% reduction** in task completion time
 - **50% decrease** in operational costs for this workflow
 - **91% accuracy** rate, exceeding manual benchmarks
@@ -757,17 +757,17 @@ This week's data:
 
 > API integration with multiple freight forwarders for instant rate quotes; structured anomaly work orders auto-generated; customer experience significantly improved.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Long Quoting Chains and Manual Anomaly Relay Create Delays and Gaps**
 
 Cross-border e-commerce sellers comparing freight forwarders traditionally rely on email or phone, with response times of 1-2 days per forwarder. When cargo anomalies occur (delays, damage, customs holds), ops staff manually relay information across WeChat, email, and freight systems, creating non-standard work orders that are hard to track and slow to resolve.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Real-time Multi-forwarder API Integration**: COCO connects to major freight forwarder APIs. When a shipper inputs origin, destination, and cargo parameters, COCO instantly returns a side-by-side comparison of rates and transit times — no waiting for manual quotes.
-2. **Structured Anomaly Work Order Auto-generation**: When cargo anomalies occur, COCO automatically pulls relevant tracking data and generates a standardized work order (anomaly type, timestamps, responsible party, suggested action), pushing it to the right handler.
-3. **Automated Follow-up Tracking**: After a work order is created, COCO tracks resolution progress and sends reminders for overdue items, ensuring nothing falls through the cracks.
+1. **Real-time Multi-forwarder API Integration**: OpenMax connects to major freight forwarder APIs. When a shipper inputs origin, destination, and cargo parameters, OpenMax instantly returns a side-by-side comparison of rates and transit times — no waiting for manual quotes.
+2. **Structured Anomaly Work Order Auto-generation**: When cargo anomalies occur, OpenMax automatically pulls relevant tracking data and generates a standardized work order (anomaly type, timestamps, responsible party, suggested action), pushing it to the right handler.
+3. **Automated Follow-up Tracking**: After a work order is created, OpenMax tracks resolution progress and sends reminders for overdue items, ensuring nothing falls through the cracks.
 
 :::
 
@@ -791,16 +791,16 @@ Cross-border e-commerce sellers comparing freight forwarders traditionally rely 
 
 > Automatically extract order info from WeChat groups, email, and Excel files; cross-document OCR; manual data entry completely eliminated.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Order Data Arrives in Fragments Across Multiple Channels, Making Manual Entry Error-Prone**
 
 Small and mid-size cross-border logistics companies receive order instructions in WeChat groups, Excel attachments, PDF waybills, and more. Order coordinators spend significant time each day manually extracting and entering data across channels. Error rates are high, and when order volumes spike, coordinators become the bottleneck for the entire supply chain.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Multi-channel Auto-extraction**: COCO monitors WeChat groups and email inboxes, automatically identifying and extracting order-relevant information (shipper/consignee, cargo description, weight/dimensions, destination) without human transcription.
-2. **Cross-document OCR**: For Excel, PDF, and image-format waybills, COCO parses key fields via OCR, handling mixed formats in a single pass.
+1. **Multi-channel Auto-extraction**: OpenMax monitors WeChat groups and email inboxes, automatically identifying and extracting order-relevant information (shipper/consignee, cargo description, weight/dimensions, destination) without human transcription.
+2. **Cross-document OCR**: For Excel, PDF, and image-format waybills, OpenMax parses key fields via OCR, handling mixed formats in a single pass.
 3. **Unified System Write-back**: Extracted order data is automatically written to the logistics management system, creating a seamless pipeline from multi-source input to a single system of record.
 
 :::
@@ -825,17 +825,17 @@ Small and mid-size cross-border logistics companies receive order instructions i
 
 > Customers self-serve parcel status queries; freight auto-calculated online; 80%+ of CS labor freed; conversion rate up 35-40%.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Simple Repetitive Queries Consume the Majority of CS Team Bandwidth**
 
 Logistics company CS teams field massive volumes of "Where is my parcel?" and "What's the rate for this lane?" inquiries daily — questions that account for 60-70% of total contacts yet require only a system lookup or rate table reference. This low-value repetitive work consumes CS capacity, leaving truly complex complaints and issues under-resourced and slow to resolve.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Smart Self-service Parcel Query**: Customers enter their tracking number via WeChat, website, or WhatsApp, and COCO retrieves the latest status from the logistics system in real time. No agent involvement required; multiple tracking number formats auto-recognized.
-2. **Freight Online Auto-calculator**: Customers input origin, destination, weight, and dimensions, and COCO matches the rate table and returns an accurate quote instantly, supporting multi-currency and complex pricing rules.
-3. **Intelligent Escalation**: For complaints or special needs COCO can't resolve automatically, it flags them and routes them to human agents, carrying over all collected customer context to avoid repeated questioning.
+1. **Smart Self-service Parcel Query**: Customers enter their tracking number via WeChat, website, or WhatsApp, and OpenMax retrieves the latest status from the logistics system in real time. No agent involvement required; multiple tracking number formats auto-recognized.
+2. **Freight Online Auto-calculator**: Customers input origin, destination, weight, and dimensions, and OpenMax matches the rate table and returns an accurate quote instantly, supporting multi-currency and complex pricing rules.
+3. **Intelligent Escalation**: For complaints or special needs OpenMax can't resolve automatically, it flags them and routes them to human agents, carrying over all collected customer context to avoid repeated questioning.
 
 :::
 
@@ -859,17 +859,17 @@ Logistics company CS teams field massive volumes of "Where is my parcel?" and "W
 
 > Multilingual OCR on declaration documents; HS code auto-validation; rejection rate reduced to near zero.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Declaration Errors Drive Customs Delays — Sometimes Cargo Seizures**
 
 In cross-border logistics, inaccurate customs information is the leading cause of clearance delays. Customer-submitted documentation comes in mixed formats (bilingual, PDF scans, handwritten forms), requiring customs agents to manually verify that product descriptions match HS codes — a time-consuming process requiring specialized expertise. Errors mean at minimum supplementary documentation delays, and at worst cargo being held — major losses for clients.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Multilingual OCR Document Recognition**: COCO handles customs documents in Chinese, English, Spanish, Arabic, and more, automatically extracting product names, quantities, values, and country of origin — no manual entry required.
-2. **HS Code Intelligent Matching and Validation**: Based on extracted product descriptions, COCO identifies the most likely HS code and cross-checks it against the client-declared code, flagging mismatches with suggestions.
-3. **Pre-declaration Compliance Report**: Before formal declaration, COCO generates a pre-screening report listing potential compliance risks and missing documentation, enabling customs agents to verify and resolve issues before filing.
+1. **Multilingual OCR Document Recognition**: OpenMax handles customs documents in Chinese, English, Spanish, Arabic, and more, automatically extracting product names, quantities, values, and country of origin — no manual entry required.
+2. **HS Code Intelligent Matching and Validation**: Based on extracted product descriptions, OpenMax identifies the most likely HS code and cross-checks it against the client-declared code, flagging mismatches with suggestions.
+3. **Pre-declaration Compliance Report**: Before formal declaration, OpenMax generates a pre-screening report listing potential compliance risks and missing documentation, enabling customs agents to verify and resolve issues before filing.
 
 :::
 

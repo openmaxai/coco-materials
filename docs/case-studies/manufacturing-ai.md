@@ -1,11 +1,11 @@
 ---
 layout: page
-title: "Manufacturing AI Adoption: 4 Real Problems, 4 Practical Solutions | COCO"
+title: "Manufacturing AI Adoption: 4 Real Problems, 4 Practical Solutions | OpenMax"
 description: "A traditional manufacturing company's AI selection journey: four real pain points (quality, inventory, cross-department, compliance), four practical AI solutions. No dodging hard questions — real enterprise AI automation for manufacturing."
 head:
   - - meta
     - property: og:title
-      content: "Manufacturing AI Adoption: 4 Real Problems, 4 Practical Solutions | COCO"
+      content: "Manufacturing AI Adoption: 4 Real Problems, 4 Practical Solutions | OpenMax"
   - - meta
     - property: og:description
       content: "Manufacturing AI case study: four real pain points, four practical AI solutions. Enterprise AI automation that actually works on the factory floor."
@@ -932,7 +932,7 @@ Among their industry peers, they are the first mover. Fellow paper manufacturers
 
 Their selection criteria were equally pragmatic: the product must be mature or near-mature, and once chosen, it would be adopted long-term. They had no appetite for the risks that come with early-stage startup products. They weren't looking for a "demo toy" -- they needed a "production-ready tool."
 
-The value of this case study lies not in showcasing a perfect success story, but in honestly documenting every specific problem a manufacturing enterprise encounters during AI selection -- and how COCO responded.
+The value of this case study lies not in showcasing a perfect success story, but in honestly documenting every specific problem a manufacturing enterprise encounters during AI selection -- and how OpenMax responded.
 
 </div>
 
@@ -947,19 +947,19 @@ Throughout the evaluation period, the customer raised four core issues. None wer
     <div class="card-icon">📄</div>
     <div class="time-badge">Problem 1</div>
     <h3>Inaccurate OCR Document Recognition</h3>
-    <p>The customer tested AI with 10 photos of delivery notes, asking it to extract data into Excel. Despite clear photos, general-purpose AI produced inaccurate results that recurred after correction. <strong>COCO's approach:</strong> General AI isn't suited for specialized image recognition. Dedicated OCR tools/Skills are needed. The product roadmap already includes document-specific recognition Skills. Short-term solution: integrate professional image recognition toolchains for significantly improved accuracy.</p>
+    <p>The customer tested AI with 10 photos of delivery notes, asking it to extract data into Excel. Despite clear photos, general-purpose AI produced inaccurate results that recurred after correction. <strong>OpenMax's approach:</strong> General AI isn't suited for specialized image recognition. Dedicated OCR tools/Skills are needed. The product roadmap already includes document-specific recognition Skills. Short-term solution: integrate professional image recognition toolchains for significantly improved accuracy.</p>
   </div>
   <div class="pipeline-card">
     <div class="card-icon">🌐</div>
     <div class="time-badge">Problem 2</div>
     <h3>Browser Automation Timeout (Banking Sites)</h3>
-    <p>The company needed to log into banking websites that require token/OTP verification, but AI-driven browser operations were too slow -- tokens expired before they could be used. The fundamental issue: websites are designed for humans, not AI. <strong>COCO's approach:</strong> Prioritize API/CLI over browser simulation; use remote desktop assistance (Browser Explorer plugin) for initial login, then maintain the session; pursue a dual strategy -- improve tooling while pushing for API-based banking interfaces.</p>
+    <p>The company needed to log into banking websites that require token/OTP verification, but AI-driven browser operations were too slow -- tokens expired before they could be used. The fundamental issue: websites are designed for humans, not AI. <strong>OpenMax's approach:</strong> Prioritize API/CLI over browser simulation; use remote desktop assistance (Browser Explorer plugin) for initial login, then maintain the session; pursue a dual strategy -- improve tooling while pushing for API-based banking interfaces.</p>
   </div>
   <div class="pipeline-card">
     <div class="card-icon">📱</div>
     <div class="time-badge">Problem 3</div>
     <h3>Automatic OTP Forwarding</h3>
-    <p>The company phone receives OTP codes that must be manually forwarded to the Agent each time -- a tedious workflow bottleneck. <strong>COCO's approach:</strong> Develop a lightweight Android APK installed on the company phone to intercept SMS messages and automatically forward verification codes to the Agent. With clear requirements, the Agent can even build this APK itself.</p>
+    <p>The company phone receives OTP codes that must be manually forwarded to the Agent each time -- a tedious workflow bottleneck. <strong>OpenMax's approach:</strong> Develop a lightweight Android APK installed on the company phone to intercept SMS messages and automatically forward verification codes to the Agent. With clear requirements, the Agent can even build this APK itself.</p>
   </div>
 </div>
 
@@ -968,7 +968,7 @@ Throughout the evaluation period, the customer raised four core issues. None wer
     <div class="card-icon">🔒</div>
     <div class="time-badge">Problem 4</div>
     <h3>Data Security & Information Isolation</h3>
-    <p>The customer was concerned about AI handling ERP data securely. <strong>COCO's three-layer approach:</strong> Layer 1 -- ISO/SOC2 certification with end-to-end encryption; Layer 2 -- Agent information isolation best practices including personal/business separation, internal/external separation, and inter-department isolation; Layer 3 -- data stays in systems, not in the Agent, with query-only permissions and auditable access control. We were candid: hard isolation remains an industry-wide challenge that even Anthropic/OpenAI haven't fully solved -- we offer current best practices.</p>
+    <p>The customer was concerned about AI handling ERP data securely. <strong>OpenMax's three-layer approach:</strong> Layer 1 -- ISO/SOC2 certification with end-to-end encryption; Layer 2 -- Agent information isolation best practices including personal/business separation, internal/external separation, and inter-department isolation; Layer 3 -- data stays in systems, not in the Agent, with query-only permissions and auditable access control. We were candid: hard isolation remains an industry-wide challenge that even Anthropic/OpenAI haven't fully solved -- we offer current best practices.</p>
   </div>
 </div>
 
@@ -995,15 +995,15 @@ This is a real and widespread issue. The current solution involves visual storag
 
 ### Q: What level of image recognition accuracy can be achieved?
 
-It depends on the document type and image quality. General-purpose AI has limitations for specialized document recognition, but accuracy improves significantly with dedicated OCR tools. COCO's product roadmap includes purpose-built recognition Skills for various document types (delivery notes, invoices, bills of lading), with continuous optimization.
+It depends on the document type and image quality. General-purpose AI has limitations for specialized document recognition, but accuracy improves significantly with dedicated OCR tools. OpenMax's product roadmap includes purpose-built recognition Skills for various document types (delivery notes, invoices, bills of lading), with continuous optimization.
 
-### Q: Can COCO integrate with existing ERP systems?
+### Q: Can OpenMax integrate with existing ERP systems?
 
 Yes. One of AI Agent's core capabilities is acting as a "glue layer" between systems -- it can connect to existing systems via APIs, database connections, or browser automation. The Width case study demonstrates this: a non-technical CEO completed a CRM + Zendesk + DocuSign integration in 3-4 days. Legacy ERP systems like Yonyou can be integrated through similar approaches.
 
 ### Q: How is data security ensured?
 
-COCO provides three layers of security: ISO/SOC2 certification with end-to-end encryption; Agent information isolation best practices (personal/business separation, internal/external separation, inter-department isolation); and access control with query-only permissions (data stays in systems, not in the Agent, with auditable retention policies). We are transparent that hard isolation remains an industry-wide challenge -- COCO offers current best-practice solutions.
+OpenMax provides three layers of security: ISO/SOC2 certification with end-to-end encryption; Agent information isolation best practices (personal/business separation, internal/external separation, inter-department isolation); and access control with query-only permissions (data stays in systems, not in the Agent, with auditable retention policies). We are transparent that hard isolation remains an industry-wide challenge -- OpenMax offers current best-practice solutions.
 
 ### Q: Will the Agent forget previously learned skills?
 
@@ -1015,7 +1015,7 @@ In the current version, Skill persistence is managed through visual storage (Git
 <div class="blog-meta">
   <div class="blog-meta-item">
     <span class="blog-meta-label">Written by</span>
-    <span class="blog-meta-value">COCO Team</span>
+    <span class="blog-meta-value">OpenMax Team</span>
   </div>
   <div class="blog-meta-item">
     <span class="blog-meta-label">Published on</span>
@@ -1027,7 +1027,7 @@ In the current version, Skill persistence is managed through visual storage (Git
   <div class="case-cta">
     <h2>Bring AI to Your Factory Floor</h2>
     <p>Start with a real problem, find the right solution</p>
-    <a href="https://icoco.ai" class="cta-btn">Try COCO Today</a>
+    <a href="https://icoco.ai" class="cta-btn">Try OpenMax Today</a>
   </div>
 </div>
 
@@ -1039,7 +1039,7 @@ In the current version, Skill persistence is managed through visual storage (Git
       <div class="blog-related-card-img">🤖</div>
       <div class="blog-related-card-body">
         <div class="blog-related-card-label">AI Agent Case Study</div>
-        <div class="blog-related-card-title">COCO CRM — Built by AI, Run by AI</div>
+        <div class="blog-related-card-title">OpenMax CRM — Built by AI, Run by AI</div>
         <div class="blog-related-card-desc">An AI Agent designed a complete CRM in one evening, then runs it daily -- zero manual intervention.</div>
       </div>
     </a>

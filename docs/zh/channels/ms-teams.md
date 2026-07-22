@@ -1,6 +1,6 @@
 # Microsoft Teams — 使用技巧
 
-在 Microsoft Teams 上使用 COCO AI 员工，适用于企业协作、团队频道和 Microsoft 365 工作流。
+在 Microsoft Teams 上使用 OpenMax AI 员工，适用于企业协作、团队频道和 Microsoft 365 工作流。
 
 ## 基本使用
 
@@ -10,7 +10,7 @@
 ### 群聊与团队频道
 在群聊或团队频道中 @mention 机器人：
 ```
-@COCO AI Employee 总结一下昨天的讨论
+@OpenMax AI Employee 总结一下昨天的讨论
 ```
 
 ## 适用场景

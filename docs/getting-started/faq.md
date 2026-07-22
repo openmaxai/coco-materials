@@ -6,7 +6,7 @@ title: FAQ
 import { withBase } from 'vitepress'
 </script>
 
-<img :src="withBase('/faq-banner-new.png')" alt="COCO FAQ" style="width:100%;border-radius:12px;margin-bottom:24px;" />
+<img :src="withBase('/faq-banner-new.png')" alt="OpenMax FAQ" style="width:100%;border-radius:12px;margin-bottom:24px;" />
 
 # FAQ
 
@@ -16,11 +16,11 @@ import { withBase } from 'vitepress'
 <details>
 <summary>What is Cloud Agent Authorization?</summary>
 
-**Cloud Agent Authorization** means granting an AI Agent (like CoCo) deployed on a cloud server the permissions to operate third-party platforms.
+**Cloud Agent Authorization** means granting an AI Agent (like OpenMax) deployed on a cloud server the permissions to operate third-party platforms.
 
 Breaking it down:
 - **Cloud host** = remote server with no screen or browser
-- **Agent** = an AI program running autonomously (CoCo)
+- **Agent** = an AI program running autonomously (OpenMax)
 - **Authorization** = giving it a "pass" to act on your behalf on platforms like Lark, GitHub, Telegram, etc.
 
 Common third-party authorization scenarios include: GitHub (code repositories), Lark (team collaboration), Telegram (instant messaging), cloud platform APIs (AWS, GCP, etc.).
@@ -32,7 +32,7 @@ Common third-party authorization scenarios include: GitHub (code repositories), 
 
 **Principle of Least Privilege**
 
-COCO AI employees follow the "least privilege" principle — only requesting the minimum permissions needed to complete the task you specify, never overreaching.
+OpenMax AI employees follow the "least privilege" principle — only requesting the minimum permissions needed to complete the task you specify, never overreaching.
 
 **Permission Scope Breakdown**
 
@@ -45,7 +45,7 @@ COCO AI employees follow the "least privilege" principle — only requesting the
 
 **How to Control Permission Scope**
 
-Before onboarding, the COCO team will provide a standard permissions checklist for your review and approval. To add or adjust permissions, contact the COCO team (Telegram: [@CocoAIxyz](https://t.me/CocoAIxyz)).
+Before onboarding, the OpenMax team will provide a standard permissions checklist for your review and approval. To add or adjust permissions, contact the OpenMax team (Telegram: [@CocoAIxyz](https://t.me/CocoAIxyz)).
 
 **Standard Permissions Checklist**
 
@@ -84,21 +84,21 @@ The Agent has a memory system to remember your preferences and work context:
 
 ::: details Q2: What authorization methods are supported? How do I choose between SSH Key, API Token, and browser login?
 
-COCO supports three mainstream authorization methods. Choose based on your platform and security requirements:
+OpenMax supports three mainstream authorization methods. Choose based on your platform and security requirements:
 
 **Method 1: SSH Key (recommended for Linux servers)**
 
 Use case: Directly managing VPS / cloud hosts (Hetzner, AWS EC2, DigitalOcean, etc.)
 
 Steps:
-1. Create a dedicated system account on your server (e.g., `coco-agent`) — do not use the root account
-2. Generate an SSH key pair, or use the public key provided by COCO
+1. Create a dedicated system account on your server (e.g., `openmax-agent`) — do not use the root account
+2. Generate an SSH key pair, or use the public key provided by OpenMax
 3. Add the public key to that account's `~/.ssh/authorized_keys`
 4. Complete the authorization configuration through conversation with the AI employee — they will guide you through connection verification
 
 Security tips:
 - Limit the dedicated account's permissions to necessary directories only; do not grant sudo unless required
-- Configure an IP whitelist to restrict SSH connections to COCO's servers only
+- Configure an IP whitelist to restrict SSH connections to OpenMax's servers only
 
 **Method 2: API Token (recommended for cloud platforms / SaaS services)**
 
@@ -125,7 +125,7 @@ Security tips:
 Use case: Some platforms lack a robust API, or certain actions must be completed via a webpage
 
 Steps:
-1. Install COCO's Browser component (virtual browser) — just tell the AI employee "help me install the browser component"
+1. Install OpenMax's Browser component (virtual browser) — just tell the AI employee "help me install the browser component"
 2. Connect to the virtual browser via remote desktop (VNC)
 3. Log into the target platform in the virtual browser
 4. Once logged in, the AI employee can perform operations through that browser
@@ -154,7 +154,7 @@ This is a very common question. Cloud hosts are typically headless Linux environ
 1. Log into GitHub (or another platform) on your own computer
 2. Go to Settings → Developer Settings → Personal Access Tokens
 3. Generate a token and select the scopes the Agent needs (e.g., `repo`, `read:org`)
-4. Provide the token to the COCO AI employee (via the chat window)
+4. Provide the token to the OpenMax AI employee (via the chat window)
 5. The AI employee uses the token to operate — no browser login required
 
 You can also just tell the AI employee what you need, for example:
@@ -212,20 +212,20 @@ You can also take action directly on the source platform for the most thorough r
 **Emergency Situations**
 
 If you notice abnormal activity, in addition to the above steps:
-- Contact COCO support immediately (support@icoco.ai) — we will help investigate
-- For server security concerns, you can disable the account directly on the server side (`usermod -L coco-agent`)
+- Contact OpenMax support immediately (support@icoco.ai) — we will help investigate
+- For server security concerns, you can disable the account directly on the server side (`usermod -L openmax-agent`)
 
 **Data Handling After Revocation**
 
-After authorization is revoked, COCO no longer holds your credentials and will not initiate new operations.
+After authorization is revoked, OpenMax no longer holds your credentials and will not initiate new operations.
 
 :::
 
-::: details Q5: After the Agent service ends, does COCO retain my credentials?
+::: details Q5: After the Agent service ends, does OpenMax retain my credentials?
 
 **Clear Commitment**
 
-- Once you actively disconnect, the COCO system will delete the stored credentials (SSH Keys, API Tokens, etc.)
+- Once you actively disconnect, the OpenMax system will delete the stored credentials (SSH Keys, API Tokens, etc.)
 
 **Recommendation**: Regardless, after revoking authorization please also delete the corresponding keys on your server / cloud platform side — this is the most thorough security guarantee.
 
@@ -235,7 +235,7 @@ After authorization is revoked, COCO no longer holds your credentials and will n
 
 ::: details Q6: What social media and third-party platforms are supported?
 
-COCO AI employees can access various third-party platforms via API or the Browser component. The specific scope of support depends on your use case and the openness of each platform.
+OpenMax AI employees can access various third-party platforms via API or the Browser component. The specific scope of support depends on your use case and the openness of each platform.
 
 You can ask the AI employee directly, for example:
 > "Can you help me operate platform XX?" or "I want to monitor activity on platform XX — can you do that?"
@@ -276,15 +276,15 @@ If the content you're monitoring is highly time-sensitive (e.g., real-time senti
 
 **User Responsibility**
 
-When using the collected data, please ensure compliance with local data protection regulations (e.g., GDPR, data security laws). COCO provides data collection tools, but compliance with regulations for how you use that data is your responsibility.
+When using the collected data, please ensure compliance with local data protection regulations (e.g., GDPR, data security laws). OpenMax provides data collection tools, but compliance with regulations for how you use that data is your responsibility.
 
 :::
 
 ## III. Product Usage
 
-::: details Q9: What's the difference between COCO and regular ChatGPT?
+::: details Q9: What's the difference between OpenMax and regular ChatGPT?
 
-| Dimension | ChatGPT | COCO |
+| Dimension | ChatGPT | OpenMax |
 |-----------|---------|------|
 | **How you use it** | You open the app and ask questions | The AI employee proactively executes tasks end-to-end and pushes results to you |
 | **Memory** | Forgets everything after the conversation ends | Persistent cross-conversation memory — gets smarter the more you use it |
@@ -293,15 +293,15 @@ When using the collected data, please ensure compliance with local data protecti
 | **Underlying model** | OpenAI GPT | Claude (Anthropic) |
 | **Team collaboration** | Personal tool | Can join group chats — the whole team shares one AI employee |
 
-In short: ChatGPT is a smart Q&A tool. COCO is a digital employee that proactively gets work done, remembers you, and grows more capable over time.
+In short: ChatGPT is a smart Q&A tool. OpenMax is a digital employee that proactively gets work done, remembers you, and grows more capable over time.
 
 :::
 
-::: details Q10: How do I get started with COCO?
+::: details Q10: How do I get started with OpenMax?
 
 **Full Onboarding Flow (approximately 15 minutes)**
 
-1. Register a COCO account and choose a plan
+1. Register an OpenMax account and choose a plan
 2. Follow the [Channel Deployment Guide](https://docs.icoco.ai) to connect your channel (Telegram: ~5 min; Lark: ~10 min; Zalo (Official): ~5 min)
 3. Complete the Onboarding in the Dashboard (select your role; the AI employee initializes automatically)
 4. Send your first message and start collaborating
@@ -310,16 +310,16 @@ For deployment assistance, contact support (support@icoco.ai) or your customer g
 
 :::
 
-::: details Q11: What AI models does COCO support?
+::: details Q11: What AI models does OpenMax support?
 
-COCO is a **fully managed service** — the underlying AI models are managed by us, so you don't need to supply your own API key:
+OpenMax is a **fully managed service** — the underlying AI models are managed by us, so you don't need to supply your own API key:
 
 | Plan | Model Used | Capabilities |
 |------|-----------|--------------|
 | **Air** | Mainstream standard model (Claude Sonnet tier) | Everyday tasks: writing, organizing, analysis |
 | **Pro / Ultra** | Top-tier model (Claude Opus tier) | Complex reasoning, very long documents, high-frequency use |
 
-**Model switching**: COCO automatically selects the most suitable model based on task type and cost efficiency — this is transparent to users. For special requirements (e.g., Enterprise compliance requiring a specific model), contact us to discuss separately.
+**Model switching**: OpenMax automatically selects the most suitable model based on task type and cost efficiency — this is transparent to users. For special requirements (e.g., Enterprise compliance requiring a specific model), contact us to discuss separately.
 
 :::
 
@@ -327,7 +327,7 @@ COCO is a **fully managed service** — the underlying AI models are managed by 
 
 ::: details Q12: Data Security and Privacy Protection
 
-As a managed service provider, your conversation data passes through COCO's servers to be processed by the AI model. Throughout this process, we strictly protect your data security. We have established a comprehensive data security framework to fully ensure information safety.
+As a managed service provider, your conversation data passes through OpenMax's servers to be processed by the AI model. Throughout this process, we strictly protect your data security. We have established a comprehensive data security framework to fully ensure information safety.
 
 **Data Security Measures:**
 - End-to-end transmission encryption (HTTPS/TLS) and encrypted data storage

@@ -1,6 +1,6 @@
 # Channel Usage Tips
 
-Learn how to get the most out of each communication channel with your COCO AI employee.
+Learn how to get the most out of each communication channel with your OpenMax AI employee.
 
 ## Available Channels
 

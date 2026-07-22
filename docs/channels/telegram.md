@@ -1,6 +1,6 @@
 # Telegram — Usage Tips
 
-Everything you need to get the most out of your COCO AI employee on Telegram.
+Everything you need to get the most out of your OpenMax AI employee on Telegram.
 
 ## Basic Usage
 
@@ -41,7 +41,7 @@ In a group, you must @mention your bot to trigger it:
 
 ### Controlling When the Bot Responds
 By default, the bot only responds when @mentioned in groups. You can also:
-- Set it to respond to all messages (configure in COCO Dashboard → Channel Settings)
+- Set it to respond to all messages (configure in OpenMax Dashboard → Channel Settings)
 - Set specific trigger keywords
 
 ### Forwarding Messages
@@ -68,7 +68,7 @@ You can forward any message to the bot and ask it to analyze, translate, or summ
 
 **Slow responses?**
 - Large requests take longer — complex analysis can take 30–60 seconds
-- Check your COCO Dashboard for any quota or rate limit warnings
+- Check your OpenMax Dashboard for any quota or rate limit warnings
 
 **Context lost?**
 - Use `/reset` to start a fresh conversation

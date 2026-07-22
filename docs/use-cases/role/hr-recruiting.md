@@ -12,7 +12,7 @@ AI-powered use cases for HR, recruiters, and people operations.
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Resume Screening Is a Volume Problem That Destroys Quality**
 
@@ -22,18 +22,18 @@ The result is "keyword screening" -- the recruiter's survival mechanism. When yo
 
 Research from Harvard Business Review shows that resume screening is one of the least predictive steps in the hiring process, yet it's the step that eliminates 90%+ of candidates. The best candidate for the job might never make it past the screen -- not because they lack qualifications, but because their resume didn't match the pattern the recruiter was looking for in a 60-second scan.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Resume Screener performs deep, consistent analysis of every application against your actual job requirements.
+OpenMax's AI Resume Screener performs deep, consistent analysis of every application against your actual job requirements.
 
-1. **Requirements-Based Evaluation**: COCO analyzes each resume against a structured rubric built from the job description:
+1. **Requirements-Based Evaluation**: OpenMax analyzes each resume against a structured rubric built from the job description:
    - Required technical skills (with semantic understanding -- "React" matches "React.js" matches "React Native for web")
    - Years and type of relevant experience
    - Industry or domain expertise
    - Leadership/management experience where required
    - Education and certifications (when genuinely relevant)
 
-2. **Semantic Skill Matching**: Unlike keyword filters, COCO understands equivalencies:
+2. **Semantic Skill Matching**: Unlike keyword filters, OpenMax understands equivalencies:
    - "Cloud infrastructure" = "AWS/GCP/Azure experience"
    - "People manager leading 12 engineers" = "Engineering management experience"
    - "Built real-time data pipelines" = "Stream processing / Kafka / event-driven architecture"
@@ -46,19 +46,19 @@ COCO's AI Resume Screener performs deep, consistent analysis of every applicatio
    - **Culture Indicators** (0-100): Values alignment signals (from projects, volunteer work, writing)
    - **Overall Fit Score**: Weighted composite based on your priorities
 
-4. **Bias Mitigation**: COCO is designed to reduce (not introduce) screening bias:
+4. **Bias Mitigation**: OpenMax is designed to reduce (not introduce) screening bias:
    - Evaluates skills and experience, not school prestige or company brand
    - Ignores demographic information (name, gender, age indicators)
    - Standardizes evaluation criteria across all candidates
    - Flags when shortlist lacks diversity for review
 
-5. **Detailed Justification**: For each recommended candidate, COCO provides:
+5. **Detailed Justification**: For each recommended candidate, OpenMax provides:
    - Why they scored high (specific skills, experiences, and achievements cited)
    - Potential concerns or gaps (with assessment of severity)
    - Suggested interview focus areas (what to explore further)
    - Comparison to other top candidates
 
-6. **Hidden Gem Detection**: COCO specifically identifies:
+6. **Hidden Gem Detection**: OpenMax specifically identifies:
    - Career changers with transferable skills
    - Candidates from non-traditional backgrounds with relevant experience
    - Overqualified candidates who might be interested for specific reasons
@@ -168,7 +168,7 @@ Create a comparison matrix including:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Bad Job Descriptions Are Invisible Pipeline Killers**
 
@@ -178,31 +178,31 @@ Research consistently shows that poorly written JDs have measurable negative eff
 
 Most hiring managers write JDs that describe their ideal candidate -- someone who has already done this exact job. This eliminates candidates with high potential who could grow into the role, career changers who bring fresh perspectives, and candidates from adjacent fields with transferable skills.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Job Description Writer creates compelling, inclusive, and effective job descriptions that attract the right candidates.
+OpenMax's AI Job Description Writer creates compelling, inclusive, and effective job descriptions that attract the right candidates.
 
-1. **Role Analysis**: COCO works with the hiring manager to clarify the actual role:
+1. **Role Analysis**: OpenMax works with the hiring manager to clarify the actual role:
    - What will this person do in their first 90 days?
    - What skills are genuinely required vs. learnable on the job?
    - What does success look like at 6 and 12 months?
    - What makes this role unique and exciting?
 
-2. **Impact-First Structure**: COCO writes JDs that lead with what matters to candidates:
+2. **Impact-First Structure**: OpenMax writes JDs that lead with what matters to candidates:
    - **Hook**: Why this role matters and what impact the person will have
    - **What You'll Do**: Specific responsibilities framed as outcomes, not tasks
    - **What You Bring**: Separated into "Required" (genuinely non-negotiable) and "Nice to Have"
    - **What We Offer**: Compensation range, benefits, growth opportunities, culture
    - **About Us**: Company mission and team context
 
-3. **Inclusive Language Optimization**: COCO scans for and corrects:
+3. **Inclusive Language Optimization**: OpenMax scans for and corrects:
    - Gendered language ("rockstar," "ninja," "he/she" defaults)
    - Unnecessary requirements that exclude diverse candidates
    - Jargon that discourages career changers
    - Age-coded language ("digital native," "young and energetic")
    - Ability-biased language that excludes disabled candidates
 
-4. **Compensation Intelligence**: COCO helps position compensation competitively:
+4. **Compensation Intelligence**: OpenMax helps position compensation competitively:
    - Market rate benchmarking based on role, location, and company stage
    - Pay transparency compliance (where legally required)
    - Benefits and perks framing that resonates with target candidates
@@ -214,7 +214,7 @@ COCO's AI Job Description Writer creates compelling, inclusive, and effective jo
    - **Careers Page**: Detailed, culture-rich, with team information
    - **Internal Posting**: Growth opportunity framing, internal mobility emphasis
 
-6. **Performance Tracking**: COCO helps measure JD effectiveness:
+6. **Performance Tracking**: OpenMax helps measure JD effectiveness:
    - Application rate per channel
    - Quality of applicant pool (% meeting requirements)
    - Demographic diversity of applicants
@@ -343,7 +343,7 @@ Include data sources and note any limitations in the benchmarking.
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Interview Scheduling Is the Silent Killer of Recruiting Speed**
 
@@ -353,9 +353,9 @@ Recruiting coordinators -- the people managing this complexity -- are among the 
 
 The hidden cost goes beyond coordinator time. Every day of scheduling delay increases the probability of losing a top candidate. When your process takes 5 days just to confirm an interview, while a competitor confirms in 1 day, the math is simple and brutal. The candidates you lose aren't the average ones -- they're the ones with multiple options, which means they're the best ones.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Interview Scheduler automates the entire scheduling workflow from initial availability to confirmation.
+OpenMax's AI Interview Scheduler automates the entire scheduling workflow from initial availability to confirmation.
 
 1. **Calendar Intelligence**: Integrates with Google Calendar, Outlook, and Calendly to read real-time availability across all interviewers. Understands recurring meetings, focus time blocks, and out-of-office schedules.
 
@@ -374,7 +374,7 @@ COCO's AI Interview Scheduler automates the entire scheduling workflow from init
    - What-to-expect guide for each interview type
    - Interviewer bios and LinkedIn profiles
 
-4. **Dynamic Rescheduling**: When cancellations happen (and they always do), COCO:
+4. **Dynamic Rescheduling**: When cancellations happen (and they always do), OpenMax:
    - Automatically finds replacement slots within the original timeframe
    - Finds substitute interviewers from a pre-approved backup list
    - Notifies all parties and updates calendar invites
@@ -502,7 +502,7 @@ Provide actionable recommendations for the next quarter.
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Broken Onboarding Costs You Employees Before They Start Contributing**
 
@@ -512,11 +512,11 @@ The root cause is coordination complexity. Onboarding touches every department: 
 
 The new hire experience compounds the problem. New employees are anxious, eager to contribute, and deeply sensitive to first impressions. When they spend their first week waiting for equipment, searching for information, and feeling ignored, that initial enthusiasm converts into frustration and second-guessing. The "buyer's remorse" window -- the first 90 days -- is when employees decide whether they made the right choice. A chaotic onboarding experience tells them they didn't.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Onboarding Assistant orchestrates the entire onboarding experience from offer acceptance to the 90-day milestone.
+OpenMax's AI Onboarding Assistant orchestrates the entire onboarding experience from offer acceptance to the 90-day milestone.
 
-1. **Automated Workflow Orchestration**: The moment an offer is accepted, COCO triggers a role-specific onboarding workflow:
+1. **Automated Workflow Orchestration**: The moment an offer is accepted, OpenMax triggers a role-specific onboarding workflow:
    - Assigns tasks to all stakeholders with clear deadlines (IT: provision laptop by day -3, HR: benefits enrollment by day 1, Manager: first 1:1 by day 2)
    - Sends automated reminders for overdue items
    - Escalates missed deadlines to the right manager
@@ -536,7 +536,7 @@ COCO's AI Onboarding Assistant orchestrates the entire onboarding experience fro
    - Cultural norms (meeting etiquette, communication preferences, decision-making processes)
    - Benefits and perks (enrollment, deadlines, contacts)
 
-4. **Manager Coaching**: Most managers haven't been trained on onboarding. COCO helps:
+4. **Manager Coaching**: Most managers haven't been trained on onboarding. OpenMax helps:
    - Prompts managers with check-in reminders at key milestones
    - Suggests conversation topics for 1:1s ("Week 1: Ask about their first impressions and any blockers")
    - Provides onboarding best practices tips ("Set one small win in the first week to build confidence")
@@ -680,7 +680,7 @@ For each task: responsible person, deadline, dependencies, and verification that
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Annual Surveys Are Autopsies, Not Diagnostics**
 
@@ -690,13 +690,13 @@ The real cost goes beyond the immediate time waste. When chros are stuck in reac
 
 Most teams have tried to address this with a combination of spreadsheets, manual processes, and good intentions. The problem is that these approaches don't scale. What works for 10 items breaks at 100. What works for 100 collapses at 1,000. And in today's environment, you're dealing with thousands.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Runs brief weekly pulse**: Runs brief weekly pulse checks with smart question rotation. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+1. **Runs brief weekly pulse**: Runs brief weekly pulse checks with smart question rotation. OpenMax handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
 
-2. **AI detects sentiment shifts**: AI detects sentiment shifts and at-risk teams before turnover. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+2. **AI detects sentiment shifts**: AI detects sentiment shifts and at-risk teams before turnover. OpenMax handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
 
-3. **Actionable insights dashboard with**: Actionable insights dashboard with anonymous theme analysis. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+3. **Actionable insights dashboard with**: Actionable insights dashboard with anonymous theme analysis. OpenMax handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
 
 :::
 
@@ -786,7 +786,7 @@ Evaluate:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Training Budgets Burn While Employees Learn Nothing Relevant**
 
@@ -796,13 +796,13 @@ The real cost goes beyond the immediate time waste. When l&d managers are stuck 
 
 Most teams have tried to address this with a combination of spreadsheets, manual processes, and good intentions. The problem is that these approaches don't scale. What works for 10 items breaks at 100. What works for 100 collapses at 1,000. And in today's environment, you're dealing with thousands.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Maps individual skill gaps**: Maps individual skill gaps against role requirements and career goals. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+1. **Maps individual skill gaps**: Maps individual skill gaps against role requirements and career goals. OpenMax handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
 
-2. **Recommends personalized learning paths**: Recommends personalized learning paths from your existing content library. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+2. **Recommends personalized learning paths**: Recommends personalized learning paths from your existing content library. OpenMax handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
 
-3. **Tracks skill development and**: Tracks skill development and correlates with performance outcomes. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+3. **Tracks skill development and**: Tracks skill development and correlates with performance outcomes. OpenMax handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
 
 :::
 
@@ -892,7 +892,7 @@ Evaluate:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: You Are Losing Top Talent to Compensation Blind Spots**
 
@@ -902,13 +902,13 @@ The real cost goes beyond the immediate time waste. When comp & benefitss are st
 
 Most teams have tried to address this with a combination of spreadsheets, manual processes, and good intentions. The problem is that these approaches don't scale. What works for 10 items breaks at 100. What works for 100 collapses at 1,000. And in today's environment, you're dealing with thousands.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Aggregates real-time comp data**: Aggregates real-time comp data from job postings, surveys, and offers. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+1. **Aggregates real-time comp data**: Aggregates real-time comp data from job postings, surveys, and offers. OpenMax handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
 
-2. **Benchmarks every role against**: Benchmarks every role against market by location, level, and skills. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+2. **Benchmarks every role against**: Benchmarks every role against market by location, level, and skills. OpenMax handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
 
-3. **Models the cost of**: Models the cost of adjustments vs. the cost of attrition. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+3. **Models the cost of**: Models the cost of adjustments vs. the cost of attrition. OpenMax handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
 
 :::
 
@@ -998,7 +998,7 @@ Evaluate:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Performance Reviews Are a Biannual Exercise in Copy-Paste**
 
@@ -1008,13 +1008,13 @@ The real cost goes beyond the immediate time waste. When engineering managers ar
 
 Most teams have tried to address this with a combination of spreadsheets, manual processes, and good intentions. The problem is that these approaches don't scale. What works for 10 items breaks at 100. What works for 100 collapses at 1,000. And in today's environment, you're dealing with thousands.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Synthesizes 1:1 notes, peer**: Synthesizes 1:1 notes, peer feedback, and OKR data into draft reviews. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+1. **Synthesizes 1:1 notes, peer**: Synthesizes 1:1 notes, peer feedback, and OKR data into draft reviews. OpenMax handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
 
-2. **Ensures specific, actionable feedback**: Ensures specific, actionable feedback tied to real examples. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+2. **Ensures specific, actionable feedback**: Ensures specific, actionable feedback tied to real examples. OpenMax handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
 
-3. **Checks for bias patterns**: Checks for bias patterns and calibrates across the team. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+3. **Checks for bias patterns**: Checks for bias patterns and calibrates across the team. OpenMax handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
 
 :::
 
@@ -1104,7 +1104,7 @@ Evaluate:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Incomplete Offboarding Creates Security Risks and Compliance Gaps**
 
@@ -1112,19 +1112,19 @@ In today's fast-paced enterprise environment, incomplete offboarding creates sec
 
 The problem compounds over time. As teams grow and operations scale, the manual processes that "worked fine" at 20 people become unsustainable at 200. Critical information gets siloed in individual inboxes, spreadsheets, and tribal knowledge. Handoffs between teams introduce delays and errors. And the best employees — the ones you can't afford to lose — burn out fastest because they're the ones most often pulled into the operational firefighting that prevents them from doing their highest-value work. According to a 2025 Deloitte survey, 67% of professionals in enterprise organizations report that manual processes are their biggest barrier to career satisfaction and productivity.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Employee Offboarding Manager transforms this chaos into a streamlined, intelligent workflow. Here's the step-by-step process:
+OpenMax's AI Employee Offboarding Manager transforms this chaos into a streamlined, intelligent workflow. Here's the step-by-step process:
 
-1. **Intelligent Data Collection**: COCO's AI Employee Offboarding Manager continuously monitors your connected systems and data sources — email, project management tools, CRMs, databases, and communication platforms. It automatically identifies relevant information, extracts key data points, and organizes them into structured workflows without any manual input.
+1. **Intelligent Data Collection**: OpenMax's AI Employee Offboarding Manager continuously monitors your connected systems and data sources — email, project management tools, CRMs, databases, and communication platforms. It automatically identifies relevant information, extracts key data points, and organizes them into structured workflows without any manual input.
 
-2. **Smart Analysis & Classification**: Every incoming item is analyzed using contextual understanding, not just keyword matching. COCO classifies information by urgency, topic, responsible party, and required action type. It understands the relationships between data points and identifies patterns that humans might miss when processing items individually.
+2. **Smart Analysis & Classification**: Every incoming item is analyzed using contextual understanding, not just keyword matching. OpenMax classifies information by urgency, topic, responsible party, and required action type. It understands the relationships between data points and identifies patterns that humans might miss when processing items individually.
 
-3. **Automated Processing & Routing**: Based on the analysis, COCO automatically routes items to the right team members, triggers appropriate workflows, and initiates standard responses. Routine tasks are handled end-to-end without human intervention, while complex items are escalated with full context to the right decision-maker.
+3. **Automated Processing & Routing**: Based on the analysis, OpenMax automatically routes items to the right team members, triggers appropriate workflows, and initiates standard responses. Routine tasks are handled end-to-end without human intervention, while complex items are escalated with full context to the right decision-maker.
 
-4. **Quality Validation & Cross-Referencing**: Before any output is finalized, COCO validates results against your existing records and business rules. It cross-references multiple data sources to ensure accuracy, flags inconsistencies for review, and maintains a confidence score for every automated decision.
+4. **Quality Validation & Cross-Referencing**: Before any output is finalized, OpenMax validates results against your existing records and business rules. It cross-references multiple data sources to ensure accuracy, flags inconsistencies for review, and maintains a confidence score for every automated decision.
 
-5. **Continuous Learning & Optimization**: COCO learns from every interaction — human corrections, feedback, and outcome data all feed into improving accuracy over time. It identifies bottlenecks, suggests process improvements, and adapts to changing business rules without requiring reprogramming.
+5. **Continuous Learning & Optimization**: OpenMax learns from every interaction — human corrections, feedback, and outcome data all feed into improving accuracy over time. It identifies bottlenecks, suggests process improvements, and adapts to changing business rules without requiring reprogramming.
 
 6. **Reporting & Insights Dashboard**: Comprehensive dashboards provide real-time visibility into process performance: throughput metrics, accuracy rates, exception patterns, team workload distribution, and trend analysis. Weekly summary reports highlight wins, flag concerns, and recommend optimization opportunities.
 
@@ -1283,7 +1283,7 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Compliance Training Is a Ticking Time Bomb That Nobody Wants to Manage**
 
@@ -1299,21 +1299,21 @@ Regulatory changes compound the problem. New regulations emerge constantly, exis
 
 Audit readiness is the final pain point. When regulators or auditors request compliance training records, HR teams scramble to compile evidence from multiple systems, chase down missing records, and generate reports that prove compliance. The average audit preparation takes 3-4 weeks of dedicated effort, and even then, gaps are frequently discovered.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Compliance Training Tracker transforms compliance training from a reactive, manually-intensive process into a proactive, automated system.
+OpenMax's AI Compliance Training Tracker transforms compliance training from a reactive, manually-intensive process into a proactive, automated system.
 
-1. **Intelligent Course Assignment**: COCO automatically maps compliance training requirements to every employee based on their role, department, location, and regulatory environment. When employees are hired, promoted, or transfer, COCO instantly updates their required training portfolio. It tracks every regulatory framework applicable to your organization and maintains a living matrix of who needs what, when.
+1. **Intelligent Course Assignment**: OpenMax automatically maps compliance training requirements to every employee based on their role, department, location, and regulatory environment. When employees are hired, promoted, or transfer, OpenMax instantly updates their required training portfolio. It tracks every regulatory framework applicable to your organization and maintains a living matrix of who needs what, when.
 
-2. **Proactive Deadline Monitoring**: Rather than waiting for deadlines to pass, COCO monitors the entire organization's training timeline continuously. It identifies employees at risk of missing deadlines weeks in advance, predicts completion patterns based on historical data, and escalates strategically -- starting with gentle reminders and progressively involving managers and HR business partners as deadlines approach.
+2. **Proactive Deadline Monitoring**: Rather than waiting for deadlines to pass, OpenMax monitors the entire organization's training timeline continuously. It identifies employees at risk of missing deadlines weeks in advance, predicts completion patterns based on historical data, and escalates strategically -- starting with gentle reminders and progressively involving managers and HR business partners as deadlines approach.
 
-3. **Personalized Smart Reminders**: COCO sends contextually aware reminders tailored to each employee. It learns optimal timing -- when each person typically completes training, which communication channels they respond to, and what messaging motivates action. Reminders include direct links, estimated completion time, and clear deadline visibility. For managers, COCO provides team compliance dashboards showing who is at risk.
+3. **Personalized Smart Reminders**: OpenMax sends contextually aware reminders tailored to each employee. It learns optimal timing -- when each person typically completes training, which communication channels they respond to, and what messaging motivates action. Reminders include direct links, estimated completion time, and clear deadline visibility. For managers, OpenMax provides team compliance dashboards showing who is at risk.
 
-4. **Automated Completion Verification**: COCO integrates with your LMS and training platforms to automatically verify course completions, assessment scores, and certification status. It flags incomplete attempts, failed assessments requiring retakes, and expired certifications requiring renewal. Every verification is timestamped and stored in an immutable audit log.
+4. **Automated Completion Verification**: OpenMax integrates with your LMS and training platforms to automatically verify course completions, assessment scores, and certification status. It flags incomplete attempts, failed assessments requiring retakes, and expired certifications requiring renewal. Every verification is timestamped and stored in an immutable audit log.
 
-5. **Gap Analysis and Risk Scoring**: COCO continuously analyzes your organization's compliance posture, identifying departments, roles, or locations with the highest non-compliance risk. It produces risk scores at the team, department, and enterprise level, enabling HR and compliance leaders to prioritize interventions where they will have the most impact.
+5. **Gap Analysis and Risk Scoring**: OpenMax continuously analyzes your organization's compliance posture, identifying departments, roles, or locations with the highest non-compliance risk. It produces risk scores at the team, department, and enterprise level, enabling HR and compliance leaders to prioritize interventions where they will have the most impact.
 
-6. **Regulatory Change Management**: When regulations change, COCO automatically assesses the impact on your training requirements. It identifies which courses need updating, which employees are affected, and what new training may be required. It generates change impact reports for compliance leaders and can automatically assign new or updated courses with appropriate deadlines.
+6. **Regulatory Change Management**: When regulations change, OpenMax automatically assesses the impact on your training requirements. It identifies which courses need updating, which employees are affected, and what new training may be required. It generates change impact reports for compliance leaders and can automatically assign new or updated courses with appropriate deadlines.
 
 :::
 
@@ -1499,7 +1499,7 @@ Present with executive-ready visualizations described in markdown (tables, compa
 
 > Screens 500 resumes in hours instead of weeks — 75% reduction in screening time, shortlist-to-hire conversion up 42%.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 Resume screening is one of the highest-volume, most time-consuming, and most error-prone activities in the entire talent acquisition workflow. When a single job posting receives 200, 500, or even 1,000 applications — a common occurrence for mid-to-large enterprises — the sheer volume overwhelms even experienced recruiting teams. Industry data from the Society for Human Resource Management (SHRM) shows that recruiters spend an average of 6 to 8 seconds reviewing each resume during initial screening. At that pace, critical details are missed, qualified candidates fall through the cracks, and unconscious bias — favoring familiar school names, company brands, or formatting styles — systematically distorts who advances.
 
@@ -1507,19 +1507,19 @@ The operational cost is significant. A recruiter managing a high-volume role spe
 
 Traditional ATS (Applicant Tracking System) keyword filters address volume but introduce new problems. Rigid keyword matching penalizes candidates who use synonyms, have non-linear careers, or come from underrepresented backgrounds where experiences may be described differently. Studies from Harvard Business School estimate that 27 million workers in the US alone are "hidden workers" — qualified candidates systematically filtered out by automated systems because their resumes don't match a narrow keyword template.
 
-COCO offers a fundamentally different approach. Rather than rigid keyword matching, COCO reads resumes holistically — understanding context, inferring transferable skills, and applying the specific screening criteria the recruiter defines in plain language. The result is a shortlist that is faster to produce, more consistent in its application of criteria, and more defensible to stakeholders.
+OpenMax offers a fundamentally different approach. Rather than rigid keyword matching, OpenMax reads resumes holistically — understanding context, inferring transferable skills, and applying the specific screening criteria the recruiter defines in plain language. The result is a shortlist that is faster to produce, more consistent in its application of criteria, and more defensible to stakeholders.
 
-1. **Criteria definition**: The recruiter describes the role requirements in plain language — must-haves, strong preferences, and red flags. COCO does not require Boolean search strings or ATS syntax; a clear written brief is sufficient.
+1. **Criteria definition**: The recruiter describes the role requirements in plain language — must-haves, strong preferences, and red flags. OpenMax does not require Boolean search strings or ATS syntax; a clear written brief is sufficient.
 
-2. **Batch resume intake**: The recruiter pastes or uploads a batch of resume text (or summarized profiles). COCO evaluates each against the defined criteria simultaneously, rather than sequentially — collapsing hours of reading into minutes.
+2. **Batch resume intake**: The recruiter pastes or uploads a batch of resume text (or summarized profiles). OpenMax evaluates each against the defined criteria simultaneously, rather than sequentially — collapsing hours of reading into minutes.
 
-3. **Structured evaluation output**: For each candidate, COCO produces a structured summary: a fit score rationale (not just a number), specific evidence from the resume supporting or undermining each criterion, and a clear recommendation (advance, hold, decline).
+3. **Structured evaluation output**: For each candidate, OpenMax produces a structured summary: a fit score rationale (not just a number), specific evidence from the resume supporting or undermining each criterion, and a clear recommendation (advance, hold, decline).
 
-4. **Comparative ranking**: COCO produces a ranked shortlist with reasoning, making it easy for the recruiter to review, validate, and adjust. Borderline candidates are flagged with specific notes rather than silently rejected.
+4. **Comparative ranking**: OpenMax produces a ranked shortlist with reasoning, making it easy for the recruiter to review, validate, and adjust. Borderline candidates are flagged with specific notes rather than silently rejected.
 
-5. **Bias audit trail**: COCO's evaluations are based on documented criteria applied consistently — creating an auditable record of why each candidate was advanced or declined that supports DEI goals and legal defensibility.
+5. **Bias audit trail**: OpenMax's evaluations are based on documented criteria applied consistently — creating an auditable record of why each candidate was advanced or declined that supports DEI goals and legal defensibility.
 
-6. **Candidate communication drafts**: For declined candidates, COCO can draft personalized, respectful rejection emails. For advancing candidates, it can draft outreach messages that reference specific details from their background.
+6. **Candidate communication drafts**: For declined candidates, OpenMax can draft personalized, respectful rejection emails. For advancing candidates, it can draft outreach messages that reference specific details from their background.
 
 :::
 
@@ -1531,7 +1531,7 @@ COCO offers a fundamentally different approach. Rather than rigid keyword matchi
 - **Shortlist-to-hire conversion rate** improved by 42% due to better initial filtering quality
 - **Recruiter capacity** increased by 3x — enabling teams to manage more open roles without adding headcount
 - **Candidate experience scores** improved as response times shortened from weeks to days
-- **Bias-related screening complaints** reduced by 65% in organizations using COCO's structured evaluation approach
+- **Bias-related screening complaints** reduced by 65% in organizations using OpenMax's structured evaluation approach
 
 **Who Benefits**
 
@@ -1578,7 +1578,7 @@ Here are the screening decisions made by two different recruiters for the same [
 
 > Structured interview guides in under 45 minutes — inter-rater reliability up 55%, legally problematic questions reduced 80%.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 The quality of an interview is only as good as the quality of the questions asked. Yet across most organizations, interview preparation is an afterthought — hiring managers lean on the same generic questions they've used for years ("Tell me about yourself," "Where do you see yourself in five years?"), interviewers across different rounds ask overlapping or redundant questions without coordination, and structured interviewing best practices rarely make it from HR training sessions into actual interview rooms.
 
@@ -1588,19 +1588,19 @@ The operational problem is time and expertise. Developing a truly structured int
 
 The result is an interview process that varies dramatically by interviewer, produces inconsistent data for hiring decisions, exposes organizations to legal liability (legally problematic questions are surprisingly common in unstructured settings), and fails to predict whether candidates will actually succeed in the role.
 
-COCO closes this gap by generating tailored, competency-mapped, legally vetted interview question sets in minutes — giving any hiring team the structured interview infrastructure that was previously available only to organizations with dedicated talent science resources.
+OpenMax closes this gap by generating tailored, competency-mapped, legally vetted interview question sets in minutes — giving any hiring team the structured interview infrastructure that was previously available only to organizations with dedicated talent science resources.
 
-1. **Role and competency intake**: The HR partner or hiring manager provides COCO with the role title, level, team context, and the key competencies the interview process should assess. COCO maps standard competency frameworks to the role or uses custom competencies as specified.
+1. **Role and competency intake**: The HR partner or hiring manager provides OpenMax with the role title, level, team context, and the key competencies the interview process should assess. OpenMax maps standard competency frameworks to the role or uses custom competencies as specified.
 
-2. **Question set generation**: COCO generates a complete, structured interview question set: behavioral questions (past-tense, "Tell me about a time..."), situational questions (hypothetical scenarios relevant to the role), technical or functional questions where appropriate, and culture-fit questions rooted in company values rather than personal affinity.
+2. **Question set generation**: OpenMax generates a complete, structured interview question set: behavioral questions (past-tense, "Tell me about a time..."), situational questions (hypothetical scenarios relevant to the role), technical or functional questions where appropriate, and culture-fit questions rooted in company values rather than personal affinity.
 
-3. **Follow-up probe mapping**: For each core question, COCO generates 2-3 follow-up probes designed to elicit the STAR (Situation, Task, Action, Result) depth of information needed for reliable evaluation, pushing candidates beyond rehearsed surface-level answers.
+3. **Follow-up probe mapping**: For each core question, OpenMax generates 2-3 follow-up probes designed to elicit the STAR (Situation, Task, Action, Result) depth of information needed for reliable evaluation, pushing candidates beyond rehearsed surface-level answers.
 
-4. **Scoring rubric creation**: COCO generates behavioral anchors for each question — describing what a strong (3), average (2), and weak (1) answer looks like — enabling interviewers to evaluate candidates on a consistent scale rather than gut feel.
+4. **Scoring rubric creation**: OpenMax generates behavioral anchors for each question — describing what a strong (3), average (2), and weak (1) answer looks like — enabling interviewers to evaluate candidates on a consistent scale rather than gut feel.
 
-5. **Legal compliance review**: COCO flags any question that touches legally sensitive areas (age, family status, national origin, disability) and suggests compliant alternatives that surface the underlying job-relevant information without legal exposure.
+5. **Legal compliance review**: OpenMax flags any question that touches legally sensitive areas (age, family status, national origin, disability) and suggests compliant alternatives that surface the underlying job-relevant information without legal exposure.
 
-6. **Panel coordination**: For multi-round interview processes, COCO designs question sets for each interviewer or round with minimal overlap — ensuring the candidate is assessed across a broad range of competencies rather than answering the same questions multiple times.
+6. **Panel coordination**: For multi-round interview processes, OpenMax designs question sets for each interviewer or round with minimal overlap — ensuring the candidate is assessed across a broad range of competencies rather than answering the same questions multiple times.
 
 :::
 
@@ -1609,8 +1609,8 @@ COCO closes this gap by generating tailored, competency-mapped, legally vetted i
 **Measurable Results**
 
 - **Interview preparation time** reduced from 4+ hours to under 45 minutes per role
-- **Inter-rater reliability** among interview panels improved by 55% when using COCO-generated rubrics
-- **Legally problematic question incidents** reduced by 80% after adoption of COCO-generated, pre-screened question sets
+- **Inter-rater reliability** among interview panels improved by 55% when using OpenMax-generated rubrics
+- **Legally problematic question incidents** reduced by 80% after adoption of OpenMax-generated, pre-screened question sets
 - **Hiring manager satisfaction** with the interview process increased by 48% due to feeling better prepared
 - **Offer acceptance rates** improved by 22% as candidates rated structured interviews as more professional and engaging
 
@@ -1655,7 +1655,7 @@ Design [5] situational interview questions for a [VP of Operations] role at a [l
 
 > Personalized, legally compliant offer letters in under 15 minutes — acceptance rate up 18%, legal compliance incidents reduced 85%.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 The offer letter is one of the most consequential documents in the employment relationship. It is the first formal record of terms agreed between employer and employee, the document a candidate will read carefully before accepting or declining, and — in many jurisdictions — a legally binding or legally relevant communication that can create obligations far beyond what HR intended. Yet despite its importance, offer letter drafting is often handled hastily, inconsistently, and without adequate legal oversight.
 
@@ -1665,19 +1665,19 @@ For enterprises operating across multiple jurisdictions — different countries,
 
 Beyond compliance, there is the candidate experience dimension. An offer letter is a marketing document as much as a legal one — it is the final communication before a candidate makes a life decision, and the tone, professionalism, and completeness of that communication directly affects acceptance rates. Generic, bureaucratic offer letters signal to candidates that their employer-of-choice experience ends the moment they sign. Personalized, compelling letters reinforce the candidate's decision and reduce the risk of last-minute competitive offers pulling them away.
 
-COCO transforms offer letter drafting from a high-risk, time-pressured manual task into a fast, consistent, and professionally crafted process — adapting to role type, compensation structure, jurisdiction, and brand voice while flagging potential compliance gaps before letters are sent.
+OpenMax transforms offer letter drafting from a high-risk, time-pressured manual task into a fast, consistent, and professionally crafted process — adapting to role type, compensation structure, jurisdiction, and brand voice while flagging potential compliance gaps before letters are sent.
 
-1. **Intake**: HR provides COCO with the candidate's name, role title, start date, compensation details (base, variable, equity, signing bonus if applicable), work location, reporting line, and any special terms negotiated. The input takes minutes.
+1. **Intake**: HR provides OpenMax with the candidate's name, role title, start date, compensation details (base, variable, equity, signing bonus if applicable), work location, reporting line, and any special terms negotiated. The input takes minutes.
 
-2. **Draft generation**: COCO generates a complete offer letter including: a warm, personalized opening, full compensation summary with all components clearly stated, start date and location details, contingency clauses (background check, right-to-work verification), benefits summary pointer, at-will or notice period language appropriate to the jurisdiction, and a closing that reinforces the excitement of the opportunity.
+2. **Draft generation**: OpenMax generates a complete offer letter including: a warm, personalized opening, full compensation summary with all components clearly stated, start date and location details, contingency clauses (background check, right-to-work verification), benefits summary pointer, at-will or notice period language appropriate to the jurisdiction, and a closing that reinforces the excitement of the opportunity.
 
-3. **Jurisdiction-specific adaptation**: HR specifies the work location, and COCO applies the appropriate legal framing — state-specific disclosures (California pay transparency, Colorado salary range requirements), notice period conventions, and required clauses for the relevant jurisdiction.
+3. **Jurisdiction-specific adaptation**: HR specifies the work location, and OpenMax applies the appropriate legal framing — state-specific disclosures (California pay transparency, Colorado salary range requirements), notice period conventions, and required clauses for the relevant jurisdiction.
 
-4. **Compensation structure customization**: For complex offers (OTE with variable components, equity with vesting schedules, hybrid remote-to-in-office arrangements), COCO generates clear, plain-language explanations of each component — reducing candidate confusion and post-offer questions that delay acceptance.
+4. **Compensation structure customization**: For complex offers (OTE with variable components, equity with vesting schedules, hybrid remote-to-in-office arrangements), OpenMax generates clear, plain-language explanations of each component — reducing candidate confusion and post-offer questions that delay acceptance.
 
-5. **Legal flag review**: COCO identifies language that may create unintended legal obligations — implied promises of continued employment, vague descriptions of bonus discretion, or missing arbitration clause references — before the letter is finalized.
+5. **Legal flag review**: OpenMax identifies language that may create unintended legal obligations — implied promises of continued employment, vague descriptions of bonus discretion, or missing arbitration clause references — before the letter is finalized.
 
-6. **Brand and tone customization**: COCO adapts the letter's tone to the company's employer brand — from formal and professional to warm and mission-forward — ensuring the offer letter reflects the culture the candidate experienced during the interview process.
+6. **Brand and tone customization**: OpenMax adapts the letter's tone to the company's employer brand — from formal and professional to warm and mission-forward — ensuring the offer letter reflects the culture the candidate experienced during the interview process.
 
 :::
 
@@ -1686,7 +1686,7 @@ COCO transforms offer letter drafting from a high-risk, time-pressured manual ta
 **Measurable Results**
 
 - **Offer letter drafting time** reduced from 60–90 minutes to under 15 minutes per letter
-- **Offer acceptance rate** improved by 18% at organizations using personalized, brand-aligned COCO-drafted letters
+- **Offer acceptance rate** improved by 18% at organizations using personalized, brand-aligned OpenMax-drafted letters
 - **Legal review cycles** for offer letters reduced by 70% due to cleaner first drafts with pre-screened language
 - **HR compliance incidents** related to offer letters reduced by 85%
 - **Candidate experience scores** at the offer stage improved by 31%
@@ -1747,7 +1747,7 @@ A candidate [Alex Morgan] verbally declined our offer for [Head of UX Design] ci
 
 > Specific, behavior-grounded performance reviews at scale — manager writing time down 65%, review quality scores up 48%.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 Performance reviews are among the most important — and most dreaded — processes in the employee lifecycle. They shape compensation decisions, promotion pathways, development planning, and ultimately retention. When done well, they provide employees with clear, actionable feedback that accelerates growth and reinforces high performance. When done poorly, they erode trust, introduce legal liability, create pay inequity, and fail to differentiate between strong and weak performers in any meaningful way.
 
@@ -1757,19 +1757,19 @@ The core problem is execution, not intent. Most organizations have sensible perf
 
 The consequences cascade. Vague reviews make it impossible to substantiate performance-based compensation decisions if challenged. Inconsistently applied rating scales introduce bias — studies show that gender, race, and physical appearance systematically influence performance ratings when processes are unstructured. Reviews that read like form letters fail to motivate high performers and fail to clearly communicate concerns to underperformers, leaving both groups feeling unseen.
 
-COCO transforms the review writing process by serving as an intelligent drafting partner for managers. Rather than staring at a blank text box, managers provide COCO with key performance data — goals, achievements, development areas, specific examples — and COCO drafts a complete, balanced, behavior-specific review that aligns with the company's review framework and tone standards.
+OpenMax transforms the review writing process by serving as an intelligent drafting partner for managers. Rather than staring at a blank text box, managers provide OpenMax with key performance data — goals, achievements, development areas, specific examples — and OpenMax drafts a complete, balanced, behavior-specific review that aligns with the company's review framework and tone standards.
 
-1. **Manager input collection**: The manager provides COCO with the employee's name and role, their performance goals for the period, key achievements with supporting examples, development areas observed during the period, and the overall rating. A few bullet points are sufficient — COCO handles the writing.
+1. **Manager input collection**: The manager provides OpenMax with the employee's name and role, their performance goals for the period, key achievements with supporting examples, development areas observed during the period, and the overall rating. A few bullet points are sufficient — OpenMax handles the writing.
 
-2. **Structured draft generation**: COCO produces a complete review with all standard sections: overall summary, achievements against goals (with specific evidence for each), demonstration of core competencies, development areas (framed constructively), and forward-looking goals or development commitments.
+2. **Structured draft generation**: OpenMax produces a complete review with all standard sections: overall summary, achievements against goals (with specific evidence for each), demonstration of core competencies, development areas (framed constructively), and forward-looking goals or development commitments.
 
-3. **Tone calibration**: COCO calibrates language to the employee's rating — a high performer's review emphasizes impact and growing scope; an average performer's review balances recognition with clear development direction; an underperformer's review is direct, specific, and documentation-complete without being punitive.
+3. **Tone calibration**: OpenMax calibrates language to the employee's rating — a high performer's review emphasizes impact and growing scope; an average performer's review balances recognition with clear development direction; an underperformer's review is direct, specific, and documentation-complete without being punitive.
 
-4. **Bias audit**: COCO reviews the draft for language patterns associated with performance review bias — vague faint praise for women vs. decisive achievement language for men, personality-focused feedback vs. behavior-focused feedback, effort-based praise vs. impact-based praise — and flags or corrects these patterns before the review is finalized.
+4. **Bias audit**: OpenMax reviews the draft for language patterns associated with performance review bias — vague faint praise for women vs. decisive achievement language for men, personality-focused feedback vs. behavior-focused feedback, effort-based praise vs. impact-based praise — and flags or corrects these patterns before the review is finalized.
 
-5. **Framework alignment**: The HR team configures COCO with their organization's competency framework and rating definitions, ensuring all manager-drafted reviews are consistently calibrated against the same standards.
+5. **Framework alignment**: The HR team configures OpenMax with their organization's competency framework and rating definitions, ensuring all manager-drafted reviews are consistently calibrated against the same standards.
 
-6. **Review cycle efficiency**: For managers with large teams, COCO dramatically compresses review writing time — enabling them to produce thoughtful, individualized reviews for every team member rather than rushing through the final ones with declining quality.
+6. **Review cycle efficiency**: For managers with large teams, OpenMax dramatically compresses review writing time — enabling them to produce thoughtful, individualized reviews for every team member rather than rushing through the final ones with declining quality.
 
 :::
 
@@ -1779,7 +1779,7 @@ COCO transforms the review writing process by serving as an intelligent drafting
 
 - **Manager time** spent on performance review writing reduced by 65% on average
 - **Review quality scores** (as measured by HR calibration teams) improved by 48%
-- **Bias audit flags** detected in 1 in 3 initial manager drafts — COCO corrections reduced bias language by 72%
+- **Bias audit flags** detected in 1 in 3 initial manager drafts — OpenMax corrections reduced bias language by 72%
 - **Employee satisfaction** with the quality of their performance feedback improved by 39%
 - **Legal challenges** related to performance review documentation reduced by 60% due to more specific, behavior-based language
 
@@ -1838,7 +1838,7 @@ I am preparing for our [Q4 review calibration session]. I have [12] direct manag
 
 > Role-specific 90-day onboarding plans that accelerate productivity — time-to-productivity up 34%, 90-day retention up 28%.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 Effective employee onboarding is one of the highest-ROI investments an organization can make in the talent lifecycle — yet it remains one of the most inconsistently executed. The data is striking: BambooHR research shows that employees who experience poor onboarding are twice as likely to look for new opportunities soon after joining. Gallup finds that only 12% of employees strongly agree that their organization does a great job of onboarding. Meanwhile, the average cost of replacing an employee ranges from 50% to 200% of their annual salary — a figure that makes first-year attrition driven by poor onboarding an extremely expensive organizational failure.
 
@@ -1846,19 +1846,19 @@ The problem is structural. Onboarding plans — when they exist at all — tend 
 
 The consequences compound over time. New hires who lack a structured onboarding experience report lower confidence in their role expectations, slower time-to-productivity, weaker connections to colleagues and culture, and higher likelihood of leaving within the first 90 days. These outcomes are not abstract — they translate directly to productivity loss, re-hiring costs, and team morale disruption.
 
-Designing a truly effective onboarding plan requires significant thought: mapping the milestones a new hire needs to reach and when, identifying the stakeholders they need to meet and why, sequencing training and context-building in a logical order, setting clear expectations for each phase, and personalizing the experience to the specific role, team, and individual. This is exactly the kind of complex, structured planning work where COCO provides the greatest leverage.
+Designing a truly effective onboarding plan requires significant thought: mapping the milestones a new hire needs to reach and when, identifying the stakeholders they need to meet and why, sequencing training and context-building in a logical order, setting clear expectations for each phase, and personalizing the experience to the specific role, team, and individual. This is exactly the kind of complex, structured planning work where OpenMax provides the greatest leverage.
 
-1. **Context intake**: HR or the hiring manager provides COCO with the new hire's role, team, seniority level, start date, key responsibilities, primary stakeholders, and any known context about the team's current priorities or projects. First-week logistics (IT access, equipment, buddy assignment) are also noted.
+1. **Context intake**: HR or the hiring manager provides OpenMax with the new hire's role, team, seniority level, start date, key responsibilities, primary stakeholders, and any known context about the team's current priorities or projects. First-week logistics (IT access, equipment, buddy assignment) are also noted.
 
-2. **30-60-90 day plan generation**: COCO generates a phased onboarding plan with clear milestones for each phase: first 30 days (orientation, relationship-building, active learning), days 31-60 (first contributions, deepening context), days 61-90 (increasing autonomy, first projects, initial performance check-in). Each phase includes specific activities, owners, and success indicators.
+2. **30-60-90 day plan generation**: OpenMax generates a phased onboarding plan with clear milestones for each phase: first 30 days (orientation, relationship-building, active learning), days 31-60 (first contributions, deepening context), days 61-90 (increasing autonomy, first projects, initial performance check-in). Each phase includes specific activities, owners, and success indicators.
 
-3. **Stakeholder meeting schedule**: COCO maps out a recommended stakeholder engagement sequence — who the new hire should meet, in what order, and what context each conversation should cover — ensuring they build the internal network needed to succeed in the role.
+3. **Stakeholder meeting schedule**: OpenMax maps out a recommended stakeholder engagement sequence — who the new hire should meet, in what order, and what context each conversation should cover — ensuring they build the internal network needed to succeed in the role.
 
-4. **Role-specific training path**: Based on the role's requirements, COCO recommends a logical sequence of training, reading materials, system access, and shadowing opportunities calibrated to the new hire's experience level. A senior hire needs context and network more than process training; a junior hire needs both.
+4. **Role-specific training path**: Based on the role's requirements, OpenMax recommends a logical sequence of training, reading materials, system access, and shadowing opportunities calibrated to the new hire's experience level. A senior hire needs context and network more than process training; a junior hire needs both.
 
-5. **Manager check-in cadence**: COCO designs a structured check-in schedule for the new hire's manager — weekly in the first month, bi-weekly in months 2-3 — with suggested discussion topics for each meeting to ensure alignment and catch concerns early.
+5. **Manager check-in cadence**: OpenMax designs a structured check-in schedule for the new hire's manager — weekly in the first month, bi-weekly in months 2-3 — with suggested discussion topics for each meeting to ensure alignment and catch concerns early.
 
-6. **Personalization layer**: COCO adjusts the plan for role type (individual contributor vs. people manager vs. executive), remote vs. in-office vs. hybrid work arrangement, and any personal context shared by the hiring manager (relocation, career transition, international move).
+6. **Personalization layer**: OpenMax adjusts the plan for role type (individual contributor vs. people manager vs. executive), remote vs. in-office vs. hybrid work arrangement, and any personal context shared by the hiring manager (relocation, career transition, international move).
 
 :::
 
@@ -1866,7 +1866,7 @@ Designing a truly effective onboarding plan requires significant thought: mappin
 
 **Measurable Results**
 
-- **New hire time-to-productivity** improved by 34% when structured COCO-generated onboarding plans are used vs. ad hoc approaches
+- **New hire time-to-productivity** improved by 34% when structured OpenMax-generated onboarding plans are used vs. ad hoc approaches
 - **90-day retention rates** improved by 28% at organizations with systematic onboarding plans
 - **New hire satisfaction scores** (measured at 30, 60, and 90 days) improved by 42%
 - **Manager onboarding preparation time** reduced from 4-6 hours to under 1 hour per new hire
@@ -1913,7 +1913,7 @@ Generate a detailed hour-by-hour schedule for [Alex Kim's] first week at [TechSt
 
 > 100% open-text coverage in days, not weeks — analysis cycle down from 4-6 weeks to 3-5 days, attrition prediction up 41%.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 Employee surveys — engagement surveys, pulse checks, exit interviews, DEI climate assessments, manager effectiveness surveys — represent one of the richest sources of organizational intelligence available to HR and people leaders. When analyzed rigorously, survey data reveals the hidden dynamics that drive attrition, disengagement, and cultural deterioration before they become visible as financial losses or leadership crises. When analyzed poorly — or not at all — they become an expensive exercise in employee goodwill extraction that produces no action and erodes trust with every subsequent survey cycle.
 
@@ -1921,19 +1921,19 @@ The gap between data collection and insight generation is the central challenge.
 
 The quantitative side is addressable with standard BI tools. It is the qualitative side — the open-text responses — where insight is most frequently left on the table. Open-text responses are the richest signal in any employee survey: they capture nuance, emotion, and specificity that Likert-scale items cannot. A department with an average engagement score of 6.8/10 and 150 open-text responses mentioning "unclear priorities," "frequent re-organizations," and "manager unavailability" is telling you something very specific about the root cause. Without systematic analysis, these signals remain buried.
 
-COCO transforms the survey analysis workflow by processing large volumes of qualitative data quickly, identifying themes, surfacing anomalies, translating findings into plain-language narratives, and helping HR teams develop action-ready recommendations — at the speed leadership needs to act rather than the timeline traditional analysis allows.
+OpenMax transforms the survey analysis workflow by processing large volumes of qualitative data quickly, identifying themes, surfacing anomalies, translating findings into plain-language narratives, and helping HR teams develop action-ready recommendations — at the speed leadership needs to act rather than the timeline traditional analysis allows.
 
-1. **Data intake**: HR provides COCO with exported survey data — quantitative scores by department, team, or demographic cut, and open-text responses from key questions. No reformatting is required; COCO works from raw exports.
+1. **Data intake**: HR provides OpenMax with exported survey data — quantitative scores by department, team, or demographic cut, and open-text responses from key questions. No reformatting is required; OpenMax works from raw exports.
 
-2. **Quantitative pattern analysis**: COCO identifies statistically meaningful score differences across teams, departments, seniority levels, tenure cohorts, or demographic groups — flagging areas where variance is highest and where trends are most concerning.
+2. **Quantitative pattern analysis**: OpenMax identifies statistically meaningful score differences across teams, departments, seniority levels, tenure cohorts, or demographic groups — flagging areas where variance is highest and where trends are most concerning.
 
-3. **Open-text theme extraction**: COCO processes open-text responses and extracts recurring themes, sentiment patterns, and specific language clusters — grouping responses by topic (e.g., leadership, growth opportunities, compensation fairness, work-life balance) and flagging themes with the highest frequency and most negative sentiment.
+3. **Open-text theme extraction**: OpenMax processes open-text responses and extracts recurring themes, sentiment patterns, and specific language clusters — grouping responses by topic (e.g., leadership, growth opportunities, compensation fairness, work-life balance) and flagging themes with the highest frequency and most negative sentiment.
 
-4. **Anomaly detection**: COCO identifies outlier situations — teams that score significantly above or below their organizational context, departments where engagement is declining despite overall organizational improvements, or demographic cohorts with systematically different survey experiences.
+4. **Anomaly detection**: OpenMax identifies outlier situations — teams that score significantly above or below their organizational context, departments where engagement is declining despite overall organizational improvements, or demographic cohorts with systematically different survey experiences.
 
-5. **Executive narrative generation**: COCO synthesizes the quantitative and qualitative findings into a coherent, plain-language narrative suitable for executive presentation — surfacing the 3-5 most important findings, their likely root causes, and their organizational implications without requiring the audience to interpret raw data.
+5. **Executive narrative generation**: OpenMax synthesizes the quantitative and qualitative findings into a coherent, plain-language narrative suitable for executive presentation — surfacing the 3-5 most important findings, their likely root causes, and their organizational implications without requiring the audience to interpret raw data.
 
-6. **Action planning support**: COCO helps HR teams translate findings into specific, prioritized action recommendations — distinguishing between issues requiring leadership intervention, manager-level coaching, policy changes, or structural adjustments.
+6. **Action planning support**: OpenMax helps HR teams translate findings into specific, prioritized action recommendations — distinguishing between issues requiring leadership intervention, manager-level coaching, policy changes, or structural adjustments.
 
 :::
 
@@ -1988,7 +1988,7 @@ We ran our annual DEI climate survey. I will share the data split by [gender, et
 
 > Market-calibrated compensation in days, not weeks — benchmarking cycle down 75%, offer rejections for compensation down 31%.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 Compensation is the single largest operating expense for most knowledge-work organizations — and one of the most complex HR systems to manage effectively. Getting compensation right requires continuously balancing multiple competing pressures: remaining competitive in the external talent market, maintaining internal equity across the organization, containing costs within budget constraints, staying compliant with an evolving landscape of pay transparency laws, and communicating total rewards clearly enough that employees understand and value what they receive.
 
@@ -1998,19 +1998,19 @@ Even when market data is available, synthesizing it into actionable compensation
 
 Internal equity analysis compounds the challenge. Organizations must not only benchmark externally but also ensure that pay within the organization is equitable — that employees in similar roles with similar experience and performance are paid consistently, and that pay gaps by gender, race, or other protected characteristics are understood, explained, and where unjustified, corrected. Pay equity analysis has become a regulatory requirement in many jurisdictions and a reputational necessity everywhere.
 
-COCO serves as an intelligent compensation analysis partner that helps HR and Total Rewards teams cut through the complexity — synthesizing market intelligence, modeling range scenarios, identifying equity gaps, and generating communication-ready outputs — in a fraction of the time traditional analysis requires.
+OpenMax serves as an intelligent compensation analysis partner that helps HR and Total Rewards teams cut through the complexity — synthesizing market intelligence, modeling range scenarios, identifying equity gaps, and generating communication-ready outputs — in a fraction of the time traditional analysis requires.
 
-1. **Market data synthesis**: COCO processes compensation data from multiple inputs — survey data exports, public data sources, recruiter intelligence, Glassdoor/Levels.fyi data — and synthesizes a coherent market view for a specific role, level, and geography, controlling for relevant variables.
+1. **Market data synthesis**: OpenMax processes compensation data from multiple inputs — survey data exports, public data sources, recruiter intelligence, Glassdoor/Levels.fyi data — and synthesizes a coherent market view for a specific role, level, and geography, controlling for relevant variables.
 
-2. **Benchmarking analysis**: For each role or role family under review, COCO generates a benchmarking summary: market P25/P50/P75 for base salary, total cash, and equity, compared against the organization's current pay range and actual pay distribution.
+2. **Benchmarking analysis**: For each role or role family under review, OpenMax generates a benchmarking summary: market P25/P50/P75 for base salary, total cash, and equity, compared against the organization's current pay range and actual pay distribution.
 
-3. **Pay range modeling**: COCO models different range structure scenarios — range width, midpoint positioning, step progressions — and evaluates their cost implications, market competitiveness at each range boundary, and internal alignment across levels.
+3. **Pay range modeling**: OpenMax models different range structure scenarios — range width, midpoint positioning, step progressions — and evaluates their cost implications, market competitiveness at each range boundary, and internal alignment across levels.
 
-4. **Internal equity analysis**: COCO analyzes the organization's actual pay data against job level, experience, performance, and demographic variables — flagging statistically significant unexplained pay gaps and identifying individuals or cohorts that may be subject to equity corrections.
+4. **Internal equity analysis**: OpenMax analyzes the organization's actual pay data against job level, experience, performance, and demographic variables — flagging statistically significant unexplained pay gaps and identifying individuals or cohorts that may be subject to equity corrections.
 
-5. **Compliance guidance**: COCO helps HR navigate pay transparency requirements (Colorado, California, New York, EU Pay Transparency Directive) — advising on what must be disclosed, in what format, and for which roles, and generating compliant range language for job postings.
+5. **Compliance guidance**: OpenMax helps HR navigate pay transparency requirements (Colorado, California, New York, EU Pay Transparency Directive) — advising on what must be disclosed, in what format, and for which roles, and generating compliant range language for job postings.
 
-6. **Manager and employee communication**: COCO drafts pay communication materials — range rationale documents, manager talking-point guides for compensation conversations, employee total rewards statements — translating complex analysis into language that builds trust rather than confusion.
+6. **Manager and employee communication**: OpenMax drafts pay communication materials — range rationale documents, manager talking-point guides for compensation conversations, employee total rewards statements — translating complex analysis into language that builds trust rather than confusion.
 
 :::
 
@@ -2019,10 +2019,10 @@ COCO serves as an intelligent compensation analysis partner that helps HR and To
 **Measurable Results**
 
 - **Compensation benchmarking cycle time** reduced from 2-4 weeks to 3-5 days
-- **Offer competitiveness** improved — organizations using COCO-supported benchmarking reduced offer rejection due to compensation by 31%
+- **Offer competitiveness** improved — organizations using OpenMax-supported benchmarking reduced offer rejection due to compensation by 31%
 - **Internal equity gap identification** coverage increased to 100% of the workforce (vs. sample-based reviews)
 - **Pay transparency compliance** preparation time reduced by 60%
-- **Employee understanding** of their total compensation improved by 44% when COCO-drafted total rewards statements were used
+- **Employee understanding** of their total compensation improved by 44% when OpenMax-drafted total rewards statements were used
 
 **Who Benefits**
 
@@ -2065,7 +2065,7 @@ I need to prepare talking points for [15] managers who will be having annual com
 
 > Compress curriculum design from months to weeks — 6-12 month design cycles to 4-8 weeks, L&D capacity increased 4x.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 Learning and Development has undergone a fundamental shift in expectations over the past decade. What was once a compliance-driven, classroom-based function — delivering mandatory training modules and tracking completion rates — is now expected to be a strategic capability that measurably improves performance, accelerates leadership development, reduces skill gaps that threaten business outcomes, and drives employee retention by signaling investment in people's growth. The gap between these expectations and the actual capability of most L&D functions is significant.
 
@@ -2073,19 +2073,19 @@ The core challenge is design capacity. Organizations of all sizes face a widenin
 
 The result is L&D programs that are either too generic (off-the-shelf content that lacks organizational context), too narrow (deep dives into compliance without addressing performance-driving skills), or too slow to build (multi-year curriculum development timelines that cannot keep pace with how fast skills become obsolete). The talent market has no patience for slow skill-building cycles: in high-growth companies, the window between hiring a new skill and that skill becoming table stakes can be as short as 18 months.
 
-The design challenge is particularly acute for organizations undergoing transformation — digital transformation, restructuring, market expansion — where new capabilities need to be built at speed across large populations without the runway traditional L&D timelines require. Building a leadership development program, a technical upskilling curriculum, a new manager training pathway, or a sales enablement learning journey from scratch requires a team of instructional designers, subject matter experts, and curriculum developers working in concert. COCO compresses this design process dramatically, enabling L&D teams to produce curriculum frameworks, learning journeys, session designs, and facilitator guides at a pace previously impossible without large dedicated teams.
+The design challenge is particularly acute for organizations undergoing transformation — digital transformation, restructuring, market expansion — where new capabilities need to be built at speed across large populations without the runway traditional L&D timelines require. Building a leadership development program, a technical upskilling curriculum, a new manager training pathway, or a sales enablement learning journey from scratch requires a team of instructional designers, subject matter experts, and curriculum developers working in concert. OpenMax compresses this design process dramatically, enabling L&D teams to produce curriculum frameworks, learning journeys, session designs, and facilitator guides at a pace previously impossible without large dedicated teams.
 
-1. **Needs analysis synthesis**: L&D professionals provide COCO with the context of the learning need — the target learner population, the capability gap to be addressed, the business outcome the learning is meant to support, and any existing learning infrastructure or constraints (budget, time, technology platform). COCO helps structure a needs analysis output from this input.
+1. **Needs analysis synthesis**: L&D professionals provide OpenMax with the context of the learning need — the target learner population, the capability gap to be addressed, the business outcome the learning is meant to support, and any existing learning infrastructure or constraints (budget, time, technology platform). OpenMax helps structure a needs analysis output from this input.
 
-2. **Learning journey design**: COCO designs a complete learning journey — sequenced modules, recommended modalities (live facilitation, e-learning, peer cohort, coaching, on-the-job practice), time investment, and a logical progression from foundational to advanced competencies. The design accounts for adult learning principles and spaced repetition.
+2. **Learning journey design**: OpenMax designs a complete learning journey — sequenced modules, recommended modalities (live facilitation, e-learning, peer cohort, coaching, on-the-job practice), time investment, and a logical progression from foundational to advanced competencies. The design accounts for adult learning principles and spaced repetition.
 
-3. **Module-level curriculum design**: For each module in the journey, COCO generates detailed curriculum design specifications: learning objectives (written in measurable behavioral terms), key content areas, suggested activities and exercises, facilitation guidance, and recommended assessments.
+3. **Module-level curriculum design**: For each module in the journey, OpenMax generates detailed curriculum design specifications: learning objectives (written in measurable behavioral terms), key content areas, suggested activities and exercises, facilitation guidance, and recommended assessments.
 
-4. **Facilitator guide development**: COCO drafts complete facilitator guides — including session agendas, facilitator talking points, discussion questions, activity instructions, debrief guidance, and timing notes — ready for review and refinement by the L&D team before delivery.
+4. **Facilitator guide development**: OpenMax drafts complete facilitator guides — including session agendas, facilitator talking points, discussion questions, activity instructions, debrief guidance, and timing notes — ready for review and refinement by the L&D team before delivery.
 
-5. **Assessment design**: COCO designs pre/post assessments, knowledge checks, skill application exercises, and manager observation tools — providing a measurement framework that connects learning to behavior change rather than measuring completion alone.
+5. **Assessment design**: OpenMax designs pre/post assessments, knowledge checks, skill application exercises, and manager observation tools — providing a measurement framework that connects learning to behavior change rather than measuring completion alone.
 
-6. **Content personalization**: COCO adapts curriculum designs to specific learner contexts — distinguishing between new manager training for a tech startup vs. a manufacturing company, or sales training for an inside sales team vs. an enterprise field sales org — ensuring relevance and applicability rather than generic content.
+6. **Content personalization**: OpenMax adapts curriculum designs to specific learner contexts — distinguishing between new manager training for a tech startup vs. a manufacturing company, or sales training for an inside sales team vs. an enterprise field sales org — ensuring relevance and applicability rather than generic content.
 
 :::
 
@@ -2097,7 +2097,7 @@ The design challenge is particularly acute for organizations undergoing transfor
 - **L&D team capacity** to produce learning programs increased by 4x without additional headcount
 - **Learning program relevance scores** (learner feedback) improved by 51% when curriculum is designed with role-specific context
 - **Knowledge retention** (measured at 90-day post-training) improved by 38% when spaced repetition and application practice are designed in
-- **New manager effectiveness scores** improved by 29% in organizations using structured, COCO-designed new manager learning journeys
+- **New manager effectiveness scores** improved by 29% in organizations using structured, OpenMax-designed new manager learning journeys
 
 **Who Benefits**
 
@@ -2140,7 +2140,7 @@ I have designed a [Leadership Development Program] for [senior individual contri
 
 > Keep handbooks current and compliant — update cycle from 4-6 months to 4-6 weeks, legal review costs down 55%.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 The employee handbook occupies a peculiar position in organizational life: it is simultaneously one of the most important legal and cultural documents a company produces, and one of the most chronically neglected. Handbooks define the employment relationship, communicate company values and expectations, establish policies that govern daily work life, and — in many jurisdictions — constitute a quasi-contractual document whose language can be used against the employer in employment disputes. Yet the typical employee handbook at a mid-sized organization is years out of date, references policies that no longer exist, fails to reflect current law, and is so dense and unreadable that employees skip it entirely on their first day.
 
@@ -2148,19 +2148,19 @@ The scope of the update problem is significant. Employment law changes constantl
 
 Beyond compliance, there is the cultural currency problem. The handbook is often the first comprehensive read a new employee has of "what it's like to work here." A handbook written in the voice of a formal, hierarchical organization from five years ago that is now trying to present as a flexible, values-driven culture creates cognitive dissonance from day one. Similarly, handbooks that reflect the policy needs of a 50-person startup (or a 5,000-person corporation) rarely serve well when the company has scaled or transformed significantly.
 
-The process of updating a handbook is labor-intensive: review existing policies against current law, identify gaps, rewrite outdated sections, ensure consistency across sections, align with organizational culture and voice, add new sections for emerging policy areas (AI use policies, mental health benefits, return-to-office protocols), and then route through legal review. COCO compresses this workflow dramatically by serving as an intelligent drafting partner that can identify gaps, suggest compliant language, rewrite in the organization's voice, and flag issues for legal attention — reducing the time from "this needs updating" to "ready for legal sign-off" from months to weeks.
+The process of updating a handbook is labor-intensive: review existing policies against current law, identify gaps, rewrite outdated sections, ensure consistency across sections, align with organizational culture and voice, add new sections for emerging policy areas (AI use policies, mental health benefits, return-to-office protocols), and then route through legal review. OpenMax compresses this workflow dramatically by serving as an intelligent drafting partner that can identify gaps, suggest compliant language, rewrite in the organization's voice, and flag issues for legal attention — reducing the time from "this needs updating" to "ready for legal sign-off" from months to weeks.
 
-1. **Handbook audit**: HR provides COCO with the current handbook. COCO performs a structural review — identifying which sections are present, which are missing, and which contain language that is potentially outdated based on HR knowledge inputs about jurisdiction and recent policy changes.
+1. **Handbook audit**: HR provides OpenMax with the current handbook. OpenMax performs a structural review — identifying which sections are present, which are missing, and which contain language that is potentially outdated based on HR knowledge inputs about jurisdiction and recent policy changes.
 
-2. **Gap identification**: COCO produces a gap report: policy areas that are entirely absent (common gaps include AI use policy, remote work policy, pay transparency provisions, DEI commitment statements, and mental health benefit descriptions), and sections where content is likely outdated.
+2. **Gap identification**: OpenMax produces a gap report: policy areas that are entirely absent (common gaps include AI use policy, remote work policy, pay transparency provisions, DEI commitment statements, and mental health benefit descriptions), and sections where content is likely outdated.
 
-3. **Section rewrite**: For each section requiring update or creation, COCO drafts new language that is legally sound (based on jurisdiction input), aligned with the organization's stated culture and values, and readable — avoiding dense legal prose in favor of clear, plain-language explanations.
+3. **Section rewrite**: For each section requiring update or creation, OpenMax drafts new language that is legally sound (based on jurisdiction input), aligned with the organization's stated culture and values, and readable — avoiding dense legal prose in favor of clear, plain-language explanations.
 
-4. **Voice and consistency review**: COCO reviews the handbook for tonal consistency — ensuring that newly drafted sections match the voice of the organization (formal vs. casual, aspirational vs. procedural) and that policy language is applied consistently across sections.
+4. **Voice and consistency review**: OpenMax reviews the handbook for tonal consistency — ensuring that newly drafted sections match the voice of the organization (formal vs. casual, aspirational vs. procedural) and that policy language is applied consistently across sections.
 
-5. **Legal flag preparation**: COCO generates a specific list of provisions that require legal review before finalization — flagging high-risk areas (arbitration clauses, at-will disclaimers, non-compete references, leave policy details) and suggesting the specific legal questions to resolve.
+5. **Legal flag preparation**: OpenMax generates a specific list of provisions that require legal review before finalization — flagging high-risk areas (arbitration clauses, at-will disclaimers, non-compete references, leave policy details) and suggesting the specific legal questions to resolve.
 
-6. **Employee acknowledgment and communication**: COCO drafts the rollout communications — employee notification email, FAQ document for common questions about policy changes, and updated acknowledgment form language.
+6. **Employee acknowledgment and communication**: OpenMax drafts the rollout communications — employee notification email, FAQ document for common questions about policy changes, and updated acknowledgment form language.
 
 :::
 
@@ -2171,7 +2171,7 @@ The process of updating a handbook is labor-intensive: review existing policies 
 - **Handbook update cycle time** reduced from 4-6 months to 4-6 weeks
 - **Legal review costs** reduced by 55% as cleaner first drafts require less attorney time
 - **Employee handbook readability scores** improved by 68% when plain-language rewrite is applied
-- **Policy gap coverage** — organizations using COCO identified an average of 7 critical missing or outdated policy areas per handbook audit
+- **Policy gap coverage** — organizations using OpenMax identified an average of 7 critical missing or outdated policy areas per handbook audit
 - **First-day new hire handbook completion rates** improved from 34% to 78% when readability improvements are made
 
 **Who Benefits**
@@ -2197,7 +2197,7 @@ Please rewrite our [Remote Work Policy] section. Current version: [paste existin
 
 **Prompt 3 — Write a new AI use policy**
 ```
-Draft an [AI Use Policy] section for our employee handbook. Our company [uses AI tools extensively — all employees have access to [COCO and GitHub Copilot], and we encourage AI-assisted work]. The policy should address: (1) approved AI tools and how to access them, (2) appropriate and inappropriate uses (especially: no confidential client data in non-approved tools, no using AI to misrepresent authorship on external publications), (3) intellectual property considerations, (4) data privacy and security requirements, (5) our stance on AI disclosure in client deliverables. Tone: [enabling and practical — we want employees to use AI confidently, not fear it].
+Draft an [AI Use Policy] section for our employee handbook. Our company [uses AI tools extensively — all employees have access to [OpenMax and GitHub Copilot], and we encourage AI-assisted work]. The policy should address: (1) approved AI tools and how to access them, (2) appropriate and inappropriate uses (especially: no confidential client data in non-approved tools, no using AI to misrepresent authorship on external publications), (3) intellectual property considerations, (4) data privacy and security requirements, (5) our stance on AI disclosure in client deliverables. Tone: [enabling and practical — we want employees to use AI confidently, not fear it].
 ```
 
 **Prompt 4 — Compliance update for new legislation**
@@ -2215,7 +2215,7 @@ We are rolling out an updated employee handbook for [CompanyName] effective [Mar
 
 > Transform reactive headcount management into strategic foresight — planning cycle halved, attrition surprises down 40%.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Reactive Headcount Management in a World That Demands Foresight**
 
@@ -2227,31 +2227,31 @@ The cost of getting this wrong is measurable and significant. Hiring a senior en
 
 Workforce planning also suffers from inconsistent evaluation standards. When ten department heads each submit headcount requests, the quality, rigor, and justification attached to those requests varies enormously. Some leaders submit detailed productivity analyses. Others submit a one-line note. HR ends up evaluating headcount requests based on political capital rather than business case quality, which produces allocation decisions that optimize for relationships rather than business outcomes. Without a structured framework for evaluating requests, the workforce plan is simply the political map of the organization expressed as headcount numbers.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO transforms workforce planning from a reactive budget exercise into a structured analytical capability — helping HR teams model demand scenarios, evaluate headcount requests rigorously, identify skill gaps, and produce plans that connect people decisions to business strategy.
+OpenMax transforms workforce planning from a reactive budget exercise into a structured analytical capability — helping HR teams model demand scenarios, evaluate headcount requests rigorously, identify skill gaps, and produce plans that connect people decisions to business strategy.
 
-1. **Current Workforce Composition Analysis**: COCO takes HRIS exports and structures a current-state workforce profile by function, level, tenure, skill category, and cost. This baseline reveals concentration risks (teams overly dependent on a few individuals), capability gaps relative to stated strategy, and tenure distributions that predict near-term attrition pressure.
+1. **Current Workforce Composition Analysis**: OpenMax takes HRIS exports and structures a current-state workforce profile by function, level, tenure, skill category, and cost. This baseline reveals concentration risks (teams overly dependent on a few individuals), capability gaps relative to stated strategy, and tenure distributions that predict near-term attrition pressure.
    - Generates role distribution maps by department and level
    - Flags concentration risks where single points of failure exist at critical roles
 
-2. **Demand Scenario Modeling**: COCO helps HR model workforce demand under multiple business scenarios — base case, growth case, and contraction case — translating business plans into headcount and skill requirements with timeline projections.
+2. **Demand Scenario Modeling**: OpenMax helps HR model workforce demand under multiple business scenarios — base case, growth case, and contraction case — translating business plans into headcount and skill requirements with timeline projections.
    - Connects revenue or project volume assumptions to staffing ratios
    - Produces scenario comparison tables showing workforce implications of each path
 
-3. **Skill Gap Analysis**: COCO analyzes the delta between current workforce capabilities and the skills required by the strategic plan — identifying whether gaps should be closed through hiring, reskilling, or restructuring.
+3. **Skill Gap Analysis**: OpenMax analyzes the delta between current workforce capabilities and the skills required by the strategic plan — identifying whether gaps should be closed through hiring, reskilling, or restructuring.
    - Prioritizes gaps by business criticality and lead time to close
    - Recommends build vs. buy vs. partner decisions for each capability gap
 
-4. **Headcount Request Evaluation**: COCO applies consistent analytical frameworks to evaluate headcount requests — assessing business justification quality, productivity impact, cost-per-outcome, and alignment to strategic priorities.
+4. **Headcount Request Evaluation**: OpenMax applies consistent analytical frameworks to evaluate headcount requests — assessing business justification quality, productivity impact, cost-per-outcome, and alignment to strategic priorities.
    - Scores requests against a standardized rubric and flags weak justifications
    - Generates comparison reports when multiple requests compete for the same budget
 
-5. **Attrition Risk Modeling**: COCO analyzes tenure, engagement, compensation benchmarks, and promotion velocity data to identify teams and roles at elevated attrition risk — giving HR a forward-looking view of where gaps will emerge.
+5. **Attrition Risk Modeling**: OpenMax analyzes tenure, engagement, compensation benchmarks, and promotion velocity data to identify teams and roles at elevated attrition risk — giving HR a forward-looking view of where gaps will emerge.
    - Flags roles where voluntary departure probability exceeds threshold within 12 months
    - Estimates replacement cost impact of predicted attrition by role category
 
-6. **Workforce Plan Documentation**: COCO produces structured workforce plan documents — combining current state, demand projections, gap analysis, and action recommendations into a format suitable for executive review and board reporting.
+6. **Workforce Plan Documentation**: OpenMax produces structured workforce plan documents — combining current state, demand projections, gap analysis, and action recommendations into a format suitable for executive review and board reporting.
    - Generates executive summary, detailed analysis, and recommendation sections
    - Drafts supporting materials including hiring roadmaps and investment justifications
 
@@ -2261,7 +2261,7 @@ COCO transforms workforce planning from a reactive budget exercise into a struct
 
 **Measurable Results**
 
-- **Planning cycle time**: Reduced from 6-8 weeks to 2-3 weeks when COCO handles analytical structuring
+- **Planning cycle time**: Reduced from 6-8 weeks to 2-3 weeks when OpenMax handles analytical structuring
 - **Headcount request evaluation consistency**: Organizations report 70% reduction in informal "relationship-based" approvals when structured evaluation rubrics are applied
 - **Attrition surprise rate**: Teams using proactive attrition modeling reduce unplanned vacancy events by 40% over a 12-month period
 - **Time-to-fill improvement**: When hiring plans launch 60+ days earlier due to better demand visibility, average time-to-fill decreases by 28 days
@@ -2369,7 +2369,7 @@ Format for a [C-suite / board] audience.
 
 > Build candidate pipelines before roles open — time-to-fill down 35-50 days, quality-of-hire up 23%.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Reactive Hiring Cycles That Keep Organizations Perpetually Behind**
 
@@ -2381,31 +2381,31 @@ The mechanics of pipeline building are also tedious and time-consuming in ways t
 
 The consequences of neglecting pipeline development compound over time. Organizations that hire reactively face not just long time-to-fill cycles but also degraded hiring quality — when the choice is between hiring a mediocre available candidate now or waiting another 60 days, the available-now bias is overwhelming. Multiple studies show that 40-60% of bad hires are made under time pressure that could have been avoided with proactive pipelining. The downstream cost of a bad hire at mid-senior level — training time, productivity loss, potential departure within 18 months, and re-hiring cost — routinely totals 100-200% of annual salary.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO helps talent acquisition teams build genuine proactive pipelines — doing the research, writing, tracking, and strategy work that pipeline building requires, at a scale and consistency that recruiting teams cannot sustain manually.
+OpenMax helps talent acquisition teams build genuine proactive pipelines — doing the research, writing, tracking, and strategy work that pipeline building requires, at a scale and consistency that recruiting teams cannot sustain manually.
 
-1. **Role Profile and Pipeline Strategy Development**: COCO helps define the sourcing strategy for each target role — identifying where the relevant talent communities gather, what channels are most effective, and what a realistic pipeline timeline looks like before a requisition opens.
+1. **Role Profile and Pipeline Strategy Development**: OpenMax helps define the sourcing strategy for each target role — identifying where the relevant talent communities gather, what channels are most effective, and what a realistic pipeline timeline looks like before a requisition opens.
    - Maps talent communities to sourceable channels (communities, conferences, publications, platforms)
    - Builds sourcing strategy documents that can be executed before vacancies open
 
-2. **Passive Candidate Community Research**: COCO conducts structured research to identify communities where target candidates are active — professional associations, conference speaker networks, open-source contributor communities, alumni networks, and subject matter expert forums.
+2. **Passive Candidate Community Research**: OpenMax conducts structured research to identify communities where target candidates are active — professional associations, conference speaker networks, open-source contributor communities, alumni networks, and subject matter expert forums.
    - Generates annotated lists of communities with rationale and outreach approach for each
    - Identifies thought leaders and micro-influencers who can accelerate community access
 
-3. **Personalized Outreach Messaging**: COCO drafts tailored outreach messages for different pipeline candidate profiles — adjusting messaging based on seniority, background, likely motivations, and communication channel.
+3. **Personalized Outreach Messaging**: OpenMax drafts tailored outreach messages for different pipeline candidate profiles — adjusting messaging based on seniority, background, likely motivations, and communication channel.
    - Produces message variants for LinkedIn, email, and direct messaging contexts
    - Tests different value proposition angles for different candidate personas
 
-4. **Pipeline Health Metrics Framework**: COCO helps design and report on pipeline health — defining the metrics that matter (pipeline coverage ratio, candidate engagement rate, time-from-first-contact-to-screen, conversion rates at each stage) and generating tracking reports.
+4. **Pipeline Health Metrics Framework**: OpenMax helps design and report on pipeline health — defining the metrics that matter (pipeline coverage ratio, candidate engagement rate, time-from-first-contact-to-screen, conversion rates at each stage) and generating tracking reports.
    - Creates pipeline dashboard templates with role-specific and aggregate views
    - Generates weekly pipeline health reports with actionable commentary
 
-5. **Silver Medalist and Relationship Maintenance Programs**: COCO helps build systematic re-engagement programs for prior finalists and high-potential candidates who weren't hired — drafting cadenced touchpoints that keep relationships warm without requiring heavy recruiter bandwidth.
+5. **Silver Medalist and Relationship Maintenance Programs**: OpenMax helps build systematic re-engagement programs for prior finalists and high-potential candidates who weren't hired — drafting cadenced touchpoints that keep relationships warm without requiring heavy recruiter bandwidth.
    - Drafts re-engagement message sequences for different relationship stages
    - Creates content calendars for talent community nurturing
 
-6. **Pipeline Conversion Analysis**: COCO analyzes historical pipeline data to identify where candidates disengage, what sourcing channels produce the highest conversion rates, and which outreach approaches generate the best response rates — continuously improving pipeline strategy.
+6. **Pipeline Conversion Analysis**: OpenMax analyzes historical pipeline data to identify where candidates disengage, what sourcing channels produce the highest conversion rates, and which outreach approaches generate the best response rates — continuously improving pipeline strategy.
    - Identifies drop-off points with root cause hypothesis for each
    - Recommends A/B testing strategies for outreach message improvement
 
@@ -2417,15 +2417,15 @@ COCO helps talent acquisition teams build genuine proactive pipelines — doing 
 
 - **Time-to-fill reduction**: Organizations with active pipelines for critical roles reduce average time-to-fill by 35-50 days compared to pure reactive recruiting
 - **Quality-of-hire improvement**: Proactively pipelined hires score 23% higher on 12-month performance ratings than emergency hires made under time pressure
-- **Sourcing channel efficiency**: COCO-assisted channel research identifies 2-3 high-yield sourcing communities per role that recruiting teams had not previously identified
+- **Sourcing channel efficiency**: OpenMax-assisted channel research identifies 2-3 high-yield sourcing communities per role that recruiting teams had not previously identified
 - **Outreach response rates**: Personalized AI-drafted outreach achieves 2-3x higher response rates than standard recruiter templates (industry average: 15-25% vs. standard 5-10%)
-- **Recruiter bandwidth**: Recruiting teams using COCO for pipeline research and drafting report reclaiming 6-8 hours per week previously spent on manual sourcing work
+- **Recruiter bandwidth**: Recruiting teams using OpenMax for pipeline research and drafting report reclaiming 6-8 hours per week previously spent on manual sourcing work
 
 **Who Benefits**
 
 - **Talent Acquisition Leaders and Recruiting Managers** who are accountable for time-to-fill metrics and need a systematic approach to getting ahead of demand rather than perpetually catching up
 - **HR Business Partners** who own workforce planning conversations and need concrete pipeline strategies to accompany headcount plans
-- **Recruiters and Sourcers** who spend significant time on research and outreach drafting and can redirect that time to high-value candidate relationship work when COCO handles the research load
+- **Recruiters and Sourcers** who spend significant time on research and outreach drafting and can redirect that time to high-value candidate relationship work when OpenMax handles the research load
 - **Hiring Managers** in functions with recurring or predictable hiring needs — engineering, sales, operations — who want candidates already in conversation when requisitions open
 
 :::
@@ -2513,7 +2513,7 @@ Please produce:
 
 > Turn DEI data into targeted action — identify 4-6 funnel-stage gaps invisible in summary reporting, analysis time down 85%.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: DEI Metrics Without Insight Leave Organizations Running Blind**
 
@@ -2525,31 +2525,31 @@ Benchmarking is another persistent weakness. Even when an organization understan
 
 The final analytical failure is narrative translation. Even organizations with sophisticated DEI analysis struggle to communicate findings in a way that generates action. A table showing representation percentages by level and gender generates less organizational response than a narrative that explains: "Women enter our hiring funnel at parity, pass initial screening at parity, but are 34% less likely to receive an offer at the final interview stage — and we believe this gap is driven by unstructured interview processes in engineering." The difference between data and narrative is the difference between a DEI report that is filed and forgotten and one that produces program investment and behavioral change.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO transforms DEI data into actionable insight — providing the analytical depth, benchmarking context, and narrative quality that converts DEI reporting from a compliance activity into a strategic improvement tool.
+OpenMax transforms DEI data into actionable insight — providing the analytical depth, benchmarking context, and narrative quality that converts DEI reporting from a compliance activity into a strategic improvement tool.
 
-1. **Representation Funnel Analysis**: COCO analyzes representation data across the full talent lifecycle — application rates, screening pass rates, interview-to-offer rates, offer acceptance rates, promotion rates, attrition rates — to identify precisely where in the funnel representation gaps emerge for different demographic groups.
+1. **Representation Funnel Analysis**: OpenMax analyzes representation data across the full talent lifecycle — application rates, screening pass rates, interview-to-offer rates, offer acceptance rates, promotion rates, attrition rates — to identify precisely where in the funnel representation gaps emerge for different demographic groups.
    - Builds stage-by-stage funnel comparison by demographic group
    - Identifies funnel stages with statistically significant disparities vs. expected parity
 
-2. **Root Cause Hypothesis Generation**: For each identified gap, COCO generates structured root cause hypotheses based on the data patterns — distinguishing between pipeline issues, process issues, policy issues, and culture issues, and identifying the evidence that would confirm or refute each hypothesis.
+2. **Root Cause Hypothesis Generation**: For each identified gap, OpenMax generates structured root cause hypotheses based on the data patterns — distinguishing between pipeline issues, process issues, policy issues, and culture issues, and identifying the evidence that would confirm or refute each hypothesis.
    - Maps gap patterns to likely structural causes
    - Identifies data that would disambiguate between competing hypotheses
 
-3. **Benchmark Comparison**: COCO helps contextualize internal representation data against available external benchmarks — industry surveys, geographic talent pool data, and sector-specific DEI reporting where available.
+3. **Benchmark Comparison**: OpenMax helps contextualize internal representation data against available external benchmarks — industry surveys, geographic talent pool data, and sector-specific DEI reporting where available.
    - Generates comparison reports showing internal metrics vs. relevant benchmarks
    - Flags areas where internal performance is significantly above or below benchmark
 
-4. **Statistical Significance Analysis**: COCO applies appropriate statistical tests to DEI data to distinguish meaningful disparities from normal variation — preventing both overreaction to noise and underreaction to genuine inequity.
+4. **Statistical Significance Analysis**: OpenMax applies appropriate statistical tests to DEI data to distinguish meaningful disparities from normal variation — preventing both overreaction to noise and underreaction to genuine inequity.
    - Tests whether observed disparities exceed expected variation given sample sizes
    - Provides confidence intervals that contextualize findings appropriately
 
-5. **Intervention Recommendation Development**: COCO translates analytical findings into specific, evidence-based intervention recommendations — identifying which programs are most likely to address the root causes of observed gaps.
+5. **Intervention Recommendation Development**: OpenMax translates analytical findings into specific, evidence-based intervention recommendations — identifying which programs are most likely to address the root causes of observed gaps.
    - Prioritizes interventions by likely impact, cost, and implementation complexity
    - Connects each recommendation to the specific gap and evidence it addresses
 
-6. **DEI Narrative Report Generation**: COCO produces narrative report content that explains findings, contextualizes benchmarks, and communicates causal hypotheses in language suitable for executive, board, and external publication contexts.
+6. **DEI Narrative Report Generation**: OpenMax produces narrative report content that explains findings, contextualizes benchmarks, and communicates causal hypotheses in language suitable for executive, board, and external publication contexts.
    - Drafts DEI report sections with appropriate tone for each audience
    - Generates both summary and detailed analytical versions of findings
 
@@ -2559,10 +2559,10 @@ COCO transforms DEI data into actionable insight — providing the analytical de
 
 **Measurable Results**
 
-- **Analytical depth**: Organizations using COCO for DEI analysis identify an average of 4-6 specific funnel-stage gaps that were invisible in prior summary-level reporting
-- **Time to insight**: DEI analysis that previously took 3-4 weeks of analyst time is completed in 2-3 days when COCO handles the analytical structuring
+- **Analytical depth**: Organizations using OpenMax for DEI analysis identify an average of 4-6 specific funnel-stage gaps that were invisible in prior summary-level reporting
+- **Time to insight**: DEI analysis that previously took 3-4 weeks of analyst time is completed in 2-3 days when OpenMax handles the analytical structuring
 - **Intervention targeting**: Precisely targeted interventions outperform generic DEI programs by 2-3x on representation improvement rates over 2-year measurement periods
-- **Reporting quality**: DEI reports produced with COCO assistance receive 40% higher stakeholder satisfaction scores from executive and board reviewers
+- **Reporting quality**: DEI reports produced with OpenMax assistance receive 40% higher stakeholder satisfaction scores from executive and board reviewers
 - **Statistical confidence**: Statistical testing eliminates an estimated 30-40% of proposed DEI interventions that would have been triggered by noise rather than genuine signal
 
 **Who Benefits**
@@ -2675,7 +2675,7 @@ Tone: credible, direct, neither overclaiming progress nor catastrophizing challe
 
 > Identify flight risks 6-9 months before departure — preventable attrition down 25-35%, $1.5-3M in replacement cost avoided.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Learning About Retention Risk Through Exit Interviews Is Learning Too Late**
 
@@ -2687,31 +2687,31 @@ The data needed for retention prediction exists in most enterprise HR environmen
 
 Manager quality is perhaps the most powerful and least systematically analyzed retention variable. The empirical relationship between direct manager and voluntary attrition is robust across industries: high-quality managers retain teams at substantially higher rates than low-quality managers controlling for all other factors. Yet most organizations treat manager quality as a development issue rather than a retention risk flag, and do not systematically identify high-attrition managers until the evidence has already accumulated in exit data.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO helps HR teams analyze the retention signals already present in their data — building structured risk assessments, modeling intervention scenarios, and helping HR prioritize proactive action on the accounts most likely to produce preventable departures.
+OpenMax helps HR teams analyze the retention signals already present in their data — building structured risk assessments, modeling intervention scenarios, and helping HR prioritize proactive action on the accounts most likely to produce preventable departures.
 
-1. **Engagement Signal Analysis**: COCO analyzes engagement survey data to identify the specific dimensions and score patterns most predictive of voluntary departure — producing a risk stratification of the workforce by engagement profile.
+1. **Engagement Signal Analysis**: OpenMax analyzes engagement survey data to identify the specific dimensions and score patterns most predictive of voluntary departure — producing a risk stratification of the workforce by engagement profile.
    - Identifies engagement question responses most correlated with departure in prior cohorts
    - Segments workforce into risk tiers based on engagement profile patterns
 
-2. **Tenure Pattern Risk Modeling**: COCO maps current workforce tenure distribution against organizational and industry attrition patterns — identifying employees who are entering elevated-risk tenure windows and prioritizing proactive outreach.
+2. **Tenure Pattern Risk Modeling**: OpenMax maps current workforce tenure distribution against organizational and industry attrition patterns — identifying employees who are entering elevated-risk tenure windows and prioritizing proactive outreach.
    - Flags employees entering 18-24 month and 4-5 year tenure windows at elevated departure risk
    - Compares current tenure distribution to historical departure cohort data
 
-3. **Compensation Benchmarking Analysis**: COCO analyzes compensation data against external market benchmarks to identify employees whose pay has fallen below market median — a significant predictor of increased likelihood to engage with recruiting outreach.
+3. **Compensation Benchmarking Analysis**: OpenMax analyzes compensation data against external market benchmarks to identify employees whose pay has fallen below market median — a significant predictor of increased likelihood to engage with recruiting outreach.
    - Flags employees below 80th percentile of market in roles with high external demand
    - Generates compensation equity reports with retention risk contextualization
 
-4. **Manager Risk Assessment**: COCO analyzes team-level attrition patterns, engagement scores, and performance rating distributions to identify managers with elevated attrition risk profiles — surfacing them for targeted development or organizational intervention.
+4. **Manager Risk Assessment**: OpenMax analyzes team-level attrition patterns, engagement scores, and performance rating distributions to identify managers with elevated attrition risk profiles — surfacing them for targeted development or organizational intervention.
    - Ranks managers by team retention risk composite score
    - Identifies specific manager behavior patterns correlated with team departure rates
 
-5. **Individual Risk Profile Generation**: COCO synthesizes multiple risk signals for individual employees to produce structured risk profiles — integrating engagement, tenure, compensation, performance, and career progression data into a prioritized retention risk view.
+5. **Individual Risk Profile Generation**: OpenMax synthesizes multiple risk signals for individual employees to produce structured risk profiles — integrating engagement, tenure, compensation, performance, and career progression data into a prioritized retention risk view.
    - Generates individual risk summaries with signal-specific detail for HR business partner review
    - Prioritizes intervention focus on highest-risk, highest-impact employees
 
-6. **Intervention Scenario Modeling**: COCO helps design retention interventions for at-risk employees — modeling the likely impact of compensation adjustments, role changes, development investments, or manager changes on retention probability.
+6. **Intervention Scenario Modeling**: OpenMax helps design retention interventions for at-risk employees — modeling the likely impact of compensation adjustments, role changes, development investments, or manager changes on retention probability.
    - Estimates retention probability improvement for different intervention types by employee profile
    - Generates cost-benefit analyses comparing intervention cost to replacement cost
 
@@ -2721,7 +2721,7 @@ COCO helps HR teams analyze the retention signals already present in their data 
 
 **Measurable Results**
 
-- **Early warning lead time**: Organizations using COCO-assisted retention analysis identify at-risk employees an average of 6-9 months before departure, vs. 0 months with exit-interview-only approaches
+- **Early warning lead time**: Organizations using OpenMax-assisted retention analysis identify at-risk employees an average of 6-9 months before departure, vs. 0 months with exit-interview-only approaches
 - **Preventable departure rate**: Targeted early intervention reduces voluntary attrition in high-risk segments by 25-35% in organizations that operationalize retention risk monitoring
 - **Replacement cost avoidance**: For a 500-person organization with 12% annual attrition, a 30% reduction in preventable departures yields $1.5-3M in annual replacement cost savings
 - **Manager intervention ROI**: HR business partner interventions with flagged high-risk managers reduce team attrition by 28% on average within 6 months
@@ -2829,7 +2829,7 @@ Please:
 
 > Reduce enrollment errors 45% and compliance failures — plain-language communications that employees actually read and act on.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Benefits Administration Is a Compliance Minefield That HR Navigates Without Maps**
 
@@ -2841,31 +2841,31 @@ Life event administration — the enrollment changes triggered by marriage, divo
 
 Employee communication is an underappreciated compliance dimension. Summary Plan Descriptions must be distributed to employees within specified timeframes and meet specific content requirements. Material Modifications require separate notification. COBRA election notices must be sent within 14 days of a qualifying event notification, using language that meets regulatory standards. When these communications fail — not sent, sent late, or sent with content errors — the regulatory exposure is real, even when the underlying benefits administration is correct. Many HR teams discover compliance gaps in their communication practices only when an employee complaint or audit surfaces them.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO helps HR teams manage the communication, documentation, and analytical complexity of benefits administration — reducing error rates, improving employee experience, and ensuring that compliance requirements are met consistently.
+OpenMax helps HR teams manage the communication, documentation, and analytical complexity of benefits administration — reducing error rates, improving employee experience, and ensuring that compliance requirements are met consistently.
 
-1. **Open Enrollment Communication Design**: COCO designs the full open enrollment communication package — employee announcement, election guide, deadline reminders, and confirmation communications — tailored to the organization's specific benefits offerings and employee population.
+1. **Open Enrollment Communication Design**: OpenMax designs the full open enrollment communication package — employee announcement, election guide, deadline reminders, and confirmation communications — tailored to the organization's specific benefits offerings and employee population.
    - Produces clear, plain-language election guides that reduce employee confusion and HR call volume
    - Generates a complete communication calendar with deadline-critical touchpoints
 
-2. **Employee Benefits Decision Support**: COCO helps employees navigate complex plan selection decisions — modeling the cost implications of different plan choices based on individual circumstances (health utilization patterns, family status, HSA eligibility) and helping HR provide consistent, accurate guidance at scale.
+2. **Employee Benefits Decision Support**: OpenMax helps employees navigate complex plan selection decisions — modeling the cost implications of different plan choices based on individual circumstances (health utilization patterns, family status, HSA eligibility) and helping HR provide consistent, accurate guidance at scale.
    - Creates decision comparison frameworks employees can use to evaluate plan options
    - Drafts FAQ documents that anticipate common employee questions by life situation type
 
-3. **Compliance Calendar and Requirement Tracking**: COCO helps HR maintain a benefits compliance calendar — tracking filing deadlines, notification requirements, reporting obligations, and regulatory changes that affect plan administration.
+3. **Compliance Calendar and Requirement Tracking**: OpenMax helps HR maintain a benefits compliance calendar — tracking filing deadlines, notification requirements, reporting obligations, and regulatory changes that affect plan administration.
    - Generates a monthly compliance calendar with specific deadlines and required actions
    - Flags upcoming regulatory changes that require plan amendment or communication updates
 
-4. **Life Event Administration Documentation**: COCO helps structure the life event administration process — documenting required evidence, applicable Special Enrollment Period windows, correct coverage effective dates, and downstream administrative actions for each qualifying event type.
+4. **Life Event Administration Documentation**: OpenMax helps structure the life event administration process — documenting required evidence, applicable Special Enrollment Period windows, correct coverage effective dates, and downstream administrative actions for each qualifying event type.
    - Creates event-specific checklists for each qualifying life event type
    - Generates compliance documentation templates for life event processing
 
-5. **COBRA and Continuation Coverage Management**: COCO helps structure COBRA administration — tracking qualifying events, generating notification timelines, drafting election notices, and managing the ongoing administrative workflow for COBRA participants.
+5. **COBRA and Continuation Coverage Management**: OpenMax helps structure COBRA administration — tracking qualifying events, generating notification timelines, drafting election notices, and managing the ongoing administrative workflow for COBRA participants.
    - Produces COBRA notice templates that meet regulatory content requirements
    - Creates tracking tools for the qualifying event → notification → election → coverage timeline
 
-6. **Vendor and Carrier Coordination Communications**: COCO drafts the communications required to coordinate with benefits vendors, insurance carriers, and third-party administrators — including enrollment data reconciliation requests, coverage dispute escalations, and contract review summaries.
+6. **Vendor and Carrier Coordination Communications**: OpenMax drafts the communications required to coordinate with benefits vendors, insurance carriers, and third-party administrators — including enrollment data reconciliation requests, coverage dispute escalations, and contract review summaries.
    - Generates structured enrollment reconciliation communication templates
    - Drafts escalation communications for coverage disputes and claim issues
 
@@ -2875,7 +2875,7 @@ COCO helps HR teams manage the communication, documentation, and analytical comp
 
 **Measurable Results**
 
-- **Open enrollment error rate**: Organizations using COCO for enrollment communication design report 45% reduction in enrollment errors and post-enrollment corrections
+- **Open enrollment error rate**: Organizations using OpenMax for enrollment communication design report 45% reduction in enrollment errors and post-enrollment corrections
 - **Employee call volume during open enrollment**: Clear, plain-language enrollment guides reduce HR help desk call volume during open enrollment by 35-40%
 - **COBRA compliance rate**: Structured COBRA administration tracking reduces late or incomplete notice incidents by 60% in the first year of implementation
 - **Life event processing time**: Documented, checklisted life event workflows reduce average processing time from 5-7 business days to 2-3 business days
@@ -2987,7 +2987,7 @@ Please draft:
 
 > Go from 28% to 78% succession coverage in 12 months — leadership transition cost down 40%, internal promotion rate up to 65%.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Leadership Transitions Without Succession Plans Are Organizational Crises**
 
@@ -2997,33 +2997,33 @@ The cost of succession failure is severe and multi-dimensional. The most visible
 
 The less visible failure mode is the opportunity cost of not developing internal talent. Organizations that lack succession plans for their critical roles are implicitly making the decision to source leadership from external markets — a consistently more expensive, slower, and riskier approach than developing internal candidates who know the business, the culture, and the organization's specific technical context. Internal promotions to senior leadership positions have substantially higher success rates than external hires over 3-year performance windows. The organizations that achieve strong succession depth do not do it accidentally — they invest systematically in identifying candidates, designing development plans, and creating experiences that prepare successors for the specific demands of the critical roles they may one day fill.
 
-HR's challenge in succession planning is threefold. First, getting leadership attention for a planning process that feels abstract until the moment it is urgently needed. Second, structuring the assessment of internal candidates in a rigorous way that goes beyond informal intuition about who is "next in line." Third, translating succession plans from paper documents into lived development experiences that actually prepare candidates for the roles they are meant to succeed into. COCO addresses all three — helping HR and leadership structure the succession planning process, assess candidate readiness, design meaningful development interventions, and document plans in a format that creates accountability.
+HR's challenge in succession planning is threefold. First, getting leadership attention for a planning process that feels abstract until the moment it is urgently needed. Second, structuring the assessment of internal candidates in a rigorous way that goes beyond informal intuition about who is "next in line." Third, translating succession plans from paper documents into lived development experiences that actually prepare candidates for the roles they are meant to succeed into. OpenMax addresses all three — helping HR and leadership structure the succession planning process, assess candidate readiness, design meaningful development interventions, and document plans in a format that creates accountability.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO helps HR and leadership teams build succession plans that go beyond lists of names — providing the analytical structure to assess readiness gaps, design development interventions, and maintain planning discipline across leadership review cycles.
+OpenMax helps HR and leadership teams build succession plans that go beyond lists of names — providing the analytical structure to assess readiness gaps, design development interventions, and maintain planning discipline across leadership review cycles.
 
-1. **Critical Role Identification and Risk Assessment**: COCO helps HR identify which roles require succession plans by analyzing role criticality dimensions — strategic impact, replacement difficulty, time-to-replace, and organizational risk if the role goes vacant.
+1. **Critical Role Identification and Risk Assessment**: OpenMax helps HR identify which roles require succession plans by analyzing role criticality dimensions — strategic impact, replacement difficulty, time-to-replace, and organizational risk if the role goes vacant.
    - Generates role criticality scorecards using consistent evaluation criteria
    - Produces a succession risk heat map showing which roles create the highest organizational vulnerability
 
-2. **Internal Candidate Assessment Framework**: COCO structures the evaluation of internal succession candidates — assessing performance track record, leadership competency demonstrated, specific gaps relative to target role requirements, and readiness timeline.
+2. **Internal Candidate Assessment Framework**: OpenMax structures the evaluation of internal succession candidates — assessing performance track record, leadership competency demonstrated, specific gaps relative to target role requirements, and readiness timeline.
    - Designs structured candidate assessment templates with role-specific competency criteria
    - Generates candidate comparison matrices that support calibration discussions
 
-3. **Readiness Gap Analysis**: COCO analyzes the delta between each candidate's current capability profile and the requirements of the succession role — identifying specific experiences, skills, and behavioral competencies that need development before the candidate would be ready to succeed.
+3. **Readiness Gap Analysis**: OpenMax analyzes the delta between each candidate's current capability profile and the requirements of the succession role — identifying specific experiences, skills, and behavioral competencies that need development before the candidate would be ready to succeed.
    - Produces individual gap analysis reports with prioritized development needs
    - Distinguishes between gaps addressable through development and gaps that represent fundamental disqualifiers
 
-4. **Development Plan Design**: COCO designs specific, experiential development plans for succession candidates — moving beyond generic training programs to identify stretch assignments, cross-functional experiences, mentoring structures, and exposure opportunities that build the specific capabilities required for the target role.
+4. **Development Plan Design**: OpenMax designs specific, experiential development plans for succession candidates — moving beyond generic training programs to identify stretch assignments, cross-functional experiences, mentoring structures, and exposure opportunities that build the specific capabilities required for the target role.
    - Creates 12-24 month development roadmaps with milestone-based progress markers
    - Identifies the specific assignments and experiences that most efficiently close priority gaps
 
-5. **Succession Scenario Documentation**: COCO helps document succession scenarios for each critical role — including ready-now, 1-2 year, and 3+ year candidate designations, emergency succession provisions, and the specific triggering conditions under which each scenario would activate.
+5. **Succession Scenario Documentation**: OpenMax helps document succession scenarios for each critical role — including ready-now, 1-2 year, and 3+ year candidate designations, emergency succession provisions, and the specific triggering conditions under which each scenario would activate.
    - Produces role succession plans in a format suitable for board reporting
    - Documents emergency succession provisions for immediate deployment if needed
 
-6. **Succession Review Process Design**: COCO helps HR design and facilitate the annual succession review process — creating review meeting agendas, calibration frameworks, progress assessment tools, and documentation that creates continuity across leadership review cycles.
+6. **Succession Review Process Design**: OpenMax helps HR design and facilitate the annual succession review process — creating review meeting agendas, calibration frameworks, progress assessment tools, and documentation that creates continuity across leadership review cycles.
    - Designs structured succession calibration meeting formats
    - Generates year-over-year progress tracking that shows development trajectory for each candidate
 
@@ -3033,7 +3033,7 @@ COCO helps HR and leadership teams build succession plans that go beyond lists o
 
 **Measurable Results**
 
-- **Succession coverage**: Organizations that implement COCO-assisted succession planning increase the percentage of critical roles with named successors from an average of 28% to 78% within 12 months
+- **Succession coverage**: Organizations that implement OpenMax-assisted succession planning increase the percentage of critical roles with named successors from an average of 28% to 78% within 12 months
 - **Time to leadership readiness**: Systematic development planning reduces the time to "ready-now" designation for high-potential internal candidates by an average of 14 months compared to unstructured development
 - **Internal promotion rate**: Organizations with functioning succession plans source 65% of senior leadership openings internally, vs. 35% for organizations without active succession planning
 - **Leadership transition cost**: Internal succession transitions cost an average of 40% less than equivalent external searches when all search, onboarding, and productivity ramp costs are included
@@ -3147,7 +3147,7 @@ Please help me design:
 
 > Turn HR numbers into leadership decisions — executive meeting explanation time down 35%, decision-to-data lag down 50%.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: HR Dashboards Produce Numbers, Not Insights — and Leaders Need Insights**
 
@@ -3159,31 +3159,31 @@ The HRBP and CHRO communication challenge is specific: business leaders speak in
 
 Executive and board-level reporting introduces additional complexity. Board members and executives reviewing HR metrics at a quarterly or annual cadence have limited tolerance for data tables and significant appetite for narrative that explains trends, contextualizes performance, and connects people outcomes to business results. A board that sees a headcount increase of 120 people in a quarter wants to understand: is this in line with the strategic hiring plan? What functions absorbed the growth? What is the quality of hires? How are we tracking against the diversity goals we committed to? Are onboarding effectiveness rates suggesting these people will be productive? A table of numbers cannot answer these questions. Narrative can.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO bridges the gap between HR data and business insight — taking metric inputs from HR dashboards and translating them into narrative commentary that explains what the numbers mean, why the trends are occurring, and what actions should follow.
+OpenMax bridges the gap between HR data and business insight — taking metric inputs from HR dashboards and translating them into narrative commentary that explains what the numbers mean, why the trends are occurring, and what actions should follow.
 
-1. **Metric Interpretation and Contextualization**: COCO takes raw HR metric inputs and generates contextual interpretation — explaining whether performance is strong or weak relative to historical baselines, industry benchmarks, and stated organizational targets.
+1. **Metric Interpretation and Contextualization**: OpenMax takes raw HR metric inputs and generates contextual interpretation — explaining whether performance is strong or weak relative to historical baselines, industry benchmarks, and stated organizational targets.
    - Converts metric tables into narrative paragraphs that explain performance context
    - Flags metrics that require attention and distinguishes them from those that are performing as expected
 
-2. **Trend Explanation and Causal Narrative**: COCO analyzes metric trends and generates causal hypotheses — explaining what might be driving changes in key metrics, what leading indicators suggest about future performance, and where investigation is needed.
+2. **Trend Explanation and Causal Narrative**: OpenMax analyzes metric trends and generates causal hypotheses — explaining what might be driving changes in key metrics, what leading indicators suggest about future performance, and where investigation is needed.
    - Produces trend commentary that identifies likely drivers rather than simply reporting the change
    - Connects metrics across domains (e.g., connecting engagement decline to subsequent attrition patterns)
 
-3. **Business Translation**: COCO converts HR language into business language — translating attrition rates into dollar costs, engagement declines into productivity risk, time-to-fill into project delay implications, and headcount growth into capacity changes.
+3. **Business Translation**: OpenMax converts HR language into business language — translating attrition rates into dollar costs, engagement declines into productivity risk, time-to-fill into project delay implications, and headcount growth into capacity changes.
    - Quantifies the business impact of HR metric performance in financial and operational terms
    - Tailors language for the specific audience (operations leader, finance partner, CEO, board)
 
-4. **Executive Summary Generation**: COCO produces executive-level HR performance summaries — synthesizing the most important insights from across the metric landscape into a crisp narrative that leadership can absorb and act on in 3-5 minutes.
+4. **Executive Summary Generation**: OpenMax produces executive-level HR performance summaries — synthesizing the most important insights from across the metric landscape into a crisp narrative that leadership can absorb and act on in 3-5 minutes.
    - Generates monthly and quarterly executive HR summaries with structured narrative
    - Distinguishes between "information for awareness" and "items requiring decision or action"
 
-5. **Board Report HR Section Drafting**: COCO drafts the HR section of board materials — presenting workforce metrics with the context, interpretation, and forward-looking commentary that board-level governance requires.
+5. **Board Report HR Section Drafting**: OpenMax drafts the HR section of board materials — presenting workforce metrics with the context, interpretation, and forward-looking commentary that board-level governance requires.
    - Produces board-appropriate narrative with strategic framing of people data
    - Connects HR performance to strategic initiatives and board-level commitments
 
-6. **HR Quarterly Business Review Narrative**: COCO prepares the HR commentary for quarterly business reviews — providing HRBPs with structured narrative they can use to present their function's performance, highlight risks, and frame recommendations.
+6. **HR Quarterly Business Review Narrative**: OpenMax prepares the HR commentary for quarterly business reviews — providing HRBPs with structured narrative they can use to present their function's performance, highlight risks, and frame recommendations.
    - Generates HRBP presentation narratives tailored to each function's specific context
    - Produces the "so what" analysis that transforms data review into decision facilitation
 
@@ -3193,9 +3193,9 @@ COCO bridges the gap between HR data and business insight — taking metric inpu
 
 **Measurable Results**
 
-- **Executive meeting efficiency**: Organizations where HRBPs use COCO-narrated HR summaries report 35% reduction in time spent on HR data explanation in executive meetings, freeing time for strategic discussion
+- **Executive meeting efficiency**: Organizations where HRBPs use OpenMax-narrated HR summaries report 35% reduction in time spent on HR data explanation in executive meetings, freeing time for strategic discussion
 - **Decision-to-data lag**: Time from data availability to leader action decreases by 50% when narrative context accompanies metrics vs. metrics-only dashboard access
-- **HRBP confidence**: HRBPs who use COCO for narrative preparation report 65% higher confidence in presenting metrics to business leaders who are not familiar with HR terminology
+- **HRBP confidence**: HRBPs who use OpenMax for narrative preparation report 65% higher confidence in presenting metrics to business leaders who are not familiar with HR terminology
 - **Board engagement**: Board materials with narrative HR sections generate 40% more board member questions and discussion, indicating higher engagement vs. data-table-only formats
 - **HR perceived strategic value**: Organizations that shift to narrative HR reporting see HR function satisfaction scores from business leaders increase by an average of 22 points over 12 months
 
@@ -3324,7 +3324,7 @@ Please draft a 500-600 word all-hands narrative that:
 
 > Companies spend $4,000–$7,000 recruiting and hiring a single employee, then deliver an onboarding experience that consistently fails to set them up for success
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Onboarding Programs That Lose New Hires Before They Produce**
 
@@ -3334,44 +3334,44 @@ The structural problem is that onboarding is treated as an event rather than a j
 
 Scaling personalized onboarding is impossible without the right tools. HR teams with 200+ annual hires across dozens of roles and departments cannot manually create customized onboarding journeys for each role, team, and individual. Generic programs lead to under-prepared new hires, frustrated hiring managers, and preventable turnover at the worst possible time — right after the company has invested maximum resources in bringing someone on board.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Role-Specific Onboarding Journey Design**: COCO builds customized onboarding plans per role:
+1. **Role-Specific Onboarding Journey Design**: OpenMax builds customized onboarding plans per role:
    - Ingests job description, team structure, key stakeholder map, and 90-day success criteria
    - Generates a day-by-day, week-by-week onboarding schedule for the first 90 days
    - Identifies critical knowledge areas and sequences learning in optimal order (context before tools, tools before execution)
    - Maps required relationships and schedules introduction meetings with key colleagues
    - Creates role-specific milestone checkpoints with clear expectations for days 30, 60, and 90
 
-2. **Pre-Boarding Content Package**: COCO prepares new hires before day one:
+2. **Pre-Boarding Content Package**: OpenMax prepares new hires before day one:
    - Drafts a personalized welcome package with role-relevant context and what to expect
    - Creates a "first week survival guide" covering tools, processes, team norms, and FAQ
    - Generates a reading list of essential documents, strategy decks, and product knowledge
    - Produces a stakeholder map showing key people the new hire will work with and their context
    - Designs a first-week schedule to reduce day-one anxiety and maximize early wins
 
-3. **Manager Onboarding Toolkit**: COCO equips hiring managers with structured guidance:
+3. **Manager Onboarding Toolkit**: OpenMax equips hiring managers with structured guidance:
    - Generates a manager-specific onboarding checklist with week-by-week actions
    - Creates 30/60/90 day review templates with structured conversation prompts
    - Drafts the new hire's initial objectives aligned to team goals and company strategy
    - Provides communication templates for regular check-ins and expectation setting
    - Generates early-warning signals to watch for that indicate onboarding is off-track
 
-4. **Knowledge Assessment and Gap Detection**: COCO tracks learning progress:
+4. **Knowledge Assessment and Gap Detection**: OpenMax tracks learning progress:
    - Creates role-appropriate knowledge check questions at key onboarding milestones
    - Analyzes new hire self-assessments to identify where additional support is needed
    - Flags gaps between expected knowledge state and actual assessment results
    - Recommends supplementary learning resources for specific knowledge gaps
    - Generates a learning completion dashboard visible to both HR and the hiring manager
 
-5. **Culture Integration Support**: COCO helps new hires navigate organizational context:
+5. **Culture Integration Support**: OpenMax helps new hires navigate organizational context:
    - Generates a "how we work here" guide capturing team norms, communication preferences, and decision-making processes
    - Creates an FAQ document for common new hire questions about processes, tools, and expectations
    - Drafts an introduction email/message template for the new hire to send to their team
    - Produces a social integration calendar with team lunches, informal coffee chats, and team events
    - Identifies potential mentors or buddies from the existing team based on role and background fit
 
-6. **Onboarding Program Effectiveness Analysis**: COCO measures and improves the program:
+6. **Onboarding Program Effectiveness Analysis**: OpenMax measures and improves the program:
    - Analyzes new hire survey responses to identify pain points in the onboarding journey
    - Correlates early onboarding quality scores with 6-month retention and performance outcomes
    - Identifies which onboarding program elements most predict early productivity
@@ -3387,7 +3387,7 @@ Scaling personalized onboarding is impossible without the right tools. HR teams 
 - **Time to full productivity**: Reduced from 9 months to **5.5 months** with structured 90-day onboarding journeys
 - **90-day retention rate**: Improved from 78% to **93%** with personalized onboarding plans
 - **New hire satisfaction score**: Onboarding NPS increased from 32 to **71** (industry benchmark: 45)
-- **Manager onboarding prep time**: From 6 hours to **45 minutes** using COCO-generated toolkits
+- **Manager onboarding prep time**: From 6 hours to **45 minutes** using OpenMax-generated toolkits
 - **Early voluntary turnover (days 1-90)**: Reduced from 14% to **4%** saving $380K annually for a 200-hire/year company
 
 **Who Benefits**
@@ -3499,7 +3499,7 @@ Identify:
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: HR Compensation Benchmarking Failures**
 
@@ -3509,44 +3509,44 @@ The core challenge is that benchmarking requires synthesizing large volumes of s
 
 The downstream cost extends beyond direct labor. Delayed outputs slow downstream decisions. Inconsistent quality creates rework cycles. Missed insights lead to suboptimal resource allocation. And when teams are overwhelmed with execution, there's no bandwidth left for the proactive thinking that prevents problems before they occur — creating a reactive culture that's perpetually behind.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Intelligent Data Ingestion and Structuring**: COCO connects to relevant data sources and normalizes inputs:
+1. **Intelligent Data Ingestion and Structuring**: OpenMax connects to relevant data sources and normalizes inputs:
    - Ingests documents, spreadsheets, databases, and unstructured text simultaneously
    - Identifies key entities, metrics, and relationships across disparate data sources
    - Applies domain-specific schemas to structure raw inputs into analyzable formats
    - Flags data quality issues, missing fields, and inconsistencies before analysis begins
    - Maintains audit trails linking every output back to its source data
 
-2. **Pattern Recognition and Anomaly Detection**: COCO surfaces insights that manual review misses:
+2. **Pattern Recognition and Anomaly Detection**: OpenMax surfaces insights that manual review misses:
    - Applies statistical models to identify trends, outliers, and emerging patterns
    - Benchmarks current performance against historical baselines and industry standards
    - Detects early warning signals before they escalate into critical issues
    - Cross-references multiple data dimensions to reveal non-obvious correlations
    - Prioritizes findings by potential business impact and urgency
 
-3. **Automated Report and Document Generation**: COCO eliminates manual document production:
+3. **Automated Report and Document Generation**: OpenMax eliminates manual document production:
    - Generates structured reports following organization-specific templates and standards
    - Produces executive summaries calibrated to the appropriate audience and detail level
    - Creates supporting visualizations, tables, and data exhibits automatically
    - Maintains consistent terminology, formatting, and citation standards across all outputs
    - Drafts multiple output versions (technical detail vs. executive summary) from the same analysis
 
-4. **Workflow Automation and Task Orchestration**: COCO streamlines multi-step processes:
+4. **Workflow Automation and Task Orchestration**: OpenMax streamlines multi-step processes:
    - Breaks complex workflows into discrete, trackable steps with clear ownership
    - Automates handoffs between team members with appropriate context and instructions
    - Tracks completion status and surfaces blockers before deadlines are missed
    - Generates checklists, reminders, and escalation triggers at critical checkpoints
    - Integrates with existing tools (Slack, email, project management) to reduce context switching
 
-5. **Quality Assurance and Compliance Checking**: COCO builds quality into the process:
+5. **Quality Assurance and Compliance Checking**: OpenMax builds quality into the process:
    - Validates outputs against regulatory requirements and internal policy standards
    - Checks for completeness, consistency, and accuracy before outputs are finalized
    - Documents the reasoning behind key recommendations for review and audit purposes
    - Flags potential compliance risks or policy violations with specific rule references
    - Maintains a version history of all outputs for regulatory and audit purposes
 
-6. **Continuous Improvement and Learning**: COCO improves outcomes over time:
+6. **Continuous Improvement and Learning**: OpenMax improves outcomes over time:
    - Tracks which recommendations were acted on and correlates with downstream outcomes
    - Identifies systematic biases or gaps in the current process
    - Recommends process improvements based on analysis of workflow bottlenecks
@@ -3559,7 +3559,7 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 
 **Measurable Results**
 
-- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with COCO assistance (85% time savings)
+- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with OpenMax assistance (85% time savings)
 - **Output quality score**: Improved from 71% accuracy on manual reviews to **96% with AI-assisted validation**
 - **Throughput capacity**: Team handles **3.4x more cases** monthly without additional headcount
 - **Error rate and rework**: Downstream errors requiring rework reduced from 18% to **under 3%**
@@ -3698,7 +3698,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: HR Performance Review Writer**
 
@@ -3708,44 +3708,44 @@ The core challenge is that performance monitoring requires synthesizing large vo
 
 The downstream cost extends beyond direct labor. Delayed outputs slow downstream decisions. Inconsistent quality creates rework cycles. Missed insights lead to suboptimal resource allocation. And when teams are overwhelmed with execution, there's no bandwidth left for the proactive thinking that prevents problems before they occur — creating a reactive culture that's perpetually behind.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Intelligent Data Ingestion and Structuring**: COCO connects to relevant data sources and normalizes inputs:
+1. **Intelligent Data Ingestion and Structuring**: OpenMax connects to relevant data sources and normalizes inputs:
    - Ingests documents, spreadsheets, databases, and unstructured text simultaneously
    - Identifies key entities, metrics, and relationships across disparate data sources
    - Applies domain-specific schemas to structure raw inputs into analyzable formats
    - Flags data quality issues, missing fields, and inconsistencies before analysis begins
    - Maintains audit trails linking every output back to its source data
 
-2. **Pattern Recognition and Anomaly Detection**: COCO surfaces insights that manual review misses:
+2. **Pattern Recognition and Anomaly Detection**: OpenMax surfaces insights that manual review misses:
    - Applies statistical models to identify trends, outliers, and emerging patterns
    - Benchmarks current performance against historical baselines and industry standards
    - Detects early warning signals before they escalate into critical issues
    - Cross-references multiple data dimensions to reveal non-obvious correlations
    - Prioritizes findings by potential business impact and urgency
 
-3. **Automated Report and Document Generation**: COCO eliminates manual document production:
+3. **Automated Report and Document Generation**: OpenMax eliminates manual document production:
    - Generates structured reports following organization-specific templates and standards
    - Produces executive summaries calibrated to the appropriate audience and detail level
    - Creates supporting visualizations, tables, and data exhibits automatically
    - Maintains consistent terminology, formatting, and citation standards across all outputs
    - Drafts multiple output versions (technical detail vs. executive summary) from the same analysis
 
-4. **Workflow Automation and Task Orchestration**: COCO streamlines multi-step processes:
+4. **Workflow Automation and Task Orchestration**: OpenMax streamlines multi-step processes:
    - Breaks complex workflows into discrete, trackable steps with clear ownership
    - Automates handoffs between team members with appropriate context and instructions
    - Tracks completion status and surfaces blockers before deadlines are missed
    - Generates checklists, reminders, and escalation triggers at critical checkpoints
    - Integrates with existing tools (Slack, email, project management) to reduce context switching
 
-5. **Quality Assurance and Compliance Checking**: COCO builds quality into the process:
+5. **Quality Assurance and Compliance Checking**: OpenMax builds quality into the process:
    - Validates outputs against regulatory requirements and internal policy standards
    - Checks for completeness, consistency, and accuracy before outputs are finalized
    - Documents the reasoning behind key recommendations for review and audit purposes
    - Flags potential compliance risks or policy violations with specific rule references
    - Maintains a version history of all outputs for regulatory and audit purposes
 
-6. **Continuous Improvement and Learning**: COCO improves outcomes over time:
+6. **Continuous Improvement and Learning**: OpenMax improves outcomes over time:
    - Tracks which recommendations were acted on and correlates with downstream outcomes
    - Identifies systematic biases or gaps in the current process
    - Recommends process improvements based on analysis of workflow bottlenecks
@@ -3758,7 +3758,7 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 
 **Measurable Results**
 
-- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with COCO assistance (85% time savings)
+- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with OpenMax assistance (85% time savings)
 - **Output quality score**: Improved from 71% accuracy on manual reviews to **96% with AI-assisted validation**
 - **Throughput capacity**: Team handles **3.4x more cases** monthly without additional headcount
 - **Error rate and rework**: Downstream errors requiring rework reduced from 18% to **under 3%**
@@ -3897,7 +3897,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Healthcare face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: HR Employee Engagement Pulse Blind Spots**
 
@@ -3907,44 +3907,44 @@ The core challenge is that survey design requires synthesizing large volumes of 
 
 The downstream cost extends beyond direct labor. Delayed outputs slow downstream decisions. Inconsistent quality creates rework cycles. Missed insights lead to suboptimal resource allocation. And when teams are overwhelmed with execution, there's no bandwidth left for the proactive thinking that prevents problems before they occur — creating a reactive culture that's perpetually behind.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Intelligent Data Ingestion and Structuring**: COCO connects to relevant data sources and normalizes inputs:
+1. **Intelligent Data Ingestion and Structuring**: OpenMax connects to relevant data sources and normalizes inputs:
    - Ingests documents, spreadsheets, databases, and unstructured text simultaneously
    - Identifies key entities, metrics, and relationships across disparate data sources
    - Applies domain-specific schemas to structure raw inputs into analyzable formats
    - Flags data quality issues, missing fields, and inconsistencies before analysis begins
    - Maintains audit trails linking every output back to its source data
 
-2. **Pattern Recognition and Anomaly Detection**: COCO surfaces insights that manual review misses:
+2. **Pattern Recognition and Anomaly Detection**: OpenMax surfaces insights that manual review misses:
    - Applies statistical models to identify trends, outliers, and emerging patterns
    - Benchmarks current performance against historical baselines and industry standards
    - Detects early warning signals before they escalate into critical issues
    - Cross-references multiple data dimensions to reveal non-obvious correlations
    - Prioritizes findings by potential business impact and urgency
 
-3. **Automated Report and Document Generation**: COCO eliminates manual document production:
+3. **Automated Report and Document Generation**: OpenMax eliminates manual document production:
    - Generates structured reports following organization-specific templates and standards
    - Produces executive summaries calibrated to the appropriate audience and detail level
    - Creates supporting visualizations, tables, and data exhibits automatically
    - Maintains consistent terminology, formatting, and citation standards across all outputs
    - Drafts multiple output versions (technical detail vs. executive summary) from the same analysis
 
-4. **Workflow Automation and Task Orchestration**: COCO streamlines multi-step processes:
+4. **Workflow Automation and Task Orchestration**: OpenMax streamlines multi-step processes:
    - Breaks complex workflows into discrete, trackable steps with clear ownership
    - Automates handoffs between team members with appropriate context and instructions
    - Tracks completion status and surfaces blockers before deadlines are missed
    - Generates checklists, reminders, and escalation triggers at critical checkpoints
    - Integrates with existing tools (Slack, email, project management) to reduce context switching
 
-5. **Quality Assurance and Compliance Checking**: COCO builds quality into the process:
+5. **Quality Assurance and Compliance Checking**: OpenMax builds quality into the process:
    - Validates outputs against regulatory requirements and internal policy standards
    - Checks for completeness, consistency, and accuracy before outputs are finalized
    - Documents the reasoning behind key recommendations for review and audit purposes
    - Flags potential compliance risks or policy violations with specific rule references
    - Maintains a version history of all outputs for regulatory and audit purposes
 
-6. **Continuous Improvement and Learning**: COCO improves outcomes over time:
+6. **Continuous Improvement and Learning**: OpenMax improves outcomes over time:
    - Tracks which recommendations were acted on and correlates with downstream outcomes
    - Identifies systematic biases or gaps in the current process
    - Recommends process improvements based on analysis of workflow bottlenecks
@@ -3957,7 +3957,7 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 
 **Measurable Results**
 
-- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with COCO assistance (85% time savings)
+- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with OpenMax assistance (85% time savings)
 - **Output quality score**: Improved from 71% accuracy on manual reviews to **96% with AI-assisted validation**
 - **Throughput capacity**: Team handles **3.4x more cases** monthly without additional headcount
 - **Error rate and rework**: Downstream errors requiring rework reduced from 18% to **under 3%**
@@ -4096,7 +4096,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: HR Job Description Optimization Writer**
 
@@ -4106,44 +4106,44 @@ The core challenge is that recruitment requires synthesizing large volumes of st
 
 The downstream cost extends beyond direct labor. Delayed outputs slow downstream decisions. Inconsistent quality creates rework cycles. Missed insights lead to suboptimal resource allocation. And when teams are overwhelmed with execution, there's no bandwidth left for the proactive thinking that prevents problems before they occur — creating a reactive culture that's perpetually behind.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Intelligent Data Ingestion and Structuring**: COCO connects to relevant data sources and normalizes inputs:
+1. **Intelligent Data Ingestion and Structuring**: OpenMax connects to relevant data sources and normalizes inputs:
    - Ingests documents, spreadsheets, databases, and unstructured text simultaneously
    - Identifies key entities, metrics, and relationships across disparate data sources
    - Applies domain-specific schemas to structure raw inputs into analyzable formats
    - Flags data quality issues, missing fields, and inconsistencies before analysis begins
    - Maintains audit trails linking every output back to its source data
 
-2. **Pattern Recognition and Anomaly Detection**: COCO surfaces insights that manual review misses:
+2. **Pattern Recognition and Anomaly Detection**: OpenMax surfaces insights that manual review misses:
    - Applies statistical models to identify trends, outliers, and emerging patterns
    - Benchmarks current performance against historical baselines and industry standards
    - Detects early warning signals before they escalate into critical issues
    - Cross-references multiple data dimensions to reveal non-obvious correlations
    - Prioritizes findings by potential business impact and urgency
 
-3. **Automated Report and Document Generation**: COCO eliminates manual document production:
+3. **Automated Report and Document Generation**: OpenMax eliminates manual document production:
    - Generates structured reports following organization-specific templates and standards
    - Produces executive summaries calibrated to the appropriate audience and detail level
    - Creates supporting visualizations, tables, and data exhibits automatically
    - Maintains consistent terminology, formatting, and citation standards across all outputs
    - Drafts multiple output versions (technical detail vs. executive summary) from the same analysis
 
-4. **Workflow Automation and Task Orchestration**: COCO streamlines multi-step processes:
+4. **Workflow Automation and Task Orchestration**: OpenMax streamlines multi-step processes:
    - Breaks complex workflows into discrete, trackable steps with clear ownership
    - Automates handoffs between team members with appropriate context and instructions
    - Tracks completion status and surfaces blockers before deadlines are missed
    - Generates checklists, reminders, and escalation triggers at critical checkpoints
    - Integrates with existing tools (Slack, email, project management) to reduce context switching
 
-5. **Quality Assurance and Compliance Checking**: COCO builds quality into the process:
+5. **Quality Assurance and Compliance Checking**: OpenMax builds quality into the process:
    - Validates outputs against regulatory requirements and internal policy standards
    - Checks for completeness, consistency, and accuracy before outputs are finalized
    - Documents the reasoning behind key recommendations for review and audit purposes
    - Flags potential compliance risks or policy violations with specific rule references
    - Maintains a version history of all outputs for regulatory and audit purposes
 
-6. **Continuous Improvement and Learning**: COCO improves outcomes over time:
+6. **Continuous Improvement and Learning**: OpenMax improves outcomes over time:
    - Tracks which recommendations were acted on and correlates with downstream outcomes
    - Identifies systematic biases or gaps in the current process
    - Recommends process improvements based on analysis of workflow bottlenecks
@@ -4156,7 +4156,7 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 
 **Measurable Results**
 
-- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with COCO assistance (85% time savings)
+- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with OpenMax assistance (85% time savings)
 - **Output quality score**: Improved from 71% accuracy on manual reviews to **96% with AI-assisted validation**
 - **Throughput capacity**: Team handles **3.4x more cases** monthly without additional headcount
 - **Error rate and rework**: Downstream errors requiring rework reduced from 18% to **under 3%**
@@ -4295,7 +4295,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Education face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: HR Training Needs Assessment Failures**
 
@@ -4305,44 +4305,44 @@ The core challenge is that training program design requires synthesizing large v
 
 The downstream cost extends beyond direct labor. Delayed outputs slow downstream decisions. Inconsistent quality creates rework cycles. Missed insights lead to suboptimal resource allocation. And when teams are overwhelmed with execution, there's no bandwidth left for the proactive thinking that prevents problems before they occur — creating a reactive culture that's perpetually behind.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Intelligent Data Ingestion and Structuring**: COCO connects to relevant data sources and normalizes inputs:
+1. **Intelligent Data Ingestion and Structuring**: OpenMax connects to relevant data sources and normalizes inputs:
    - Ingests documents, spreadsheets, databases, and unstructured text simultaneously
    - Identifies key entities, metrics, and relationships across disparate data sources
    - Applies domain-specific schemas to structure raw inputs into analyzable formats
    - Flags data quality issues, missing fields, and inconsistencies before analysis begins
    - Maintains audit trails linking every output back to its source data
 
-2. **Pattern Recognition and Anomaly Detection**: COCO surfaces insights that manual review misses:
+2. **Pattern Recognition and Anomaly Detection**: OpenMax surfaces insights that manual review misses:
    - Applies statistical models to identify trends, outliers, and emerging patterns
    - Benchmarks current performance against historical baselines and industry standards
    - Detects early warning signals before they escalate into critical issues
    - Cross-references multiple data dimensions to reveal non-obvious correlations
    - Prioritizes findings by potential business impact and urgency
 
-3. **Automated Report and Document Generation**: COCO eliminates manual document production:
+3. **Automated Report and Document Generation**: OpenMax eliminates manual document production:
    - Generates structured reports following organization-specific templates and standards
    - Produces executive summaries calibrated to the appropriate audience and detail level
    - Creates supporting visualizations, tables, and data exhibits automatically
    - Maintains consistent terminology, formatting, and citation standards across all outputs
    - Drafts multiple output versions (technical detail vs. executive summary) from the same analysis
 
-4. **Workflow Automation and Task Orchestration**: COCO streamlines multi-step processes:
+4. **Workflow Automation and Task Orchestration**: OpenMax streamlines multi-step processes:
    - Breaks complex workflows into discrete, trackable steps with clear ownership
    - Automates handoffs between team members with appropriate context and instructions
    - Tracks completion status and surfaces blockers before deadlines are missed
    - Generates checklists, reminders, and escalation triggers at critical checkpoints
    - Integrates with existing tools (Slack, email, project management) to reduce context switching
 
-5. **Quality Assurance and Compliance Checking**: COCO builds quality into the process:
+5. **Quality Assurance and Compliance Checking**: OpenMax builds quality into the process:
    - Validates outputs against regulatory requirements and internal policy standards
    - Checks for completeness, consistency, and accuracy before outputs are finalized
    - Documents the reasoning behind key recommendations for review and audit purposes
    - Flags potential compliance risks or policy violations with specific rule references
    - Maintains a version history of all outputs for regulatory and audit purposes
 
-6. **Continuous Improvement and Learning**: COCO improves outcomes over time:
+6. **Continuous Improvement and Learning**: OpenMax improves outcomes over time:
    - Tracks which recommendations were acted on and correlates with downstream outcomes
    - Identifies systematic biases or gaps in the current process
    - Recommends process improvements based on analysis of workflow bottlenecks
@@ -4355,7 +4355,7 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 
 **Measurable Results**
 
-- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with COCO assistance (85% time savings)
+- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with OpenMax assistance (85% time savings)
 - **Output quality score**: Improved from 71% accuracy on manual reviews to **96% with AI-assisted validation**
 - **Throughput capacity**: Team handles **3.4x more cases** monthly without additional headcount
 - **Error rate and rework**: Downstream errors requiring rework reduced from 18% to **under 3%**
@@ -4494,7 +4494,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: HR Recruitment Pipeline Inefficiency**
 
@@ -4504,44 +4504,44 @@ The core challenge is that recruitment requires synthesizing large volumes of st
 
 The downstream cost extends beyond direct labor. Delayed outputs slow downstream decisions. Inconsistent quality creates rework cycles. Missed insights lead to suboptimal resource allocation. And when teams are overwhelmed with execution, there's no bandwidth left for the proactive thinking that prevents problems before they occur — creating a reactive culture that's perpetually behind.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Intelligent Data Ingestion and Structuring**: COCO connects to relevant data sources and normalizes inputs:
+1. **Intelligent Data Ingestion and Structuring**: OpenMax connects to relevant data sources and normalizes inputs:
    - Ingests documents, spreadsheets, databases, and unstructured text simultaneously
    - Identifies key entities, metrics, and relationships across disparate data sources
    - Applies domain-specific schemas to structure raw inputs into analyzable formats
    - Flags data quality issues, missing fields, and inconsistencies before analysis begins
    - Maintains audit trails linking every output back to its source data
 
-2. **Pattern Recognition and Anomaly Detection**: COCO surfaces insights that manual review misses:
+2. **Pattern Recognition and Anomaly Detection**: OpenMax surfaces insights that manual review misses:
    - Applies statistical models to identify trends, outliers, and emerging patterns
    - Benchmarks current performance against historical baselines and industry standards
    - Detects early warning signals before they escalate into critical issues
    - Cross-references multiple data dimensions to reveal non-obvious correlations
    - Prioritizes findings by potential business impact and urgency
 
-3. **Automated Report and Document Generation**: COCO eliminates manual document production:
+3. **Automated Report and Document Generation**: OpenMax eliminates manual document production:
    - Generates structured reports following organization-specific templates and standards
    - Produces executive summaries calibrated to the appropriate audience and detail level
    - Creates supporting visualizations, tables, and data exhibits automatically
    - Maintains consistent terminology, formatting, and citation standards across all outputs
    - Drafts multiple output versions (technical detail vs. executive summary) from the same analysis
 
-4. **Workflow Automation and Task Orchestration**: COCO streamlines multi-step processes:
+4. **Workflow Automation and Task Orchestration**: OpenMax streamlines multi-step processes:
    - Breaks complex workflows into discrete, trackable steps with clear ownership
    - Automates handoffs between team members with appropriate context and instructions
    - Tracks completion status and surfaces blockers before deadlines are missed
    - Generates checklists, reminders, and escalation triggers at critical checkpoints
    - Integrates with existing tools (Slack, email, project management) to reduce context switching
 
-5. **Quality Assurance and Compliance Checking**: COCO builds quality into the process:
+5. **Quality Assurance and Compliance Checking**: OpenMax builds quality into the process:
    - Validates outputs against regulatory requirements and internal policy standards
    - Checks for completeness, consistency, and accuracy before outputs are finalized
    - Documents the reasoning behind key recommendations for review and audit purposes
    - Flags potential compliance risks or policy violations with specific rule references
    - Maintains a version history of all outputs for regulatory and audit purposes
 
-6. **Continuous Improvement and Learning**: COCO improves outcomes over time:
+6. **Continuous Improvement and Learning**: OpenMax improves outcomes over time:
    - Tracks which recommendations were acted on and correlates with downstream outcomes
    - Identifies systematic biases or gaps in the current process
    - Recommends process improvements based on analysis of workflow bottlenecks
@@ -4554,7 +4554,7 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 
 **Measurable Results**
 
-- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with COCO assistance (85% time savings)
+- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with OpenMax assistance (85% time savings)
 - **Output quality score**: Improved from 71% accuracy on manual reviews to **96% with AI-assisted validation**
 - **Throughput capacity**: Team handles **3.4x more cases** monthly without additional headcount
 - **Error rate and rework**: Downstream errors requiring rework reduced from 18% to **under 3%**
@@ -4693,7 +4693,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: HR Succession Planning Guesswork**
 
@@ -4703,44 +4703,44 @@ The core challenge is that strategic planning requires synthesizing large volume
 
 The downstream cost extends beyond direct labor. Delayed outputs slow downstream decisions. Inconsistent quality creates rework cycles. Missed insights lead to suboptimal resource allocation. And when teams are overwhelmed with execution, there's no bandwidth left for the proactive thinking that prevents problems before they occur — creating a reactive culture that's perpetually behind.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Intelligent Data Ingestion and Structuring**: COCO connects to relevant data sources and normalizes inputs:
+1. **Intelligent Data Ingestion and Structuring**: OpenMax connects to relevant data sources and normalizes inputs:
    - Ingests documents, spreadsheets, databases, and unstructured text simultaneously
    - Identifies key entities, metrics, and relationships across disparate data sources
    - Applies domain-specific schemas to structure raw inputs into analyzable formats
    - Flags data quality issues, missing fields, and inconsistencies before analysis begins
    - Maintains audit trails linking every output back to its source data
 
-2. **Pattern Recognition and Anomaly Detection**: COCO surfaces insights that manual review misses:
+2. **Pattern Recognition and Anomaly Detection**: OpenMax surfaces insights that manual review misses:
    - Applies statistical models to identify trends, outliers, and emerging patterns
    - Benchmarks current performance against historical baselines and industry standards
    - Detects early warning signals before they escalate into critical issues
    - Cross-references multiple data dimensions to reveal non-obvious correlations
    - Prioritizes findings by potential business impact and urgency
 
-3. **Automated Report and Document Generation**: COCO eliminates manual document production:
+3. **Automated Report and Document Generation**: OpenMax eliminates manual document production:
    - Generates structured reports following organization-specific templates and standards
    - Produces executive summaries calibrated to the appropriate audience and detail level
    - Creates supporting visualizations, tables, and data exhibits automatically
    - Maintains consistent terminology, formatting, and citation standards across all outputs
    - Drafts multiple output versions (technical detail vs. executive summary) from the same analysis
 
-4. **Workflow Automation and Task Orchestration**: COCO streamlines multi-step processes:
+4. **Workflow Automation and Task Orchestration**: OpenMax streamlines multi-step processes:
    - Breaks complex workflows into discrete, trackable steps with clear ownership
    - Automates handoffs between team members with appropriate context and instructions
    - Tracks completion status and surfaces blockers before deadlines are missed
    - Generates checklists, reminders, and escalation triggers at critical checkpoints
    - Integrates with existing tools (Slack, email, project management) to reduce context switching
 
-5. **Quality Assurance and Compliance Checking**: COCO builds quality into the process:
+5. **Quality Assurance and Compliance Checking**: OpenMax builds quality into the process:
    - Validates outputs against regulatory requirements and internal policy standards
    - Checks for completeness, consistency, and accuracy before outputs are finalized
    - Documents the reasoning behind key recommendations for review and audit purposes
    - Flags potential compliance risks or policy violations with specific rule references
    - Maintains a version history of all outputs for regulatory and audit purposes
 
-6. **Continuous Improvement and Learning**: COCO improves outcomes over time:
+6. **Continuous Improvement and Learning**: OpenMax improves outcomes over time:
    - Tracks which recommendations were acted on and correlates with downstream outcomes
    - Identifies systematic biases or gaps in the current process
    - Recommends process improvements based on analysis of workflow bottlenecks
@@ -4753,7 +4753,7 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 
 **Measurable Results**
 
-- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with COCO assistance (85% time savings)
+- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with OpenMax assistance (85% time savings)
 - **Output quality score**: Improved from 71% accuracy on manual reviews to **96% with AI-assisted validation**
 - **Throughput capacity**: Team handles **3.4x more cases** monthly without additional headcount
 - **Error rate and rework**: Downstream errors requiring rework reduced from 18% to **under 3%**
@@ -4892,7 +4892,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Management Consulting face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: HR Organizational Design Guesswork**
 
@@ -4902,44 +4902,44 @@ The core challenge is that workflow design requires synthesizing large volumes o
 
 The downstream cost extends beyond direct labor. Delayed outputs slow downstream decisions. Inconsistent quality creates rework cycles. Missed insights lead to suboptimal resource allocation. And when teams are overwhelmed with execution, there's no bandwidth left for the proactive thinking that prevents problems before they occur — creating a reactive culture that's perpetually behind.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Intelligent Data Ingestion and Structuring**: COCO connects to relevant data sources and normalizes inputs:
+1. **Intelligent Data Ingestion and Structuring**: OpenMax connects to relevant data sources and normalizes inputs:
    - Ingests documents, spreadsheets, databases, and unstructured text simultaneously
    - Identifies key entities, metrics, and relationships across disparate data sources
    - Applies domain-specific schemas to structure raw inputs into analyzable formats
    - Flags data quality issues, missing fields, and inconsistencies before analysis begins
    - Maintains audit trails linking every output back to its source data
 
-2. **Pattern Recognition and Anomaly Detection**: COCO surfaces insights that manual review misses:
+2. **Pattern Recognition and Anomaly Detection**: OpenMax surfaces insights that manual review misses:
    - Applies statistical models to identify trends, outliers, and emerging patterns
    - Benchmarks current performance against historical baselines and industry standards
    - Detects early warning signals before they escalate into critical issues
    - Cross-references multiple data dimensions to reveal non-obvious correlations
    - Prioritizes findings by potential business impact and urgency
 
-3. **Automated Report and Document Generation**: COCO eliminates manual document production:
+3. **Automated Report and Document Generation**: OpenMax eliminates manual document production:
    - Generates structured reports following organization-specific templates and standards
    - Produces executive summaries calibrated to the appropriate audience and detail level
    - Creates supporting visualizations, tables, and data exhibits automatically
    - Maintains consistent terminology, formatting, and citation standards across all outputs
    - Drafts multiple output versions (technical detail vs. executive summary) from the same analysis
 
-4. **Workflow Automation and Task Orchestration**: COCO streamlines multi-step processes:
+4. **Workflow Automation and Task Orchestration**: OpenMax streamlines multi-step processes:
    - Breaks complex workflows into discrete, trackable steps with clear ownership
    - Automates handoffs between team members with appropriate context and instructions
    - Tracks completion status and surfaces blockers before deadlines are missed
    - Generates checklists, reminders, and escalation triggers at critical checkpoints
    - Integrates with existing tools (Slack, email, project management) to reduce context switching
 
-5. **Quality Assurance and Compliance Checking**: COCO builds quality into the process:
+5. **Quality Assurance and Compliance Checking**: OpenMax builds quality into the process:
    - Validates outputs against regulatory requirements and internal policy standards
    - Checks for completeness, consistency, and accuracy before outputs are finalized
    - Documents the reasoning behind key recommendations for review and audit purposes
    - Flags potential compliance risks or policy violations with specific rule references
    - Maintains a version history of all outputs for regulatory and audit purposes
 
-6. **Continuous Improvement and Learning**: COCO improves outcomes over time:
+6. **Continuous Improvement and Learning**: OpenMax improves outcomes over time:
    - Tracks which recommendations were acted on and correlates with downstream outcomes
    - Identifies systematic biases or gaps in the current process
    - Recommends process improvements based on analysis of workflow bottlenecks
@@ -4952,7 +4952,7 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 
 **Measurable Results**
 
-- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with COCO assistance (85% time savings)
+- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with OpenMax assistance (85% time savings)
 - **Output quality score**: Improved from 71% accuracy on manual reviews to **96% with AI-assisted validation**
 - **Throughput capacity**: Team handles **3.4x more cases** monthly without additional headcount
 - **Error rate and rework**: Downstream errors requiring rework reduced from 18% to **under 3%**
@@ -5091,7 +5091,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in Manufacturing face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Workforce Planning Scenario Modeler**
 
@@ -5101,44 +5101,44 @@ The core challenge is that strategic planning requires synthesizing large volume
 
 The downstream cost extends beyond direct labor. Delayed outputs slow downstream decisions. Inconsistent quality creates rework cycles. Missed insights lead to suboptimal resource allocation. And when teams are overwhelmed with execution, there's no bandwidth left for the proactive thinking that prevents problems before they occur — creating a reactive culture that's perpetually behind.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Intelligent Data Ingestion and Structuring**: COCO connects to relevant data sources and normalizes inputs:
+1. **Intelligent Data Ingestion and Structuring**: OpenMax connects to relevant data sources and normalizes inputs:
    - Ingests documents, spreadsheets, databases, and unstructured text simultaneously
    - Identifies key entities, metrics, and relationships across disparate data sources
    - Applies domain-specific schemas to structure raw inputs into analyzable formats
    - Flags data quality issues, missing fields, and inconsistencies before analysis begins
    - Maintains audit trails linking every output back to its source data
 
-2. **Pattern Recognition and Anomaly Detection**: COCO surfaces insights that manual review misses:
+2. **Pattern Recognition and Anomaly Detection**: OpenMax surfaces insights that manual review misses:
    - Applies statistical models to identify trends, outliers, and emerging patterns
    - Benchmarks current performance against historical baselines and industry standards
    - Detects early warning signals before they escalate into critical issues
    - Cross-references multiple data dimensions to reveal non-obvious correlations
    - Prioritizes findings by potential business impact and urgency
 
-3. **Automated Report and Document Generation**: COCO eliminates manual document production:
+3. **Automated Report and Document Generation**: OpenMax eliminates manual document production:
    - Generates structured reports following organization-specific templates and standards
    - Produces executive summaries calibrated to the appropriate audience and detail level
    - Creates supporting visualizations, tables, and data exhibits automatically
    - Maintains consistent terminology, formatting, and citation standards across all outputs
    - Drafts multiple output versions (technical detail vs. executive summary) from the same analysis
 
-4. **Workflow Automation and Task Orchestration**: COCO streamlines multi-step processes:
+4. **Workflow Automation and Task Orchestration**: OpenMax streamlines multi-step processes:
    - Breaks complex workflows into discrete, trackable steps with clear ownership
    - Automates handoffs between team members with appropriate context and instructions
    - Tracks completion status and surfaces blockers before deadlines are missed
    - Generates checklists, reminders, and escalation triggers at critical checkpoints
    - Integrates with existing tools (Slack, email, project management) to reduce context switching
 
-5. **Quality Assurance and Compliance Checking**: COCO builds quality into the process:
+5. **Quality Assurance and Compliance Checking**: OpenMax builds quality into the process:
    - Validates outputs against regulatory requirements and internal policy standards
    - Checks for completeness, consistency, and accuracy before outputs are finalized
    - Documents the reasoning behind key recommendations for review and audit purposes
    - Flags potential compliance risks or policy violations with specific rule references
    - Maintains a version history of all outputs for regulatory and audit purposes
 
-6. **Continuous Improvement and Learning**: COCO improves outcomes over time:
+6. **Continuous Improvement and Learning**: OpenMax improves outcomes over time:
    - Tracks which recommendations were acted on and correlates with downstream outcomes
    - Identifies systematic biases or gaps in the current process
    - Recommends process improvements based on analysis of workflow bottlenecks
@@ -5151,7 +5151,7 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 
 **Measurable Results**
 
-- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with COCO assistance (85% time savings)
+- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with OpenMax assistance (85% time savings)
 - **Output quality score**: Improved from 71% accuracy on manual reviews to **96% with AI-assisted validation**
 - **Throughput capacity**: Team handles **3.4x more cases** monthly without additional headcount
 - **Error rate and rework**: Downstream errors requiring rework reduced from 18% to **under 3%**
@@ -5290,7 +5290,7 @@ For each: expected impact, implementation steps, owner, dependencies, and succes
 
 > Organizations operating in SaaS face mounting pressure to deliver results with constrained resources
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Exit Interview Insights Blind Spots**
 
@@ -5300,44 +5300,44 @@ The core challenge is that data analysis requires synthesizing large volumes of 
 
 The downstream cost extends beyond direct labor. Delayed outputs slow downstream decisions. Inconsistent quality creates rework cycles. Missed insights lead to suboptimal resource allocation. And when teams are overwhelmed with execution, there's no bandwidth left for the proactive thinking that prevents problems before they occur — creating a reactive culture that's perpetually behind.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Intelligent Data Ingestion and Structuring**: COCO connects to relevant data sources and normalizes inputs:
+1. **Intelligent Data Ingestion and Structuring**: OpenMax connects to relevant data sources and normalizes inputs:
    - Ingests documents, spreadsheets, databases, and unstructured text simultaneously
    - Identifies key entities, metrics, and relationships across disparate data sources
    - Applies domain-specific schemas to structure raw inputs into analyzable formats
    - Flags data quality issues, missing fields, and inconsistencies before analysis begins
    - Maintains audit trails linking every output back to its source data
 
-2. **Pattern Recognition and Anomaly Detection**: COCO surfaces insights that manual review misses:
+2. **Pattern Recognition and Anomaly Detection**: OpenMax surfaces insights that manual review misses:
    - Applies statistical models to identify trends, outliers, and emerging patterns
    - Benchmarks current performance against historical baselines and industry standards
    - Detects early warning signals before they escalate into critical issues
    - Cross-references multiple data dimensions to reveal non-obvious correlations
    - Prioritizes findings by potential business impact and urgency
 
-3. **Automated Report and Document Generation**: COCO eliminates manual document production:
+3. **Automated Report and Document Generation**: OpenMax eliminates manual document production:
    - Generates structured reports following organization-specific templates and standards
    - Produces executive summaries calibrated to the appropriate audience and detail level
    - Creates supporting visualizations, tables, and data exhibits automatically
    - Maintains consistent terminology, formatting, and citation standards across all outputs
    - Drafts multiple output versions (technical detail vs. executive summary) from the same analysis
 
-4. **Workflow Automation and Task Orchestration**: COCO streamlines multi-step processes:
+4. **Workflow Automation and Task Orchestration**: OpenMax streamlines multi-step processes:
    - Breaks complex workflows into discrete, trackable steps with clear ownership
    - Automates handoffs between team members with appropriate context and instructions
    - Tracks completion status and surfaces blockers before deadlines are missed
    - Generates checklists, reminders, and escalation triggers at critical checkpoints
    - Integrates with existing tools (Slack, email, project management) to reduce context switching
 
-5. **Quality Assurance and Compliance Checking**: COCO builds quality into the process:
+5. **Quality Assurance and Compliance Checking**: OpenMax builds quality into the process:
    - Validates outputs against regulatory requirements and internal policy standards
    - Checks for completeness, consistency, and accuracy before outputs are finalized
    - Documents the reasoning behind key recommendations for review and audit purposes
    - Flags potential compliance risks or policy violations with specific rule references
    - Maintains a version history of all outputs for regulatory and audit purposes
 
-6. **Continuous Improvement and Learning**: COCO improves outcomes over time:
+6. **Continuous Improvement and Learning**: OpenMax improves outcomes over time:
    - Tracks which recommendations were acted on and correlates with downstream outcomes
    - Identifies systematic biases or gaps in the current process
    - Recommends process improvements based on analysis of workflow bottlenecks
@@ -5350,7 +5350,7 @@ The downstream cost extends beyond direct labor. Delayed outputs slow downstream
 
 **Measurable Results**
 
-- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with COCO assistance (85% time savings)
+- **Processing time per task**: Reduced from [8-12 hours] manual effort to **under 45 minutes** with OpenMax assistance (85% time savings)
 - **Output quality score**: Improved from 71% accuracy on manual reviews to **96% with AI-assisted validation**
 - **Throughput capacity**: Team handles **3.4x more cases** monthly without additional headcount
 - **Error rate and rework**: Downstream errors requiring rework reduced from 18% to **under 3%**

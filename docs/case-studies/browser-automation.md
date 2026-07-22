@@ -1,12 +1,12 @@
 # Browser Automation Tutorial: Let Your AI Employee Operate Web Pages
 
-> Let your COCO AI Employee log into websites, take screenshots, fill forms, and scrape data — anything a browser can do, your AI can do for you.
+> Let your OpenMax AI Employee log into websites, take screenshots, fill forms, and scrape data — anything a browser can do, your AI can do for you.
 
 **Workflow:** Install browser component → (Optional) Set up VNC remote monitoring → Give tasks in natural language → AI Employee automates the browser and reports results
 
 ## Prerequisites
 
-- COCO AI Employee
+- OpenMax AI Employee
 - No additional accounts needed — the component works out of the box
 
 ---
@@ -26,7 +26,7 @@ Once the browser component is installed, you can ask your AI Employee to complet
 
 ## Step 1: Install the Browser Component
 
-Simply tell your COCO AI Employee:
+Simply tell your OpenMax AI Employee:
 
 ```
 Install the browser component

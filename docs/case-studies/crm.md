@@ -1,11 +1,11 @@
 ---
 layout: page
-title: "AI Agent Builds and Runs a CRM Automatically: 33% Conversion, Zero Maintenance | COCO"
-description: "How COCO's AI Agent designed, built, and operates a full CRM system end-to-end. No manual data entry, 33% trial-to-paid conversion, zero daily human maintenance. A real-world enterprise AI automation case study."
+title: "AI Agent Builds and Runs a CRM Automatically: 33% Conversion, Zero Maintenance | OpenMax"
+description: "How OpenMax's AI Agent designed, built, and operates a full CRM system end-to-end. No manual data entry, 33% trial-to-paid conversion, zero daily human maintenance. A real-world enterprise AI automation case study."
 head:
   - - meta
     - property: og:title
-      content: "AI Agent Builds and Runs a CRM Automatically: 33% Conversion, Zero Maintenance | COCO"
+      content: "AI Agent Builds and Runs a CRM Automatically: 33% Conversion, Zero Maintenance | OpenMax"
   - - meta
     - property: og:description
       content: "AI Agent designs, builds, and operates a full CRM — 33% conversion, zero daily maintenance. Real enterprise AI automation case study."
@@ -798,7 +798,7 @@ head:
 
 <div class="case-hero">
   <div class="hero-text-box">
-    <h1>COCO CRM<br/><em>Built by AI, Run by AI</em></h1>
+    <h1>OpenMax CRM<br/><em>Built by AI, Run by AI</em></h1>
     <p class="subtitle">An AI Agent designed a complete 7-sheet CRM in one evening,<br/>then runs it every day — audits, reconciliation, reports, zero human intervention.</p>
     <div class="hero-stats">
       <div class="stat">
@@ -822,19 +822,19 @@ head:
 
 ## Background: <em>Built for Ourselves First</em>
 
-The COCO team needed to track the full sales pipeline from signup to trial to payment. The traditional approach: buy a SaaS CRM, spend weeks configuring it, then assign someone to maintain it daily.
+The OpenMax team needed to track the full sales pipeline from signup to trial to payment. The traditional approach: buy a SaaS CRM, spend weeks configuring it, then assign someone to maintain it daily.
 
 They chose a different path — let the AI Agent **Zylos** design and build the entire system directly.
 
 From a requirements description to 7 fully functional spreadsheets: **one evening**.
 
-For most early-stage startups, CRM is a perpetual backlog item — too expensive to buy, too complex to configure, too demanding to maintain daily. COCO's solution bypasses this triangle entirely: hand the design, build, and ongoing operation of the CRM to an AI Agent digital employee. This isn't "AI assistance" — it's true enterprise AI automation where the AI is both architect and daily operator.
+For most early-stage startups, CRM is a perpetual backlog item — too expensive to buy, too complex to configure, too demanding to maintain daily. OpenMax's solution bypasses this triangle entirely: hand the design, build, and ongoing operation of the CRM to an AI Agent digital employee. This isn't "AI assistance" — it's true enterprise AI automation where the AI is both architect and daily operator.
 
-What makes this case particularly notable is that COCO runs its own company on the same product it sells. Zylos plays a dual role: COCO's AI Agent product and COCO's internal operations digital employee simultaneously. This real-world self-deployment validates that COCO's enterprise AI automation approach delivers results in actual business scenarios — not just demos.
+What makes this case particularly notable is that OpenMax runs its own company on the same product it sells. Zylos plays a dual role: OpenMax's AI Agent product and OpenMax's internal operations digital employee simultaneously. This real-world self-deployment validates that OpenMax's enterprise AI automation approach delivers results in actual business scenarios — not just demos.
 
 <div class="video-showcase">
   <div class="video-container">
-    <iframe src="https://www.youtube.com/embed/u7o-1GCO89E" title="COCO CRM Automation Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe src="https://www.youtube.com/embed/u7o-1GCO89E" title="OpenMax CRM Automation Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   </div>
 </div>
 
@@ -844,9 +844,9 @@ What makes this case particularly notable is that COCO runs its own company on t
 
 ## Three Pipelines That <em>Run Every Day</em>
 
-The value of enterprise AI automation isn't executing a single task — it's converting entire workflows that previously required daily human repetition into reliably running automated pipelines. COCO's CRM digital employee operates three parallel pipelines: daily trial audits, real-time payment sync, and monthly dashboard rebuilds.
+The value of enterprise AI automation isn't executing a single task — it's converting entire workflows that previously required daily human repetition into reliably running automated pipelines. OpenMax's CRM digital employee operates three parallel pipelines: daily trial audits, real-time payment sync, and monthly dashboard rebuilds.
 
-Under the traditional model, these three tasks require a dedicated operations person to manually check Stripe, update spreadsheets, and compile reports every day. COCO AI replaces all of this with scheduled tasks, each with precisely defined trigger timing, execution logic, and notification formats that keep the team informed without any active effort on their part.
+Under the traditional model, these three tasks require a dedicated operations person to manually check Stripe, update spreadsheets, and compile reports every day. OpenMax AI replaces all of this with scheduled tasks, each with precisely defined trigger timing, execution logic, and notification formats that keep the team informed without any active effort on their part.
 
 <div class="pipeline-grid">
   <div class="pipeline-card">
@@ -879,7 +879,7 @@ Nobody needs to open a spreadsheet to check data manually. The briefing comes to
 
 This CRM system consists of 7 Lark spreadsheets, each with clear ownership boundaries. From a complete user directory and deduplicated paid users sheet to the monthly calendar dashboard, SOP documentation, customer FAQ knowledge base, instance technical status tracking, and prospect pool — the entire CRM was not assembled ad hoc, but systematically architected and built from scratch by AI Agent Zylos in a single evening.
 
-Compared to off-the-shelf SaaS CRM products, the core advantage here is full customization to COCO's specific business context: the table structure, update logic, and notification rules all precisely match actual operational workflows. Every Stripe payment triggering automatic CRM entry, every trial expiration triggering automatic follow-up reminders — all executing reliably without human intervention. This is the most fundamental difference between enterprise AI automation and traditional CRM tooling.
+Compared to off-the-shelf SaaS CRM products, the core advantage here is full customization to OpenMax's specific business context: the table structure, update logic, and notification rules all precisely match actual operational workflows. Every Stripe payment triggering automatic CRM entry, every trial expiration triggering automatic follow-up reminders — all executing reliably without human intervention. This is the most fundamental difference between enterprise AI automation and traditional CRM tooling.
 
 <table class="arch-table">
   <thead>
@@ -972,7 +972,7 @@ Compared to off-the-shelf SaaS CRM products, the core advantage here is full cus
 
 ## Results
 
-A 33% trial conversion rate — more than three times the SaaS industry average — is not accidental. When the team receives a precise trial expiration audit at 10 AM every morning, knowing exactly who to follow up with today, who has already lapsed, and who is at a critical decision point, follow-up efficiency naturally improves. The value of COCO AI's digital employee isn't only the hours saved on manual data entry — it's the elimination of "information latency" as a hidden cost.
+A 33% trial conversion rate — more than three times the SaaS industry average — is not accidental. When the team receives a precise trial expiration audit at 10 AM every morning, knowing exactly who to follow up with today, who has already lapsed, and who is at a critical decision point, follow-up efficiency naturally improves. The value of OpenMax AI's digital employee isn't only the hours saved on manual data entry — it's the elimination of "information latency" as a hidden cost.
 
 100% automated data entry means from the moment Stripe receives a payment notification, the CRM is already updated. No "I'll enter it later," no missed entries, no data inconsistencies. For a fast-growing SaaS team, real-time accurate customer data is the foundation of all decisions — and that foundation is now maintained automatically by an AI digital employee, 24 hours a day, 7 days a week.
 
@@ -1007,11 +1007,11 @@ From payment notification to CRM update, to team alerts, to follow-up list gener
 
 ## Why This Case Matters
 
-What the COCO team did with COCO wasn't about speeding up existing work by a little — it was about bringing to life an operations pipeline that **would never have existed otherwise**, because building it the traditional way would take weeks and real money.
+What the OpenMax team did with OpenMax wasn't about speeding up existing work by a little — it was about bringing to life an operations pipeline that **would never have existed otherwise**, because building it the traditional way would take weeks and real money.
 
 This is a simple proof: **If AI can build and continuously operate its own company's CRM from scratch, it can do the same for you.**
 
-In enterprise AI automation practice, CRM is often the most direct entry point — it spans sales, customer success, and operations, and daily work is full of repetitive data entry and status updates. COCO AI's approach proves that you don't need to purchase expensive SaaS tools or hire dedicated CRM operations staff. All it takes is a properly configured AI Agent digital employee to keep the entire customer management system running automatically. For resource-constrained startups and SMBs, this represents the most tangible business value that enterprise AI automation can deliver.
+In enterprise AI automation practice, CRM is often the most direct entry point — it spans sales, customer success, and operations, and daily work is full of repetitive data entry and status updates. OpenMax AI's approach proves that you don't need to purchase expensive SaaS tools or hire dedicated CRM operations staff. All it takes is a properly configured AI Agent digital employee to keep the entire customer management system running automatically. For resource-constrained startups and SMBs, this represents the most tangible business value that enterprise AI automation can deliver.
 
 </div>
 
@@ -1019,9 +1019,9 @@ In enterprise AI automation practice, CRM is often the most direct entry point �
 
 ## Frequently Asked Questions
 
-### Q: How long does it take COCO AI Agent to build a CRM system?
+### Q: How long does it take OpenMax AI Agent to build a CRM system?
 
-From requirements description to all 7 spreadsheets fully operational, COCO's AI Agent Zylos completed the entire CRM system design and build in one evening. Compared to the traditional approach — weeks of SaaS CRM configuration — enterprise AI automation offers a magnitude improvement in initial setup speed.
+From requirements description to all 7 spreadsheets fully operational, OpenMax's AI Agent Zylos completed the entire CRM system design and build in one evening. Compared to the traditional approach — weeks of SaaS CRM configuration — enterprise AI automation offers a magnitude improvement in initial setup speed.
 
 ### Q: Does this CRM automation system require daily human intervention?
 
@@ -1029,26 +1029,26 @@ Almost none. The three automated pipelines (trial audit, payment sync, monthly d
 
 ### Q: How does the AI digital employee ensure CRM data accuracy?
 
-COCO AI Agent ensures accuracy through cross-validation with Stripe payment data. When a Stripe payment notification arrives, Zylos automatically checks existing CRM records for duplicate email addresses and employee IDs. SOP rules clearly define how enterprise subscriptions are distinguished from individual ones, further improving data quality.
+OpenMax AI Agent ensures accuracy through cross-validation with Stripe payment data. When a Stripe payment notification arrives, Zylos automatically checks existing CRM records for duplicate email addresses and employee IDs. SOP rules clearly define how enterprise subscriptions are distinguished from individual ones, further improving data quality.
 
 ### Q: What types of businesses is this solution best suited for?
 
-Any company with a subscription-based revenue model is highly suited. Particularly startups in rapid growth stages with user counts in the tens to hundreds, where operations teams are stretched thin — exactly the stage where traditional CRM tools offer the worst cost-to-value ratio but manual management pressure is highest. COCO AI enterprise automation fills this operational gap at minimal cost.
+Any company with a subscription-based revenue model is highly suited. Particularly startups in rapid growth stages with user counts in the tens to hundreds, where operations teams are stretched thin — exactly the stage where traditional CRM tools offer the worst cost-to-value ratio but manual management pressure is highest. OpenMax AI enterprise automation fills this operational gap at minimal cost.
 
-### Q: How does COCO AI CRM automation compare to established CRM tools like Salesforce or HubSpot?
+### Q: How does OpenMax AI CRM automation compare to established CRM tools like Salesforce or HubSpot?
 
-COCO AI's advantages: fully customized, extremely low cost, deep integration with existing tools (Lark/Feishu). Established CRMs offer more complete feature sets and dedicated customer support. The choice depends on stage: early-stage teams building lightweight CRM with COCO AI digital employees get the best ROI; at scale, both can coexist — COCO AI Agent handles daily automation tasks while a professional CRM manages complex sales processes.
+OpenMax AI's advantages: fully customized, extremely low cost, deep integration with existing tools (Lark/Feishu). Established CRMs offer more complete feature sets and dedicated customer support. The choice depends on stage: early-stage teams building lightweight CRM with OpenMax AI digital employees get the best ROI; at scale, both can coexist — OpenMax AI Agent handles daily automation tasks while a professional CRM manages complex sales processes.
 
-### Q: How do I get COCO AI Agent to automatically operate my company's CRM?
+### Q: How do I get OpenMax AI Agent to automatically operate my company's CRM?
 
-Simply visit icoco.ai to start a free trial, describe your business requirements and existing data structure to the AI Agent, and it will help you design the table architecture, build automation workflows, and configure trigger rules. No programming background required — the entire process is completed through natural language conversation with the COCO AI Agent.
+Simply visit icoco.ai to start a free trial, describe your business requirements and existing data structure to the AI Agent, and it will help you design the table architecture, build automation workflows, and configure trigger rules. No programming background required — the entire process is completed through natural language conversation with the OpenMax AI Agent.
 
 </div>
 
 <div class="blog-meta">
   <div class="blog-meta-item">
     <span class="blog-meta-label">Written by</span>
-    <span class="blog-meta-value">COCO Team</span>
+    <span class="blog-meta-value">OpenMax Team</span>
   </div>
   <div class="blog-meta-item">
     <span class="blog-meta-label">Published on</span>
@@ -1059,8 +1059,8 @@ Simply visit icoco.ai to start a free trial, describe your business requirements
 <div class="case-section">
   <div class="case-cta">
     <h2>Let AI Build Your Operations System</h2>
-    <p>Like COCO, start with a single requirements description</p>
-    <a href="https://icoco.ai" class="cta-btn">Try COCO Free</a>
+    <p>Like OpenMax, start with a single requirements description</p>
+    <a href="https://icoco.ai" class="cta-btn">Try OpenMax Free</a>
   </div>
 </div>
 

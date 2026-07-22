@@ -12,7 +12,7 @@ AI use cases for market research, competitive intelligence, and monitoring.
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Newsletter Production Is a Weekly Time Sink with Diminishing Returns**
 
@@ -22,43 +22,43 @@ Most marketing teams treat newsletter production as a weekly fire drill. The per
 
 The result: newsletters that hover at industry-average metrics -- 20-25% open rates, 2-3% click-through rates -- despite being the company's most direct communication channel to engaged prospects and customers.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Newsletter Curator automates the labor-intensive parts of newsletter production while elevating the strategic parts.
+OpenMax's AI Newsletter Curator automates the labor-intensive parts of newsletter production while elevating the strategic parts.
 
-1. **Intelligent Source Monitoring**: COCO continuously scans your configured sources:
+1. **Intelligent Source Monitoring**: OpenMax continuously scans your configured sources:
    - Industry publications, competitor blogs, thought leader feeds
    - RSS feeds, Twitter lists, LinkedIn trending posts
    - Company news, product updates, customer stories
    - Research papers and reports in your domain
    - Filters and ranks by relevance to your audience's interests, recency, and engagement potential
 
-2. **Editorial Summarization**: For each curated piece, COCO generates:
+2. **Editorial Summarization**: For each curated piece, OpenMax generates:
    - A concise summary (2-3 sentences) capturing the key insight
    - An editorial take that adds your brand's perspective
    - A "why it matters to you" framing for the reader
    - These feel like a knowledgeable editor wrote them, not a summarization bot
 
-3. **Subject Line Optimization**: COCO generates multiple subject line options using:
+3. **Subject Line Optimization**: OpenMax generates multiple subject line options using:
    - Historical open rate data from your past newsletters
    - Power words that drive opens in your industry
    - Optimal length (typically 35-50 characters)
    - Personalization tokens where appropriate
    - A/B testing recommendations
 
-4. **Audience Segmentation**: If you serve multiple audience segments, COCO:
+4. **Audience Segmentation**: If you serve multiple audience segments, OpenMax:
    - Tailors the editorial intro for each segment
    - Adjusts content priority (lead with what matters most to that group)
    - Adapts tone (more technical for developers, more strategic for executives)
    - Recommends different CTAs per segment
 
-5. **Template Formatting**: COCO outputs newsletter-ready content in your template format:
+5. **Template Formatting**: OpenMax outputs newsletter-ready content in your template format:
    - HTML email compatible formatting
    - Proper heading hierarchy, image placeholders, link formatting
    - Preview text optimization
    - Mobile-responsive content structure
 
-6. **Performance Learning Loop**: After each newsletter, COCO analyzes:
+6. **Performance Learning Loop**: After each newsletter, OpenMax analyzes:
    - Which topics got the highest click-through rates
    - Which subject line style drove the most opens
    - Optimal send time based on open patterns
@@ -164,7 +164,7 @@ For each segment, generate:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Your Competitive Messaging Is Always Out of Date**
 
@@ -174,11 +174,11 @@ Most companies respond to competitive changes reactively and slowly. A competito
 
 The intelligence-to-action gap is the real problem. Most organizations have some form of competitive intelligence. But turning that intelligence into actionable sales and marketing copy -- battle cards, objection handlers, comparison pages, email templates, ad copy -- is a manual, time-consuming process that always falls behind.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Competitive Copywriter closes the gap between competitive intelligence and revenue-facing copy.
+OpenMax's AI Competitive Copywriter closes the gap between competitive intelligence and revenue-facing copy.
 
-1. **Continuous Competitive Monitoring**: COCO tracks competitor activities:
+1. **Continuous Competitive Monitoring**: OpenMax tracks competitor activities:
    - Website changes (pricing pages, feature pages, homepage messaging)
    - Product updates and changelogs
    - Press releases and blog posts
@@ -187,14 +187,14 @@ COCO's AI Competitive Copywriter closes the gap between competitive intelligence
    - Job postings (reveal strategic direction)
    - Generates weekly competitive intelligence summaries
 
-2. **Dynamic Battle Card Generation**: When competitive data changes, COCO auto-updates:
+2. **Dynamic Battle Card Generation**: When competitive data changes, OpenMax auto-updates:
    - Feature comparison matrices (us vs. them, honest and defensible)
    - Pricing comparison analysis
    - Strengths to emphasize and weaknesses to address
    - Customer win stories relevant to each competitor
    - Objection-handling talk tracks with specific counter-arguments
 
-3. **Differentiation Copy by Channel**: COCO generates competitive copy tailored to each use:
+3. **Differentiation Copy by Channel**: OpenMax generates competitive copy tailored to each use:
    - **Website**: Comparison landing pages, "Why us over [Competitor]" pages
    - **Sales Decks**: Competitive slides with talking points
    - **Email Sequences**: Prospect-facing competitive differentiation emails
@@ -207,13 +207,13 @@ COCO's AI Competitive Copywriter closes the gap between competitive intelligence
    - "I saw [Competitor] won [award]. Are they better?"
    - Each script includes: Acknowledge, Reframe, Differentiate, Evidence
 
-5. **Win/Loss Analysis Support**: COCO helps structure and analyze win/loss data:
+5. **Win/Loss Analysis Support**: OpenMax helps structure and analyze win/loss data:
    - Patterns in why deals are won vs. lost against each competitor
    - Messaging themes that correlate with wins
    - Competitive weaknesses most frequently cited by won customers
    - Recommendations for messaging adjustments based on trends
 
-6. **Tone Calibration**: Competitive copy walks a fine line. COCO ensures:
+6. **Tone Calibration**: Competitive copy walks a fine line. OpenMax ensures:
    - Differentiation without disparagement (professional, not aggressive)
    - Claims are defensible and specific (not vague superlatives)
    - Customer evidence backs up positioning claims
@@ -339,7 +339,7 @@ Analyze:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: SDRs Spend More Time Researching Than Selling**
 
@@ -349,11 +349,11 @@ Research from Gartner shows that SDRs spend only 28% of their time actually sell
 
 The second problem is qualification accuracy. Without thorough research, SDRs often pursue prospects who don't fit the ideal customer profile. These conversations waste time for both sides and clog the pipeline with low-quality opportunities that AEs then have to disqualify.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Lead Researcher automates the research and qualification process, delivering SDR-ready intelligence in minutes instead of hours.
+OpenMax's AI Lead Researcher automates the research and qualification process, delivering SDR-ready intelligence in minutes instead of hours.
 
-1. **Automated Multi-Source Research**: Given a prospect name and company, COCO aggregates:
+1. **Automated Multi-Source Research**: Given a prospect name and company, OpenMax aggregates:
    - **Professional Profile**: Role history, tenure, responsibilities, skills, education
    - **Company Intelligence**: Size, revenue, industry, growth stage, recent news, funding rounds
    - **Tech Stack**: Current tools and technologies (from BuiltWith, job postings, integration pages)
@@ -361,13 +361,13 @@ COCO's AI Lead Researcher automates the research and qualification process, deli
    - **Growth Signals**: Hiring velocity, new office locations, product launches, partnership announcements
    - **Social Activity**: Recent LinkedIn posts, conference appearances, published articles, podcast interviews
 
-2. **ICP Scoring and Qualification**: Before a single minute of human time is spent, COCO:
+2. **ICP Scoring and Qualification**: Before a single minute of human time is spent, OpenMax:
    - Scores the prospect against your defined Ideal Customer Profile
    - Flags disqualifying factors (wrong industry, too small, already using competitor with long contract)
    - Highlights qualifying signals (recent funding, hiring for relevant roles, technology migration)
    - Assigns a priority tier (Hot / Warm / Cold / Disqualify)
 
-3. **Personalized Prospect Brief**: For qualified prospects, COCO generates a one-page brief:
+3. **Personalized Prospect Brief**: For qualified prospects, OpenMax generates a one-page brief:
    - **Company Snapshot**: What they do, how big, what stage, recent momentum
    - **Prospect Profile**: Role, likely priorities, decision-making authority
    - **Pain Point Hypothesis**: Based on role + company stage + industry, what problems they likely face that your product solves
@@ -375,13 +375,13 @@ COCO's AI Lead Researcher automates the research and qualification process, deli
    - **Connection Points**: Mutual connections, shared alma maters, common interests, event co-attendance
    - **Risk Factors**: Potential objections or blockers to flag early
 
-4. **Personalized Outreach Drafts**: COCO generates channel-specific first-touch drafts:
+4. **Personalized Outreach Drafts**: OpenMax generates channel-specific first-touch drafts:
    - **Email**: Subject line + body with specific, non-generic personalization hooks
    - **LinkedIn**: Connection request note + follow-up message
    - **Cold Call Script**: Opening, pain point probe, value prop bridge, meeting request
    - Each draft references specific research findings, not generic flattery
 
-5. **Account Mapping**: For enterprise deals, COCO maps the buying committee:
+5. **Account Mapping**: For enterprise deals, OpenMax maps the buying committee:
    - Economic buyer, technical evaluator, end user champion, blocker
    - Recommended approach sequence (who to contact first, who to involve when)
    - Relationship paths through mutual connections
@@ -523,7 +523,7 @@ For each lead, provide:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Inadequate Meeting Prep Costs More Than You Realize**
 
@@ -533,11 +533,11 @@ Adequate preparation for an executive meeting requires understanding the company
 
 Most AEs cut corners on research not out of laziness, but out of time constraints. With 4-6 meetings per week and deals to progress, spending 3 hours per meeting on research is unsustainable. The result: AEs walk into meetings with surface-level knowledge, miss critical context, and fail to connect their solution to the client's actual strategic priorities.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Client Research Brief provides comprehensive, actionable intelligence for every client meeting in minutes.
+OpenMax's AI Client Research Brief provides comprehensive, actionable intelligence for every client meeting in minutes.
 
-1. **Multi-Source Intelligence Aggregation**: COCO scans:
+1. **Multi-Source Intelligence Aggregation**: OpenMax scans:
    - Financial: Revenue trends, profitability, recent earnings guidance, stock performance
    - Strategic: Announced initiatives, partnerships, acquisitions, reorganizations
    - Leadership: Executive changes, new hires, board appointments, departures
@@ -552,7 +552,7 @@ COCO's AI Client Research Brief provides comprehensive, actionable intelligence 
    - Likely priorities based on role, tenure, and company stage
    - Mutual connections for warm conversation starters
 
-3. **Change Detection**: COCO tracks what's changed since your last interaction:
+3. **Change Detection**: OpenMax tracks what's changed since your last interaction:
    - New leadership appointments or departures
    - Earnings results or guidance changes
    - New product launches or strategic pivots
@@ -673,7 +673,7 @@ Make this conversational -- I want to sound informed, not like I'm reading a rep
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Your Support System Can't Tell a $500K Customer from a Free Trial User**
 
@@ -683,18 +683,18 @@ Enterprise customers don't just expect faster support -- they expect contextual 
 
 The churn economics are stark. Losing one enterprise account can equal losing 100+ SMB accounts. And by the time a VP emails your CEO saying "we're evaluating alternatives," the damage is done -- recovery is expensive and uncertain. The support interaction that precipitated that email might have been trivially easy to handle correctly, if only someone had flagged it as important.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI VIP Escalation creates a smart layer that ensures high-value customers receive treatment proportional to their business importance.
+OpenMax's AI VIP Escalation creates a smart layer that ensures high-value customers receive treatment proportional to their business importance.
 
-1. **Real-Time Customer Value Recognition**: When a ticket arrives, COCO instantly identifies:
+1. **Real-Time Customer Value Recognition**: When a ticket arrives, OpenMax instantly identifies:
    - Account tier (ARR, contract value, strategic importance)
    - Renewal date proximity (accounts within 90 days of renewal get priority boost)
    - Account health score (NPS, product usage, support history)
    - Contact's role (executive contacts get different treatment than end users)
    - Expansion pipeline (accounts with active upsell opportunities)
 
-2. **Intelligent Escalation Matrix**: COCO applies dynamic escalation rules:
+2. **Intelligent Escalation Matrix**: OpenMax applies dynamic escalation rules:
    - **Tier 1 (Enterprise VIP)**: P1-P2 issues go directly to senior agent + immediate CSM notification. P3-P4 go to dedicated enterprise queue with 30-minute SLA.
    - **Tier 2 (Growth accounts)**: P1 gets immediate escalation. P2-P4 get priority queue placement.
    - **Renewal Risk**: Any account within 60 days of renewal gets automatic priority boost regardless of issue severity.
@@ -707,13 +707,13 @@ COCO's AI VIP Escalation creates a smart layer that ensures high-value customers
    - Renewal/expansion context (upcoming renewal, active opportunities)
    - Recommended approach (based on account health and contact personality)
 
-4. **Churn Signal Detection**: COCO analyzes ticket content for warning signs:
+4. **Churn Signal Detection**: OpenMax analyzes ticket content for warning signs:
    - Direct signals: "cancel," "downgrade," "not renewing," "looking at alternatives"
    - Indirect signals: "frustrated," "this keeps happening," "not getting value," "executive team is asking"
    - Pattern signals: Increasing ticket frequency, escalating severity, shorter messages (disengagement)
    - Triggers automatic CSM alert with risk assessment
 
-5. **Proactive Intervention**: Beyond reactive escalation, COCO enables:
+5. **Proactive Intervention**: Beyond reactive escalation, OpenMax enables:
    - Weekly VIP account health reports for CSMs
    - Automatic outreach triggers when usage drops below threshold
    - Sentiment trend analysis across all touchpoints
@@ -830,7 +830,7 @@ Tone: Senior, professional, genuine. This should sound like it comes from someon
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Manual Expense Auditing Is Slow, Incomplete, and Expensive**
 
@@ -840,9 +840,9 @@ Manual auditing has a fundamental sampling problem. When reviewing 1,200 reports
 
 The errors aren't just fraud. Honest mistakes are rampant: employees who don't know the policy, receipts that don't match claimed amounts due to currency conversion, duplicate submissions from confusing expense systems, and miscategorized expenses that distort departmental budgets. These errors, individually small, compound into material financial inaccuracies.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Expense Auditor provides 100% audit coverage with consistent policy enforcement.
+OpenMax's AI Expense Auditor provides 100% audit coverage with consistent policy enforcement.
 
 1. **Receipt Processing**: OCR reads receipt images in any format -- paper scans, phone photos, PDF downloads, even screenshots. Extracts vendor name, date, amount, tax, and category. Cross-references against the claimed values. Flags mismatches with the exact discrepancy amount.
 
@@ -986,7 +986,7 @@ Provide a revised policy draft with tracked changes and rationale for each updat
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Inventory Forecasting with Spreadsheets Costs Millions in Stockouts and Overstock**
 
@@ -996,9 +996,9 @@ Traditional forecasting relies on historical sales data adjusted with growth fac
 
 The cost of getting it wrong is staggering. IHL Group estimates that global retailers lose $1.75 trillion annually to overstock and out-of-stock situations combined. For a mid-size e-commerce company doing $50M in revenue, forecast errors typically represent $2-5M in lost sales and write-downs. The demand planner using Excel is doing their best with inadequate tools against an increasingly unpredictable market.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Inventory Forecaster combines historical analysis with real-time signal detection for SKU-level demand prediction.
+OpenMax's AI Inventory Forecaster combines historical analysis with real-time signal detection for SKU-level demand prediction.
 
 1. **Multi-Variable Demand Modeling**: Goes far beyond "last year + growth factor":
    - Analyzes 24-36 months of sales history per SKU
@@ -1144,7 +1144,7 @@ For each scenario:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Vendor Evaluation Is Slow, Subjective, and Risky**
 
@@ -1154,9 +1154,9 @@ The root causes are systemic. Evaluation processes are manual and inconsistent. 
 
 Most critically, available intelligence about vendors goes unanalyzed. G2 and Capterra have thousands of verified reviews. Glassdoor reveals implementation and support quality. SEC filings show financial stability. Job postings reveal strategic direction. Court records show litigation patterns. All of this data exists but nobody has time to synthesize it during a procurement cycle.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Vendor Evaluator standardizes, accelerates, and deepens the vendor evaluation process.
+OpenMax's AI Vendor Evaluator standardizes, accelerates, and deepens the vendor evaluation process.
 
 1. **RFP Generation**: Creates comprehensive, requirement-aligned RFPs that ensure:
    - All functional requirements captured from stakeholder input
@@ -1164,21 +1164,21 @@ COCO's AI Vendor Evaluator standardizes, accelerates, and deepens the vendor eva
    - Evaluation criteria and scoring methodology defined upfront
    - Standard format that makes vendor responses comparable
 
-2. **Proposal Analysis**: When vendor proposals come in, COCO:
+2. **Proposal Analysis**: When vendor proposals come in, OpenMax:
    - Extracts and normalizes responses against each requirement
    - Identifies requirements that are fully met, partially met, or not addressed
    - Compares pricing structures (accounting for different pricing models)
    - Flags vague or non-committal responses
    - Generates a side-by-side comparison matrix
 
-3. **Independent Vendor Intelligence**: Beyond what vendors tell you, COCO researches:
+3. **Independent Vendor Intelligence**: Beyond what vendors tell you, OpenMax researches:
    - **Customer Reviews**: G2, Capterra, TrustRadius -- sentiment analysis and common complaints
    - **Employee Reviews**: Glassdoor themes about product quality, support, and company stability
    - **Financial Health**: Revenue trends, funding, profitability indicators
    - **Market Position**: Analyst reports, market share, competitive trajectory
    - **Risk Indicators**: Litigation, data breaches, key executive departures, customer churn signals
 
-4. **Contract Analysis**: COCO reviews vendor contracts and flags:
+4. **Contract Analysis**: OpenMax reviews vendor contracts and flags:
    - Non-standard terms that deviate from your preferred contract template
    - Missing SLAs or SLAs below your requirements
    - Auto-renewal clauses and termination restrictions
@@ -1186,7 +1186,7 @@ COCO's AI Vendor Evaluator standardizes, accelerates, and deepens the vendor eva
    - Data ownership, portability, and deletion obligations
    - Liability caps and indemnification gaps
 
-5. **Scoring and Recommendation**: COCO produces a defensible evaluation:
+5. **Scoring and Recommendation**: OpenMax produces a defensible evaluation:
    - Weighted scoring across all criteria (functional, technical, financial, risk)
    - Sensitivity analysis (how does the ranking change if weights change?)
    - Clear recommendation with justification
@@ -1335,7 +1335,7 @@ Overall risk score (0-100) with justification and recommended mitigation for eac
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Security Vulnerabilities Hide in Plain Sight Until Attackers Find Them First**
 
@@ -1345,13 +1345,13 @@ The real cost goes beyond the immediate time waste. When security engineers are 
 
 Most teams have tried to address this with a combination of spreadsheets, manual processes, and good intentions. The problem is that these approaches don't scale. What works for 10 items breaks at 100. What works for 100 collapses at 1,000. And in today's environment, you're dealing with thousands.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Scans code, dependencies, and**: Scans code, dependencies, and infrastructure continuously. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+1. **Scans code, dependencies, and**: Scans code, dependencies, and infrastructure continuously. OpenMax handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
 
-2. **AI-powered triage eliminates false**: AI-powered triage eliminates false positives with context. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+2. **AI-powered triage eliminates false**: AI-powered triage eliminates false positives with context. OpenMax handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
 
-3. **Generates fix patches and**: Generates fix patches and prioritizes by actual exploit risk. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+3. **Generates fix patches and**: Generates fix patches and prioritizes by actual exploit risk. OpenMax handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
 
 :::
 
@@ -1441,7 +1441,7 @@ Evaluate:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Brand Crises Go Viral Before You Even Know They Exist**
 
@@ -1451,13 +1451,13 @@ The real cost goes beyond the immediate time waste. When brand managers are stuc
 
 Most teams have tried to address this with a combination of spreadsheets, manual processes, and good intentions. The problem is that these approaches don't scale. What works for 10 items breaks at 100. What works for 100 collapses at 1,000. And in today's environment, you're dealing with thousands.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Monitors every platform 24/7:**: Monitors every platform 24/7: social, news, forums, reviews. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+1. **Monitors every platform 24/7:**: Monitors every platform 24/7: social, news, forums, reviews. OpenMax handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
 
-2. **AI sentiment analysis detects**: AI sentiment analysis detects brewing crises before they peak. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+2. **AI sentiment analysis detects**: AI sentiment analysis detects brewing crises before they peak. OpenMax handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
 
-3. **Auto-drafts response templates based**: Auto-drafts response templates based on crisis category. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+3. **Auto-drafts response templates based**: Auto-drafts response templates based on crisis category. OpenMax handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
 
 :::
 
@@ -1547,7 +1547,7 @@ Evaluate:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Influencer Marketing Is a Casino Without Data-Driven Selection**
 
@@ -1557,13 +1557,13 @@ The real cost goes beyond the immediate time waste. When marketing managers are 
 
 Most teams have tried to address this with a combination of spreadsheets, manual processes, and good intentions. The problem is that these approaches don't scale. What works for 10 items breaks at 100. What works for 100 collapses at 1,000. And in today's environment, you're dealing with thousands.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Analyzes engagement authenticity using**: Analyzes engagement authenticity using behavioral patterns. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+1. **Analyzes engagement authenticity using**: Analyzes engagement authenticity using behavioral patterns. OpenMax handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
 
-2. **Matches brand values with**: Matches brand values with influencer audience demographics. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+2. **Matches brand values with**: Matches brand values with influencer audience demographics. OpenMax handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
 
-3. **Predicts ROI based on**: Predicts ROI based on historical campaign performance data. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+3. **Predicts ROI based on**: Predicts ROI based on historical campaign performance data. OpenMax handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
 
 :::
 
@@ -1653,7 +1653,7 @@ Evaluate:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Customer Churn Is a Slow Bleed You Only Notice When It Is Too Late**
 
@@ -1663,13 +1663,13 @@ The real cost goes beyond the immediate time waste. When customer successs are s
 
 Most teams have tried to address this with a combination of spreadsheets, manual processes, and good intentions. The problem is that these approaches don't scale. What works for 10 items breaks at 100. What works for 100 collapses at 1,000. And in today's environment, you're dealing with thousands.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Tracks 140+ behavioral signals:**: Tracks 140+ behavioral signals: login frequency, feature usage, support tone. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+1. **Tracks 140+ behavioral signals:**: Tracks 140+ behavioral signals: login frequency, feature usage, support tone. OpenMax handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
 
-2. **Predicts churn risk 90**: Predicts churn risk 90 days before cancellation. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+2. **Predicts churn risk 90**: Predicts churn risk 90 days before cancellation. OpenMax handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
 
-3. **Triggers automated save campaigns**: Triggers automated save campaigns based on churn reason. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+3. **Triggers automated save campaigns**: Triggers automated save campaigns based on churn reason. OpenMax handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
 
 :::
 
@@ -1759,7 +1759,7 @@ Evaluate:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: When Everything Is Priority One, Nothing Gets Fixed**
 
@@ -1769,13 +1769,13 @@ The real cost goes beyond the immediate time waste. When engineering managers ar
 
 Most teams have tried to address this with a combination of spreadsheets, manual processes, and good intentions. The problem is that these approaches don't scale. What works for 10 items breaks at 100. What works for 100 collapses at 1,000. And in today's environment, you're dealing with thousands.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Scores bugs by real**: Scores bugs by real user impact, frequency, and revenue exposure. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+1. **Scores bugs by real**: Scores bugs by real user impact, frequency, and revenue exposure. OpenMax handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
 
-2. **Auto-deduplicates similar reports and**: Auto-deduplicates similar reports and links related issues. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+2. **Auto-deduplicates similar reports and**: Auto-deduplicates similar reports and links related issues. OpenMax handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
 
-3. **Predicts fix complexity and**: Predicts fix complexity and assigns to the best-matched developer. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+3. **Predicts fix complexity and**: Predicts fix complexity and assigns to the best-matched developer. OpenMax handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
 
 :::
 
@@ -1865,7 +1865,7 @@ Evaluate:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: SLA Breaches Cost Real Money and Nobody Sees Them Coming**
 
@@ -1875,13 +1875,13 @@ The real cost goes beyond the immediate time waste. When operations managers are
 
 Most teams have tried to address this with a combination of spreadsheets, manual processes, and good intentions. The problem is that these approaches don't scale. What works for 10 items breaks at 100. What works for 100 collapses at 1,000. And in today's environment, you're dealing with thousands.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Tracks all SLA obligations**: Tracks all SLA obligations across every vendor and customer contract. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+1. **Tracks all SLA obligations**: Tracks all SLA obligations across every vendor and customer contract. OpenMax handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
 
-2. **Predictive alerts warn 48**: Predictive alerts warn 48 hours before potential breaches. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+2. **Predictive alerts warn 48**: Predictive alerts warn 48 hours before potential breaches. OpenMax handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
 
-3. **Auto-generates compliance reports for**: Auto-generates compliance reports for audit and negotiation. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+3. **Auto-generates compliance reports for**: Auto-generates compliance reports for audit and negotiation. OpenMax handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
 
 :::
 
@@ -1971,7 +1971,7 @@ Evaluate:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Annual Surveys Are Autopsies, Not Diagnostics**
 
@@ -1981,13 +1981,13 @@ The real cost goes beyond the immediate time waste. When chros are stuck in reac
 
 Most teams have tried to address this with a combination of spreadsheets, manual processes, and good intentions. The problem is that these approaches don't scale. What works for 10 items breaks at 100. What works for 100 collapses at 1,000. And in today's environment, you're dealing with thousands.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Runs brief weekly pulse**: Runs brief weekly pulse checks with smart question rotation. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+1. **Runs brief weekly pulse**: Runs brief weekly pulse checks with smart question rotation. OpenMax handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
 
-2. **AI detects sentiment shifts**: AI detects sentiment shifts and at-risk teams before turnover. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+2. **AI detects sentiment shifts**: AI detects sentiment shifts and at-risk teams before turnover. OpenMax handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
 
-3. **Actionable insights dashboard with**: Actionable insights dashboard with anonymous theme analysis. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+3. **Actionable insights dashboard with**: Actionable insights dashboard with anonymous theme analysis. OpenMax handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
 
 :::
 
@@ -2077,7 +2077,7 @@ Evaluate:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Sampling 5% of Transactions Is Not Compliance, It Is Hope**
 
@@ -2087,13 +2087,13 @@ The real cost goes beyond the immediate time waste. When compliance managers are
 
 Most teams have tried to address this with a combination of spreadsheets, manual processes, and good intentions. The problem is that these approaches don't scale. What works for 10 items breaks at 100. What works for 100 collapses at 1,000. And in today's environment, you're dealing with thousands.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Checks 100% of transactions**: Checks 100% of transactions against regulatory rules in real-time. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+1. **Checks 100% of transactions**: Checks 100% of transactions against regulatory rules in real-time. OpenMax handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
 
-2. **Maps controls to regulations:**: Maps controls to regulations: SOX, GDPR, HIPAA, PCI-DSS. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+2. **Maps controls to regulations:**: Maps controls to regulations: SOX, GDPR, HIPAA, PCI-DSS. OpenMax handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
 
-3. **Auto-generates audit-ready evidence packages**: Auto-generates audit-ready evidence packages with full trails. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+3. **Auto-generates audit-ready evidence packages**: Auto-generates audit-ready evidence packages with full trails. OpenMax handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
 
 :::
 
@@ -2183,7 +2183,7 @@ Evaluate:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Customer Churn Happens Silently — By the Time You Notice, It's Too Late**
 
@@ -2191,19 +2191,19 @@ In today's fast-paced SaaS environment, customer churn happens silently — by t
 
 The problem compounds over time. As teams grow and operations scale, the manual processes that "worked fine" at 20 people become unsustainable at 200. Critical information gets siloed in individual inboxes, spreadsheets, and tribal knowledge. Handoffs between teams introduce delays and errors. And the best employees — the ones you can't afford to lose — burn out fastest because they're the ones most often pulled into the operational firefighting that prevents them from doing their highest-value work. According to a 2025 Deloitte survey, 67% of professionals in SaaS organizations report that manual processes are their biggest barrier to career satisfaction and productivity.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Customer Success Monitor transforms this chaos into a streamlined, intelligent workflow. Here's the step-by-step process:
+OpenMax's AI Customer Success Monitor transforms this chaos into a streamlined, intelligent workflow. Here's the step-by-step process:
 
-1. **Intelligent Data Collection**: COCO's AI Customer Success Monitor continuously monitors your connected systems and data sources — email, project management tools, CRMs, databases, and communication platforms. It automatically identifies relevant information, extracts key data points, and organizes them into structured workflows without any manual input.
+1. **Intelligent Data Collection**: OpenMax's AI Customer Success Monitor continuously monitors your connected systems and data sources — email, project management tools, CRMs, databases, and communication platforms. It automatically identifies relevant information, extracts key data points, and organizes them into structured workflows without any manual input.
 
-2. **Smart Analysis & Classification**: Every incoming item is analyzed using contextual understanding, not just keyword matching. COCO classifies information by urgency, topic, responsible party, and required action type. It understands the relationships between data points and identifies patterns that humans might miss when processing items individually.
+2. **Smart Analysis & Classification**: Every incoming item is analyzed using contextual understanding, not just keyword matching. OpenMax classifies information by urgency, topic, responsible party, and required action type. It understands the relationships between data points and identifies patterns that humans might miss when processing items individually.
 
-3. **Automated Processing & Routing**: Based on the analysis, COCO automatically routes items to the right team members, triggers appropriate workflows, and initiates standard responses. Routine tasks are handled end-to-end without human intervention, while complex items are escalated with full context to the right decision-maker.
+3. **Automated Processing & Routing**: Based on the analysis, OpenMax automatically routes items to the right team members, triggers appropriate workflows, and initiates standard responses. Routine tasks are handled end-to-end without human intervention, while complex items are escalated with full context to the right decision-maker.
 
-4. **Quality Validation & Cross-Referencing**: Before any output is finalized, COCO validates results against your existing records and business rules. It cross-references multiple data sources to ensure accuracy, flags inconsistencies for review, and maintains a confidence score for every automated decision.
+4. **Quality Validation & Cross-Referencing**: Before any output is finalized, OpenMax validates results against your existing records and business rules. It cross-references multiple data sources to ensure accuracy, flags inconsistencies for review, and maintains a confidence score for every automated decision.
 
-5. **Continuous Learning & Optimization**: COCO learns from every interaction — human corrections, feedback, and outcome data all feed into improving accuracy over time. It identifies bottlenecks, suggests process improvements, and adapts to changing business rules without requiring reprogramming.
+5. **Continuous Learning & Optimization**: OpenMax learns from every interaction — human corrections, feedback, and outcome data all feed into improving accuracy over time. It identifies bottlenecks, suggests process improvements, and adapts to changing business rules without requiring reprogramming.
 
 6. **Reporting & Insights Dashboard**: Comprehensive dashboards provide real-time visibility into process performance: throughput metrics, accuracy rates, exception patterns, team workload distribution, and trend analysis. Weekly summary reports highlight wins, flag concerns, and recommend optimization opportunities.
 
@@ -2362,7 +2362,7 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Data Pipeline Failures Are the Silent Killer of Business Decisions**
 
@@ -2370,19 +2370,19 @@ In today's fast-paced SaaS environment, data pipeline failures are the silent ki
 
 The problem compounds over time. As teams grow and operations scale, the manual processes that "worked fine" at 20 people become unsustainable at 200. Critical information gets siloed in individual inboxes, spreadsheets, and tribal knowledge. Handoffs between teams introduce delays and errors. And the best employees — the ones you can't afford to lose — burn out fastest because they're the ones most often pulled into the operational firefighting that prevents them from doing their highest-value work. According to a 2025 Deloitte survey, 67% of professionals in SaaS organizations report that manual processes are their biggest barrier to career satisfaction and productivity.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Data Pipeline Monitor transforms this chaos into a streamlined, intelligent workflow. Here's the step-by-step process:
+OpenMax's AI Data Pipeline Monitor transforms this chaos into a streamlined, intelligent workflow. Here's the step-by-step process:
 
-1. **Intelligent Data Collection**: COCO's AI Data Pipeline Monitor continuously monitors your connected systems and data sources — email, project management tools, CRMs, databases, and communication platforms. It automatically identifies relevant information, extracts key data points, and organizes them into structured workflows without any manual input.
+1. **Intelligent Data Collection**: OpenMax's AI Data Pipeline Monitor continuously monitors your connected systems and data sources — email, project management tools, CRMs, databases, and communication platforms. It automatically identifies relevant information, extracts key data points, and organizes them into structured workflows without any manual input.
 
-2. **Smart Analysis & Classification**: Every incoming item is analyzed using contextual understanding, not just keyword matching. COCO classifies information by urgency, topic, responsible party, and required action type. It understands the relationships between data points and identifies patterns that humans might miss when processing items individually.
+2. **Smart Analysis & Classification**: Every incoming item is analyzed using contextual understanding, not just keyword matching. OpenMax classifies information by urgency, topic, responsible party, and required action type. It understands the relationships between data points and identifies patterns that humans might miss when processing items individually.
 
-3. **Automated Processing & Routing**: Based on the analysis, COCO automatically routes items to the right team members, triggers appropriate workflows, and initiates standard responses. Routine tasks are handled end-to-end without human intervention, while complex items are escalated with full context to the right decision-maker.
+3. **Automated Processing & Routing**: Based on the analysis, OpenMax automatically routes items to the right team members, triggers appropriate workflows, and initiates standard responses. Routine tasks are handled end-to-end without human intervention, while complex items are escalated with full context to the right decision-maker.
 
-4. **Quality Validation & Cross-Referencing**: Before any output is finalized, COCO validates results against your existing records and business rules. It cross-references multiple data sources to ensure accuracy, flags inconsistencies for review, and maintains a confidence score for every automated decision.
+4. **Quality Validation & Cross-Referencing**: Before any output is finalized, OpenMax validates results against your existing records and business rules. It cross-references multiple data sources to ensure accuracy, flags inconsistencies for review, and maintains a confidence score for every automated decision.
 
-5. **Continuous Learning & Optimization**: COCO learns from every interaction — human corrections, feedback, and outcome data all feed into improving accuracy over time. It identifies bottlenecks, suggests process improvements, and adapts to changing business rules without requiring reprogramming.
+5. **Continuous Learning & Optimization**: OpenMax learns from every interaction — human corrections, feedback, and outcome data all feed into improving accuracy over time. It identifies bottlenecks, suggests process improvements, and adapts to changing business rules without requiring reprogramming.
 
 6. **Reporting & Insights Dashboard**: Comprehensive dashboards provide real-time visibility into process performance: throughput metrics, accuracy rates, exception patterns, team workload distribution, and trend analysis. Weekly summary reports highlight wins, flag concerns, and recommend optimization opportunities.
 
@@ -2541,7 +2541,7 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Supply Chain Visibility Gaps Create Costly Surprises**
 
@@ -2549,19 +2549,19 @@ In today's fast-paced e-commerce environment, supply chain visibility gaps creat
 
 The problem compounds over time. As teams grow and operations scale, the manual processes that "worked fine" at 20 people become unsustainable at 200. Critical information gets siloed in individual inboxes, spreadsheets, and tribal knowledge. Handoffs between teams introduce delays and errors. And the best employees — the ones you can't afford to lose — burn out fastest because they're the ones most often pulled into the operational firefighting that prevents them from doing their highest-value work. According to a 2025 Deloitte survey, 67% of professionals in e-commerce organizations report that manual processes are their biggest barrier to career satisfaction and productivity.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Supply Chain Tracker transforms this chaos into a streamlined, intelligent workflow. Here's the step-by-step process:
+OpenMax's AI Supply Chain Tracker transforms this chaos into a streamlined, intelligent workflow. Here's the step-by-step process:
 
-1. **Intelligent Data Collection**: COCO's AI Supply Chain Tracker continuously monitors your connected systems and data sources — email, project management tools, CRMs, databases, and communication platforms. It automatically identifies relevant information, extracts key data points, and organizes them into structured workflows without any manual input.
+1. **Intelligent Data Collection**: OpenMax's AI Supply Chain Tracker continuously monitors your connected systems and data sources — email, project management tools, CRMs, databases, and communication platforms. It automatically identifies relevant information, extracts key data points, and organizes them into structured workflows without any manual input.
 
-2. **Smart Analysis & Classification**: Every incoming item is analyzed using contextual understanding, not just keyword matching. COCO classifies information by urgency, topic, responsible party, and required action type. It understands the relationships between data points and identifies patterns that humans might miss when processing items individually.
+2. **Smart Analysis & Classification**: Every incoming item is analyzed using contextual understanding, not just keyword matching. OpenMax classifies information by urgency, topic, responsible party, and required action type. It understands the relationships between data points and identifies patterns that humans might miss when processing items individually.
 
-3. **Automated Processing & Routing**: Based on the analysis, COCO automatically routes items to the right team members, triggers appropriate workflows, and initiates standard responses. Routine tasks are handled end-to-end without human intervention, while complex items are escalated with full context to the right decision-maker.
+3. **Automated Processing & Routing**: Based on the analysis, OpenMax automatically routes items to the right team members, triggers appropriate workflows, and initiates standard responses. Routine tasks are handled end-to-end without human intervention, while complex items are escalated with full context to the right decision-maker.
 
-4. **Quality Validation & Cross-Referencing**: Before any output is finalized, COCO validates results against your existing records and business rules. It cross-references multiple data sources to ensure accuracy, flags inconsistencies for review, and maintains a confidence score for every automated decision.
+4. **Quality Validation & Cross-Referencing**: Before any output is finalized, OpenMax validates results against your existing records and business rules. It cross-references multiple data sources to ensure accuracy, flags inconsistencies for review, and maintains a confidence score for every automated decision.
 
-5. **Continuous Learning & Optimization**: COCO learns from every interaction — human corrections, feedback, and outcome data all feed into improving accuracy over time. It identifies bottlenecks, suggests process improvements, and adapts to changing business rules without requiring reprogramming.
+5. **Continuous Learning & Optimization**: OpenMax learns from every interaction — human corrections, feedback, and outcome data all feed into improving accuracy over time. It identifies bottlenecks, suggests process improvements, and adapts to changing business rules without requiring reprogramming.
 
 6. **Reporting & Insights Dashboard**: Comprehensive dashboards provide real-time visibility into process performance: throughput metrics, accuracy rates, exception patterns, team workload distribution, and trend analysis. Weekly summary reports highlight wins, flag concerns, and recommend optimization opportunities.
 
@@ -2720,7 +2720,7 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Marketing Teams Can't Prove ROI Because Data Lives in 15 Different Tools**
 
@@ -2728,19 +2728,19 @@ In today's fast-paced e-commerce environment, marketing teams can't prove roi be
 
 The problem compounds over time. As teams grow and operations scale, the manual processes that "worked fine" at 20 people become unsustainable at 200. Critical information gets siloed in individual inboxes, spreadsheets, and tribal knowledge. Handoffs between teams introduce delays and errors. And the best employees — the ones you can't afford to lose — burn out fastest because they're the ones most often pulled into the operational firefighting that prevents them from doing their highest-value work. According to a 2025 Deloitte survey, 67% of professionals in e-commerce organizations report that manual processes are their biggest barrier to career satisfaction and productivity.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Marketing ROI Dashboard transforms this chaos into a streamlined, intelligent workflow. Here's the step-by-step process:
+OpenMax's AI Marketing ROI Dashboard transforms this chaos into a streamlined, intelligent workflow. Here's the step-by-step process:
 
-1. **Intelligent Data Collection**: COCO's AI Marketing ROI Dashboard continuously monitors your connected systems and data sources — email, project management tools, CRMs, databases, and communication platforms. It automatically identifies relevant information, extracts key data points, and organizes them into structured workflows without any manual input.
+1. **Intelligent Data Collection**: OpenMax's AI Marketing ROI Dashboard continuously monitors your connected systems and data sources — email, project management tools, CRMs, databases, and communication platforms. It automatically identifies relevant information, extracts key data points, and organizes them into structured workflows without any manual input.
 
-2. **Smart Analysis & Classification**: Every incoming item is analyzed using contextual understanding, not just keyword matching. COCO classifies information by urgency, topic, responsible party, and required action type. It understands the relationships between data points and identifies patterns that humans might miss when processing items individually.
+2. **Smart Analysis & Classification**: Every incoming item is analyzed using contextual understanding, not just keyword matching. OpenMax classifies information by urgency, topic, responsible party, and required action type. It understands the relationships between data points and identifies patterns that humans might miss when processing items individually.
 
-3. **Automated Processing & Routing**: Based on the analysis, COCO automatically routes items to the right team members, triggers appropriate workflows, and initiates standard responses. Routine tasks are handled end-to-end without human intervention, while complex items are escalated with full context to the right decision-maker.
+3. **Automated Processing & Routing**: Based on the analysis, OpenMax automatically routes items to the right team members, triggers appropriate workflows, and initiates standard responses. Routine tasks are handled end-to-end without human intervention, while complex items are escalated with full context to the right decision-maker.
 
-4. **Quality Validation & Cross-Referencing**: Before any output is finalized, COCO validates results against your existing records and business rules. It cross-references multiple data sources to ensure accuracy, flags inconsistencies for review, and maintains a confidence score for every automated decision.
+4. **Quality Validation & Cross-Referencing**: Before any output is finalized, OpenMax validates results against your existing records and business rules. It cross-references multiple data sources to ensure accuracy, flags inconsistencies for review, and maintains a confidence score for every automated decision.
 
-5. **Continuous Learning & Optimization**: COCO learns from every interaction — human corrections, feedback, and outcome data all feed into improving accuracy over time. It identifies bottlenecks, suggests process improvements, and adapts to changing business rules without requiring reprogramming.
+5. **Continuous Learning & Optimization**: OpenMax learns from every interaction — human corrections, feedback, and outcome data all feed into improving accuracy over time. It identifies bottlenecks, suggests process improvements, and adapts to changing business rules without requiring reprogramming.
 
 6. **Reporting & Insights Dashboard**: Comprehensive dashboards provide real-time visibility into process performance: throughput metrics, accuracy rates, exception patterns, team workload distribution, and trend analysis. Weekly summary reports highlight wins, flag concerns, and recommend optimization opportunities.
 
@@ -2899,7 +2899,7 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Incident Response Is Chaotic — Every Minute of Downtime Costs $5,600**
 
@@ -2907,19 +2907,19 @@ In today's fast-paced SaaS environment, incident response is chaotic — every m
 
 The problem compounds over time. As teams grow and operations scale, the manual processes that "worked fine" at 20 people become unsustainable at 200. Critical information gets siloed in individual inboxes, spreadsheets, and tribal knowledge. Handoffs between teams introduce delays and errors. And the best employees — the ones you can't afford to lose — burn out fastest because they're the ones most often pulled into the operational firefighting that prevents them from doing their highest-value work. According to a 2025 Deloitte survey, 67% of professionals in SaaS organizations report that manual processes are their biggest barrier to career satisfaction and productivity.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Incident Response Coordinator transforms this chaos into a streamlined, intelligent workflow. Here's the step-by-step process:
+OpenMax's AI Incident Response Coordinator transforms this chaos into a streamlined, intelligent workflow. Here's the step-by-step process:
 
-1. **Intelligent Data Collection**: COCO's AI Incident Response Coordinator continuously monitors your connected systems and data sources — email, project management tools, CRMs, databases, and communication platforms. It automatically identifies relevant information, extracts key data points, and organizes them into structured workflows without any manual input.
+1. **Intelligent Data Collection**: OpenMax's AI Incident Response Coordinator continuously monitors your connected systems and data sources — email, project management tools, CRMs, databases, and communication platforms. It automatically identifies relevant information, extracts key data points, and organizes them into structured workflows without any manual input.
 
-2. **Smart Analysis & Classification**: Every incoming item is analyzed using contextual understanding, not just keyword matching. COCO classifies information by urgency, topic, responsible party, and required action type. It understands the relationships between data points and identifies patterns that humans might miss when processing items individually.
+2. **Smart Analysis & Classification**: Every incoming item is analyzed using contextual understanding, not just keyword matching. OpenMax classifies information by urgency, topic, responsible party, and required action type. It understands the relationships between data points and identifies patterns that humans might miss when processing items individually.
 
-3. **Automated Processing & Routing**: Based on the analysis, COCO automatically routes items to the right team members, triggers appropriate workflows, and initiates standard responses. Routine tasks are handled end-to-end without human intervention, while complex items are escalated with full context to the right decision-maker.
+3. **Automated Processing & Routing**: Based on the analysis, OpenMax automatically routes items to the right team members, triggers appropriate workflows, and initiates standard responses. Routine tasks are handled end-to-end without human intervention, while complex items are escalated with full context to the right decision-maker.
 
-4. **Quality Validation & Cross-Referencing**: Before any output is finalized, COCO validates results against your existing records and business rules. It cross-references multiple data sources to ensure accuracy, flags inconsistencies for review, and maintains a confidence score for every automated decision.
+4. **Quality Validation & Cross-Referencing**: Before any output is finalized, OpenMax validates results against your existing records and business rules. It cross-references multiple data sources to ensure accuracy, flags inconsistencies for review, and maintains a confidence score for every automated decision.
 
-5. **Continuous Learning & Optimization**: COCO learns from every interaction — human corrections, feedback, and outcome data all feed into improving accuracy over time. It identifies bottlenecks, suggests process improvements, and adapts to changing business rules without requiring reprogramming.
+5. **Continuous Learning & Optimization**: OpenMax learns from every interaction — human corrections, feedback, and outcome data all feed into improving accuracy over time. It identifies bottlenecks, suggests process improvements, and adapts to changing business rules without requiring reprogramming.
 
 6. **Reporting & Insights Dashboard**: Comprehensive dashboards provide real-time visibility into process performance: throughput metrics, accuracy rates, exception patterns, team workload distribution, and trend analysis. Weekly summary reports highlight wins, flag concerns, and recommend optimization opportunities.
 
@@ -3078,7 +3078,7 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Competitors Move Fast — Your Intelligence Is Always a Month Behind**
 
@@ -3086,19 +3086,19 @@ In today's fast-paced SaaS environment, competitors move fast — your intellige
 
 The problem compounds over time. As teams grow and operations scale, the manual processes that "worked fine" at 20 people become unsustainable at 200. Critical information gets siloed in individual inboxes, spreadsheets, and tribal knowledge. Handoffs between teams introduce delays and errors. And the best employees — the ones you can't afford to lose — burn out fastest because they're the ones most often pulled into the operational firefighting that prevents them from doing their highest-value work. According to a 2025 Deloitte survey, 67% of professionals in SaaS organizations report that manual processes are their biggest barrier to career satisfaction and productivity.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Competitive Intelligence Tracker transforms this chaos into a streamlined, intelligent workflow. Here's the step-by-step process:
+OpenMax's AI Competitive Intelligence Tracker transforms this chaos into a streamlined, intelligent workflow. Here's the step-by-step process:
 
-1. **Intelligent Data Collection**: COCO's AI Competitive Intelligence Tracker continuously monitors your connected systems and data sources — email, project management tools, CRMs, databases, and communication platforms. It automatically identifies relevant information, extracts key data points, and organizes them into structured workflows without any manual input.
+1. **Intelligent Data Collection**: OpenMax's AI Competitive Intelligence Tracker continuously monitors your connected systems and data sources — email, project management tools, CRMs, databases, and communication platforms. It automatically identifies relevant information, extracts key data points, and organizes them into structured workflows without any manual input.
 
-2. **Smart Analysis & Classification**: Every incoming item is analyzed using contextual understanding, not just keyword matching. COCO classifies information by urgency, topic, responsible party, and required action type. It understands the relationships between data points and identifies patterns that humans might miss when processing items individually.
+2. **Smart Analysis & Classification**: Every incoming item is analyzed using contextual understanding, not just keyword matching. OpenMax classifies information by urgency, topic, responsible party, and required action type. It understands the relationships between data points and identifies patterns that humans might miss when processing items individually.
 
-3. **Automated Processing & Routing**: Based on the analysis, COCO automatically routes items to the right team members, triggers appropriate workflows, and initiates standard responses. Routine tasks are handled end-to-end without human intervention, while complex items are escalated with full context to the right decision-maker.
+3. **Automated Processing & Routing**: Based on the analysis, OpenMax automatically routes items to the right team members, triggers appropriate workflows, and initiates standard responses. Routine tasks are handled end-to-end without human intervention, while complex items are escalated with full context to the right decision-maker.
 
-4. **Quality Validation & Cross-Referencing**: Before any output is finalized, COCO validates results against your existing records and business rules. It cross-references multiple data sources to ensure accuracy, flags inconsistencies for review, and maintains a confidence score for every automated decision.
+4. **Quality Validation & Cross-Referencing**: Before any output is finalized, OpenMax validates results against your existing records and business rules. It cross-references multiple data sources to ensure accuracy, flags inconsistencies for review, and maintains a confidence score for every automated decision.
 
-5. **Continuous Learning & Optimization**: COCO learns from every interaction — human corrections, feedback, and outcome data all feed into improving accuracy over time. It identifies bottlenecks, suggests process improvements, and adapts to changing business rules without requiring reprogramming.
+5. **Continuous Learning & Optimization**: OpenMax learns from every interaction — human corrections, feedback, and outcome data all feed into improving accuracy over time. It identifies bottlenecks, suggests process improvements, and adapts to changing business rules without requiring reprogramming.
 
 6. **Reporting & Insights Dashboard**: Comprehensive dashboards provide real-time visibility into process performance: throughput metrics, accuracy rates, exception patterns, team workload distribution, and trend analysis. Weekly summary reports highlight wins, flag concerns, and recommend optimization opportunities.
 
@@ -3257,7 +3257,7 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: The Internet Is Talking About You and You Have No Idea**
 
@@ -3273,21 +3273,21 @@ Crisis detection is where the gap is most dangerous. Social media crises escalat
 
 Competitive intelligence is another casualty. Your competitors' product launches, pricing changes, customer complaints, and strategic messaging are all playing out in public on social media. But without systematic monitoring, these signals get lost in the noise.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Social Listening Agent operates as a 24/7 brand intelligence system across all relevant platforms:
+OpenMax's AI Social Listening Agent operates as a 24/7 brand intelligence system across all relevant platforms:
 
-1. **Multi-Platform Monitoring**: COCO continuously scans Twitter/X, Instagram, LinkedIn, Reddit, TikTok, YouTube, news sites, blogs, review platforms (G2, Trustpilot, App Store), and industry forums. It monitors brand mentions, product names, competitor names, industry keywords, and executive mentions in real-time.
+1. **Multi-Platform Monitoring**: OpenMax continuously scans Twitter/X, Instagram, LinkedIn, Reddit, TikTok, YouTube, news sites, blogs, review platforms (G2, Trustpilot, App Store), and industry forums. It monitors brand mentions, product names, competitor names, industry keywords, and executive mentions in real-time.
 
-2. **Sentiment Classification**: Every mention is analyzed for sentiment (positive, negative, neutral) with contextual understanding. COCO distinguishes between sarcasm and genuine praise, identifies the emotion behind complaints (frustration vs. disappointment vs. anger), and tracks sentiment trends over time with statistical significance.
+2. **Sentiment Classification**: Every mention is analyzed for sentiment (positive, negative, neutral) with contextual understanding. OpenMax distinguishes between sarcasm and genuine praise, identifies the emotion behind complaints (frustration vs. disappointment vs. anger), and tracks sentiment trends over time with statistical significance.
 
-3. **Trend Detection**: COCO identifies emerging topics and conversations before they peak. It tracks mention velocity — the rate of increase in conversation volume — to spot developing trends. When a topic related to your brand shows unusual acceleration, you know about it in minutes, not days.
+3. **Trend Detection**: OpenMax identifies emerging topics and conversations before they peak. It tracks mention velocity — the rate of increase in conversation volume — to spot developing trends. When a topic related to your brand shows unusual acceleration, you know about it in minutes, not days.
 
-4. **Crisis Alert**: When negative mentions exceed baseline thresholds by 3x or more, COCO triggers immediate crisis alerts with a severity assessment, the original source, current spread rate, recommended response strategy, and draft responses for rapid approval. This typically provides 6+ hours of advance warning compared to manual detection.
+4. **Crisis Alert**: When negative mentions exceed baseline thresholds by 3x or more, OpenMax triggers immediate crisis alerts with a severity assessment, the original source, current spread rate, recommended response strategy, and draft responses for rapid approval. This typically provides 6+ hours of advance warning compared to manual detection.
 
-5. **Response Drafting**: For mentions requiring a response — customer complaints, product questions, misinformation — COCO drafts contextually appropriate responses matching your brand voice. Responses are queued for human review and one-click approval, reducing response time from hours to minutes.
+5. **Response Drafting**: For mentions requiring a response — customer complaints, product questions, misinformation — OpenMax drafts contextually appropriate responses matching your brand voice. Responses are queued for human review and one-click approval, reducing response time from hours to minutes.
 
-6. **Influencer Identification**: COCO identifies individuals with outsized influence in your brand's conversations — both positive advocates and potential detractors. It scores influencers by reach, engagement rate, audience relevance, and sentiment trajectory, enabling targeted relationship building.
+6. **Influencer Identification**: OpenMax identifies individuals with outsized influence in your brand's conversations — both positive advocates and potential detractors. It scores influencers by reach, engagement rate, audience relevance, and sentiment trajectory, enabling targeted relationship building.
 
 :::
 
@@ -3456,7 +3456,7 @@ Provide the full query syntax, alert configurations, and workflow automation rul
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Your Surveys Are Annoying Customers and Producing Garbage Data**
 
@@ -3472,21 +3472,21 @@ Personalization is almost non-existent. Most companies send the same survey to e
 
 The timing problem compounds everything. Surveys arrive at random times unconnected to the customer's experience. A post-support survey three days after the ticket was resolved. A product satisfaction survey in the middle of a critical outage. A renewal survey six months before the renewal date. Bad timing doesn't just reduce response rates — it introduces noise that corrupts the data.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Customer Survey Designer transforms surveys from a blunt instrument into a precision feedback engine:
+OpenMax's AI Customer Survey Designer transforms surveys from a blunt instrument into a precision feedback engine:
 
-1. **Question Optimization**: COCO drafts survey questions using best practices in survey methodology — clear, unbiased, single-concept questions with appropriate scales. It tests questions for readability, potential bias, and statistical validity before deployment. Every question has a clear purpose mapped to a specific decision it will inform.
+1. **Question Optimization**: OpenMax drafts survey questions using best practices in survey methodology — clear, unbiased, single-concept questions with appropriate scales. It tests questions for readability, potential bias, and statistical validity before deployment. Every question has a clear purpose mapped to a specific decision it will inform.
 
-2. **Bias Detection**: Before any survey goes out, COCO runs a bias analysis that flags leading questions, loaded language, anchoring effects, social desirability bias, and question-order effects. It provides revised alternatives for each flagged question, with an explanation of the specific bias and how the revision addresses it.
+2. **Bias Detection**: Before any survey goes out, OpenMax runs a bias analysis that flags leading questions, loaded language, anchoring effects, social desirability bias, and question-order effects. It provides revised alternatives for each flagged question, with an explanation of the specific bias and how the revision addresses it.
 
-3. **Personalized Survey Routing**: Instead of one-size-fits-all surveys, COCO creates customer-segment-specific survey variants. Enterprise customers get questions about strategic value and partnership. SMBs get questions about usability and pricing. New users get questions about onboarding. Each variant is optimized for the segment's specific context and decision-making authority.
+3. **Personalized Survey Routing**: Instead of one-size-fits-all surveys, OpenMax creates customer-segment-specific survey variants. Enterprise customers get questions about strategic value and partnership. SMBs get questions about usability and pricing. New users get questions about onboarding. Each variant is optimized for the segment's specific context and decision-making authority.
 
-4. **Smart Timing**: COCO determines the optimal moment to send each survey based on the customer's engagement patterns, recent interactions (support tickets, feature usage, billing events), and response probability models. It avoids survey requests during periods of known dissatisfaction or heavy workload, and it respects frequency caps to prevent survey fatigue.
+4. **Smart Timing**: OpenMax determines the optimal moment to send each survey based on the customer's engagement patterns, recent interactions (support tickets, feature usage, billing events), and response probability models. It avoids survey requests during periods of known dissatisfaction or heavy workload, and it respects frequency caps to prevent survey fatigue.
 
-5. **Real-Time Analysis**: As responses come in, COCO analyzes them in real-time — quantitative data, qualitative themes, sentiment trends, and statistical significance. It identifies emerging patterns before the survey even closes and alerts you to urgent findings (a cluster of complaints about a specific feature, for example).
+5. **Real-Time Analysis**: As responses come in, OpenMax analyzes them in real-time — quantitative data, qualitative themes, sentiment trends, and statistical significance. It identifies emerging patterns before the survey even closes and alerts you to urgent findings (a cluster of complaints about a specific feature, for example).
 
-6. **Action Recommendation**: COCO doesn't just present data; it recommends specific actions. For each insight, it connects the feedback to a concrete recommendation — feature prioritization, process change, team training, or customer outreach — with an estimated impact and effort assessment.
+6. **Action Recommendation**: OpenMax doesn't just present data; it recommends specific actions. For each insight, it connects the feedback to a concrete recommendation — feature prioritization, process change, team training, or customer outreach — with an estimated impact and effort assessment.
 
 :::
 
@@ -3701,7 +3701,7 @@ Prioritize recommendations by: impact on strategic questions, cost, time to firs
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Compliance Training Is a Ticking Time Bomb That Nobody Wants to Manage**
 
@@ -3717,21 +3717,21 @@ Regulatory changes compound the problem. New regulations emerge constantly, exis
 
 Audit readiness is the final pain point. When regulators or auditors request compliance training records, HR teams scramble to compile evidence from multiple systems, chase down missing records, and generate reports that prove compliance. The average audit preparation takes 3-4 weeks of dedicated effort, and even then, gaps are frequently discovered.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Compliance Training Tracker transforms compliance training from a reactive, manually-intensive process into a proactive, automated system.
+OpenMax's AI Compliance Training Tracker transforms compliance training from a reactive, manually-intensive process into a proactive, automated system.
 
-1. **Intelligent Course Assignment**: COCO automatically maps compliance training requirements to every employee based on their role, department, location, and regulatory environment. When employees are hired, promoted, or transfer, COCO instantly updates their required training portfolio. It tracks every regulatory framework applicable to your organization and maintains a living matrix of who needs what, when.
+1. **Intelligent Course Assignment**: OpenMax automatically maps compliance training requirements to every employee based on their role, department, location, and regulatory environment. When employees are hired, promoted, or transfer, OpenMax instantly updates their required training portfolio. It tracks every regulatory framework applicable to your organization and maintains a living matrix of who needs what, when.
 
-2. **Proactive Deadline Monitoring**: Rather than waiting for deadlines to pass, COCO monitors the entire organization's training timeline continuously. It identifies employees at risk of missing deadlines weeks in advance, predicts completion patterns based on historical data, and escalates strategically -- starting with gentle reminders and progressively involving managers and HR business partners as deadlines approach.
+2. **Proactive Deadline Monitoring**: Rather than waiting for deadlines to pass, OpenMax monitors the entire organization's training timeline continuously. It identifies employees at risk of missing deadlines weeks in advance, predicts completion patterns based on historical data, and escalates strategically -- starting with gentle reminders and progressively involving managers and HR business partners as deadlines approach.
 
-3. **Personalized Smart Reminders**: COCO sends contextually aware reminders tailored to each employee. It learns optimal timing -- when each person typically completes training, which communication channels they respond to, and what messaging motivates action. Reminders include direct links, estimated completion time, and clear deadline visibility. For managers, COCO provides team compliance dashboards showing who is at risk.
+3. **Personalized Smart Reminders**: OpenMax sends contextually aware reminders tailored to each employee. It learns optimal timing -- when each person typically completes training, which communication channels they respond to, and what messaging motivates action. Reminders include direct links, estimated completion time, and clear deadline visibility. For managers, OpenMax provides team compliance dashboards showing who is at risk.
 
-4. **Automated Completion Verification**: COCO integrates with your LMS and training platforms to automatically verify course completions, assessment scores, and certification status. It flags incomplete attempts, failed assessments requiring retakes, and expired certifications requiring renewal. Every verification is timestamped and stored in an immutable audit log.
+4. **Automated Completion Verification**: OpenMax integrates with your LMS and training platforms to automatically verify course completions, assessment scores, and certification status. It flags incomplete attempts, failed assessments requiring retakes, and expired certifications requiring renewal. Every verification is timestamped and stored in an immutable audit log.
 
-5. **Gap Analysis and Risk Scoring**: COCO continuously analyzes your organization's compliance posture, identifying departments, roles, or locations with the highest non-compliance risk. It produces risk scores at the team, department, and enterprise level, enabling HR and compliance leaders to prioritize interventions where they will have the most impact.
+5. **Gap Analysis and Risk Scoring**: OpenMax continuously analyzes your organization's compliance posture, identifying departments, roles, or locations with the highest non-compliance risk. It produces risk scores at the team, department, and enterprise level, enabling HR and compliance leaders to prioritize interventions where they will have the most impact.
 
-6. **Regulatory Change Management**: When regulations change, COCO automatically assesses the impact on your training requirements. It identifies which courses need updating, which employees are affected, and what new training may be required. It generates change impact reports for compliance leaders and can automatically assign new or updated courses with appropriate deadlines.
+6. **Regulatory Change Management**: When regulations change, OpenMax automatically assesses the impact on your training requirements. It identifies which courses need updating, which employees are affected, and what new training may be required. It generates change impact reports for compliance leaders and can automatically assign new or updated courses with appropriate deadlines.
 
 :::
 
@@ -3923,7 +3923,7 @@ Present with executive-ready visualizations described in markdown (tables, compa
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: IT Asset Management Is a Black Hole of Wasted Spend and Compliance Risk**
 
@@ -3939,21 +3939,21 @@ The lifecycle management gap compounds everything. Without clear visibility into
 
 Procurement is the final pain point. Without accurate asset data, every purchase request requires manual investigation -- do we already own this? do we have spare licenses? is there an existing contract we can leverage? This investigation adds weeks to procurement cycles and frequently results in duplicate purchases that further inflate the asset management problem.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI IT Asset Manager creates a comprehensive, continuously-updated view of every technology asset in your organization and automates the management lifecycle.
+OpenMax's AI IT Asset Manager creates a comprehensive, continuously-updated view of every technology asset in your organization and automates the management lifecycle.
 
-1. **Intelligent Asset Discovery**: COCO automatically discovers and catalogs every technology asset across your environment -- software installations, cloud subscriptions, hardware devices, network equipment, and cloud infrastructure. It integrates with your endpoint management tools, SSO providers, cloud consoles, and procurement systems to build a unified asset inventory. Unlike traditional ITAM tools that require manual input, COCO uses AI to match and deduplicate entries, resolve naming inconsistencies, and identify assets that exist outside official systems.
+1. **Intelligent Asset Discovery**: OpenMax automatically discovers and catalogs every technology asset across your environment -- software installations, cloud subscriptions, hardware devices, network equipment, and cloud infrastructure. It integrates with your endpoint management tools, SSO providers, cloud consoles, and procurement systems to build a unified asset inventory. Unlike traditional ITAM tools that require manual input, OpenMax uses AI to match and deduplicate entries, resolve naming inconsistencies, and identify assets that exist outside official systems.
 
-2. **License Optimization Engine**: COCO analyzes actual software usage patterns against your license entitlements. It identifies unused licenses (installed but never launched), underutilized licenses (used below the tier threshold), and mismatched licenses (paying for premium when standard would suffice). For each finding, COCO calculates the savings opportunity and generates specific reclamation or downgrade recommendations. It monitors usage trends to predict future license needs, preventing both over-purchasing and under-licensing.
+2. **License Optimization Engine**: OpenMax analyzes actual software usage patterns against your license entitlements. It identifies unused licenses (installed but never launched), underutilized licenses (used below the tier threshold), and mismatched licenses (paying for premium when standard would suffice). For each finding, OpenMax calculates the savings opportunity and generates specific reclamation or downgrade recommendations. It monitors usage trends to predict future license needs, preventing both over-purchasing and under-licensing.
 
-3. **Lifecycle Management Automation**: Every asset is tracked through its complete lifecycle -- from procurement through deployment, redeployment, and retirement. COCO maintains warranty and support contract dates, predicts optimal refresh timing based on failure rates and performance degradation, and generates end-of-life plans for aging equipment. It automates refresh cycle budgeting by projecting replacement costs 12-24 months in advance.
+3. **Lifecycle Management Automation**: Every asset is tracked through its complete lifecycle -- from procurement through deployment, redeployment, and retirement. OpenMax maintains warranty and support contract dates, predicts optimal refresh timing based on failure rates and performance degradation, and generates end-of-life plans for aging equipment. It automates refresh cycle budgeting by projecting replacement costs 12-24 months in advance.
 
-4. **Cost Analytics and Optimization**: COCO provides granular cost visibility -- total cost of ownership per asset, per department, per user, and per application. It identifies cost anomalies (a department whose per-user IT spend is 3x the company average), benchmarks spending against industry norms, and generates optimization recommendations ranked by savings potential and implementation effort.
+4. **Cost Analytics and Optimization**: OpenMax provides granular cost visibility -- total cost of ownership per asset, per department, per user, and per application. It identifies cost anomalies (a department whose per-user IT spend is 3x the company average), benchmarks spending against industry norms, and generates optimization recommendations ranked by savings potential and implementation effort.
 
-5. **Compliance Monitoring**: COCO continuously compares your software deployment against license entitlements, flagging any compliance gaps in real time. It generates audit-ready reports that document your license position for every vendor, tracks compliance trends over time, and provides early warning when usage patterns are approaching license limits. When vendor audits occur, COCO can produce the required documentation in hours rather than weeks.
+5. **Compliance Monitoring**: OpenMax continuously compares your software deployment against license entitlements, flagging any compliance gaps in real time. It generates audit-ready reports that document your license position for every vendor, tracks compliance trends over time, and provides early warning when usage patterns are approaching license limits. When vendor audits occur, OpenMax can produce the required documentation in hours rather than weeks.
 
-6. **Procurement Intelligence**: When purchase requests come in, COCO instantly checks existing inventory -- do we have spare licenses? Is there an existing contract with better pricing? Is there a functionally equivalent tool already in our environment? It recommends the most cost-effective procurement path and flags potential duplicate purchases before they happen.
+6. **Procurement Intelligence**: When purchase requests come in, OpenMax instantly checks existing inventory -- do we have spare licenses? Is there an existing contract with better pricing? Is there a functionally equivalent tool already in our environment? It recommends the most cost-effective procurement path and flags potential duplicate purchases before they happen.
 
 :::
 
@@ -4199,7 +4199,7 @@ For each metric, specify:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Demand Forecasting Errors Cost Millions and Nobody Has Cracked It**
 
@@ -4217,21 +4217,21 @@ Human judgment, which is supposed to fill these gaps, introduces its own biases.
 
 The result is a vicious cycle: bad forecasts lead to excess inventory or stockouts, which lead to panicked adjustments, which distort the historical data that feeds the next forecast cycle. Companies invest millions in ERP and planning systems but still rely on planners spending days in spreadsheets, manually adjusting numbers based on gut feel.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Demand Forecaster breaks the cycle by combining advanced machine learning with external signal integration to produce dramatically more accurate forecasts.
+OpenMax's AI Demand Forecaster breaks the cycle by combining advanced machine learning with external signal integration to produce dramatically more accurate forecasts.
 
-1. **Deep Historical Analysis**: COCO analyzes your complete sales history at the most granular level available -- by SKU, location, channel, and time period. It automatically detects seasonality patterns, trend shifts, promotional lift effects, cannibalization between products, and lifecycle curves. Unlike simple time-series models, COCO identifies complex multi-variable relationships that human analysts miss -- like how a price change in Product A affects demand for Product B three weeks later.
+1. **Deep Historical Analysis**: OpenMax analyzes your complete sales history at the most granular level available -- by SKU, location, channel, and time period. It automatically detects seasonality patterns, trend shifts, promotional lift effects, cannibalization between products, and lifecycle curves. Unlike simple time-series models, OpenMax identifies complex multi-variable relationships that human analysts miss -- like how a price change in Product A affects demand for Product B three weeks later.
 
-2. **External Signal Integration**: COCO continuously ingests and correlates external data sources that influence demand: weather forecasts (for weather-sensitive categories), economic indicators (consumer confidence, employment data, housing starts), social media sentiment and trend data, competitive intelligence (pricing changes, new product launches, promotional activity), search volume trends, and industry-specific leading indicators. Each signal is weighted by its historical correlation with your specific demand patterns.
+2. **External Signal Integration**: OpenMax continuously ingests and correlates external data sources that influence demand: weather forecasts (for weather-sensitive categories), economic indicators (consumer confidence, employment data, housing starts), social media sentiment and trend data, competitive intelligence (pricing changes, new product launches, promotional activity), search volume trends, and industry-specific leading indicators. Each signal is weighted by its historical correlation with your specific demand patterns.
 
-3. **ML-Powered Forecasting**: Using an ensemble of machine learning models -- gradient boosting, neural networks, and probabilistic models -- COCO generates demand forecasts with confidence intervals at every level of the hierarchy (company, category, brand, SKU, location). The ensemble approach means no single model's weakness dominates; each model captures different demand patterns, and the combination produces consistently better results than any individual approach.
+3. **ML-Powered Forecasting**: Using an ensemble of machine learning models -- gradient boosting, neural networks, and probabilistic models -- OpenMax generates demand forecasts with confidence intervals at every level of the hierarchy (company, category, brand, SKU, location). The ensemble approach means no single model's weakness dominates; each model captures different demand patterns, and the combination produces consistently better results than any individual approach.
 
-4. **Dynamic Scenario Planning**: COCO enables rapid what-if analysis. What happens to demand if we run a 20% off promotion in week 3? If our main competitor raises prices by 15%? If a major shipping lane is disrupted? Each scenario is modeled in minutes with specific demand impact quantified by SKU and location, enabling leadership to make informed decisions about pricing, promotions, and supply chain strategy.
+4. **Dynamic Scenario Planning**: OpenMax enables rapid what-if analysis. What happens to demand if we run a 20% off promotion in week 3? If our main competitor raises prices by 15%? If a major shipping lane is disrupted? Each scenario is modeled in minutes with specific demand impact quantified by SKU and location, enabling leadership to make informed decisions about pricing, promotions, and supply chain strategy.
 
-5. **Inventory Optimization**: Forecasts feed directly into inventory recommendations -- optimal reorder points, safety stock levels, and order quantities that balance the cost of carrying inventory against the cost of stockouts. COCO accounts for supplier lead times, minimum order quantities, and volume discount breakpoints to optimize total landed cost, not just forecast accuracy.
+5. **Inventory Optimization**: Forecasts feed directly into inventory recommendations -- optimal reorder points, safety stock levels, and order quantities that balance the cost of carrying inventory against the cost of stockouts. OpenMax accounts for supplier lead times, minimum order quantities, and volume discount breakpoints to optimize total landed cost, not just forecast accuracy.
 
-6. **Continuous Learning Loop**: Every forecast is evaluated against actual results, and the model automatically adjusts. When forecasts are consistently high or low for specific products, categories, or time periods, COCO identifies the systematic bias and corrects it. New external signals that prove predictive are weighted more heavily; those that lose predictive power are deprioritized. The system gets smarter with every forecasting cycle.
+6. **Continuous Learning Loop**: Every forecast is evaluated against actual results, and the model automatically adjusts. When forecasts are consistently high or low for specific products, categories, or time periods, OpenMax identifies the systematic bias and corrects it. New external signals that prove predictive are weighted more heavily; those that lose predictive power are deprioritized. The system gets smarter with every forecasting cycle.
 
 :::
 
@@ -4480,7 +4480,7 @@ Optimize and provide:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Churn Is a Surprise Because Customer Health Scoring Is Broken**
 
@@ -4496,21 +4496,21 @@ The lack of actionable intelligence is the final gap. Even when an account is co
 
 The financial impact is staggering. For a SaaS company with $50M ARR and 15% annual gross churn, each percentage point of churn improvement represents $500K in preserved revenue -- recurring, compounding, year after year. The math makes sophisticated health scoring one of the highest-ROI investments a SaaS company can make.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Customer Health Scorer replaces simplistic, manual health assessment with a comprehensive, predictive system that catches churn risk early and prescribes specific interventions.
+OpenMax's AI Customer Health Scorer replaces simplistic, manual health assessment with a comprehensive, predictive system that catches churn risk early and prescribes specific interventions.
 
-1. **Multi-Signal Collection and Analysis**: COCO ingests and correlates dozens of health signals across every customer touchpoint: product usage depth and breadth (not just logins, but feature adoption, workflow completion, and value realization metrics), support interaction patterns (sentiment analysis of tickets, escalation frequency, resolution satisfaction), engagement signals (email open rates, event attendance, community participation, content consumption), financial signals (payment timeliness, expansion conversations, pricing sensitivity), and relationship signals (stakeholder changes, champion departures, executive sponsor engagement). Each signal is weighted by its historical correlation with churn for customers in similar segments.
+1. **Multi-Signal Collection and Analysis**: OpenMax ingests and correlates dozens of health signals across every customer touchpoint: product usage depth and breadth (not just logins, but feature adoption, workflow completion, and value realization metrics), support interaction patterns (sentiment analysis of tickets, escalation frequency, resolution satisfaction), engagement signals (email open rates, event attendance, community participation, content consumption), financial signals (payment timeliness, expansion conversations, pricing sensitivity), and relationship signals (stakeholder changes, champion departures, executive sponsor engagement). Each signal is weighted by its historical correlation with churn for customers in similar segments.
 
-2. **Predictive Health Scoring**: Using machine learning models trained on your historical customer data, COCO generates a continuously-updated health score that predicts churn probability 60-90 days in advance. The score is not a simple average of inputs -- it is a sophisticated model that understands non-linear relationships (e.g., a small drop in feature adoption combined with a support sentiment decline is more predictive than either signal alone) and accounts for segment-specific patterns (enterprise customers show different pre-churn patterns than SMB).
+2. **Predictive Health Scoring**: Using machine learning models trained on your historical customer data, OpenMax generates a continuously-updated health score that predicts churn probability 60-90 days in advance. The score is not a simple average of inputs -- it is a sophisticated model that understands non-linear relationships (e.g., a small drop in feature adoption combined with a support sentiment decline is more predictive than either signal alone) and accounts for segment-specific patterns (enterprise customers show different pre-churn patterns than SMB).
 
-3. **Trend Analysis and Trajectory Detection**: Beyond a point-in-time score, COCO tracks health trajectories. A customer at 75 health who was at 90 three months ago is in a very different situation than one at 75 who was at 60 three months ago. COCO identifies acceleration and deceleration patterns, inflection points where health begins declining, and recovery patterns that signal a save attempt is working. This trajectory view is often more actionable than the absolute score.
+3. **Trend Analysis and Trajectory Detection**: Beyond a point-in-time score, OpenMax tracks health trajectories. A customer at 75 health who was at 90 three months ago is in a very different situation than one at 75 who was at 60 three months ago. OpenMax identifies acceleration and deceleration patterns, inflection points where health begins declining, and recovery patterns that signal a save attempt is working. This trajectory view is often more actionable than the absolute score.
 
-4. **Intelligent Alert Triggering**: Rather than simply displaying scores on a dashboard, COCO proactively alerts CSMs when intervention is needed. Alerts are prioritized by urgency (how quickly the health is declining), value (ARR at risk), and actionability (can something actually be done at this stage). Each alert includes the specific signals driving the risk, eliminating the "why is this customer flagged?" question.
+4. **Intelligent Alert Triggering**: Rather than simply displaying scores on a dashboard, OpenMax proactively alerts CSMs when intervention is needed. Alerts are prioritized by urgency (how quickly the health is declining), value (ARR at risk), and actionability (can something actually be done at this stage). Each alert includes the specific signals driving the risk, eliminating the "why is this customer flagged?" question.
 
-5. **Prescriptive Action Recommendations**: For each at-risk customer, COCO recommends specific intervention actions based on what has worked for similar customers in similar situations. If the churn risk is driven by low feature adoption, the recommendation might be a targeted training session on the underutilized features. If driven by stakeholder change, it might recommend an executive alignment meeting. Recommendations are ranked by predicted effectiveness and effort required.
+5. **Prescriptive Action Recommendations**: For each at-risk customer, OpenMax recommends specific intervention actions based on what has worked for similar customers in similar situations. If the churn risk is driven by low feature adoption, the recommendation might be a targeted training session on the underutilized features. If driven by stakeholder change, it might recommend an executive alignment meeting. Recommendations are ranked by predicted effectiveness and effort required.
 
-6. **Score Calibration and Learning**: COCO continuously evaluates its own accuracy. When a customer it scored as healthy churns (a miss), it investigates what signals it should have weighted more heavily. When an at-risk customer is successfully saved, it learns which intervention was most effective. The system's predictive accuracy improves with every quarter of data, and it adapts to changes in your product, market, and customer base.
+6. **Score Calibration and Learning**: OpenMax continuously evaluates its own accuracy. When a customer it scored as healthy churns (a miss), it investigates what signals it should have weighted more heavily. When an at-risk customer is successfully saved, it learns which intervention was most effective. The system's predictive accuracy improves with every quarter of data, and it adapts to changes in your product, market, and customer base.
 
 :::
 
@@ -4805,7 +4805,7 @@ For each scenario, provide:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Shipment Tracking Is Draining Your Team's Productivity**
 
@@ -4815,19 +4815,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Shipment Tracker integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI Shipment Tracker integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Logistics & Supply Chain.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Logistics & Supply Chain.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -4835,7 +4835,7 @@ COCO's AI Shipment Tracker integrates directly into your existing workflow and a
 
 **Measurable Results**
 
-Teams using COCO's AI Shipment Tracker report:
+Teams using OpenMax's AI Shipment Tracker report:
 - **71% reduction** in task completion time
 - **31% decrease** in operational costs for this workflow
 - **96% accuracy** rate, exceeding manual benchmarks
@@ -4932,7 +4932,7 @@ This week's data:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Capacity Planning Is Draining Your Team's Productivity**
 
@@ -4942,19 +4942,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Network Capacity Planner integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI Network Capacity Planner integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Telecommunications.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Telecommunications.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -4962,7 +4962,7 @@ COCO's AI Network Capacity Planner integrates directly into your existing workfl
 
 **Measurable Results**
 
-Teams using COCO's AI Network Capacity Planner report:
+Teams using OpenMax's AI Network Capacity Planner report:
 - **79% reduction** in task completion time
 - **40% decrease** in operational costs for this workflow
 - **91% accuracy** rate, exceeding manual benchmarks
@@ -5059,7 +5059,7 @@ This week's data:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Recall Monitoring Is Draining Your Team's Productivity**
 
@@ -5069,19 +5069,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Vehicle Recall Monitor integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI Vehicle Recall Monitor integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Automotive.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Automotive.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -5089,7 +5089,7 @@ COCO's AI Vehicle Recall Monitor integrates directly into your existing workflow
 
 **Measurable Results**
 
-Teams using COCO's AI Vehicle Recall Monitor report:
+Teams using OpenMax's AI Vehicle Recall Monitor report:
 - **79% reduction** in task completion time
 - **40% decrease** in operational costs for this workflow
 - **96% accuracy** rate, exceeding manual benchmarks
@@ -5186,7 +5186,7 @@ This week's data:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Patient Screening Is Draining Your Team's Productivity**
 
@@ -5196,19 +5196,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Clinical Trial Screener integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI Clinical Trial Screener integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Healthcare.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Healthcare.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -5216,7 +5216,7 @@ COCO's AI Clinical Trial Screener integrates directly into your existing workflo
 
 **Measurable Results**
 
-Teams using COCO's AI Clinical Trial Screener report:
+Teams using OpenMax's AI Clinical Trial Screener report:
 - **60% reduction** in task completion time
 - **36% decrease** in operational costs for this workflow
 - **89% accuracy** rate, exceeding manual benchmarks
@@ -5313,7 +5313,7 @@ This week's data:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Progress Tracking Is Draining Your Team's Productivity**
 
@@ -5323,19 +5323,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Student Progress Tracker integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI Student Progress Tracker integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Education.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Education.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -5343,7 +5343,7 @@ COCO's AI Student Progress Tracker integrates directly into your existing workfl
 
 **Measurable Results**
 
-Teams using COCO's AI Student Progress Tracker report:
+Teams using OpenMax's AI Student Progress Tracker report:
 - **71% reduction** in task completion time
 - **34% decrease** in operational costs for this workflow
 - **92% accuracy** rate, exceeding manual benchmarks
@@ -5440,7 +5440,7 @@ This week's data:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Records Research Is Draining Your Team's Productivity**
 
@@ -5450,19 +5450,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Public Records Researcher integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI Public Records Researcher integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Government.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Government.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -5470,7 +5470,7 @@ COCO's AI Public Records Researcher integrates directly into your existing workf
 
 **Measurable Results**
 
-Teams using COCO's AI Public Records Researcher report:
+Teams using OpenMax's AI Public Records Researcher report:
 - **64% reduction** in task completion time
 - **50% decrease** in operational costs for this workflow
 - **96% accuracy** rate, exceeding manual benchmarks
@@ -5567,7 +5567,7 @@ This week's data:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Compliance Audits Are a Time Sink That Never Ends**
 
@@ -5577,19 +5577,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI HIPAA Compliance Auditor integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI HIPAA Compliance Auditor integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Healthcare.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Healthcare.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -5597,7 +5597,7 @@ COCO's AI HIPAA Compliance Auditor integrates directly into your existing workfl
 
 **Measurable Results**
 
-Teams using COCO's AI HIPAA Compliance Auditor report:
+Teams using OpenMax's AI HIPAA Compliance Auditor report:
 - **68% reduction** in task completion time
 - **54% decrease** in operational costs for this workflow
 - **90% accuracy** rate, exceeding manual benchmarks
@@ -5694,7 +5694,7 @@ This week's data:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Integrity Check Is Draining Your Team's Productivity**
 
@@ -5704,19 +5704,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Plagiarism Checker integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI Plagiarism Checker integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Education.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Education.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -5724,7 +5724,7 @@ COCO's AI Plagiarism Checker integrates directly into your existing workflow and
 
 **Measurable Results**
 
-Teams using COCO's AI Plagiarism Checker report:
+Teams using OpenMax's AI Plagiarism Checker report:
 - **84% reduction** in task completion time
 - **46% decrease** in operational costs for this workflow
 - **92% accuracy** rate, exceeding manual benchmarks
@@ -5821,7 +5821,7 @@ This week's data:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Pest Detection Is Draining Your Team's Productivity**
 
@@ -5831,19 +5831,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Pest Detection Advisor integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI Pest Detection Advisor integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Agriculture.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Agriculture.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -5851,7 +5851,7 @@ COCO's AI Pest Detection Advisor integrates directly into your existing workflow
 
 **Measurable Results**
 
-Teams using COCO's AI Pest Detection Advisor report:
+Teams using OpenMax's AI Pest Detection Advisor report:
 - **73% reduction** in task completion time
 - **47% decrease** in operational costs for this workflow
 - **90% accuracy** rate, exceeding manual benchmarks
@@ -5948,7 +5948,7 @@ This week's data:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Performance Monitoring Is Draining Your Team's Productivity**
 
@@ -5958,19 +5958,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Solar Panel Performance Monitor integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI Solar Panel Performance Monitor integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Energy.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Energy.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -5978,7 +5978,7 @@ COCO's AI Solar Panel Performance Monitor integrates directly into your existing
 
 **Measurable Results**
 
-Teams using COCO's AI Solar Panel Performance Monitor report:
+Teams using OpenMax's AI Solar Panel Performance Monitor report:
 - **74% reduction** in task completion time
 - **59% decrease** in operational costs for this workflow
 - **85% accuracy** rate, exceeding manual benchmarks
@@ -6075,7 +6075,7 @@ This week's data:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Risk Assessment Is Draining Your Team's Productivity**
 
@@ -6085,19 +6085,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Underwriting Assistant integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI Underwriting Assistant integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Insurance.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Insurance.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -6105,7 +6105,7 @@ COCO's AI Underwriting Assistant integrates directly into your existing workflow
 
 **Measurable Results**
 
-Teams using COCO's AI Underwriting Assistant report:
+Teams using OpenMax's AI Underwriting Assistant report:
 - **75% reduction** in task completion time
 - **48% decrease** in operational costs for this workflow
 - **95% accuracy** rate, exceeding manual benchmarks
@@ -6202,7 +6202,7 @@ This week's data:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Customer Churn Is a Slow Bleed You Only Notice When It Is Too Late**
 
@@ -6212,13 +6212,13 @@ The real cost goes beyond the immediate time waste. When customer successs are s
 
 Most teams have tried to address this with a combination of spreadsheets, manual processes, and good intentions. The problem is that these approaches don't scale. What works for 10 items breaks at 100. What works for 100 collapses at 1,000. And in today's environment, you're dealing with thousands.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Tracks 140+ behavioral signals:**: Tracks 140+ behavioral signals: login frequency, feature usage, support tone. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+1. **Tracks 140+ behavioral signals:**: Tracks 140+ behavioral signals: login frequency, feature usage, support tone. OpenMax handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
 
-2. **Predicts churn risk 90**: Predicts churn risk 90 days before cancellation. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+2. **Predicts churn risk 90**: Predicts churn risk 90 days before cancellation. OpenMax handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
 
-3. **Triggers automated save campaigns**: Triggers automated save campaigns based on churn reason. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+3. **Triggers automated save campaigns**: Triggers automated save campaigns based on churn reason. OpenMax handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
 
 :::
 
@@ -6311,7 +6311,7 @@ Evaluate:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Accreditation Review Is Draining Your Team's Productivity**
 
@@ -6321,19 +6321,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Accreditation Compliance Checker integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI Accreditation Compliance Checker integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Education.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Education.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -6341,7 +6341,7 @@ COCO's AI Accreditation Compliance Checker integrates directly into your existin
 
 **Measurable Results**
 
-Teams using COCO's AI Accreditation Compliance Checker report:
+Teams using OpenMax's AI Accreditation Compliance Checker report:
 - **62% reduction** in task completion time
 - **38% decrease** in operational costs for this workflow
 - **93% accuracy** rate, exceeding manual benchmarks
@@ -6438,7 +6438,7 @@ This week's data:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Trademark Search Is Draining Your Team's Productivity**
 
@@ -6448,19 +6448,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Trademark Conflict Searcher integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI Trademark Conflict Searcher integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Enterprise.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Enterprise.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -6468,7 +6468,7 @@ COCO's AI Trademark Conflict Searcher integrates directly into your existing wor
 
 **Measurable Results**
 
-Teams using COCO's AI Trademark Conflict Searcher report:
+Teams using OpenMax's AI Trademark Conflict Searcher report:
 - **63% reduction** in task completion time
 - **44% decrease** in operational costs for this workflow
 - **95% accuracy** rate, exceeding manual benchmarks
@@ -6565,7 +6565,7 @@ This week's data:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Risk Scoring Is Draining Your Team's Productivity**
 
@@ -6575,19 +6575,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Supply Chain Risk Scorer integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI Supply Chain Risk Scorer integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Manufacturing.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Manufacturing.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -6595,7 +6595,7 @@ COCO's AI Supply Chain Risk Scorer integrates directly into your existing workfl
 
 **Measurable Results**
 
-Teams using COCO's AI Supply Chain Risk Scorer report:
+Teams using OpenMax's AI Supply Chain Risk Scorer report:
 - **72% reduction** in task completion time
 - **52% decrease** in operational costs for this workflow
 - **85% accuracy** rate, exceeding manual benchmarks
@@ -6692,7 +6692,7 @@ This week's data:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Migration Planning Is Draining Your Team's Productivity**
 
@@ -6702,19 +6702,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI API Migration Planner integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI API Migration Planner integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for SaaS & Technology.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for SaaS & Technology.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -6722,7 +6722,7 @@ COCO's AI API Migration Planner integrates directly into your existing workflow 
 
 **Measurable Results**
 
-Teams using COCO's AI API Migration Planner report:
+Teams using OpenMax's AI API Migration Planner report:
 - **84% reduction** in task completion time
 - **48% decrease** in operational costs for this workflow
 - **90% accuracy** rate, exceeding manual benchmarks
@@ -6819,7 +6819,7 @@ This week's data:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Regulatory Tracking Is Draining Your Team's Productivity**
 
@@ -6829,19 +6829,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Regulatory Change Tracker integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI Regulatory Change Tracker integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Financial Services.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Financial Services.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -6849,7 +6849,7 @@ COCO's AI Regulatory Change Tracker integrates directly into your existing workf
 
 **Measurable Results**
 
-Teams using COCO's AI Regulatory Change Tracker report:
+Teams using OpenMax's AI Regulatory Change Tracker report:
 - **66% reduction** in task completion time
 - **40% decrease** in operational costs for this workflow
 - **88% accuracy** rate, exceeding manual benchmarks
@@ -6946,7 +6946,7 @@ This week's data:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Delivery Tracking Is Draining Your Team's Productivity**
 
@@ -6956,19 +6956,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Last-Mile Delivery Tracker integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI Last-Mile Delivery Tracker integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for E-Commerce & Retail.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for E-Commerce & Retail.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -6976,7 +6976,7 @@ COCO's AI Last-Mile Delivery Tracker integrates directly into your existing work
 
 **Measurable Results**
 
-Teams using COCO's AI Last-Mile Delivery Tracker report:
+Teams using OpenMax's AI Last-Mile Delivery Tracker report:
 - **72% reduction** in task completion time
 - **54% decrease** in operational costs for this workflow
 - **93% accuracy** rate, exceeding manual benchmarks
@@ -7073,7 +7073,7 @@ This week's data:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Fraud Detection Is Draining Your Team's Productivity**
 
@@ -7083,19 +7083,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Fraud Pattern Detector integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI Fraud Pattern Detector integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Insurance.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Insurance.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -7103,7 +7103,7 @@ COCO's AI Fraud Pattern Detector integrates directly into your existing workflow
 
 **Measurable Results**
 
-Teams using COCO's AI Fraud Pattern Detector report:
+Teams using OpenMax's AI Fraud Pattern Detector report:
 - **62% reduction** in task completion time
 - **50% decrease** in operational costs for this workflow
 - **90% accuracy** rate, exceeding manual benchmarks
@@ -7200,7 +7200,7 @@ This week's data:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Health Monitoring Is Draining Your Team's Productivity**
 
@@ -7210,19 +7210,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Livestock Health Monitor integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI Livestock Health Monitor integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Agriculture.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Agriculture.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -7230,7 +7230,7 @@ COCO's AI Livestock Health Monitor integrates directly into your existing workfl
 
 **Measurable Results**
 
-Teams using COCO's AI Livestock Health Monitor report:
+Teams using OpenMax's AI Livestock Health Monitor report:
 - **77% reduction** in task completion time
 - **30% decrease** in operational costs for this workflow
 - **90% accuracy** rate, exceeding manual benchmarks
@@ -7327,7 +7327,7 @@ This week's data:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Agreement Review Is Draining Your Team's Productivity**
 
@@ -7337,19 +7337,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI PPA Reviewer integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI PPA Reviewer integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Energy.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Energy.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -7357,7 +7357,7 @@ COCO's AI PPA Reviewer integrates directly into your existing workflow and acts 
 
 **Measurable Results**
 
-Teams using COCO's AI PPA Reviewer report:
+Teams using OpenMax's AI PPA Reviewer report:
 - **82% reduction** in task completion time
 - **31% decrease** in operational costs for this workflow
 - **86% accuracy** rate, exceeding manual benchmarks
@@ -7454,7 +7454,7 @@ This week's data:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Ticket Prediction Is Draining Your Team's Productivity**
 
@@ -7464,19 +7464,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Service Ticket Predictor integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI Service Ticket Predictor integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Telecommunications.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Telecommunications.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -7484,7 +7484,7 @@ COCO's AI Service Ticket Predictor integrates directly into your existing workfl
 
 **Measurable Results**
 
-Teams using COCO's AI Service Ticket Predictor report:
+Teams using OpenMax's AI Service Ticket Predictor report:
 - **68% reduction** in task completion time
 - **54% decrease** in operational costs for this workflow
 - **95% accuracy** rate, exceeding manual benchmarks
@@ -7581,7 +7581,7 @@ This week's data:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Security Scanning Is Draining Your Team's Productivity**
 
@@ -7591,19 +7591,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Dependency Vulnerability Scanner integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI Dependency Vulnerability Scanner integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for SaaS & Technology.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for SaaS & Technology.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -7611,7 +7611,7 @@ COCO's AI Dependency Vulnerability Scanner integrates directly into your existin
 
 **Measurable Results**
 
-Teams using COCO's AI Dependency Vulnerability Scanner report:
+Teams using OpenMax's AI Dependency Vulnerability Scanner report:
 - **67% reduction** in task completion time
 - **56% decrease** in operational costs for this workflow
 - **91% accuracy** rate, exceeding manual benchmarks
@@ -7708,7 +7708,7 @@ This week's data:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Network Analysis Is Draining Your Team's Productivity**
 
@@ -7718,19 +7718,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Referral Network Mapper integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI Referral Network Mapper integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Healthcare.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Healthcare.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -7738,7 +7738,7 @@ COCO's AI Referral Network Mapper integrates directly into your existing workflo
 
 **Measurable Results**
 
-Teams using COCO's AI Referral Network Mapper report:
+Teams using OpenMax's AI Referral Network Mapper report:
 - **75% reduction** in task completion time
 - **43% decrease** in operational costs for this workflow
 - **92% accuracy** rate, exceeding manual benchmarks
@@ -7835,7 +7835,7 @@ This week's data:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Meeting Preparation Is Draining Your Team's Productivity**
 
@@ -7845,19 +7845,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Board Meeting Prep Assistant integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI Board Meeting Prep Assistant integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Enterprise.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for Enterprise.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -7865,7 +7865,7 @@ COCO's AI Board Meeting Prep Assistant integrates directly into your existing wo
 
 **Measurable Results**
 
-Teams using COCO's AI Board Meeting Prep Assistant report:
+Teams using OpenMax's AI Board Meeting Prep Assistant report:
 - **74% reduction** in task completion time
 - **33% decrease** in operational costs for this workflow
 - **86% accuracy** rate, exceeding manual benchmarks
@@ -7962,7 +7962,7 @@ This week's data:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Accessibility Testing Is Draining Your Team's Productivity**
 
@@ -7972,19 +7972,19 @@ Industry data shows that teams spend an average of 15-25 hours per week on tasks
 
 The downstream impact is severe: decision-makers wait longer for critical insights, competitive advantages erode, and talented professionals burn out on repetitive work instead of focusing on strategic initiatives that drive real business value.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Accessibility Compliance Checker integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
+OpenMax's AI Accessibility Compliance Checker integrates directly into your existing workflow and acts as a tireless, always-available specialist. Here's how it works:
 
-1. **Input & Context**: Feed COCO your source materials — documents, data files, URLs, or plain-language instructions. COCO understands context and asks clarifying questions when needed.
+1. **Input & Context**: Feed OpenMax your source materials — documents, data files, URLs, or plain-language instructions. OpenMax understands context and asks clarifying questions when needed.
 
-2. **Intelligent Processing**: COCO analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for SaaS & Technology.
+2. **Intelligent Processing**: OpenMax analyzes your inputs across multiple dimensions simultaneously, applying industry-specific knowledge and best practices for SaaS & Technology.
 
-3. **Structured Output**: Instead of raw data dumps, COCO delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
+3. **Structured Output**: Instead of raw data dumps, OpenMax delivers organized, actionable outputs — reports, recommendations, drafts, or analyses formatted to your specifications.
 
-4. **Iterative Refinement**: Review COCO's output and provide feedback. COCO learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
+4. **Iterative Refinement**: Review OpenMax's output and provide feedback. OpenMax learns your preferences and standards over time, making each subsequent iteration faster and more accurate.
 
-5. **Continuous Monitoring** (where applicable): For ongoing tasks, COCO can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
+5. **Continuous Monitoring** (where applicable): For ongoing tasks, OpenMax can monitor changes, track updates, and alert you to items requiring attention — without any manual checking.
 
 :::
 
@@ -7992,7 +7992,7 @@ COCO's AI Accessibility Compliance Checker integrates directly into your existin
 
 **Measurable Results**
 
-Teams using COCO's AI Accessibility Compliance Checker report:
+Teams using OpenMax's AI Accessibility Compliance Checker report:
 - **62% reduction** in task completion time
 - **46% decrease** in operational costs for this workflow
 - **91% accuracy** rate, exceeding manual benchmarks

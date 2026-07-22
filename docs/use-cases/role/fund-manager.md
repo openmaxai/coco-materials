@@ -6,7 +6,7 @@ AI-powered use cases for fund managers, VC analysts, and private equity professi
 
 > Automates the production of institutional-quality LP quarterly reports — covering fund performance, portfolio company updates, capital accounts, and market commentary — in hours instead of weeks.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Quarterly Reporting Consumes Weeks of High-Value Team Bandwidth**
 
@@ -16,44 +16,44 @@ The coordination burden is particularly severe. Investment professionals must co
 
 The quality problem is equally significant. Reports produced under time pressure often exhibit inconsistencies — figures that don't reconcile across sections, narrative commentary that contradicts the underlying data, or portfolio company summaries that vary in depth depending on which analyst drafted them. For managers running USD funds with institutional LPs — pension funds, endowments, fund-of-funds — this inconsistency damages credibility and creates friction in LP re-up conversations. The cost of a poor-quality quarterly report extends well beyond the reporting period itself; it shapes LP perception of fund manager competence for the entire fund lifecycle.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Automated Data Aggregation from Multiple Sources**: COCO pulls fund and portfolio data from all reporting inputs simultaneously:
+1. **Automated Data Aggregation from Multiple Sources**: OpenMax pulls fund and portfolio data from all reporting inputs simultaneously:
    - Ingests fund administrator NAV statements, capital account ledgers, and transaction records directly from uploaded files or connected fund admin platforms
    - Pulls portfolio company operating metrics from uploaded board packages, management accounts, and KPI trackers in any format (PDF, Excel, CSV)
    - Reconciles DPI, RVPI, TVPI, and gross/net IRR figures against prior-period reports and flags any anomalies requiring manual review
    - Extracts relevant market data (sector benchmarks, public comparable performance) to contextualize portfolio results
    - Maintains a data room of all source documents with version control, so every figure in the report traces back to a verified source
 
-2. **Portfolio Company Update Standardization**: COCO normalizes inconsistent portfolio inputs into uniform report sections:
+2. **Portfolio Company Update Standardization**: OpenMax normalizes inconsistent portfolio inputs into uniform report sections:
    - Applies a consistent summary template to each portfolio company regardless of the format in which operating data was provided
    - Generates company-by-company narrative updates covering revenue, EBITDA, headcount, key milestones, and outlook
    - Flags portfolio companies where reported metrics deviate significantly from prior-quarter trajectory for investment team attention
    - Produces a tiered update structure — detailed for significant holdings, summary for smaller positions — calibrated to LP preferences
    - Identifies missing data and generates follow-up requests to portfolio companies with specific data points required
 
-3. **Capital Account and Distribution Waterfall Calculation**: COCO handles the financial mechanics of LP reporting:
+3. **Capital Account and Distribution Waterfall Calculation**: OpenMax handles the financial mechanics of LP reporting:
    - Calculates individual LP capital accounts reflecting contributions, distributions, management fees, and carried interest accruals
    - Models distribution waterfall scenarios under the fund's LPA terms (European vs. American waterfall, preferred return hurdle, catch-up provisions)
    - Generates LP-specific MOIC and net IRR figures accounting for each LP's actual investment dates and amounts
    - Produces a reconciliation table confirming that aggregate LP capital accounts sum to total fund NAV
    - Formats capital account statements to match LP-required templates, including pension fund and endowment-specific formats
 
-4. **Narrative Commentary Generation**: COCO produces professional fund-level and market commentary:
+4. **Narrative Commentary Generation**: OpenMax produces professional fund-level and market commentary:
    - Drafts quarterly market commentary covering macroeconomic conditions, sector dynamics, and their implications for the fund's portfolio
    - Writes a fund performance narrative that contextualizes results against vintage year benchmarks, relevant indices, and the fund's stated investment strategy
    - Generates an investment activity section summarizing new investments, follow-ons, exits, and pipeline highlights for the quarter
    - Produces an outlook section that reflects the fund's current investment themes without disclosing confidential forward-looking information
    - Calibrates tone and detail level to the fund's LP base — institutional vs. family office vs. strategic LP audiences
 
-5. **Multi-Format Report Assembly and Branding**: COCO produces the final deliverable package:
+5. **Multi-Format Report Assembly and Branding**: OpenMax produces the final deliverable package:
    - Assembles all sections into a fully formatted, branded PDF report matching the fund's design template
    - Generates supporting exhibits — portfolio company summary tables, performance attribution charts, benchmark comparison graphics — as embedded visuals
    - Produces an LP data room package with report, capital account statement, and supporting schedules as separate attachments
    - Creates an executive summary version for LPs who request condensed reporting
    - Outputs an ILPA-format data template alongside the narrative report for LPs requiring standardized data submission
 
-6. **Review Workflow and Version Management**: COCO supports the internal review and approval process:
+6. **Review Workflow and Version Management**: OpenMax supports the internal review and approval process:
    - Tracks review comments from investment, finance, and IR team members in a single collaborative workflow
    - Highlights all changes between draft versions so reviewers can focus on what changed rather than re-reading the entire report
    - Maintains an audit log of every edit with author and timestamp for compliance and record-keeping purposes
@@ -216,7 +216,7 @@ Tone: Professional, measured, LP-appropriate (no forward-looking guarantees; ack
 
 > Scores and ranks inbound deal flow against fund thesis, team capacity, and historical win rates — so analysts spend time on the opportunities most likely to close and generate returns.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Unstructured Deal Flow Drowns Analysts in Low-Probability Opportunities**
 
@@ -226,44 +226,44 @@ The cost of poor deal prioritization shows up in two ways. First, the fund misse
 
 The problem intensifies when deal flow is managed across multiple partners with different sourcing networks, thesis emphases, and risk appetites. Without a common scoring rubric, each partner's deal queue reflects their individual judgment rather than the fund's stated strategy. Investment committee time gets consumed by deals where there was never consensus on fit, and the fund's historical win data — which deals were pursued and why, which were passed and for what reasons — gets lost in email threads and personal notes rather than informing a continuously improving prioritization model.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Inbound Deal Ingestion and Normalization**: COCO processes deal submissions from any source format:
+1. **Inbound Deal Ingestion and Normalization**: OpenMax processes deal submissions from any source format:
    - Parses pitch decks (PDF, PowerPoint), executive summaries, emails, and CRM entries to extract structured deal data
    - Normalizes company metadata: sector classification, stage, geography, business model, founding date, key metrics
    - Enriches deal data with external sources: Crunchbase funding history, LinkedIn founder profiles, news coverage, regulatory filings
    - Creates a standardized deal card for every inbound within minutes of receipt, regardless of submission format
    - Maintains a complete deal log with timestamp, source attribution, and initial data completeness score
 
-2. **Fund Thesis Alignment Scoring**: COCO scores each deal against the fund's investment mandate:
+2. **Fund Thesis Alignment Scoring**: OpenMax scores each deal against the fund's investment mandate:
    - Applies configurable thesis parameters: target sectors, stage range, check size range, geography, business model preferences
    - Scores sector fit on a granular basis — not just "software" but "vertical SaaS serving regulated industries" or "developer tools with usage-based pricing"
    - Evaluates stage fit against the fund's deployment timeline, current portfolio construction, and remaining dry powder
    - Flags thesis conflicts: deals that technically fit stage and sector but conflict with existing portfolio concentration
    - Produces a thesis alignment score (0–100) with an explanation of each component score
 
-3. **Market and Competitive Landscape Rapid Assessment**: COCO provides instant market context:
+3. **Market and Competitive Landscape Rapid Assessment**: OpenMax provides instant market context:
    - Identifies the addressable market size and growth rate for the company's primary segment using publicly available research
    - Maps the competitive landscape — identifies known competitors, their funding status, and relative positioning
    - Assesses market timing: is the sector currently over-funded (risk of crowded trade) or under-explored relative to the opportunity size?
    - Cross-references the fund's existing portfolio for competitive conflicts or potential synergies with current holdings
    - Generates a market context summary that gives the reviewing analyst an informed starting point before the first founder call
 
-4. **Founder and Team Signal Extraction**: COCO surfaces founder quality indicators:
+4. **Founder and Team Signal Extraction**: OpenMax surfaces founder quality indicators:
    - Analyzes founding team backgrounds: prior exits, domain expertise, relevant operator experience, academic credentials
    - Flags positive signals: repeat founders, prior backing by tier-1 investors, relevant technical or industry credentials
    - Identifies risk signals: incomplete team (CEO without CTO for a technical product), high founder turnover, gaps between claimed experience and verifiable history
    - Assesses network proximity: does the founding team have warm connections to the fund's existing portfolio, advisors, or LP base?
    - Produces a team quality signal score distinct from the business quality assessment
 
-5. **Financial Metrics Benchmarking**: COCO benchmarks deal financials against stage-appropriate comparables:
+5. **Financial Metrics Benchmarking**: OpenMax benchmarks deal financials against stage-appropriate comparables:
    - Extracts reported metrics from the pitch deck: ARR, MoM growth rate, gross margin, CAC, LTV, burn rate, runway
    - Benchmarks each metric against the fund's internal comparable dataset and public stage benchmarks
    - Flags outliers: metrics that are significantly above or below stage benchmarks warrant deeper investigation in either direction
    - Calculates implied valuation entry multiple (EV/ARR or EV/Revenue) at the asking price and benchmarks against recent comparable transactions
    - Produces a metrics scorecard with red/amber/green ratings for each financial indicator
 
-6. **Priority Queue Generation and Partner Routing**: COCO produces actionable deal routing outputs:
+6. **Priority Queue Generation and Partner Routing**: OpenMax produces actionable deal routing outputs:
    - Ranks all active deals in the pipeline by composite score, updating in real time as new information is added
    - Routes high-priority deals to the most relevant partner based on sector expertise and current workload
    - Generates a weekly deal flow digest: top 10 deals requiring action, deals aging out of the pipeline without follow-up, deals approaching round close deadlines
@@ -419,7 +419,7 @@ Output: Decision post-mortem memo + 3 specific recommended scoring model calibra
 
 > Compares term sheets side-by-side across economic and control provisions, flags non-market clauses, and identifies hidden economic costs before the fund commits to a deal structure.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Non-Market Term Sheet Clauses Cost Funds Millions in Hidden Economics**
 
@@ -429,43 +429,43 @@ The problem is compounded by the negotiating asymmetry that exists in different 
 
 The velocity of deal execution makes this problem worse. In a competitive round, the window between receiving a term sheet and being required to indicate participation can be as short as 24–48 hours. Legal counsel review is valuable but slow; a full mark-up from outside counsel on a complex term sheet can take 3–5 days. Experienced investment professionals can review the key economic provisions in that window, but non-standard clauses in protective provisions, information rights packages, or charter amendments can be buried in technical legal language that looks innocuous to a non-specialist. The fund signs, the deal closes, and the full economic implications of those terms only become clear years later when an exit or down-round forces a liquidation waterfall calculation.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Term Sheet Parsing and Clause Extraction**: COCO processes term sheets from any format:
+1. **Term Sheet Parsing and Clause Extraction**: OpenMax processes term sheets from any format:
    - Ingests term sheets in PDF, Word, or plain text and extracts all material provisions into structured clause categories
    - Classifies each extracted clause: economic terms, control rights, information rights, anti-dilution provisions, exit rights, registration rights, protective provisions
    - Identifies clauses that deviate from standard NVCA model terms or market-standard language for the deal stage and geography
    - Maps interdependencies between clauses — provisions that interact in non-obvious ways (e.g., anti-dilution interacting with option pool expansion)
    - Creates a clause register with each provision, its extracted text, its classification, and its market-standard comparator
 
-2. **Side-by-Side Term Sheet Comparison**: COCO enables multi-document comparison for fund-led deals or competing investor term sheets:
+2. **Side-by-Side Term Sheet Comparison**: OpenMax enables multi-document comparison for fund-led deals or competing investor term sheets:
    - Loads multiple term sheets (from different rounds, different lead investors, or different deal structures) into a parallel comparison view
    - Highlights clause-by-clause differences with a significance rating (material economic impact / control implication / administrative / negligible)
    - Tracks how terms have evolved from prior rounds — identifies provisions that have tightened, loosened, or been newly introduced
    - Flags provisions in the current term sheet that are inconsistent with the fund's rights in prior round documents for the same company
    - Generates a delta summary memo suitable for distribution to the investment committee
 
-3. **Economic Impact Quantification**: COCO calculates the dollar impact of term sheet provisions under exit scenarios:
+3. **Economic Impact Quantification**: OpenMax calculates the dollar impact of term sheet provisions under exit scenarios:
    - Models the liquidation waterfall under multiple exit valuation scenarios ($[X]M to $[X]M) for each term sheet variant
    - Quantifies the economic difference between participating preferred and non-participating preferred at each exit level
    - Calculates the anti-dilution adjustment to conversion price under various down-round scenarios (weighted-average vs. full ratchet)
    - Shows the impact of pay-to-play provisions on pro-rata rights and preferred conversion in scenarios where the fund cannot follow its money
    - Produces a "term economics table" showing fund proceeds at each exit scenario under each term variant
 
-4. **Red-Flag and Non-Market Clause Detection**: COCO identifies provisions that warrant legal review or negotiation:
+4. **Red-Flag and Non-Market Clause Detection**: OpenMax identifies provisions that warrant legal review or negotiation:
    - Flags full-ratchet anti-dilution provisions (non-market at Series A and beyond) with a recommended negotiation position
    - Identifies super-majority drag-along requirements that could block a sale the fund supports
    - Surfaces overly broad founder vesting acceleration clauses that could create misaligned incentives post-close
    - Highlights information rights packages that are narrower than standard (quarterly financials, annual audited accounts, inspection rights)
    - Detects MFN provisions, side letter obligations, or consent requirements that could complicate future rounds
 
-5. **Market Comparables Benchmarking**: COCO benchmarks term provisions against deal market standards:
+5. **Market Comparables Benchmarking**: OpenMax benchmarks term provisions against deal market standards:
    - Compares key economic terms against published market data (NVCA / law firm market surveys, WSGR Term Sheet Trends, Fenwick & West surveys)
    - Identifies terms that are in the top or bottom quartile of market range for the deal stage, sector, and geography
    - Provides a market context note for each flagged provision: "Full-ratchet anti-dilution is present in fewer than 8% of Series B term sheets in North America"
    - Produces a negotiation priority matrix: which clauses are furthest from market norms and most economically significant
 
-6. **Negotiation Summary and Legal Brief Generation**: COCO produces actionable outputs for the deal team:
+6. **Negotiation Summary and Legal Brief Generation**: OpenMax produces actionable outputs for the deal team:
    - Generates a red-flag summary memo for distribution to investment partners and legal counsel before negotiation kickoff
    - Produces a prioritized negotiation agenda: top 5 provisions to push back on, with market-standard alternative language for each
    - Creates a legal brief for outside counsel highlighting the specific provisions requiring mark-up and the fund's preferred positions
@@ -479,7 +479,7 @@ The velocity of deal execution makes this problem worse. In a competitive round,
 **Measurable Results**
 
 - **Term sheet review time**: Comprehensive clause-by-clause analysis completed in **under 2 hours** vs. 2–3 days for external counsel full mark-up, enabling same-day response to competitive term sheet timelines
-- **Non-market clause detection rate**: COCO identifies **91% of material non-market provisions** in test cases validated against experienced fund counsel review, vs. 67% detected by analyst-only review
+- **Non-market clause detection rate**: OpenMax identifies **91% of material non-market provisions** in test cases validated against experienced fund counsel review, vs. 67% detected by analyst-only review
 - **Economic impact quantified**: Average hidden economic cost of undetected non-market terms in a $50M exit scenario is **$1.2M–$3.8M** per deal — systematic detection eliminates this exposure
 - **Negotiation success rate**: Funds using structured term analysis report **73% acceptance rate** on pushed-back provisions where they had market data to support their position
 - **Legal counsel time savings**: Outside counsel engagement scoped to specific flagged provisions rather than full mark-up reduces legal fees by **35–45%** per deal
@@ -487,7 +487,7 @@ The velocity of deal execution makes this problem worse. In a competitive round,
 **Who Benefits**
 
 - **Fund Managers and Investment Partners**: Enter term negotiations with a complete picture of economic implications and a prioritized agenda, rather than relying on intuition developed over years of deal experience
-- **VC Analysts and Associates**: Develop structured term sheet literacy through COCO's clause-by-clause explanations, building expertise faster than through deal experience alone
+- **VC Analysts and Associates**: Develop structured term sheet literacy through OpenMax's clause-by-clause explanations, building expertise faster than through deal experience alone
 - **Legal Counsel**: Receive a pre-analyzed brief that focuses their time on genuinely complex provisions rather than performing a complete first-pass review from scratch
 - **Portfolio Companies (Founders)**: Benefit from investors who understand the full implications of what they are signing — funds using systematic term analysis negotiate more balanced terms rather than accepting or imposing extreme provisions
 
@@ -619,7 +619,7 @@ Output format: 1-page IC memo with provisions ranked by economic significance + 
 
 > Models the dilution impact of future financing rounds, option pool expansions, convertible instruments, and exit scenarios on every shareholder — before the fund commits capital.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Cap Table Complexity Hides True Ownership Economics Until It's Too Late**
 
@@ -629,44 +629,44 @@ The problem compounds when the fund needs to model forward scenarios. What does 
 
 The downstream risk of an inaccurate or outdated cap table model is material. Funds have entered follow-on rounds expecting a specific post-round ownership percentage, only to discover at close that a previously unknown convertible note conversion or option pool top-up reduced their position by 3–5 points. In a $200M exit, 3 percentage points of ownership is $6M of fund proceeds — a significant error attributable entirely to a cap table modeling failure. Investment committees making follow-on decisions, co-investment decisions, and exit timing recommendations all need accurate dilution modeling, and most funds are making these decisions with models that are months out of date.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Cap Table Ingestion and Reconstruction**: COCO builds an accurate current-state cap table from source documents:
+1. **Cap Table Ingestion and Reconstruction**: OpenMax builds an accurate current-state cap table from source documents:
    - Parses capitalization tables from legal documents: stock purchase agreements, certificate of incorporation, option plan documents, SAFE agreements, convertible note agreements
    - Reconciles share counts across all source documents, identifying any discrepancies between registered shares and issued shares
    - Converts all outstanding convertible instruments (SAFEs, notes, warrants) to their as-converted share count under current or triggered conversion terms
    - Calculates fully diluted share counts at each conversion scenario (pre-conversion, as-converted at current valuation, as-converted at cap)
    - Produces a verified current-state fully diluted cap table with every holder, every instrument, and every conversion assumption documented
 
-2. **Future Financing Round Dilution Modeling**: COCO models the impact of prospective financing events:
+2. **Future Financing Round Dilution Modeling**: OpenMax models the impact of prospective financing events:
    - Models new preferred stock issuances: calculates post-money ownership percentages for all existing holders at any new round price and size
    - Applies option pool refresh mechanics: models the dilution from expanding the ESOP prior to a new round vs. post-round
    - Calculates the conversion of outstanding SAFEs and convertible notes at the new round's price, applying applicable discounts and caps
    - Models pro-rata rights exercise: shows the dilution if all investors exercise their pro-rata, if none do, and if only some do
    - Produces side-by-side ownership tables showing each holder's pre-round and post-round fully diluted ownership percentage
 
-3. **Down-Round and Anti-Dilution Adjustment Modeling**: COCO handles the complex mechanics of adverse scenarios:
+3. **Down-Round and Anti-Dilution Adjustment Modeling**: OpenMax handles the complex mechanics of adverse scenarios:
    - Applies weighted-average anti-dilution formulas for each protected series when a new round is priced below their issue price
    - Calculates the new conversion price and resulting additional shares for each anti-dilution protected series
    - Models the cascading effect of anti-dilution adjustments on subsequent series and common holders
    - Shows the founder dilution resulting from anti-dilution adjustments — a key factor in assessing alignment risk
    - Produces a "down-round impact report" showing the ownership economics at multiple below-market new round prices
 
-4. **Exit Scenario Waterfall Modeling**: COCO calculates per-holder proceeds at any exit value:
+4. **Exit Scenario Waterfall Modeling**: OpenMax calculates per-holder proceeds at any exit value:
    - Models the liquidation waterfall at any exit price: preferred liquidation preferences paid in priority order, then participation payouts, then common distribution
    - Calculates per-share and per-dollar-invested proceeds for every holder class at each exit scenario
    - Shows the "conversion crossover point" — the exit value at which preferred holders are better off converting to common
    - Models the impact of management carve-outs, transaction bonuses, and option acceleration on exit proceeds distribution
    - Calculates gross MOIC and gross IRR for the fund at each exit value and assumed hold period
 
-5. **Secondary Transaction and Founder Liquidity Modeling**: COCO models complex capital structure events:
+5. **Secondary Transaction and Founder Liquidity Modeling**: OpenMax models complex capital structure events:
    - Models founder secondary sales: how does a partial founder liquidity event in the new round affect fully diluted ownership and exit economics?
    - Calculates the impact of warrant exercises at various share prices on fully diluted ownership
    - Models tender offer scenarios: what happens to the cap table if a secondary market tender offer executes at a premium?
    - Shows the "economic dilution" vs. "governance dilution" distinction — cases where a holder retains voting control but loses economic exposure
    - Produces a summary of all events that could trigger changes to the cap table between now and a projected exit
 
-6. **Portfolio-Level Cap Table Dashboard**: COCO maintains cap table models across the entire portfolio:
+6. **Portfolio-Level Cap Table Dashboard**: OpenMax maintains cap table models across the entire portfolio:
    - Maintains current-state cap table models for all portfolio companies, updated whenever new financing documents are received
    - Generates a portfolio-wide ownership summary: each company, our current ownership %, our as-converted share count, and our estimated fair value
    - Flags companies where our ownership has diluted below a target threshold since our initial investment
@@ -680,8 +680,8 @@ The downstream risk of an inaccurate or outdated cap table model is material. Fu
 **Measurable Results**
 
 - **Cap table model construction time**: Building a fully diluted cap table with all convertible instruments from source documents reduced from **2–3 analyst days** to **under 4 hours** per company
-- **Ownership discrepancy detection**: COCO identifies cap table errors or undisclosed dilutive instruments in **23% of portfolio company reviews** that were not reflected in company-provided summaries
-- **Follow-on decision accuracy**: Investment committees using COCO dilution models report **91% accuracy** of post-round ownership predictions vs. actual closing ownership, compared to 74% with manual models
+- **Ownership discrepancy detection**: OpenMax identifies cap table errors or undisclosed dilutive instruments in **23% of portfolio company reviews** that were not reflected in company-provided summaries
+- **Follow-on decision accuracy**: Investment committees using OpenMax dilution models report **91% accuracy** of post-round ownership predictions vs. actual closing ownership, compared to 74% with manual models
 - **Exit proceeds modeling**: Waterfall calculations for complex cap tables (4+ preferred series) completed in **under 30 minutes** vs. 6–8 hours for manual spreadsheet construction
 - **Portfolio monitoring coverage**: Fund managers maintain active, current cap table models for **100% of portfolio companies** vs. an industry average of 60% when modeling is done manually
 
@@ -828,7 +828,7 @@ Output: Portfolio cap table dashboard table + dilution risk flag report + compan
 
 > Automates the allocation of fund-level expenses across LPs according to LPA terms, side letter obligations, and applicable regulatory requirements — eliminating manual spreadsheet errors and audit risk.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Expense Allocation Errors Create LP Disputes and Audit Exposure**
 
@@ -838,44 +838,44 @@ The coordination challenge is significant. A mid-size fund with 30 LPs, multiple
 
 The regulatory environment has also intensified. The SEC's 2023 Private Fund Adviser rules significantly expanded disclosure and fairness requirements around fee and expense practices. Advisers must now provide detailed expense attribution documentation, demonstrate that expenses are charged in accordance with the fund's governing documents, and maintain records sufficient to support an examination. Funds that relied on informal or manually maintained expense records are now exposed to examination findings that can result in enforcement actions, reputational damage, and forced remediation — including repayment of incorrectly allocated expenses to LPs.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **LPA and Side Letter Term Extraction**: COCO reads and structures all governing documents:
+1. **LPA and Side Letter Term Extraction**: OpenMax reads and structures all governing documents:
    - Parses the fund LPA to extract all fee and expense allocation provisions: management fee basis, step-down schedule, offset provisions, organizational cost caps, broken deal expense treatment
    - Ingests all LP side letters and extracts LP-specific modifications: fee discounts, expense caps, MFN provisions, carve-outs from standard allocations
    - Maps each LP to their applicable allocation terms, highlighting any conflicts between LPA standard terms and side letter modifications
    - Identifies MFN chains: which LPs have MFN rights, what is the trigger, and which other LPs' terms must be extended to them when triggered
    - Maintains a versioned record of all governing documents with effective dates for historical allocation reconstruction
 
-2. **Automated Management Fee Calculation**: COCO calculates management fees for every LP with precision:
+2. **Automated Management Fee Calculation**: OpenMax calculates management fees for every LP with precision:
    - Calculates management fees on committed capital during the investment period and on invested cost basis thereafter, applying the correct step-down at the investment period end date
    - Applies LP-specific fee discounts from side letters, including tiered discounts based on commitment size or close timing
    - Tracks the management fee basis for each LP across all capital events: new commitments, recycled capital, written-off investments
    - Generates management fee notices for each LP with full calculation detail and a reconciliation to the aggregate fund-level fee
    - Flags any LP whose fee calculation differs from the standard LPA terms and provides the side letter reference supporting the deviation
 
-3. **Fee Offset Tracking and Application**: COCO manages the complex mechanics of fee offsets:
+3. **Fee Offset Tracking and Application**: OpenMax manages the complex mechanics of fee offsets:
    - Tracks all transaction fees, monitoring fees, break-up fees, and director fees received by the fund or GP from portfolio companies
    - Applies the offset percentage specified in the LPA (typically 50–100% offset against management fees) and allocates the offset credit to each LP proportionally
    - Handles timing mismatches: fee income received in one quarter may be offset against management fees in a subsequent quarter
    - Calculates the net management fee receivable for each LP after all applicable offsets
    - Generates a fee offset register for auditor and LP review, documenting every fee received and the offset credit applied
 
-4. **Broken Deal and Fund Expense Allocation**: COCO allocates non-management-fee expenses:
+4. **Broken Deal and Fund Expense Allocation**: OpenMax allocates non-management-fee expenses:
    - Classifies each fund expense against the LPA's permitted expense categories: organizational costs, legal, audit, administration, travel, broken deal, LP-related
    - Applies the correct allocation methodology to each expense type (pro-rata to commitment, pro-rata to invested capital, or specific-to-LP allocation for LP-caused expenses)
    - Enforces organizational cost caps specified in the LPA — flags expenses that would breach the cap and require IC approval for reimbursement
    - Tracks broken deal expenses separately and allocates them to the LPs who were committed capital at the time of the failed transaction
    - Generates an expense attribution report for each LP showing every expense allocated to them in the period with supporting documentation
 
-5. **Capital Call and Distribution Notice Generation**: COCO produces LP-facing financial notices:
+5. **Capital Call and Distribution Notice Generation**: OpenMax produces LP-facing financial notices:
    - Generates capital call notices for each LP showing their pro-rata share of the call, broken down by investment funding vs. management fees vs. fund expenses
    - Produces distribution notices showing each LP's distribution amount, the return of capital component, and the profit distribution component
    - Calculates the tax withholding requirement for each LP based on their jurisdiction and any applicable treaty rates (for cross-border USD funds)
    - Generates a wire instruction package for the fund administrator with LP bank details and amounts for each distribution
    - Maintains a complete call and distribution history for each LP for capital account reconciliation
 
-6. **Audit Package and SEC Examination Support**: COCO produces compliance-ready documentation:
+6. **Audit Package and SEC Examination Support**: OpenMax produces compliance-ready documentation:
    - Generates a complete fee and expense allocation workbook for each audit period with all calculations, source references, and LP-specific details
    - Produces an expense attribution summary formatted for SEC examination response: expense category, amount, allocation methodology, LPA section supporting the allocation, and LP attribution
    - Identifies and flags any expense allocation practices that may require additional disclosure under the SEC's private fund adviser rules
@@ -1045,7 +1045,7 @@ Output: LP capital account statement for each LP + aggregate fund reconciliation
 
 > Tracks KPIs across the entire portfolio in real time, flags underperformers and covenant risks before they become crises, and surfaces early warning signals that allow GP intervention before permanent value impairment.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Portfolio Monitoring Lags Reality — Problems Surface Too Late to Fix**
 
@@ -1055,45 +1055,45 @@ The data problem is structural. Portfolio companies report in inconsistent forma
 
 The intervention cost of late detection is enormous. A portfolio company that begins experiencing customer churn acceleration in Q1 but only surfaces it in its Q2 board package has lost four months of potential corrective action: management focus, product investment, GTM adjustment, or capital allocation to retention. A manufacturing company whose working capital cycle is extending — a leading indicator of demand softness — will show the problem in its EBITDA three quarters after it first appears in days-sales-outstanding. Each month of delay in detection and response represents compounding value erosion that a well-designed monitoring system could have prevented.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Multi-Format KPI Ingestion and Normalization**: COCO accepts portfolio company data in any format:
+1. **Multi-Format KPI Ingestion and Normalization**: OpenMax accepts portfolio company data in any format:
    - Ingests monthly management accounts, board packages, KPI tracker spreadsheets, and email updates from portfolio companies
    - Normalizes heterogeneous metric sets into a standardized dashboard per company, preserving company-specific KPIs alongside cross-portfolio comparable metrics
    - Extracts financial metrics from PDF board decks using document intelligence, without requiring companies to change their reporting format
    - Connects to portfolio company accounting systems (QuickBooks, Xero, NetSuite) via API for real-time data feeds where available
    - Maintains a data quality score for each company — flags companies that are late in reporting or whose data has anomalies requiring verification
 
-2. **Plan vs. Actual Variance Detection**: COCO tracks performance against the investment thesis and operating plan:
+2. **Plan vs. Actual Variance Detection**: OpenMax tracks performance against the investment thesis and operating plan:
    - Loads the approved annual operating plan for each portfolio company at the start of each fiscal year
    - Calculates variance to plan for each KPI in every reporting period: revenue, gross margin, EBITDA, headcount, cash burn, and company-specific metrics
    - Distinguishes seasonal variance from trend variance — a Q4 revenue miss may reflect seasonality; three consecutive quarters of margin compression reflects a structural issue
    - Tracks variance trend: is performance getting better or worse relative to plan over time?
    - Generates a traffic light dashboard: green (within 10% of plan), amber (10–25% adverse variance), red (>25% adverse variance or specific covenant breach)
 
-3. **Leading Indicator and Early Warning Detection**: COCO identifies forward-looking risk signals:
+3. **Leading Indicator and Early Warning Detection**: OpenMax identifies forward-looking risk signals:
    - Monitors leading indicators that predict future financial performance: pipeline coverage ratio, NPS scores, employee turnover rate, DSO trends, supplier payment delays
    - Detects pattern breaks: a company that has grown 15% MoM for 12 months and suddenly shows 5% growth warrants flagging regardless of absolute performance
    - Applies sector-specific early warning models: for SaaS companies, churn rate acceleration is more predictive than revenue decline; for manufacturing, backlog depletion leads revenue by 2–3 quarters
    - Cross-references external market signals: sector news, competitor announcements, or macroeconomic indicators that may affect portfolio company performance
    - Generates a monthly "early warning report" highlighting the top 3 portfolio companies showing leading indicator deterioration
 
-4. **Debt Covenant and Obligation Monitoring**: COCO tracks financial maintenance obligations:
+4. **Debt Covenant and Obligation Monitoring**: OpenMax tracks financial maintenance obligations:
    - Loads debt facility terms for each leveraged portfolio company: financial covenants, reporting obligations, and cure provisions
    - Calculates covenant compliance ratios (leverage ratio, interest coverage, fixed charge coverage) from reported financial data each month
    - Flags companies where current trajectory puts them at risk of breaching a covenant in the next 1–3 months, triggering proactive lender engagement
    - Tracks reporting obligations under debt facilities: financial statement delivery deadlines, compliance certificates, and other required deliverables
    - Generates a covenant compliance status report for each leveraged company for distribution to the deal team and fund CFO
 
-5. **Portfolio-Level Aggregation and Benchmarking**: COCO provides fund-wide performance visibility:
+5. **Portfolio-Level Aggregation and Benchmarking**: OpenMax provides fund-wide performance visibility:
    - Aggregates KPI performance across the entire portfolio into a fund-level dashboard: weighted average revenue growth, margin trends, aggregate burn rate, and capital concentration
    - Benchmarks individual company performance against public company peers and private market comparables for the same sector and stage
    - Calculates the portfolio's aggregate fair value sensitivity: how does a 10% revenue miss across the portfolio affect fund NAV?
    - Identifies concentration risks: what percentage of the portfolio by value is showing amber or red performance indicators?
    - Generates a quarterly portfolio health scorecard for the GP's investment committee and LP reporting
 
-6. **Automated Intervention Recommendation and Escalation**: COCO drives action, not just awareness:
-   - When a portfolio company triggers a red flag, COCO generates a structured intervention brief: what metric triggered the flag, what is the trend, what are the likely causes, and what is the recommended GP action
+6. **Automated Intervention Recommendation and Escalation**: OpenMax drives action, not just awareness:
+   - When a portfolio company triggers a red flag, OpenMax generates a structured intervention brief: what metric triggered the flag, what is the trend, what are the likely causes, and what is the recommended GP action
    - Suggests specific intervention options based on the nature of the problem: management conversation, board agenda item, financial support, operational advisor engagement, or exit process initiation
    - Schedules automated follow-up: if an amber flag is not resolved within 60 days, it escalates to red and triggers a formal deal team review
    - Maintains a log of all flags, interventions, and resolutions for each portfolio company for investment committee reference and LP reporting
@@ -1250,7 +1250,7 @@ Output: Intervention brief (2 pages) for distribution to the deal partner and in
 
 > Models fund-level and deal-level IRR and MOIC across hundreds of exit timing, valuation, and portfolio construction scenarios — enabling investment committees to understand the full distribution of outcomes before committing capital.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Single-Point Return Estimates Create Overconfidence and Mislead Investment Committees**
 
@@ -1260,44 +1260,44 @@ The timing variable alone creates enormous IRR sensitivity that most IC presenta
 
 Fund-level return modeling faces an additional complexity that deal-level models ignore entirely: portfolio construction effects. A fund's realized IRR depends not just on individual deal outcomes, but on the timing and magnitude of capital deployment across the entire portfolio, the recycling of early realizations, the variance of individual deal outcomes (which affects J-curve depth and duration), and the interaction between management fee drag and investment returns. A fund that deploys all capital in year 1 has a materially different IRR profile than one that deploys over 4 years, even if the underlying deal-level returns are identical. Most GPs model deal-level returns in detail and then make simplified assumptions about fund-level aggregation that may not reflect the actual cash flow dynamics.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Deal-Level IRR and MOIC Sensitivity Modeling**: COCO builds comprehensive deal return models:
+1. **Deal-Level IRR and MOIC Sensitivity Modeling**: OpenMax builds comprehensive deal return models:
    - Models deal-level cash flows: initial investment, follow-on capital calls, exit proceeds, and interim distributions
    - Calculates gross IRR and gross MOIC across a full sensitivity matrix: exit valuation (multiple of entry revenue or EBITDA) × exit timing (year 3 through year 10) × follow-on capital requirement
    - Applies exit valuation multiples calibrated to the current market environment for the relevant sector and stage
    - Models the dilution impact of anticipated follow-on rounds on the fund's ownership stake at exit
    - Produces a sensitivity table and heat map showing IRR and MOIC at every combination of exit multiple and hold period
 
-2. **Fund-Level Cash Flow and Return Modeling**: COCO aggregates deal returns to fund performance:
+2. **Fund-Level Cash Flow and Return Modeling**: OpenMax aggregates deal returns to fund performance:
    - Builds a fund-level cash flow model integrating all portfolio company positions, deployment schedule, and management fee drag
    - Calculates net IRR to LPs after management fees, carried interest, and fund expenses under the fund's waterfall structure
    - Models the J-curve: early-year negative cash flows from capital calls and fees, then positive cash flows from distributions
    - Calculates DPI, RVPI, and TVPI trajectories over the fund lifecycle under different portfolio outcome assumptions
    - Shows the impact of early exits and capital recycling on fund-level DPI and net IRR vs. a scenario without recycling
 
-3. **Monte Carlo Scenario Simulation**: COCO runs probabilistic return analysis:
+3. **Monte Carlo Scenario Simulation**: OpenMax runs probabilistic return analysis:
    - Defines probability distributions for key return drivers: revenue growth rate, exit multiple, hold period, follow-on capital required
    - Runs 10,000+ scenario simulations using Monte Carlo methods, sampling from the defined distributions
    - Calculates the probability distribution of fund-level net IRR and MOIC: expected value, median, 25th percentile, 75th percentile, and tail scenarios
    - Identifies the key value drivers: which assumptions have the largest impact on the distribution of outcomes?
    - Produces a probability chart showing the likelihood of achieving target return thresholds (e.g., "68% probability of exceeding 2x net MOIC; 31% probability of exceeding 3x net MOIC")
 
-4. **Vintage Year and Market Cycle Scenario Analysis**: COCO incorporates macro scenarios:
+4. **Vintage Year and Market Cycle Scenario Analysis**: OpenMax incorporates macro scenarios:
    - Models exit environment scenarios: bull market (exit multiples at current or higher levels), base case (multiples at current levels), bear market (multiples compress 25–40%)
    - Applies historical vintage year data to contextualize expected outcomes: how have funds of this vintage, strategy, and geography typically performed in similar market environments?
    - Models the impact of a prolonged market downturn on the fund's exit timing: what if planned exits are delayed 2 years due to IPO market closure?
    - Calculates the NAV impact of a uniform 20% and 40% markdown across the portfolio in a stress scenario
    - Generates a "vintage year sensitivity report" for LP communications during periods of market stress
 
-5. **Carry and Economics Waterfall Modeling**: COCO models the GP's economic outcomes alongside LP returns:
+5. **Carry and Economics Waterfall Modeling**: OpenMax models the GP's economic outcomes alongside LP returns:
    - Calculates carried interest distributions under the fund's waterfall in each return scenario
    - Shows the preferred return hurdle crossover: at what fund TVPI does the carry meter start running?
    - Models GP catch-up provisions and their effect on the sequencing of distributions to LPs vs. the GP
    - Calculates the net cash-on-cash return to the GP management entity (management fees + carry) at each fund performance scenario
    - Produces a GP economics summary for internal planning and LP transparency reporting
 
-6. **Co-Investment and Follow-On Allocation Optimization**: COCO models capital allocation decisions:
+6. **Co-Investment and Follow-On Allocation Optimization**: OpenMax models capital allocation decisions:
    - Models the impact of different follow-on investment amounts on the fund's ownership at exit and resulting IRR
    - Calculates the marginal IRR of deploying additional capital into a top-performing portfolio company vs. deploying to a new investment
    - Shows the impact of co-investment allocations to LPs on fund-level IRR (co-investments reduce fund AUM used in the management fee calculation)
@@ -1313,7 +1313,7 @@ Fund-level return modeling faces an additional complexity that deal-level models
 - **Scenario coverage**: Investment committee presentations now include **200+ scenario combinations** vs. 3 scenarios in typical manual models, providing a genuine distribution of outcomes rather than cherry-picked data points
 - **Model build time**: Full deal-level sensitivity model with fund-level aggregation built in **under 2 hours** vs. 1–2 analyst days for a manually constructed waterfall and sensitivity table
 - **IC decision quality**: Funds using comprehensive scenario modeling report **27% fewer "surprise" outcomes** (exits materially outside the modeled range) vs. funds using single-scenario models
-- **Monte Carlo accuracy**: Realized fund IRR falls within the COCO-modeled 25th–75th percentile range in **79% of cases** evaluated in back-testing against 10-year fund return data
+- **Monte Carlo accuracy**: Realized fund IRR falls within the OpenMax-modeled 25th–75th percentile range in **79% of cases** evaluated in back-testing against 10-year fund return data
 - **Follow-on decision optimization**: Systematic marginal IRR analysis of follow-on decisions improves portfolio-level TVPI by an estimated **0.3–0.5x** vs. intuition-based follow-on allocation
 
 **Who Benefits**
@@ -1469,7 +1469,7 @@ Output: Formatted 2-page performance update section suitable for LP annual meeti
 
 > Evaluates co-investment opportunities alongside a lead GP, benchmarks terms against market standards, and provides LPs and co-investors with a rapid risk-return assessment before the co-investment window closes.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Co-Investment Windows Are Too Short for Thorough Independent Analysis**
 
@@ -1479,44 +1479,44 @@ The structural challenges facing co-investors compound the time pressure. Co-inv
 
 The risk-return analysis for co-investments is also technically demanding in ways that are easy to overlook. Because co-investors typically invest at the same terms as the lead investor's fund, the entry price is set — the only independent variable is the decision to participate or not. This means the co-investor's return analysis must focus on the absolute quality of the investment at the offered terms, not on negotiating better terms. Exit scenario modeling for co-investments must account for the co-investor's minority position, which typically has fewer protective rights than a lead GP's position and limited ability to influence exit timing or structure. The economics of participating vs. not participating — including the opportunity cost of the capital — require a rigorous framework that most co-investors apply inconsistently or not at all.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Co-Investment Opportunity Brief Parsing**: COCO extracts key data from GP-provided materials:
+1. **Co-Investment Opportunity Brief Parsing**: OpenMax extracts key data from GP-provided materials:
    - Ingests the deal summary, term sheet, company financials, and any due diligence materials provided by the lead GP
    - Extracts and structures key investment parameters: company description, sector, stage, round size, valuation, our proposed co-investment amount, anticipated hold period, and exit thesis
    - Identifies gaps in the provided materials — critical information not included that the co-investor should request before committing
    - Benchmarks the information package quality against typical co-investment disclosure standards: is this a complete package or a thin summary?
    - Generates a "pre-analysis information request" list: the 5–7 most important missing data points that would most affect the risk-return assessment
 
-2. **Independent Business Quality Assessment**: COCO provides a rapid, structured evaluation of the underlying business:
+2. **Independent Business Quality Assessment**: OpenMax provides a rapid, structured evaluation of the underlying business:
    - Assesses market size and growth rate: is this a large enough market to support the exit thesis?
    - Evaluates the company's competitive positioning and moat: what would prevent a well-funded competitor from replicating this business?
    - Analyzes the financial profile: revenue trajectory, margin structure, burn rate, and capital efficiency relative to stage benchmarks
    - Reviews management team credibility: founding team track record, domain expertise, and any red flags from publicly available information
    - Produces a business quality score (0–10) with a component breakdown and the 3 most important positive and negative factors
 
-3. **Lead GP Track Record and Selection Analysis**: COCO provides context on the lead investor:
+3. **Lead GP Track Record and Selection Analysis**: OpenMax provides context on the lead investor:
    - Analyzes the lead GP's investment track record: historical returns, sector focus, and stage expertise
    - Assesses the deal's fit with the GP's stated investment strategy and historical deal profile
    - Evaluates the adverse selection risk: is this opportunity being offered broadly to co-investors, or was it selectively offered to a small group of preferred LPs?
    - Identifies any structural reasons the lead GP may want co-investment capital: is the deal size larger than typical for the fund, or has the fund already deployed heavily into this sector?
    - Produces a lead GP risk assessment: high conviction co-invest / adequate / adverse selection risk
 
-4. **Co-Investment Terms Analysis**: COCO reviews the specific terms being offered:
+4. **Co-Investment Terms Analysis**: OpenMax reviews the specific terms being offered:
    - Confirms whether co-investment is on the same economic terms as the lead GP's fund (same series, same price, same rights)
    - Identifies any differences in rights between the co-investor and the fund: pro-rata rights in future rounds, information rights, board observer rights, tag-along rights
    - Flags the absence of information rights or investor protection provisions that would be standard for a direct investor at this size and stage
    - Calculates the economic impact of any differences in terms between the co-investor's position and the lead fund's position at exit
    - Benchmarks terms against market standards for co-investments at this stage and investment size
 
-5. **Return Scenario and Portfolio Fit Analysis**: COCO models the risk-return profile of the co-investment:
+5. **Return Scenario and Portfolio Fit Analysis**: OpenMax models the risk-return profile of the co-investment:
    - Models gross IRR and MOIC at three exit scenarios (bear/base/bull) and three hold periods (3/5/7 years)
    - Calculates the co-investor's effective return after any co-investment management fees or carry that differ from the no-fee/no-carry standard
    - Assesses portfolio fit: does this investment add diversification or increase concentration in sectors or geographies already represented?
    - Compares the risk-return profile against the co-investor's fund mandate or capital allocation framework
    - Produces a go/no-go recommendation with a 3-point rationale for each position
 
-6. **Rapid Decision Support Package**: COCO assembles the materials needed to support a co-investment decision:
+6. **Rapid Decision Support Package**: OpenMax assembles the materials needed to support a co-investment decision:
    - Generates a 1-page co-investment decision memo with opportunity summary, risk-return assessment, terms analysis, and recommendation
    - Produces a list of questions to direct to the lead GP before committing, prioritized by decision relevance
    - Creates a co-investment notification letter template for LP approval processes where required
@@ -1530,10 +1530,10 @@ The risk-return analysis for co-investments is also technically demanding in way
 **Measurable Results**
 
 - **Co-investment analysis time**: Comprehensive risk-return assessment completed in **under 4 hours** from receipt of GP materials, enabling commitment decisions within the typical 5–10 day co-investment window
-- **Adverse selection detection**: COCO identifies co-investment opportunities with above-average adverse selection risk indicators in **34% of evaluated deals** — a rate consistent with academic research on co-investment quality distribution
+- **Adverse selection detection**: OpenMax identifies co-investment opportunities with above-average adverse selection risk indicators in **34% of evaluated deals** — a rate consistent with academic research on co-investment quality distribution
 - **Information gap identification**: An average of **6.2 critical missing data points** identified per co-investment package that co-investors should request before committing
 - **Terms anomaly detection**: Material co-investment terms that differ disadvantageously from the lead fund's position identified in **18% of reviewed term sheets**, representing an average economic impact of $[X] per $1M invested at base-case exit
-- **Decision accuracy**: Back-testing against realized co-investment outcomes shows that COCO's go/no-go recommendation correlates with returns at a **71% accuracy rate**, significantly above the 50% baseline for unanalyzed co-investment decisions
+- **Decision accuracy**: Back-testing against realized co-investment outcomes shows that OpenMax's go/no-go recommendation correlates with returns at a **71% accuracy rate**, significantly above the 50% baseline for unanalyzed co-investment decisions
 
 **Who Benefits**
 
@@ -1665,7 +1665,7 @@ Output: Monitoring plan document + quarterly review checklist for our investment
 
 > Identifies, scores, and prioritizes acquisition targets for portfolio companies pursuing an add-on M&A strategy — accelerating deal flow generation and improving target fit assessment before management bandwidth is consumed.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Add-On M&A Target Identification Is a Resource-Intensive Bottleneck for PE Portfolio Value Creation**
 
@@ -1675,44 +1675,44 @@ The market coverage problem is particularly acute in fragmented sectors. A resid
 
 The evaluation quality problem compounds the sourcing challenge. When targets are identified through broker introductions or direct outreach, the initial triage — is this worth spending management time on a first call? — must happen quickly to avoid wasting a portfolio company CEO's limited bandwidth on acquisitions that will clearly not work. Yet the initial triage often lacks a consistent framework: one deal team member might focus on revenue size while another focuses on geography, and neither applies the platform's actual integration economics to assess whether the acquisition could meet the required return hurdle. Inconsistent triage means some viable targets are passed over while management time is spent on attractive-sounding opportunities that fail basic acquisition model screens.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Target Universe Construction and Mapping**: COCO builds a comprehensive target database for the platform's acquisition strategy:
+1. **Target Universe Construction and Mapping**: OpenMax builds a comprehensive target database for the platform's acquisition strategy:
    - Defines the target universe based on the platform's acquisition criteria: sector, geography, revenue range, business model, and strategic fit parameters
    - Searches commercial databases (Dun & Bradstreet, Hoovers, IBISWorld), sector-specific directories, trade association member lists, and web sources to build an exhaustive target list
    - Enriches each target with available data: estimated revenue range, employee count, ownership status, years in business, geographic footprint, and any available contact information
    - Identifies ownership transition signals: businesses owned by founders above 60 years old, businesses that have recently changed ownership, businesses with succession-related news
    - Produces a master target list segmented by priority tier based on available data and strategic fit
 
-2. **Strategic Fit Scoring**: COCO scores each target against the platform's acquisition thesis:
+2. **Strategic Fit Scoring**: OpenMax scores each target against the platform's acquisition thesis:
    - Applies the platform's acquisition criteria to each identified target: revenue range, geographic fit, customer segment overlap, service line complementarity
    - Scores cultural and operational fit indicators: owner-operated vs. professionally managed, employee count and tenure, technology platform
    - Assesses geographic priority: does this target fill a specific gap in the platform's existing footprint or does it increase concentration in an already-covered market?
    - Evaluates cross-sell potential: does the target bring product capabilities, customer relationships, or geographic coverage that creates demonstrable synergy value?
    - Produces a strategic fit score (0–100) with a component breakdown for each target
 
-3. **Acquisition Economics Modeling**: COCO pre-screens targets against the platform's acquisition model:
+3. **Acquisition Economics Modeling**: OpenMax pre-screens targets against the platform's acquisition model:
    - Estimates revenue and EBITDA margins for each target using available data and sector benchmarks for comparable businesses at the target's scale
    - Applies the platform's acquisition model parameters: target entry multiple, expected synergies (revenue and cost), integration cost, and financing structure
    - Calculates the estimated acquisition IRR and accretion to platform EBITDA at the assumed entry multiple
    - Identifies targets that cannot meet the acquisition return hurdle at any realistic entry multiple — eliminating these early without management bandwidth investment
    - Flags targets where the estimated economics are particularly attractive and warrant priority outreach
 
-4. **Owner Identification and Outreach Preparation**: COCO supports direct-to-seller sourcing:
+4. **Owner Identification and Outreach Preparation**: OpenMax supports direct-to-seller sourcing:
    - Identifies business owners from public records, LinkedIn, and sector directories
    - Drafts personalized outreach messages tailored to the owner's background, business profile, and likely seller motivations
    - Generates an outreach tracking system: who has been contacted, when, response status, and follow-up schedule
    - Creates a "seller motivation profile" for each priority target: what factors are most likely to make this owner receptive to a conversation? (Succession, growth capital, operational support, market consolidation context)
    - Prepares a one-page "platform partnership overview" that explains the acquirer's value proposition for target business owners
 
-5. **Broker and Intermediary Deal Flow Management**: COCO processes intermediary-sourced targets:
+5. **Broker and Intermediary Deal Flow Management**: OpenMax processes intermediary-sourced targets:
    - Ingests CIM packages and broker summaries from intermediaries in any format
    - Applies the strategic fit and acquisition economics screens to intermediary-sourced deals automatically
    - Compares intermediary-sourced targets to the direct-sourced target list to identify overlap and duplication
    - Generates a standardized evaluation summary for each intermediary deal, enabling consistent comparison across broker-sourced and direct-sourced opportunities
    - Tracks which intermediaries are sourcing the best-quality opportunities for the platform's acquisition strategy
 
-6. **Add-On Pipeline Management and Reporting**: COCO maintains the acquisition pipeline:
+6. **Add-On Pipeline Management and Reporting**: OpenMax maintains the acquisition pipeline:
    - Maintains a tiered pipeline: target universe → engaged → in diligence → under LOI → closed
    - Tracks all outreach and engagement activity for every target in the pipeline
    - Generates a monthly add-on pipeline report for the PE deal team and portfolio company management: pipeline breadth, conversion rates, and quality of engaged targets
@@ -1725,7 +1725,7 @@ The evaluation quality problem compounds the sourcing challenge. When targets ar
 
 **Measurable Results**
 
-- **Target universe coverage**: COCO identifies an average of **4.2x more potential acquisition targets** than management-team relationship networks alone for fragmented sector roll-up strategies
+- **Target universe coverage**: OpenMax identifies an average of **4.2x more potential acquisition targets** than management-team relationship networks alone for fragmented sector roll-up strategies
 - **Triage speed**: Time to initial strategic fit screen for a new intermediary-sourced target reduced from **2–3 business days** to **under 2 hours**, enabling same-day triage of all new inbound opportunities
 - **Pipeline generation rate**: Platforms using systematic add-on screening generate **2.8x more qualified LOI-stage conversations per year** vs. platforms relying on broker introductions alone
 - **Management time efficiency**: Portfolio company CEO time spent on non-viable acquisition conversations reduced by **65%** through pre-screening before management bandwidth is committed
@@ -1861,7 +1861,7 @@ Output: Formatted 1-page pipeline report for distribution to PE deal team and po
 
 > Drafts comprehensive investment committee memos covering market thesis, company analysis, financial diligence, risk assessment, and deal terms — turning analyst notes and diligence findings into IC-ready documents in hours.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Investment Memo Drafting Consumes Disproportionate Analyst Time Without Adding Analytical Value**
 
@@ -1871,44 +1871,44 @@ The problem extends beyond just the time cost. IC memo quality is highly variabl
 
 The coordination challenge makes the problem worse. A complete IC memo requires inputs from multiple team members: the deal lead provides the investment thesis and management assessment; the financial analyst provides the model and valuation work; legal counsel provides term sheet analysis; sector specialists provide market context. Assembling these inputs into a coherent narrative requires a project management layer that delays the overall memo completion timeline and frequently results in documents that read as a collection of separately authored sections rather than a unified analytical narrative. The memo then goes through multiple rounds of partner review and revision, each cycle adding days to the process and delaying the IC meeting.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Structured Input Collection and Organization**: COCO organizes deal team inputs into memo-ready material:
+1. **Structured Input Collection and Organization**: OpenMax organizes deal team inputs into memo-ready material:
    - Accepts diligence notes, call summaries, financial analysis outputs, legal term review, and sector research in any format
    - Structures unorganized inputs into the standard memo section framework: market, company, team, financials, terms, risks, returns
    - Identifies gaps in the input material — sections where the team lacks sufficient information to write a complete memo section — and generates a targeted information request list
    - Reconciles conflicting views across different team members' notes, flagging inconsistencies for deal lead resolution before drafting begins
    - Maintains version-controlled records of all source inputs for each memo to support subsequent review and revision
 
-2. **Market Analysis Section Drafting**: COCO writes the market context and sector analysis section:
+2. **Market Analysis Section Drafting**: OpenMax writes the market context and sector analysis section:
    - Synthesizes available market research into a concise market sizing narrative: TAM, SAM, SOM analysis with source citations
    - Describes the sector dynamics and competitive structure relevant to the company's positioning
    - Articulates the market timing thesis: why is this the right moment to invest in this sector or business model?
    - Incorporates macroeconomic context relevant to the investment: interest rate environment, sector tailwinds/headwinds, regulatory developments
    - Produces a 400–600 word market analysis section calibrated to IC-level readers who are already familiar with the sector
 
-3. **Business and Competitive Analysis Section**: COCO writes the company and competition section:
+3. **Business and Competitive Analysis Section**: OpenMax writes the company and competition section:
    - Drafts a concise company overview: founding story, business model, product or service description, customer segments, revenue model
    - Articulates the company's competitive positioning: primary competitors, relative strengths and weaknesses, barriers to entry, network effects or switching costs
    - Synthesizes the management diligence findings: team backgrounds, relevant experience, key risks, and confidence level
    - Writes the customer and go-to-market analysis: customer concentration, churn, sales cycle, unit economics, distribution model
    - Produces a 600–900 word company and competitive analysis section
 
-4. **Financial Analysis and Valuation Section**: COCO drafts the financial diligence section:
+4. **Financial Analysis and Valuation Section**: OpenMax drafts the financial diligence section:
    - Synthesizes historical financial performance: revenue growth, margin trends, capital efficiency metrics, and quality of earnings observations
    - Writes the financial projections narrative: base, upside, and downside case assumptions and their support
    - Drafts the valuation section: entry multiple analysis, comparable company benchmarking, and implied return scenarios
    - Incorporates the sensitivity analysis from the financial model into a concise scenario discussion
    - Produces a 500–700 word financial analysis section with model outputs presented in IC-appropriate summary format
 
-5. **Risk and Mitigant Section Drafting**: COCO writes a structured risk analysis:
+5. **Risk and Mitigant Section Drafting**: OpenMax writes a structured risk analysis:
    - Identifies the 5–7 most material risks to the investment thesis based on the diligence findings
    - For each risk, drafts a concise description, an assessment of likelihood and severity, and the mitigants that reduce the fund's exposure
    - Distinguishes deal-specific risks from sector-wide risks and macro risks
    - Identifies any conditions precedent or pre-close requirements that reduce specific risk categories
    - Produces a risk section that demonstrates to the IC that the deal team has confronted the investment's challenges honestly, not just its upsides
 
-6. **IC Memo Assembly and Formatting**: COCO produces the final document:
+6. **IC Memo Assembly and Formatting**: OpenMax produces the final document:
    - Assembles all drafted sections into a complete memo following the fund's standard template and style guide
    - Generates the executive summary: a 200–300 word synthesis of the investment thesis, key financials, deal terms, and return expectation
    - Applies consistent tone, terminology, and analytical framing across all sections
@@ -1924,8 +1924,8 @@ The coordination challenge makes the problem worse. A complete IC memo requires 
 - **Memo drafting time**: First complete draft produced in **under 6 hours** from submission of structured inputs, vs. 2–4 days for manual drafting by an analyst
 - **IC review cycles**: Number of substantive revision rounds before IC-ready status reduced from an average of **3.8 rounds** to **1.9 rounds**, driven by higher first-draft quality
 - **Cross-team memo consistency**: Quality variance between memos authored by different team members (measured by IC feedback scores) reduced by **44%**, improving IC decision consistency
-- **Analytical coverage**: Memos produced with COCO assistance cover **2.3 more risk factors** on average vs. manually drafted memos, reflecting more systematic risk identification
-- **Deal velocity**: Average time from LOI execution to IC presentation reduced by **6 business days** when memo drafting is supported by COCO, enabling faster close timelines in competitive processes
+- **Analytical coverage**: Memos produced with OpenMax assistance cover **2.3 more risk factors** on average vs. manually drafted memos, reflecting more systematic risk identification
+- **Deal velocity**: Average time from LOI execution to IC presentation reduced by **6 business days** when memo drafting is supported by OpenMax, enabling faster close timelines in competitive processes
 
 **Who Benefits**
 
@@ -2068,7 +2068,7 @@ Output: Executive summary + deal card, each on one page, formatted for IC distri
 
 > Builds institutional-quality fund marketing materials — including pitch books, one-pagers, and data room documents — that communicate the fund's thesis, track record, and team to prospective LPs.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Fundraising Materials Consume Months of GP Time and Arrive Inconsistent and Outdated**
 
@@ -2078,44 +2078,44 @@ The consistency and accuracy problem is significant. Fund pitch books must recon
 
 The LP differentiation challenge compounds these problems. Different LP audiences require different marketing materials. A sovereign wealth fund wants a detailed track record analysis with vintage year benchmarking; a family office wants a simple narrative on the fund strategy and key deals; a fund of funds wants operational and compliance documentation; an insurance company wants risk-adjusted return analysis and portfolio diversification data. Building LP-specific versions of marketing materials from a single master document requires significant manual customization that most IR teams don't have capacity for — so they send the same generic deck to everyone and wonder why conversion rates are low.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Fund Data Aggregation and Consistency Engine**: COCO pulls all fund data from authoritative sources:
+1. **Fund Data Aggregation and Consistency Engine**: OpenMax pulls all fund data from authoritative sources:
    - Ingests fund performance data from the administrator, capital account records, and investment transaction history
    - Calculates all performance metrics (DPI, RVPI, TVPI, gross IRR, net IRR, MOIC) from source data with full reconciliation
    - Pulls portfolio company data from board packages and KPI trackers, normalized to a consistent presentation format
    - Maintains a "single source of truth" for all metrics used in marketing materials, with version control and audit trail
    - Flags any metric discrepancy between sections of the draft materials before distribution
 
-2. **Narrative Pitch Book Generation**: COCO drafts the strategic content sections:
+2. **Narrative Pitch Book Generation**: OpenMax drafts the strategic content sections:
    - Drafts the fund strategy section: investment thesis, target sectors and stages, geographic focus, value creation approach
    - Writes the market opportunity section: the macroeconomic and sector-specific factors that create the investment environment the fund is positioned to exploit
    - Generates the competitive differentiation section: what makes this fund's sourcing, diligence, and portfolio support approach distinctive?
    - Drafts the portfolio overview section: key investments, sector distribution, stage distribution, and notable performance highlights
    - Writes the team section: partner biographies calibrated to LP-appropriate detail level, highlighting relevant investment and operating experience
 
-3. **Track Record Presentation and Benchmarking**: COCO produces the performance section:
+3. **Track Record Presentation and Benchmarking**: OpenMax produces the performance section:
    - Generates the full track record table: all investments made, exit status, cost, current value, realized and unrealized MOIC and IRR
    - Produces vintage year benchmark comparisons using Cambridge Associates, Preqin, or other relevant indices
    - Creates the realized track record subset: exited investments only, with realized multiples and IRR, clearly distinguished from unrealized marks
    - Generates performance attribution analysis: contribution by vintage year, sector, and deal stage to overall fund return
    - Produces the fund-level cash flow waterfall chart and J-curve visualization for the current fund
 
-4. **LP-Specific Version Generation**: COCO customizes materials for different LP audiences:
+4. **LP-Specific Version Generation**: OpenMax customizes materials for different LP audiences:
    - Generates institutional version: deep track record analysis, ILPA-format data appendix, detailed investment process, compliance and operational DD section
    - Produces family office version: streamlined narrative, key deal highlights, GP accessibility and communication approach emphasis
    - Creates fund of funds version: portfolio diversification analysis, sub-advisor selection criteria, fee and carry structure explanation
    - Generates executive one-pager: single page for cold introductions, covering strategy, team headline, track record, and next fund opportunity
    - Tailors language and emphasis to the regulatory context of the LP's domicile (US institutional, European AIFMD, APAC)
 
-5. **Data Room Document Generation**: COCO produces the full LP due diligence package:
+5. **Data Room Document Generation**: OpenMax produces the full LP due diligence package:
    - Generates the due diligence questionnaire (DDQ) responses based on the fund's documentation and governance structure
    - Produces the fund terms summary: fee structure, waterfall, governance, LP rights, side letter policy
    - Creates the legal and compliance section: regulatory registrations, ADV or equivalent disclosures, AML/KYC policies
    - Generates the operational due diligence (ODD) package: back-office infrastructure, fund administration, valuation policy, cybersecurity
    - Assembles the complete data room package with index, organized for LP due diligence team review
 
-6. **Ongoing Update and Maintenance Automation**: COCO keeps marketing materials current:
+6. **Ongoing Update and Maintenance Automation**: OpenMax keeps marketing materials current:
    - Updates performance metrics and portfolio company summaries on a quarterly cycle aligned with LP reporting
    - Generates a "materials change log" with every section updated since the prior version for partner review
    - Applies regulatory and legal disclosure updates automatically when the firm's compliance team flags required changes
@@ -2130,7 +2130,7 @@ The LP differentiation challenge compounds these problems. Different LP audience
 
 - **Initial pitch book production time**: From data inputs to first complete draft reduced from **8–12 weeks** to **2–3 weeks**, enabling faster fundraising launch timelines
 - **Data consistency errors**: Metrics inconsistencies across sections of marketing materials reduced from an average of **9 per document** to **0** through single-source data aggregation
-- **LP conversion rate**: Funds using COCO-produced differentiated LP materials report **31% higher first-meeting-to-serious-diligence conversion rates** vs. using generic pitch books for all LP audiences
+- **LP conversion rate**: Funds using OpenMax-produced differentiated LP materials report **31% higher first-meeting-to-serious-diligence conversion rates** vs. using generic pitch books for all LP audiences
 - **Quarterly update cycle time**: Refreshing all marketing materials with current-quarter performance data reduced from **3–4 weeks** to **3–5 business days**
 - **DDQ response time**: Institutional LP due diligence questionnaire responses completed in **under 1 week** vs. 3–6 weeks for manually prepared responses
 
@@ -2284,7 +2284,7 @@ Output: Updated pitch book + change log memo
 
 > Maintains a comprehensive, current view of all LP relationships, commitments, soft circles, and engagement touchpoints — ensuring no LP falls through the cracks during a fundraise or re-up cycle.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: LP Relationship Management Is Fragmented Across Inboxes, Spreadsheets, and Institutional Memory**
 
@@ -2294,44 +2294,44 @@ The fundraising phase intensifies these coordination challenges. During an activ
 
 The post-close relationship management challenge is equally significant. Once a fund is closed, the GP has LP reporting obligations, LP advisory committee (LPAC) governance requirements, side letter obligations, co-investment notification requirements, and ongoing relationship management for the 10-year fund life — all while simultaneously managing a portfolio and preparing for the next fundraise. The LPs who receive proactive, consistent communication and feel that the GP treats them as genuine partners (rather than passive capital sources) are the ones who re-up in the next fund and refer other LPs. The LPs who feel neglected between capital calls become skeptical at re-up and are the first to decline in a difficult fundraising environment.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Comprehensive LP Database Maintenance**: COCO maintains a complete LP and prospect record:
+1. **Comprehensive LP Database Maintenance**: OpenMax maintains a complete LP and prospect record:
    - Stores all LP and LP prospect records: institution name, contact details, commitment history, LP type, investment mandate, and relationship owner
    - Tracks the relationship stage for each LP: prospect → engaged → in diligence → soft circle → committed → closed → current LP → re-up target
    - Maintains a contact log for every interaction: emails, calls, meetings, events, and any other touchpoints, with date, participants, and summary
    - Records each LP's stated investment preferences, constraints, and decision-making process for use in tailoring future communications
    - Maintains a data quality score for each record — flags contacts with missing or outdated information for periodic refreshes
 
-2. **Commitment Tracking and Capital Account Management**: COCO tracks the financial dimensions of LP relationships:
+2. **Commitment Tracking and Capital Account Management**: OpenMax tracks the financial dimensions of LP relationships:
    - Records all commitment amounts, close dates, and any subsequent commitment modifications for every LP across all funds
    - Tracks capital call history: amounts called, dates, and LP payment status (paid, pending, overdue)
    - Records all distributions received by each LP and their cumulative cash-on-cash return to date
    - Maintains side letter terms for each LP, with flags for upcoming trigger dates or reporting obligations
    - Generates a real-time LP commitment summary: total committed capital, called to date, uncalled dry powder, and distributions paid
 
-3. **Fundraising Pipeline Management**: COCO manages the active fundraise workflow:
+3. **Fundraising Pipeline Management**: OpenMax manages the active fundraise workflow:
    - Tracks each prospective LP's position in the diligence pipeline: materials sent → meeting held → DDQ submitted → IC approval → legal negotiation → soft circle → hard commit
    - Calculates the current soft-circled total vs. the fund's target and minimum close threshold
    - Flags LPs with stale engagement (no contact in 30+ days during an active fundraise) for proactive re-engagement
    - Tracks each LP's internal approval process: which approvals are pending, expected timeline, and any information requests outstanding
    - Generates a weekly fundraising pipeline summary: total committed, total soft-circled, top 5 LPs requiring immediate action, and projected close date
 
-4. **LP Communication Planning and Execution**: COCO plans and tracks all LP communications:
+4. **LP Communication Planning and Execution**: OpenMax plans and tracks all LP communications:
    - Generates a quarterly LP communication calendar: which LPs are due for a check-in call, which ones should receive proactive updates about portfolio company news, which ones are approaching a re-up decision window
    - Drafts personalized LP update communications, co-investment notifications, and event invitations calibrated to each LP's relationship stage and engagement preferences
    - Tracks all outbound communications and responses, flagging unanswered messages that require follow-up
    - Manages the LP advisory committee (LPAC) calendar: meeting scheduling, agenda preparation, materials distribution, and minutes tracking
    - Generates LP-specific communication plans for the 6-month period preceding a planned re-up conversation
 
-5. **Re-Up Readiness Assessment**: COCO prepares for next-fund commitment conversations:
+5. **Re-Up Readiness Assessment**: OpenMax prepares for next-fund commitment conversations:
    - Generates a "re-up readiness score" for each current LP: based on engagement frequency, satisfaction signals, prior commitment growth, and co-investment participation
    - Identifies LPs at risk of not re-upping: low engagement, unresolved concerns, changes in their internal investment mandate or personnel
    - Produces a re-up conversation brief for each LP: account history, what they care about most, what performance narrative to lead with, and any outstanding issues to address proactively
    - Tracks LP allocation cycles: when is each LP's budget year? When does their investment committee review commitments? When should the GP initiate the re-up conversation?
    - Generates a next-fund target commitment model: estimated re-up amounts from existing LPs + new LP target commitments needed to reach fund target
 
-6. **LP Reporting Obligation Compliance**: COCO tracks all LP-facing compliance requirements:
+6. **LP Reporting Obligation Compliance**: OpenMax tracks all LP-facing compliance requirements:
    - Maintains a schedule of all reporting deliverables for each LP: quarterly reports, annual financials, audit delivery, LPAC meeting requirements, capital call and distribution notice timelines
    - Flags approaching deadlines with sufficient lead time for preparation (quarterly report due: 45 days after quarter-end; flag 60 days before)
    - Tracks side letter reporting obligations: LPs with special reporting requirements (ESG reporting, ERISA compliance, FOIA-sensitive information handling)
@@ -2506,7 +2506,7 @@ Output: Annual compliance calendar (monthly view) + Q1 action list + LP-specific
 
 > Automates the preparation of required regulatory filings for private funds — including SEC Form D, AIFMD reporting, and state blue sky filings — reducing preparation time and eliminating common errors that trigger regulatory scrutiny.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Private Fund Regulatory Filings Are Technically Demanding, Deadline-Driven, and Error-Prone When Managed Manually**
 
@@ -2516,48 +2516,48 @@ The complexity of these filings is often underestimated by teams that have not e
 
 The AIFMD reporting burden for cross-border USD funds with European LPs has added a second layer of regulatory complexity. Annex IV reporting requires fund managers to report detailed information on fund leverage, portfolio risk metrics, investor geographical distribution, and trading practices on a quarterly or annual basis depending on AUM thresholds. This reporting requires specialized technical knowledge and access to portfolio-level data at a level of granularity that exceeds most fund managers' standard internal reporting infrastructure. The penalties for late or materially incorrect AIFMD filings — including potential loss of marketing rights in EU member states — are significant and are increasingly enforced by national regulators as the regime matures.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Filing Obligation Identification and Calendar Management**: COCO tracks all required filings:
+1. **Filing Obligation Identification and Calendar Management**: OpenMax tracks all required filings:
    - Identifies all regulatory filing obligations applicable to the fund based on its structure, domicile, investor base, and marketing activities
    - Builds a filing calendar with all deadlines for the current and next 12 months: Form D initial filing, annual amendment, state blue sky notices, ADV annual update, AIFMD Annex IV quarterly and annual reports
    - Monitors LP closings and investor residency changes to identify new state blue sky filing triggers
    - Alerts the compliance team 30, 14, and 7 days before each filing deadline
    - Maintains a complete filing history with filed document versions, submission confirmations, and regulator correspondence
 
-2. **Form D Preparation and Compliance**: COCO prepares SEC Form D filings:
+2. **Form D Preparation and Compliance**: OpenMax prepares SEC Form D filings:
    - Extracts all required Form D data from the fund's LPA, offering documents, and LP records: fund name, issuer information, offering type, exemption claimed, securities type, minimum investment, total offering amount
    - Identifies the correct exemption (Rule 506(b) or 506(c)) based on the marketing approach and verifies consistency with actual marketing activities
    - Calculates the "total amount sold to date" figure for amendment filings from the LP commitment records
    - Identifies all states where LP investors reside and generates a state blue sky filing list with applicable requirements and fees for each state
    - Produces a complete, EDGAR-ready Form D XML filing and a human-readable review copy for compliance officer sign-off
 
-3. **State Blue Sky Notice Filing Management**: COCO handles multi-state notice obligations:
+3. **State Blue Sky Notice Filing Management**: OpenMax handles multi-state notice obligations:
    - Maps each LP's state of residence to the applicable state securities law notice requirements
    - Identifies states requiring notice filings, the filing form, fee amount, and deadline (typically within 15 days of first sale to a resident of that state)
    - Generates state-specific notice filings for each required state in the required format
    - Tracks annual renewal requirements in states that require renewal of blue sky notice filings
    - Maintains a state filing status dashboard: all required states, filing status, fee paid, renewal due dates
 
-4. **AIFMD Annex IV Reporting Preparation**: COCO prepares EU regulatory reports:
+4. **AIFMD Annex IV Reporting Preparation**: OpenMax prepares EU regulatory reports:
    - Calculates the AUM threshold applicable to the fund to determine the correct reporting frequency (quarterly above €1B; annual below)
    - Extracts all required portfolio data for the Annex IV report: NAV, leverage ratios, geographical distribution of investments, investor geographical distribution, principal markets, main instruments traded
    - Calculates leverage under both the Gross and Commitment methods as defined in the AIFMD Level 2 regulation
    - Generates the liquidity profile analysis required by the AIFMD: match between redemption rights and portfolio liquidity
    - Produces the Annex IV report in the XML format required by the relevant national competent authority (NCA) and generates a human-readable review version
 
-5. **Form ADV Annual Update Preparation**: COCO supports registered adviser obligations:
+5. **Form ADV Annual Update Preparation**: OpenMax supports registered adviser obligations:
    - Tracks the annual ADV filing deadline (90 days after fiscal year-end) and interim amendment triggers (material changes to business)
    - Reviews the prior year ADV for sections requiring update based on changes in AUM, investment strategies, fee arrangements, or conflicts
    - Drafts updated ADV Part 1A and Part 2A (brochure) sections incorporating current-year data and any required disclosure changes
    - Flags any material changes that require prompt amendment filing (within 30 days of the change) rather than annual update
    - Generates the ADV update in IARD-ready format for compliance officer review and electronic filing
 
-6. **Filing Audit Trail and Regulatory Response Support**: COCO maintains compliance documentation:
+6. **Filing Audit Trail and Regulatory Response Support**: OpenMax maintains compliance documentation:
    - Maintains a complete, auditable record of all filing preparation steps, source documents used, calculations performed, and sign-off history
    - Generates a filing certificate for each submission confirming accuracy of key data points and the identity of the reviewing compliance officer
    - Produces a "regulator correspondence file" tracking all communications with the SEC, state regulators, and EU NCAs related to any filing
-   - Supports examination responses: when a regulator requests documentation supporting a specific filing, COCO retrieves the full preparation package with source references
+   - Supports examination responses: when a regulator requests documentation supporting a specific filing, OpenMax retrieves the full preparation package with source references
    - Generates a periodic "regulatory health check" reviewing all outstanding filings for completeness and accuracy
 
 :::
@@ -2568,14 +2568,14 @@ The AIFMD reporting burden for cross-border USD funds with European LPs has adde
 
 - **Form D preparation time**: Reduced from **2–3 business days** (legal/compliance team) to **under 4 hours** per filing, including all state blue sky notices
 - **State blue sky compliance**: Missed state notice filings reduced from an industry average of **1–2 per fund per year** to **0** through systematic LP residency tracking and automated filing identification
-- **AIFMD Annex IV preparation time**: Quarterly report preparation reduced from **3–4 weeks** (requiring external consultant support) to **1 week** with COCO-supported data extraction and report generation
+- **AIFMD Annex IV preparation time**: Quarterly report preparation reduced from **3–4 weeks** (requiring external consultant support) to **1 week** with OpenMax-supported data extraction and report generation
 - **Filing error rate**: Technically incorrect Form D submissions identified in self-review before submission reduced from **1 in 4 manual filings** to **1 in 20**, based on automated validation against EDGAR requirements
 - **Regulatory examination outcomes**: Funds with systematic filing documentation experience **73% lower rates of material examination findings** related to Regulation D compliance vs. funds with manual filing records
 
 **Who Benefits**
 
 - **Fund Compliance Officers**: Replace manual tracking of multi-jurisdiction filing obligations with a systematic calendar and preparation workflow that eliminates deadline misses and reduces preparation time
-- **Fund Counsel (Outside Legal)**: Receive COCO-prepared filing drafts for review rather than being responsible for data extraction from scratch, reducing legal fees and turnaround time for routine filings
+- **Fund Counsel (Outside Legal)**: Receive OpenMax-prepared filing drafts for review rather than being responsible for data extraction from scratch, reducing legal fees and turnaround time for routine filings
 - **Fund Managers and GPs**: Maintain full regulatory compliance without diverting partner time to filing mechanics, with a documented compliance record that supports examination defense
 - **Limited Partners**: Invest in funds that demonstrate systematic regulatory compliance — an important operational due diligence signal for institutional LP investors evaluating GP operational quality
 
@@ -2714,7 +2714,7 @@ Output: Annual compliance calendar (monthly view) + current status dashboard + 3
 
 > Generates comprehensive ESG and impact reports for LP audiences — covering portfolio company sustainability metrics, fund-level ESG integration, and progress toward stated impact targets — in formats aligned with leading ESG reporting frameworks.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: LP ESG Reporting Demands Are Intensifying Faster Than GP Infrastructure Can Keep Pace**
 
@@ -2724,44 +2724,44 @@ The data challenge facing GPs is formidable. Unlike public companies, private eq
 
 The framework complexity problem compounds the data challenge. There is no single universal ESG reporting standard for private markets. LPs may request alignment with SASB standards, GRI, TCFD climate disclosures, UNPRI reporting requirements, EDCI (ESG Data Convergence Initiative) metrics, or proprietary frameworks unique to their institution. Each framework has different scope, metric definitions, and reporting formats. A GP managing relationships with 30 LPs who each have different ESG reporting preferences faces an almost impossible task of producing bespoke reports for each without a technology infrastructure that can reformat the same underlying data into multiple framework outputs.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Portfolio Company ESG Data Collection and Normalization**: COCO manages the data collection process:
+1. **Portfolio Company ESG Data Collection and Normalization**: OpenMax manages the data collection process:
    - Generates standardized ESG data request templates for portfolio companies, calibrated to their sector, size, and the GP's priority ESG metrics
    - Accepts ESG data submissions in any format — completed spreadsheets, email responses, sustainability reports — and normalizes them into a consistent data structure
    - Identifies missing data and generates follow-up requests with specific guidance on how portfolio companies should measure and report each metric
    - Applies data quality checks: flags implausible values, missing comparisons, and inconsistencies between reported metrics and prior-year submissions
    - Maintains a portfolio-level ESG data repository with version control and audit trail for each reported metric
 
-2. **Multi-Framework ESG Report Generation**: COCO produces reports aligned with LP requirements:
+2. **Multi-Framework ESG Report Generation**: OpenMax produces reports aligned with LP requirements:
    - Maps the GP's collected ESG data to the metric definitions required by each major reporting framework: EDCI, SASB, GRI, TCFD, UNPRI, SFDR
    - Generates framework-specific ESG reports from the same underlying dataset, eliminating the need for separate data collection for each framework
    - Flags where data coverage is insufficient to fully satisfy a specific framework's requirements and provides the best available partial disclosure
    - Produces LP-specific ESG reports tailored to each LP's stated framework preference and emphasis areas
    - Generates a "data coverage scorecard" for each framework: which metrics are fully covered, which are partially covered, and which are unavailable
 
-3. **Fund-Level ESG Integration Narrative**: COCO documents the GP's ESG process:
+3. **Fund-Level ESG Integration Narrative**: OpenMax documents the GP's ESG process:
    - Drafts the fund-level ESG integration narrative: how ESG factors are incorporated into deal screening, due diligence, and portfolio management
    - Documents the GP's ESG policy framework: scope of ESG analysis, responsible investment principles, exclusion criteria, and engagement approach
    - Generates the ESG due diligence process description: what ESG assessment is conducted at deal entry and how findings influence the investment decision
    - Produces the portfolio company engagement narrative: how the GP works with portfolio companies to improve ESG performance post-investment
    - Documents governance and stewardship activities: board representation, ESG covenant enforcement, and material incident response
 
-4. **Impact Measurement and Progress Reporting**: COCO tracks impact metrics for impact-focused funds:
+4. **Impact Measurement and Progress Reporting**: OpenMax tracks impact metrics for impact-focused funds:
    - Tracks progress toward the fund's stated impact objectives using the portfolio company data collected
    - Calculates aggregate impact metrics: total carbon footprint of the portfolio, diversity metrics across portfolio workforce, safety metrics, community investment, etc.
    - Generates impact case studies for 2–3 portfolio companies demonstrating specific, measurable impact outcomes
    - Compares current-year impact metrics against prior-year baseline and the fund's stated impact targets
    - Produces an impact progress report in formats aligned with IRIS+, IFC Operating Principles for Impact Management, or SDG mapping
 
-5. **Climate Risk and TCFD Disclosure**: COCO produces climate-specific reporting:
+5. **Climate Risk and TCFD Disclosure**: OpenMax produces climate-specific reporting:
    - Generates portfolio-level climate risk assessment aligned with TCFD recommendations: physical risk exposure, transition risk, and climate-related opportunities
    - Calculates portfolio GHG emissions (Scope 1, 2, and 3 where available) using sector-appropriate estimation methodologies for data gaps
    - Maps the portfolio's climate risk exposure by sector and geography, highlighting highest-risk holdings
    - Produces the TCFD report structure: governance, strategy, risk management, metrics and targets
    - Generates scenario analysis narrative: the portfolio's exposure under 1.5°C and 2°C warming scenarios
 
-6. **LP ESG Communication Package Assembly**: COCO assembles the final deliverables:
+6. **LP ESG Communication Package Assembly**: OpenMax assembles the final deliverables:
    - Combines the fund-level ESG narrative, portfolio data, framework-specific metrics, and impact highlights into a complete annual ESG report
    - Produces a concise ESG summary (2–4 pages) for LP annual meeting presentations and marketing materials
    - Generates LP-specific ESG data packs containing only the metrics and disclosures each LP has requested
@@ -2775,7 +2775,7 @@ The framework complexity problem compounds the data challenge. There is no singl
 **Measurable Results**
 
 - **ESG data collection time**: Annual ESG data collection from portfolio companies reduced from **8–12 weeks** of manual outreach to **3–4 weeks** through standardized templates and systematic follow-up
-- **Framework coverage**: Funds using COCO ESG reporting satisfy **4.2 different LP framework requirements** on average from a single data collection effort, vs. 1.8 frameworks with manual reporting
+- **Framework coverage**: Funds using OpenMax ESG reporting satisfy **4.2 different LP framework requirements** on average from a single data collection effort, vs. 1.8 frameworks with manual reporting
 - **LP ESG qualification rate**: GPs producing systematic ESG reports pass LP ESG due diligence screens at a **67% higher rate** than GPs without formal ESG reporting infrastructure
 - **Data completeness**: Portfolio company ESG data collection achieves **78% completion rate** vs. 52% for informal email-based collection, with the completeness gap attributable to systematic follow-up
 - **Report production time**: Annual ESG report from collected data to LP-ready document completed in **2–3 weeks** vs. 8–12 weeks for manual drafting and design
@@ -2917,7 +2917,7 @@ Output: LP-specific ESG data pack (PDF, 4–6 pages) formatted for their interna
 
 > Analyzes fund-level concentration risk across sectors, stages, geographies, business models, and capital deployment timing — and models the portfolio construction adjustments needed to improve risk-adjusted return profiles.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Portfolio Concentration Risks Build Silently Until They Crystallize in Simultaneous Losses**
 
@@ -2927,44 +2927,44 @@ The challenge for fund managers is that concentration risks are built over time 
 
 The problem intensifies at fund-level. The fund's LPA describes a stated investment strategy — "technology-focused growth equity, primarily US-based" — that implicitly limits certain types of concentration without defining specific guardrails. When the fund approaches the end of its investment period having deployed most of its capital, the remaining dry powder decisions are made under pressure to deploy rather than under a systematic portfolio construction framework. This is precisely the moment when concentration risk tends to build most rapidly: the last investments fill the "closest to the prior investment's sector" mental model rather than a genuine portfolio gap, and the fund ends its investment period with a more concentrated profile than any individual deal decision intended.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Multi-Dimensional Concentration Analysis**: COCO measures concentration across all relevant risk dimensions:
+1. **Multi-Dimensional Concentration Analysis**: OpenMax measures concentration across all relevant risk dimensions:
    - Calculates sector concentration: % of fund NAV in each primary sector (technology, healthcare, fintech, consumer, etc.) and sub-sector (vertical SaaS, API infrastructure, developer tools, etc.)
    - Measures stage concentration: % of capital deployed at seed, Series A, Series B, and growth stages
    - Analyzes geographic concentration: % of portfolio companies by headquarters country, revenue geography, and key customer geography
    - Assesses customer segment concentration: how many portfolio companies target the same end-customer segment (enterprise, mid-market, SMB)?
    - Identifies technology dependency concentration: how many portfolio companies rely on the same cloud provider, programming language, or technology infrastructure?
 
-2. **Correlation and Co-Movement Risk Assessment**: COCO identifies hidden correlations:
+2. **Correlation and Co-Movement Risk Assessment**: OpenMax identifies hidden correlations:
    - Analyzes historical co-movement patterns between the sectors represented in the portfolio using public market proxies and academic research
    - Identifies "macro factor exposures": how sensitive is the portfolio to interest rates, enterprise IT spending, consumer confidence, or regulatory changes in specific sectors?
    - Maps customer segment overlaps: which portfolio companies are selling to the same buyers, competing for the same budget dollars, or benefiting from the same spending trend?
    - Identifies key person dependencies: founders with experience from the same employer cohort (e.g., multiple portfolio companies founded by ex-Stripe employees) share a common network and reference set
    - Generates a "correlation heat map" showing the degree of potential co-movement between portfolio company pairs
 
-3. **Portfolio Construction Stress Testing**: COCO tests the portfolio against adverse scenarios:
+3. **Portfolio Construction Stress Testing**: OpenMax tests the portfolio against adverse scenarios:
    - Models the portfolio-level NAV impact of a severe tech sector correction (−40% EV/revenue multiple compression) on total fund NAV
    - Calculates the impact of an interest rate shock (rates remaining elevated for 3+ more years) on growth-stage portfolio companies with high burn rates
    - Models a regulatory adverse event affecting the portfolio's most concentrated sector (e.g., AI regulatory restriction for an AI-heavy portfolio)
    - Analyzes a "vintage year risk" scenario: all companies in the portfolio that raised their last round at 2021–2022 peak valuations face down rounds
    - Produces a "portfolio resilience score" based on the proportion of NAV that would survive each stress scenario above a 1x return threshold
 
-4. **Marginal Concentration Impact Assessment**: COCO evaluates how each new investment affects the portfolio:
+4. **Marginal Concentration Impact Assessment**: OpenMax evaluates how each new investment affects the portfolio:
    - For any proposed new investment, calculates the marginal change in each concentration dimension: how does adding this investment change sector, stage, geography, and customer segment concentration?
    - Generates a "portfolio fit score" for proposed investments that measures diversification benefit vs. concentration increase
    - Flags proposed investments that would push any concentration dimension above a defined threshold (e.g., single sector > 30% of NAV)
    - Provides the IC with a "portfolio construction view" alongside the deal-level analysis for each new investment decision
    - Calculates the opportunity cost of not investing: what diversification gap remains if this investment is passed?
 
-5. **Dry Powder Deployment Optimization**: COCO recommends portfolio construction adjustments:
+5. **Dry Powder Deployment Optimization**: OpenMax recommends portfolio construction adjustments:
    - Analyzes the current portfolio's gap map: which sectors, geographies, stages, or business models are underrepresented relative to the fund's stated strategy?
    - Generates a deployment priority framework for remaining dry powder: where should the fund focus its remaining capital to improve the portfolio's risk-return profile?
    - Models the portfolio's expected return distribution under the current construction vs. after targeted rebalancing through new investments
    - Identifies portfolio companies where a follow-on investment would improve concentration (doubling down on a different sector) vs. increase it (following into the same sector)
    - Produces a "fund construction scorecard" comparing the current portfolio against the ideal construction described in the fund's LPA
 
-6. **LP Concentration Risk Disclosure**: COCO generates LP-appropriate reporting:
+6. **LP Concentration Risk Disclosure**: OpenMax generates LP-appropriate reporting:
    - Produces the portfolio concentration analysis section of the quarterly LP report: sector, stage, geography breakdown with trend analysis
    - Generates a "concentration risk memo" for the LP advisory committee (LPAC) when concentration in any dimension exceeds LP-disclosed thresholds
    - Creates a portfolio diversification chart package: sector pie charts, stage distribution, geography maps, vintage year distribution
@@ -2977,11 +2977,11 @@ The problem intensifies at fund-level. The fund's LPA describes a stated investm
 
 **Measurable Results**
 
-- **Concentration risk dimensions monitored**: Funds using COCO track an average of **7 distinct concentration dimensions** simultaneously vs. 2.1 dimensions for funds relying on informal partner-level monitoring
+- **Concentration risk dimensions monitored**: Funds using OpenMax track an average of **7 distinct concentration dimensions** simultaneously vs. 2.1 dimensions for funds relying on informal partner-level monitoring
 - **Correlated loss event detection**: Portfolio stress testing identifies scenarios where correlated losses could reduce fund NAV by >20% in **94% of cases** that subsequently materialized, vs. 41% detection rate with informal monitoring
 - **Portfolio construction quality improvement**: Funds using systematic concentration analysis show **0.4x higher TVPI** on average over a 7-year fund lifecycle, attributed to better diversification and avoidance of sector-specific crashes
 - **New investment concentration impact assessment**: Marginal concentration analysis provided to the IC for **100% of new investment decisions** (vs. 0% for funds without the tool), with no material overhead to deal execution timelines
-- **LP concentration disclosures**: Quantitative concentration data provided in LP quarterly reports by **100% of funds using COCO**, satisfying institutional LP portfolio reporting requirements vs. 34% without systematic analysis
+- **LP concentration disclosures**: Quantitative concentration data provided in LP quarterly reports by **100% of funds using OpenMax**, satisfying institutional LP portfolio reporting requirements vs. 34% without systematic analysis
 
 **Who Benefits**
 
@@ -3124,7 +3124,7 @@ Output: Portfolio concentration and risk section (2–3 pages) formatted for ins
 
 > Provides rapid, defensible fair value assessments for LP interests in secondary transactions — analyzing underlying portfolio company values, discount-to-NAV dynamics, and market conditions to support buy-side and sell-side pricing decisions.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Secondary LP Interest Pricing Is Opaque, Time-Constrained, and Analytically Demanding**
 
@@ -3134,44 +3134,44 @@ The information asymmetry is severe. Sellers — LPs who need liquidity — have
 
 The market dynamics of secondary pricing create additional complexity. Discount-to-NAV varies significantly with market conditions, fund vintage, strategy type, portfolio quality, and the fund's position in its lifecycle. A buyout fund in its harvest period with strong DPI may trade at a premium to NAV; a vintage-2021 VC fund with unrealized losses and several years before liquidity may trade at a 30–50% discount. Understanding where these market parameters stand at the time of a specific transaction requires access to current market data and a systematic framework for applying that data to the specific fund being valued — a capability that most secondary buyers and sellers do not have in a standardized, repeatable form.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Portfolio Company Bottom-Up Valuation**: COCO values each portfolio company in the fund:
+1. **Portfolio Company Bottom-Up Valuation**: OpenMax values each portfolio company in the fund:
    - Extracts portfolio company data from the GP's secondary data package: company name, sector, stage, revenue (if disclosed), last round valuation, and GP's current NAV mark
    - Applies sector-appropriate valuation multiples using current public market comparables: EV/Revenue for SaaS and growth companies, EV/EBITDA for mature businesses, EV/Gross Profit for marketplace and platform businesses
    - Triangulates the GP's NAV mark against public comparable analysis to assess whether the GP's mark appears conservative, fair, or aggressive
    - Applies a development stage discount to pre-revenue or early-revenue portfolio companies reflecting the higher uncertainty of private company valuations
    - Produces a bottom-up portfolio NAV assessment with a low/base/high value estimate for each portfolio company
 
-2. **Discount-to-NAV Market Benchmarking**: COCO calibrates market-appropriate discount levels:
+2. **Discount-to-NAV Market Benchmarking**: OpenMax calibrates market-appropriate discount levels:
    - Identifies the fund's category (VC/venture growth/PE buyout/real estate/other) and maps it to current secondary market pricing data for comparable fund types
    - Applies vintage year analysis: funds raised in peak years (2021–2022) typically trade at larger discounts than funds raised in more moderate market environments
    - Assesses the fund's lifecycle position: investment period funds (deploying capital), harvesting period funds (realizing investments), and tail-end funds (small remaining NAV) trade at different discount levels
    - Analyzes the fund's DPI: funds with higher realized returns (DPI > 0.5x) typically trade at lower discounts than funds with minimal distributions
    - Produces a market discount range recommendation: the discount-to-GP-reported-NAV at which this fund type and profile typically transacts in the current market
 
-3. **Cash Flow Projection and IRR Modeling**: COCO projects the buyer's expected return:
+3. **Cash Flow Projection and IRR Modeling**: OpenMax projects the buyer's expected return:
    - Models the future cash flows from the LP interest: remaining capital call obligations (unfunded commitments), projected distributions from portfolio company exits, and management fee drag
    - Calculates the buyer's expected IRR at the proposed purchase price under bear/base/bull portfolio performance scenarios
    - Models the J-curve impact: the buyer faces near-term cash outflows (capital calls) before receiving distributions — when does the buyer reach payback?
    - Calculates the impact of the secondary transaction on the GP's fund economics: does the GP have consent rights over LP interest transfers, and are there assignment fees?
    - Produces an IRR sensitivity table: buyer's expected IRR at various purchase price levels (as % of NAV) and portfolio performance scenarios
 
-4. **Unfunded Commitment Liability Assessment**: COCO quantifies the buyer's capital obligation:
+4. **Unfunded Commitment Liability Assessment**: OpenMax quantifies the buyer's capital obligation:
    - Calculates the unfunded commitment being assumed by the buyer: total committed minus called to date
    - Estimates the timing of remaining capital calls based on the fund's historical deployment pace and current portfolio company capital needs
    - Models the impact of unfunded commitments on the buyer's effective purchase price and expected return
    - Assesses the risk of accelerated capital calls: are any portfolio companies likely to need additional capital in the near term?
    - Calculates the "effective price" of the secondary transaction accounting for both the upfront purchase price and the present value of future capital calls
 
-5. **Seller-Side Valuation Support**: COCO supports LP sellers in pricing decisions:
+5. **Seller-Side Valuation Support**: OpenMax supports LP sellers in pricing decisions:
    - Analyzes the seller's current position: capital account balance, unrealized gain/loss, and estimated remaining distributions
    - Calculates the seller's estimated net IRR if they hold vs. if they sell at various discount levels
    - Models the opportunity cost of holding to liquidity: if the seller expects a 3x gross MOIC at exit in 4 years, what discount level is economically equivalent to holding?
    - Identifies the seller's "walk-away price": below what transaction price would the seller be better off holding?
    - Produces a sell-side pricing analysis memo to support the LP's board or investment committee approval of the secondary sale
 
-6. **GP Consent and Transfer Mechanics**: COCO supports the transaction execution:
+6. **GP Consent and Transfer Mechanics**: OpenMax supports the transaction execution:
    - Reviews the fund LPA for transfer restrictions, GP consent requirements, right of first refusal provisions, and prohibited transferee categories
    - Identifies any regulatory approvals required for the transfer (ERISA plan asset rules, CFTC restrictions for certain fund types)
    - Calculates any transfer fees or assignment charges specified in the LPA
@@ -3185,9 +3185,9 @@ The market dynamics of secondary pricing create additional complexity. Discount-
 **Measurable Results**
 
 - **Portfolio company valuation time**: Bottom-up portfolio company valuation assessment completed in **under 6 hours** vs. 2–3 weeks for full secondary diligence by a specialized secondary fund team
-- **NAV mark accuracy**: COCO's independent valuations fall within 15% of GP-reported marks in **81% of portfolio companies** when cross-referenced against subsequent financing round prices
-- **Secondary bid accuracy**: Buyers using systematic COCO pricing analysis have bid prices within 5% of ultimate clearing price in **73% of transactions**, vs. 54% for purely judgment-based bids
-- **IRR realization**: Secondary investments made using COCO-supported pricing achieve target IRR in **68% of cases** vs. 52% for unsystematically priced transactions in comparable secondary portfolios
+- **NAV mark accuracy**: OpenMax's independent valuations fall within 15% of GP-reported marks in **81% of portfolio companies** when cross-referenced against subsequent financing round prices
+- **Secondary bid accuracy**: Buyers using systematic OpenMax pricing analysis have bid prices within 5% of ultimate clearing price in **73% of transactions**, vs. 54% for purely judgment-based bids
+- **IRR realization**: Secondary investments made using OpenMax-supported pricing achieve target IRR in **68% of cases** vs. 52% for unsystematically priced transactions in comparable secondary portfolios
 - **Process time reduction**: Secondary bid preparation time reduced from **4–6 weeks** to **2–3 weeks** for a standard portfolio of 10–15 fund interests, enabling participation in more secondary processes
 
 **Who Benefits**
@@ -3338,7 +3338,7 @@ Output: Fund-by-fund pricing table + aggregate portfolio pricing summary + bid r
 
 > Models management fee calculations, carried interest waterfalls, and GP/LP distribution mechanics under any fund LPA structure — ensuring accurate economic modeling and transparent LP disclosure.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Waterfall Mechanics Are Complex, Error-Prone, and the Source of the Most Contentious GP/LP Disputes**
 
@@ -3348,44 +3348,44 @@ The management fee calculation, while less dramatic than the carry waterfall, is
 
 The carry clawback provision — which requires the GP to return distributed carry if the fund ultimately underperforms the preferred return — is one of the most misunderstood provisions in private fund economics. Many GPs have distributed carried interest on early high-returning exits, only to discover that the fund's later investments underperformed sufficiently to trigger a clawback. The financial and reputational implications of a clawback are significant: the GP must return capital to LPs from carry that may have already been distributed to fund partners. Accurate, ongoing tracking of the carry clawback exposure — the amount of carry distributed in excess of the amount that would ultimately be earned if the full fund return were calculated today — requires a model that is rarely maintained on an ongoing basis but is critically important for GP financial planning.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Management Fee Calculation Engine**: COCO calculates management fees with LPA-precise mechanics:
+1. **Management Fee Calculation Engine**: OpenMax calculates management fees with LPA-precise mechanics:
    - Implements the management fee formula from the fund's LPA: rate, basis (committed vs. invested cost), step-down triggers, and recycling provisions
    - Calculates the fee for each LP individually, incorporating side letter fee modifications, commitment timing, and LP-specific step-down dates
    - Applies fee offsets: transaction fees, monitoring fees, director fees, and break-up fees received from portfolio companies, net of the offset percentage specified in the LPA
    - Handles mid-period fee basis changes: when a portfolio company is realized, the fee basis for the corresponding capital is adjusted going forward
    - Generates a quarterly management fee calculation workbook with LP-by-LP breakdowns and a fund-level reconciliation
 
-2. **European Waterfall Calculation**: COCO implements European-style waterfall distribution mechanics:
+2. **European Waterfall Calculation**: OpenMax implements European-style waterfall distribution mechanics:
    - Calculates the cumulative preferred return accrual for all LPs based on all capital contributions (investments, fees, and expenses) from their respective contribution dates
    - Models the LP return priority: all invested capital returned first, then the cumulative preferred return, then the GP catch-up, then the carry split
    - Handles the GP catch-up provision: the GP receives 100% (or specified percentage) of distributions above the preferred return hurdle until they have received their full carry entitlement
    - Calculates the carry amount distributable to the GP in each distribution event under the European structure
    - Produces a distribution waterfall calculation showing the allocation of every dollar distributed between LPs and the GP with full audit trail
 
-3. **American Waterfall Calculation**: COCO implements deal-by-deal waterfall mechanics:
+3. **American Waterfall Calculation**: OpenMax implements deal-by-deal waterfall mechanics:
    - Calculates the carry distributable on each realized investment on a deal-by-deal basis: investment cost returned, preferred return on that investment's capital, then carry
    - Models the clawback exposure: if a later investment results in a loss, how much carry previously distributed must be returned to LPs?
-   - Tracks the escrow requirement: American waterfall funds typically hold a portion of distributed carry in escrow against clawback; COCO calculates the required escrow balance
+   - Tracks the escrow requirement: American waterfall funds typically hold a portion of distributed carry in escrow against clawback; OpenMax calculates the required escrow balance
    - Calculates the "lookback" at fund end: the full waterfall calculation run on the fund's aggregate performance to determine whether the GP has over-distributed or under-distributed carry
    - Produces a running clawback exposure calculation updated with each new distribution event
 
-4. **Carry Clawback Monitoring and Escrow Tracking**: COCO tracks the GP's clawback risk:
+4. **Carry Clawback Monitoring and Escrow Tracking**: OpenMax tracks the GP's clawback risk:
    - Calculates the fund's "current-state" carry entitlement: if the fund wound up today at current portfolio values, how much carry would the GP have earned in total?
    - Compares the current-state carry entitlement to the cumulative carry distributed: is there a clawback exposure?
    - Calculates the clawback exposure amount and the portion currently held in escrow vs. the portion at risk
    - Models the clawback exposure under stress scenarios: if the portfolio underperforms, at what aggregate fund performance level is a clawback triggered?
    - Generates a quarterly clawback exposure report for the GP's own financial planning and LP disclosure obligations
 
-5. **Distribution Planning and Waterfall Modeling**: COCO supports distribution decisions:
+5. **Distribution Planning and Waterfall Modeling**: OpenMax supports distribution decisions:
    - Models the LP/GP distribution allocation for any proposed distribution amount under the fund's waterfall structure
    - Calculates the preferred return "clock": has the fund accrued enough preferred return to satisfy LPs before any carry is paid?
    - Shows the "carry meter": how much additional fund value creation is required before carry begins to accrue?
    - Models the timing optimization for distributions: how does delaying a distribution by one quarter affect the carry calculation if portfolio values are expected to change?
    - Produces a distribution analysis memo for the GP's financial committee and fund administrator with full waterfall calculation
 
-6. **Fund Economics Transparency Reporting**: COCO produces GP economics disclosures:
+6. **Fund Economics Transparency Reporting**: OpenMax produces GP economics disclosures:
    - Generates the annual fund economics summary: total management fees collected, total carry distributed, total GP co-investment return, and net carry exposure (distributed minus returned in clawbacks)
    - Produces an LP-facing fee and carry disclosure showing each LP's share of the management fee, the aggregate carry distributed, and the current carry escrow balance
    - Generates a "GP economics model" for use in next-fund marketing: the financial outcomes for the GP under various fund performance scenarios
@@ -3398,8 +3398,8 @@ The carry clawback provision — which requires the GP to return distributed car
 
 **Measurable Results**
 
-- **Waterfall calculation errors**: Material errors in carry distribution calculations detected in self-review reduced from **1 in 5 distributions** (industry survey data) to **1 in 50** with systematic COCO modeling
-- **Clawback exposure tracking**: Funds maintaining active COCO clawback models have **100% visibility** into their current clawback exposure vs. 31% of funds without systematic tracking
+- **Waterfall calculation errors**: Material errors in carry distribution calculations detected in self-review reduced from **1 in 5 distributions** (industry survey data) to **1 in 50** with systematic OpenMax modeling
+- **Clawback exposure tracking**: Funds maintaining active OpenMax clawback models have **100% visibility** into their current clawback exposure vs. 31% of funds without systematic tracking
 - **Carry dispute incidents**: GP/LP carry calculation disputes requiring formal resolution reduced from an industry average of **1–2 per fund** over its lifecycle to **0** for funds using transparent, LP-shared calculation models
 - **Distribution calculation time**: Full waterfall distribution allocation across 30+ LPs calculated and documented in **under 3 hours** vs. 3–5 business days for manual calculation
 - **LP audit satisfaction**: Funds providing detailed, auditor-reviewed waterfall documentation satisfy LP audit right exercises without supplemental document requests in **96% of cases**
@@ -3574,7 +3574,7 @@ Output: 1-page GP economics summary slide for LP annual meeting + narrative disc
 
 > Synthesizes qualitative findings from founder reference check calls into structured, actionable character and leadership assessments — reducing the time to complete personnel due diligence and improving the quality of investment committee management assessments.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Reference Checks Are Time-Consuming to Conduct, Inconsistent to Synthesize, and Rarely Integrated into IC Decision-Making**
 
@@ -3584,30 +3584,30 @@ The problem is that reference check insights are highly perishable and poorly ca
 
 The reference check bias problem is also significant. Investment teams conduct fewer reference checks than they should, and the references they conduct tend to be self-selected by the founder — people who are likely to provide favorable assessments. Back-channel references — reaching out to people who know the founder but who were not volunteered by the founder — require a separate sourcing effort that takes additional time and initiative. When back-channel references contradict founder-provided references, the discrepancy is an important signal that is often not systematically surfaced in the diligence record. And when all references are uniformly positive — which is common for accomplished founders with strong personal brands — the team may fail to probe deeply enough to surface the specific behaviors and situations that are most predictive of leadership quality under the stress of building a company through difficult periods.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Reference Call Preparation and Guide Generation**: COCO prepares the reference check process:
+1. **Reference Call Preparation and Guide Generation**: OpenMax prepares the reference check process:
    - Generates a customized reference call guide for each founder/executive based on their role, the company stage, and the investment thesis
    - Identifies the most important leadership and character dimensions to probe based on the deal's specific risk factors
    - Suggests specific behavioral questions for each dimension: "Tell me about a time they faced a major setback — how did they respond?" rather than open-ended "What do you think of them?"
    - Identifies the optimal reference categories to pursue: prior investors, former reports, co-founders, early customers, and board members
    - Generates a back-channel reference sourcing strategy: how to identify potential references beyond the founder-provided list
 
-2. **Reference Call Transcript Analysis**: COCO processes call notes and transcripts:
+2. **Reference Call Transcript Analysis**: OpenMax processes call notes and transcripts:
    - Analyzes call notes or transcripts from any format: typed notes, voice memos, Zoom/Otter transcripts
    - Extracts structured information from each call: the reference's relationship to the subject, the themes covered, specific observations made, and any cautionary signals or diplomatic hedging
    - Identifies "reference diplomacy" patterns: references who are technically positive but use language that signals reservation ("He's very ambitious" without elaboration; "She's always learning" without examples)
    - Flags contradictions between the founder's own account and what references report
    - Produces a standardized data extract from each reference call for comparative analysis
 
-3. **Cross-Reference Pattern Synthesis**: COCO identifies patterns across multiple references:
+3. **Cross-Reference Pattern Synthesis**: OpenMax identifies patterns across multiple references:
    - Analyzes all reference call extracts together to identify consistent themes — positive and negative — that appear across multiple independent sources
    - Calculates "signal strength" for each theme: a concern raised by one reference is a soft flag; the same concern raised independently by three references is a material finding
    - Distinguishes genuine consensus from reference group-think: when references know each other and may have coordinated their messaging
    - Identifies topics that references avoided discussing — silence or deflection on specific topics is itself informative
    - Produces a synthesized "leadership profile" integrating all reference findings into a coherent characterization
 
-4. **Dimension-Based Leadership Assessment**: COCO evaluates against key investment-relevant leadership dimensions:
+4. **Dimension-Based Leadership Assessment**: OpenMax evaluates against key investment-relevant leadership dimensions:
    - Intellectual integrity: does the founder tell accurate stories about past performance, including failures and mistakes?
    - Resilience under pressure: how has the founder performed in genuinely difficult situations — company crisis, fundraising failure, team conflict?
    - Team-building and retention: what do former reports say about working for this person? Do they hire well and develop people?
@@ -3615,14 +3615,14 @@ The reference check bias problem is also significant. Investment teams conduct f
    - Mission alignment and perseverance: is there genuine conviction behind the company or primarily financial motivation?
    - Produces a dimension-by-dimension scorecard with supporting reference quotes
 
-5. **Red Flag and Concern Classification**: COCO categorizes findings by risk level:
+5. **Red Flag and Concern Classification**: OpenMax categorizes findings by risk level:
    - Classifies each concern raised across references as: deal-stopper / material concern requiring IC discussion / minor flag for post-investment monitoring / unverified signal requiring additional references
    - Distinguishes concerns about the founder's capability (can they do this job?) from concerns about character (can they be trusted?), which require different responses
    - Generates follow-up questions for the investment team to address specific concerns directly with the founder before the IC meeting
    - Identifies reference patterns suggesting the team should conduct additional back-channel checks in specific areas
    - Produces a "management risk" section for the IC memo based on the synthesized reference findings
 
-6. **IC Management Assessment Deliverable**: COCO produces the final personnel diligence output:
+6. **IC Management Assessment Deliverable**: OpenMax produces the final personnel diligence output:
    - Generates a structured management assessment memo: founder backgrounds, reference synthesis findings, dimension-based scorecard, material concerns with context, and overall management quality rating
    - Produces the management section of the IC memo with appropriate level of detail for IC decision-making
    - Creates a confidential reference check summary for partner-level review that is not distributed beyond the IC
@@ -3636,7 +3636,7 @@ The reference check bias problem is also significant. Investment teams conduct f
 **Measurable Results**
 
 - **Reference synthesis time**: Structured management assessment from 8–10 call notes produced in **under 3 hours** vs. 1–2 days for manual synthesis and IC memo writing
-- **Theme detection accuracy**: COCO identifies consistent cross-reference themes that are subsequently confirmed as material in post-investment monitoring in **84% of flagged cases**, validating the pattern synthesis approach
+- **Theme detection accuracy**: OpenMax identifies consistent cross-reference themes that are subsequently confirmed as material in post-investment monitoring in **84% of flagged cases**, validating the pattern synthesis approach
 - **Reference check coverage**: Investment teams using structured reference guides increase average number of references conducted per deal from **4.2 to 7.8**, significantly improving signal quality
 - **IC memo management section quality**: Partner ratings of management section quality in IC memos improve by **41%** when synthesized from systematic reference analysis vs. informal notes
 - **Post-investment management surprises**: "Unexpected" management issues (problems not flagged in reference checks that surfaced within 18 months) reduced by **33%** for investments where systematic reference synthesis was conducted
@@ -3779,7 +3779,7 @@ Output: Management section for IC memo + brief confidential reference check flag
 
 > Maps the competitive landscape for portfolio companies at investment entry and on a quarterly basis — providing GPs and portfolio company management with strategic intelligence to inform positioning, pricing, and go-to-market decisions.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Competitive Intelligence Gets Stale Fast — But Portfolio Teams Rarely Have Time to Keep It Current**
 
@@ -3789,44 +3789,44 @@ The intelligence gap affects strategic decisions across the portfolio company's 
 
 The GP's competitive intelligence challenge extends beyond individual portfolio companies. Across a portfolio of 15–25 companies, the fund may have multiple investments in adjacent sectors whose competitive landscapes overlap or intersect. A portfolio company in vertical SaaS for construction and a portfolio company in workforce management for field services may be competing for the same enterprise customers without the GP noticing — or may have the opportunity to create a customer introduction network that neither company would discover independently. Managing competitive intelligence at the portfolio level — understanding the competitive dynamics across all holdings simultaneously — requires a systematic capability that most funds do not have.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Comprehensive Competitor Identification**: COCO maps the full competitive landscape:
+1. **Comprehensive Competitor Identification**: OpenMax maps the full competitive landscape:
    - Identifies direct competitors: companies offering substantially similar products or services to the same customer segments
    - Surfaces adjacent competitors: companies that compete for the same budget dollars or customer attention even with different product offerings
    - Tracks potential entrants: large platform companies (Microsoft, Salesforce, Google) that could enter the market with adjacent functionality
    - Identifies international competitors not typically on the US-focused team's radar
    - Maintains a competitor registry with funding status, headcount growth rate, product updates, and key hires
 
-2. **Funding and Momentum Tracking**: COCO monitors competitor trajectory:
+2. **Funding and Momentum Tracking**: OpenMax monitors competitor trajectory:
    - Tracks competitor fundraising activity: new rounds, amounts raised, valuation signals, and investor quality (tier-1 investor backing a competitor is a signal of competitive threat escalation)
    - Monitors competitor headcount growth on LinkedIn as a proxy for execution momentum
    - Identifies competitor executive hires: a competitor hiring a VP of Sales or Head of Enterprise signals a go-to-market push
    - Tracks competitor product announcements, conference presentations, and patent filings for R&D direction signals
    - Generates alerts when a competitor has a material momentum change: large funding round, key executive hire, or major enterprise customer win announced
 
-3. **Positioning and Differentiation Analysis**: COCO assesses competitive positioning:
+3. **Positioning and Differentiation Analysis**: OpenMax assesses competitive positioning:
    - Maps each competitor's positioning on the dimensions most relevant to the market: price, performance, integrations, customer segment focus, geographic coverage, implementation complexity
    - Identifies the portfolio company's current differentiation thesis and assesses whether it remains valid given the current competitive landscape
    - Analyzes competitor pricing and packaging from public sources (pricing pages, Gartner, G2, Capterra reviews) and cross-references against the portfolio company's pricing
    - Assesses "white space": are there underserved customer segments or product capabilities where the portfolio company could establish a differentiated position that competitors are not pursuing?
    - Produces a positioning map showing the portfolio company vs. all key competitors across the two most important competitive dimensions
 
-4. **Win/Loss Pattern Analysis**: COCO analyzes competitive dynamics from deal data:
+4. **Win/Loss Pattern Analysis**: OpenMax analyzes competitive dynamics from deal data:
    - Analyzes the portfolio company's win/loss records (if provided) to identify patterns: which competitors does the company win against, which does it lose to, and in which customer segments?
    - Identifies the most common reasons for competitive losses and maps them to specific product gaps, pricing positions, or sales execution issues
    - Calculates the portfolio company's win rate against each named competitor by customer segment, deal size, and geography
    - Suggests specific product, pricing, or sales enablement improvements based on win/loss pattern analysis
    - Generates a "competitive battle card" for each key competitor to support the portfolio company's sales team
 
-5. **Quarterly Competitive Intelligence Update**: COCO maintains current competitive intelligence:
+5. **Quarterly Competitive Intelligence Update**: OpenMax maintains current competitive intelligence:
    - Runs a quarterly competitive sweep: all identified competitors monitored for material changes since the prior update
    - Produces a quarterly competitive intelligence report for board package inclusion: "what changed in the competitive landscape this quarter?"
    - Flags competitive events requiring immediate attention (a competitor raises a large round, announces a major enterprise customer, or launches a directly competing product feature)
    - Tracks the competitive landscape evolution over time: how has the number of funded competitors changed? Are leaders emerging that were not identified at investment?
    - Produces a "competitive drift" analysis: how has the portfolio company's competitive position changed since the GP's original investment thesis?
 
-6. **Portfolio-Level Cross-Company Intelligence**: COCO identifies portfolio-wide competitive patterns:
+6. **Portfolio-Level Cross-Company Intelligence**: OpenMax identifies portfolio-wide competitive patterns:
    - Identifies competitor overlap across multiple portfolio companies — competitors that show up in multiple portfolio company competitive landscapes
    - Surfaces partnership opportunities: portfolio companies in adjacent markets that could create customer introductions or technology integrations that strengthen both companies' competitive positions
    - Identifies common competitive threats that affect multiple portfolio companies simultaneously: a large platform player entering a category that multiple portfolio companies are in
@@ -3839,17 +3839,17 @@ The GP's competitive intelligence challenge extends beyond individual portfolio 
 
 **Measurable Results**
 
-- **Competitive landscape update frequency**: Portfolio companies receiving quarterly COCO-generated competitive updates are **3.2x more likely** to have a current competitive map in their board package vs. companies without systematic monitoring
+- **Competitive landscape update frequency**: Portfolio companies receiving quarterly OpenMax-generated competitive updates are **3.2x more likely** to have a current competitive map in their board package vs. companies without systematic monitoring
 - **Competitive threat detection lead time**: Material competitive threats (new entrant with significant funding, platform player announcement) detected an average of **4.1 months earlier** than detection through informal monitoring
 - **Portfolio company pricing decisions**: Companies with current competitive pricing intelligence make pricing changes that are **28% more aligned** with market positioning and result in better revenue outcomes at the next quarterly review
 - **Board meeting strategic value**: Percentage of GP board members who rate competitive intelligence as "very useful" for board discussions increases from 34% to 71% when systematic, current competitive analysis is provided
-- **Portfolio-level conflict detection**: In-portfolio competitive conflicts identified proactively in **100% of cases** where COCO portfolio-level mapping was conducted, vs. 23% detection rate without systematic cross-portfolio analysis
+- **Portfolio-level conflict detection**: In-portfolio competitive conflicts identified proactively in **100% of cases** where OpenMax portfolio-level mapping was conducted, vs. 23% detection rate without systematic cross-portfolio analysis
 
 **Who Benefits**
 
 - **Portfolio Company CEOs and Product Leaders**: Receive current, structured competitive intelligence that informs pricing, product roadmap, and go-to-market decisions without consuming management bandwidth on manual competitive research
 - **Fund Managers and Deal Teams**: Maintain current competitive context for all portfolio companies, enabling more informed board discussions and proactive strategic recommendations
-- **Portfolio Company Sales Teams**: Receive battle cards and win/loss analysis from COCO-powered competitive intelligence, improving competitive win rates and shortening sales cycles
+- **Portfolio Company Sales Teams**: Receive battle cards and win/loss analysis from OpenMax-powered competitive intelligence, improving competitive win rates and shortening sales cycles
 - **Investment Committees**: Evaluate follow-on investments and exit timing decisions with current competitive landscape context rather than the original deal thesis competitive map
 
 :::
@@ -3979,7 +3979,7 @@ Output: Portfolio competitive intelligence briefing (2 pages for GP quarterly IC
 
 > Automates the creation of comprehensive board meeting preparation materials for portfolio company board meetings — including pre-read packages, management review analysis, and action item tracking.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Board Meeting Preparation Consumes Deal Team Time Without Proportional Improvement in Meeting Quality**
 
@@ -3989,44 +3989,44 @@ The preparation burden is significant. A deal partner serving on 5–8 portfolio
 
 The quality gap between prepared and unprepared board members is material to portfolio company outcomes. Board members who have reviewed the financials in detail and identified the specific anomalies in the data can direct management's attention to problems they may have rationalized away. Board members who show up unprepared ask general questions that management can answer with polished narratives, without being held accountable for the specific commitments they made in writing at the prior meeting. The meeting becomes a presentation rather than a working session, and the board's accountability function — one of the most important governance mechanisms protecting LP capital — is weakened.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Board Package Analysis and Summarization**: COCO processes the full board package:
+1. **Board Package Analysis and Summarization**: OpenMax processes the full board package:
    - Ingests the complete board package in any format — PDF, PowerPoint, Excel — and produces a structured summary of every key data point
    - Identifies the 5–7 most material changes from the prior period: what changed significantly in the financial results, operational KPIs, or strategic environment since the last board meeting?
    - Flags anomalies: metrics that appear inconsistent with narrative commentary, figures that don't reconcile across sections, or data that conflicts with prior commitments
    - Extracts and summarizes every financial metric, operational KPI, and forecast update into a single reference table for the board member's pre-meeting review
    - Generates an "executive brief" — a 2-page summary of the entire board package for quick review, with deep-dive references for specific sections
 
-2. **Prior Meeting Accountability Review**: COCO tracks management commitments:
+2. **Prior Meeting Accountability Review**: OpenMax tracks management commitments:
    - Loads the prior board meeting minutes and action items from the company's records
    - Identifies all management commitments made at the prior meeting: specific actions, milestones, and information delivery obligations
    - Cross-references the current board package against those commitments: which ones were delivered? Which were missed? Which are being carried forward?
    - Generates an "accountability brief" for the board member: the specific follow-up questions to ask management about unresolved prior commitments
    - Maintains a rolling log of all action items, accountable parties, and resolution status across board meetings
 
-3. **Financial Analysis and Anomaly Detection**: COCO analyzes the financial data in depth:
+3. **Financial Analysis and Anomaly Detection**: OpenMax analyzes the financial data in depth:
    - Calculates plan vs. actual variance for all key financial metrics: revenue, gross margin, EBITDA/burn, cash position
    - Identifies variance trends: is performance getting better or worse relative to plan over the trailing three quarters?
    - Flags any accounting treatment questions or revenue recognition practices that look unusual
    - Checks the cash flow statement reconciliation against the balance sheet and income statement
    - Generates a financial anomaly report: specific numbers in the package that deserve board-level questions
 
-4. **Strategic Discussion Agenda Preparation**: COCO develops substantive discussion topics:
+4. **Strategic Discussion Agenda Preparation**: OpenMax develops substantive discussion topics:
    - Identifies the 3–5 most important strategic issues for this board meeting based on the company's current stage, performance data, and known upcoming decisions
    - Generates substantive questions for each strategic topic: not "how is the team doing?" but "given the 18% increase in CAC over the past two quarters, what changes to the sales process are you implementing before Q3?"
    - Incorporates external context: relevant competitive intelligence updates, market developments, and macroeconomic factors that affect the company's strategic decisions
    - Identifies upcoming decisions where the board needs to take a position: follow-on funding authorization, key hire approvals, strategic partnership approvals
    - Produces a board discussion agenda with time allocations for each topic
 
-5. **Budget and Forecast Review**: COCO prepares for financial discussions:
+5. **Budget and Forecast Review**: OpenMax prepares for financial discussions:
    - Analyzes the annual budget vs. current trajectory: is the company on track to hit full-year targets, or is a reforecast needed?
    - Identifies specific budget line items where actual spending is materially above or below budget, with questions to probe management's explanation
    - Reviews the company's current cash runway and capital needs: when will the company need additional funding, and under what assumptions?
    - Prepares sensitivity analysis: what would the financial trajectory look like under a conservative, base, and optimistic scenario for the next 12 months?
    - Generates an "investor rights check": are there any financial reporting obligations, consent rights triggers, or milestone conditions in the investment documents that apply to the current financial data?
 
-6. **Post-Meeting Action Item Capture**: COCO supports the post-meeting workflow:
+6. **Post-Meeting Action Item Capture**: OpenMax supports the post-meeting workflow:
    - Extracts all action items committed to during the meeting from uploaded meeting notes or transcripts
    - Assigns each action item to the responsible party (management, board member, or third party) with a deadline
    - Generates the meeting minutes summary for distribution to all board members and management
@@ -4190,7 +4190,7 @@ Output: Board meeting summary + action item register + follow-up communication d
 
 > Know exactly where your fund stands relative to the market — before your LPs tell you.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: GPs Benchmark in Vacuum or Not at All**
 
@@ -4200,7 +4200,7 @@ The technical challenges of accurate benchmarking are real. IRR and TVPI are poi
 
 For GPs raising Fund II or III, vintage year benchmarking is an LP prerequisite. Sophisticated LPs calculate PME (Public Market Equivalent) comparisons to assess whether the GP's fund has outperformed a simple investment in public indices. If a GP's Fund I shows 18% IRR but the S&P 500 compounded at 15% over the same period, the risk-adjusted excess return is less impressive than the headline suggests. GPs who can't explain their PME context in an LP meeting signal lack of analytical rigor about their own track record.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
 1. **Vintage Year Cohort Construction**: Builds accurate benchmark peer groups:
    - Selects the appropriate vintage year cohort (typically the year of first capital call, not fund formation)
@@ -4405,7 +4405,7 @@ Generate:
 
 > Know which deals are dying and why — before you've spent 200 hours on due diligence.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: VC Deal Pipelines Are Black Boxes That Waste Analyst Time**
 
@@ -4415,7 +4415,7 @@ Deal pipeline analytics failures create measurable problems. First, sourcing cha
 
 The competitive intelligence value is equally underutilized. Every passed deal represents a future competitor's portfolio company — tracking where passed deals end up (who funded them, at what valuation, how the company performed) is the best data available for calibrating investment judgment over time. VCs who don't track their "misses" can't improve the quality of their "no" decisions.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
 1. **Pipeline Funnel Visualization & Stage Conversion Rates**: Maps deal flow from source to investment:
    - Calculates conversion rate at each pipeline stage: sourced → first meeting → partner meeting → IC → term sheet → close
@@ -4609,7 +4609,7 @@ Generate:
 
 > Never miss a co-investment or pro-rata obligation — and never create an LP relations problem from a missed right.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Co-Investment and Pro-Rata Rights Are Contractually Binding and Administratively Nightmarish**
 
@@ -4619,7 +4619,7 @@ The consequences of mismanaging co-investment rights are severe. Failing to noti
 
 Pro-rata rights in portfolio companies add another layer of complexity. When a portfolio company raises a follow-on round, the fund may have negotiated pro-rata participation rights (the right to maintain its ownership percentage by investing in the new round). Tracking these rights across 20–30 portfolio companies, each with different pro-rata rights documented in different subscription agreements and side letters, and then making timely decisions about exercising them within tight round closing timelines, requires systematic infrastructure that spreadsheets simply cannot provide.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
 1. **LP Co-Investment Rights Registry**: Centralizes all co-investment entitlements in one place:
    - Parses each LP's side letter for co-investment right terms: right size (dollar amount or % of each investment), notification timeline, response window, eligibility criteria
@@ -4828,7 +4828,7 @@ Generate:
 
 > Stop debating valuation methodology at the board table — arrive with the right framework already chosen.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Private Company Valuation Is Simultaneously Critical and Methodologically Contested**
 
@@ -4838,7 +4838,7 @@ The methodology selection problem is not trivial. A Series B SaaS company should
 
 ASC 820 (and IFRS 13 for international funds) has increasingly regulated this space. LPs' auditors (Big Four and regional audit firms with private equity practices) apply Level 3 fair value measurement scrutiny to private portfolio holdings. GPs must document their methodology choice, their comparable company selection, and their adjustments for company-specific factors. GPs without systematic valuation frameworks face qualified audit opinions, restatements, and LP credibility damage.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
 1. **Methodology Selection Decision Framework**: Matches company characteristics to appropriate methodology:
    - Revenue-stage company (pre-EBITDA): revenue multiple, ARR multiple, or EV/revenue methodology with sector comps
@@ -5039,7 +5039,7 @@ This sensitivity table will be included in the ASC 820 valuation memo.
 
 > Surface conflicts between funds before they become LP disputes or SEC enforcement actions.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Multi-Fund GPs Face Complex Conflict of Interest Obligations That Spreadsheets Cannot Track**
 
@@ -5049,7 +5049,7 @@ The types of conflicts multiply with fund complexity. Cross-fund investment conf
 
 Most GP firms address conflicts through a combination of lawyers and judgment, with policies written in LPAs and ADV disclosures but monitored informally. The gap between the written policy and the operational reality is where enforcement risk lives. GPs who cannot demonstrate systematic monitoring and documentation of conflicts — not just disclosure at the time of formation — are vulnerable in SEC examinations.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
 1. **Cross-Fund Investment Overlap Detection**: Identifies all multi-fund portfolio conflicts:
    - Scans all funds' portfolios to identify any company appearing in more than one fund
@@ -5245,7 +5245,7 @@ Generate:
 
 > Price emerging market risk correctly — so LPs understand what they're getting and GPs can justify the premium.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Emerging Market Funds Apply Developed Market Frameworks to Fundamentally Different Risk Environments**
 
@@ -5255,7 +5255,7 @@ The currency risk dimension alone is complex enough to require dedicated infrast
 
 Country and political risk adds another layer. A fund concentrated in one country faces regime change risk, expropriation risk, capital controls risk, and regulatory reversal risk that portfolio-level diversification cannot eliminate. Standard DCF models use risk-free rates from deep liquid bond markets, but applying the US 10-year Treasury rate as a risk-free rate to a Vietnamese or Nigerian portfolio company valuation is analytically indefensible. Country risk premiums (CRPs) — estimated by Damodaran and other sources — must be incorporated into discount rates, exit multiples must be discounted for market liquidity constraints, and IRR targets must be set higher to compensate for the additional risks LPs are bearing.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
 1. **Currency Risk Modeling & USD-Adjusted Return Calculation**: Converts local returns to LP-relevant currency:
    - Models currency depreciation scenarios using historical volatility and purchasing power parity analysis
@@ -5465,7 +5465,7 @@ Draft a 1-page emerging market risk section for the LP quarterly report covering
 
 > Know when the market is rotating away from your thesis before the term sheets stop coming.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: VC Sector Theses Get Stale While GPs Are Head-Down Managing Portfolio Companies**
 
@@ -5475,7 +5475,7 @@ The signals of sector rotation in venture are diverse and require synthesis from
 
 For portfolio management, sector rotation creates specific acute problems. Portfolio companies in out-of-favor sectors find it harder to raise follow-on financing, forcing GPs to either provide bridge capital (concentrating risk), accept down-rounds (diluting prior LPs), or watch companies fail for want of capital despite viable businesses. Companies in in-favor sectors face valuation inflation that makes follow-on rounds expensive. GPs who see rotation signals early can prepare portfolio companies to raise while the window is open, adjust reserve allocations, and update their LP narrative before questions arise.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
 1. **Funding Trend Surveillance by Sector**: Tracks capital flow direction across VC sectors:
    - Monitors weekly funding announcements by sector: fintech, AI/ML, climate tech, healthtech, enterprise SaaS, consumer, defense tech, biotech
@@ -5668,7 +5668,7 @@ Draft a 1-page sector analysis section that demonstrates GP's thesis awareness a
 
 > Navigate the most complex phase of fund management with a systematic plan — not improvisation.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Fund Wind-Down Is the Most Administratively Complex Phase and the Most Neglected**
 
@@ -5678,7 +5678,7 @@ The fund extension problem alone creates significant complexity. Most fund LPAs 
 
 Reserve management in the wind-down phase is equally challenging. How much of remaining dry powder should be reserved for follow-on investments in surviving companies vs. distributed to LPs? Which portfolio companies deserve additional capital to reach exit, and which should be written down and abandoned? The opportunity cost of holding LP capital in a dying fund — versus returning it so LPs can redeploy it — is a real LP interest that GPs must weigh. GPs who manage these tradeoffs poorly face LP dissatisfaction that affects future fundraising even when the fund technically achieves positive returns.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
 1. **Portfolio Exit Prioritization Matrix**: Ranks remaining positions by exit urgency and feasibility:
    - Classifies each remaining portfolio company: active exit process, near-term exit opportunity, long-term hold, or write-down candidate
@@ -5887,7 +5887,7 @@ Draft: final fund closing letter that is professional, honest, grateful, and set
 
 > Evaluate fund managers the way the best endowments do — with a systematic framework, not gut instinct.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: LP Manager Selection Is Often Superficial, Inconsistent, and Relationship-Driven**
 
@@ -5897,7 +5897,7 @@ The information asymmetry is acute: GPs prepare for LP due diligence meetings ex
 
 The due diligence documentation problem is equally significant. LP investment committees require documented analysis to approve commitments — but if each analyst covers GPs differently, the quality of the analysis presented to IC varies dramatically. Without standardized scorecards, the IC can't compare GP A evaluated by analyst X to GP B evaluated by analyst Y. The LP organization can't learn from its past allocation decisions because there's no consistent framework across vintages. Post-investment monitoring lacks the baseline analysis needed to track GP performance against original due diligence expectations.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
 1. **Comprehensive Manager Due Diligence Scorecard**: Structures the full evaluation framework:
    - Investment track record analysis: attribution, benchmark comparison, DPI vs. RVPI, concentration analysis
@@ -6119,7 +6119,7 @@ Escalation triggers (initiate formal review if):
 
 > Model GP stakes economics with precision before selling a piece of your firm's future carry.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: GP Stakes Transactions Are Among the Most Complex and Consequential Deals a Firm Will Ever Do**
 
@@ -6129,7 +6129,7 @@ GP stakes buyers are sophisticated institutional investors who have completed hu
 
 The economics of GP stakes transactions are genuinely complex. GP stakes buyers typically acquire a percentage of the GP's economics across all future funds (not just the current fund), structured as a share of management fees and carried interest from current and future vehicles. Valuing a GP management company requires projecting: how many future funds the GP will raise, at what sizes, at what performance (to estimate carry), and at what management fee rates — all over a 15–25 year horizon. The structuring choices (management fee interest vs. carry interest vs. both, with or without key-man provisions, with or without right of first offer on future transactions) have enormous long-term economic implications that most GPs underestimate.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
 1. **Management Company Valuation Model**: Builds comprehensive GP firm value analysis:
    - Models the GP management company's revenue streams: management fees (current funds + projected future funds), carried interest (current fund marks + projected future carry), ancillary income
@@ -6337,7 +6337,7 @@ Calculate for 20-year horizon (year 2024–2044):
 
 > Structure RBF deals that win competitive deals while protecting downside — without sacrificing return.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Revenue-Based Financing Structuring Is Both Art and Science — and Most Funds Get the Balance Wrong**
 
@@ -6347,7 +6347,7 @@ The financial modeling complexity of RBF is significant. Unlike a convertible no
 
 Portfolio concentration risk in RBF is different from equity VC. RBF portfolios must be sized based on the company's revenue and expected repayment capacity — overextending a company beyond 1/12th of ARR creates repayment stress that can damage the underlying business and lead to impairment. Covenant monitoring (minimum revenue thresholds, minimum cash balance), revenue share collection automation, and early warning systems for deteriorating accounts are all operational requirements that many RBF funds implement inadequately, leading to write-offs that were foreseeable with proper monitoring.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
 1. **Dynamic RBF Return Modeling**: Calculates IRR and returns under multiple scenarios:
    - Models repayment timeline as a function of current MRR, MoM growth rate, and revenue share percentage
@@ -6555,7 +6555,7 @@ Generate: 1-page RBF portfolio section for LP quarterly report covering: portfol
 
 > Model the math of running a small fund before you raise it — and optimize for GP economics, not just LP returns.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Micro-VC Fund Economics Are Brutal and Widely Misunderstood by First-Time GPs**
 
@@ -6565,7 +6565,7 @@ The carry economics require scenario modeling that most first-time GPs haven't d
 
 Portfolio construction for micro-VCs presents additional mathematical challenges. A $25M fund with a 10% portfolio reserve, writing 20 initial checks at $750K average, needs 2–3 investments to return the entire fund to achieve top-quartile returns. This requires power-law concentration that most first-time GPs underestimate — and requires reserve allocation discipline that is harder to execute than anticipated when every portfolio company founder is asking for follow-on capital.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
 1. **Management Fee & Expense Waterfall Model**: Shows net GP take-home economics:
    - Calculates gross management fee by year: investment period (on committed capital) and post-investment period (on invested capital or step-down)
@@ -6789,7 +6789,7 @@ Recommend: optimal Fund II size and rationale.
 
 > Maximize your LPs' Section 1202 exclusion — the most valuable tax benefit in venture investing.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: QSBS Eligibility Is Worth Millions in LP Tax Savings — and Most GPs Track It Inadequately**
 
@@ -6799,7 +6799,7 @@ The eligibility requirements for QSBS are specific and easily violated, requirin
 
 GPs bear responsibility for the fund-level QSBS determination. While each LP's individual tax situation determines the actual benefit, GPs must provide LPs with accurate information about whether each investment meets QSBS criteria, what the acquisition date was, and what the gross asset test result was at acquisition. GPs who provide incorrect QSBS information — or who fail to maintain documentation — expose LPs to audit risk and create GP credibility issues. GPs who proactively provide excellent QSBS documentation create genuine LP value that differentiates them from competitors.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
 1. **QSBS Eligibility Assessment at Investment**: Screens every new investment at entry:
    - Confirms entity type: C-corporation (required) vs. LLC/partnership (disqualified)
@@ -6998,7 +6998,7 @@ Draft:
 
 > Structure offshore USD-denominated funds correctly the first time — before regulatory complexity derails your fundraise.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: USD Fund Structuring for Emerging Market GPs Is a Minefield of Competing Legal, Tax, and Regulatory Requirements**
 
@@ -7008,7 +7008,7 @@ The structural choices cascade through the fund's economics and operations for i
 
 For USD funds investing in specific countries like China, India, or Indonesia, additional structural layers are required. Chinese portfolio companies accessible via RMB-USD fund structures require Variable Interest Entity (VIE) analysis. Indian investments face SEBI Foreign Portfolio Investor (FPI) registration requirements and thin-capitalization rules. Indonesian investments have complex foreign ownership restrictions by sector. Each country's regulatory framework interacts with the offshore fund structure in ways that require specialist legal advice and tax planning.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
 1. **Fund Jurisdiction Selection Framework**: Identifies optimal domicile for LP base and investment geography:
    - Analyzes LP base composition: US tax-exempt, US taxable, European institutional, Asian family offices — each has different structural preferences
@@ -7249,7 +7249,7 @@ Estimated formation costs by category: [itemize legal, registration, administrat
 
 **Role**: Fund Manager / VC Analyst | **Industry**: Financial Services | **Task**: Data Analysis
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: LP Secondary Transactions Take 6+ Months and Pricing Is Based on Stale NAV Data**
 
@@ -7259,37 +7259,37 @@ The pricing challenge is the core problem. A buyer bidding on a secondary LP int
 
 For fund managers on the GP side, secondary transactions create administrative complexity regardless of whether the GP is facilitating an LP transfer or conducting a GP-led continuation vehicle. Each transaction requires preparing a detailed data room, generating portfolio company updates, facilitating buyer calls with portfolio company management, negotiating transfer agreements, and managing advisory committee consent processes. The operational cost per secondary transaction ranges from $50,000-200,000 in GP staff time and legal fees — a cost that ultimately comes out of management fee budgets.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Real-Time Portfolio Valuation Modeling**: COCO generates current-state portfolio valuations:
+1. **Real-Time Portfolio Valuation Modeling**: OpenMax generates current-state portfolio valuations:
    - Updates portfolio company valuations using public market comparable multiples adjusted daily
    - Applies sector-specific growth rates and margin trends from recent earnings data to project current metrics
    - Models the impact of recent funding rounds, M&A activity, and market conditions on unrealized portfolio value
    - Calculates distribution waterfall scenarios to estimate GP carry and LP proceeds under various exit timelines
    - Generates a confidence-weighted NAV range rather than a single-point estimate
 
-2. **Secondaries Market Benchmarking**: COCO provides pricing context:
+2. **Secondaries Market Benchmarking**: OpenMax provides pricing context:
    - Tracks completed secondary transactions by fund vintage, strategy, geography, and discount/premium
    - Identifies comparable recent trades for the specific fund type and vintage under consideration
    - Models expected bid levels based on buyer return requirements and current market conditions
    - Projects how pricing will shift based on interest rate changes and public market movements
    - Calculates the effective yield to the buyer at various discount levels
 
-3. **Data Room Automation**: COCO accelerates the preparation phase:
+3. **Data Room Automation**: OpenMax accelerates the preparation phase:
    - Compiles portfolio company financials, cap tables, and governance documents into standardized formats
    - Generates portfolio summary presentations with consistent metrics across all companies
    - Produces scenario analyses showing buyer returns at various entry prices and exit timelines
    - Creates FAQ documents addressing common buyer due diligence questions preemptively
    - Updates all materials automatically as new quarterly data becomes available
 
-4. **Transaction Structuring Intelligence**: COCO optimizes deal terms:
+4. **Transaction Structuring Intelligence**: OpenMax optimizes deal terms:
    - Models different transaction structures (straight secondary, stapled, preferred equity strip)
    - Calculates tax implications for sellers across different deal structures and jurisdictions
    - Identifies optimal timing windows based on upcoming fund events (distributions, capital calls, valuations)
    - Assesses transfer restriction and consent requirement provisions across fund documents
    - Generates term sheet drafts with market-standard provisions for the specific transaction type
 
-5. **Buyer/Seller Matching and Pipeline Management**: COCO manages the transaction process:
+5. **Buyer/Seller Matching and Pipeline Management**: OpenMax manages the transaction process:
    - Maintains a database of active secondary buyers with their preferences (strategy, vintage, geography, size)
    - Scores potential buyers by likelihood to close, pricing aggressiveness, and process efficiency
    - Tracks transaction pipeline status across multiple simultaneous processes
@@ -7487,7 +7487,7 @@ IMPLEMENTATION TIMELINE
 
 **Role**: Fund Manager / VC Analyst | **Industry**: Financial Services | **Task**: Research & Monitoring
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Venture Lenders Discover Portfolio Company Distress 60-90 Days Too Late to Protect Capital**
 
@@ -7497,37 +7497,37 @@ The traditional credit monitoring toolkit fails for venture debt. Financial cove
 
 The cost of late detection is severe. Venture debt loss rates average 3-8% of deployed capital, but the distribution is bimodal — most loans pay off at par, while problem credits lose 60-90% of principal. Early detection of deterioration (60-90 days earlier than current practice) enables lenders to exercise protective provisions, accelerate repayment, negotiate additional security, or facilitate bridge financing that preserves recovery. Industry estimates suggest that earlier intervention could reduce loss severity by 30-50% on credits that ultimately default, translating to tens of millions in preserved capital for a large venture debt fund.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Multi-Source Distress Signal Aggregation**: COCO monitors hundreds of data points per borrower:
+1. **Multi-Source Distress Signal Aggregation**: OpenMax monitors hundreds of data points per borrower:
    - Tracks company headcount changes on LinkedIn (layoffs are the earliest public signal of distress)
    - Monitors job posting volume and mix (engineering vs. sales hiring shifts signal strategy changes)
    - Scans for executive departures, especially CFO, VP Sales, and CTO (leading indicator of trouble)
    - Tracks competitor fundraising that may pressure the borrower's market position
    - Monitors customer review trends, app store ratings, and social media sentiment
 
-2. **Financial Trajectory Modeling**: COCO projects forward from partial data:
+2. **Financial Trajectory Modeling**: OpenMax projects forward from partial data:
    - Estimates current cash position based on last reported burn rate and known inflows/outflows
    - Models runway scenarios under various revenue growth and expense trajectories
    - Calculates the implied valuation needed for a next equity round to be non-dilutive to existing investors
    - Projects covenant compliance forward 2-3 quarters based on current trends
    - Flags when projected runway drops below the "danger zone" threshold for the company's fundraising timeline
 
-3. **Equity Investor Sentiment Tracking**: COCO reads the signals from the cap table:
+3. **Equity Investor Sentiment Tracking**: OpenMax reads the signals from the cap table:
    - Monitors whether existing VC investors are participating in or leading new rounds
    - Tracks insider stock transactions and option exercises where available
    - Identifies when VCs remove a portfolio company from their website (quiet signal of abandonment)
    - Monitors the fundraising status of the borrower's lead VCs (a VC that can't raise a new fund can't support portfolio)
    - Analyzes board composition changes that may indicate investor disengagement
 
-4. **Portfolio-Level Risk Aggregation**: COCO provides fund-level risk visibility:
+4. **Portfolio-Level Risk Aggregation**: OpenMax provides fund-level risk visibility:
    - Calculates portfolio-wide exposure by sector, stage, lead investor, and geography
    - Identifies concentration risks that could be triggered by common factors (sector downturn, regulatory change)
    - Models portfolio loss scenarios under stress conditions (market downturn, credit tightening)
    - Ranks all active credits by composite risk score with transparent factor attribution
    - Generates quarterly portfolio risk reports for fund investors (LPs) and credit committees
 
-5. **Early Intervention Workflow**: COCO enables proactive lender responses:
+5. **Early Intervention Workflow**: OpenMax enables proactive lender responses:
    - Triggers graduated alert protocols when risk scores cross watch-list thresholds
    - Generates standardized monitoring reports for credit committee review on flagged credits
    - Recommends specific protective actions based on the loan's covenant package and security position
@@ -7740,7 +7740,7 @@ recommended at next scheduled meeting.
 
 **Role**: Fund Manager / VC Analyst | **Industry**: Real Estate, Financial Services | **Task**: Data Analysis
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: CRE Fund Teams Spend 80 Hours per Deal on Underwriting While Missing 60% of Acquisition Opportunities Due to Speed**
 
@@ -7750,37 +7750,37 @@ The underwriting accuracy problem compounds the speed issue. Each analyst builds
 
 The data integration challenge makes everything harder. Underwriting a single apartment complex requires synthesizing data from 8-12 sources: offering memorandum, rent rolls, T-12 operating statements, market rent comparables, sales comparables, tax assessment records, utility cost benchmarks, insurance quotes, and debt market quotes. Each source arrives in a different format — PDFs, spreadsheets, broker emails, online databases — and the analyst must manually extract, validate, and input hundreds of data points. Data entry errors, which occur in an estimated 3-5% of manually entered fields, cascade through the model and produce materially incorrect return projections.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Automated Data Extraction and Model Population**: COCO eliminates manual data entry:
+1. **Automated Data Extraction and Model Population**: OpenMax eliminates manual data entry:
    - Extracts key financial data from offering memorandums, rent rolls, and T-12 statements in PDF/Excel format
    - Populates a standardized underwriting template with property-level data in minutes vs. hours
    - Validates extracted data against internal benchmarks and flags outliers for analyst review
    - Cross-references property data against public tax records and prior transaction history
    - Maintains a consistent assumption framework across all deals for direct comparability
 
-2. **Market-Calibrated Assumptions Engine**: COCO grounds projections in data:
+2. **Market-Calibrated Assumptions Engine**: OpenMax grounds projections in data:
    - Pulls current market rent comparables from the property's submarket automatically
    - Applies market-specific operating expense ratios benchmarked against fund portfolio actuals
    - Sources current debt market terms (rate, LTV, DSCR requirements) from live lender quotes
    - Projects rent growth and vacancy using submarket-specific historical trends and forward indicators
    - Applies cap rate assumptions calibrated to recent comparable sales within the target MSA
 
-3. **Scenario and Sensitivity Analysis at Scale**: COCO tests hundreds of assumptions instantly:
+3. **Scenario and Sensitivity Analysis at Scale**: OpenMax tests hundreds of assumptions instantly:
    - Generates base case, upside, and downside scenarios with transparent assumption differences
    - Runs Monte Carlo simulations on key variables to produce probability-weighted return distributions
    - Identifies the 3-5 assumptions with the greatest impact on projected returns (sensitivity ranking)
    - Models multiple hold period and exit timing scenarios simultaneously
    - Calculates breakeven assumptions — what rent growth, cap rate, or occupancy must achieve for target return
 
-4. **Investment Committee Memo Generation**: COCO accelerates decision-making documentation:
+4. **Investment Committee Memo Generation**: OpenMax accelerates decision-making documentation:
    - Produces standardized IC memos with all required sections (summary, market, financials, risks)
    - Includes property photos, location maps, and comparable analysis visuals
    - Generates a concise risk/return summary highlighting the deal's key merits and concerns
    - Appends detailed sensitivity tables and scenario analysis as supporting exhibits
    - Creates an assumption comparison page showing how this deal's underwriting compares to fund averages
 
-5. **Portfolio Fit and Concentration Analysis**: COCO evaluates deals in portfolio context:
+5. **Portfolio Fit and Concentration Analysis**: OpenMax evaluates deals in portfolio context:
    - Checks proposed acquisition against fund portfolio concentration limits (geography, property type, vintage)
    - Models the impact on fund-level return metrics if the deal performs to base case vs. downside
    - Identifies correlation risks with existing portfolio holdings
@@ -8011,7 +8011,7 @@ above our 15% threshold.
 
 **Role**: Fund Manager / VC Analyst | **Industry**: Financial Services | **Task**: Data Analysis
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: EM Sovereign Debt Analysis Requires Synthesizing 200+ Variables Across Political, Economic, and Social Domains**
 
@@ -8021,37 +8021,37 @@ The information lag in EM sovereign analysis is acute. Official economic data fr
 
 The consequence of analytical gaps is severe. EM sovereign debt is prone to binary events — debt restructurings, IMF bailouts, currency crises, and political upheavals — where a 3-day lag in recognizing a deteriorating situation can result in 20-40% mark-to-market losses on a position. A fund managing $5B in EM sovereign debt with a 2% position in a country that restructures at 50 cents can lose $50M in weeks. These are not Black Swan events — they follow recognizable patterns that are visible 6-12 months ahead in the data, if someone is watching.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Comprehensive Country Risk Dashboard**: COCO maintains real-time risk profiles for all monitored sovereigns:
+1. **Comprehensive Country Risk Dashboard**: OpenMax maintains real-time risk profiles for all monitored sovereigns:
    - Aggregates 200+ indicators per country across fiscal, monetary, external, political, and social dimensions
    - Updates automatically as new data releases occur (official statistics, central bank reports, IMF publications)
    - Provides trend visualization for key indicators with historical context and peer comparisons
    - Assigns a composite risk score with transparent factor attribution
    - Highlights data releases that deviate significantly from consensus expectations
 
-2. **Alternative Data Integration for Leading Indicators**: COCO sees what official data misses:
+2. **Alternative Data Integration for Leading Indicators**: OpenMax sees what official data misses:
    - Monitors satellite imagery of economic activity proxies (nighttime lights, port congestion, construction)
    - Tracks social media sentiment in local languages for political and social stability indicators
    - Ingests real-time trade flow data from customs and shipping databases
    - Monitors electricity consumption, mobile phone activity, and payment system transaction volumes
    - Correlates alternative data signals with subsequent official data releases to establish lead times
 
-3. **Scenario and Stress Testing Engine**: COCO models complex multi-factor outcomes:
+3. **Scenario and Stress Testing Engine**: OpenMax models complex multi-factor outcomes:
    - Runs scenario analyses for key risk events (commodity price shocks, election outcomes, IMF program failure)
    - Models contagion paths between EM countries through trade, capital flow, and sentiment channels
    - Calculates portfolio impact under stress scenarios with position-level granularity
    - Generates probability distributions for key outcomes (restructuring, devaluation, default)
    - Back-tests scenario models against historical EM crises to validate predictive accuracy
 
-4. **Event Calendar and Political Risk Monitoring**: COCO tracks the political landscape:
+4. **Event Calendar and Political Risk Monitoring**: OpenMax tracks the political landscape:
    - Maintains comprehensive calendars of elections, central bank meetings, debt maturities, and IMF reviews
    - Monitors legislative developments that affect fiscal policy or debt management
    - Tracks changes in government personnel (finance ministers, central bank governors) and their policy implications
    - Generates pre-event briefings with scenario analysis for each upcoming political risk event
    - Assesses the likelihood of policy reversals, social unrest, or institutional breakdown
 
-5. **Portfolio Optimization and Allocation Support**: COCO connects analysis to positioning:
+5. **Portfolio Optimization and Allocation Support**: OpenMax connects analysis to positioning:
    - Recommends portfolio weight adjustments based on risk-reward assessment across the sovereign universe
    - Identifies relative value opportunities (spreads too wide or too tight vs. fundamentals)
    - Calculates optimal hedging strategies using CDS, FX forwards, and local-currency positions
@@ -8242,7 +8242,7 @@ vs. current maximum loss of -$125M. Risk reduced by 72-80%.
 
 **Role**: Fund Manager / VC Analyst | **Industry**: Financial Services, Energy | **Task**: Data Analysis
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Infrastructure Fund Managers Cannot Compare Asset Performance Across Heterogeneous Portfolios**
 
@@ -8252,37 +8252,37 @@ The benchmarking void is industry-wide. Unlike public equities where performance
 
 For infrastructure funds raising capital from institutional LPs, the inability to demonstrate asset-level performance benchmarking is becoming a competitive disadvantage. Pension funds and sovereign wealth funds — the primary LP base for infrastructure — increasingly demand granular portfolio transparency and evidence of active asset management. A fund that can show "our assets operate in the top quartile of their peer set on 8 of 10 operational KPIs" wins mandates over a fund that can only report aggregate IRR.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Asset-Type-Specific KPI Frameworks**: COCO defines the right metrics for each infrastructure category:
+1. **Asset-Type-Specific KPI Frameworks**: OpenMax defines the right metrics for each infrastructure category:
    - Maintains standardized KPI libraries for 15+ infrastructure sub-sectors (transport, energy, digital, social)
    - Defines operational, financial, regulatory, and ESG metrics tailored to each asset type
    - Normalizes metrics for comparability (e.g., revenue per available seat-km for airports, capacity factor for renewable energy)
    - Tracks 30-60 KPIs per asset with automated data collection from asset management systems
    - Allows custom KPI definitions for unique asset types or fund-specific requirements
 
-2. **Peer Benchmarking Database**: COCO provides the comparison set:
+2. **Peer Benchmarking Database**: OpenMax provides the comparison set:
    - Maintains anonymized benchmark data from published infrastructure performance reports
    - Sources comparable data from regulatory filings, industry associations, and public operator disclosures
    - Creates peer groups based on geography, vintage, asset type, size, and regulatory environment
    - Calculates percentile rankings for each asset on each KPI against its peer group
    - Updates benchmarks quarterly as new data becomes available
 
-3. **Underwriting Case Variance Analysis**: COCO measures actual vs. plan:
+3. **Underwriting Case Variance Analysis**: OpenMax measures actual vs. plan:
    - Compares actual asset performance against the original investment case assumptions
    - Decomposes variance into volume, price, cost, regulatory, and macro components
    - Identifies whether deviations are temporary (weather-related shortfall) or structural (market shift)
    - Projects forward performance based on current trajectory vs. original underwriting
    - Calculates the adjusted IRR/multiple implied by actual performance trends
 
-4. **Portfolio-Level Performance Attribution**: COCO explains where returns come from:
+4. **Portfolio-Level Performance Attribution**: OpenMax explains where returns come from:
    - Attributes fund-level returns to individual asset contributions
    - Separates returns into income return, capital appreciation, and currency effects
    - Identifies which assets are driving fund outperformance or underperformance
    - Models the impact of asset disposal or additional investment on fund metrics
    - Generates LP-ready portfolio performance reports with full attribution
 
-5. **Operational Improvement Identification**: COCO finds value creation opportunities:
+5. **Operational Improvement Identification**: OpenMax finds value creation opportunities:
    - Identifies KPIs where assets rank below peer median and quantifies the improvement potential
    - Recommends specific operational initiatives based on best practices from top-performing peers
    - Calculates the value impact of closing operational gaps (e.g., "improving capacity factor by 3% = $2.1M/year")
@@ -8473,7 +8473,7 @@ Fund-level impact: +$13.8M recurring annual value = approximately
 
 **Role**: Fund Manager / VC Analyst | **Industry**: Financial Services | **Task**: Research & Monitoring
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Private Credit Funds Monitor 200+ Loans Manually, Discovering Covenant Breaches After Quarterly Reports Arrive**
 
@@ -8483,37 +8483,37 @@ The consequences of late detection are severe in private credit. Unlike liquid b
 
 The manual monitoring process breaks down at scale. Each quarterly covenant compliance review requires an analyst to: receive the borrower's financial package, verify the reported numbers against supporting schedules, recalculate covenant metrics using the credit agreement's specific definitions (which vary by deal), compare against thresholds, document the analysis, and flag any issues for senior review. This process takes 2-4 hours per loan per quarter. A fund with 150 loans generates 600 quarterly reviews — consuming 1,200-2,400 analyst hours per quarter, or 7-14 full-time analyst positions devoted entirely to backward-looking compliance checking.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Automated Covenant Compliance Engine**: COCO eliminates manual covenant calculation:
+1. **Automated Covenant Compliance Engine**: OpenMax eliminates manual covenant calculation:
    - Ingests borrower quarterly financial packages in any format (PDF, Excel, data feed)
    - Extracts financial data and maps to the specific definitions in each credit agreement
    - Calculates all covenant metrics using deal-specific formulas (EBITDA adjustments, permitted add-backs, netting rules)
    - Compares results against covenant thresholds and flags breaches or approaching breaches
    - Generates standardized compliance certificates that the monitoring team reviews and signs off
 
-2. **Inter-Quarter Early Warning Signals**: COCO monitors between reporting periods:
+2. **Inter-Quarter Early Warning Signals**: OpenMax monitors between reporting periods:
    - Tracks public data signals (industry trends, supplier reviews, customer complaints) for each borrower
    - Monitors job posting changes, executive departures, and headcount trends via LinkedIn/job boards
    - Ingests monthly borrower financial data where available (many credit agreements require monthly reporting)
    - Estimates current-quarter financial trajectory based on available partial-period data
    - Projects forward covenant compliance and flags loans expected to breach in the next 1-2 quarters
 
-3. **Credit Agreement Intelligence**: COCO masters the fine print:
+3. **Credit Agreement Intelligence**: OpenMax masters the fine print:
    - Extracts and indexes all material terms from each credit agreement (covenants, cure rights, equity cure, baskets, material adverse change definitions)
    - Identifies lender protective provisions available when credit quality deteriorates
    - Calculates the value of any equity cure rights and the likelihood of sponsor exercise
    - Tracks covenant headroom trends over time to identify gradual erosion before breach
    - Compares covenant packages across the portfolio to identify relative risk positions
 
-4. **Portfolio Risk Stratification**: COCO provides a clear risk picture:
+4. **Portfolio Risk Stratification**: OpenMax provides a clear risk picture:
    - Ranks all loans by composite credit risk score updated with each data receipt
    - Groups loans into risk tiers (performing, watch, concern, workout) with clear graduation criteria
    - Tracks migration between risk tiers over time to identify portfolio drift
    - Calculates portfolio-level metrics (weighted average credit quality, concentration by risk tier, expected loss)
    - Generates LP-ready quarterly portfolio risk reports with trend analysis
 
-5. **Workout and Amendment Management**: COCO supports active credit management:
+5. **Workout and Amendment Management**: OpenMax supports active credit management:
    - Tracks all active amendments, waivers, and forbearance agreements with their terms and deadlines
    - Models the impact of proposed covenant amendments on future compliance probability
    - Calculates amendment fee and pricing adjustment recommendations based on risk increase

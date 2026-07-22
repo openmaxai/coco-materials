@@ -1,6 +1,6 @@
 # Capability Showcase
 
-COCO is not a chatbot — it's your full-time AI employee. Send a message via Telegram, Lark, Microsoft Teams, or Zalo (Official), and it gets to work: writing documents, doing research, coding, processing data. 7x24, no breaks.
+OpenMax is not a chatbot — it's your full-time AI employee. Send a message via Telegram, Lark, Microsoft Teams, or Zalo (Official), and it gets to work: writing documents, doing research, coding, processing data. 7x24, no breaks.
 
 ## Core Scenarios
 
@@ -8,7 +8,7 @@ COCO is not a chatbot — it's your full-time AI employee. Send a message via Te
 
 **Pain:** Every PR waits half a day for Senior review. 12 PRs sitting in queue with nobody looking.
 
-**What COCO does:**
+**What OpenMax does:**
 - Auto-reviews every PR on submission
 - Delivers complete report in 15 minutes: bugs, security vulnerabilities, performance issues, code style
 - Senior only needs to read the AI summary and approve with one click
@@ -21,7 +21,7 @@ COCO is not a chatbot — it's your full-time AI employee. Send a message via Te
 
 **Pain:** Operations team spends 3 hours daily writing copy, creating images, scheduling posts. Creative burnout is the norm.
 
-**What COCO does:**
+**What OpenMax does:**
 - Automatically tracks industry trends and competitor activity
 - Generates multi-platform content in one go (X / LinkedIn / TikTok)
 - Auto-adjusts tone, length, and image suggestions
@@ -34,7 +34,7 @@ COCO is not a chatbot — it's your full-time AI employee. Send a message via Te
 
 **Pain:** Boss wants a competitive analysis report. Team browses websites, social media, and news for 2 days before delivering.
 
-**What COCO does:**
+**What OpenMax does:**
 - Real-time scraping of competitor websites, social media, and product updates
 - Auto-compares features, pricing, and market strategy
 - Outputs structured report with gap analysis and recommendations
@@ -47,7 +47,7 @@ COCO is not a chatbot — it's your full-time AI employee. Send a message via Te
 
 **Pain:** HR receives 500 resumes. Takes 3 days to review. Top candidates have already left by then.
 
-**What COCO does:**
+**What OpenMax does:**
 - Batch-parses all resumes, auto-scores against job requirements
 - Highlights key matches and risk flags
 - Outputs Top 20 ranked list with recommendation reasons
@@ -60,7 +60,7 @@ COCO is not a chatbot — it's your full-time AI employee. Send a message via Te
 
 **Pain:** Sales reps spend 45 minutes daily logging CRM. 4 hours per week on pure data entry.
 
-**What COCO does:**
+**What OpenMax does:**
 - Auto-syncs call records, email exchanges, and meeting notes
 - Intelligently extracts customer intent and next actions
 - CRM fields auto-filled, timeline updated in real-time
@@ -73,7 +73,7 @@ COCO is not a chatbot — it's your full-time AI employee. Send a message via Te
 
 **Pain:** Writing a PRD or user manual means 7 revisions back and forth. Formatting is always an issue.
 
-**What COCO does:**
+**What OpenMax does:**
 - Generates structured documents directly from requirements description
 - Supports comment-driven real-time iteration (you give feedback, AI revises immediately)
 - Auto version management, every revision saved in history
@@ -87,7 +87,7 @@ COCO is not a chatbot — it's your full-time AI employee. Send a message via Te
 
 **Pain:** SDR team manually searches LinkedIn one by one. Maximum 20 leads researched per day.
 
-**What COCO does:**
+**What OpenMax does:**
 - Auto-crawls target company info, funding data, and key decision-makers
 - Intelligent scoring and ranking, marking the most valuable leads
 - Outputs complete lead spreadsheet, ready for CRM import
@@ -100,7 +100,7 @@ COCO is not a chatbot — it's your full-time AI employee. Send a message via Te
 
 **Pain:** After every meeting, nobody wants to write notes. Even when someone does, action items are often lost.
 
-**What COCO does:**
+**What OpenMax does:**
 - Auto-generates meeting summary and detailed notes
 - Extracts all action items with owners and deadlines
 - Auto-distributes to attendees with progress tracking
@@ -111,7 +111,7 @@ COCO is not a chatbot — it's your full-time AI employee. Send a message via Te
 
 ## Real Work Scenarios
 
-> The following are actual work clips from COCO AI employees in enterprise clients.
+> The following are actual work clips from OpenMax AI employees in enterprise clients.
 
 ### Real-time Collaboration
 - **3:00 PM** — Operations lead sends a message in Lark group: "Help me do a competitive analysis report on HappyCapy"
@@ -147,9 +147,9 @@ COCO is not a chatbot — it's your full-time AI employee. Send a message via Te
 
 ---
 
-## Why Choose COCO?
+## Why Choose OpenMax?
 
-| Traditional AI Tools | COCO AI Employee |
+| Traditional AI Tools | OpenMax AI Employee |
 |---------------------|-----------------|
 | You need to learn "prompt engineering" | Give instructions in everyday language |
 | Used in a separate interface | Works in your existing chat tools |
@@ -161,7 +161,7 @@ COCO is not a chatbot — it's your full-time AI employee. Send a message via Te
 
 ## Tutorials
 
-- [COCO Automated Video Generation](./seedance-video) — Use COCO AI Employee + Jimeng API to set up AI video generation in a few steps
+- [OpenMax Automated Video Generation](./seedance-video) — Use OpenMax AI Employee + Jimeng API to set up AI video generation in a few steps
 
 ### WhatsApp
 - [How to Let Team Members or Others Use Your Bot](./whatsapp-setup) — Grant Bot access to team members or customers via natural language commands

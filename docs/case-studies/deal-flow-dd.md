@@ -1,11 +1,11 @@
 ---
 layout: page
-title: "AI Due Diligence Automation: 20 Hours to 2 — Data Room to IC Memo | COCO"
-description: "COCO AI Agent automates the full investment due diligence workflow: data room parsing, financial modeling, risk identification, and IC memo generation. Analysts shift from document handling to decision-making, 3x quarterly deal throughput."
+title: "AI Due Diligence Automation: 20 Hours to 2 — Data Room to IC Memo | OpenMax"
+description: "OpenMax AI Agent automates the full investment due diligence workflow: data room parsing, financial modeling, risk identification, and IC memo generation. Analysts shift from document handling to decision-making, 3x quarterly deal throughput."
 head:
   - - meta
     - property: og:title
-      content: "AI Due Diligence Automation: 20 Hours to 2 — Data Room to IC Memo | COCO"
+      content: "AI Due Diligence Automation: 20 Hours to 2 — Data Room to IC Memo | OpenMax"
   - - meta
     - property: og:description
       content: "AI Agent automates investment due diligence end-to-end: data room to IC memo in 2 hours instead of 20. 3x quarterly deal throughput."
@@ -908,7 +908,7 @@ head:
 
 Investment due diligence is one of the most information-intensive workflows in professional services, and it has resisted automation for years because the tasks seem to require deep human expertise: reading between the lines of a pitch deck, spotting inconsistencies across financial models, evaluating founder credibility, assessing regulatory exposure. Traditional DD frameworks were built around the assumption that these tasks must be done by experienced analysts working sequentially through a stack of documents. The result is a workflow that is simultaneously expensive, slow, and prone to the cognitive fatigue that lets critical risks slip through.
 
-COCO AI's enterprise automation approach reframes this problem. The tasks that consume analyst hours — document parsing, financial data extraction, competitive research, risk flagging — are high-volume, structured, and pattern-based. These are precisely the tasks where AI Agent automation delivers the most dramatic time savings. By deploying a dedicated digital employee to each deal, the AI handles the 20-hour information processing burden so human analysts can focus entirely on the 2-hour judgment and decision-making work at the end.
+OpenMax AI's enterprise automation approach reframes this problem. The tasks that consume analyst hours — document parsing, financial data extraction, competitive research, risk flagging — are high-volume, structured, and pattern-based. These are precisely the tasks where AI Agent automation delivers the most dramatic time savings. By deploying a dedicated digital employee to each deal, the AI handles the 20-hour information processing burden so human analysts can focus entirely on the 2-hour judgment and decision-making work at the end.
 
 Every deal, analysts burn through an entire week in data rooms and spreadsheets. Time that should go toward investment judgment gets consumed by document logistics.
 
@@ -932,7 +932,7 @@ Every deal, analysts burn through an entire week in data rooms and spreadsheets.
 
 <div class="video-showcase">
   <div class="video-container">
-    <video controls playsinline src="https://william.coco.site/dd-demo-subtitled-v3.mp4" aria-label="COCO AI due diligence demo"></video>
+    <video controls playsinline src="https://william.coco.site/dd-demo-subtitled-v3.mp4" aria-label="OpenMax AI due diligence demo"></video>
   </div>
 </div>
 
@@ -942,9 +942,9 @@ Every deal, analysts burn through an entire week in data rooms and spreadsheets.
 
 ## Four <em>Core Problems</em>
 
-Before designing the AI-powered DD pipeline, COCO AI conducted a structured analysis of where manual due diligence breaks down. Across investment teams that evaluated the system, four recurring failure modes emerged consistently — and each one compounds the others. Slowness forces teams to be selective about which deals get thorough DD, which creates coverage gaps. Coverage gaps mean missed risks, which reach IC committees in incomplete reports. And the inability to scale means teams face a permanent ceiling on deal volume that no amount of analyst effort can overcome. These four problems are interconnected, and solving one partially while leaving the others unchanged produces only marginal improvement.
+Before designing the AI-powered DD pipeline, OpenMax AI conducted a structured analysis of where manual due diligence breaks down. Across investment teams that evaluated the system, four recurring failure modes emerged consistently — and each one compounds the others. Slowness forces teams to be selective about which deals get thorough DD, which creates coverage gaps. Coverage gaps mean missed risks, which reach IC committees in incomplete reports. And the inability to scale means teams face a permanent ceiling on deal volume that no amount of analyst effort can overcome. These four problems are interconnected, and solving one partially while leaving the others unchanged produces only marginal improvement.
 
-The COCO AI Agent approach addresses all four simultaneously, because they share a common root cause: the mismatch between the volume of information that must be processed in a professional DD workflow and the throughput capacity of human information workers. When you remove that constraint with AI automation, the entire bottleneck dissolves.
+The OpenMax AI Agent approach addresses all four simultaneously, because they share a common root cause: the mismatch between the volume of information that must be processed in a professional DD workflow and the throughput capacity of human information workers. When you remove that constraint with AI automation, the entire bottleneck dissolves.
 
 <div class="company-duo">
   <div class="company-card">
@@ -979,7 +979,7 @@ The COCO AI Agent approach addresses all four simultaneously, because they share
 
 ## The AI-Powered <em>DD Pipeline</em>
 
-The COCO AI due diligence pipeline was designed from the ground up to mirror how an elite analyst team would approach a deal — not to replace human judgment, but to eliminate the document logistics that prevent analysts from exercising that judgment efficiently. Each step in the pipeline corresponds to a distinct category of analytical work, and each step runs concurrently where possible, rather than sequentially. This parallel execution architecture is what compresses 20–28 hours of sequential manual work into a 2–3 hour end-to-end workflow.
+The OpenMax AI due diligence pipeline was designed from the ground up to mirror how an elite analyst team would approach a deal — not to replace human judgment, but to eliminate the document logistics that prevent analysts from exercising that judgment efficiently. Each step in the pipeline corresponds to a distinct category of analytical work, and each step runs concurrently where possible, rather than sequentially. This parallel execution architecture is what compresses 20–28 hours of sequential manual work into a 2–3 hour end-to-end workflow.
 
 The pipeline is configured once per fund or team, with customizable templates that match existing IC memo formats, risk frameworks, and LP reporting requirements. New deals enter the pipeline through a simple material upload — analysts don't need to learn new software or change their existing workflow architecture. The AI digital employee handles the transformation from raw data room materials to structured, IC-ready intelligence automatically.
 
@@ -1040,7 +1040,7 @@ The pipeline is configured once per fund or team, with customizable templates th
 
 ## <em>Results</em>
 
-The impact of AI-powered DD automation on investment team performance is measurable across five dimensions, each of which addresses one of the failure modes identified in the problem analysis. These results are not theoretical projections — they reflect actual operational outcomes from teams that have deployed COCO AI Agent as their standard DD workflow. The most significant change isn't the time savings, though those are substantial. It's the structural shift in how analyst talent is allocated: away from document processing and toward the sourcing, relationship-building, and judgment work that determines whether a fund outperforms its benchmark.
+The impact of AI-powered DD automation on investment team performance is measurable across five dimensions, each of which addresses one of the failure modes identified in the problem analysis. These results are not theoretical projections — they reflect actual operational outcomes from teams that have deployed OpenMax AI Agent as their standard DD workflow. The most significant change isn't the time savings, though those are substantial. It's the structural shift in how analyst talent is allocated: away from document processing and toward the sourcing, relationship-building, and judgment work that determines whether a fund outperforms its benchmark.
 
 Investment committees report a secondary benefit that doesn't show up in throughput metrics: the quality and consistency of IC memos has improved because the AI processes every document with equal rigor, every time. There is no "tired Friday afternoon review" that misses a cap table anomaly. The AI reads every line of every document with the same attention, regardless of deal volume or analyst workload.
 
@@ -1122,9 +1122,9 @@ Investment committees report a secondary benefit that doesn't show up in through
 
 ## Frequently Asked Questions
 
-### Q: What file formats and document types does the COCO AI DD pipeline support?
+### Q: What file formats and document types does the OpenMax AI DD pipeline support?
 
-The COCO AI Agent accepts all major document formats used in standard data rooms: PDF, Excel (.xlsx, .xls), Word documents (.docx), PowerPoint presentations, and links to Notion pages or other web-based documentation. The system auto-classifies documents by type — financial statements, pitch decks, legal agreements, cap table records — and routes each document type to the appropriate extraction and analysis workflow. For financial models specifically, the AI extracts structured data from Excel sheets and validates figures against the narrative claims in pitch materials, flagging inconsistencies for analyst review.
+The OpenMax AI Agent accepts all major document formats used in standard data rooms: PDF, Excel (.xlsx, .xls), Word documents (.docx), PowerPoint presentations, and links to Notion pages or other web-based documentation. The system auto-classifies documents by type — financial statements, pitch decks, legal agreements, cap table records — and routes each document type to the appropriate extraction and analysis workflow. For financial models specifically, the AI extracts structured data from Excel sheets and validates figures against the narrative claims in pitch materials, flagging inconsistencies for analyst review.
 
 ### Q: How does the quality of the AI-generated IC memo compare to analyst-written memos?
 
@@ -1132,15 +1132,15 @@ The AI-generated IC memo matches or exceeds the structural completeness of analy
 
 ### Q: How is sensitive deal data and portfolio company information protected?
 
-Data security is handled through COCO's enterprise deployment model, which supports private cloud or on-premise installation for funds with strict data governance requirements. Deal materials are processed within the customer's own infrastructure and are never sent to shared third-party AI services. Access controls, encryption at rest and in transit, and audit logging are standard components of the enterprise deployment. For funds with specific regulatory requirements (GDPR, MAS TRM, SEC compliance), COCO's implementation team works with the fund's legal and compliance officers to configure appropriate data handling protocols before go-live.
+Data security is handled through OpenMax's enterprise deployment model, which supports private cloud or on-premise installation for funds with strict data governance requirements. Deal materials are processed within the customer's own infrastructure and are never sent to shared third-party AI services. Access controls, encryption at rest and in transit, and audit logging are standard components of the enterprise deployment. For funds with specific regulatory requirements (GDPR, MAS TRM, SEC compliance), OpenMax's implementation team works with the fund's legal and compliance officers to configure appropriate data handling protocols before go-live.
 
 ### Q: Can the continuous monitoring feature track portfolio companies after investment?
 
-Yes — post-investment portfolio monitoring is one of the highest-value applications of the COCO AI Agent in the investment lifecycle. After a deal closes, the AI continues monitoring the portfolio company for team changes (LinkedIn signals, press releases), competitive dynamics (competitor fundraises, product launches), regulatory developments (jurisdiction-specific regulatory feeds), and financial milestone indicators (public filings, funding announcements). Quarterly KPI update workflows pull structured data from portfolio company reports and populate portfolio dashboards automatically. This post-investment monitoring was previously done manually by associates who could only cover a subset of the portfolio consistently.
+Yes — post-investment portfolio monitoring is one of the highest-value applications of the OpenMax AI Agent in the investment lifecycle. After a deal closes, the AI continues monitoring the portfolio company for team changes (LinkedIn signals, press releases), competitive dynamics (competitor fundraises, product launches), regulatory developments (jurisdiction-specific regulatory feeds), and financial milestone indicators (public filings, funding announcements). Quarterly KPI update workflows pull structured data from portfolio company reports and populate portfolio dashboards automatically. This post-investment monitoring was previously done manually by associates who could only cover a subset of the portfolio consistently.
 
 ### Q: How many deals can run through the pipeline simultaneously?
 
-Unlike human analyst teams where each additional concurrent deal requires proportionally more analyst time, the COCO AI pipeline scales horizontally. Multiple deals can be processed simultaneously without degradation in analysis quality or increase in processing time per deal. The practical limit is determined by the fund's API and infrastructure configuration, not by analyst headcount. Funds that previously processed 30–50 deals per quarter with a team of three analysts have run 90–150 deals per quarter through the COCO pipeline with the same team size, with analysts shifting from document processing to sourcing and relationship work.
+Unlike human analyst teams where each additional concurrent deal requires proportionally more analyst time, the OpenMax AI pipeline scales horizontally. Multiple deals can be processed simultaneously without degradation in analysis quality or increase in processing time per deal. The practical limit is determined by the fund's API and infrastructure configuration, not by analyst headcount. Funds that previously processed 30–50 deals per quarter with a team of three analysts have run 90–150 deals per quarter through the OpenMax pipeline with the same team size, with analysts shifting from document processing to sourcing and relationship work.
 
 ### Q: What is the implementation timeline, and does the team need to change their existing workflow?
 
@@ -1151,7 +1151,7 @@ Full implementation — from initial configuration through first live deal — t
 <div class="blog-meta">
   <div class="blog-meta-item">
     <span class="blog-meta-label">Written by</span>
-    <span class="blog-meta-value">COCO Team</span>
+    <span class="blog-meta-value">OpenMax Team</span>
   </div>
   <div class="blog-meta-item">
     <span class="blog-meta-label">Published on</span>
@@ -1162,8 +1162,8 @@ Full implementation — from initial configuration through first live deal — t
 <div class="case-section">
   <div class="case-cta">
     <h2>Let AI Take Over Your Data Room</h2>
-    <p>Focus on finding the next great deal — leave the documents to COCO</p>
-    <a href="https://icoco.ai" class="cta-btn">Try COCO Free</a>
+    <p>Focus on finding the next great deal — leave the documents to OpenMax</p>
+    <a href="https://icoco.ai" class="cta-btn">Try OpenMax Free</a>
   </div>
 </div>
 
@@ -1183,7 +1183,7 @@ Full implementation — from initial configuration through first live deal — t
       <div class="blog-related-card-img">📊</div>
       <div class="blog-related-card-body">
         <div class="blog-related-card-label">AI Agent Case Study</div>
-        <div class="blog-related-card-title">COCO CRM — Built by AI, Run by AI</div>
+        <div class="blog-related-card-title">OpenMax CRM — Built by AI, Run by AI</div>
         <div class="blog-related-card-desc">A complete CRM system designed, built, and operated daily by an AI Agent.</div>
       </div>
     </a>

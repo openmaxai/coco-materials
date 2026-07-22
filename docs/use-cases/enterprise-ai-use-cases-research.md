@@ -1,7 +1,7 @@
 # Enterprise AI Employee / Digital Worker Use Cases Research
 
 > Date: 2026-02-10
-> Purpose: Market research for COCO product positioning and use case library
+> Purpose: Market research for OpenMax product positioning and use case library
 > Scope: Global enterprise AI agent deployments, competitor case studies, Chinese market
 
 ---
@@ -10,7 +10,7 @@
 
 The enterprise AI agent market is projected to exceed $10.9 billion in 2026 (45%+ CAGR). 79% of companies are deploying AI agents, and by end of 2026, 40% of enterprise applications will include task-specific AI agents (Gartner projects 60% of enterprises using AI agents by 2026). Organizations report average ROI of 171% and up to $6 return per dollar invested.
 
-**Key insight for COCO:** The market has moved from experimentation to production deployment. Companies want managed, ready-to-deploy AI employees -- not DIY platforms. The most compelling cases show 40-80% cost reduction and 3-15x efficiency gains in specific business functions.
+**Key insight for OpenMax:** The market has moved from experimentation to production deployment. Companies want managed, ready-to-deploy AI employees -- not DIY platforms. The most compelling cases show 40-80% cost reduction and 3-15x efficiency gains in specific business functions.
 
 ---
 
@@ -25,7 +25,7 @@ The enterprise AI agent market is projected to exceed $10.9 billion in 2026 (45%
 - **Key Metrics:** 67% of chats automated; $60M annual savings; resolution time from 11 min to <2 min; 25% decrease in repeat inquiries; 40% cost reduction per transaction; customer satisfaction on par with human agents
 - **Source URL:** https://www.klarna.com/international/press/klarna-ai-assistant-handles-two-thirds-of-customer-service-chats-in-its-first-month/
 - **Language:** EN
-- **COCO Relevance:** HIGH - This is the benchmark case for AI replacing human CS agents at scale
+- **OpenMax Relevance:** HIGH - This is the benchmark case for AI replacing human CS agents at scale
 
 #### Case 2: Reddit (via Salesforce Agentforce) - Support Deflection
 - **Company/Source:** Reddit / Salesforce
@@ -34,7 +34,7 @@ The enterprise AI agent market is projected to exceed $10.9 billion in 2026 (45%
 - **Key Metrics:** 46% case deflection; 84% reduction in resolution time (8.9 min to 1.4 min)
 - **Source URL:** https://www.salesforce.com/agentforce/customer-stories/
 - **Language:** EN
-- **COCO Relevance:** HIGH - Shows AI agents handling community/platform support at massive scale
+- **OpenMax Relevance:** HIGH - Shows AI agents handling community/platform support at massive scale
 
 #### Case 3: Tineco (添可) - Smart Home AI Customer Service
 - **Company/Source:** Tineco / BetterYeah (China)
@@ -43,7 +43,7 @@ The enterprise AI agent market is projected to exceed $10.9 billion in 2026 (45%
 - **Key Metrics:** 22x service efficiency improvement; response time from 3 minutes to 8 seconds
 - **Source URL:** https://www.betteryeah.com/blog/ai-digital-employee-complete-guide-2025
 - **Language:** CN
-- **COCO Relevance:** HIGH - Chinese company, consumer brand, dramatic efficiency gains
+- **OpenMax Relevance:** HIGH - Chinese company, consumer brand, dramatic efficiency gains
 
 #### Case 4: OpenTable (via Agentforce) - Restaurant & Diner Support
 - **Company/Source:** OpenTable / Salesforce
@@ -52,7 +52,7 @@ The enterprise AI agent market is projected to exceed $10.9 billion in 2026 (45%
 - **Key Metrics:** 70% autonomous resolution rate
 - **Source URL:** https://www.salesforce.com/agentforce/customer-stories/
 - **Language:** EN
-- **COCO Relevance:** MEDIUM - Shows AI can handle service with "personality"
+- **OpenMax Relevance:** MEDIUM - Shows AI can handle service with "personality"
 
 #### Case 5: TrueMed (via Lindy.ai) - Support Cost Reduction
 - **Company/Source:** TrueMed / Lindy.ai
@@ -61,7 +61,7 @@ The enterprise AI agent market is projected to exceed $10.9 billion in 2026 (45%
 - **Key Metrics:** 67% reduction in support costs; 6,000+ emails processed; 36% of tickets handled by AI
 - **Source URL:** https://www.lindy.ai/case-studies
 - **Language:** EN
-- **COCO Relevance:** HIGH - Direct competitor (Lindy), shows clear ROI for SMB/startup
+- **OpenMax Relevance:** HIGH - Direct competitor (Lindy), shows clear ROI for SMB/startup
 
 ---
 
@@ -74,7 +74,7 @@ The enterprise AI agent market is projected to exceed $10.9 billion in 2026 (45%
 - **Key Metrics:** $575K annual savings; 427% increase in lead engagement
 - **Source URL:** https://www.salesforce.com/agentforce/customer-stories/
 - **Language:** EN
-- **COCO Relevance:** HIGH - SMB use case, shows massive ROI from AI sales agents
+- **OpenMax Relevance:** HIGH - SMB use case, shows massive ROI from AI sales agents
 
 #### Case 7: Siemens (via Agentforce) - 100% Lead Follow-up
 - **Company/Source:** Siemens / Salesforce
@@ -83,7 +83,7 @@ The enterprise AI agent market is projected to exceed $10.9 billion in 2026 (45%
 - **Key Metrics:** 100% of leads receive personalized follow-up (vs. partial coverage before)
 - **Source URL:** https://www.salesforce.com/agentforce/customer-stories/
 - **Language:** EN
-- **COCO Relevance:** MEDIUM - Enterprise scale, shows completeness of AI coverage
+- **OpenMax Relevance:** MEDIUM - Enterprise scale, shows completeness of AI coverage
 
 #### Case 8: Blackbird (via Lindy.ai) - Sales Motion Automation
 - **Company/Source:** Blackbird / Lindy.ai
@@ -92,7 +92,7 @@ The enterprise AI agent market is projected to exceed $10.9 billion in 2026 (45%
 - **Key Metrics:** Full sales pipeline automated (specific metrics not public)
 - **Source URL:** https://www.lindy.ai/case-studies
 - **Language:** EN
-- **COCO Relevance:** HIGH - Competitor case, shows "AI sales employee" concept
+- **OpenMax Relevance:** HIGH - Competitor case, shows "AI sales employee" concept
 
 #### Case 9: Salesforce Internal - SDR Agent Pipeline Generation
 - **Company/Source:** Salesforce (internal use)
@@ -101,7 +101,7 @@ The enterprise AI agent market is projected to exceed $10.9 billion in 2026 (45%
 - **Key Metrics:** 43,000+ leads processed; $1.7M new pipeline from dormant leads; 75% faster quote creation
 - **Source URL:** https://www.salesforce.com/news/stories/first-year-agentforce-customer-zero/
 - **Language:** EN
-- **COCO Relevance:** HIGH - Proves AI agents can revive dead leads = pure incremental revenue
+- **OpenMax Relevance:** HIGH - Proves AI agents can revive dead leads = pure incremental revenue
 
 ---
 
@@ -114,7 +114,7 @@ The enterprise AI agent market is projected to exceed $10.9 billion in 2026 (45%
 - **Key Metrics:** Thousands of hours saved from 1,700+ annual reports; team shifted from production to strategy
 - **Source URL:** https://www.jasper.ai/case-studies/cushman-wakefield
 - **Language:** EN
-- **COCO Relevance:** MEDIUM - Shows content volume challenge that AI solves
+- **OpenMax Relevance:** MEDIUM - Shows content volume challenge that AI solves
 
 #### Case 11: iHeartMedia (via Jasper) - Campaign Production
 - **Company/Source:** iHeartMedia / Jasper AI
@@ -123,7 +123,7 @@ The enterprise AI agent market is projected to exceed $10.9 billion in 2026 (45%
 - **Key Metrics:** Campaign developed in 1 day (previously weeks); end-to-end from insight to execution
 - **Source URL:** https://www.jasper.ai/case-studies/iheartmedia
 - **Language:** EN
-- **COCO Relevance:** MEDIUM - Shows creative work acceleration
+- **OpenMax Relevance:** MEDIUM - Shows creative work acceleration
 
 #### Case 12: Pilot Company (via Jasper) - Brand Content at Scale
 - **Company/Source:** Pilot Flying J / Jasper AI
@@ -132,7 +132,7 @@ The enterprise AI agent market is projected to exceed $10.9 billion in 2026 (45%
 - **Key Metrics:** 3-5 hours/week saved per team member; 15% increase in content team output (Jira story points)
 - **Source URL:** https://www.jasper.ai/case-studies/pilot-company
 - **Language:** EN
-- **COCO Relevance:** MEDIUM - Per-employee time savings model
+- **OpenMax Relevance:** MEDIUM - Per-employee time savings model
 
 #### Case 13: Coocaa Technology (酷开科技) - AI Content Production
 - **Company/Source:** Coocaa Technology (China)
@@ -141,7 +141,7 @@ The enterprise AI agent market is projected to exceed $10.9 billion in 2026 (45%
 - **Key Metrics:** Team: 80 people to 5 people (94% reduction); daily output: 2,000 to 30,000 posters (15x); 100% content approval rate; 90%+ cost reduction
 - **Source URL:** https://www.betteryeah.com/blog/ai-digital-employee-complete-guide-2025
 - **Language:** CN
-- **COCO Relevance:** VERY HIGH - Most dramatic "AI replacing human workers" case; Chinese company; content production
+- **OpenMax Relevance:** VERY HIGH - Most dramatic "AI replacing human workers" case; Chinese company; content production
 
 ---
 
@@ -154,7 +154,7 @@ The enterprise AI agent market is projected to exceed $10.9 billion in 2026 (45%
 - **Key Metrics:** 80% of PO decisions automated; processing time from 42 hours to near real-time; $15M annual savings; 95% accuracy maintained; 6-month payback period
 - **Source URL:** https://goautonomous.io/danfoss-streamlines-order-intake-with-ai-powered-agents-and-autonomous-commerce/
 - **Language:** EN
-- **COCO Relevance:** MEDIUM - B2B manufacturing, impressive ROI
+- **OpenMax Relevance:** MEDIUM - B2B manufacturing, impressive ROI
 
 #### Case 15: Large Retailer (via Agentforce) - Inventory Optimization
 - **Company/Source:** Anonymous large retailer / Salesforce
@@ -163,7 +163,7 @@ The enterprise AI agent market is projected to exceed $10.9 billion in 2026 (45%
 - **Key Metrics:** Inventory redistribution: 10 days to 1 hour; promotion triggers: 1-2 days to 10 minutes; quarterly losses: $5.4M to $1.6M (70% reduction); targeted revenue up 23%
 - **Source URL:** https://www.salesforce.com/agentforce/customer-stories/
 - **Language:** EN
-- **COCO Relevance:** MEDIUM - Shows operational AI beyond customer-facing roles
+- **OpenMax Relevance:** MEDIUM - Shows operational AI beyond customer-facing roles
 
 #### Case 16: Salesforce Internal - Slack AI Agent for Internal Ops
 - **Company/Source:** Salesforce (internal use)
@@ -172,7 +172,7 @@ The enterprise AI agent market is projected to exceed $10.9 billion in 2026 (45%
 - **Key Metrics:** 500,000 hours returned to teams; 1.5M+ support requests handled by service agent
 - **Source URL:** https://www.salesforce.com/news/stories/first-year-agentforce-customer-zero/
 - **Language:** EN
-- **COCO Relevance:** HIGH - Internal "digital employee" concept, massive time savings
+- **OpenMax Relevance:** HIGH - Internal "digital employee" concept, massive time savings
 
 ---
 
@@ -185,7 +185,7 @@ The enterprise AI agent market is projected to exceed $10.9 billion in 2026 (45%
 - **Key Metrics:** 51% of candidate conversations handled outside standard working hours
 - **Source URL:** https://www.salesforce.com/agentforce/customer-stories/
 - **Language:** EN
-- **COCO Relevance:** HIGH - Shows AI as "night shift" employee, exactly COCO's model
+- **OpenMax Relevance:** HIGH - Shows AI as "night shift" employee, exactly OpenMax's model
 
 #### Case 18: Johnson Controls - HR Digital Employee "Omni"
 - **Company/Source:** Johnson Controls / Moveworks
@@ -194,7 +194,7 @@ The enterprise AI agent market is projected to exceed $10.9 billion in 2026 (45%
 - **Key Metrics:** HR professionals freed for strategic work (specific metrics not public)
 - **Source URL:** https://www.moveworks.com/us/en/resources/blog/real-world-enterprise-hr-transformation-examples-case-studies
 - **Language:** EN
-- **COCO Relevance:** MEDIUM - Named AI employee concept matches COCO branding
+- **OpenMax Relevance:** MEDIUM - Named AI employee concept matches OpenMax branding
 
 ---
 
@@ -207,7 +207,7 @@ The enterprise AI agent market is projected to exceed $10.9 billion in 2026 (45%
 - **Key Metrics:** 10,000 claims/month processed; $4.4M annual savings; 2.3-month payback period
 - **Source URL:** https://www.novaedgedigitallabs.tech/Blog/ai-agents-enterprise-2026-complete-guide
 - **Language:** EN
-- **COCO Relevance:** MEDIUM - Shows financial services use case with fast ROI
+- **OpenMax Relevance:** MEDIUM - Shows financial services use case with fast ROI
 
 #### Case 20: VC CFO (via Lindy.ai) - Automated Valuation Memos
 - **Company/Source:** VC CFO / Lindy.ai
@@ -216,7 +216,7 @@ The enterprise AI agent market is projected to exceed $10.9 billion in 2026 (45%
 - **Key Metrics:** Automated valuation memo generation (specific metrics not public)
 - **Source URL:** https://www.lindy.ai/case-studies
 - **Language:** EN
-- **COCO Relevance:** MEDIUM - Shows knowledge work automation
+- **OpenMax Relevance:** MEDIUM - Shows knowledge work automation
 
 ---
 
@@ -229,7 +229,7 @@ The enterprise AI agent market is projected to exceed $10.9 billion in 2026 (45%
 - **Key Metrics:** Streamlined clinic operations (specific metrics not public)
 - **Source URL:** https://www.lindy.ai/case-studies
 - **Language:** EN
-- **COCO Relevance:** MEDIUM - SMB/clinic use case, relatable for small business
+- **OpenMax Relevance:** MEDIUM - SMB/clinic use case, relatable for small business
 
 #### Case 22: UChicago Medicine (via Agentforce) - Patient Marketing
 - **Company/Source:** UChicago Medicine / Salesforce
@@ -238,7 +238,7 @@ The enterprise AI agent market is projected to exceed $10.9 billion in 2026 (45%
 - **Key Metrics:** Targeted marketing campaigns at scale (specific metrics not public)
 - **Source URL:** https://www.salesforce.com/agentforce/customer-stories/
 - **Language:** EN
-- **COCO Relevance:** LOW - Very vertical-specific
+- **OpenMax Relevance:** LOW - Very vertical-specific
 
 ---
 
@@ -251,7 +251,7 @@ The enterprise AI agent market is projected to exceed $10.9 billion in 2026 (45%
 - **Key Metrics:** Goal of "以一抵十" (one person doing the work of ten); full-company AI employee rollout
 - **Source URL:** https://www.group.citic/html/2025/News_0730/2980.html
 - **Language:** CN
-- **COCO Relevance:** HIGH - Major Chinese enterprise, matches "AI employee" positioning
+- **OpenMax Relevance:** HIGH - Major Chinese enterprise, matches "AI employee" positioning
 
 #### Case 24: Belle International (百丽国际) - Retail AI Agent Matrix
 - **Company/Source:** Belle International (China)
@@ -260,7 +260,7 @@ The enterprise AI agent market is projected to exceed $10.9 billion in 2026 (45%
 - **Key Metrics:** 800+ AI agent nodes; 250+ product flows; 350+ store ops flows; 10,000+ retail teams served
 - **Source URL:** https://www.betteryeah.com/blog/ai-digital-employee-complete-guide-2025
 - **Language:** CN
-- **COCO Relevance:** HIGH - Chinese enterprise, massive scale, full-chain deployment
+- **OpenMax Relevance:** HIGH - Chinese enterprise, massive scale, full-chain deployment
 
 #### Case 25: Tianhong (天虹) - Retail AI "Bailing Bird" Model
 - **Company/Source:** Tianhong Digital (China)
@@ -269,7 +269,7 @@ The enterprise AI agent market is projected to exceed $10.9 billion in 2026 (45%
 - **Key Metrics:** 48M+ digital members; 5.7B+ online sales; 340M annual app interactions; 24/7 employee service
 - **Source URL:** https://www.betteryeah.com/blog/ai-digital-employee-complete-guide-2025
 - **Language:** CN
-- **COCO Relevance:** MEDIUM - Chinese retail case, "digital employee" serving internal staff
+- **OpenMax Relevance:** MEDIUM - Chinese retail case, "digital employee" serving internal staff
 
 #### Case 26: McKinsey China - Auto Dealership Digital Employee
 - **Company/Source:** McKinsey Greater China (anonymous auto dealer)
@@ -278,7 +278,7 @@ The enterprise AI agent market is projected to exceed $10.9 billion in 2026 (45%
 - **Key Metrics:** Revenue contribution of ~40M RMB; 1-year ROI payback; cost far below human employees
 - **Source URL:** https://www.mckinsey.com.cn/数字化劳动力：数字员工激活第四种用工模式/
 - **Language:** CN
-- **COCO Relevance:** VERY HIGH - McKinsey-validated, Chinese market, clear financial ROI, "4th employment mode" framing
+- **OpenMax Relevance:** VERY HIGH - McKinsey-validated, Chinese market, clear financial ROI, "4th employment mode" framing
 
 #### Case 27: McKinsey China - State-Owned Bank Digital Employees
 - **Company/Source:** McKinsey Greater China (anonymous state-owned bank)
@@ -287,7 +287,7 @@ The enterprise AI agent market is projected to exceed $10.9 billion in 2026 (45%
 - **Key Metrics:** 1,000+ digital employees deployed; 32,000 human employees served; ~10% digital employee penetration; first-in-nation online lending during COVID
 - **Source URL:** https://www.mckinsey.com.cn/数字化劳动力：数字员工激活第四种用工模式/
 - **Language:** CN
-- **COCO Relevance:** HIGH - Banking, massive scale, validated by McKinsey
+- **OpenMax Relevance:** HIGH - Banking, massive scale, validated by McKinsey
 
 #### Case 28: McKinsey China - Restaurant Chain Digital Ordering
 - **Company/Source:** McKinsey Greater China (anonymous restaurant chain)
@@ -296,7 +296,7 @@ The enterprise AI agent market is projected to exceed $10.9 billion in 2026 (45%
 - **Key Metrics:** 4,000+ stores upgraded; 1-2 staff saved per terminal; ordering time reduced 27%; process under 20 seconds
 - **Source URL:** https://www.mckinsey.com.cn/数字化劳动力：数字员工激活第四种用工模式/
 - **Language:** CN
-- **COCO Relevance:** MEDIUM - Scale deployment, clear per-unit savings
+- **OpenMax Relevance:** MEDIUM - Scale deployment, clear per-unit savings
 
 ---
 
@@ -309,7 +309,7 @@ The enterprise AI agent market is projected to exceed $10.9 billion in 2026 (45%
 - **Key Metrics:** 30 AI agents deployed (specific ROI not public)
 - **Source URL:** https://www.lindy.ai/case-studies
 - **Language:** EN
-- **COCO Relevance:** HIGH - "AI workforce" concept, multiple agents = team of digital employees
+- **OpenMax Relevance:** HIGH - "AI workforce" concept, multiple agents = team of digital employees
 
 #### Case 30: Pragmatic (via Lindy.ai) - AI Strategy Consulting
 - **Company/Source:** Pragmatic / Lindy.ai
@@ -318,7 +318,7 @@ The enterprise AI agent market is projected to exceed $10.9 billion in 2026 (45%
 - **Key Metrics:** Business transformation (specific metrics not public)
 - **Source URL:** https://www.lindy.ai/case-studies
 - **Language:** EN
-- **COCO Relevance:** MEDIUM - Meta case: AI consultants using AI employees
+- **OpenMax Relevance:** MEDIUM - Meta case: AI consultants using AI employees
 
 ---
 
@@ -342,33 +342,33 @@ The enterprise AI agent market is projected to exceed $10.9 billion in 2026 (45%
 
 ---
 
-## Top 10 Most Compelling Cases for COCO
+## Top 10 Most Compelling Cases for OpenMax
 
-These cases best match COCO's positioning as a **managed AI employee service** -- where companies get a ready-to-work digital employee rather than a tool they need to configure themselves.
+These cases best match OpenMax's positioning as a **managed AI employee service** -- where companies get a ready-to-work digital employee rather than a tool they need to configure themselves.
 
-### Tier 1: Must-Highlight (直接匹配COCO定位)
+### Tier 1: Must-Highlight (直接匹配OpenMax定位)
 
-| Rank | Case | Why It Matters for COCO |
+| Rank | Case | Why It Matters for OpenMax |
 |------|------|------------------------|
 | 1 | **Klarna** - AI replaces 853 CS agents, saves $60M | The gold standard. Proves AI employee can match human quality at fraction of cost. Perfect for "your first AI employee" pitch. |
-| 2 | **Coocaa (酷开科技)** - 80 people to 5+AI, 15x output | Most dramatic transformation. Chinese company. Content production = relatable to COCO's target market. |
-| 3 | **McKinsey China Auto Dealer** - 40M RMB revenue, 1-year ROI | McKinsey-validated. Chinese market. Clear financial proof. "4th employment mode" is powerful framing for COCO. |
+| 2 | **Coocaa (酷开科技)** - 80 people to 5+AI, 15x output | Most dramatic transformation. Chinese company. Content production = relatable to OpenMax's target market. |
+| 3 | **McKinsey China Auto Dealer** - 40M RMB revenue, 1-year ROI | McKinsey-validated. Chinese market. Clear financial proof. "4th employment mode" is powerful framing for OpenMax. |
 | 4 | **Asymbl** - $575K saved, 427% more leads | SMB case. Shows small companies can afford AI employees. Massive engagement improvement. |
 | 5 | **Salesforce SDR Agent** - $1.7M from dead leads | AI agent finding money in places humans forgot to look. Compelling "incremental revenue" story. |
 
 ### Tier 2: Strong Supporting Cases
 
-| Rank | Case | Why It Matters for COCO |
+| Rank | Case | Why It Matters for OpenMax |
 |------|------|------------------------|
 | 6 | **Adecco** - 51% conversations outside business hours | "AI never sleeps" narrative. Shows AI as night-shift employee. |
-| 7 | **TrueMed/Lindy** - 67% support cost reduction | Direct competitor case. Shows what Lindy (COCO competitor) delivers for customers. |
-| 8 | **CITIC Securities (中信证券)** - company-wide AI employees | Major Chinese brand. "每人配数字分身" aligns with COCO vision. |
+| 7 | **TrueMed/Lindy** - 67% support cost reduction | Direct competitor case. Shows what Lindy (OpenMax competitor) delivers for customers. |
+| 8 | **CITIC Securities (中信证券)** - company-wide AI employees | Major Chinese brand. "每人配数字分身" aligns with OpenMax vision. |
 | 9 | **Reddit/Agentforce** - 46% deflection, 84% faster | Well-known tech brand. Impressive metrics. |
 | 10 | **Insurance Claims** - $4.4M saved, 2.3-month payback | Fastest payback period. Shows ROI speed for finance-sensitive buyers. |
 
-### Narrative Themes for COCO Marketing
+### Narrative Themes for OpenMax Marketing
 
-Based on this research, COCO should emphasize these proven narratives:
+Based on this research, OpenMax should emphasize these proven narratives:
 
 1. **"Your AI Employee Pays for Itself in Weeks"** -- Danfoss (6mo), insurance (2.3mo), Asymbl ($575K/yr) all show fast ROI
 2. **"From 80 People to 5"** -- Coocaa case is shocking and memorable
@@ -394,19 +394,19 @@ Based on this research, COCO should emphasize these proven narratives:
 
 ---
 
-## COCO Differentiation Opportunities
+## OpenMax Differentiation Opportunities
 
-Based on case study analysis, COCO can differentiate by:
+Based on case study analysis, OpenMax can differentiate by:
 
-1. **Managed Service vs. DIY Platform** -- Most competitors (Lindy, Relevance AI) are platforms where you build agents. COCO provides a managed, ready-to-work AI employee. Like the difference between AWS (infrastructure) and hiring a DevOps contractor.
+1. **Managed Service vs. DIY Platform** -- Most competitors (Lindy, Relevance AI) are platforms where you build agents. OpenMax provides a managed, ready-to-work AI employee. Like the difference between AWS (infrastructure) and hiring a DevOps contractor.
 
-2. **Full-Stack AI Employee** -- While competitors specialize (Jasper=marketing, Agentforce=CRM), COCO can position as a general-purpose digital employee that handles tasks across functions.
+2. **Full-Stack AI Employee** -- While competitors specialize (Jasper=marketing, Agentforce=CRM), OpenMax can position as a general-purpose digital employee that handles tasks across functions.
 
-3. **Chinese + Global Market** -- BetterYeah/iFlytek serve only China. Lindy/Jasper serve only West. COCO can bridge both markets.
+3. **Chinese + Global Market** -- BetterYeah/iFlytek serve only China. Lindy/Jasper serve only West. OpenMax can bridge both markets.
 
-4. **Human-in-the-Loop by Design** -- Many cases show AI handling 36-70% of tasks (not 100%). COCO's model of "managed AI employee with human supervision" matches real-world deployment patterns.
+4. **Human-in-the-Loop by Design** -- Many cases show AI handling 36-70% of tasks (not 100%). OpenMax's model of "managed AI employee with human supervision" matches real-world deployment patterns.
 
-5. **SMB-First Pricing** -- Enterprise cases (Salesforce, Danfoss) require enterprise budgets. COCO can bring enterprise-grade AI employees to SMBs at accessible pricing.
+5. **SMB-First Pricing** -- Enterprise cases (Salesforce, Danfoss) require enterprise budgets. OpenMax can bring enterprise-grade AI employees to SMBs at accessible pricing.
 
 ---
 

@@ -1,6 +1,6 @@
 # WhatsApp Business (Official API) — Usage Tips
 
-Use your COCO AI employee on the official WhatsApp Business Platform (Cloud API) — a verified business number your customers can message from their everyday WhatsApp app. Built for customer-facing business messaging at scale.
+Use your OpenMax AI employee on the official WhatsApp Business Platform (Cloud API) — a verified business number your customers can message from their everyday WhatsApp app. Built for customer-facing business messaging at scale.
 
 > New here? See the [WhatsApp Business Deployment guide](../getting-started/channel-deployment#whatsapp-business) to connect your business number first.
 

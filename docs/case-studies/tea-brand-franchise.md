@@ -1,14 +1,14 @@
 ---
 layout: page
-title: "Leading Tea Chain × COCO AI — Franchise Intelligence at Scale | COCO"
-description: "How a global tea chain with ~60,000 stores deployed COCO AI to achieve 7×24 multilingual franchise inquiry coverage across Southeast Asia, auto-reply 60–80% of standard queries, and free up ~10 FTE."
+title: "Leading Tea Chain × OpenMax AI — Franchise Intelligence at Scale | OpenMax"
+description: "How a global tea chain with ~60,000 stores deployed OpenMax AI to achieve 7×24 multilingual franchise inquiry coverage across Southeast Asia, auto-reply 60–80% of standard queries, and free up ~10 FTE."
 head:
   - - meta
     - property: og:title
-      content: "Leading Tea Chain × COCO AI — Franchise Intelligence at Scale"
+      content: "Leading Tea Chain × OpenMax AI — Franchise Intelligence at Scale"
   - - meta
     - property: og:description
-      content: "How a global tea chain with ~60,000 stores deployed COCO AI to achieve 7×24 multilingual franchise inquiry coverage across Southeast Asia, auto-reply 60–80% of standard queries, and free up ~10 FTE."
+      content: "How a global tea chain with ~60,000 stores deployed OpenMax AI to achieve 7×24 multilingual franchise inquiry coverage across Southeast Asia, auto-reply 60–80% of standard queries, and free up ~10 FTE."
   - - meta
     - property: og:image
       content: "https://docs.icoco.ai/coco-logo-black.png"
@@ -767,7 +767,7 @@ head:
 <div class="case-hero">
   <div class="hero-text-box">
     <h1>Leading Tea Chain<br/><em>Franchise Intelligence at Scale</em></h1>
-    <p class="subtitle">47+ unanswered franchise inquiries every night. After deploying COCO AI:<br/>7x24 multilingual coverage, 60-80% of queries auto-resolved.</p>
+    <p class="subtitle">47+ unanswered franchise inquiries every night. After deploying OpenMax AI:<br/>7x24 multilingual coverage, 60-80% of queries auto-resolved.</p>
     <div class="hero-stats">
       <div class="stat">
         <div class="stat-value">~60K</div>
@@ -802,7 +802,7 @@ Beyond the front-end inquiry problem, operational inefficiencies compounded acro
 
 ## Solution: <em>Three AI Employees, One Unified System</em>
 
-COCO deployed **3 AI employees** to cover the full business lifecycle — franchise front-end, store operations, and back-office automation. Rather than bolting AI onto one process, this approach created an integrated intelligence layer that spans the entire franchise value chain, from first inquiry to daily store operations. Each AI employee is specialized for its domain but shares the same knowledge foundation, ensuring consistency across all touchpoints.
+OpenMax deployed **3 AI employees** to cover the full business lifecycle — franchise front-end, store operations, and back-office automation. Rather than bolting AI onto one process, this approach created an integrated intelligence layer that spans the entire franchise value chain, from first inquiry to daily store operations. Each AI employee is specialized for its domain but shares the same knowledge foundation, ensuring consistency across all touchpoints.
 
 <div class="pipeline-grid">
   <div class="pipeline-card">
@@ -866,7 +866,7 @@ The labor impact alone justifies the investment: **approximately 10 full-time em
 
 The franchise business model is uniquely sensitive to response time. Unlike B2B sales where long decision cycles are expected, a prospective franchisee reaching out at 11 PM is often someone who has done their research, is ready to take the next step, and will move on to a competing brand if they don't hear back quickly. Every unanswered overnight message represents not just a lost lead but potentially a lost multi-year revenue stream from a new store location.
 
-What makes COCO's deployment remarkable is not just the automation of inquiry handling — it's the creation of an integrated AI workforce that covers the entire franchise lifecycle. From the moment a prospect sends their first message to the day-to-day operations support for established stores, AI employees maintain consistent quality and instant availability. For any franchise brand operating at scale across multiple markets and languages, this case demonstrates that the gap between "interested prospect" and "signed franchisee" can be dramatically narrowed by ensuring no inquiry — at any hour, in any language — goes unanswered.
+What makes OpenMax's deployment remarkable is not just the automation of inquiry handling — it's the creation of an integrated AI workforce that covers the entire franchise lifecycle. From the moment a prospect sends their first message to the day-to-day operations support for established stores, AI employees maintain consistent quality and instant availability. For any franchise brand operating at scale across multiple markets and languages, this case demonstrates that the gap between "interested prospect" and "signed franchisee" can be dramatically narrowed by ensuring no inquiry — at any hour, in any language — goes unanswered.
 
 </div>
 
@@ -874,7 +874,7 @@ What makes COCO's deployment remarkable is not just the automation of inquiry ha
   <div class="case-cta">
     <h2>Never Miss Another Franchise Inquiry</h2>
     <p>Deploy AI employees that work 7x24 in every language your prospects speak</p>
-    <a href="https://icoco.ai" class="cta-btn">Get Started with COCO</a>
+    <a href="https://icoco.ai" class="cta-btn">Get Started with OpenMax</a>
   </div>
 </div>
 

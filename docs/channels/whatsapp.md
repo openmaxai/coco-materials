@@ -1,6 +1,6 @@
 # WhatsApp — Usage Tips
 
-Use your COCO AI employee in WhatsApp for customer-facing and international business scenarios.
+Use your OpenMax AI employee in WhatsApp for customer-facing and international business scenarios.
 
 ## Basic Usage
 
@@ -15,12 +15,12 @@ Send any message to the bot's WhatsApp number. No special commands needed to sta
 
 ## Setting Up WhatsApp
 
-1. Go to **COCO Dashboard → Channel Deployment → WhatsApp**
+1. Go to **OpenMax Dashboard → Channel Deployment → WhatsApp**
 2. Scan the QR code with your WhatsApp app
 3. Wait for connection confirmation (green dot)
 4. Start messaging
 
-> **Note:** The WhatsApp connection uses WhatsApp Web protocol. Keep the connection active by accessing COCO Dashboard periodically.
+> **Note:** The WhatsApp connection uses WhatsApp Web protocol. Keep the connection active by accessing OpenMax Dashboard periodically.
 
 ## Best Use Cases
 
@@ -50,7 +50,7 @@ WhatsApp is widely used in Southeast Asia, Latin America, Middle East, and Europ
 
 **Status checking**: Message the bot "what's my account status?" to check subscription details without opening the dashboard.
 
-**Quick replies**: For frequently-asked questions, set up quick-reply templates in COCO Dashboard → Bot Settings.
+**Quick replies**: For frequently-asked questions, set up quick-reply templates in OpenMax Dashboard → Bot Settings.
 
 ## Limitations & Notes
 
@@ -62,12 +62,12 @@ WhatsApp is widely used in Southeast Asia, Latin America, Middle East, and Europ
 ## Troubleshooting
 
 **Bot went offline?**
-- WhatsApp connections occasionally drop — go to COCO Dashboard and reconnect (rescan QR if needed)
+- WhatsApp connections occasionally drop — go to OpenMax Dashboard and reconnect (rescan QR if needed)
 - This is a WhatsApp limitation; connections need periodic reauthorization
 
 **Not receiving responses?**
 - Check if the bot number has been blocked in WhatsApp
-- Verify your COCO subscription is active
+- Verify your OpenMax subscription is active
 
 **Slow response in groups?**
 - Large groups with high message volume may cause delays

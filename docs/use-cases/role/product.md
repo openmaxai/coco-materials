@@ -12,7 +12,7 @@ AI-powered use cases for product managers, project management, and product opera
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Aggregate Metrics Hide the Problems That Actually Matter**
 
@@ -22,13 +22,13 @@ The real cost goes beyond the immediate time waste. When product managers are st
 
 Most teams have tried to address this with a combination of spreadsheets, manual processes, and good intentions. The problem is that these approaches don't scale. What works for 10 items breaks at 100. What works for 100 collapses at 1,000. And in today's environment, you're dealing with thousands.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Processes all feedback channels:**: Processes all feedback channels: reviews, surveys, support, social. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+1. **Processes all feedback channels:**: Processes all feedback channels: reviews, surveys, support, social. OpenMax handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
 
-2. **Categorizes by theme, feature,**: Categorizes by theme, feature, and emotion with context. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+2. **Categorizes by theme, feature,**: Categorizes by theme, feature, and emotion with context. OpenMax handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
 
-3. **Surfaces emerging issues before**: Surfaces emerging issues before they appear in aggregate metrics. COCO handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
+3. **Surfaces emerging issues before**: Surfaces emerging issues before they appear in aggregate metrics. OpenMax handles this end-to-end, requiring minimal configuration and zero ongoing maintenance. The system learns from your specific patterns and improves over time.
 
 :::
 
@@ -118,7 +118,7 @@ Evaluate:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Status Reports Take Hours to Compile and Are Outdated by the Time They're Sent**
 
@@ -126,19 +126,19 @@ In today's fast-paced enterprise environment, status reports take hours to compi
 
 The problem compounds over time. As teams grow and operations scale, the manual processes that "worked fine" at 20 people become unsustainable at 200. Critical information gets siloed in individual inboxes, spreadsheets, and tribal knowledge. Handoffs between teams introduce delays and errors. And the best employees — the ones you can't afford to lose — burn out fastest because they're the ones most often pulled into the operational firefighting that prevents them from doing their highest-value work. According to a 2025 Deloitte survey, 67% of professionals in enterprise organizations report that manual processes are their biggest barrier to career satisfaction and productivity.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Project Status Reporter transforms this chaos into a streamlined, intelligent workflow. Here's the step-by-step process:
+OpenMax's AI Project Status Reporter transforms this chaos into a streamlined, intelligent workflow. Here's the step-by-step process:
 
-1. **Intelligent Data Collection**: COCO's AI Project Status Reporter continuously monitors your connected systems and data sources — email, project management tools, CRMs, databases, and communication platforms. It automatically identifies relevant information, extracts key data points, and organizes them into structured workflows without any manual input.
+1. **Intelligent Data Collection**: OpenMax's AI Project Status Reporter continuously monitors your connected systems and data sources — email, project management tools, CRMs, databases, and communication platforms. It automatically identifies relevant information, extracts key data points, and organizes them into structured workflows without any manual input.
 
-2. **Smart Analysis & Classification**: Every incoming item is analyzed using contextual understanding, not just keyword matching. COCO classifies information by urgency, topic, responsible party, and required action type. It understands the relationships between data points and identifies patterns that humans might miss when processing items individually.
+2. **Smart Analysis & Classification**: Every incoming item is analyzed using contextual understanding, not just keyword matching. OpenMax classifies information by urgency, topic, responsible party, and required action type. It understands the relationships between data points and identifies patterns that humans might miss when processing items individually.
 
-3. **Automated Processing & Routing**: Based on the analysis, COCO automatically routes items to the right team members, triggers appropriate workflows, and initiates standard responses. Routine tasks are handled end-to-end without human intervention, while complex items are escalated with full context to the right decision-maker.
+3. **Automated Processing & Routing**: Based on the analysis, OpenMax automatically routes items to the right team members, triggers appropriate workflows, and initiates standard responses. Routine tasks are handled end-to-end without human intervention, while complex items are escalated with full context to the right decision-maker.
 
-4. **Quality Validation & Cross-Referencing**: Before any output is finalized, COCO validates results against your existing records and business rules. It cross-references multiple data sources to ensure accuracy, flags inconsistencies for review, and maintains a confidence score for every automated decision.
+4. **Quality Validation & Cross-Referencing**: Before any output is finalized, OpenMax validates results against your existing records and business rules. It cross-references multiple data sources to ensure accuracy, flags inconsistencies for review, and maintains a confidence score for every automated decision.
 
-5. **Continuous Learning & Optimization**: COCO learns from every interaction — human corrections, feedback, and outcome data all feed into improving accuracy over time. It identifies bottlenecks, suggests process improvements, and adapts to changing business rules without requiring reprogramming.
+5. **Continuous Learning & Optimization**: OpenMax learns from every interaction — human corrections, feedback, and outcome data all feed into improving accuracy over time. It identifies bottlenecks, suggests process improvements, and adapts to changing business rules without requiring reprogramming.
 
 6. **Reporting & Insights Dashboard**: Comprehensive dashboards provide real-time visibility into process performance: throughput metrics, accuracy rates, exception patterns, team workload distribution, and trend analysis. Weekly summary reports highlight wins, flag concerns, and recommend optimization opportunities.
 
@@ -297,7 +297,7 @@ Include visual charts where appropriate. Highlight wins and flag areas needing a
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Sprint Planning Is a 4-Hour Guessing Game**
 
@@ -313,21 +313,21 @@ Capacity planning is crude at best. Most teams use a simple "number of developer
 
 The retrospective data that should improve future planning is rarely used. Sprint velocity history, estimation accuracy per developer, story completion patterns, and blocker frequency are all available in Jira or Linear — but nobody has time to analyze them systematically between sprints.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Sprint Planning Assistant transforms sprint planning from a subjective debate into a data-driven process:
+OpenMax's AI Sprint Planning Assistant transforms sprint planning from a subjective debate into a data-driven process:
 
-1. **Velocity Analysis**: COCO analyzes your team's historical sprint data — actual velocity across the last 10+ sprints, velocity by sprint composition (feature-heavy vs. maintenance-heavy), seasonal patterns, and the impact of team size changes. It generates a reliable velocity range with confidence intervals, not a single misleading number.
+1. **Velocity Analysis**: OpenMax analyzes your team's historical sprint data — actual velocity across the last 10+ sprints, velocity by sprint composition (feature-heavy vs. maintenance-heavy), seasonal patterns, and the impact of team size changes. It generates a reliable velocity range with confidence intervals, not a single misleading number.
 
-2. **Story Estimation**: Using your team's historical data, COCO provides AI-assisted story point estimates based on story descriptions, acceptance criteria, and similar past stories. It identifies when a story description is too vague for reliable estimation and suggests clarifying questions. Estimates include a confidence range and the specific comparable stories they're based on.
+2. **Story Estimation**: Using your team's historical data, OpenMax provides AI-assisted story point estimates based on story descriptions, acceptance criteria, and similar past stories. It identifies when a story description is too vague for reliable estimation and suggests clarifying questions. Estimates include a confidence range and the specific comparable stories they're based on.
 
-3. **Capacity Planning**: COCO calculates true available capacity by factoring in planned time off, recurring meetings, on-call schedules, interview commitments, and historical productivity patterns. It knows that your team delivers 15% less in sprints with a major release and 20% less during holiday weeks.
+3. **Capacity Planning**: OpenMax calculates true available capacity by factoring in planned time off, recurring meetings, on-call schedules, interview commitments, and historical productivity patterns. It knows that your team delivers 15% less in sprints with a major release and 20% less during holiday weeks.
 
-4. **Dependency Mapping**: COCO identifies cross-team dependencies in the sprint backlog and visualizes the critical path. It flags sprint plans where dependencies create risk — especially when dependent stories are scheduled for the same sprint with no buffer.
+4. **Dependency Mapping**: OpenMax identifies cross-team dependencies in the sprint backlog and visualizes the critical path. It flags sprint plans where dependencies create risk — especially when dependent stories are scheduled for the same sprint with no buffer.
 
-5. **Risk Assessment**: For each proposed sprint plan, COCO calculates a commitment confidence score based on historical accuracy, dependency risk, capacity constraints, and story complexity. A score below 70% triggers a warning with specific recommendations for de-scoping.
+5. **Risk Assessment**: For each proposed sprint plan, OpenMax calculates a commitment confidence score based on historical accuracy, dependency risk, capacity constraints, and story complexity. A score below 70% triggers a warning with specific recommendations for de-scoping.
 
-6. **Sprint Composition Optimization**: COCO recommends the optimal mix of feature work, tech debt, and maintenance based on your team's health metrics. It tracks tech debt accumulation and recommends allocation percentages to prevent velocity degradation.
+6. **Sprint Composition Optimization**: OpenMax recommends the optimal mix of feature work, tech debt, and maintenance based on your team's health metrics. It tracks tech debt accumulation and recommends allocation percentages to prevent velocity degradation.
 
 :::
 
@@ -494,7 +494,7 @@ Generate:
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Your Release Notes Are Written at Friday 5 PM and Nobody Reads Them**
 
@@ -510,21 +510,21 @@ Documentation gaps compound the problem. 39% of releases go completely undocumen
 
 The distribution problem is just as bad as the content problem. Even well-written release notes fail if they're published to a changelog page that nobody visits. Email digests go to spam. In-app notifications are dismissed without reading. The right information needs to reach the right audience through the right channel at the right time — and a static changelog page achieves none of that.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Release Notes Generator automates the entire pipeline from code change to customer communication:
+OpenMax's AI Release Notes Generator automates the entire pipeline from code change to customer communication:
 
-1. **Git Commit Analysis**: COCO analyzes every merged PR and commit in the release — not just the titles, but the actual code changes, PR descriptions, linked issues, and review comments. It understands what changed at a technical level with full context.
+1. **Git Commit Analysis**: OpenMax analyzes every merged PR and commit in the release — not just the titles, but the actual code changes, PR descriptions, linked issues, and review comments. It understands what changed at a technical level with full context.
 
-2. **Feature Detection**: COCO categorizes changes into customer-facing features, improvements, bug fixes, performance enhancements, and internal changes. It identifies breaking changes that require customer action and distinguishes between changes that matter to customers and internal refactoring that doesn't.
+2. **Feature Detection**: OpenMax categorizes changes into customer-facing features, improvements, bug fixes, performance enhancements, and internal changes. It identifies breaking changes that require customer action and distinguishes between changes that matter to customers and internal refactoring that doesn't.
 
 3. **User-Facing Translation**: The technical changes are translated into language that different audiences understand. An engineer sees "Added WebSocket support for real-time event streaming via the API." A product user sees "You can now see changes in real-time without refreshing the page." The same change, communicated differently for different people.
 
-4. **Audience Segmentation**: COCO generates different versions of release notes for different audiences: a detailed technical changelog for developers and API consumers, a feature-focused summary for end users, an executive overview for stakeholders, and internal notes for support and sales teams with talking points.
+4. **Audience Segmentation**: OpenMax generates different versions of release notes for different audiences: a detailed technical changelog for developers and API consumers, a feature-focused summary for end users, an executive overview for stakeholders, and internal notes for support and sales teams with talking points.
 
-5. **Multi-Format Generation**: From a single release, COCO generates the changelog entry, an email digest, in-app notification copy, social media announcement, blog post draft, and internal Slack message. Each format is optimized for its channel — the tweet is 280 characters, the blog post is 500 words, the in-app notification is 50 words.
+5. **Multi-Format Generation**: From a single release, OpenMax generates the changelog entry, an email digest, in-app notification copy, social media announcement, blog post draft, and internal Slack message. Each format is optimized for its channel — the tweet is 280 characters, the blog post is 500 words, the in-app notification is 50 words.
 
-6. **Distribution Automation**: COCO doesn't just write the notes — it distributes them. It publishes to your changelog, schedules the email digest, queues the in-app notification, and drafts the social post. For breaking changes, it triggers targeted notifications to affected users based on their API usage patterns.
+6. **Distribution Automation**: OpenMax doesn't just write the notes — it distributes them. It publishes to your changelog, schedules the email digest, queues the in-app notification, and drafts the social post. For breaking changes, it triggers targeted notifications to affected users based on their API usage patterns.
 
 :::
 
@@ -758,7 +758,7 @@ Provide: Architecture diagram description, tool recommendations, implementation 
 
 :::
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Employees Drown in Repetitive Tasks While Automation Projects Fail**
 
@@ -774,21 +774,21 @@ The departmental silo problem makes enterprise-wide automation nearly impossible
 
 Finally, there is the change management challenge. Even well-designed automations fail if the people affected do not adopt them. Workers who have performed a task manually for years are often skeptical of automation, especially when previous automation attempts have produced errors or required constant intervention. Without thoughtful change management, new automations are bypassed or abandoned within weeks.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Workflow Automator takes a fundamentally different approach to automation -- starting with intelligent process discovery and ending with self-optimizing workflows.
+OpenMax's AI Workflow Automator takes a fundamentally different approach to automation -- starting with intelligent process discovery and ending with self-optimizing workflows.
 
-1. **AI-Powered Process Discovery**: Instead of relying on interviews and shadowing, COCO observes actual work patterns through system logs, application usage data, email flows, and document trails. It identifies repetitive patterns, maps the actual process (including undocumented variations and workarounds), measures time spent on each step, and flags the highest-impact automation opportunities. The result is an accurate, data-driven process map that reflects how work is actually done, not how people think it is done.
+1. **AI-Powered Process Discovery**: Instead of relying on interviews and shadowing, OpenMax observes actual work patterns through system logs, application usage data, email flows, and document trails. It identifies repetitive patterns, maps the actual process (including undocumented variations and workarounds), measures time spent on each step, and flags the highest-impact automation opportunities. The result is an accurate, data-driven process map that reflects how work is actually done, not how people think it is done.
 
-2. **Bottleneck Identification**: COCO analyzes process flow data to identify where work gets stuck. Is it the approval step that takes 3 days because the approver is overwhelmed? Is it the data entry step where information must be manually transferred between systems? Is it the review step where 80% of items are rubber-stamped but all must wait in queue? Each bottleneck is quantified by time impact, frequency, and downstream consequences.
+2. **Bottleneck Identification**: OpenMax analyzes process flow data to identify where work gets stuck. Is it the approval step that takes 3 days because the approver is overwhelmed? Is it the data entry step where information must be manually transferred between systems? Is it the review step where 80% of items are rubber-stamped but all must wait in queue? Each bottleneck is quantified by time impact, frequency, and downstream consequences.
 
-3. **Intelligent Automation Design**: For each identified automation opportunity, COCO designs the optimal automation approach -- which may be full automation (no human involvement), human-in-the-loop automation (AI handles routine cases, humans handle exceptions), or process simplification (eliminating unnecessary steps rather than automating them). The design accounts for edge cases, error handling, and fallback procedures, learning from the actual variation observed in step 1.
+3. **Intelligent Automation Design**: For each identified automation opportunity, OpenMax designs the optimal automation approach -- which may be full automation (no human involvement), human-in-the-loop automation (AI handles routine cases, humans handle exceptions), or process simplification (eliminating unnecessary steps rather than automating them). The design accounts for edge cases, error handling, and fallback procedures, learning from the actual variation observed in step 1.
 
-4. **Rapid Implementation**: COCO generates automation workflows that connect to your existing systems through APIs, webhooks, and integration platforms. Unlike traditional RPA that mimics screen interactions, COCO's automations work at the system level, making them more robust and maintainable. Implementation timelines are measured in weeks, not months, because the process discovery phase has already identified and resolved the edge cases that typically derail projects.
+4. **Rapid Implementation**: OpenMax generates automation workflows that connect to your existing systems through APIs, webhooks, and integration platforms. Unlike traditional RPA that mimics screen interactions, OpenMax's automations work at the system level, making them more robust and maintainable. Implementation timelines are measured in weeks, not months, because the process discovery phase has already identified and resolved the edge cases that typically derail projects.
 
-5. **Performance Monitoring**: Every automated workflow is continuously monitored for performance, accuracy, and reliability. COCO tracks execution time, error rates, exception frequencies, and user satisfaction. When performance degrades -- perhaps because an upstream system changed its data format or a new edge case appeared -- COCO alerts the operations team and in many cases can self-heal by adapting the workflow to accommodate the change.
+5. **Performance Monitoring**: Every automated workflow is continuously monitored for performance, accuracy, and reliability. OpenMax tracks execution time, error rates, exception frequencies, and user satisfaction. When performance degrades -- perhaps because an upstream system changed its data format or a new edge case appeared -- OpenMax alerts the operations team and in many cases can self-heal by adapting the workflow to accommodate the change.
 
-6. **Continuous Optimization**: COCO does not stop at initial automation. It continuously analyzes automated workflows for further optimization opportunities: steps that could be parallelized, approvals that could be auto-approved based on criteria, data transformations that could be simplified, and entirely new automation opportunities revealed by the data patterns of existing workflows.
+6. **Continuous Optimization**: OpenMax does not stop at initial automation. It continuously analyzes automated workflows for further optimization opportunities: steps that could be parallelized, approvals that could be auto-approved based on criteria, data transformations that could be simplified, and entirely new automation opportunities revealed by the data patterns of existing workflows.
 
 :::
 
@@ -1095,7 +1095,7 @@ Analyze and provide:
 
 > Synthesis time cut from 3 weeks to 4 hours — while covering 100% of transcripts instead of 40%.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Drowning in Hours of Recordings with No Time to Surface the Insights**
 
@@ -1103,9 +1103,9 @@ A PM running a typical quarterly research cycle — 25 to 30 user interviews —
 
 When insights are selectively surfaced, product decisions follow the loudest voices, not the most representative ones. Teams confidently build features based on three memorable quotes while ignoring contradictory signals from twelve other participants. Every sprint that starts from incomplete research is a sprint gambling on assumptions — and when those assumptions miss, teams discover it months later through low adoption, support tickets, or churn.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI User Interview Synthesizer ingests raw interview recordings, transcripts, or notes and transforms them into structured, actionable research output in a fraction of the time.
+OpenMax's AI User Interview Synthesizer ingests raw interview recordings, transcripts, or notes and transforms them into structured, actionable research output in a fraction of the time.
 
 - **Multi-Interview Pattern Recognition**: Reads across all transcripts simultaneously — not sequentially — identifying recurring themes, contradictions, and outlier signals across the full dataset
 - **Pain Point Taxonomy Builder**: Structures discovered pain points into a hierarchy of primary pains, contributing factors, and contextual triggers, with frequency and severity scores
@@ -1118,7 +1118,7 @@ COCO's AI User Interview Synthesizer ingests raw interview recordings, transcrip
 
 **Measurable Results**
 
-- **Synthesis time**: 3 weeks manual → 4 hours with COCO (85% reduction)
+- **Synthesis time**: 3 weeks manual → 4 hours with OpenMax (85% reduction)
 - **Interview coverage**: From reviewing ~40% of transcripts → full 100% coverage
 - **Insight volume**: 3–4× more distinct pain points surfaced per research cycle
 - **Stakeholder report preparation**: Cut from 2 days to under 3 hours
@@ -1128,7 +1128,7 @@ COCO's AI User Interview Synthesizer ingests raw interview recordings, transcrip
 **Who Benefits**
 
 - **Product Managers**: Get structured, prioritized insight reports without spending weeks in spreadsheets — ready for roadmap discussions
-- **UX Researchers**: Spend time on research design instead of manual coding — COCO handles the tagging and synthesis
+- **UX Researchers**: Spend time on research design instead of manual coding — OpenMax handles the tagging and synthesis
 - **Product Designers**: Receive persona-tagged pain points and verbatim quotes directly usable in design briefs
 - **Product Leadership**: Get credible, evidence-backed summaries before quarterly planning without waiting for full research cycles
 
@@ -1173,7 +1173,7 @@ For each major pain point, generate:
 
 > Analysis time cut from 5–7 days to 6–8 hours — with 2.5× more UX friction points identified.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Usability Sessions Are Done, But the Real Work Has Barely Begun**
 
@@ -1181,9 +1181,9 @@ Running usability tests is the easy part. A team of five runs 8 moderated sessio
 
 At scale, unmoderated testing makes it worse: 50–200 sessions generate more data than teams can meaningfully process. Teams end up cherry-picking sessions to review, introducing selection bias and leaving most behavioral signal unexamined. Meanwhile, product and design decisions wait — and the longer analysis takes, the more likely the product moves on before findings ever get acted on.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Usability Test Analyzer processes multi-modal session data — click paths, task logs, completion timestamps, error events, and verbal/text feedback — to surface UX friction points with speed and precision.
+OpenMax's AI Usability Test Analyzer processes multi-modal session data — click paths, task logs, completion timestamps, error events, and verbal/text feedback — to surface UX friction points with speed and precision.
 
 - **Task Completion Rate Analysis**: Automatically calculates success, failure, and partial completion rates across all sessions — flagging tasks below threshold as high-priority friction zones
 - **Click Path and Navigation Deviation Detection**: Compares actual paths against the intended optimal flow to identify where users go off-script and what they click instead
@@ -1196,12 +1196,12 @@ COCO's AI Usability Test Analyzer processes multi-modal session data — click p
 
 **Measurable Results**
 
-- **Analysis time**: 5–7 days manual → 6–8 hours with COCO (80%+ reduction)
+- **Analysis time**: 5–7 days manual → 6–8 hours with OpenMax (80%+ reduction)
 - **Session coverage**: From reviewing ~30% of sessions → analyzing 100% of data
 - **Friction points identified**: 2.5× more distinct UX issues surfaced per test cycle
 - **Time to design handoff**: Reduced from 10 days to under 2 days
 - **False positives**: Reduced by ~40% through cross-session pattern validation
-- **Sprint delay from waiting for research**: Eliminated in teams using COCO in-cycle
+- **Sprint delay from waiting for research**: Eliminated in teams using OpenMax in-cycle
 
 **Who Benefits**
 
@@ -1255,7 +1255,7 @@ I want to understand:
 
 > Journey mapping time cut from 3–4 weeks to 2–3 days — with 40% more drop-off points identified.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Everyone Has a Journey Map on the Wall, Nobody Knows If It Reflects Reality**
 
@@ -1263,9 +1263,9 @@ Most product teams have a customer journey map on a Miro board, created during a
 
 Every undetected drop-off point is leaking revenue. A SaaS company with 5,000 trials per month losing 8% of users at a poorly designed onboarding step loses roughly 400 potential customers before they ever see value. Without a clear, data-grounded journey map, that leak goes unfixed because it is invisible.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Customer Journey Mapper synthesizes data from multiple behavioral and qualitative sources to produce a grounded, evidence-backed journey map with quantified drop-off points.
+OpenMax's AI Customer Journey Mapper synthesizes data from multiple behavioral and qualitative sources to produce a grounded, evidence-backed journey map with quantified drop-off points.
 
 - **Multi-Source Data Fusion**: Ingests behavioral data from analytics platforms, support/CRM records, survey responses, and qualitative research into a unified journey model
 - **Drop-off Quantification and Root Cause Analysis**: Calculates step-level conversion rates and correlates drop-off timing with support ticket spikes and session abandonment signals
@@ -1278,7 +1278,7 @@ COCO's AI Customer Journey Mapper synthesizes data from multiple behavioral and 
 
 **Measurable Results**
 
-- **Journey mapping time**: 3–4 week workshop cycle → 2–3 days with COCO
+- **Journey mapping time**: 3–4 week workshop cycle → 2–3 days with OpenMax
 - **Data sources synthesized**: Average 6–8 sources vs. 1–2 in manual approaches
 - **Drop-off points identified**: Teams surface 40% more previously invisible drop-offs
 - **Onboarding conversion improvement**: 15–25% improvement within one quarter
@@ -1342,7 +1342,7 @@ Please provide:
 
 > PRD drafting time cut from 6–10 hours to 60–90 minutes — with 50% fewer clarifying questions from engineering.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Writing PRDs Is the Job That Steals Time from the Real Job**
 
@@ -1350,9 +1350,9 @@ A product manager's most irreplaceable contribution is judgment — deciding wha
 
 PRDs written under time pressure are often incomplete — missing edge cases, underdefined acceptance criteria, or disconnected from the user research that motivated the feature. Engineers ask clarifying questions that delay sprint start. QA tests against acceptance criteria that don't match what was intended. Every ambiguity costs 30 to 60 minutes of meeting time to resolve downstream — and those meetings don't happen until mid-sprint, when changing course is expensive.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI PRD Generator transforms raw input — meeting notes, research findings, strategic goals, competitive references — into a structured, comprehensive PRD draft in a fraction of the time.
+OpenMax's AI PRD Generator transforms raw input — meeting notes, research findings, strategic goals, competitive references — into a structured, comprehensive PRD draft in a fraction of the time.
 
 - **Context-to-Structure Conversion**: Takes unstructured inputs (rough notes, bullet points) and organizes them into a complete PRD structure with all standard sections populated
 - **User Story Generation**: Creates well-formed user stories from feature descriptions, including personas, actions, outcomes, and edge-case stories
@@ -1426,7 +1426,7 @@ For each issue found, suggest a specific fix.
 
 > 35% fewer "regret features" built — calibrated estimates replace gut-feel prioritization.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Every Feature Feels Equally Important Until You Have to Choose**
 
@@ -1434,9 +1434,9 @@ Roadmap prioritization is where intuition meets pressure. Every quarter, PMs fac
 
 The downstream cost is significant: a single mis-prioritized feature in a quarterly roadmap can consume $200,000–$400,000 in engineering time across a mid-size team. If that feature delivers 20% of the expected impact because the underlying assumptions were wrong, the organization has effectively wasted the equivalent of multiple engineers' annual output.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Feature Impact Estimator combines historical product data, user segment analysis, competitive benchmarks, and evidence-based reasoning to produce grounded, calibrated impact estimates.
+OpenMax's AI Feature Impact Estimator combines historical product data, user segment analysis, competitive benchmarks, and evidence-based reasoning to produce grounded, calibrated impact estimates.
 
 - **Historical Launch Pattern Analysis**: Mines data from previous feature launches to establish calibrated benchmarks — what does a feature like this typically deliver in the first 90 days?
 - **Confidence-Weighted Impact Scoring**: Generates impact scores with explicit confidence intervals — "4–8% retention improvement (medium confidence)" rather than a single-point guess
@@ -1517,7 +1517,7 @@ Questions I want answered:
 
 > 70–80% of requirements conflicts detected before sprint start vs. ~20% with manual review.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: The Conflict Was There All Along — Nobody Found It Until Sprint 3**
 
@@ -1525,9 +1525,9 @@ Multi-stakeholder product development is a coordination problem at scale. A PM c
 
 The conflicts emerge during development, not before. An engineer starts building the self-serve flow and realizes it conflicts with the role-based access controls. Each discovery costs 1–2 days of engineering rework at minimum — and often triggers a spec revision that restarts planning and requires a new round of stakeholder sign-offs.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Requirements Conflict Detector analyzes requirements from multiple sources simultaneously, surfaces contradictions and dependency risks before development begins, and produces a resolution framework for stakeholder alignment.
+OpenMax's AI Requirements Conflict Detector analyzes requirements from multiple sources simultaneously, surfaces contradictions and dependency risks before development begins, and produces a resolution framework for stakeholder alignment.
 
 - **Cross-Stakeholder Requirement Parsing**: Ingests requirements from meeting notes, Slack threads, email summaries, PRD comments — normalizing them into a unified requirements model
 - **Conflict Type Classification**: Categorizes conflicts as direct contradictions, resource conflicts, priority conflicts, or dependency conflicts
@@ -1593,7 +1593,7 @@ Please deliver:
 
 > Rollout-related support escalations reduced 60%. Per-tenant communication prep time: 45 min → 5 min.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Rolling Out to Enterprise Tenants Is a Risk Management Problem in Disguise**
 
@@ -1603,9 +1603,9 @@ The problem is that most rollout processes are not designed for this asymmetry. 
 
 The documentation burden compounds the problem. Enterprise customers expect rollout communications with specifics: what is changing, when exactly, how to prepare, what to do if something breaks, and who to call. Generating per-tenant rollout communications manually for 50+ tenants at different rollout stages is a project unto itself that teams simply skip — and then field the confusion calls.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Multi-Tenant Feature Rollout Manager plans, sequences, and monitors feature rollouts across enterprise tenants with risk-calibrated staging, automated communication generation, and proactive rollback triggers.
+OpenMax's AI Multi-Tenant Feature Rollout Manager plans, sequences, and monitors feature rollouts across enterprise tenants with risk-calibrated staging, automated communication generation, and proactive rollback triggers.
 
 1. **Tenant Risk Profile Scoring**: Classifies each tenant by rollout risk before a single line of deployment happens.
    - Risk factors: integration complexity, custom configuration depth, contractual SLA sensitivity, tenant health score, support ticket volume, strategic account status
@@ -1647,7 +1647,7 @@ COCO's AI Multi-Tenant Feature Rollout Manager plans, sequences, and monitors fe
 - **Rollout-related support escalations**: Reduced by 60% through risk-tiered wave sequencing
 - **Mean time to rollout completion**: Reduced by 25% through parallel wave optimization
 - **Rollback events**: Decreased by 40% due to pre-rollout readiness checks
-- **Per-tenant communication prep time**: From 45 minutes per tenant to 5 minutes with COCO
+- **Per-tenant communication prep time**: From 45 minutes per tenant to 5 minutes with OpenMax
 - **SLA violation incidents during rollout**: Reduced from ~15% to under 4% of major releases
 - **Tenant health scores** (90 days post-rollout): 18% improvement vs. unstructured rollout
 
@@ -1736,7 +1736,7 @@ Please analyze and provide:
 
 > Average onboarding duration reduced 30–40% — time-to-first-value milestone accelerated to under 30 days.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Every Enterprise Customer Feels Like the First — Because There's No Playbook**
 
@@ -1744,9 +1744,9 @@ Enterprise onboarding is where deals go to die silently. A six-figure contract i
 
 The root problem is the absence of structured, segment-tailored onboarding playbooks. Enterprise onboarding that drags on past 90 days correlates with 40% higher year-one churn. Customers who don't reach first value milestone within 30 days are 3× more likely to reduce their contract at renewal.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Enterprise Onboarding Playbook Builder creates tailored, step-by-step onboarding workflows calibrated to enterprise client characteristics, product complexity, and implementation risk.
+OpenMax's AI Enterprise Onboarding Playbook Builder creates tailored, step-by-step onboarding workflows calibrated to enterprise client characteristics, product complexity, and implementation risk.
 
 - **Client Segment Profiling**: Analyzes customer profile data to determine the appropriate onboarding track before day one — flagging elevated-risk indicators like first-in-vertical customers or aggressive go-live deadlines
 - **Phase-by-Phase Workflow Generation**: Creates detailed implementation workflows with sequenced milestones, task owners, success criteria, and customer-side accountability for each phase
@@ -1804,7 +1804,7 @@ Please build a phased playbook with:
 
 > 35–45% more expansion revenue identified proactively — before the renewal window opens.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: The Best Expansion Opportunities Are Already Hiding in Your Data — Nobody's Reading It**
 
@@ -1812,9 +1812,9 @@ In a mature B2B SaaS business, 30–50% of revenue growth should come from exist
 
 The signals are there: a customer at 90% seat utilization for six weeks needs more seats but hasn't said so. A customer with Module A is using workarounds that Module B would eliminate — the cross-sell writes itself. For a SaaS company with $10M ARR from 100 accounts, a 10% improvement in expansion revenue identification equals $1M in pipeline that previously existed but was invisible.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Customer Expansion Opportunity Finder continuously analyzes product usage data, customer health signals, and account characteristics to surface timely, evidence-backed expansion opportunities.
+OpenMax's AI Customer Expansion Opportunity Finder continuously analyzes product usage data, customer health signals, and account characteristics to surface timely, evidence-backed expansion opportunities.
 
 - **Usage Pattern Opportunity Detection**: Identifies seat utilization approaching threshold, feature usage breadth indicating graduation to a higher tier, and module gap usage where customers use workarounds
 - **Cross-Sell Affinity Scoring**: Scores each account on probability of successful cross-product adoption based on behavioral similarity to customers who already purchased that product
@@ -1871,7 +1871,7 @@ Please produce:
 
 > Mean time to anomaly detection reduced from 2–3 days to under 4 hours — with an 8% false positive rate.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: You Find Out About the Metric Drop on Monday Morning, From Your CEO**
 
@@ -1879,9 +1879,9 @@ Nothing derails a PM's week faster than a metrics surprise. Daily active users d
 
 The monitoring problem is structural. Product metrics are spread across multiple tools, and even teams with a single dashboard cannot realistically watch every metric continuously. More subtle changes — a 5% activation decline spread over 10 days, or a specific cohort's retention degrading while the aggregate metric looks fine — are essentially invisible without systematic statistical analysis.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Product Metrics Anomaly Detector applies statistical analysis to identify meaningful metric deviations — separating genuine product signals from seasonal variation and noise — and delivers contextualized, actionable alerts before problems become crises.
+OpenMax's AI Product Metrics Anomaly Detector applies statistical analysis to identify meaningful metric deviations — separating genuine product signals from seasonal variation and noise — and delivers contextualized, actionable alerts before problems become crises.
 
 - **Baseline Pattern Learning**: Accounts for day-of-week seasonality, holiday patterns, and business cycles — detecting when a metric is "trending wrong" at a statistically significant rate even before it breaches a hard threshold
 - **Segment-Level Anomaly Detection**: Automatically segments data by user cohort, acquisition channel, platform, and geography — flagging when the aggregate looks normal but a key user segment is deteriorating
@@ -1942,7 +1942,7 @@ Please:
 
 > Day-30 retention improvements of 4–8% within one quarter — from identifying the specific behaviors that predict churn.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: The Retention Curve Is a Fact, But You Don't Know What Caused It**
 
@@ -1950,9 +1950,9 @@ Every product team knows their Day-7 and Day-30 retention rates. Almost no team 
 
 Traditional cohort analysis answers "what happened to users who signed up in week X." It shows the retention curve, but provides no insight into within-cohort variation — the 25% who stayed vs. the 75% who left, whose behavior from Day 1 may have been completely different. PMs facing aggregate retention curves respond with aggregate solutions: improve onboarding for everyone, add a Day-3 email for everyone. These one-size-fits-all interventions bring limited improvement because they don't target the actual behavioral differences between retained and churned users.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Cohort Retention Analyzer segments users by behavioral dimensions, identifies the specific behaviors that differentiate retained from churned users, and generates testable retention improvement hypotheses.
+OpenMax's AI Cohort Retention Analyzer segments users by behavioral dimensions, identifies the specific behaviors that differentiate retained from churned users, and generates testable retention improvement hypotheses.
 
 - **Behavioral Cohort Segmentation**: Groups users by what they actually do in the product during Week 1 — not by signup timing — creating cohorts that reveal dramatically different retention curves
 - **"Aha Moment" Detection**: Identifies which specific product behaviors correlate most strongly with long-term retention — quantifying each behavior's retention lift
@@ -1968,7 +1968,7 @@ COCO's AI Cohort Retention Analyzer segments users by behavioral dimensions, ide
 - **Retention improvement speed**: Teams move from "improve onboarding generally" to specific behavioral targets — achieving 4–8% Day-30 retention lift within one quarter
 - **Churn prediction accuracy**: Day-7 churn prediction models built on behavioral cohort analysis achieve 75–85% precision
 - **Intervention targeting**: High-risk users identified 14 days before churn — proactive intervention 2–3× more successful than reactive
-- **Retention insight time**: From 2–3 week analyst projects to 4–6 hour COCO-assisted analysis
+- **Retention insight time**: From 2–3 week analyst projects to 4–6 hour OpenMax-assisted analysis
 - **A/B test efficiency**: Targeted behavioral tests reach statistical significance 30% faster than broad UX tests
 - **Retention investment returns**: 1 percentage point improvement in Day-30 retention → 3–5% increase in overall cohort LTV
 
@@ -2009,9 +2009,9 @@ Please analyze and output:
 :::
 ## 17. AI Feature Adoption Tracker
 
-> 90-day adoption rates improve 25–40% after implementing COCO-identified barrier fixes.
+> 90-day adoption rates improve 25–40% after implementing OpenMax-identified barrier fixes.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: The Feature Shipped. Three Months Later, Only 8% of Users Have Touched It.**
 
@@ -2019,9 +2019,9 @@ Every product team has experienced this. A feature takes 6 weeks to build, launc
 
 Industry research shows that 60–80% of features in a typical SaaS product are "rarely or never" used by most users. The root cause is not bad feature design — it is insufficient visibility into the adoption journey. Teams know whether a feature was adopted or not. They don't understand the path to adoption: which users tried it and why, which users encountered it and skipped, what happened in sessions where users abandoned the feature mid-use.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Feature Adoption Tracker monitors adoption rates across user segments, maps barriers in the adoption funnel, and identifies engagement patterns that distinguish successful adoption from stalled interest.
+OpenMax's AI Feature Adoption Tracker monitors adoption rates across user segments, maps barriers in the adoption funnel, and identifies engagement patterns that distinguish successful adoption from stalled interest.
 
 - **Adoption Funnel Mapping**: Breaks down feature adoption from exposure to habitual use — and identifies which stage is the primary bottleneck (most teams find the problem is much earlier in the funnel than expected)
 - **Staged Barrier Identification**: Pinpoints specific friction at each adoption stage: discoverability gaps, activation friction causing mid-use abandonment, or habit formation blockers
@@ -2082,7 +2082,7 @@ Please:
 
 > Launch task completion rate rises from ~70% to 92%+ — with 45% fewer timeline delays.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: "Ready to Launch" Means Something Different to Every Team at the Table**
 
@@ -2090,9 +2090,9 @@ Product launches are organizational coordination challenges wearing the costume 
 
 Launch task omissions happen not because of carelessness but because of coordination complexity. A medium-complexity product launch involves 50–80 independent tasks across 6–8 functions. Their dependencies only become visible when something breaks. The downstream effects are real: products that launch with a confusing initial experience establish negative first impressions that are hard to reverse. Features launched without sales enablement get ignored for two quarters.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Product Launch Planner generates comprehensive, dependency-mapped launch plans covering cross-functional task ownership, timeline management, and proactive risk identification.
+OpenMax's AI Product Launch Planner generates comprehensive, dependency-mapped launch plans covering cross-functional task ownership, timeline management, and proactive risk identification.
 
 - **Cross-Functional Task Generation**: Creates comprehensive task lists with role assignments across Engineering, Product, Marketing, Sales, CS, Legal, and Data — covering all launch functions
 - **Dependency Mapping**: Builds a dependency graph showing which tasks block other tasks — identifying the critical path and the "hidden" dependencies that teams only discover when something breaks
@@ -2159,7 +2159,7 @@ Please generate:
 
 > Battlecard creation time cut from 8–12 hours to 2–3 hours per competitor — with win rates improving 10–18%.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Your Sales Team Is Walking Into Competitive Deals with a Battlecard from Nine Months Ago**
 
@@ -2167,9 +2167,9 @@ Competitive intelligence has a freshness problem. A sales rep walks into an oppo
 
 Building and maintaining competitive battlecards is a resource problem. A complete, high-quality battlecard for one competitor requires 8–12 hours of initial research — product documentation review, pricing page analysis, review mining, win/loss interview synthesis, and messaging framework development. Multiplied by 6–10 active competitors plus quarterly refresh cycles, competitive intelligence becomes a dedicated full-time function that most product or PMM teams cannot staff for.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-COCO's AI Competitive Battlecard Builder synthesizes data from multiple intelligence sources — product reviews, win/loss data, sales call notes, market research, and public product information — into real-time competitive battlecards structured for sales utility.
+OpenMax's AI Competitive Battlecard Builder synthesizes data from multiple intelligence sources — product reviews, win/loss data, sales call notes, market research, and public product information — into real-time competitive battlecards structured for sales utility.
 
 - **Multi-Source Intelligence Aggregation**: Integrates competitive intelligence from G2/Capterra/TrustRadius reviews, win/loss call transcripts, sales team field observations from CRM notes and calls, and public product information including release notes and job postings
 - **Nuanced Strength/Weakness Analysis**: Distinguishes perceived advantages (what their marketing says) from actual advantages (what customers confirm in reviews) — and identifies how advantages interact with segments
@@ -2234,7 +2234,7 @@ Please generate a battlecard including:
 
 > Get control of your feature flag sprawl — identify stale flags, assess cleanup risk, and generate the rollout or retirement plan.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Feature Flags Accumulate Into an Unmanaged Tax on Engineering Velocity**
 
@@ -2244,44 +2244,44 @@ The technical debt is concrete. Every active flag represents a branch in the cod
 
 The governance gap also creates risk. Flags controlling security features, pricing tiers, or access control that should be fully enabled sit at 95% rollout with the final 5% never completed because the PM who created the flag left the company and no one has context on why it was paused. Flags controlling deprecated code paths keep the old implementation in production long after it should have been removed. Every stale flag is a hidden liability waiting to become an incident.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Flag Inventory Audit and Age Analysis**: COCO builds the authoritative flag registry:
+1. **Flag Inventory Audit and Age Analysis**: OpenMax builds the authoritative flag registry:
    - Ingests flag data from your feature flag platform (LaunchDarkly, Unleash, Flagsmith, custom)
    - Classifies each flag by type: release flag, experiment flag, ops flag, permission flag, kill switch
    - Calculates flag age, last modification date, current rollout percentage, and who created it
    - Identifies flags with no associated Jira/Linear ticket, no owner, or owners who have left the company
    - Produces a prioritized cleanup backlog ranked by staleness, risk, and cleanup complexity
 
-2. **Stale Flag Detection and Risk Assessment**: COCO distinguishes safe cleanup from risky removal:
+2. **Stale Flag Detection and Risk Assessment**: OpenMax distinguishes safe cleanup from risky removal:
    - Flags that have been at 100% rollout for over [X] days with no code removal are cleanup candidates
    - Flags at 0% rollout for over [X] days that are not active experiments are retirement candidates
    - Evaluates the risk of each flag based on what it controls (UI text vs. core data processing vs. access control)
    - Identifies flags whose default value would cause harm if evaluated incorrectly after removal
    - Generates a risk tier (low / medium / high) for each cleanup action with rationale
 
-3. **Rollout Completion Analysis**: COCO identifies flags stuck in partial rollout:
+3. **Rollout Completion Analysis**: OpenMax identifies flags stuck in partial rollout:
    - Finds flags at partial rollout (1–99%) with no change in the past [X] weeks
    - Investigates whether partial rollout was intentional (gradual rollout in progress) or abandoned
    - For abandoned partial rollouts: identifies what data or event was needed to proceed and whether it exists
    - Generates rollout completion recommendations with the monitoring criteria that should trigger full release
    - Drafts the rollout decision for product and engineering review
 
-4. **Code Removal Guidance**: COCO helps engineers clean up the implementation:
+4. **Code Removal Guidance**: OpenMax helps engineers clean up the implementation:
    - Identifies which code branches to keep (default value wins) and which to remove for each flag
    - Generates a structured code removal checklist for each flag retirement
    - Flags any places where flag evaluation results are persisted in databases or logs that also need cleanup
    - Identifies test cases that reference the flag and need to be updated or removed
    - Estimates engineering effort for each cleanup action to support sprint planning
 
-5. **Governance Policy Generation**: COCO establishes sustainable processes:
+5. **Governance Policy Generation**: OpenMax establishes sustainable processes:
    - Drafts a feature flag lifecycle policy: creation standards, required fields, expiry date mandate
    - Defines retirement criteria for each flag type with objective thresholds
    - Creates a flag ownership assignment model tied to team structure
    - Generates a recurring audit process that keeps the flag registry clean going forward
    - Produces a dashboard specification for ongoing flag health monitoring
 
-6. **Experiment Flag Post-Mortem Support**: COCO closes the loop on experiments:
+6. **Experiment Flag Post-Mortem Support**: OpenMax closes the loop on experiments:
    - Identifies experiment flags where the A/B test has concluded but the winning variant isn't fully shipped
    - Extracts experiment metadata to generate a post-mortem report template pre-populated with flag data
    - Flags experiments with no associated analytics event — suggesting the experiment was never properly instrumented
@@ -2386,7 +2386,7 @@ Format: ready to publish in our engineering handbook with section headers and cl
 
 > Turn 20 hours of customer discovery recordings into a structured insight brief in under 2 hours.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Customer Discovery Interviews Produce Rich Qualitative Data That Almost Never Gets Properly Synthesized**
 
@@ -2396,44 +2396,44 @@ In practice, interviews get summarized in one of two inadequate ways. Either som
 
 The cost goes beyond the immediate sprint. When discovery is not synthesized into a durable, searchable artifact, the insights decay. Six months later, when the feature is being specced and the original interviewer has left, there's no way to go back to what customers actually said. The organization continuously re-discovers the same problems instead of building on prior learning.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Interview Transcript Ingestion and Structuring**: COCO processes raw interview material at scale:
+1. **Interview Transcript Ingestion and Structuring**: OpenMax processes raw interview material at scale:
    - Ingests interview transcripts, notes, and recording summaries across all discovery sessions
    - Identifies and segments each distinct question-answer exchange within transcripts
    - Tags each segment with the relevant product area, job-to-be-done, or problem category
    - Extracts verbatim customer quotes that capture the most insight-rich moments
    - Links each insight to the specific customer context (role, company size, use case, segment)
 
-2. **Cross-Interview Pattern Synthesis**: COCO surfaces what appears across multiple conversations:
+2. **Cross-Interview Pattern Synthesis**: OpenMax surfaces what appears across multiple conversations:
    - Identifies themes that appear across multiple interviews, weighted by frequency and emphasis
    - Distinguishes widely-shared problems (mentioned by 70%+ of interviewees) from segment-specific issues
    - Detects contradictions — areas where customers expressed conflicting needs or priorities
    - Maps the emotional intensity of pain points based on language analysis
    - Groups related insights into coherent problem clusters with supporting quote evidence
 
-3. **Job-to-Be-Done Framework Application**: COCO structures insights around what customers are trying to accomplish:
+3. **Job-to-Be-Done Framework Application**: OpenMax structures insights around what customers are trying to accomplish:
    - Identifies the functional, emotional, and social jobs customers are trying to complete
    - Maps current workarounds customers have developed, revealing the gap your product needs to fill
    - Distinguishes the hire criteria (what customers use to evaluate solutions) from the jobs themselves
    - Identifies the moments of struggle where the job fails or becomes painful
    - Structures job-to-be-done statements suitable for inclusion in product briefs and PRDs
 
-4. **Segment Differentiation Analysis**: COCO identifies which insights apply to which customers:
+4. **Segment Differentiation Analysis**: OpenMax identifies which insights apply to which customers:
    - Compares problem frequency and intensity across segments (company size, role, industry, use case)
    - Identifies segments with distinct needs that should be treated as separate product personas
    - Flags where the same surface-level problem has different root causes across segments
    - Highlights which customer segments expressed the most acute pain — primary target for the solution
    - Generates segment-specific insight summaries for use in persona development
 
-5. **Evidence-Based Prioritization Support**: COCO connects discovery to decision-making:
+5. **Evidence-Based Prioritization Support**: OpenMax connects discovery to decision-making:
    - Quantifies how many customers mentioned each problem area (with segment breakdown)
    - Ranks problem areas by frequency, intensity, and alignment with company strategic priorities
    - Identifies the "must-have" threshold: problems where non-solution is a blocker for adoption
    - Generates a prioritization matrix comparing problem importance against current solution satisfaction
    - Produces an evidence package for each potential product direction — quotes, frequency, and customer context
 
-6. **Insight Brief Generation**: COCO produces a publishable research artifact:
+6. **Insight Brief Generation**: OpenMax produces a publishable research artifact:
    - Generates a structured discovery brief: goals, methodology, participants, top insights, and recommendations
    - Formats the brief for internal audiences (engineering, design, leadership) with appropriate detail levels
    - Creates a quotes bank organized by theme for use in pitch decks and PRDs
@@ -2542,7 +2542,7 @@ Please generate a discovery brief that includes:
 
 > Know exactly how many experiments you're running, what's blocking throughput, and what it's costing you in decision speed.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Experimentation Programs Are Measured by Outcomes But Never by the Process Bottlenecks That Determine How Many Outcomes You Can Generate**
 
@@ -2552,44 +2552,44 @@ The bottlenecks are real and diverse. Some experiments take two weeks to instrum
 
 Without a systematic view of where experiments are failing and why, product organizations optimize the wrong things. They hire more experimenters when the bottleneck is engineering instrumentation capacity. They lengthen experiment runtimes when the real problem is under-powered hypotheses. They add pre-mortems when the failure mode is post-experiment analysis rigor. The program improves superficially without addressing the structural constraints on throughput.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Experiment Pipeline Visibility**: COCO builds the complete view of experiments in flight:
+1. **Experiment Pipeline Visibility**: OpenMax builds the complete view of experiments in flight:
    - Tracks every experiment from hypothesis to decision across all stages (backlog, design, engineering, live, analysis, decision)
    - Calculates time spent in each stage per experiment and across the portfolio
    - Identifies the current stage distribution: how many experiments are stuck where right now
    - Flags experiments that have been in a single stage for longer than the expected stage duration
    - Produces a real-time pipeline dashboard showing throughput, bottlenecks, and aging
 
-2. **Cycle Time Analysis**: COCO measures what's actually taking time:
+2. **Cycle Time Analysis**: OpenMax measures what's actually taking time:
    - Calculates end-to-end cycle time for completed experiments: hypothesis to decision
    - Breaks cycle time into components: design, engineering, runtime, analysis, decision
    - Identifies which stage is the primary bottleneck in the current quarter
    - Compares cycle time across experiment types (UI, algorithm, copy, pricing) to identify category-specific delays
    - Benchmarks cycle time against prior periods and industry norms for experimentation maturity
 
-3. **Statistical Quality Audit**: COCO catches methodological problems before they waste a sprint:
+3. **Statistical Quality Audit**: OpenMax catches methodological problems before they waste a sprint:
    - Reviews experiment designs for sample size adequacy: will the experiment have sufficient power at planned runtime?
    - Flags experiments with multiple primary metrics (increases false positive risk)
    - Identifies experiments where the control and treatment populations may not be properly randomized
    - Reviews early results for peeking bias and alerts when teams are considering stopping prematurely
    - Audits completed experiment analyses for common errors (multiple testing, segment mining without correction)
 
-4. **Abandonment and Inconclusive Rate Analysis**: COCO quantifies the waste:
+4. **Abandonment and Inconclusive Rate Analysis**: OpenMax quantifies the waste:
    - Tracks experiments that were started but never launched, launched but never analyzed, or analyzed but never actioned
    - Calculates the inconclusive experiment rate and analyzes the root cause distribution (under-powered, vague hypothesis, instrumentation failure, runtime cut short)
    - Estimates the decision-hours wasted on abandoned and inconclusive experiments
    - Identifies patterns in abandonment — certain teams, experiment types, or quarters with higher abandonment
    - Generates recommendations to reduce abandonment rate through upstream process improvements
 
-5. **Experiment Hypothesis Quality Scoring**: COCO assesses hypotheses before they consume resources:
+5. **Experiment Hypothesis Quality Scoring**: OpenMax assesses hypotheses before they consume resources:
    - Evaluates submitted hypotheses against quality criteria: specific, measurable, falsifiable, linked to a user insight
    - Identifies hypotheses where the success metric is vague or would be difficult to measure cleanly
    - Flags hypotheses where the expected effect size is unrealistically large (overconfident) or so small that reaching significance would require impractical sample sizes
    - Suggests refinements to improve hypothesis quality before engineering work begins
    - Builds a hypothesis quality score trend to assess team experimentation capability over time
 
-6. **Throughput Forecasting and Capacity Planning**: COCO connects experiment output to roadmap velocity:
+6. **Throughput Forecasting and Capacity Planning**: OpenMax connects experiment output to roadmap velocity:
    - Forecasts how many experiments will complete in the next [quarter] based on current pipeline and cycle times
    - Models the throughput impact of addressing specific bottlenecks (e.g., "fixing the engineering lag would increase quarterly output by 6 experiments")
    - Generates staffing and tooling recommendations to hit target throughput levels
@@ -2694,7 +2694,7 @@ Please generate:
 
 > Identify exactly where new users drop before experiencing your product's core value — and generate the intervention playbook.
 
-::: details Pain Point & How COCO Solves It
+::: details Pain Point & How OpenMax Solves It
 
 **The Pain: Activation Is the Leakiest Part of Your Growth Funnel and the Hardest to Debug Without Deep Analysis**
 
@@ -2704,44 +2704,44 @@ Yet activation analytics is notoriously difficult. Unlike acquisition (measured 
 
 Most product teams have activation dashboards that tell them the aggregate activation rate and a funnel showing drop-off at each step. What they don't have is an understanding of which specific user cohorts are failing to activate, at which point in the journey they're dropping, what behavior differentiates activated users from non-activated users in the hours before the activation event, and which product interventions (onboarding changes, in-app guidance, email sequences, support triggers) would have the highest marginal impact on activation rate for each drop-off segment.
 
-**How COCO Solves It**
+**How OpenMax Solves It**
 
-1. **Activation Event Definition and Validation**: COCO ensures you're measuring the right thing:
+1. **Activation Event Definition and Validation**: OpenMax ensures you're measuring the right thing:
    - Analyzes behavioral data to identify which early actions are most predictive of long-term retention
    - Tests candidate activation events against 30-day and 90-day retention outcomes to find the strongest signal
    - Identifies "false activation" traps — events that look like activation but don't predict retention
    - Proposes a refined activation event definition with statistical support
    - Validates that the activation metric is measurable and consistently tracked across platforms
 
-2. **Funnel Segmentation Analysis**: COCO shows which users are failing and where:
+2. **Funnel Segmentation Analysis**: OpenMax shows which users are failing and where:
    - Segments activation funnel performance by acquisition channel, signup cohort, plan type, and ICP attributes
    - Identifies segments with activation rates significantly above or below the overall rate
    - Pinpoints the specific funnel step where each under-performing segment has its highest drop-off
    - Calculates the revenue impact of closing the gap between segment activation rates and the top-performing segment
    - Prioritizes segments by revenue opportunity and intervention feasibility
 
-3. **Behavioral Path Analysis**: COCO finds what activated users do differently:
+3. **Behavioral Path Analysis**: OpenMax finds what activated users do differently:
    - Compares the behavioral paths of activated vs. non-activated users in the first [24/48/72] hours
    - Identifies actions that activated users take significantly more often — potential leading indicators
    - Finds actions that activated users skip that non-activated users get stuck on (friction points)
    - Calculates time-to-activation for users who do activate — identifying optimal intervention windows
    - Discovers "activation shortcuts" — paths that lead to activation faster than the intended onboarding flow
 
-4. **Drop-Off Root Cause Classification**: COCO categorizes why users drop:
+4. **Drop-Off Root Cause Classification**: OpenMax categorizes why users drop:
    - Classifies drop-off reasons into: product friction, value discovery failure, use case mismatch, external distraction
    - Identifies drop-offs that correlate with specific UI events (error messages, empty states, confusing UI patterns)
    - Flags time-of-day and session duration patterns that suggest external distraction vs. product problems
    - Correlates drop-off points with support contact topics to identify confusion-driven abandonment
    - Distinguishes recoverable drop-offs (users who can be re-engaged) from final exits
 
-5. **Intervention Recommendation Engine**: COCO generates the activation improvement playbook:
+5. **Intervention Recommendation Engine**: OpenMax generates the activation improvement playbook:
    - Recommends specific product changes, onboarding modifications, and in-app guidance additions for each drop-off point
    - Prioritizes interventions by estimated activation rate impact and implementation effort
    - Generates email and in-app message sequences for users who have dropped at each stage
    - Designs re-engagement triggers: when to send, what to say, and what action to prompt
    - Creates a testing roadmap for activation interventions, sequenced by expected impact and confidence
 
-6. **Ongoing Activation Health Monitoring**: COCO maintains continuous visibility:
+6. **Ongoing Activation Health Monitoring**: OpenMax maintains continuous visibility:
    - Tracks activation rate by cohort, channel, and segment on a rolling basis
    - Alerts when activation rate drops significantly for a specific acquisition channel or signup cohort
    - Measures the impact of onboarding changes on activation rate with statistical significance testing

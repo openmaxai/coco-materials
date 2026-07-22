@@ -1,6 +1,6 @@
 # Lark / Feishu — Usage Tips
 
-Get the most out of your COCO AI employee on Lark (international) and Feishu (China).
+Get the most out of your OpenMax AI employee on Lark (international) and Feishu (China).
 
 ## Basic Usage
 
@@ -30,13 +30,13 @@ Once added, @mention the bot inside the document to get AI assistance with the c
 - **Mention mode** (recommended for most groups): Bot only responds when @mentioned
 - **Smart mode**: Bot monitors all messages and proactively chimes in when relevant
 
-Configure this in COCO Dashboard → Channel Settings → Lark.
+Configure this in OpenMax Dashboard → Channel Settings → Lark.
 
 ### Setting Standing Instructions
 You can give your bot persistent instructions that apply to all responses in a group. Example:
 > "You are an assistant for our marketing team. Always respond in Chinese. Keep answers under 200 words."
 
-Set this in COCO Dashboard → Bot Settings → System Prompt.
+Set this in OpenMax Dashboard → Bot Settings → System Prompt.
 
 ### Thread Replies
 The bot responds in threads to keep group chats organized. If you want a direct reply, the bot will still create a thread from your message.
@@ -54,7 +54,7 @@ When added to a Lark document, your AI employee can:
 
 ## Feishu (飞书) Notes
 
-Feishu and Lark share the same platform — the same COCO bot configuration works for both. If your organization uses Feishu internally and Lark externally, the bot handles both from a single connection.
+Feishu and Lark share the same platform — the same OpenMax bot configuration works for both. If your organization uses Feishu internally and Lark externally, the bot handles both from a single connection.
 
 ## Pro Tips
 
@@ -74,8 +74,8 @@ Feishu and Lark share the same platform — the same COCO bot configuration work
 
 **Bot not responding in group?**
 - Confirm the bot was added to the group (not just the organization)
-- Check that group mention mode is enabled in COCO Dashboard
+- Check that group mention mode is enabled in OpenMax Dashboard
 
 **Messages showing as "failed to send"?**
-- Check if the COCO service is online at [icoco.ai/dashboard](https://icoco.ai/dashboard)
+- Check if the OpenMax service is online at [icoco.ai/dashboard](https://icoco.ai/dashboard)
 - Verify your subscription is active

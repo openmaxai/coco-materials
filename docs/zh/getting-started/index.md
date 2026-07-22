@@ -4,9 +4,9 @@ import { withBase } from 'vitepress'
 
 # 快速开始
 
-欢迎来到COCO！你的专属AI员工已经部署完成。3步快速上手。
+欢迎来到OpenMax！你的专属AI员工已经部署完成。3步快速上手。
 
-<img :src="withBase('/faq-banner.png')" alt="COCO" style="width:100%;border-radius:12px;margin:16px 0;" />
+<img :src="withBase('/faq-banner.png')" alt="OpenMax" style="width:100%;border-radius:12px;margin:16px 0;" />
 
 ## 指南
 
@@ -17,7 +17,7 @@ import { withBase } from 'vitepress'
 几分钟内将AI员工连接到Telegram、飞书、Microsoft Teams等渠道。每个平台的详细部署步骤。
 
 ### [首次使用教程](./first-time-tutorial)
-第一次使用COCO？从这里开始。学习如何选择AI员工角色、下达任务、查看结果。无需任何技术背景。
+第一次使用OpenMax？从这里开始。学习如何选择AI员工角色、下达任务、查看结果。无需任何技术背景。
 
 ### [注意事项](./tips)
 群聊/私聊白名单、长期记忆与SOP存储、消息限制、文件处理等使用须知。
