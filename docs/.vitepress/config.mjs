@@ -286,7 +286,6 @@ export default defineConfig({
                 { text: 'Overview', link: '/getting-started/' },
                 { text: 'Registration & Payment', link: '/getting-started/registration-payment' },
                 { text: 'Channel Deployment', link: '/getting-started/channel-deployment' },
-                { text: 'Connect to Workspace', link: '/getting-started/connect-to-workspace' },
                 { text: 'First-Time Tutorial', link: '/getting-started/first-time-tutorial' },
                 { text: 'Important Notes', link: '/getting-started/tips' },
                 { text: 'FAQ', link: '/getting-started/faq' },
